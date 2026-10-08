@@ -1,0 +1,11 @@
+{
+  "name": "bible-plan",
+  "private": true,
+  "scripts": {
+    "start": "python -m http.server 5173 --directory public",
+    "insights": "node scripts/insights.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0"
+  }
+}

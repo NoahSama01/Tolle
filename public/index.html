@@ -1,0 +1,862 @@
+<!doctype html>
+<html lang="en" class="app">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#df6a2e">
+<meta name="description" content="Read the whole Bible by a date you choose.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<title>Tolle</title>
+<link rel="preload" href="fonts/archivo-400-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/eb-garamond.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="tokens.css">
+<script>/* night mode: Off, On, or follow the phone */const theme=()=>{let t;try{t=localStorage.getItem('tolle-theme')}catch{}document.documentElement.dataset.theme=t==='dark'||t!=='light'&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'};theme()</script>
+<style>
+/* type roles: reading serif (--read), mono data at .6875 / .75 / .8125rem, caps labels at .75rem, section heads at .85rem */
+:root{--read:1.1875rem;--read-lh:1.6;--lh-night:0}
+html{background:var(--board);scrollbar-color:var(--ink) var(--board)}
+/* the board: the current division's hue at full strength, with the fibre of a pressed divider card */
+body{margin:0;overflow-x:clip;color:var(--ink);font:400 1rem/1.5 var(--sans);font-stretch:100%;-webkit-tap-highlight-color:transparent;background:var(--board) url(board-grain.png)}
+h1:focus,main:focus{outline:none}
+button{font:inherit;color:inherit}
+.skip{position:fixed;top:-4rem;left:.75rem;z-index:20;padding:.7rem 1rem;border-radius:2px;background:var(--bar);color:var(--bar-ink);font:700 .85rem var(--head);letter-spacing:.08em;text-transform:uppercase;text-decoration:none}
+.skip:focus{top:.75rem}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.mono{font:500 .8125rem/1.4 var(--mono);letter-spacing:.02em;font-variant-numeric:tabular-nums}
+
+main{max-width:30rem;margin:0 auto;padding:1rem calc(var(--rail) + 1rem) calc(var(--tab) + 2rem + env(safe-area-inset-bottom)) 1rem}
+body[data-view=setup] main{padding-right:1rem}
+h2{margin:0 0 .75rem;font:700 .85rem/1.2 var(--head);font-stretch:100%;letter-spacing:.12em;text-transform:uppercase}
+
+.leaf{margin:0 0 1rem;padding:1.15rem 1.15rem 1.3rem 2.4rem}
+.leaf.clear{container-type:inline-size} /* the station head fits itself to this width */
+@keyframes punch{from{transform:scale(0)}} /* a hole punched through: two frames */
+@property --f{syntax:'<number>';inherits:false;initial-value:0} /* read fraction, registered so a band can step forward */
+
+/* navigation: bottom tabs on phones, a rail on the left on wide screens */
+.tabs{position:fixed;inset:auto 0 0;z-index:6;display:flex;background:var(--bar);padding-bottom:env(safe-area-inset-bottom)}
+.tabs button{flex:1;min-height:var(--tab);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.3rem;background:none;border:0;color:var(--bar-dim);font:700 .75rem var(--head);letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
+@media(hover:hover){.tabs button:hover{color:var(--bar-ink)}}
+.tabs button[aria-current=page]{color:var(--bar-ink)}
+.tabs :focus-visible{outline-color:var(--bar-ink);outline-offset:-5px}
+.tabs button[aria-current=page]::after{content:'';width:.6rem;height:.6rem;border-radius:50%;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.5);animation:punch var(--hinge) both} /* selected is a punched hole */
+body[data-view=reader] .tabs,body[data-view=setup] .tabs{display:none}
+
+/* the fore-edge thumb index (shared in tokens.css); here each book is a band that fills as it's read */
+.rail{bottom:var(--tab)}
+body[data-view=reader] .rail{bottom:0}
+body[data-view=setup] .rail{display:none}
+.rail a{display:flex;flex-direction:column;text-decoration:none;overflow:hidden}
+.rail .bk{flex:var(--n) 1 0;min-height:0;border-bottom:1px solid rgba(251,251,246,.35);background:linear-gradient(90deg,rgba(21,21,21,.5) calc(var(--f) * 100%),transparent 0)}
+.rail .bk.next{background:linear-gradient(90deg,rgba(21,21,21,.5) calc(var(--f) * 100%),transparent 0),linear-gradient(var(--milk),var(--milk)) right/5px 100% no-repeat}
+
+/* top bar */
+.top{display:flex;justify-content:space-between;align-items:center;gap:1rem;min-height:2.75rem;margin-bottom:1rem;color:var(--on-board)}
+@media(hover:hover){.mark:hover{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px}}
+.status{margin:0;padding:.35rem .6rem;border:1.5px solid currentColor;border-radius:2px;font:500 .75rem var(--mono);letter-spacing:.04em;text-transform:uppercase;white-space:nowrap}
+.status.late{border-color:var(--errata);background:var(--errata);color:var(--errata-ink)} /* an errata slip */
+
+/* the next chapter, set like a section head on the top ply */
+.station{margin:0 0 .6rem;font:800 min(2.6rem,calc(100cqi / (var(--w,7) * .6)))/.95 var(--head);font-stretch:72%;letter-spacing:-.005em;text-transform:uppercase;text-wrap:balance}
+.meta{margin:0;color:var(--ink-2)}
+.lede{margin:.9rem 0 1.15rem}
+
+.go{display:flex;align-items:center;justify-content:space-between;gap:.75rem;width:100%;min-height:3.25rem;padding:0 1.1rem;border:0;border-radius:2px;background:var(--ink);color:var(--milk);font:700 .95rem var(--head);font-stretch:82%;letter-spacing:.06em;text-transform:uppercase;text-align:left;cursor:pointer}
+@media(hover:hover){.go:hover{background:var(--ink-down)}}
+.go:active{translate:1px 1px}
+.go.ghost{background:none;border:1.5px solid var(--ink);color:var(--ink)}
+@media(hover:hover){.go.ghost:hover{background:color-mix(in srgb,var(--ink) 7%,transparent)}}
+
+/* today's chapters: a manual's table, read rows punched */
+.stops,.route,.route ol{list-style:none;margin:0;padding:0}
+.stops li{display:flex;align-items:center;gap:.75rem;min-height:2.75rem;border-top:1px solid var(--rule)}
+.stops li:first-child{border-top:0}
+
+/* reading log: a table of days, each filled with the hue of the division it reached */
+.log{display:grid;grid-template-columns:auto minmax(0,21rem);justify-content:start;gap:.3rem .5rem}
+.wd{display:grid;grid-template-rows:repeat(7,1fr);gap:3px;color:var(--ink-2);font:500 .6875rem/1 var(--mono);align-items:center}
+.axis{grid-column:2;display:flex;justify-content:space-between;color:var(--ink-2);font:500 .6875rem var(--mono);text-transform:uppercase}
+.cal{display:grid;grid-template-rows:repeat(7,1fr);grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);gap:3px}
+.cal i{aspect-ratio:1;border-radius:1px;background:color-mix(in srgb,var(--ink) 8%,transparent)}
+.cal i.on{background:var(--c);box-shadow:inset 0 0 0 1px rgba(21,21,21,.25)}
+.facts{display:flex;flex-wrap:wrap;gap:.25rem .9rem;margin:.9rem 0 0;color:var(--ink-2);font:500 .75rem var(--mono);text-transform:uppercase}
+.facts span{white-space:nowrap}
+@media(max-width:600px){main .facts{flex-direction:column}}
+
+/* index: every chapter, then each division as a coloured divider with its books */
+.every{display:flex;flex-wrap:wrap;gap:2px;margin:0 0 .75rem}
+.every i{width:3px;height:10px;background:color-mix(in srgb,var(--ink) 10%,transparent)}
+.every i.r{background:var(--c);box-shadow:inset 0 -2px 0 rgba(21,21,21,.25)}
+.jump{display:flex;flex-wrap:wrap;gap:.4rem;margin:1rem 0 0}
+.jchip{display:inline-flex;align-items:center;gap:.45rem;min-height:2.75rem;padding:0 .8rem;border:1.5px solid var(--ink);border-radius:2px;background:var(--leaf);font:700 .75rem var(--head);font-stretch:82%;letter-spacing:.06em;text-transform:uppercase;text-align:left;cursor:pointer}
+.jchip b{width:.8rem;height:.8rem;border-radius:2px;background:var(--c)}
+@media(hover:hover){.jchip:hover{background:var(--milk)}}
+.divider{margin:1.5rem 0 0;padding:.8rem 1rem;border-radius:3px 3px 0 0;background:var(--c);color:var(--o);font:800 1.25rem var(--head);font-stretch:85%;letter-spacing:.04em;text-transform:uppercase;scroll-margin-top:1rem}
+.divider+.leaf{border-radius:0 0 3px 3px}
+.stn-row>button{display:flex;align-items:center;gap:.75rem;width:100%;min-height:2.75rem;padding:0;border:0;border-top:1px solid var(--rule);background:none;text-align:left;cursor:pointer}
+.stn-row:first-child>button{border-top:0}
+@media(hover:hover){.stn-row>button:hover .name{text-decoration:underline;text-underline-offset:3px}}
+.bar{flex:none;width:3.5rem;height:.55rem;border:1px solid var(--ink);background:linear-gradient(90deg,var(--c) calc(var(--f) * 100%),transparent 0)}
+.stn-row.cur .name{font-weight:700}
+.name small{display:block;color:var(--ink-2);font:500 .6875rem var(--mono);text-transform:uppercase}
+.count{margin-left:auto;white-space:nowrap;color:var(--ink-2);font:500 .8125rem var(--mono);font-variant-numeric:tabular-nums}
+.route>li{content-visibility:auto;contain-intrinsic-size:auto 32rem} /* divisions below the screen skip layout until scrolled to */
+.book-panel{padding:.25rem 0 .9rem}
+/* every chapter of a book as a key you can press: read ones filled in the division's hue, the plan's next one in ink */
+.chgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(2.75rem,1fr));gap:4px;padding:0 0 .8rem}
+.chn{min-height:2.75rem;border:1.5px solid var(--ink);border-radius:2px;background:var(--milk);font:500 .8125rem var(--mono);font-variant-numeric:tabular-nums;cursor:pointer}
+.chn.r{border-color:transparent;background:var(--c);color:var(--o)}
+.chn.nx{border-color:var(--ink);background:var(--ink);color:var(--milk)}
+@media(hover:hover){.chn:hover{outline:1.5px solid var(--ink);outline-offset:1px}}
+/* go straight to a passage */
+.goto{display:flex;gap:.5rem;margin:1rem 0 0}
+.goto input{flex:1;min-width:0}
+.goto .go{width:auto;min-height:3rem}
+/* a verse for today: chosen from a hand-picked list of hope, not at random */
+.dvt{margin:.15rem 0 0;max-width:30em;font:400 1.3125rem/1.5 var(--serif);text-wrap:pretty}
+.dvt[aria-busy=true]{color:var(--ink-2)}
+.mark-row{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem;margin:0}
+.go.slim{width:auto;min-height:2.75rem;font-size:.85rem}
+.link-btn{min-height:2.75rem;padding:0;border:0;background:none;color:var(--ink-2);font:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+
+/* forms and setup */
+label{display:block;margin:1.25rem 0 .4rem;font:700 .75rem var(--head);letter-spacing:.12em;text-transform:uppercase}
+select,input{width:100%;min-height:3rem;padding:0 .8rem;border:1.5px solid var(--ink);border-radius:2px;background:var(--milk);color:var(--ink);font:inherit;caret-color:var(--ink)}
+select:focus,input:focus{outline:2.5px solid var(--ink);outline-offset:1px}
+.hint{margin:.4rem 0 0;color:var(--ink-2);font-size:.9375rem}
+.err{color:var(--errata);font-weight:700}
+.picker{margin:0;padding:0;border:0}
+.picker legend{padding:0;margin-bottom:.35rem}
+.setting{margin-top:1.25rem} /* a legend ignores its own top margin; the fieldset carries the gap */
+.lab{margin:0 0 .4rem;font:700 .75rem var(--head);letter-spacing:.12em;text-transform:uppercase}
+.inline{display:inline;width:auto;min-height:2.75rem;margin:0 0 0 .25rem;padding:0 .5rem;font:inherit;letter-spacing:0;text-transform:none}
+label.inline{margin:0;padding:0;font-weight:400}
+.bedset{margin:1rem 0 0}
+.bedname{display:flex;align-items:center;gap:.5rem;margin:0 0 .45rem;font:800 .75rem var(--head);letter-spacing:.12em;text-transform:uppercase}
+.bedname b{width:.85rem;height:.85rem;border-radius:2px;background:var(--c)}
+.bk-pick{margin:0 .35rem .4rem 0;letter-spacing:0;text-transform:none}
+@media(hover:hover){.bk-pick:hover{background:color-mix(in srgb,var(--ink) 6%,var(--milk))}}
+.bk-pick:active{translate:1px 1px}
+.preview{margin:0;font-size:1.0625rem}
+.preview b{font:800 2rem/1 var(--head);font-stretch:72%;vertical-align:-.1em}
+.actions{display:grid;gap:.75rem;margin-top:1rem}
+.title{margin:0 0 1rem;color:var(--on-board);font:800 2.2rem/.95 var(--head);font-stretch:72%;text-transform:uppercase}
+.danger-zone{margin-top:3rem} /* erase stands apart on its own errata slip, isolated by empty space */
+.danger{min-height:2.75rem;padding:0 .9rem;border:0;border-radius:2px;background:var(--milk);color:var(--errata);font-weight:700;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.about{color:var(--ink-2);font-size:.9375rem;max-width:42ch;margin:0}
+
+/* reader: a section opener, the chapter's own thumb index laid flat, notes tabbed into the fore edge */
+body[data-view=reader] main{padding-top:0}
+.rbar{position:sticky;top:0;z-index:4;margin:0 -.5rem .75rem;padding:.5rem .5rem .65rem;background:var(--board) url(board-grain.png);color:var(--on-board)}
+.rrow{display:flex;align-items:center;justify-content:space-between;gap:.5rem}
+.rtools{display:flex;gap:.25rem}
+.icon-btn{display:grid;place-items:center;width:2.75rem;height:2.75rem;border:0;border-radius:2px;background:none;color:inherit;cursor:pointer}
+@media(hover:hover){.icon-btn:hover{background:color-mix(in srgb,var(--on-board) 12%,transparent)}}
+.icon-btn[aria-pressed=true]{background:var(--ink);color:var(--milk)}
+.pos{font:500 .75rem var(--mono);text-transform:uppercase}
+.vstrip{display:flex;align-items:flex-end;gap:1px;height:1.7rem;margin:-.15rem .5rem -.45rem;padding:.45rem 0;cursor:pointer} /* tap a verse's bar to jump to it */
+.vstrip i{flex:1 1 0;min-width:0;height:.45rem;background:color-mix(in srgb,var(--on-board) 22%,transparent)}
+.vstrip i.on{background:var(--on-board)}
+.vstrip i.t{height:.8rem} /* a verse with a tabbed note stands taller */
+.opener .station{margin:0 0 .35rem}
+.sec{display:flex;align-items:flex-end;gap:.9rem}
+.num{flex:none;font:800 5.5rem/.76 var(--head);font-stretch:72%;letter-spacing:-.02em}
+.sec .meta{line-height:1.5}
+.sum{margin:1rem 0 0;color:var(--ink-2);text-wrap:pretty}
+.scripture{--lane-l:2.4rem;--lane-r:2.6rem;--poke:.65rem;--tab-w:2.25rem;padding-left:var(--lane-l);padding-right:var(--lane-r);background:var(--plate);color:var(--plate-ink);font:400 var(--read) var(--serif);line-height:calc(var(--read-lh) + var(--lh-night))}
+.para{max-width:30em;text-wrap:pretty}
+.para+.para{margin-top:.8em}
+.scripture sup{position:relative;top:-.5em;margin-right:.18em;vertical-align:baseline;color:var(--plate-dim);font:500 .58em/0 var(--mono)} /* raised without stretching the line */
+.vs{transition:background var(--hinge)}
+.vs.now,.vs.open{background:color-mix(in srgb,var(--hue) 30%,transparent);box-decoration-break:clone;-webkit-box-decoration-break:clone}
+/* a note's tab sticks out of the page's fore edge at the line where its verse starts */
+.tab{position:relative;float:right;clear:right;display:grid;place-items:center;width:var(--tab-w);height:2rem;margin:.1em calc(-1 * (var(--lane-r) + var(--poke))) .3rem .5rem;padding:0 0 0 .15rem;border:0;border-radius:0 4px 4px 0;background:var(--plate-ink);color:var(--plate);cursor:pointer}
+.tab .ic{width:1rem;height:1rem}
+@media(hover:hover){.tab:hover{translate:2px 0}}
+.tab[aria-expanded=true] .ic{display:none}
+.tab[aria-expanded=true]::before{content:'';width:.6rem;height:.6rem;border-radius:50%;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.5)} /* pulled: punched */
+.pull{margin:.7rem 0 .9rem;padding:.85rem .95rem 1rem;border-radius:2px;background:var(--milk);color:var(--ink);box-shadow:3px 3px 0 rgba(21,21,21,.24);font:400 1rem/1.5 var(--sans);transform-origin:50% 0}
+.pull p{margin:.35rem 0 0;text-wrap:pretty}
+.pull .refs{flex-direction:column;align-items:flex-start;gap:.4rem}
+.pull .nhead{display:flex;flex-direction:column;align-items:flex-start;gap:.5rem}
+.pull .kind{order:-1;margin-top:-.85rem;border-radius:0 0 2px 2px} /* the note's kind hangs from the card's top edge like a tab */
+.skel i{display:block;height:.9rem;margin:.7rem 0;border-radius:1px;background:color-mix(in srgb,var(--plate-ink) 12%,transparent);animation:wait 1s steps(2,jump-none) infinite}
+.skel i:nth-child(3n){width:68%}
+@keyframes wait{50%{opacity:.45}}
+.scripture .link{padding:0;border:0;background:none;color:inherit;font-weight:500;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.credit{margin:-.5rem 0 1.25rem;color:var(--on-board);font:500 .6875rem var(--mono);text-transform:uppercase}
+/* fill the gap: recall from the chapter just read */
+.gap{margin:0;font:400 var(--read) var(--serif);line-height:calc(var(--read-lh) + var(--lh-night));text-wrap:pretty}
+.blank{display:inline-block;min-width:5.5em;height:1.1em;border-bottom:2px solid var(--ink);vertical-align:-.15em}
+.blank.filled{min-width:0;height:auto;padding:0 .15em;border-bottom-color:transparent;background:color-mix(in srgb,var(--hue) 35%,transparent);font-weight:500;vertical-align:baseline}
+.opts{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0 0}
+.opt{display:inline-flex;align-items:center;gap:.5rem;min-height:2.75rem;padding:0 1rem;border:1.5px solid var(--ink);border-radius:2px;background:var(--milk);font:500 1rem var(--sans);cursor:pointer}
+@media(hover:hover){.opt:hover:enabled{background:color-mix(in srgb,var(--ink) 6%,var(--milk))}}
+.opt:active:enabled{translate:1px 1px}
+.opt:disabled{cursor:default;color:var(--ink-2);border-color:var(--ink-2)}
+.opt.right{border-color:var(--ink);background:var(--ink);color:var(--milk)}
+.opt.right::before{content:'';width:.6rem;height:.6rem;border-radius:50%;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.5);animation:punch var(--hinge) both}
+.opt.wrong{border-color:var(--errata);background:var(--errata);color:var(--errata-ink);animation:jolt var(--hinge) both} /* an errata slip, struck slightly out of register */
+@keyframes jolt{from{translate:-5px 0}}
+.blank.filled{animation:inkin var(--hinge) both}
+@keyframes inkin{from{clip-path:inset(0 100% 0 0)}} /* the answer prints in, left half then right */
+.said{margin:.75rem 0 0;min-height:1.4em}
+.go.punched .ic{display:none}
+.go.punched::after{content:'';width:.75rem;height:.75rem;margin-right:.25rem;border-radius:50%;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(0,0,0,.6);animation:punch var(--hinge) both} /* Done is punched before the page turns */
+.said:focus{outline:none}
+/* before the text: what to look for, and the book's introduction when you start a book */
+.look{margin:.9rem 0 0;text-wrap:pretty}
+.look .kind,.skim .kind{margin-right:.4rem;vertical-align:.12em}
+.intro summary{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:2.75rem;margin:-.4rem 0;font:700 .85rem var(--head);letter-spacing:.12em;text-transform:uppercase;list-style:none;cursor:pointer}
+.intro summary::-webkit-details-marker{display:none}
+.intro summary::after{content:'';flex:none;width:.55rem;height:.55rem;border-right:2px solid;border-bottom:2px solid;rotate:45deg;translate:0 -.15rem}
+.intro details[open] summary::after{rotate:-135deg;translate:0 .15rem}
+.intro dt{margin:1rem 0 .2rem;font:700 .75rem var(--head);letter-spacing:.12em;text-transform:uppercase}
+.intro dd{margin:0;max-width:34em;text-wrap:pretty}
+.intro h3{margin:1.25rem 0 .25rem;font:700 .75rem var(--head);letter-spacing:.12em;text-transform:uppercase}
+.intro .refs{margin:.75rem 0 0}
+/* while reading: a skim guide for list-heavy chapters, key verses marked, names you can tap */
+.skim{margin:0 0 1.1rem;padding:0 0 .9rem;border-bottom:1px solid color-mix(in srgb,var(--plate-ink) 18%,transparent);font:400 1rem/1.5 var(--sans);max-width:34em}
+.kv,.scripture .vs.key>sup{padding:.05em .3em;border-radius:1px;background:var(--plate-ink);color:var(--plate)}
+.kv{font:500 .8em var(--mono)}
+.who{padding:0;border:0;background:none;color:inherit;font:inherit;text-decoration:underline dotted 1.5px;text-decoration-color:var(--plate-dim);text-underline-offset:.2em;cursor:pointer}
+@media(hover:hover){.who:hover{text-decoration-style:solid}}
+/* a name's card rises from the bottom edge, where a thumb can reach it */
+.gloss{inset:auto 0 0;width:auto;max-width:34rem;margin:0 auto;padding:1.15rem 1.15rem calc(1.2rem + env(safe-area-inset-bottom)) 2.4rem;border:0;border-radius:3px 3px 0 0;background:var(--milk);color:var(--ink);box-shadow:0 -3px 0 rgba(21,21,21,.24);font:400 1rem/1.5 var(--sans)}
+.gloss::before{content:'';position:absolute;left:.75rem;top:1.05rem;width:.75rem;height:.75rem;border-radius:50%;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.35)}
+.gloss::backdrop{background:rgba(21,21,21,.35)}
+.gloss:popover-open{animation:sheet var(--hinge) both}
+@keyframes sheet{from{translate:0 100%}}
+.gloss p{margin:0;max-width:34em}
+.gloss .gk{color:var(--ink-2);font:500 .75rem var(--mono);letter-spacing:.04em;text-transform:uppercase}
+.gloss .gname{margin:.2rem 0 .4rem;font:800 1.6rem/1 var(--head);font-stretch:72%;text-transform:uppercase}
+.gloss .go{margin-top:1rem}
+/* chapter switcher: the section numeral opens every chapter of the book, plus the chapters either side */
+button.num{padding:0;border:0;background:none;color:inherit;cursor:pointer}
+@media(hover:hover){button.num:hover{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:6px}}
+.chpick{padding:0;border:0;background:none;color:inherit;font:inherit;text-decoration:underline dotted;text-underline-offset:3px;cursor:pointer}
+.sheet{max-height:85dvh;overflow:auto;overscroll-behavior:contain}
+.sheet .gname{margin-bottom:.8rem}
+.shead{position:sticky;top:-1.15rem;z-index:1;margin:-1.15rem -1.15rem .2rem -2.4rem;padding:1.15rem 1.15rem .1rem 2.4rem;background:var(--milk);border-bottom:1px solid var(--rule)} /* book, and the chapters either side, stay in reach in a long book */
+.sheet::before{z-index:2}
+.chnav{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem;margin:.9rem 0}
+.chnav .go{margin:0}
+.sheet .chgrid{padding:0}
+.chn.here{outline:2.5px solid var(--ink);outline-offset:2px} /* the chapter open now */
+/* Why & How: ruled entries; the note's kind is a tab on its title row */
+.notes{list-style:none;margin:0;padding:0}
+.notes li{padding:.85rem 0 1rem;border-top:1px solid var(--rule)}
+.notes li:first-child{border-top:0;padding-top:0}
+.notes p{margin:.35rem 0 0;line-height:1.5;max-width:31em}
+.refs{display:flex;align-items:baseline;gap:.6rem}
+.refs>i{display:flex;flex-wrap:wrap;gap:.4rem;font-style:normal}
+.refs>span{flex:none;color:var(--ink-2);font:500 .6875rem var(--mono);text-transform:uppercase}
+.ref:active,.jchip:active,.icon-btn:active,.tabs button:active,.stn-row>button:active,.chn:active{translate:1px 1px}
+.empty{margin:0;padding:.9rem 1rem;border:1.5px dashed var(--ink-2);border-radius:2px;color:var(--ink-2)}
+.actbar{position:fixed;inset:auto calc(var(--rail) + 2px) 0 0;z-index:6;display:flex;justify-content:center;gap:.5rem;padding:.75rem 1rem calc(.75rem + env(safe-area-inset-bottom));background:var(--board)}
+.actbar .go{flex:1;min-width:0;max-width:30rem}
+.actbar:has(.keep:not([hidden])) .nx{display:none} /* with Keep showing, Done keeps to one line */
+/* keeping a verse: tap it, then Keep; a hole is punched beside it in the binding column */
+.vs.sel{background:color-mix(in srgb,var(--hue) 30%,transparent);box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.vs.kept::before{content:'';float:left;width:.75rem;height:.75rem;margin:.45em 0 0 calc(.75rem - var(--lane-l));border-radius:50%;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.35);animation:punch var(--hinge) both}
+.keep{flex:none;display:inline-flex;align-items:center;gap:.5rem;min-height:3.25rem;padding:0 1rem;border:1.5px solid var(--ink);border-radius:2px;background:var(--milk);color:var(--ink);font:500 .8125rem var(--mono);text-transform:uppercase;cursor:pointer}
+.keep::before{content:'';width:.7rem;height:.7rem;border:1.5px solid var(--ink);border-radius:50%}
+.keep[aria-pressed=true]::before{border:0;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.5);animation:punch var(--hinge) both}
+.keep:active{translate:1px 1px}
+/* the kept verses: each a leaf, its reference a tab in its division's hue */
+.kept-list{list-style:none;margin:0;padding:0}
+.kept-list .leaf{padding-top:1.6rem}
+.ktab{position:absolute;top:0;left:2.4rem;padding:.2rem .5rem;border-radius:0 0 2px 2px;background:var(--c);color:var(--o);font:500 .75rem var(--mono);text-transform:uppercase}
+.ktext{margin:.4rem 0 0;max-width:30em;font:400 var(--read) var(--serif);line-height:calc(var(--read-lh) + var(--lh-night));text-wrap:pretty}
+.kmeta{display:flex;flex-wrap:wrap;align-items:center;gap:.25rem 1.25rem;margin:.6rem 0 0;color:var(--ink-2);font:500 .75rem var(--mono);text-transform:uppercase}
+.kmeta>span{flex-basis:100%} /* the date on its own line, the actions in a row below */
+.kmeta .link-btn{font:500 .75rem var(--mono);text-transform:uppercase;color:var(--ink)}
+.gone{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin:0 0 1rem;padding:.5rem .5rem .5rem 1rem;border-radius:2px;background:var(--ink);color:var(--milk)}
+.gone .link-btn{color:var(--milk)}
+body[data-view=reader] main{padding-bottom:6.5rem}
+
+/* phones: give the text the width. Lanes and gutters narrow, the reading size steps down a touch, so a line holds about 42 characters at 390px instead of 36 */
+@media(max-width:599px){
+  :root{--read:1.125rem;--read-lh:1.55}
+  main{padding-left:.75rem;padding-right:calc(var(--rail) + .5rem)}
+  .scripture{--lane-l:1.9rem;--lane-r:2.2rem;--poke:.4rem;--tab-w:2rem}
+}
+@media(max-width:360px){.nx{display:none}.go{font-size:.85rem}.num{font-size:4.5rem}} /* the smallest phones: Done drops its 'next', buttons hold one line */
+/* tablets: a wider column instead of a phone strip in the middle of the board */
+@media(min-width:600px){main{max-width:40rem}}
+/* landscape phones: the chapter gets the height. The reader's bar scrolls away; the action and tab bars slim down */
+@media(max-height:520px) and (orientation:landscape){
+  :root{--tab:3rem}
+  body[data-view=reader] .rbar{position:static}
+  .actbar{padding-block:.35rem calc(.35rem + env(safe-area-inset-bottom))}
+  .actbar .go,.keep{min-height:2.75rem}
+  body[data-view=reader] main{padding-bottom:4.5rem}
+}
+@media(min-width:960px){
+  :root{--rail:4.5rem}
+  .tabs{inset:0 auto 0 0;width:6.5rem;flex-direction:column;justify-content:flex-start;padding:5rem 0 0}
+  .tabs button{flex:none;min-height:4.75rem}
+  .rail{bottom:0}
+  main{max-width:76rem;padding:2rem calc(var(--rail) + 2.5rem) 3rem 9.5rem}
+  body[data-view=reader] main,body[data-view=setup] main,body[data-view=settings] main,body[data-view=kept] main{max-width:56rem}
+  body[data-view=reader] main,body[data-view=setup] main{padding-left:2.5rem}
+  body[data-view=reader] main{max-width:46rem} /* about 72 characters a line */
+  .split>div{max-width:36rem}
+  .station{font-size:min(3.3rem,calc(100cqi / (var(--w,7) * .6)))}
+  .num{font-size:6rem}
+  /* heads hang in the fifth margin column */
+  body[data-view=today] .split>div>.leaf>h2{position:absolute;left:-11rem;width:9.5rem;top:1.2rem;color:var(--on-board);text-align:right}
+  .split{margin-left:11rem}
+  body[data-view=today] .jump{display:grid}
+  body[data-view=today] .top{margin-left:11rem}
+}
+/* the Index column beside Today needs real room; below 1200px Today is one column */
+@media(min-width:1200px){
+  .split{display:grid;grid-template-columns:minmax(0,28rem) minmax(0,1fr);gap:3rem;align-items:start}
+  .split>div{max-width:none}
+  .col-route{position:sticky;top:2rem;max-height:calc(100dvh - 4rem);overflow:auto;padding:0 .5rem 0 0}
+}
+@media(prefers-reduced-motion:reduce){
+  .skel i,.gloss:popover-open,.vs.kept::before,.keep[aria-pressed=true]::before,.tabs button[aria-current=page]::after,.opt.right::before,.opt.wrong,.blank.filled,.go.punched::after{animation:none}
+  .vs{transition:none}
+  .go:active,.ref:active,.jchip:active,.icon-btn:active,.tabs button:active,.stn-row>button:active,.bk-pick:active,.keep:active,.chn:active{translate:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="i-listen" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></symbol>
+<symbol id="i-stop" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12"/></symbol>
+<symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.5M12 19.5V22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M2 12h2.5M19.5 12H22M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></symbol>
+<symbol id="i-today" viewBox="0 0 24 24"><path d="M3 5c3-1 6-1 9 1 3-2 6-2 9-1v14c-3-1-6-1-9 1-3-2-6-2-9-1z"/><path d="M12 6v14"/></symbol>
+<symbol id="i-index" viewBox="0 0 24 24"><path d="M4 3h12v18H4z"/><path d="M16 4h4v5h-4M16 10h4v5h-4M16 16h4v4h-4"/></symbol>
+<symbol id="i-kept" viewBox="0 0 24 24"><path d="M6 3h12v18H6z"/><circle cx="10" cy="8" r="1.6"/><path d="M13 8h2M9 12.5h6M9 16h6"/></symbol>
+<symbol id="i-settings" viewBox="0 0 24 24"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2"/><circle cx="9" cy="17" r="2"/></symbol>
+<symbol id="i-install" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></symbol>
+<symbol id="i-undo" viewBox="0 0 24 24"><path d="M9 14L4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 0 12h-3"/></symbol>
+<symbol id="i-why" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .8-1 1.5v.7M12 17h.01"/></symbol>
+<symbol id="i-connection" viewBox="0 0 24 24"><circle cx="6" cy="12" r="3"/><circle cx="18" cy="6" r="3"/><circle cx="18" cy="18" r="3"/><path d="M8.7 10.7l6.6-3.4M8.7 13.3l6.6 3.4"/></symbol>
+<symbol id="i-word" viewBox="0 0 24 24"><path d="M5 20l7-16 7 16M8 14h8"/></symbol>
+<symbol id="i-culture" viewBox="0 0 24 24"><path d="M4 20h16M4 8h16M12 3l8 5H4zM7 11v6M12 11v6M17 11v6"/></symbol>
+<symbol id="i-detail" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/></symbol>
+<symbol id="i-bigpicture" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></symbol>
+<symbol id="i-ponder" viewBox="0 0 24 24"><path d="M5 5h14v10h-9l-4 4v-4H5z"/></symbol>
+</defs></svg>
+<nav class="tabs" aria-label="Main">
+  <button data-v="today" onclick="go('today')"><svg class="ic" aria-hidden="true"><use href="#i-today"/></svg>Today</button>
+  <button data-v="route" onclick="go('route')"><svg class="ic" aria-hidden="true"><use href="#i-index"/></svg>Index</button>
+  <button data-v="kept" onclick="go('kept')"><svg class="ic" aria-hidden="true"><use href="#i-kept"/></svg>Kept</button>
+  <button data-v="settings" onclick="go('settings')"><svg class="ic" aria-hidden="true"><use href="#i-settings"/></svg>Settings</button>
+</nav>
+<main id="app" tabindex="-1"></main>
+<ol class="rail" id="rail" aria-label="Thumb index of the whole Bible"></ol>
+<script>
+const BOOKS=[["Genesis",50],["Exodus",40],["Leviticus",27],["Numbers",36],["Deuteronomy",34],["Joshua",24],["Judges",21],["Ruth",4],["1 Samuel",31],["2 Samuel",24],["1 Kings",22],["2 Kings",25],["1 Chronicles",29],["2 Chronicles",36],["Ezra",10],["Nehemiah",13],["Esther",10],["Job",42],["Psalms",150],["Proverbs",31],["Ecclesiastes",12],["Song of Solomon",8],["Isaiah",66],["Jeremiah",52],["Lamentations",5],["Ezekiel",48],["Daniel",12],["Hosea",14],["Joel",3],["Amos",9],["Obadiah",1],["Jonah",4],["Micah",7],["Nahum",3],["Habakkuk",3],["Zephaniah",3],["Haggai",2],["Zechariah",14],["Malachi",4],["Matthew",28],["Mark",16],["Luke",24],["John",21],["Acts",28],["Romans",16],["1 Corinthians",16],["2 Corinthians",13],["Galatians",6],["Ephesians",6],["Philippians",4],["Colossians",4],["1 Thessalonians",5],["2 Thessalonians",3],["1 Timothy",6],["2 Timothy",4],["Titus",3],["Philemon",1],["Hebrews",13],["James",5],["1 Peter",5],["2 Peter",3],["1 John",5],["2 John",1],["3 John",1],["Jude",1],["Revelation",22]];
+// the six divisions of the thumb index: [id, name, number of books, leaf alpha, ink that reads on it, short tab label]
+// ponytail: leaf alphas solved offline (milk over each tokens.css hue until luminance 0.80, which keeps ink at 14.8:1); re-solve if a hue changes
+const BEDS=[['law','Law',5,.841,'#151515','Law'],['history','History',12,.661,'#151515','History'],['wisdom','Wisdom',5,.835,'#151515','Wisdom'],['prophets','Prophets',17,.840,'#151515','Prophets'],['gospels','Gospels & Acts',5,.886,'#ffffff','Gosp. Acts'],['letters','Letters & Revelation',22,.875,'#ffffff','Lett. Rev.']];
+const BED_OF=BEDS.flatMap(([,,n],i)=>Array(n).fill(i)); // book index -> division index
+const bed=bi=>BEDS[BED_OF[bi]];
+const FIRST=BOOKS.map((_,i)=>BOOKS.slice(0,i).reduce((a,[,n])=>a+n,0)); // book index -> its first chapter's index
+const CH=BOOKS.flatMap(([b,n],bi)=>Array.from({length:n},(_,i)=>[b,i+1,bi])); // canonical order, 1189 chapters
+const EXTENT=BEDS.map((_,li)=>CH.filter(c=>BED_OF[c[2]]===li).length); // chapters per division: the tab heights
+// public-domain translations on bible-api.com: [name, speech language]
+const TR={web:['World English Bible','en-US'],kjv:['King James Version','en-GB'],asv:['American Standard Version','en-US'],bbe:['Bible in Basic English','en-US'],darby:['Darby','en-GB'],dra:['Douay-Rheims','en-US'],webbe:['World English Bible (British)','en-GB']};
+const KINDS={why:['Why here','why'],connection:['Connection','connection'],word:['Original language','word'],culture:['History & culture','culture'],detail:['Easy to miss','detail'],bigpicture:['Big picture','bigpicture'],ponder:['Ponder','ponder']};
+let KEPT=JSON.parse(localStorage.getItem('tolle-kept')||'[]'); // [{b, c, v, t: text, tr, d: date kept}], oldest first
+// a verse for today: hand-picked for hope and God's nearness, in canonical order; checked against the WEB text before shipping
+const HOPE=['Genesis 28:15','Genesis 50:20','Exodus 14:14','Exodus 15:2','Exodus 33:14','Leviticus 26:12','Numbers 6:24-26','Numbers 23:19','Deuteronomy 7:9','Deuteronomy 31:6','Deuteronomy 31:8','Joshua 1:9','Joshua 21:45','Ruth 2:12','1 Samuel 7:12','2 Samuel 22:31','1 Kings 8:56','1 Chronicles 16:34','2 Chronicles 20:15','Ezra 3:11','Nehemiah 8:10','Job 19:25','Psalms 23:1','Psalms 23:4','Psalms 27:1','Psalms 30:5','Psalms 34:18','Psalms 46:1','Psalms 55:22','Psalms 73:26','Psalms 91:1-2','Psalms 118:24','Psalms 121:1-2','Psalms 147:3','Proverbs 3:5-6','Proverbs 18:10','Ecclesiastes 3:11','Song of Solomon 8:7','Isaiah 26:3','Isaiah 40:31','Isaiah 41:10','Isaiah 43:2','Isaiah 54:10','Jeremiah 17:7','Jeremiah 29:11','Jeremiah 31:3','Lamentations 3:22-23','Ezekiel 36:26','Daniel 9:9','Hosea 14:4','Joel 2:25','Micah 7:18','Nahum 1:7','Habakkuk 3:19','Zephaniah 3:17','Zechariah 4:6','Malachi 4:2','Matthew 5:4','Matthew 11:28','Matthew 28:20','Mark 10:27','Luke 1:37','Luke 12:32','John 3:16','John 10:10','John 14:27','John 16:33','Acts 17:27','Romans 8:28','Romans 8:38-39','Romans 15:13','1 Corinthians 10:13','2 Corinthians 4:16','2 Corinthians 12:9','Galatians 6:9','Ephesians 3:20-21','Philippians 4:6-7','Philippians 4:13','1 Thessalonians 5:16-18','2 Thessalonians 3:3','2 Timothy 1:7','Hebrews 13:5','James 1:5','1 Peter 5:7','1 John 4:18','Revelation 21:4'];
+const saveKept=()=>localStorage.setItem('tolle-kept',JSON.stringify(KEPT));
+const KEY='bible-plan',$=document.getElementById('app'),reduce=matchMedia('(prefers-reduced-motion: reduce)');
+const iso=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; // local YYYY-MM-DD; plain arithmetic, since a locale formatter per call cost ~100ms a screen on slow phones
+const today=()=>iso(new Date());
+const days=(a,b)=>Math.round((new Date(b)-new Date(a))/864e5); // between two YYYY-MM-DD dates
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[c]);
+const slug=b=>b.toLowerCase().replaceAll(' ','-');
+const api=ref=>`https://bible-api.com/${encodeURIComponent(ref)}?translation=${S.tr}`;
+let wake=null; // screen wake lock while reading aloud
+const hush=()=>{window.speechSynthesis?.cancel();wake?.release();wake=null};
+const icon=n=>`<svg class=ic aria-hidden=true><use href="#i-${n}"/></svg>`;
+const mins=n=>Math.round(n*3.5); // ponytail: flat 3.5 min/chapter; use verse counts if estimates matter
+const DF=new Intl.DateTimeFormat(undefined,{day:'numeric',month:'short',year:'numeric'}),NF=new Intl.NumberFormat(); // built once, used everywhere
+const fmtDate=d=>DF.format(new Date(d+'T00:00')),num=n=>NF.format(n);
+const ww=s=>Math.max(...s.split(' ').map(w=>w.length)); // longest word, for fitting a head
+const plural=(n,w)=>`${num(n)} ${w}${n==1?'':'s'}`;
+const bookOf=ref=>BOOKS.findIndex(([b])=>ref.startsWith(b+' '));
+// progress is a string of 1,189 flags, one per chapter in canonical order: people read in any order
+const UNREAD='0'.repeat(CH.length);
+const readInStr=(r,bi)=>{let n=0;for(let i=FIRST[bi],e=i+BOOKS[bi][1];i<e;i++)n+=r[i]==='1';return n};
+const readIn=bi=>S?readInStr(S.read,bi):0; // chapters read in a book
+const count=(r=S.read)=>{let n=0;for(const c of r)n+=c==='1';return n}; // ponytail: a 1,189-char scan per call; cache if it ever shows in a profile
+const nextIn=(r,from=0)=>{const i=r.indexOf('0',from);return i<0?CH.length:i}; // first unread chapter
+const nextIdx=()=>nextIn(S.read);
+const isRead=i=>S.read[i]==='1';
+const setRead=(i,v)=>{S.read=S.read.slice(0,i)+(v?'1':'0')+S.read.slice(i+1)};
+const upcoming=k=>{const a=[];for(let i=nextIdx();i<CH.length&&a.length<k;i++)if(!isRead(i))a.push(i);return a}; // next unread chapters, skipping any already read
+
+let S=JSON.parse(localStorage.getItem(KEY)||'null'); // {read, day:{d,idx}, deadline, log:{date:count}, at:{date:chapter}, start, startDone, tr, rate}
+if(S&&S.read==null){ // plans saved before out-of-order reading: everything before the old bookmark was read
+  const done=S.done,t=S.log?.[today()]||0;
+  S.read='1'.repeat(done)+UNREAD.slice(done);S.day={d:today(),idx:Array.from({length:t},(_,k)=>done-t+k)};delete S.done;
+}
+if(S)S={tr:'web',rate:1,at:{},day:{d:today(),idx:[]},start:today(),startDone:count(S.read)-(S.log[today()]||0),...S}; // defaults for older plans
+const save=()=>localStorage.setItem(KEY,JSON.stringify(S));
+const todayN=()=>S.log[today()]||0;
+const todayIdx=()=>S.day?.d===today()?S.day.idx:[]; // chapters read in the app today, in the order read
+const daysLeft=()=>Math.max(1,days(today(),S.deadline)+1);
+// recomputed daily from what's left, so a missed day raises tomorrow's goal; stable within a day
+const goal=()=>Math.ceil((CH.length-count()+todayN())/daysLeft());
+function streak(){let n=0,d=new Date();if(!S.log[iso(d)])d.setDate(d.getDate()-1);for(;S.log[iso(d)];d.setDate(d.getDate()-1))n++;return n}
+const perDay=()=>(CH.length-S.startDone)/(days(S.start,S.deadline)+1);
+function pace(){ // vs a straight line from plan start to deadline; today's portion counts as on track
+  const el=Math.min(days(S.start,today()),days(S.start,S.deadline)+1);
+  const by=Math.floor(S.startDone+perDay()*el),through=Math.ceil(S.startDone+perDay()*(el+1));
+  const n=count();return n<by?{cls:'late',text:`${by-n} behind`}:n>through?{cls:'ahead',text:`${n-through} ahead`}:{cls:'ok',text:'On track'};
+}
+
+// the board takes the current division's hue; the leaf over it is milk at the alpha solved for that hue
+function setBoard(li){
+  const [id,, ,alpha,on]=BEDS[li],root=document.documentElement;
+  root.style.setProperty('--hue',`var(--${id})`);root.style.setProperty('--on-day',on);root.style.setProperty('--leaf-a',alpha);
+  paintBar();
+}
+function paintBar(){ // the phone's status bar takes the board as drawn, day or night: rgb() or color(srgb 0-1)
+  const n=getComputedStyle(document.body).backgroundColor.match(/[\d.]+/g).map(Number),f=n.every(v=>v<=1)?255:1;
+  document.querySelector('meta[name=theme-color]').content='#'+n.slice(0,3).map(v=>Math.round(v*f).toString(16).padStart(2,'0')).join('');
+}
+const curBed=()=>BED_OF[CH[Math.min(S?nextIdx():0,CH.length-1)][2]];
+
+// signature move: the fore-edge thumb index; every book a band that fills as it's read
+function railHTML(){
+  const nx=nextIdx(),cur=curBed();
+  return BEDS.map(([id,name,n,,on,short],li)=>{const b0=BED_OF.indexOf(li),read=BOOKS.slice(b0,b0+n).reduce((a,_,k)=>a+readIn(b0+k),0);
+    return `<li class="${id}${li===cur?' cur':''}" style="flex:${EXTENT[li]} 1 0;--o:${on}"><a href="#" onclick="return openDiv(${li})" aria-label="${name}: ${read} of ${EXTENT[li]} chapters read">
+      ${BOOKS.slice(b0,b0+n).map(([,c],k)=>`<i class="bk${CH[nx]?.[2]===b0+k?' next':''}" data-b=${b0+k} style="--n:${c};--f:${(readIn(b0+k)/c).toFixed(3)}"></i>`).join('')}<span class=tl aria-hidden=true><span class=f>${name}</span><span class=s>${short}</span></span></a></li>`}).join('');
+}
+function openDiv(li){go('route');requestAnimationFrame(()=>jumpTo(li));return false}
+function jumpTo(li){const d=document.getElementById('div-'+li);if(!d)return;d.scrollIntoView({block:'start'});step([d,d.nextElementSibling],'perspective(900px) rotateX(-20deg)','50% 0')}
+const strip=r=>`<div class=strip role=img aria-label="${count(r)} of 1,189 chapters">${BOOKS.map(([,c],bi)=>`<i class=${bed(bi)[0]} style="--n:${c};--f:${(readInStr(r,bi)/c).toFixed(3)}"></i>`).join('')}</div>`;
+const step=(els,pose,origin='0 50%',out=false)=>reduce.matches?[]:[...els].filter(Boolean).map(e=>{e.style.transformOrigin=origin; // every change is two hard frames hinged at an edge: in from a pose, or out to one
+  const k=[{transform:pose},{transform:'none'}];return e.animate(out?k.reverse():k,{duration:90,easing:'steps(2,jump-end)',fill:out?'forwards':'none'})});
+let stepped=null; // {bi, from}: the book whose band should step forward on the next render
+function stepBand(){ // the moment's second half: that book's band on the rail (and its bar on the Index) steps from its old fill to its new one
+  if(!stepped||reduce.matches)return stepped=null;
+  const {bi,from}=stepped,to=readIn(bi)/BOOKS[bi][1];stepped=null;
+  for(const b of [rail.querySelector(`.bk[data-b="${bi}"]`),$.querySelector(`[data-bar="${bi}"]`)])b?.animate([{'--f':from},{'--f':to}],{duration:90,easing:'steps(2,jump-end)'});
+}
+
+let view='today',seenT=null,entering=true,turning=false;
+const wide=matchMedia('(min-width:1200px)');wide.onchange=()=>{if(view==='today')render()}; // the Index column on Today exists only where it shows
+matchMedia('(prefers-color-scheme: dark)').onchange=()=>{theme();if(S)render()}; // the phone switched: follow it unless the reader chose
+const moon=()=>{const dark=document.documentElement.dataset.theme==='dark';return `<button class=icon-btn aria-label="${dark?'Switch to day':'Switch to night'}" onclick=flipNight(this)>${icon(dark?'sun':'moon')}</button>`};
+function flipNight(btn){ // the reader's moon: day or night at once, without redrawing the chapter, so place, selection and open notes stay
+  localStorage.setItem('tolle-theme',document.documentElement.dataset.theme==='dark'?'light':'dark');theme();paintBar();const dark=document.documentElement.dataset.theme==='dark';btn.ariaLabel=dark?'Switch to day':'Switch to night';btn.innerHTML=icon(dark?'sun':'moon'); // updated in place, so focus stays on it
+}
+function setTheme(v){v==='auto'?localStorage.removeItem('tolle-theme'):localStorage.setItem('tolle-theme',v);theme();render()}
+let at=null,jv=null; // a chapter opened from the Index, Kept or a verse (and the verse to land on); null is the plan's next chapter
+const cur=()=>at??nextIdx();
+function openCh(i,v){at=i;jv=v||null;go('reader')}
+function go(v,popped){
+  sel=null;if(v!=='kept')gone=null;if(v!=='reader')at=jv=null;
+  if(!popped&&S){if(view==='today'&&v!=='today')history.pushState({v},'');else if(v==='today'&&history.state?.v)return history.back();else if(v!==view)history.replaceState({v},'')}
+  hush();onscroll=null;view=v;entering=true;render();
+}
+addEventListener('popstate',e=>go(e.state?.v||'today',true));
+function render(){
+  document.body.dataset.view=S?view:'setup';
+  setBoard(!S?0:view==='reader'?BED_OF[CH[cur()][2]]:curBed());
+  scrollTo(0,0);
+  if(!S)$.innerHTML=setupView();
+  else if(view==='reader')readerView();
+  else $.innerHTML=view==='route'?`<h1 class=title>The whole Bible</h1>${routeBody()}`:view==='settings'?settingsView():view==='kept'?keptView():todayView();
+  rail.innerHTML=S?railHTML():'';
+  for(const b of document.querySelectorAll('.tabs button'))b.dataset.v===view?b.setAttribute('aria-current','page'):b.removeAttribute('aria-current');
+  const h=$.querySelector('h1');if(h){h.tabIndex=-1;h.focus({preventScroll:true})}
+  document.title=h&&view!=='today'?`${h.textContent} · Tolle`:'Tolle';
+  if(entering)step([$.querySelector('.leaf')],'perspective(900px) rotateY(-16deg)'); // only the top ply hinges in, and only on a new view
+  entering=false;
+  stepBand();
+  if(!S)return preview();
+  if(view==='today')ride();
+  if(view!=='reader')prefetch();
+}
+
+function setupView(){
+  return `<header class=top><a class=mark href=landing.html>Tolle</a></header>
+  <section class="leaf clear"><h1 class=station>Plan your reading</h1>
+  <p class=lede>Read the whole Bible by a date you choose. Tolle sets each day's chapters from what's left, in any order you've read so far.</p></section>
+  <section class=leaf><fieldset class=picker aria-describedby=pkh><legend><h2 style="margin:0">Books you've already read</h2></legend>
+    <p class=hint id=pkh>Tap every book you've finished, in any order. Read straight through? <label class=inline for=thru>Fill in up to</label>
+      <select id=thru class=inline onchange=fillThrough(+this.value)><option value=0>choose a book</option>${BOOKS.map(([b],i)=>`<option value=${i+1}>${b}</option>`).join('')}</select></p>
+    ${BEDS.map(([id,name,n,,on],li)=>{const b0=BED_OF.indexOf(li);return `<div class=bedset style="--c:var(--${id});--o:${on}"><p class=bedname><b></b>${name}</p>
+      ${BOOKS.slice(b0,b0+n).map(([b],k)=>`<label class=bk-pick><input type=checkbox value=${b0+k} onchange=preview()><span>${b}</span></label>`).join('')}</div>`}).join('')}
+  </fieldset></section>
+  <section class=leaf><label for=by style="margin-top:0">Finish by</label>
+  <input type=date id=by min="${today()}" value="${new Date().getFullYear()}-12-31" onchange=preview() aria-describedby=byh>
+  <p class=hint id=byh>Tolle plans backwards from this date.</p></section>
+  <section class=leaf><p class=preview id=pv aria-live=polite></p><div id=stripbox></div></section>
+  <button class=go onclick=start()>Plan my reading${icon('arrow')}</button>`;
+}
+const picked=()=>{let r=UNREAD;for(const c of $.querySelectorAll('.bk-pick input:checked')){const bi=+c.value;r=r.slice(0,FIRST[bi])+'1'.repeat(BOOKS[bi][1])+r.slice(FIRST[bi]+BOOKS[bi][1])}return r};
+function fillThrough(k){ // shortcut for straight-through readers: tick every book up to the one chosen
+  for(const c of $.querySelectorAll('.bk-pick input'))c.checked=+c.value<k;thru.value=0;preview();
+}
+function preview(){ // live: what's left, the daily load, and the thumb index laid flat with the books you picked
+  const r=picked(),done=count(r),books=$.querySelectorAll('.bk-pick input:checked').length,d=Math.max(1,days(today(),by.value||today())+1),n=Math.ceil((CH.length-done)/d);
+  pv.innerHTML=(books?`You've read ${plural(books,'book')} (${plural(done,'chapter')}). `:'')+(by.value?`That's <b>${num(n)}</b> chapter${n==1?'':'s'} a day, about ${mins(n)} minutes, for ${plural(d,'day')}.`:'Your daily chapters appear once you pick a date.');
+  by.setAttribute('aria-invalid',!by.value);byh.classList.toggle('err',!by.value); // inline error under the field
+  byh.textContent=by.value?'Tolle plans backwards from this date.':'Pick the date you want to finish by.';
+  stripbox.innerHTML=strip(r);
+}
+function start(){
+  if(!by.value){preview();return by.focus()}
+  const read=picked();
+  S={read,day:{d:today(),idx:[]},deadline:by.value,log:{},at:{},start:today(),startDone:count(read),tr:'web',rate:1};
+  save();go('today');
+}
+
+function todayView(){
+  const g=goal(),t=todayN(),p=pace(),nx=CH[nextIdx()],done=todayIdx();
+  const stops=[...done,...upcoming(Math.max(g-done.length,1))].map(i=>CH[i]),met=t>=g; // today's chapters, plus the next one once the goal is met
+  return `<header class=top><a class=mark href=landing.html>Tolle</a><p class="status ${p.cls}">${p.text}</p></header>
+  <div class=split><div>
+  <section class="leaf clear" aria-label="Next chapter">${nx?`
+    <h1 class=station style=--w:${ww(nx[0])}>${nx[0]} ${nx[1]}</h1>
+    <p class="meta mono">${bed(nx[2])[1]} · ${met?"today's reading done":`${t+1} of ${g} today`}</p>
+    <p class=lede>${met?`You've read ${plural(t,'chapter')} today. Keep going if you like.`:`${g-t} left today, about ${mins(g-t)} minutes.`}</p>
+    <button class="go${met?' ghost':''}" onclick="go('reader')">${met?'Keep reading:':'Read'} ${nx[0]} ${nx[1]}${icon('arrow')}</button>`:`
+    <h1 class=station>The whole Bible, read</h1>
+    <p class=lede>You've read all 1,189 chapters. Every band on the index is full.</p>`}
+  </section>
+  ${dailyHTML()}
+  ${nx?`<section class=leaf aria-labelledby=stops-h><h2 id=stops-h>Today's chapters</h2>
+    <ol class=stops>${stops.map((s,i)=>stopRow(s,i,done.length,stops[i+1])).join('')}</ol></section>`:''}
+  <section class=leaf aria-labelledby=log-h><h2 id=log-h>Reading log</h2>${calendar()}
+    <p class=facts><span>${plural(streak(),'day')} in a row</span><span>${num(count())} / 1,189 chapters</span><span>Finish ${fmtDate(S.deadline)}</span></p></section>
+  </div>${wide.matches?`<aside class=col-route aria-labelledby=route-h><h2 id=route-h class=sr>The whole Bible</h2>${routeBody()}</aside>`:''}</div>`;
+}
+function daily(){ // today's verse: from the book you're reading if the list has one, else its part of the Bible, else the next in the list; none repeats until all have come round
+  let dv=JSON.parse(localStorage.getItem('tolle-dv')||'{"seen":[]}');
+  if(dv.d===today())return dv;
+  const bi=CH[nextIdx()]?.[2]??0,fresh=HOPE.filter(r=>!dv.seen.includes(r)),pool=fresh.length?fresh:HOPE;
+  const r=pool.find(r=>bookOf(r)===bi)||pool.find(r=>BED_OF[bookOf(r)]===BED_OF[bi])||pool[0];
+  dv={d:today(),r,seen:[...(fresh.length?dv.seen:[]),r]};localStorage.setItem('tolle-dv',JSON.stringify(dv));return dv;
+}
+const refParts=r=>{const [,bk,c,v]=r.match(/^(.+) (\d+):(\d+)/);return {bi:BOOKS.findIndex(([b])=>b===bk),c:+c,v:+v}};
+const keptRef=r=>KEPT.some(k=>(k.r||`${BOOKS[k.b][0]} ${k.c}:${k.v}`)===r);
+function dailyHTML(){
+  const dv=daily(),{bi,c}=refParts(dv.r),have=dv.t&&dv.tr===S.tr;
+  if(!have)fetch(api(dv.r)).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{Object.assign(dv,{t:j.text.replace(/\s+/g,' ').trim(),tr:S.tr});localStorage.setItem('tolle-dv',JSON.stringify(dv));
+      const p=document.getElementById('dvt');if(p){p.textContent=dv.t;p.removeAttribute('aria-busy');document.getElementById('dvk').hidden=false}})
+    .catch(()=>{const p=document.getElementById('dvt');if(p)p.textContent="Today's verse needs a connection the first time. It will be here when you're back online."});
+  return `<section class="leaf daily" aria-labelledby=dv-h><h2 id=dv-h>A verse for today</h2>
+    <p class=dvt id=dvt${have?'':' aria-busy=true'}>${have?esc(dv.t):'Opening today’s verse…'}</p>
+    <p class=kmeta><span>${dv.r} · ${S.tr.toUpperCase()}</span><button class=link-btn id=dvk${have?'':' hidden'} onclick=keepDaily(this)>${keptRef(dv.r)?'Kept':'Keep'}</button><button class=link-btn onclick="openCh(${FIRST[bi]+c-1},${refParts(dv.r).v})">Read ${BOOKS[bi][0]} ${c}</button></p></section>`;
+}
+function keepDaily(btn){ // the day's verse into Kept, or back out
+  const dv=daily(),{bi,c,v}=refParts(dv.r),i=KEPT.findIndex(k=>(k.r||`${BOOKS[k.b][0]} ${k.c}:${k.v}`)===dv.r);
+  if(i<0)KEPT.push({b:bi,c,v,r:dv.r,t:dv.t,tr:dv.tr,d:today()});else KEPT.splice(i,1);
+  saveKept();navigator.vibrate?.(i<0?12:[8,40,8]);btn.textContent=i<0?'Kept':'Keep';
+}
+function stopRow([b,c,bi],i,t,nx){
+  const st=i<t?'passed':i===t?'next':'ahead',change=st!=='passed'&&nx&&BED_OF[nx[2]]!==BED_OF[bi]; // read rows may sit out of order; only rows ahead announce a new division
+  return `<li class=${st}><span class=mk aria-hidden=true></span><span class=stn>${b} ${c}</span><span class=tag>${change?`${bed(nx[2])[1]} next · `:''}${st==='passed'?'Read':st==='next'?'Now':`<span class=sr>in about </span>${mins(i-t)} min`}</span></li>`;
+}
+function ride(){ // the moment: rows just read punch through, and their books' bands on the rail step forward
+  const t=todayN(),from=seenT;seenT=t;
+  if(from==null||t<=from||reduce.matches)return;
+  const rows=$.querySelectorAll('.stops li');
+  step([...rows].slice(from,t).map(r=>r.querySelector('.mk')),'scale(0)','50% 50%');
+}
+function calendar(){ // last 12 weeks, one column per week; each day takes the hue of the division it reached
+  const d=new Date(),per=perDay();d.setDate(d.getDate()-d.getDay()-77);
+  let h='',on=0;
+  for(;iso(d)<=today();d.setDate(d.getDate()+1)){
+    const k=iso(d),n=S.log[k]||0,at=S.at[k];on+=!!n;
+    h+=`<i class="${n?'on':''}" style="${n?`--c:var(--${at==null?'wisdom':bed(CH[at][2])[0]});opacity:${Math.min(1,.4+.6*n/per)}`:''}" title="${fmtDate(k)}: ${plural(n,'chapter')}"></i>`;
+  }
+  return `<div class=log><div class=wd aria-hidden=true><span></span><span>Mon</span><span></span><span>Wed</span><span></span><span>Fri</span><span></span></div>
+    <div class=cal role=img aria-label="Reading log: read on ${plural(on,'day')} of the last 12 weeks">${h}</div>
+    <div class=axis aria-hidden=true><span>12 weeks ago</span><span>This week</span></div></div>`;
+}
+
+function routeBody(){
+  const n=count(),every=CH.map(([, ,bi],i)=>`<i class="${bed(bi)[0]}${isRead(i)?' r':''}"></i>`).join('');
+  return `<section class=leaf><div class=every role=img aria-label="Every chapter: ${n} of 1,189 read">${every}</div>
+    <p class="facts" style="margin:0"><span>${num(n)} / 1,189 read</span><span>${num(CH.length-n)} to go</span></p>
+    <form class=goto onsubmit="return gotoRef(this)"><label for=q class=sr>Go to a passage</label><input id=q name=q list=booklist placeholder="John 3:16" autocomplete=off enterkeyhint=go><button class="go slim">Go${icon('arrow')}</button></form>
+    <p class=hint id=qh>Open a book below to read any chapter, or to mark a book you read elsewhere.</p>
+    <datalist id=booklist>${BOOKS.map(([b])=>`<option value="${b} ">`).join('')}</datalist>
+    <div class=jump role=group aria-label="Go to a division">${BEDS.map(([id,name],li)=>`<button class=jchip style="--c:var(--${id})" onclick=jumpTo(${li})><b></b>${name}</button>`).join('')}</div></section>
+  <ol class=route>${BEDS.map(([id,name,n,,on],li)=>{const b0=BED_OF.indexOf(li);return `<li style="--c:var(--${id});--o:${on}">
+    <h3 class=divider id=div-${li}>${name}</h3><div class=leaf><ol>${BOOKS.slice(b0,b0+n).map((_,k)=>stationRow(b0+k)).join('')}</ol></div></li>`}).join('')}</ol>`;
+}
+function stationRow(bi){
+  const [b,n]=BOOKS[bi],read=readIn(bi),cur=CH[nextIdx()]?.[2]===bi;
+  return `<li class="stn-row${cur?' cur':''}"><button aria-expanded=false onclick="chapters(this,${bi})">
+    <span class=bar data-bar=${bi} style="--f:${(read/n).toFixed(3)}" aria-hidden=true></span><span class=name>${b}${cur?'<small>Next</small>':''}</span><span class=count>${read}/${n}</span></button></li>`;
+}
+function chapters(btn,bi){ // every chapter of a book, with marking for books read elsewhere
+  const open=btn.getAttribute('aria-expanded')==='true';btn.setAttribute('aria-expanded',!open);
+  if(open)return btn.nextElementSibling.remove();
+  const [b,n]=BOOKS[bi],read=readIn(bi);
+  btn.insertAdjacentHTML('afterend',`<div class=book-panel><div class=chgrid role=group aria-label="${b}: ${read} of ${n} chapters read. Choose one to read">${chKeys(bi)}</div>
+    <p class=mark-row>${read<n?`<button class="go ghost slim" onclick="markBook(${bi},true)">Mark ${b} read${icon('check')}</button>`:''}${read?`<button class="link-btn" onclick="markBook(${bi},false)">Mark as unread</button>`:''}</p></div>`);
+  step([btn.nextElementSibling],'perspective(900px) rotateX(-20deg)','0 0');
+}
+const chKeys=(bi,now)=>Array.from({length:BOOKS[bi][1]},(_,k)=>{const i=FIRST[bi]+k,r=isRead(i); // every chapter of a book as a key: read ones filled, the plan's next in ink, the open one ringed
+  return `<button class="chn${r?' r':''}${i===nextIdx()?' nx':''}${i===now?' here':''}" onclick=openCh(${i}) aria-label="${BOOKS[bi][0]} ${k+1}${r?', read':''}"${i===now?' aria-current=true autofocus':''}>${k+1}</button>`}).join('');
+function chSheet(i){ // the switcher: any book from the list, every chapter as a key, and the chapters either side
+  const [b,c,bi]=CH[i],side=(j,dir)=>CH[j]?`<button class="go ghost slim" onclick=openCh(${j})>${dir<0?icon('back'):''}${CH[j][0]} ${CH[j][1]}${dir>0?icon('arrow'):''}</button>`:'<span></span>';
+  return `<div popover id=chsheet class="gloss sheet" role=dialog aria-label="Choose a chapter"><div class=shead><p class=gk>Choose a chapter</p><p class=gname>${b}</p>
+    <label class=sr for=chbook>Book</label><select id=chbook onchange="const k=+this.value;chkeys.className='chgrid '+bed(k)[0];chkeys.innerHTML=chKeys(k,${i})">${BOOKS.map(([n],k)=>`<option value=${k}${k===bi?' selected':''}>${n}</option>`).join('')}</select>
+    <p class=chnav>${side(i-1,-1)}${side(i+1,1)}</p></div>
+    <div class="chgrid ${bed(bi)[0]}" id=chkeys role=group aria-label="Chapters">${chKeys(bi,i)}</div></div>`;
+}
+function gotoRef(f){ // "John 3:16", "ps 23", "1 cor 13" → that chapter, landing on that verse
+  const q=f.q.value.trim(),m=q.match(/^(.+?)\s*(?:(\d+)(?:\s*[:.]\s*(\d+))?)?$/),key=s=>s.toLowerCase().replace(/[^a-z0-9]/g,'');
+  const bi=m?BOOKS.findIndex(([b])=>key(b).startsWith(key(m[1]))):-1,c=+(m?.[2]||1),qh=document.getElementById('qh');
+  if(bi<0||c>BOOKS[bi][1]){qh.textContent=q?`Couldn't find "${q}". Try a book and chapter, like Psalm 23 or John 3:16.`:'Type a book and chapter, like Psalm 23 or John 3:16.';qh.classList.add('err');f.q.focus();return false}
+  openCh(FIRST[bi]+c-1,+m[3]||null);return false;
+}
+function markBook(bi,v){ // for books read outside the app: doesn't count toward today's reading or the streak
+  stepped={bi,from:readIn(bi)/BOOKS[bi][1]};
+  for(let i=FIRST[bi];i<FIRST[bi]+BOOKS[bi][1];i++)if(!todayIdx().includes(i))setRead(i,v);
+  save();const y=scrollY;render();scrollTo(0,y);
+  $.querySelector(`.stn-row button[onclick="chapters(this,${bi})"]`)?.focus({preventScroll:true});
+}
+
+let gone=null; // the last verse removed from Kept, so it can come back
+function keptView(){
+  const ref=k=>k.r||`${BOOKS[k.b][0]} ${k.c}:${k.v}`;
+  return `<h1 class=title>Kept verses</h1>
+  ${gone?`<p class=gone role=status>Removed ${ref(gone.k)}.<button class=link-btn onclick=unremove()>Undo</button></p>`:''}
+  ${KEPT.length?`<ol class=kept-list>${KEPT.map((k,i)=>[k,i]).reverse().map(([k,i])=>`<li class="leaf ${bed(k.b)[0]}"><span class=ktab>${ref(k)}</span>
+    <p class=ktext>${esc(k.t)}</p>
+    <p class=kmeta><span>Kept ${fmtDate(k.d)} · ${k.tr.toUpperCase()}</span><button class=link-btn onclick=openCh(${FIRST[k.b]+k.c-1},${k.v})>Read ${BOOKS[k.b][0]} ${k.c}</button>${navigator.share?`<button class=link-btn onclick=share(${i})>Share</button>`:''}<button class=link-btn onclick=unkeep(${i})>Remove</button></p></li>`).join('')}</ol>`
+  :`<section class=leaf><p class=empty>Nothing kept yet. While you read, tap a verse, then tap Keep. It gets a punched hole in the margin and waits here for you.</p></section>`}`;
+}
+function unkeep(i){gone={i,k:KEPT.splice(i,1)[0]};saveKept();render()}
+function unremove(){KEPT.splice(gone.i,0,gone.k);gone=null;saveKept();render()}
+function share(i){const k=KEPT[i];navigator.share({text:`"${k.t}" ${k.r||`${BOOKS[k.b][0]} ${k.c}:${k.v}`} (${TR[k.tr][0]})`}).catch(()=>{})}
+function settingsView(){
+  return `<h1 class=title>Settings</h1>
+  <section class=leaf><label for=dl style="margin-top:0">Finish by</label>
+  <input type=date id=dl min="${today()}" value="${S.deadline}" onchange=setDeadline(this.value)>
+  <p class=hint>Changing the date re-plans your reading from today.</p>
+  <label for=tr>Translation</label>
+  <select id=tr onchange="S.tr=this.value;save()">${Object.entries(TR).map(([k,[n]])=>`<option value=${k}${k==S.tr?' selected':''}>${n}</option>`).join('')}</select>
+  <fieldset class="picker setting"><legend class=lab>Night mode</legend>
+    ${[['light','Off'],['dark','On'],['auto','Follow phone']].map(([v,n])=>`<label class=bk-pick style="--c:var(--hue);--o:var(--on-day)"><input type=radio name=theme value=${v}${(localStorage.getItem('tolle-theme')||'auto')===v?' checked':''} onchange=setTheme(this.value)><span>${n}</span></label>`).join('')}
+    <p class=hint style="margin:0">Follow phone switches with your phone's dark mode.</p></fieldset>
+  <label for=rate>Read-aloud speed</label>
+  <select id=rate onchange="S.rate=+this.value;save()">${[.75,1,1.25,1.5,2].map(r=>`<option value=${r}${r==S.rate?' selected':''}>${r}×</option>`).join('')}</select>
+  <div class=actions>
+    ${installEvt?`<button class="go ghost" id=inst onclick=install()>Install Tolle${icon('install')}</button>`:''}
+    ${todayIdx().length?(([b,c])=>`<button class="go ghost" onclick=undo()>Undo last chapter (${b} ${c})${icon('undo')}</button>`)(CH[todayIdx().at(-1)]):''}
+  </div></section>
+  <section class=leaf aria-labelledby=about-h><h2 id=about-h>About Tolle</h2>
+    <p class=about>The name comes from Augustine's "tolle lege": take up and read. Scripture text is from public-domain translations via bible-api.com. The Why &amp; How notes are AI-written, so check them against your own study.</p></section>
+  <div class=danger-zone><button class=danger onclick=reset()>Erase all progress</button></div>`;
+}
+function setDeadline(v){if(v){Object.assign(S,{deadline:v,start:today(),startDone:count()-todayN()});save()}}
+function undo(){const i=S.day.idx.pop();setRead(i,false);S.log[today()]--;save();render()} // only offered when something was read today
+function reset(){if(confirm('Erase all progress? This cannot be undone.')){localStorage.removeItem(KEY);S=null;seenT=null;go('today')}}
+
+const INS={}; // book -> promise of its insights file (book.json: {chapter: {summary, insights}})
+const insights=b=>INS[b]??=fetch(`insights/${slug(b)}.json`).then(r=>r.ok?r.json():{}).catch(()=>({}));
+let prefetched; // once a day, pull today's chapters into the offline cache
+async function prefetch(){
+  if(prefetched===today()||!navigator.serviceWorker?.controller)return;
+  prefetched=today();
+  for(const [b,c] of upcoming(goal()-todayN()).map(i=>CH[i])){
+    insights(b);
+    await fetch(api(`${b} ${c}`)).catch(()=>{});
+    await new Promise(r=>setTimeout(r,2500)); // bible-api.com allows ~15 requests per 30s
+  }
+}
+
+function readerView(){
+  const i=cur(),[b,c,bi]=CH[i],again=isRead(i),t=todayN(),g=goal(),nx=again?null:CH[nextIn(S.read,i+1)],more=nx&&t+1<g;
+  const first=!readIn(bi),intro=`<section class="leaf intro" hidden><details${first?' open':''}></details></section>`; // starting a book: its introduction comes before the text
+  $.innerHTML=`<div class=rbar><div class=rrow><button class=icon-btn onclick="go('today')" aria-label="Back to Today">${icon('back')}</button>
+    <span class=pos>${again?'Read before':t<g?`${t+1} of ${g} today`:'Extra chapter'}</span>
+    <span class=rtools>${moon()}${window.speechSynthesis?`<button class=icon-btn aria-pressed=false aria-label="Listen to this chapter" onclick=listen(this)>${icon('listen')}</button>`:''}</span></div>
+    <div class=vstrip role=slider tabindex=0 aria-label="Verses. Tap a bar or use the arrow keys to jump to a verse" aria-valuemin=0 aria-valuenow=0></div></div>
+  <header class="leaf clear opener"><h1 class=station style=--w:${ww(b)}>${b}<span class=sr> ${c}</span></h1>
+    <div class=sec><button class=num popovertarget=chsheet aria-label="Chapter ${c} of ${BOOKS[bi][1]}. Choose another chapter">${c}</button><p class="meta mono">${bed(bi)[1]} · <button class=chpick popovertarget=chsheet>chapter ${c} of ${BOOKS[bi][1]}</button><br><span class=vc>&nbsp;</span></p></div>
+    <p class=sum hidden></p><p class=look hidden></p></header>
+  ${first?intro:''}
+  <article class="leaf scripture" aria-busy=true><div class=skel aria-label="Loading ${b} ${c}">${'<i></i>'.repeat(8)}</div></article>
+  <p class=credit>${TR[S.tr][0]} · public domain</p>
+  <section class="leaf recall" aria-labelledby=rc-h hidden></section>
+  ${first?'':intro}
+  <section class="leaf why" hidden></section>
+  <div class=actbar><button class=keep aria-pressed=false hidden onclick=keep(this)></button><button class=go onclick=finish(this)><span>Done${more?`<span class=nx> · next: ${nx[0]} ${nx[1]}</span>`:''}</span>${icon('check')}</button></div>
+  ${chSheet(i)}`;
+  const [txt,box,sum,vc,quiz,strip,look,about]=['.scripture','.why','.sum','.vc','.recall','.vstrip','.look','.intro'].map(q=>$.querySelector(q)); // grab now: the reader may leave before fetches return
+  const textP=fetch(api(`${b} ${c}`)).then(r=>{if(!r.ok)throw 0;return r.json()}),noteP=insights(b);
+  noteP.then(all=>{const x=all[c];
+    if(x?.summary){sum.textContent=x.summary;sum.hidden=false}
+    if(x?.lookfor){look.innerHTML=`<span class=kind>${icon('detail')}Look for</span>${esc(x.lookfor)}`;look.hidden=false}
+    if(all.intro){about.firstChild.innerHTML=introHTML(all.intro,b,c);about.hidden=false}});
+  Promise.allSettled([textP,noteP]).then(([tx,nt])=>{
+    if(!txt.isConnected)return;
+    const x=nt.value?.[c],list=NOTES=x?.insights||[],verses=tx.value?.verses;
+    const at=list.map(x=>{const v=verses&&anchor(x.body,c);return v&&v<=verses.length?v:0}); // the verse each note explains, when it names one
+    txt.removeAttribute('aria-busy');
+    if(verses){
+      txt.innerHTML=scriptureHTML(verses,list,at,x,new Set(KEPT.filter(k=>k.b===bi&&k.c===c).map(k=>k.v)));
+      txt.onclick=e=>{if(e.target.closest('button'))return;const vs=e.target.closest('.vs');choose(vs===sel?null:vs,b,c,bi)};
+      strip.ariaValueMax=verses.length;strip.innerHTML=verses.map(v=>`<i${at.includes(v.verse)?' class=t':''}></i>`).join('');
+      const tabbed=at.filter(Boolean).length;
+      vc.textContent=`${plural(verses.length,'verse')}${tabbed?` · ${plural(tabbed,'tabbed note')}`:''}`;
+      const q=recallHTML(verses,`${b} ${c}`);if(q){quiz.innerHTML=q;quiz.hidden=false}
+      onscroll=()=>{tk||=requestAnimationFrame(()=>{tk=0;track()})};track();
+      const jump=k=>{const all=txt.querySelectorAll('.vs'),vs=all[Math.max(0,Math.min(all.length-1,k))];scrollTo(0,vs.getBoundingClientRect().top+scrollY-$.querySelector('.rbar').offsetHeight-12);track()};
+      strip.onclick=e=>{const r=strip.getBoundingClientRect();jump(Math.floor((e.clientX-r.left)/r.width*verses.length))};
+      strip.onkeydown=e=>{const n=+strip.ariaValueNow,k={ArrowRight:n,ArrowDown:n,ArrowLeft:n-2,ArrowUp:n-2,Home:0,End:verses.length-1}[e.key];if(k!=null){e.preventDefault();jump(k)}};
+      const to=jv&&txt.querySelector(`.vs[data-v="${jv}"]`);jv=null;if(to){to.scrollIntoView({block:'center'});choose(to,b,c,bi)} // landing on a chosen verse
+    }else txt.innerHTML=`<p style="margin:0">Couldn't load ${b} ${c}. You may be offline, or the text service is busy. <button class=link onclick="go('reader')">Try again</button>, or read it in your own Bible and tap Done.</p>`;
+    const rest=list.filter((_,k)=>!at[k]);box.hidden=false;
+    box.innerHTML=!list.length?`<h2>Why &amp; How</h2><p class=empty>Notes for ${b} ${c} aren't written yet. They'll appear here, with links to related passages, once this book's notes are generated.</p>`
+      :rest.length?notesHTML(rest):`<h2>Why &amp; How</h2><p class=hint style="margin:0">Every note for this chapter is tabbed into the text. Pull a tab on the page edge to read it.</p>`;
+  });
+}
+let NOTES=[],tk=0,sel=null,selAt=null; // the selected verse, and the chapter it is in
+function choose(vs,b,c,bi){ // select a verse (or clear the selection); the Keep button follows it
+  sel?.classList.remove('sel');sel=vs;selAt={b,c,bi};const k=$.querySelector('.keep');
+  if(!vs)return k.hidden=true;
+  vs.classList.add('sel');const on=vs.classList.contains('kept');
+  k.hidden=false;k.ariaPressed=on;k.textContent=`${on?'Kept':'Keep'} ${c}:${vs.dataset.v}`;
+}
+function keep(btn){ // punch the selected verse into Kept, or take it back out
+  const v=+sel.dataset.v,{c,bi}=selAt,i=KEPT.findIndex(k=>k.b===bi&&k.c===c&&k.v===v);
+  if(i<0)KEPT.push({b:bi,c,v,t:sel.dataset.t,tr:S.tr,d:today()});else KEPT.splice(i,1);
+  saveKept();navigator.vibrate?.(i<0?12:[8,40,8]);
+  sel.classList.toggle('kept',i<0);btn.ariaPressed=i<0;btn.textContent=`${i<0?'Kept':'Keep'} ${c}:${v}`;
+}
+function introHTML(x,b,c){ // who wrote the book, when, why, and its shape, with the part this chapter sits in marked
+  const here=r=>{const [a,z=a]=r.split(/[–-]/).map(Number);return c>=a&&c<=z},rb=bookOf(x.verse);
+  return `<summary>About ${b}</summary>
+    <dl><dt>Who wrote it</dt><dd>${esc(x.who)}</dd><dt>When</dt><dd>${esc(x.when)}</dd><dt>Why it was written</dt><dd>${esc(x.why)}</dd></dl>
+    <h3>The shape of ${b}</h3><ol class=stops>${x.outline.map(p=>`<li${here(p.chapters)?' class=next':''}><span class=mk aria-hidden=true></span><span class=stn>${esc(p.title)}</span><span class=tag>${here(p.chapters)?'You are here · ':''}${esc(p.chapters)}</span></li>`).join('')}</ol>
+    ${x.verse?`<p class=refs><span>Key verse</span><i><button class=ref aria-expanded=false data-r="${esc(x.verse)}" onclick=ref(this) style="--c:var(--${rb<0?'edge':bed(rb)[0]})"><b aria-hidden=true></b>${esc(x.verse)}</button></i></p>`:''}`;
+}
+const anchor=(body,c)=>+(body.match(new RegExp(`\\(${c}:(\\d+)`))||body.match(/\b[Vv]erse (\d+)/)||[])[1]||0;
+const noteHTML=x=>{const [name,ic]=KINDS[x.kind]||['Note','why'];
+  return `<div class=nhead><h3>${esc(x.title)}</h3><span class=kind>${icon(ic)}${name}</span></div><p>${esc(x.body)}</p>
+    ${x.refs.length?`<p class=refs><span>See also</span><i>${x.refs.map(r=>{const rb=bookOf(r);
+      return `<button class=ref aria-expanded=false data-r="${esc(r)}" onclick=ref(this) style="--c:var(--${rb<0?'edge':bed(rb)[0]})"><b aria-hidden=true></b>${esc(r)}</button>`}).join('')}</i></p>`:''}`};
+function notesHTML(list){
+  const k=days('2000-01-01',today())%list.length; // rotate daily so a revisit opens on a different note
+  return `<h2>Why &amp; How</h2><ol class=notes>${[...list.slice(k),...list.slice(0,k)].map(x=>`<li>${noteHTML(x)}</li>`).join('')}</ol>`;
+}
+function scriptureHTML(verses,list,at,x,kept=new Set()){ // verses as paragraphs (a new one where a speech opens); notes ride the fore edge as tabs at their verse
+  let h='',n=0;
+  const key=x?.skim?.advice?x.skim.key:[],names=(x?.names||[]).map(m=>({...m,re:new RegExp(`\\b${m.name.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}\\b`)})),found=[];
+  for(const v of verses){
+    const t=v.text.replace(/\s+/g,' ').trim();
+    if(n>1&&/^[“‘"]/.test(t)){h+='</div><div class=para>';n=0}
+    n++;
+    const tabs=list.map((x,j)=>{if(at[j]!==v.verse)return '';const [name,ic]=KINDS[x.kind]||['Note','why'];
+      return `<button class=tab aria-expanded=false aria-label="${name} note on verse ${v.verse}: ${esc(x.title)}" onclick="pull(this,${j})">${icon(ic)}</button>`}).join('');
+    let text=esc(t);
+    for(const m of names)if(!found.includes(m)&&m.re.test(text)){ // a name becomes tappable where it first appears
+      text=text.replace(m.re,w=>`<button class=who popovertarget=who-${found.length}>${w}</button>`);found.push(m)}
+    h+=`<span class="vs${key.includes(v.verse)?' key':''}${kept.has(v.verse)?' kept':''}" data-v=${v.verse} data-t="${esc(t)}">${tabs}<sup>${v.verse}</sup>${text} </span>`;
+  }
+  const skim=key.length?`<p class=skim><span class=kind>${icon('bigpicture')}Skim guide</span>${esc(x.skim.advice)} Key verses: ${key.map(k=>`<span class=kv>${k}</span>`).join(' ')}.</p>`:'';
+  return `${skim}<div class=para>${h}</div>${found.map((m,i)=>`<div popover id=who-${i} class=gloss role=dialog aria-label="${esc(m.name)}">
+    <p class=gk>${esc(m.kind)}</p><p class=gname>${esc(m.name)}</p><p>${esc(m.gloss)}</p>
+    <button class="go ghost slim" popovertarget=who-${i} popovertargetaction=hide autofocus>Back to the text</button></div>`).join('')}`;
+}
+function pull(btn,j){ // pulling a tab brings its note out under the verse it explains; pull again to put it back
+  const vs=btn.closest('.vs'),open=btn.ariaExpanded==='true';
+  btn.ariaExpanded=!open;
+  if(open)document.getElementById('pull-'+j)?.remove();
+  else{vs.insertAdjacentHTML('afterend',`<div class=pull id=pull-${j}>${noteHTML(NOTES[j])}</div>`);
+    step([vs.nextElementSibling],'perspective(900px) rotateX(-24deg)','50% 0')}
+  vs.classList.toggle('open',!!vs.querySelector('.tab[aria-expanded=true]'));
+  track();
+}
+function track(){ // the verse strip fills, one hard step per verse, as each verse passes the reading line; its value is the verse at the top
+  const vs=$.querySelectorAll('.vs'),cells=$.querySelectorAll('.vstrip i'),st=$.querySelector('.vstrip');if(!vs.length)return;
+  const above=y=>{let lo=0,hi=vs.length;while(lo<hi){const m=lo+hi>>1;vs[m].getBoundingClientRect().top<y?lo=m+1:hi=m}return lo}; // verses starting above y
+  const n=scrollY+innerHeight>=document.documentElement.scrollHeight-8?vs.length:above(innerHeight*.4),top=Math.max(above($.querySelector('.rbar').getBoundingClientRect().bottom+16),1);
+  cells.forEach((c,k)=>c.classList.toggle('on',k<n));st.ariaValueNow=top;st.ariaValueText=`Verse ${top} of ${vs.length}`;
+}
+// fill the gap: the rarest long word of one verse, against two others from the same chapter
+const STOP=new Set('should before therefore against because people children himself themselves through without another according whosoever whatever whether either neither between within around behold thereof wherefore unless toward towards became become always nothing something anyone everyone things saying answered'.split(' '));
+const hsh=s=>[...s].reduce((a,ch)=>(a*31+ch.charCodeAt(0))>>>0,7);
+function recallHTML(verses,key){
+  const words=t=>t.match(/[A-Za-z]+/g)||[],lc=w=>w.toLowerCase(),freq={};
+  for(const v of verses)for(const w of words(v.text))freq[lc(w)]=(freq[lc(w)]||0)+1;
+  const pool=verses.map(v=>({v,ws:[...new Set(words(v.text))].filter(w=>w.length>=6&&!STOP.has(lc(w))).sort((a,b)=>freq[lc(a)]-freq[lc(b)]||b.length-a.length)})).filter(x=>x.ws.length);
+  if(pool.length<3)return '';
+  const q=pool[hsh(key)%pool.length],ans=q.ws[0],cap=w=>w[0]!==lc(w[0]),inQ=new Set(words(q.v.text).map(lc));
+  const others=[...new Set(pool.filter(x=>x!==q).flatMap(x=>x.ws))].filter(w=>!inQ.has(lc(w)))
+    .sort((a,b)=>(cap(a)!==cap(ans))-(cap(b)!==cap(ans))||Math.abs(a.length-ans.length)-Math.abs(b.length-ans.length));
+  if(others.length<2)return '';
+  const opts=[ans,others[0],others[1]].sort((a,b)=>hsh(a+key)-hsh(b+key)),t=esc(q.v.text.replace(/\s+/g,' ').trim());
+  const gap=t.replace(new RegExp(`\\b${ans}\\b`),'<span class=blank><span class=sr>blank</span></span>');
+  return `<h2 id=rc-h>Fill the gap</h2><p class=gap>${gap}</p>
+    <div class=opts role=group aria-label="Choose the missing word" data-a="${ans}" data-r="${key}:${q.v.verse}">${opts.map(w=>`<button class=opt onclick=pick(this)>${w}</button>`).join('')}</div>
+    <p class="said mono" aria-live=polite tabindex=-1></p>`;
+}
+function pick(btn){
+  const box=btn.parentNode,ans=box.dataset.a,ok=btn.textContent===ans,blank=$.querySelector('.blank'),said=$.querySelector('.said');
+  for(const o of box.children){o.disabled=true;if(o.textContent===ans)o.classList.add('right')}
+  if(!ok)btn.classList.add('wrong'); // a wrong pick is an erratum
+  navigator.vibrate?.(ok?12:[30,50,30]);
+  blank.textContent=ans;blank.classList.add('filled');
+  said.textContent=ok?`Right. ${box.dataset.r}`:`It's "${ans}". ${box.dataset.r}`;said.focus();
+}
+async function ref(btn){ // tap a reference to show that passage under the note; tap again to hide
+  if(btn.q){btn.q.remove();btn.q=null;btn.setAttribute('aria-expanded',false);return}
+  const q=btn.q=document.createElement('blockquote');q.textContent='Loading…';btn.closest('.refs').after(q);btn.setAttribute('aria-expanded',true);
+  try{const r=await fetch(api(btn.dataset.r));if(!r.ok)throw 0;q.textContent=`${btn.dataset.r}: ${(await r.json()).text.replace(/\s+/g,' ').trim()}`}
+  catch{q.textContent=`Couldn't load ${btn.dataset.r}. Check your connection and tap the reference again.`}
+}
+function listen(btn){ // one utterance per verse, so the current verse can be highlighted
+  const stopped=()=>{wake?.release();wake=null;$.querySelector('.now')?.classList.remove('now');btn.setAttribute('aria-pressed',false);btn.innerHTML=icon('listen');btn.ariaLabel='Listen to this chapter'};
+  if(speechSynthesis.speaking){hush();return stopped()}
+  const vs=[...$.querySelectorAll('.vs')];
+  if(!vs.length)return;
+  vs.forEach((s,i)=>{
+    const u=new SpeechSynthesisUtterance(s.dataset.t);u.lang=TR[S.tr][1];u.rate=S.rate;
+    u.onstart=()=>{$.querySelector('.now')?.classList.remove('now');s.classList.add('now');s.scrollIntoView({block:'center'})};
+    if(i==vs.length-1)u.onend=stopped;
+    speechSynthesis.speak(u)});
+  navigator.wakeLock?.request('screen').then(l=>wake=l,()=>{});
+  btn.setAttribute('aria-pressed',true);btn.innerHTML=icon('stop');btn.ariaLabel='Stop listening';
+}
+function finish(btn){
+  if(turning)return;
+  const d=today(),i=cur(),bi=CH[i][2];
+  if(isRead(i))return go('today'); // a chapter read before: nothing new to record
+  stepped={bi,from:readIn(bi)/BOOKS[bi][1]};
+  setRead(i,true);S.log[d]=(S.log[d]||0)+1;S.at[d]=i;
+  if(S.day?.d!==d)S.day={d,idx:[]};S.day.idx.push(i);save();
+  const n=nextIn(S.read,i+1);at=n<CH.length?n:null; // carry on from here: the next unread chapter after this one
+  const next=at!=null&&S.log[d]<goal()?'reader':'today'; // keep reading until today's goal is met
+  navigator.vibrate?.(12);btn?.classList.add('punched');$.querySelectorAll('.vstrip i').forEach(c=>c.classList.add('on'));
+  const shut=step($.querySelectorAll('.opener,.scripture'),'perspective(900px) rotateY(-75deg)','0 50%',true); // the leaves hinge shut at the punched edge
+  if(!shut.length)return go(next);
+  turning=true;Promise.all(shut.map(a=>a.finished)).finally(()=>{turning=false;go(next)});
+}
+
+let installEvt; // Android Chrome: offer our own install button in Settings
+addEventListener('beforeinstallprompt',e=>{e.preventDefault();installEvt=e;if(view==='settings')render()});
+function install(){installEvt.prompt();installEvt=null;document.getElementById('inst')?.remove()}
+navigator.serviceWorker?.register('sw.js');
+render();
+</script>
+</body>
+</html>

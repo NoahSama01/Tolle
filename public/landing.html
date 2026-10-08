@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f0bf2c">
+<meta name="description" content="Tolle helps you read the whole Bible by a date you choose, in any order.">
+<link rel="icon" href="icon-192.png">
+<title>Tolle: the whole Bible, by your date</title>
+<link rel="stylesheet" href="tokens.css">
+<style>
+:root{--board:var(--history);--on-board:var(--ink);--leaf-a:.661;--rail:2rem}
+html{background:var(--board)}
+body{margin:0;overflow-x:clip;color:var(--ink);font:400 1.0625rem/1.55 var(--sans);font-stretch:100%;background:var(--board) url(board-grain.png)}
+a{color:inherit}
+.wrap{max-width:70rem;margin:0 auto;padding-inline:1rem calc(var(--rail) + 1rem)}
+section{padding-block:2.5rem}
+h1,h2{margin:0;font-family:var(--head);font-weight:800;font-stretch:72%;line-height:.92;letter-spacing:-.005em;text-transform:uppercase;text-wrap:balance}
+h1{font-size:clamp(2.9rem,7vw,5.75rem);max-width:11ch}
+h2{font-size:clamp(2rem,4vw,3rem);max-width:14ch}
+p{margin:0}
+.mono{font:500 .78rem/1.4 var(--mono);letter-spacing:.02em;text-transform:uppercase;font-variant-numeric:tabular-nums}
+.lede{margin-top:1.1rem;max-width:44ch;font-size:1.1875rem}
+
+.leaf{padding:1.4rem 1.4rem 1.6rem 2.6rem}
+.leaf p+p{margin-top:.75rem}
+
+/* the fore-edge thumb index (shared in tokens.css) runs the whole page; its tabs step in from the edge */
+.rail li>span{animation:tab var(--hinge) both;animation-delay:calc(var(--k) * 90ms)}
+@keyframes tab{from{translate:100% 0}}
+
+.nav{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding-block:1.25rem}
+.go,.ghost{display:inline-flex;align-items:center;gap:.75rem;min-height:3.25rem;padding:0 1.2rem;border-radius:2px;font:700 .95rem var(--head);font-stretch:82%;letter-spacing:.06em;text-transform:uppercase;text-decoration:none}
+.go{background:var(--ink);color:var(--milk)}
+.go:hover{background:var(--ink-down)}
+.ghost{border:1.5px solid var(--ink)}
+.ghost:hover{background:rgba(21,21,21,.08)}
+.go:active,.ghost:active{translate:1px 1px}
+.nav .go{min-height:2.75rem;padding:0 1rem;font-size:.8rem}
+.ctas{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.6rem}
+
+.hero{display:grid;gap:1.5rem;align-items:start;padding-top:1rem}
+.row{display:grid;gap:1.5rem;align-items:start}
+.row>div.leaf>p:not(.mono){max-width:40ch}
+.today .st{margin:0 0 .4rem;font:800 2.2rem/.95 var(--head);font-stretch:72%;text-transform:uppercase}
+.stops{list-style:none;margin:1rem 0 0;padding:0}
+.stops li{display:flex;align-items:center;gap:.75rem;min-height:2.75rem;padding-block:.25rem;border-top:1px solid var(--rule)}
+
+form.leaf label{display:block;margin:0 0 .4rem;font:700 .75rem var(--head);letter-spacing:.12em;text-transform:uppercase}
+form.leaf label~label{margin-top:1rem}
+form.leaf select,form.leaf input{width:100%;min-height:3rem;padding:0 .8rem;border:1.5px solid var(--ink);border-radius:2px;background:var(--milk);color:var(--ink);font:inherit}
+.out{margin-top:1.1rem;padding-top:.9rem;border-top:1.5px solid var(--ink)}
+.out b{font:800 2.6rem/1 var(--head);font-stretch:72%;vertical-align:-.12em;margin-right:.2em}
+
+.picks{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:1rem}
+
+.wh{font:700 .95rem var(--head);letter-spacing:.12em;text-transform:uppercase}
+.note .nhead{margin-top:1rem}
+.note p{margin-top:.35rem;max-width:31em}
+.note .ref{margin-top:.75rem}
+
+.every{display:flex;flex-wrap:wrap;gap:2px;margin-top:1rem}
+.every i{width:4px;height:12px;background:var(--c);box-shadow:inset 0 -2px 0 rgba(21,21,21,.25)}
+.facts{display:grid;gap:0 2.5rem;margin-top:1rem}
+.facts div{padding:1rem 0;border-top:1px solid var(--rule)}
+.facts h3{margin:0 0 .25rem;font:700 1.0625rem var(--sans)}
+.facts p{color:var(--ink-2)}
+.end h2{font-size:clamp(2.9rem,7vw,5.75rem);max-width:none}
+footer{padding-block:2rem 3rem;color:var(--on-board);font:400 .875rem/1.5 var(--sans)}
+footer p+p{margin-top:.4rem}
+
+@media(min-width:960px){
+  :root{--rail:4.75rem}
+  section{padding-block:3.5rem}
+  .hero{grid-template-columns:1.25fr .75fr;gap:2.5rem;padding-top:2rem}
+  .row{grid-template-columns:.85fr 1.15fr;gap:2.5rem}
+  .row.flip{grid-template-columns:1.15fr .85fr}
+  .row.flip>:first-child{order:2}
+  .facts{grid-template-columns:1fr 1fr}
+}
+/* reading the page reads the Bible: the fore-edge tabs fill top to bottom with the page's scroll,
+   and the 1,189-chapter index inks in row by row as it passes. Colour only, so it stays under reduced motion */
+@property --p{syntax:'<number>';inherits:true;initial-value:0}
+@supports (animation-timeline:scroll()){
+  .rail{animation:readp linear both;animation-timeline:scroll(root)}
+  @keyframes readp{to{--p:1}}
+  .rail li>span{background:linear-gradient(rgba(21,21,21,.5) calc(clamp(0,(var(--p) - var(--a)) / (var(--b) - var(--a)),1) * 100%),transparent 0),var(--c)}
+  .every{position:relative}
+  .every::after{content:'';position:absolute;inset:-1px;background:var(--leaf);opacity:.8;animation:unveil steps(12,jump-end) both;animation-timeline:view();animation-range:entry 50% cover 55%}
+  @keyframes unveil{to{clip-path:inset(100% 0 0 0)}}
+}
+@media(prefers-reduced-motion:reduce){
+  .rail li>span{animation:none}
+  .go:active,.ghost:active{translate:none}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="i-word" viewBox="0 0 24 24"><path d="M5 20l7-16 7 16M8 14h8"/></symbol>
+</defs></svg>
+
+<ol class="rail" aria-label="The six divisions of the Bible, sized by number of chapters">
+  <li class="law" style="flex:187 1 0;--k:0;--a:0;--b:0.1573"><span><span class=tl><span class=f>Law</span><span class=s>Law</span></span></span></li>
+  <li class="history cur" style="flex:249 1 0;--k:1;--a:0.1573;--b:0.3667"><span><span class=tl><span class=f>History</span><span class=s>History</span></span></span></li>
+  <li class="wisdom" style="flex:243 1 0;--k:2;--a:0.3667;--b:0.5711"><span><span class=tl><span class=f>Wisdom</span><span class=s>Wisdom</span></span></span></li>
+  <li class="prophets" style="flex:250 1 0;--k:3;--a:0.5711;--b:0.7813"><span><span class=tl><span class=f>Prophets</span><span class=s>Prophets</span></span></span></li>
+  <li class="gospels" style="flex:117 1 0;--k:4;--a:0.7813;--b:0.8797"><span><span class=tl><span class=f>Gospels &amp; Acts</span><span class=s>Gosp. Acts</span></span></span></li>
+  <li class="letters" style="flex:143 1 0;--k:5;--a:0.8797;--b:1"><span><span class=tl><span class=f>Letters &amp; Revelation</span><span class=s>Lett. Rev.</span></span></span></li>
+</ol>
+
+<header class="wrap nav">
+  <a class="mark" href="landing.html">Tolle</a>
+  <a class="go" href="./">Open Tolle</a>
+</header>
+
+<main>
+<section class="wrap hero">
+  <div class="leaf clear">
+    <h1>The whole Bible, by your date.</h1>
+    <p class="lede">Pick the day you want to finish. Tolle divides what's left into a few chapters a day, in whatever order you've read so far.</p>
+    <div class="ctas">
+      <a class="go" href="./">Plan your reading<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="ghost" href="#how">See how it works</a>
+    </div>
+  </div>
+  <div class="leaf today" aria-label="Example of a day in Tolle">
+    <p class="st">Joshua 3</p>
+    <p class="mono">History · 3&nbsp;of&nbsp;13&nbsp;today · On&nbsp;track</p>
+    <ol class="stops">
+      <li class="passed"><span class="mk"></span><span class="stn">Joshua 1</span><span class="tag">Read</span></li>
+      <li class="passed"><span class="mk"></span><span class="stn">Joshua 2</span><span class="tag">Read</span></li>
+      <li class="next"><span class="mk"></span><span class="stn">Joshua 3</span><span class="tag">Now</span></li>
+      <li><span class="mk"></span><span class="stn">Joshua 4</span><span class="tag">4 min</span></li>
+    </ol>
+  </div>
+</section>
+
+<section class="wrap row" id="how">
+  <div class="leaf">
+    <h2>Your deadline sets the pace.</h2>
+    <p style="margin-top:1rem">Tell Tolle what you've read and when you want to finish. It divides what's left by the days left and gives you today's chapters. Miss a day and tomorrow's portion grows a little, so you still finish on time.</p>
+  </div>
+  <form class="leaf" onsubmit="return false">
+    <label for="from">Already read</label>
+    <select id="from"><option value="0">Nothing yet</option><option value="90" selected>Genesis and Exodus</option><option value="929">The Old Testament</option></select>
+    <label for="to">Finish by</label>
+    <input type="date" id="to">
+    <p class="out" id="out" aria-live="polite"></p>
+  </form>
+</section>
+
+<section class="wrap row flip">
+  <div class="leaf">
+    <h2>Read in any order.</h2>
+    <p style="margin-top:1rem">Not everyone starts at Genesis. Tick the books you've already read, anywhere in the Bible, and Tolle plans only what's left. Read a book elsewhere later? Mark it on the index.</p>
+  </div>
+  <div class="leaf" aria-label="Try it: tick books you've read">
+    <p class="mono" id="any">Tap a few books</p>
+    <div class="picks">
+      <label class="bk-pick law"><input type="checkbox" value="0" checked><span>Genesis</span></label>
+      <label class="bk-pick wisdom"><input type="checkbox" value="18" checked><span>Psalms</span></label>
+      <label class="bk-pick wisdom"><input type="checkbox" value="19"><span>Proverbs</span></label>
+      <label class="bk-pick gospels"><input type="checkbox" value="42" checked><span>John</span></label>
+      <label class="bk-pick letters"><input type="checkbox" value="44"><span>Romans</span></label>
+    </div>
+    <div class="strip" id="strip" role="img" aria-label="The 66 books laid flat, sized by chapters; ticked books filled"></div>
+  </div>
+</section>
+
+<section class="wrap row">
+  <div class="leaf">
+    <h2>Know why each chapter is there.</h2>
+    <p style="margin-top:1rem">Why &amp; How notes give the situation behind the text, the Hebrew or Greek word you'd read past, the history that explains it, and the passages it connects to. Where traditions disagree, the notes say so instead of picking a side.</p>
+    <p>Leviticus has notes now. More books are added as they're written.</p>
+  </div>
+  <div class="leaf note" aria-label="Example note from Leviticus 1">
+    <p class="wh">Why &amp; How</p>
+    <div class="nhead"><h3>Korban: the gift that brings near</h3><span class="kind"><svg class="ic" aria-hidden="true"><use href="#i-word"/></svg>Original language</span></div>
+    <p class="mono" style="margin-top:.2rem">Leviticus 1:2</p>
+    <p>The Hebrew word for offering, korban (1:2), comes from the root q-r-b, "to come near." In Leviticus an offering is first of all a way of approaching God, not just giving something up.</p>
+    <button class="ref" style="--c:var(--gospels)" aria-expanded="false" aria-controls="q" onclick="const o=this.ariaExpanded==='true';this.ariaExpanded=!o;q.hidden=o"><b aria-hidden="true"></b>Mark 7:11</button>
+    <blockquote id="q" hidden>Mark 7:11: But you say, 'If a man tells his father or his mother, "Whatever profit you might have received from me is Corban, that is to say, given to God";'</blockquote>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="leaf">
+    <h2>1,189 chapters. One index.</h2>
+    <div class="every" id="every" role="img" aria-label="All 1,189 chapters of the Bible, coloured by division"></div>
+    <div class="facts">
+      <div><h3>Reads aloud</h3><p>Listen on the way to work. The verse being read stays highlighted.</p></div>
+      <div><h3>Works offline</h3><p>Today's chapters are saved to your phone each morning.</p></div>
+      <div><h3>Seven translations</h3><p>Public-domain English Bibles, from the King James to the World English Bible.</p></div>
+      <div><h3>No account needed</h3><p>Your progress stays on your device. Install it to your home screen like an app.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap end">
+  <div class="leaf clear">
+    <h2>Tolle, lege.</h2>
+    <p class="lede">In a garden in Milan, Augustine heard a voice like a child's chanting "take up and read." He opened the book beside him and read. Your index starts with one chapter.</p>
+    <div class="ctas"><a class="go" href="./">Plan your reading<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+  </div>
+</section>
+</main>
+
+<footer class="wrap">
+  <p>Scripture text: public-domain translations via bible-api.com.</p>
+  <p>Why &amp; How notes are AI-written and being added book by book. Check them against your own study.</p>
+</footer>
+
+<script>
+// chapters per book in canonical order, and the division each book sits in
+const N=[50,40,27,36,34,24,21,4,31,24,22,25,29,36,10,13,10,42,150,31,12,8,66,52,5,48,12,14,3,9,1,4,7,3,3,3,2,14,4,28,16,24,21,28,16,16,13,6,6,4,4,5,3,6,4,3,1,13,5,5,3,5,1,1,1,22];
+const DIV=['law','history','wisdom','prophets','gospels','letters'],SPLIT=[5,12,5,17,5,22];
+const divOf=N.map((_,i)=>{let k=i,d=0;while(k>=SPLIT[d])k-=SPLIT[d++];return DIV[d]});
+every.innerHTML=N.map((n,i)=>`<i class=${divOf[i]}></i>`.repeat(n)).join('');
+
+// try it: ticked books fill the flat index
+function drawStrip(){
+  const on=new Set([...document.querySelectorAll('.picks input:checked')].map(c=>+c.value));
+  strip.innerHTML=N.map((n,i)=>`<i class=${divOf[i]} style="--n:${n};--f:${on.has(i)?1:0}"></i>`).join('');
+  const ch=[...on].reduce((a,i)=>a+N[i],0);any.textContent=`${on.size} book${on.size==1?'':'s'} read · ${ch} of 1,189 chapters · ${1189-ch} to plan`;
+}
+document.querySelectorAll('.picks input').forEach(c=>c.onchange=drawStrip);drawStrip();
+
+// the plan calculator uses the app's own rule: what's left divided by the days left
+const iso=d=>d.toLocaleDateString('en-CA');
+to.min=iso(new Date());to.value=`${new Date().getFullYear()}-12-31`;
+function calc(){
+  if(!to.value)return out.textContent='Pick a date to see your daily chapters.';
+  const d=Math.max(1,Math.round((new Date(to.value)-new Date(iso(new Date())))/864e5)+1),n=Math.ceil((1189-+from.value)/d);
+  out.innerHTML=`<b>${n}</b> chapter${n==1?'':'s'} a day, about ${Math.round(n*3.5)} minutes, for ${d} day${d==1?'':'s'}.`;
+}
+from.onchange=to.onchange=calc;calc();
+</script>
+</body>
+</html>

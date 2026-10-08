@@ -1,0 +1,521 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-07T12:20:03.318Z",
+  "title": "Design System: Tolle",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Print Ink",
+        "canonical": "#151515",
+        "oklch": "oklch(19.6% 0.000 89.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 89.9)",
+          "oklch(26.0% 0.000 89.9)",
+          "oklch(37.0% 0.000 89.9)",
+          "oklch(48.0% 0.000 89.9)",
+          "oklch(60.0% 0.000 89.9)",
+          "oklch(71.0% 0.000 89.9)",
+          "oklch(83.0% 0.000 89.9)",
+          "oklch(95.0% 0.000 89.9)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink 2",
+        "canonical": "#4a4a46",
+        "oklch": "oklch(40.8% 0.007 106.7)",
+        "tonalRamp": [
+          "oklch(15.0% 0.007 106.7)",
+          "oklch(26.0% 0.007 106.7)",
+          "oklch(37.0% 0.007 106.7)",
+          "oklch(48.0% 0.007 106.7)",
+          "oklch(60.0% 0.007 106.7)",
+          "oklch(71.0% 0.007 106.7)",
+          "oklch(83.0% 0.007 106.7)",
+          "oklch(95.0% 0.002 106.7)"
+        ]
+      },
+      "ink-down": {
+        "role": "primary",
+        "displayName": "Ink Down",
+        "canonical": "#2b2b29",
+        "oklch": "oklch(28.8% 0.004 106.6)",
+        "tonalRamp": [
+          "oklch(15.0% 0.004 106.6)",
+          "oklch(26.0% 0.004 106.6)",
+          "oklch(37.0% 0.004 106.6)",
+          "oklch(48.0% 0.004 106.6)",
+          "oklch(60.0% 0.004 106.6)",
+          "oklch(71.0% 0.004 106.6)",
+          "oklch(83.0% 0.004 106.6)",
+          "oklch(95.0% 0.001 106.6)"
+        ]
+      },
+      "milk": {
+        "role": "neutral",
+        "displayName": "Milk Acetate",
+        "canonical": "#fbfbf6",
+        "oklch": "oklch(98.7% 0.007 106.5)",
+        "tonalRamp": [
+          "oklch(15.0% 0.007 106.5)",
+          "oklch(26.0% 0.007 106.5)",
+          "oklch(37.0% 0.007 106.5)",
+          "oklch(48.0% 0.007 106.5)",
+          "oklch(60.0% 0.007 106.5)",
+          "oklch(71.0% 0.007 106.5)",
+          "oklch(83.0% 0.007 106.5)",
+          "oklch(95.0% 0.002 106.5)"
+        ]
+      },
+      "on-board-light": {
+        "role": "neutral",
+        "displayName": "On-Board White",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 89.9)",
+          "oklch(26.0% 0.000 89.9)",
+          "oklch(37.0% 0.000 89.9)",
+          "oklch(48.0% 0.000 89.9)",
+          "oklch(60.0% 0.000 89.9)",
+          "oklch(71.0% 0.000 89.9)",
+          "oklch(83.0% 0.000 89.9)",
+          "oklch(95.0% 0.000 89.9)"
+        ]
+      },
+      "law": {
+        "role": "secondary",
+        "displayName": "Oxide Orange (Law)",
+        "canonical": "#df6a2e",
+        "oklch": "oklch(65.6% 0.163 44.8)",
+        "tonalRamp": [
+          "oklch(15.0% 0.163 44.8)",
+          "oklch(26.0% 0.163 44.8)",
+          "oklch(37.0% 0.163 44.8)",
+          "oklch(48.0% 0.163 44.8)",
+          "oklch(60.0% 0.163 44.8)",
+          "oklch(71.0% 0.163 44.8)",
+          "oklch(83.0% 0.163 44.8)",
+          "oklch(95.0% 0.057 44.8)"
+        ]
+      },
+      "history": {
+        "role": "secondary",
+        "displayName": "Chrome Yellow (History)",
+        "canonical": "#f0bf2c",
+        "oklch": "oklch(82.6% 0.158 88.5)",
+        "tonalRamp": [
+          "oklch(15.0% 0.158 88.5)",
+          "oklch(26.0% 0.158 88.5)",
+          "oklch(37.0% 0.158 88.5)",
+          "oklch(48.0% 0.158 88.5)",
+          "oklch(60.0% 0.158 88.5)",
+          "oklch(71.0% 0.158 88.5)",
+          "oklch(83.0% 0.158 88.5)",
+          "oklch(95.0% 0.055 88.5)"
+        ]
+      },
+      "wisdom": {
+        "role": "secondary",
+        "displayName": "Grass (Wisdom)",
+        "canonical": "#4e9a3e",
+        "oklch": "oklch(61.7% 0.149 140.3)",
+        "tonalRamp": [
+          "oklch(15.0% 0.149 140.3)",
+          "oklch(26.0% 0.149 140.3)",
+          "oklch(37.0% 0.149 140.3)",
+          "oklch(48.0% 0.149 140.3)",
+          "oklch(60.0% 0.149 140.3)",
+          "oklch(71.0% 0.149 140.3)",
+          "oklch(83.0% 0.149 140.3)",
+          "oklch(95.0% 0.052 140.3)"
+        ]
+      },
+      "prophets": {
+        "role": "secondary",
+        "displayName": "Teal (Prophets)",
+        "canonical": "#1a9b9b",
+        "oklch": "oklch(62.7% 0.102 194.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.102 194.9)",
+          "oklch(26.0% 0.102 194.9)",
+          "oklch(37.0% 0.102 194.9)",
+          "oklch(48.0% 0.102 194.9)",
+          "oklch(60.0% 0.102 194.9)",
+          "oklch(71.0% 0.102 194.9)",
+          "oklch(83.0% 0.102 194.9)",
+          "oklch(95.0% 0.036 194.9)"
+        ]
+      },
+      "gospels": {
+        "role": "secondary",
+        "displayName": "Ultramarine (Gospels & Acts)",
+        "canonical": "#2e4fb0",
+        "oklch": "oklch(46.1% 0.160 266.1)",
+        "tonalRamp": [
+          "oklch(15.0% 0.160 266.1)",
+          "oklch(26.0% 0.160 266.1)",
+          "oklch(37.0% 0.160 266.1)",
+          "oklch(48.0% 0.160 266.1)",
+          "oklch(60.0% 0.160 266.1)",
+          "oklch(71.0% 0.160 266.1)",
+          "oklch(83.0% 0.160 266.1)",
+          "oklch(95.0% 0.056 266.1)"
+        ]
+      },
+      "letters": {
+        "role": "secondary",
+        "displayName": "Violet (Letters & Revelation)",
+        "canonical": "#7350ad",
+        "oklch": "oklch(51.3% 0.144 298.6)",
+        "tonalRamp": [
+          "oklch(15.0% 0.144 298.6)",
+          "oklch(26.0% 0.144 298.6)",
+          "oklch(37.0% 0.144 298.6)",
+          "oklch(48.0% 0.144 298.6)",
+          "oklch(60.0% 0.144 298.6)",
+          "oklch(71.0% 0.144 298.6)",
+          "oklch(83.0% 0.144 298.6)",
+          "oklch(95.0% 0.050 298.6)"
+        ]
+      },
+      "errata": {
+        "role": "tertiary",
+        "displayName": "Errata Vermilion",
+        "canonical": "#d63a22",
+        "oklch": "oklch(58.1% 0.196 31.7)",
+        "tonalRamp": [
+          "oklch(15.0% 0.196 31.7)",
+          "oklch(26.0% 0.196 31.7)",
+          "oklch(37.0% 0.196 31.7)",
+          "oklch(48.0% 0.196 31.7)",
+          "oklch(60.0% 0.196 31.7)",
+          "oklch(71.0% 0.196 31.7)",
+          "oklch(83.0% 0.196 31.7)",
+          "oklch(95.0% 0.069 31.7)"
+        ]
+      },
+      "plate-night": {
+        "role": "neutral",
+        "displayName": "Night Plate",
+        "canonical": "#1b1b19",
+        "oklch": "oklch(22.1% 0.004 106.7)",
+        "tonalRamp": [
+          "oklch(15.0% 0.004 106.7)",
+          "oklch(26.0% 0.004 106.7)",
+          "oklch(37.0% 0.004 106.7)",
+          "oklch(48.0% 0.004 106.7)",
+          "oklch(60.0% 0.004 106.7)",
+          "oklch(71.0% 0.004 106.7)",
+          "oklch(83.0% 0.004 106.7)",
+          "oklch(95.0% 0.001 106.7)"
+        ]
+      },
+      "plate-ink-night": {
+        "role": "neutral",
+        "displayName": "Night Plate Ink",
+        "canonical": "#ecece4",
+        "oklch": "oklch(94.1% 0.011 106.6)",
+        "tonalRamp": [
+          "oklch(15.0% 0.011 106.6)",
+          "oklch(26.0% 0.011 106.6)",
+          "oklch(37.0% 0.011 106.6)",
+          "oklch(48.0% 0.011 106.6)",
+          "oklch(60.0% 0.011 106.6)",
+          "oklch(71.0% 0.011 106.6)",
+          "oklch(83.0% 0.011 106.6)",
+          "oklch(95.0% 0.004 106.6)"
+        ]
+      },
+      "plate-dim-night": {
+        "role": "neutral",
+        "displayName": "Night Plate Dim",
+        "canonical": "#a9a99f",
+        "oklch": "oklch(73.2% 0.014 106.7)",
+        "tonalRamp": [
+          "oklch(15.0% 0.014 106.7)",
+          "oklch(26.0% 0.014 106.7)",
+          "oklch(37.0% 0.014 106.7)",
+          "oklch(48.0% 0.014 106.7)",
+          "oklch(60.0% 0.014 106.7)",
+          "oklch(71.0% 0.014 106.7)",
+          "oklch(83.0% 0.014 106.7)",
+          "oklch(95.0% 0.005 106.7)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule Hairline",
+        "canonical": "rgba(21,21,21,.16)",
+        "tonalRamp": [
+          "rgba(21,21,21,.04)",
+          "rgba(21,21,21,.08)",
+          "rgba(21,21,21,.12)",
+          "rgba(21,21,21,.16)",
+          "rgba(21,21,21,.24)",
+          "rgba(21,21,21,.35)",
+          "rgba(21,21,21,.5)",
+          "rgba(21,21,21,.7)"
+        ]
+      }
+    },
+    "derivedColors": [
+      {
+        "name": "leaf",
+        "value": "color-mix(in srgb, var(--milk) calc(var(--leaf-a) * 100%), var(--board))",
+        "purpose": "Milk-acetate leaf; --leaf-a is solved offline per board to luminance 0.80 and stored in BEDS.",
+        "solvedAlpha": {
+          "law": 0.841,
+          "history": 0.661,
+          "wisdom": 0.835,
+          "prophets": 0.84,
+          "gospels": 0.886,
+          "letters": 0.875
+        }
+      },
+      {
+        "name": "clear-leaf",
+        "value": "color-mix(in srgb, var(--milk) calc((var(--leaf-a) - .1) * 100%), var(--board))",
+        "purpose": "Top ply only."
+      },
+      {
+        "name": "board",
+        "value": "one of var(--law|--history|--wisdom|--prophets|--gospels|--letters)",
+        "purpose": "Set per view by setBoard() to the current division; the landing page fixes History."
+      },
+      {
+        "name": "on-board",
+        "value": "#151515 on law/history/wisdom/prophets; #ffffff on gospels/letters",
+        "purpose": "Ink that reads directly on the board."
+      }
+    ],
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Landing h1 and closing h2; Archivo 800 at font-stretch 72%, caps, balanced."
+      },
+      "headline": {
+        "displayName": "Station",
+        "purpose": "Next chapter on the top ply (3.3rem at >=960px); page titles at 2.2rem. Archivo 800, 72%, caps."
+      },
+      "title": {
+        "displayName": "Divider",
+        "purpose": "Division dividers on the Index; Archivo 800, 85%, caps."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "TOLLE only; Archivo 800 at 125%, .2em, caps."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Primary/ghost buttons and jump chips; Archivo 700 caps at 82%, .06em."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Section heads, form labels (.75rem), tab-bar labels (.72rem); Archivo 700 caps, .12em."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "UI copy and notes (31em measure); landing 1.0625rem/1.55."
+      },
+      "scripture": {
+        "displayName": "Scripture",
+        "purpose": "Chapter text on the plate, 30em measure. EB Garamond only here and in quoted cross-references."
+      },
+      "data": {
+        "displayName": "Data",
+        "purpose": "Counts, minutes, dates, references, status slip, note-kind tab, rail label slips. Never running prose."
+      }
+    },
+    "shadows": [
+      {
+        "name": "leaf-cut",
+        "value": "3px 3px 0 rgba(21,21,21,.24)",
+        "purpose": "Every leaf on both pages (the shared parts in tokens.css)."
+      },
+      {
+        "name": "rail-tab",
+        "value": "-2px 2px 0 rgba(21,21,21,.22)",
+        "purpose": "Non-current rail tabs; the current tab has none."
+      },
+      {
+        "name": "punch-hole",
+        "value": "inset 1.5px 1.5px 0 rgba(21,21,21,.35)",
+        "purpose": "Leaf binding holes; selected holes use .4-.5 alpha."
+      },
+      {
+        "name": "index-tick",
+        "value": "inset 0 -2px 0 rgba(21,21,21,.25)",
+        "purpose": "Read chapter ticks."
+      }
+    ],
+    "motion": [
+      {
+        "name": "hinge",
+        "value": "90ms steps(2,jump-end)",
+        "purpose": "Every change: leaf hinge (rotateY -16deg from the left edge), book panel (rotateX -20deg), row punch (scale 0), rail band step (scaleX .55). No easing, no fades."
+      },
+      {
+        "name": "rail-entry-stagger",
+        "value": "calc(var(--k) * 90ms)",
+        "purpose": "Landing only: rail tabs step in from the edge one after another."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "instant",
+        "purpose": "prefers-reduced-motion: JS step() and the band step return early, CSS removes animations and press translates."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "desktop",
+        "value": "960px",
+        "purpose": "Rail 2rem to 4.5rem (app) / 4.75rem (landing); tab bar becomes the left column; Today splits."
+      }
+    ],
+    "night": {
+      "query": "prefers-color-scheme: dark",
+      "changes": {
+        "--plate": "#1b1b19",
+        "--plate-ink": "#ecece4",
+        "--plate-dim": "#a9a99f"
+      },
+      "purpose": "Only the scripture plate turns face-down."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Print-ink slab for the one main action.",
+      "html": "<button class=\"ds-go\">Read Leviticus 3<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"square\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-go{display:flex;align-items:center;justify-content:space-between;gap:.75rem;width:20rem;min-height:3.25rem;padding:0 1.1rem;border:0;border-radius:2px;background:var(--ink,#151515);color:var(--milk,#fbfbf6);font:700 .95rem Archivo,system-ui,sans-serif;font-stretch:82%;letter-spacing:.06em;text-transform:uppercase;cursor:pointer}.ds-go:hover{background:var(--ink-down,#2b2b29)}.ds-go:active{translate:1px 1px}.ds-go:focus-visible{outline:2.5px solid #151515;outline-offset:3px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action outlined in ink.",
+      "html": "<button class=\"ds-ghost\">See how it works</button>",
+      "css": ".ds-ghost{display:inline-flex;align-items:center;min-height:3.25rem;padding:0 1.2rem;border:1.5px solid #151515;border-radius:2px;background:none;color:#151515;font:700 .95rem Archivo,system-ui,sans-serif;font-stretch:82%;letter-spacing:.06em;text-transform:uppercase;cursor:pointer}.ds-ghost:hover{background:rgba(21,21,21,.08)}.ds-ghost:active{translate:1px 1px}.ds-ghost:focus-visible{outline:2.5px solid #151515;outline-offset:3px}"
+    },
+    {
+      "name": "Leaf",
+      "kind": "card",
+      "refersTo": "leaf",
+      "description": "Milk-acetate leaf on the board: two punch holes, hard cut-side shadow.",
+      "html": "<div class=\"ds-board\"><div class=\"ds-leaf\"><p class=\"ds-station\">Deuteronomy 2</p><p class=\"ds-meta\">Law · 5 of 13 today</p></div></div>",
+      "css": ".ds-board{padding:1.5rem;background:#df6a2e}.ds-leaf{position:relative;padding:1.15rem 1.15rem 1.3rem 2.4rem;border-radius:3px;background:color-mix(in srgb,#fbfbf6 84.1%,#df6a2e);box-shadow:3px 3px 0 rgba(21,21,21,.24);color:#151515}.ds-leaf::before,.ds-leaf::after{content:'';position:absolute;left:.75rem;width:.75rem;height:.75rem;border-radius:50%;background:#df6a2e;box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.35)}.ds-leaf::before{top:1.05rem}.ds-leaf::after{bottom:1.05rem}.ds-station{margin:0 0 .6rem;font:800 2.6rem/.95 Archivo,system-ui,sans-serif;font-stretch:72%;text-transform:uppercase}.ds-meta{margin:0;color:#4a4a46;font:500 .8rem/1.4 'JetBrains Mono',ui-monospace,monospace;letter-spacing:.02em}"
+    },
+    {
+      "name": "Book Pick",
+      "kind": "chip",
+      "refersTo": "bk-pick",
+      "description": "Selectable book chip; selected fills with the division hue and punches a hole.",
+      "html": "<div class=\"ds-board\"><label class=\"ds-pick\"><input type=\"checkbox\" checked><span>Genesis</span></label><label class=\"ds-pick\"><input type=\"checkbox\"><span>Psalms</span></label></div>",
+      "css": ".ds-board{display:flex;gap:.4rem;padding:1rem;background:#f0bf2c}.ds-pick{position:relative;display:inline-flex;align-items:center;gap:.45rem;min-height:2.75rem;padding:0 .8rem;border:1.5px solid #151515;border-radius:2px;background:#fbfbf6;color:#151515;font:500 .9375rem Archivo,system-ui,sans-serif;cursor:pointer}.ds-pick input{position:absolute;opacity:0;pointer-events:none}.ds-pick:hover{background:#fff}.ds-pick:has(input:checked){background:#df6a2e}.ds-pick:has(input:checked)::before{content:'';width:.7rem;height:.7rem;border-radius:50%;background:#f0bf2c;box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.4)}.ds-pick:has(input:focus-visible){outline:2.5px solid #151515;outline-offset:3px}"
+    },
+    {
+      "name": "Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Milk field with an ink stroke.",
+      "html": "<label class=\"ds-label\" for=\"ds-d\">Finish by</label><input class=\"ds-input\" id=\"ds-d\" type=\"date\">",
+      "css": ".ds-label{display:block;margin:0 0 .4rem;font:700 .75rem Archivo,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#151515}.ds-input{width:16rem;min-height:3rem;padding:0 .8rem;border:1.5px solid #151515;border-radius:2px;background:#fbfbf6;color:#151515;font:400 1rem Archivo,system-ui,sans-serif}.ds-input:focus{outline:2.5px solid #151515;outline-offset:1px}"
+    },
+    {
+      "name": "Tab Bar",
+      "kind": "nav",
+      "refersTo": "nav-tab-bar",
+      "description": "Ink bottom tabs; the active item carries a punched hole.",
+      "html": "<nav class=\"ds-tabs\"><button aria-current=\"page\">Today</button><button>Index</button><button>Settings</button></nav>",
+      "css": ".ds-tabs{display:flex;width:22rem;background:#151515}.ds-tabs button{flex:1;min-height:4.25rem;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.3rem;background:none;border:0;color:#b9b9b2;font:700 .72rem Archivo,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;cursor:pointer}.ds-tabs button:hover,.ds-tabs button[aria-current=page]{color:#fbfbf6}.ds-tabs button[aria-current=page]::after{content:'';width:.6rem;height:.6rem;border-radius:50%;background:#df6a2e;box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.5)}.ds-tabs button:focus-visible{outline:2.5px solid #fbfbf6;outline-offset:-4px}"
+    },
+    {
+      "name": "Status Slip",
+      "kind": "chip",
+      "refersTo": "status-slip",
+      "description": "On-track slip; behind becomes the vermilion errata slip.",
+      "html": "<div class=\"ds-board\"><p class=\"ds-status\">On track</p><p class=\"ds-status ds-late\">3 behind</p></div>",
+      "css": ".ds-board{display:flex;gap:1rem;padding:1rem;background:#df6a2e;color:#151515}.ds-status{margin:0;padding:.35rem .6rem;border:1.5px solid currentColor;border-radius:2px;font:500 .75rem 'JetBrains Mono',ui-monospace,monospace;letter-spacing:.04em;text-transform:uppercase}.ds-late{border-color:#d63a22;background:#d63a22;color:#fff}"
+    },
+    {
+      "name": "Fore-edge Rail",
+      "kind": "custom",
+      "refersTo": "rail",
+      "description": "Thumb index: tabs sized by chapter extent, book bands filling by read fraction, current tab extended, full names on milk slips.",
+      "html": "<ol class=\"ds-rail\"><li style=\"flex:187;--c:#df6a2e\" class=\"cur\"><a><i style=\"flex:50;--f:1\"></i><i style=\"flex:40;--f:1\"></i><i style=\"flex:27;--f:.4\"></i><i style=\"flex:70;--f:0\"></i><b>Law</b></a></li><li style=\"flex:249;--c:#f0bf2c\"><a><i style=\"flex:249;--f:0\"></i><b>History</b></a></li><li style=\"flex:243;--c:#4e9a3e\"><a><i style=\"flex:243;--f:.2\"></i><b>Wisdom</b></a></li><li style=\"flex:250;--c:#1a9b9b\"><a><i style=\"flex:250;--f:0\"></i><b>Prophets</b></a></li><li style=\"flex:117;--c:#2e4fb0\"><a><i style=\"flex:117;--f:0\"></i><b>Gospels &amp; Acts</b></a></li><li style=\"flex:143;--c:#7350ad\"><a><i style=\"flex:143;--f:0\"></i><b>Letters &amp; Revelation</b></a></li></ol>",
+      "css": ".ds-rail{display:flex;flex-direction:column;gap:2px;width:4.5rem;height:30rem;margin:0;padding:2px 0;list-style:none;background:#df6a2e}.ds-rail li{display:flex;min-height:0}.ds-rail a{position:relative;display:flex;flex-direction:column;flex:1;margin-left:.45rem;border-radius:5px 0 0 5px;background:var(--c);overflow:hidden;box-shadow:-2px 2px 0 rgba(21,21,21,.22)}.ds-rail .cur a{margin-left:0;box-shadow:none}.ds-rail i{min-height:0;border-bottom:1px solid rgba(251,251,246,.35);background:linear-gradient(90deg,rgba(21,21,21,.5) calc(var(--f) * 100%),transparent 0)}.ds-rail b{position:absolute;top:.6rem;left:50%;translate:-50% 0;max-height:calc(100% - .7rem);padding:.3rem .05rem;border-radius:1px;writing-mode:vertical-rl;background:#fbfbf6;color:#151515;font:500 .75rem/1.1 'JetBrains Mono',ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Thumb Index",
+    "overview": "Tolle is a boxed-software reference manual lying open at a tabbed section. The six divisions of Scripture run down the fore edge as a stepped tab rail, each tab as tall as its share of the Bible's 1,189 chapters, every book a band inside it that fills as it is read, in any order. The current division's tab extends and becomes the board: the whole ground of the screen takes that division's hue at full strength, pressed with the fibre of a divider card (`board-grain.png`). Content sits on milk-acetate leaves laid over the board, each with two punch holes on its bound edge and a short hard shadow on its cut side.\n\nThe voice is printed and mechanical, not soft. Heads are condensed Archivo caps set like a manual's section heads; Scripture is set in EB Garamond on a plate; counts, times and references are set in JetBrains Mono like catalog matter. Primary actions are print-ink black slabs. Selection is shown as a hole punched through the leaf to the board beneath. Nothing eases or fades: every change is a 90ms two-frame step hinged at the punched edge.\n\nIt rejects the white reading app with a progress ring and the cream-paper bookish default.",
+    "keyCharacteristics": [
+      "One division hue at full strength as the whole board; the board changes with the reader's current division.",
+      "Milk-acetate leaves whose opacity is solved per board so the reading field always lands at luminance 0.80.",
+      "The fore-edge thumb-index rail is always present, sized by extent and filled by what has been read.",
+      "Selected is a punched hole.",
+      "Vermilion is held out for errata only.",
+      "Two-frame stepped motion; reduced motion is instant."
+    ],
+    "rules": [
+      {
+        "name": "The One Board Rule",
+        "body": "A screen has one board, the current division's hue at full strength. The other five hues appear only as tabs, swatches, bands and dividers.",
+        "section": "colors"
+      },
+      {
+        "name": "The Errata Rule",
+        "body": "Vermilion marks something wrong or destructive and nothing else: the late slip, the erase slip, form errors. It is never decoration, emphasis or a brand accent.",
+        "section": "colors"
+      },
+      {
+        "name": "The Solved Leaf Rule",
+        "body": "Leaf opacity is never hand-picked. It is solved so that every leaf on every board lands at luminance 0.80.",
+        "section": "colors"
+      },
+      {
+        "name": "The Three Voices Rule",
+        "body": "Archivo speaks for the interface, EB Garamond speaks only for Scripture, and JetBrains Mono speaks only for catalog matter (counts, times, references, index labels). Mono never sets running prose.",
+        "section": "typography"
+      },
+      {
+        "name": "The Width Axis Rule",
+        "body": "Hierarchy is carried by Archivo's width axis as much as by size: 72% for station heads, 82% for buttons, 85% for dividers, 100% for labels and body, 125% for the wordmark alone.",
+        "section": "typography"
+      },
+      {
+        "name": "The Hard Ply Rule",
+        "body": "Shadows have zero blur and only say \"this sheet lies on that one.\" Nothing glows, floats or lifts on hover.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Face-Down Rule",
+        "body": "At night, only the scripture plate turns face-down (ink ground `plate-night`, milk text). Boards, leaves, rail and buttons keep their day values; `color-scheme` stays light.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do set the board to the current division's hue at full strength and set `--on-board` (ink on Law, History, Wisdom and Prophets; white on Gospels and Letters).",
+      "Do derive every leaf from its board's solved alpha in `BEDS`, so it lands at luminance 0.80. Make only the top ply clear (alpha minus .1).",
+      "Do give every leaf two punch holes on its bound edge and the 3px hard cut-side shadow.",
+      "Do show selection as a punched hole (board-coloured circle, inset ink shadow): read chapters, picked books, the active tab or nav item.",
+      "Do keep the fore-edge rail on every screen except setup, with tabs sized by chapter extent, bands filling by read fraction, the current tab extended and full division names on milk slips.",
+      "Do set primary actions as print-ink slabs in Archivo 700 caps at 82% width and .06em.",
+      "Do use `--hinge` (90ms, two hard steps) for every change, and make it instant under reduced motion.",
+      "Do keep touch targets at least 2.75rem."
+    ],
+    "donts": [
+      "Don't use errata vermilion for anything but errata: the late slip, the erase slip and form errors.",
+      "Don't ease, fade, slide smoothly or blur. No cubic-bezier curves, opacity transitions or soft shadows.",
+      "Don't set Scripture in anything but EB Garamond on the plate, and don't set Archivo or mono as reading text.",
+      "Don't set running prose in JetBrains Mono. It is for counts, times, references and index labels.",
+      "Don't abbreviate division names on the rail. Let the slip wrap to two columns.",
+      "Don't darken the board, leaves or rail at night. Only the scripture plate turns face-down.",
+      "Don't hand-pick a leaf opacity or tint a leaf with a second hue."
+    ]
+  }
+}

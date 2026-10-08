@@ -1,0 +1,16 @@
+# downloaded packages: reinstall with `npm install`
+node_modules/
+
+# the notes script's in-progress batch id
+scripts/.batch-id
+
+# design-tool test screenshots (large, regenerated on demand)
+.impeccable/review/
+.impeccable/hook.cache.json
+
+# secrets, if ever kept in a file
+.env
+.env.*
+
+# aislop session logs
+.aislop/

@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "clipped-overflow-container",
+        "value": "*",
+        "files": [
+          "public/landing.html"
+        ],
+        "createdAt": "2026-10-06T20:52:30.584Z",
+        "reason": "build thread: body uses overflow-x:clip only to stop one-shot bird/spark animations creating sideways scroll; no positioned layer (tooltip, menu, popover) needs to escape body"
+      },
+      {
+        "rule": "clipped-overflow-container",
+        "value": "*",
+        "files": [
+          "public/index.html"
+        ],
+        "createdAt": "2026-10-08T12:38:32.166Z",
+        "reason": "body uses overflow-x:clip only to stop sideways scroll; the skip link is position:fixed, popovers sit in the top layer, and .sr text is meant to be clipped, so nothing positioned needs to escape body"
+      }
+    ]
+  }
+}

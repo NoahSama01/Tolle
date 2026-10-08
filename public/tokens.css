@@ -1,0 +1,83 @@
+/* Tolle design tokens, type and shared parts, used by the app (index.html) and the landing page */
+/* Archivo (Univers stand-in, variable width and weight), EB Garamond (Sabon stand-in), JetBrains Mono; self-hosted latin subsets (SIL OFL, fonts/OFL-*.txt) */
+@font-face{font-family:Archivo;font-weight:400 800;font-stretch:62% 125%;font-display:swap;src:url(fonts/archivo-400-800.woff2) format('woff2')}
+@font-face{font-family:'EB Garamond';font-weight:400 500;font-display:swap;src:url(fonts/eb-garamond.woff2) format('woff2')}
+@font-face{font-family:'JetBrains Mono';font-weight:400 500;font-display:swap;src:url(fonts/jetbrains-mono.woff2) format('woff2')}
+:root{
+  color-scheme:light;
+  /* print ink, milk acetate, and the hairlines that rule a manual's tables */
+  --ink:#151515;--ink-2:#4a4a46;--ink-down:#2b2b29;--milk:#fbfbf6;--rule:rgba(21,21,21,.16);--edge:#6e6e68;
+  /* the six division boards, one hue each at full strength; vermilion is held out for errata */
+  --law:#df6a2e;--history:#f0bf2c;--wisdom:#4e9a3e;--prophets:#1a9b9b;--gospels:#2e4fb0;--letters:#7350ad;
+  --errata:#d63a22;
+  /* set per view by the app: the current division's board, the ink that reads on it, and the solved leaf alpha */
+  --hue:var(--law);--board:var(--hue);--on-day:#151515;--on-board:var(--on-day);--leaf-a:.84;
+  /* fixed: print ink on a hue tab, the ink bar, and the ink on an errata slip never flip at night */
+  --print:#151515;--bar:#151515;--bar-ink:#fbfbf6;--bar-dim:#b9b9b2;--errata-ink:#fff;
+  --leaf:color-mix(in srgb,var(--milk) calc(var(--leaf-a) * 100%),var(--board));
+  --clear-leaf:color-mix(in srgb,var(--milk) calc((var(--leaf-a) - .1) * 100%),var(--board));
+  --plate:var(--leaf);--plate-ink:var(--ink);--plate-dim:var(--ink-2);
+  --head:'Archivo',system-ui,sans-serif;--sans:'Archivo',system-ui,sans-serif;--serif:'EB Garamond',Georgia,serif;--mono:'JetBrains Mono',ui-monospace,monospace;
+  /* nothing eases or fades: every change is a 90ms two-frame step hinged at the punched edge */
+  --hinge:90ms steps(2,jump-end);
+  --tab:4.25rem;--rail:2rem;
+}
+/* night (the app only; the landing page stays a daylight page): the board sinks to a dark wash of its hue,
+   leaves turn to dark acetate with chalk text, and print ink becomes chalk. Holes still show the board.
+   The app sets data-theme from Settings: Off, On, or Follow phone */
+:root.app[data-theme=dark]{color-scheme:dark;
+  --board:color-mix(in srgb,var(--hue) 20%,#090908);--on-board:#ecece4;
+  --leaf:color-mix(in srgb,#262624 90%,var(--hue));--clear-leaf:color-mix(in srgb,#2c2c29 84%,var(--hue));
+  --ink:#ecece4;--ink-2:#b1b1a7;--ink-down:#d4d4ca;--milk:#1f1f1d;--rule:rgba(236,236,228,.16);
+  --errata:#ff8a6e;--errata-ink:#151515;--bar:#0b0b0a}
+.app[data-theme=dark] .rail,.app[data-theme=dark] .divider{filter:brightness(.78)}
+.app[data-theme=dark]{--lh-night:.05}
+.app[data-theme=dark] :is(.scripture,.ktext,.gap,.dvt,blockquote){font-weight:450;letter-spacing:.006em} /* chalk on dark: one step heavier, a touch wider, more air */
+
+/* parts both pages draw the same way */
+*{box-sizing:border-box}
+[hidden]{display:none!important} /* hidden wins over any component's own display */
+::selection{background:var(--ink);color:var(--milk)}
+:focus-visible{outline:2.5px solid var(--ink);outline-offset:3px}
+.ic{width:1.25rem;height:1.25rem;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter}
+.law{--c:var(--law);--o:var(--print)}.history{--c:var(--history);--o:var(--print)}.wisdom{--c:var(--wisdom);--o:var(--print)}.prophets{--c:var(--prophets);--o:var(--print)}.gospels{--c:var(--gospels);--o:#fff}.letters{--c:var(--letters);--o:#fff}
+.mark{display:inline-flex;align-items:center;min-height:2.75rem;color:inherit;font:800 1.45rem/1 var(--head);font-stretch:125%;letter-spacing:.2em;text-transform:uppercase;text-decoration:none}
+/* leaves: milk acetate hinged over the board; two punch holes on the bound edge, one short hard shadow on the cut side */
+.leaf{position:relative;border-radius:3px;background:var(--leaf);box-shadow:3px 3px 0 rgba(21,21,21,.24)}
+.leaf::before,.leaf::after{content:'';position:absolute;left:.75rem;width:.75rem;height:.75rem;border-radius:50%;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.35)}
+.leaf::before{top:1.05rem}.leaf::after{bottom:1.05rem}
+.leaf.clear{background:var(--clear-leaf)} /* only the top ply may be clear */
+/* the fore-edge thumb index: six division tabs as tall as their share of the Bible */
+.rail{position:fixed;top:0;right:0;bottom:0;z-index:5;width:var(--rail);display:flex;flex-direction:column;gap:2px;margin:0;padding:2px 0;list-style:none}
+.rail li{display:flex;min-height:6.2em;font-size:.6rem} /* label em; the floor fits the short label */
+.rail li>*{position:relative;flex:1;margin-left:.35rem;border-radius:5px 0 0 5px;background:var(--c);box-shadow:-2px 2px 0 rgba(21,21,21,.22);container-type:size}
+.rail .cur>*{margin-left:0;box-shadow:none} /* the current tab extends: it is the board */
+.rail .tl{position:absolute;top:.6em;left:50%;translate:-50% 0;max-height:calc(100% - 1.2em);padding:.5em .1em;border-radius:1px;writing-mode:vertical-rl;background:var(--milk);color:var(--ink);font:500 1em/1.2 var(--mono);letter-spacing:.08em;text-transform:uppercase;pointer-events:none}
+.rail .tl .s{display:none}
+@container (height < 9.5em){.rail .tl .f{display:none}.rail .tl .s{display:inline}}
+@media(min-width:960px){.rail li{font-size:.75rem}}
+/* today's chapters: read rows punched */
+.mk{flex:none;width:.85rem;height:.85rem;border:1.5px solid var(--ink);border-radius:50%}
+.passed .mk{border:0;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.4)} /* punched */
+.next .mk{border:0;border-radius:2px;background:var(--ink)}
+.passed .stn{color:var(--ink-2)}
+.next .stn{font-weight:700}
+.tag{margin-left:auto;color:var(--ink-2);font:500 .75rem var(--mono);letter-spacing:.04em;text-transform:uppercase;text-align:right;font-variant-numeric:tabular-nums}
+/* book chips: selected is a punched hole */
+.bk-pick{position:relative;display:inline-flex;align-items:center;gap:.45rem;min-height:2.75rem;padding:0 .8rem;border:1.5px solid var(--ink);border-radius:2px;background:var(--milk);cursor:pointer;font:500 .9375rem var(--sans)}
+.bk-pick input{position:absolute;opacity:0;pointer-events:none}
+.bk-pick:has(input:checked){background:var(--c);color:var(--o)}
+.bk-pick:has(input:checked)::before{content:'';width:.7rem;height:.7rem;border-radius:50%;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.4)}
+.bk-pick:has(input:focus-visible){outline:2.5px solid var(--ink);outline-offset:3px}
+.strip{display:flex;gap:1px;height:1.6rem;margin:1rem 0 0;border:1.5px solid var(--ink)} /* the thumb index laid flat: 66 books sized by chapters */
+.strip i{flex:var(--n) 1 0;background:linear-gradient(90deg,var(--c) calc(var(--f) * 100%),color-mix(in srgb,var(--ink) 8%,transparent) 0)}
+/* a note: its kind is a tab on its title row; a reference opens its passage */
+.nhead{display:grid;grid-template-columns:1fr auto;align-items:start;gap:.75rem}
+.nhead h3{margin:0;font:700 1.0625rem/1.3 var(--sans)}
+.kind{display:inline-flex;align-items:center;gap:.35rem;padding:.15rem .45rem;border-radius:2px 2px 0 0;background:var(--ink);color:var(--milk);font:500 .6875rem var(--mono);text-transform:uppercase;white-space:nowrap}
+.kind .ic{width:.85rem;height:.85rem}
+.ref{display:inline-flex;align-items:center;gap:.45rem;min-height:2.75rem;padding:0 .75rem;white-space:nowrap;border:1.5px solid var(--ink);border-radius:2px;background:none;color:inherit;font:500 .8125rem var(--mono);cursor:pointer}
+.ref b{width:.6rem;height:.6rem;border-radius:1px;background:var(--c)}
+@media(hover:hover){.ref:hover{background:color-mix(in srgb,var(--ink) 7%,transparent)}}
+.ref[aria-expanded=true]{background:var(--ink);color:var(--milk)}
+blockquote{margin:.6rem 0 0;padding:.8rem .95rem;border-left:1px solid var(--ink);background:color-mix(in srgb,var(--ink) 5%,transparent);font:400 1.0625rem/1.5 var(--serif)}
