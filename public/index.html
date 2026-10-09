@@ -274,7 +274,7 @@ button.num{padding:0;border:0;background:none;color:inherit;cursor:pointer}
 .kmeta{display:flex;flex-wrap:wrap;align-items:center;gap:.25rem 1.25rem;margin:.6rem 0 0;color:var(--ink-2);font:500 .75rem var(--mono);text-transform:uppercase}
 .kmeta>span{flex-basis:100%} /* the date on its own line, the actions in a row below */
 .kmeta .link-btn{font:500 .75rem var(--mono);text-transform:uppercase;color:var(--ink)}
-.gone{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin:0 0 1rem;padding:.5rem .5rem .5rem 1rem;border-radius:2px;background:var(--ink);color:var(--milk)}
+.gone{animation:inkin var(--hinge) both;display:flex;align-items:center;justify-content:space-between;gap:1rem;margin:0 0 1rem;padding:.5rem .5rem .5rem 1rem;border-radius:2px;background:var(--ink);color:var(--milk)}
 .gone .link-btn{color:var(--milk)}
 body[data-view=reader] main{padding-bottom:6.5rem}
 
@@ -321,7 +321,7 @@ body[data-view=reader] main{padding-bottom:6.5rem}
 }
 ::view-transition-old(root),::view-transition-new(root){animation-duration:200ms;animation-timing-function:steps(4,jump-end)} /* day and night trade places in four steps, never a flash; a fade, so it stays under reduced motion */
 @media(prefers-reduced-motion:reduce){
-  .skel i,.vs.kept::before,.keep[aria-pressed=true]::before,.tabs button[aria-current=page]::after,.opt.right::before,.opt.wrong,.blank.filled,.go.punched::after{animation:none}
+  .skel i,.gone,.vs.kept::before,.keep[aria-pressed=true]::before,.tabs button[aria-current=page]::after,.opt.right::before,.opt.wrong,.blank.filled,.go.punched::after{animation:none}
   .vs{transition:none}
   :is(button,a,summary,.bk-pick):active{translate:none;opacity:.72} /* still answers the press, without moving */
   .gloss,.gloss::backdrop{transition:none}
@@ -538,7 +538,9 @@ function preview(){ // live: what's left, the daily load, and the thumb index la
   pv.innerHTML=(books?`You've read ${plural(books,'book')} (${plural(done,'chapter')}). `:'')+(by.value?`That's <b>${num(n)}</b> chapter${n==1?'':'s'} a day, about ${mins(n)} minutes, for ${plural(d,'day')}.`:'Your daily chapters appear once you pick a date.');
   by.setAttribute('aria-invalid',!by.value);byh.classList.toggle('err',!by.value); // inline error under the field
   byh.textContent=by.value?'Tolle plans backwards from this date.':'Pick the date you want to finish by.';
+  const was=[...stripbox.querySelectorAll('i')].map(i=>i.style.getPropertyValue('--f'));
   stripbox.innerHTML=strip(r);
+  if(!reduce.matches)stripbox.querySelectorAll('i').forEach((i,k)=>{const f=i.style.getPropertyValue('--f');if(was[k]!=null&&was[k]!==f)i.animate([{'--f':was[k]},{'--f':f}],{duration:90,easing:'steps(2,jump-end)'})}); // only the bars that changed
 }
 function start(){
   if(!by.value){preview();return by.focus()}
@@ -665,11 +667,15 @@ function keptView(){
   ${gone?`<p class=gone role=status>Removed ${kref(gone.k)}.<button class=link-btn onclick=unremove()>Undo</button></p>`:''}
   ${KEPT.length?`<ol class=kept-list>${KEPT.map((k,i)=>[k,i]).reverse().map(([k,i])=>`<li class="leaf ${bed(k.b)[0]}"><span class=ktab>${kref(k)}</span>
     <p class=ktext lang=${TR[k.tr][1]}>${esc(k.t)}</p>
-    <p class=kmeta><span>Kept ${fmtDate(k.d)} · ${k.tr.toUpperCase()}</span><button class=link-btn onclick=openCh(${FIRST[k.b]+k.c-1},${k.v})>Read ${BOOKS[k.b][0]} ${k.c}</button>${navigator.share?`<button class=link-btn onclick=share(${i})>Share</button>`:''}<button class=link-btn onclick=unkeep(${i})>Remove</button></p></li>`).join('')}</ol>`
+    <p class=kmeta><span>Kept ${fmtDate(k.d)} · ${k.tr.toUpperCase()}</span><button class=link-btn onclick=openCh(${FIRST[k.b]+k.c-1},${k.v})>Read ${BOOKS[k.b][0]} ${k.c}</button>${navigator.share?`<button class=link-btn onclick=share(${i})>Share</button>`:''}<button class=link-btn onclick=unkeep(${i},this)>Remove</button></p></li>`).join('')}</ol>`
   :`<section class=leaf><p class=empty>Nothing kept yet. While you read, tap a verse, then tap Keep. It gets a punched hole in the margin and waits here for you.</p></section>`}`;
 }
-function unkeep(i){gone={i,k:KEPT.splice(i,1)[0]};saveKept();render()}
-function unremove(){KEPT.splice(gone.i,0,gone.k);gone=null;saveKept();render()}
+function unkeep(i,btn){ // the leaf hinges shut at its bound edge, as Done shuts a chapter; then the list closes up
+  const li=btn.closest('li');if(li.inert)return;li.inert=true; // one removal per leaf, even on a double tap
+  const out=()=>{gone={i,k:KEPT.splice(i,1)[0]};saveKept();render()},[a]=step([li],'perspective(900px) rotateY(-75deg)','0 50%',true);
+  a?Promise.race([a.finished,new Promise(r=>setTimeout(r,150))]).then(out):out(); // never waits on a paused clock
+}
+function unremove(){const i=gone.i;KEPT.splice(i,0,gone.k);gone=null;saveKept();render();step([$.querySelectorAll('.kept-list>li')[KEPT.length-1-i]],'perspective(900px) rotateY(-16deg)')} // it hinges back in where it was
 function share(i){const k=KEPT[i];navigator.share({text:`"${k.t}" ${kref(k)} (${TR[k.tr][0]})`}).catch(()=>{})}
 function settingsView(){
   return `<h1 class=title>Settings</h1>
@@ -844,7 +850,8 @@ function readerView(){
   noteP.then(all=>{const x=all[c];
     if(x?.summary){sum.textContent=x.summary;sum.hidden=false}
     if(x?.lookfor){look.innerHTML=`<span class=kind>${icon('detail')}Look for</span>${esc(x.lookfor)}`;look.hidden=false}
-    if(all.intro){about.firstChild.innerHTML=introHTML(all.intro,b,c);about.hidden=false}});
+    if(all.intro){const d=about.firstChild;d.innerHTML=introHTML(all.intro,b,c);about.hidden=false;let tapped=false;
+      d.onclick=e=>{tapped=e.target.closest('summary')!=null};d.ontoggle=()=>{if(tapped&&d.open)step([...d.children].slice(1),'perspective(900px) rotateX(-20deg)','50% 0');tapped=false}}}); // opens like a book panel
   Promise.allSettled([textP,noteP]).then(([tx,nt])=>{
     if(!txt.isConnected)return;
     const x=nt.value?.[c],list=NOTES=x?.insights||[],verses=tx.value?.verses;
@@ -875,7 +882,7 @@ function choose(vs,b,c,bi){ // select a verse (or clear the selection); the Keep
   sel?.classList.remove('sel');sel=vs;selAt={b,c,bi};const k=$.querySelector('.keep');
   if(!vs)return k.hidden=true;
   vs.classList.add('sel');const on=vs.classList.contains('kept');
-  k.hidden=false;k.ariaPressed=on;k.textContent=`${on?'Kept':'Keep'} ${c}:${vs.dataset.v}`;
+  if(k.hidden){k.hidden=false;step([k],'perspective(900px) rotateY(-16deg)','0 50%')}k.ariaPressed=on;k.textContent=`${on?'Kept':'Keep'} ${c}:${vs.dataset.v}`;
 }
 function keep(btn){ // punch the selected verse into Kept, or take it back out
   const v=+sel.dataset.v,{c,bi}=selAt,i=KEPT.findIndex(k=>k.b===bi&&k.c===c&&k.v===v);
@@ -961,7 +968,7 @@ function pick(btn){
 }
 async function ref(btn){ // tap a reference to show that passage under the note; tap again to hide
   if(btn.q){btn.q.remove();btn.q=null;btn.setAttribute('aria-expanded',false);return}
-  const q=btn.q=document.createElement('blockquote');q.textContent='Loading…';btn.closest('.refs').after(q);btn.setAttribute('aria-expanded',true);
+  const q=btn.q=document.createElement('blockquote');q.textContent='Loading…';btn.closest('.refs').after(q);btn.setAttribute('aria-expanded',true);step([q],'perspective(900px) rotateX(-20deg)','50% 0');
   try{q.textContent=`${btn.dataset.r}: ${(await passage(btn.dataset.r)).text.replace(/\s+/g,' ').trim()}`}
   catch{q.textContent=`Couldn't load ${btn.dataset.r}. Check your connection and tap the reference again.`}
 }
