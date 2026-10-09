@@ -1,0 +1,2303 @@
+{
+ "1": {
+  "summary": "After Joshua's death the tribes go on fighting for their allotted land: Judah succeeds in the south, but tribe after tribe in the north fails to drive out the Canaanites.",
+  "lookfor": "Watch how the account moves from Judah's victories to a growing list of tribes that \"did not drive out\" the Canaanites, and notice who ends up living among whom.",
+  "names": [
+   {
+    "name": "Adoni-Bezek",
+    "kind": "person",
+    "gloss": "A Canaanite king whose name means \"lord of Bezek.\" He sees his own maiming as payback for what he did to seventy kings."
+   },
+   {
+    "name": "Caleb",
+    "kind": "person",
+    "gloss": "One of the two faithful spies of Moses' day, promised Hebron for his loyalty."
+   },
+   {
+    "name": "Achsah",
+    "kind": "person",
+    "gloss": "Caleb's daughter, given in marriage to the man who captures Debir. She asks her father for springs of water."
+   },
+   {
+    "name": "Othniel",
+    "kind": "person",
+    "gloss": "Caleb's younger kinsman, who takes Debir. He becomes the first judge in chapter 3."
+   },
+   {
+    "name": "Kenite",
+    "kind": "group",
+    "gloss": "A clan related to Moses by marriage that travelled with Israel and settled in the south with Judah."
+   },
+   {
+    "name": "Jebusites",
+    "kind": "group",
+    "gloss": "The Canaanite people who held Jerusalem until David captured it."
+   },
+   {
+    "name": "house of Joseph",
+    "kind": "group",
+    "gloss": "The tribes of Ephraim and Manasseh, descended from Joseph's two sons."
+   },
+   {
+    "name": "Bethel",
+    "kind": "place",
+    "gloss": "A town north of Jerusalem, once called Luz, where Jacob dreamed of the ladder to heaven."
+   }
+  ],
+  "skim": {
+   "advice": "Verses 27 to 36 are a list of tribes and the towns they failed to take. Skim the place names, but notice the repeated phrase that the Canaanites lived among them and the forced labour in verse 28.",
+   "key": [
+    19,
+    21,
+    28,
+    34
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "After the death of Joshua",
+    "body": "Joshua opens after the death of Moses, with a named successor ready. Judges opens after the death of Joshua (1:1) with no successor at all, so the tribes must ask God who should go first. Joshua had already warned that much land remained to be taken.",
+    "refs": [
+     "Joshua 1:1-2",
+     "Joshua 13:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Thumbs and big toes",
+    "body": "Cutting off thumbs and big toes left a warrior unable to grip a weapon or move quickly in battle, and it humiliated him for life. Adoni-Bezek reads his fate as a fitting return for what he did to others (1:7). The idea that people reap what they sow returns later in Judges, most clearly with Abimelech.",
+    "refs": [
+     "Judges 9:56-57"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Achsah asks for springs",
+    "body": "Achsah is given in marriage as a prize, yet she takes the initiative and asks her father for springs because her land is in the dry south (1:14-15). The word she uses, \"blessing,\" here means a gift. The same scene appears in Joshua, and her confident request contrasts sharply with how women fare at the end of the book.",
+    "refs": [
+     "Joshua 15:16-19",
+     "Judges 19:25-29"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Hormah: devoted to destruction",
+    "body": "Judah and Simeon \"utterly destroyed\" Zephath and renamed it Hormah (1:17). Both words come from the Hebrew root h-r-m, which describes something devoted to God by being destroyed, often called herem. A place called Hormah also marks an earlier victory in Numbers.",
+    "refs": [
+     "Numbers 21:3",
+     "Deuteronomy 7:2"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Chariots of iron",
+    "body": "Judah could not drive out the people of the valleys \"because they had chariots of iron\" (1:19), likely wooden chariots with iron fittings. Chariots ruled flat ground but were little use in the hills, which is why Israel's early settlement was mostly in the highlands. Joshua had told Ephraim and Manasseh that iron chariots would not stop them.",
+    "refs": [
+     "Joshua 17:16-18"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Jerusalem taken, yet not held",
+    "body": "Judah captures and burns Jerusalem (1:8), yet Benjamin cannot drive out its Jebusites (1:21), and Joshua says the same of Judah. The city likely changed hands or was only partly taken. It stays Jebusite until David captures it and makes it his capital.",
+    "refs": [
+     "Joshua 15:63",
+     "2 Samuel 5:6-9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The man from Luz",
+    "body": "At Bethel a local man shows the spies the way in and is spared with his family (1:24-25), much like Rahab at Jericho. Unlike Rahab, he does not join Israel; he leaves and builds another Luz in Hittite country (1:26). The Canaanite city lives on elsewhere.",
+    "refs": [
+     "Joshua 2:12-14",
+     "Joshua 6:25"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A slope that runs downhill",
+    "body": "Many scholars note that the chapter runs from south to north and from success to failure: Judah first, then partial gains, then Dan pushed back into the hills (1:34). The book as a whole follows the same slope. It opens with Judah going up first at God's word, and near the end Judah goes first again, this time against a fellow tribe.",
+    "refs": [
+     "Judges 20:18"
+    ]
+   }
+  ]
+ },
+ "2": {
+  "summary": "Yahweh's angel rebukes Israel at Bochim, and the narrator lays out the cycle the book will repeat: a forgetful generation, idolatry, oppression, crying out, and a judge who rescues them.",
+  "lookfor": "Notice how the chapter moves from one event at Bochim to a summary of the whole era, and trace each step of the cycle in verses 11 to 19 so you can spot it in the stories ahead.",
+  "names": [
+   {
+    "name": "Gilgal",
+    "kind": "place",
+    "gloss": "Israel's first camp after crossing the Jordan, where the people were circumcised and kept Passover."
+   },
+   {
+    "name": "Bochim",
+    "kind": "place",
+    "gloss": "A place whose name means \"weepers,\" named for the people's tears in this chapter. Its location is uncertain."
+   },
+   {
+    "name": "Timnath Heres",
+    "kind": "place",
+    "gloss": "Joshua's home and burial place in the hills of Ephraim, called Timnath Serah in the book of Joshua."
+   },
+   {
+    "name": "Baals",
+    "kind": "group",
+    "gloss": "The many local forms of Baal, the Canaanite storm and fertility god."
+   },
+   {
+    "name": "Ashtaroth",
+    "kind": "group",
+    "gloss": "Plural of Ashtoreth (Astarte), a Canaanite goddess of fertility and war, often paired with Baal."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "From Gilgal to Bochim",
+    "body": "The angel comes up from Gilgal, where Israel first renewed the covenant in the land, to rebuke them for making covenants with its peoples (2:1-2). The people weep and sacrifice, but the text never says they changed. The Greek Septuagint links the place with Bethel, where there was also an oak of weeping.",
+    "refs": [
+     "Joshua 5:9-10",
+     "Genesis 35:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Joshua dies twice",
+    "body": "Joshua's death and burial (2:6-9) repeat almost word for word the ending of the book of Joshua. Many scholars take this as a sign that 1:1 to 2:5 is a first introduction and 2:6 begins a second one. Together they show the period from two angles: unfinished conquest and spiritual decline.",
+    "refs": [
+     "Joshua 24:28-31"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A generation that did not know",
+    "body": "A new generation arose that did not know Yahweh or what he had done (2:10). It echoes the new king of Egypt who did not know Joseph. Deuteronomy had warned that comfort in the land could lead Israel to forget, and had told parents to teach their children.",
+    "refs": [
+     "Exodus 1:8",
+     "Deuteronomy 6:6-12"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Baal and the Ashtaroth",
+    "body": "Baal was the Canaanite storm god who was believed to bring the rains, and Astarte a goddess linked with fertility and war (2:13). Texts found at Ugarit in Syria since 1929 describe Baal's myths in detail. For new farmers in a land that depended on rain, worshipping the local rain god was a powerful temptation.",
+    "refs": [
+     "1 Kings 18:21",
+     "Hosea 2:8"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Shophet: what a judge was",
+    "body": "The Hebrew word shophet, from shaphat (\"to judge, govern\"), names leaders God raised up to save Israel (2:16). In this book they are mostly military deliverers rather than courtroom judges, though Deborah also settles disputes. Carthage, a Phoenician city, later called its chief magistrates by a related title, suffetes.",
+    "refs": [
+     "Judges 4:4-5"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The cycle, and its downward turn",
+    "body": "The pattern runs: Israel does evil, God hands them over, they groan, God raises a judge, the land has rest, the judge dies, and they turn back (2:11-19). It is not a flat circle but a spiral, since each generation \"dealt more corruptly than their fathers\" (2:19). Watch for parts of the pattern dropping away in the later stories.",
+    "refs": [
+     "Judges 3:7-11",
+     "Judges 10:6-16"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Moved by their groaning",
+    "body": "God raises judges because \"it grieved Yahweh because of their groaning\" (2:18), before any word of repentance is recorded. What does it suggest about God that he answers his people's distress even when it comes from trouble they brought on themselves?",
+    "refs": [
+     "Exodus 2:23-25"
+    ]
+   }
+  ]
+ },
+ "3": {
+  "summary": "God leaves nations in the land to test Israel, then raises Othniel against Cushan Rishathaim, Ehud against Eglon of Moab, and Shamgar against the Philistines.",
+  "lookfor": "Watch how Othniel's story follows the pattern like a template, then how Ehud's is told in sharp detail: his left hand, the hidden sword, the locked doors and the waiting servants.",
+  "names": [
+   {
+    "name": "Cushan Rishathaim",
+    "kind": "person",
+    "gloss": "A foreign king who oppressed Israel for eight years; his name sounds like \"Cushan of double wickedness.\""
+   },
+   {
+    "name": "Othniel",
+    "kind": "person",
+    "gloss": "Caleb's younger kinsman from Judah, the first judge and the model for the rest."
+   },
+   {
+    "name": "Eglon",
+    "kind": "person",
+    "gloss": "A king of Moab who controlled Jericho and took tribute from Israel for eighteen years."
+   },
+   {
+    "name": "Ehud",
+    "kind": "person",
+    "gloss": "A left-handed man from the tribe of Benjamin who becomes Israel's second judge."
+   },
+   {
+    "name": "Moabites",
+    "kind": "group",
+    "gloss": "A people east of the Dead Sea, descended from Lot according to Genesis."
+   },
+   {
+    "name": "city of palm trees",
+    "kind": "place",
+    "gloss": "Jericho, the oasis city near the Jordan crossing."
+   },
+   {
+    "name": "Shamgar",
+    "kind": "person",
+    "gloss": "A deliverer mentioned in a single verse, who killed six hundred Philistines with an ox goad."
+   },
+   {
+    "name": "Philistines",
+    "kind": "group",
+    "gloss": "A people who settled on the southern coast of Canaan around 1200 BC and became Israel's main rivals."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Nations left as a test",
+    "body": "The chapter gives two reasons why some nations remained: to test whether Israel would obey, and to teach war to a generation that had not fought (3:1-4). Earlier God had said he would drive the nations out little by little so the land would not become wild. Israel instead intermarried and took up their gods (3:6).",
+    "refs": [
+     "Exodus 23:29-30",
+     "Judges 2:21-22"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Double wickedness",
+    "body": "Rishathaim sounds like the Hebrew for \"double wickedness,\" and it rhymes with his homeland, Aram-naharaim, here rendered Mesopotamia. Many scholars think the narrator coined or bent the name to mock him. His real identity is unknown; some link him with a Cushan in the region of Midian or Edom.",
+    "refs": [
+     "Habakkuk 3:7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Yahweh's Spirit came on him",
+    "body": "Othniel is the first judge on whom Yahweh's Spirit comes (3:10). The same phrase marks Gideon, Jephthah and Samson, and later Saul and David. In Judges the Spirit gives power for a task rather than guaranteeing good character.",
+    "refs": [
+     "Judges 6:34",
+     "Judges 11:29",
+     "Judges 14:6",
+     "1 Samuel 16:13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A left-handed son of the right hand",
+    "body": "Ehud is a Benjamite, from the tribe whose name means \"son of the right hand,\" yet he is left-handed (3:15). The Hebrew says he was restricted in his right hand. A guard checking the usual left thigh for a weapon would miss a short sword strapped to the right (3:16). Benjamin later fields seven hundred left-handed slingers.",
+    "refs": [
+     "Genesis 35:18",
+     "Judges 20:16"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A secret word",
+    "body": "Ehud tells Eglon he has \"a secret message\" (3:19) and then \"a message from God\" (3:20). The Hebrew davar means both \"word\" and \"thing,\" so the message turns out to be the sword itself. Eglon rises from his seat, perhaps out of respect for a divine word.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Tribute and the cool upper room",
+    "body": "Subject peoples paid regular tribute, here called minchah, the same word used for the grain offering. The king receives Ehud in his cool roof chamber. When the servants find the doors locked, they assume he is \"covering his feet\" (3:24), a polite way of saying relieving himself, and wait out of embarrassment while Ehud escapes.",
+    "refs": [
+     "1 Samuel 24:3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Shamgar son of Anath",
+    "body": "Shamgar gets one verse (3:31). Anath is the name of a Canaanite warrior goddess, so his family name may be Canaanite, and some think he was not an Israelite at all. An ox goad was a long pointed stick for driving cattle, a farmer's tool rather than a soldier's weapon. The Song of Deborah dates its hard times to his days.",
+    "refs": [
+     "Judges 5:6"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Stories told without comment",
+    "body": "The narrator tells Ehud's deception and killing of a king with grim humour and no moral verdict. Does Scripture's silence mean approval, or does it leave readers to weigh what they see as the book goes on?",
+    "refs": []
+   }
+  ]
+ },
+ "4": {
+  "summary": "Under King Jabin's oppression, the prophetess Deborah summons Barak to fight Sisera at Mount Tabor; Sisera's army is routed and he dies in Jael's tent.",
+  "lookfor": "Notice who takes the lead at each stage (Deborah, Barak, Sisera, Jael), and keep Deborah's word about \"a woman's hand\" in mind as the story unfolds.",
+  "names": [
+   {
+    "name": "Jabin",
+    "kind": "person",
+    "gloss": "A Canaanite king ruling from Hazor in the north."
+   },
+   {
+    "name": "Hazor",
+    "kind": "place",
+    "gloss": "The largest Canaanite city in the land, north of the Sea of Galilee."
+   },
+   {
+    "name": "Sisera",
+    "kind": "person",
+    "gloss": "Jabin's army commander, with nine hundred iron chariots."
+   },
+   {
+    "name": "Deborah",
+    "kind": "person",
+    "gloss": "A prophetess who settled Israel's disputes under a palm tree in the hills of Ephraim."
+   },
+   {
+    "name": "Barak",
+    "kind": "person",
+    "gloss": "A man from Kedesh in Naphtali whom Deborah calls to lead the army."
+   },
+   {
+    "name": "Heber",
+    "kind": "person",
+    "gloss": "A Kenite who had moved north and was at peace with Jabin."
+   },
+   {
+    "name": "Jael",
+    "kind": "person",
+    "gloss": "Heber's wife, in whose tent Sisera seeks shelter."
+   },
+   {
+    "name": "Mount Tabor",
+    "kind": "place",
+    "gloss": "A steep, isolated mountain at the north-east edge of the Jezreel valley."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Another Jabin of Hazor",
+    "body": "Joshua had already defeated a Jabin king of Hazor and burned the city. Some scholars think Jabin was a dynastic name or that Hazor was rebuilt; others see two traditions of one event. Excavations show that Hazor, the largest Canaanite city, was destroyed by fire in the 13th century BC.",
+    "refs": [
+     "Joshua 11:10-13"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Bee, lightning and torches",
+    "body": "Deborah means \"bee\" and Barak means \"lightning.\" Lappidoth (4:4) means \"torches\"; it is usually taken as her husband's name, though some read \"a woman of torches,\" a fiery spirit. Barak's name fits the storm that the next chapter's song says broke over the enemy.",
+    "refs": [
+     "Judges 5:20-21"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The only judge who judges",
+    "body": "Deborah is the one judge shown actually deciding cases, as Israel comes to her under her palm tree (4:5). She is also the only judge called a prophet. She speaks God's command to Barak rather than leading the army herself.",
+    "refs": [
+     "Exodus 15:20",
+     "2 Kings 22:14"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Chariots against a mountain",
+    "body": "Nine hundred chariots (4:3) were overwhelming on the flat plain of Jezreel but useless on a steep slope. Barak gathers on Mount Tabor, and the battle is drawn to the Kishon river (4:7). The song in chapter 5 says the river swept the enemy away, which suggests rain turned the plain to mud.",
+    "refs": [
+     "Judges 5:21"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Barak's condition",
+    "body": "Barak will not go unless Deborah goes with him (4:8), and so the honour goes to a woman. Was he weak, or wise to want God's prophet beside him? Readers have argued both, and Hebrews still lists him among the faithful.",
+    "refs": [
+     "Hebrews 11:32"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A twist in the prophecy",
+    "body": "Deborah says Yahweh will sell Sisera \"into a woman's hand\" (4:9). Readers naturally assume she means Deborah herself, but the woman turns out to be Jael, an outsider from a clan allied with the enemy (4:17). The story keeps the reader guessing until the tent.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Hospitality turned",
+    "body": "In the ancient Near East a host was bound to protect a guest, so Sisera expects safety, and his clan's treaty with Heber adds to it (4:17). Jael gives him milk instead of water and covers him. Readers have long debated her deception, but the narrator makes clear she sides with Israel against the man who oppressed it, and the following song blesses her.",
+    "refs": [
+     "Judges 5:24-27",
+     "Genesis 18:1-8"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "God subdued Jabin",
+    "body": "The chapter ends by giving the victory to God, not to Barak, Deborah or Jael (4:23). Throughout Judges the human heroes are flawed and surprising, but the narrator keeps pointing to Yahweh as the real deliverer.",
+    "refs": [
+     "Judges 2:16",
+     "Judges 7:2"
+    ]
+   }
+  ]
+ },
+ "5": {
+  "summary": "Deborah and Barak sing a victory song that retells the battle as Yahweh's own march, praising the tribes who came, shaming those who stayed home, and ending with Sisera's mother waiting at her window.",
+  "lookfor": "Compare the poem with the prose of chapter 4: watch for the roll call of tribes, the storm and the flooding river, and the sudden shift to Sisera's mother at the end.",
+  "names": [
+   {
+    "name": "Seir",
+    "kind": "place",
+    "gloss": "The mountain country of Edom, south-east of the Dead Sea, from where Yahweh is pictured marching."
+   },
+   {
+    "name": "Machir",
+    "kind": "group",
+    "gloss": "A clan of the tribe of Manasseh, named after Manasseh's son."
+   },
+   {
+    "name": "Reuben",
+    "kind": "group",
+    "gloss": "A tribe living east of the Jordan among sheepfolds, criticised for staying home."
+   },
+   {
+    "name": "Dan",
+    "kind": "group",
+    "gloss": "A tribe then apparently linked with the coast and its ships, also criticised for not coming."
+   },
+   {
+    "name": "Meroz",
+    "kind": "place",
+    "gloss": "An unknown town cursed for refusing to help in the battle."
+   },
+   {
+    "name": "Taanach",
+    "kind": "place",
+    "gloss": "A Canaanite city on the south edge of the Jezreel valley, near Megiddo."
+   },
+   {
+    "name": "Megiddo",
+    "kind": "place",
+    "gloss": "A fortified city guarding a key pass into the Jezreel valley; a famous battlefield."
+   },
+   {
+    "name": "Kishon",
+    "kind": "place",
+    "gloss": "The river that drains the Jezreel valley into the Mediterranean; quiet most of the year but prone to flooding."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "One of Israel's oldest poems",
+    "body": "Many scholars date this song among the oldest passages in the Hebrew Bible, perhaps from the 12th century BC, because of its archaic Hebrew. As in Exodus 14 and 15, a prose account is followed by a song that celebrates the same victory. Some of its lines are hard to translate, which is why versions differ widely here.",
+    "refs": [
+     "Exodus 15:1-21"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Yahweh marching from the south",
+    "body": "The song pictures Yahweh coming from Seir and Edom with earthquake and storm (5:4-5). Other old poems also show God coming from the southern mountains, from Sinai, Seir, Paran and Teman. God himself goes out to fight for his people.",
+    "refs": [
+     "Deuteronomy 33:2",
+     "Psalms 68:7-8",
+     "Habakkuk 3:3"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A mother in Israel",
+    "body": "Deborah calls herself \"a mother in Israel\" (5:7), a title of leadership and care rather than of physical motherhood. Later a wise woman uses the same phrase for her city of Abel. The song sets her beside another mother, Sisera's, waiting at her window (5:28).",
+    "refs": [
+     "2 Samuel 20:19"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A roll call of tribes",
+    "body": "The song praises Ephraim, Benjamin, Machir, Zebulun, Issachar and Naphtali, and rebukes Reuben, Gilead, Dan and Asher for staying away (5:14-18). Judah and Simeon are not mentioned at all, perhaps because they were too far south. Israel is still a loose group of tribes with no one to compel them.",
+    "refs": [
+     "Judges 1:3"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The stars and the river",
+    "body": "\"From the sky the stars fought\" (5:20) is poetry for heaven joining the battle, and the Kishon sweeping the enemy away (5:21) suggests a sudden storm. The Kishon is usually a small stream, but heavy rain can flood the Jezreel plain and trap chariot wheels in mud. It is the same river where Elijah later kills the prophets of Baal.",
+    "refs": [
+     "1 Kings 18:40"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Blessed above women",
+    "body": "Jael is \"blessed above women\" (5:24), a phrase that echoes in Elizabeth's greeting to Mary in Luke. In the book of Judith, part of Catholic and Orthodox Bibles, Judith is praised in a similar way after killing the enemy general Holofernes. Each woman is honoured as an instrument of God's rescue.",
+    "refs": [
+     "Luke 1:42"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Sisera's mother at the window",
+    "body": "The song ends with Sisera's mother wondering why his chariot is late, while her ladies assure her the men are dividing plunder, \"a lady, two ladies to every man\" (5:30). The Hebrew word is crude, \"a womb, two wombs,\" meaning captive girls. The poem shows what Sisera's victory would have meant for Israel's women. A Jewish tradition links the hundred shofar blasts of the new year to her cries.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Curse Meroz",
+    "body": "The song blesses those who \"offered themselves willingly\" (5:2) and curses Meroz for not coming to help (5:23). What does the poem suggest about staying out of a struggle when God's people are in danger?",
+    "refs": []
+   }
+  ]
+ },
+ "6": {
+  "summary": "Midian's yearly raids drive Israel into caves; Yahweh's angel calls the fearful Gideon, who tears down his father's altar to Baal and asks for signs with a fleece.",
+  "lookfor": "Notice Gideon's questions and requests for proof, the prophet sent before the rescuer, and the new name Gideon earns by night.",
+  "names": [
+   {
+    "name": "Midianites",
+    "kind": "group",
+    "gloss": "Desert peoples from east and south of Israel, related to Abraham through his wife Keturah."
+   },
+   {
+    "name": "Amalekites",
+    "kind": "group",
+    "gloss": "Nomadic raiders of the southern desert and Israel's old enemy since the exodus."
+   },
+   {
+    "name": "children of the east",
+    "kind": "group",
+    "gloss": "A general term for desert tribes from east of the Jordan."
+   },
+   {
+    "name": "Ophrah",
+    "kind": "place",
+    "gloss": "Gideon's home town in Manasseh, probably in or near the Jezreel valley."
+   },
+   {
+    "name": "Joash",
+    "kind": "person",
+    "gloss": "Gideon's father, of the clan of Abiezer, who kept an altar to Baal."
+   },
+   {
+    "name": "Gideon",
+    "kind": "person",
+    "gloss": "A young man of Manasseh whom God calls to save Israel from Midian."
+   },
+   {
+    "name": "Jerub-Baal",
+    "kind": "person",
+    "gloss": "Gideon's second name, meaning \"let Baal contend.\""
+   },
+   {
+    "name": "Jezreel",
+    "kind": "place",
+    "gloss": "The broad, fertile valley across northern Israel, a natural route for invaders."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Camels and a hidden harvest",
+    "body": "Midian came \"as locusts\" with camels beyond number (6:5), one of the earliest pictures of camels used for large-scale raiding; they let raiders cross the desert fast and strike at harvest. Grain was normally threshed on an open hilltop where the wind blew the chaff away. Gideon threshes in a sunken wine press (6:11), out of sight and out of the wind.",
+    "refs": [
+     "Judges 7:12"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A prophet before a rescuer",
+    "body": "For the first time in the cycle, Israel's cry is answered first by a prophet who reminds them of the exodus and their disobedience (6:7-10). No response is recorded. The rescue that follows is still grace, not a reward.",
+    "refs": [
+     "Judges 10:10-14"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Mighty man of valor",
+    "body": "The angel greets Gideon, hiding his wheat, as gibbor chayil, \"mighty man of valor\" (6:12). It sounds almost ironic, and Gideon answers with complaint and his family's weakness (6:13-15). The title describes what God will make of him, not what he is yet.",
+    "refs": [
+     "1 Samuel 9:1",
+     "Ruth 2:1"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Yahweh is Peace",
+    "body": "After fearing he will die for seeing Yahweh's angel, Gideon hears \"Peace be to you\" and names his altar \"Yahweh is Peace\" (6:23-24), Yahweh shalom. Like Abraham's \"Yahweh Will Provide\" and Moses' \"Yahweh our Banner,\" the name records what God showed himself to be at that moment. Many early Christian writers saw the angel of Yahweh as an appearance of the Word before the incarnation; Jewish readers usually understand an angelic messenger.",
+    "refs": [
+     "Genesis 22:14",
+     "Exodus 17:15",
+     "Judges 13:22"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Reform begins at home",
+    "body": "God's first command is to pull down Gideon's own father's Baal altar (6:25). Gideon obeys, but by night, out of fear (6:27). Joash then defends him with a sharp point: if Baal is a god, let him defend himself (6:31).",
+    "refs": [
+     "1 Kings 18:27"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "From Baal to shame",
+    "body": "Gideon's name Jerub-Baal (6:32) means \"let Baal contend.\" In 2 Samuel he is called Jerubbesheth, with Baal replaced by bosheth, \"shame.\" Scribes made the same swap in names like Ish-bosheth, to avoid speaking the name of the idol.",
+    "refs": [
+     "2 Samuel 11:21",
+     "2 Samuel 2:8"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The Spirit clothed Gideon",
+    "body": "Where the WEB says the Spirit \"came on Gideon\" (6:34), the Hebrew literally says the Spirit clothed itself with him, like putting on a garment. Gideon becomes the garment God wears. The same verb is used for the Spirit and Amasai in Chronicles.",
+    "refs": [
+     "1 Chronicles 12:18",
+     "2 Chronicles 24:20"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The fleece",
+    "body": "Gideon already had God's promise (6:14, 6:16) yet asked twice for a sign with the fleece (6:36-40). Some read his request as weak faith that God patiently bears with; others as honest seeking. When is asking for a sign trust, and when is it reluctance to obey?",
+    "refs": [
+     "Deuteronomy 6:16",
+     "Isaiah 7:10-12"
+    ]
+   }
+  ]
+ },
+ "7": {
+  "summary": "God cuts Gideon's army from thirty-two thousand to three hundred, encourages him with an overheard dream, and routs Midian at night with trumpets, jars and torches.",
+  "lookfor": "Follow the shrinking numbers, the soldier's dream about a barley loaf, and what the three hundred actually carry into battle.",
+  "names": [
+   {
+    "name": "Jerubbaal",
+    "kind": "person",
+    "gloss": "Gideon's other name, given after he tore down Baal's altar."
+   },
+   {
+    "name": "Harod",
+    "kind": "place",
+    "gloss": "A spring at the foot of Mount Gilboa, whose name sounds like the Hebrew for \"trembling.\""
+   },
+   {
+    "name": "Moreh",
+    "kind": "place",
+    "gloss": "A hill on the north side of the Jezreel valley, opposite Gilboa."
+   },
+   {
+    "name": "Purah",
+    "kind": "person",
+    "gloss": "Gideon's servant, who goes with him to spy on the camp."
+   },
+   {
+    "name": "Oreb",
+    "kind": "person",
+    "gloss": "A prince of Midian whose name means \"raven.\""
+   },
+   {
+    "name": "Zeeb",
+    "kind": "person",
+    "gloss": "A prince of Midian whose name means \"wolf.\""
+   },
+   {
+    "name": "Ephraim",
+    "kind": "group",
+    "gloss": "A powerful central tribe, called in late to cut off Midian's escape at the Jordan."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Too many for me",
+    "body": "God says the army is too big \"lest Israel brag against me, saying, 'My own hand has saved me'\" (7:2). The first cut follows Deuteronomy's rule sending the fearful home (7:3). Paul makes a similar point: God chooses the weak so no one can boast before him.",
+    "refs": [
+     "Deuteronomy 20:8",
+     "1 Corinthians 1:27-29"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Lapping like a dog",
+    "body": "Popular sermons often say the lappers were chosen because they stayed alert. The text gives no such reason (7:5-7). It seems the test simply reduces the army to a number too small to take credit, and the three hundred may even have been the less impressive group.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Why Mount Gilead?",
+    "body": "The fearful are told to leave \"Mount Gilead\" (7:3), but Gilead lies east of the Jordan, while Gideon is camped by Harod, west of it. Many scholars suggest a copying slip for Gilboa, the mountain right above the spring; others propose a local hill of that name. Harod itself sounds like the Hebrew word for \"trembling\" used in the same verse.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "A barley loaf",
+    "body": "A Midianite dreams that a cake of barley bread rolls into the camp and flattens a tent (7:13). Barley was the cheaper grain of poor farmers, while the tent stands for the nomads. Dreams were widely taken as messages in the ancient world, and the enemy's own interpretation gives Gideon courage.",
+    "refs": [
+     "John 6:9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The middle watch",
+    "body": "Israel divided the night into three watches, so the middle watch began around ten at night (7:19). The new guards had just taken their posts. Torches hidden in clay jars suddenly flared on every side, three hundred trumpets sounded, and the camp turned on itself in the dark (7:22).",
+    "refs": [
+     "Exodus 14:24",
+     "1 Samuel 11:11"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The day of Midian",
+    "body": "Later Scripture remembers this victory as a byword for God's rescue. Isaiah speaks of breaking the oppressor's rod \"as in the day of Midian,\" and a psalm asks God to make Israel's enemies like Oreb and Zeeb. Readers often hear an echo in Paul's \"treasure in clay vessels,\" though Paul does not cite Gideon.",
+    "refs": [
+     "Isaiah 9:4",
+     "Isaiah 10:26",
+     "Psalms 83:11",
+     "2 Corinthians 4:7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "For Yahweh and for Gideon",
+    "body": "The battle cry is \"For Yahweh and for Gideon!\" (7:18), and later \"The sword of Yahweh and of Gideon!\" (7:20). After a chapter about God getting the credit, is adding Gideon's name natural, or a first hint of what comes next?",
+    "refs": [
+     "Judges 8:22-27"
+    ]
+   }
+  ]
+ },
+ "8": {
+  "summary": "Gideon calms Ephraim, hunts down and kills the kings of Midian, punishes the towns that refused his men bread, turns down a crown, yet makes a golden ephod that becomes a snare to Israel.",
+  "lookfor": "Watch how Gideon changes after the battle: his soft answer to Ephraim, his harshness toward Succoth and Penuel, his personal revenge, and what he does with the gold.",
+  "names": [
+   {
+    "name": "Succoth",
+    "kind": "place",
+    "gloss": "An Israelite town east of the Jordan, near where the Jabbok river flows into it."
+   },
+   {
+    "name": "Penuel",
+    "kind": "place",
+    "gloss": "A town on the Jabbok river, named where Jacob wrestled with God."
+   },
+   {
+    "name": "Zebah",
+    "kind": "person",
+    "gloss": "One of two kings of Midian whom Gideon pursues across the Jordan."
+   },
+   {
+    "name": "Zalmunna",
+    "kind": "person",
+    "gloss": "The other king of Midian, captured with Zebah."
+   },
+   {
+    "name": "Jether",
+    "kind": "person",
+    "gloss": "Gideon's firstborn son, still a boy, who is too afraid to kill the kings."
+   },
+   {
+    "name": "Ishmaelites",
+    "kind": "group",
+    "gloss": "Desert traders descended from Abraham's son Ishmael; the name is used here for the Midianites."
+   },
+   {
+    "name": "Abimelech",
+    "kind": "person",
+    "gloss": "Gideon's son by a concubine in Shechem, whose story follows in chapter 9."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "A soft answer to Ephraim",
+    "body": "Ephraim complains that they were called late (8:1). Gideon praises them: their \"gleaning\" of the grapes, capturing two princes, outweighs his clan's whole \"vintage\" (8:2-3). Their anger cools. When Ephraim makes the same complaint to Jephthah, he answers with war.",
+    "refs": [
+     "Judges 12:1-6",
+     "Proverbs 15:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Hands in your hand",
+    "body": "The leaders of Succoth ask, \"Are the hands of Zebah and Zalmunna now in your hand?\" (8:6). Ancient armies sometimes cut off the hands of the dead to count them, and Egyptian reliefs show scribes tallying piles of hands. The towns east of the Jordan feared Midian's revenge if Gideon failed.",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "A family feud",
+    "body": "Only near the end do we learn that these kings had killed Gideon's brothers at Tabor (8:18-19). The chase across the Jordan was also blood vengeance. Gideon tells his young son to kill the kings, which would have shamed them, and they ask him to do it himself (8:20-21).",
+    "refs": [
+     "Numbers 35:19"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Yahweh shall rule over you",
+    "body": "Israel offers Gideon a dynasty, and he refuses because Yahweh is their ruler (8:22-23). Samuel later hears God say that Israel's demand for a king is a rejection of God himself. Yet Gideon lives like a king, with many wives, seventy sons and a fortune in gold, everything Deuteronomy warns a king against.",
+    "refs": [
+     "1 Samuel 8:7",
+     "Deuteronomy 17:17"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Ephod",
+    "body": "An ephod was normally part of the high priest's vestments, worn when seeking God's guidance. Gideon makes one from about 1,700 shekels of gold (8:26-27), roughly 20 kilograms. Whether it was a garment or an image, it drew worship, and \"all Israel played the prostitute with it\" (8:27).",
+    "refs": [
+     "Exodus 28:6-30",
+     "Judges 17:5",
+     "1 Samuel 23:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "\"My father is king\"",
+    "body": "Gideon names his son by a Shechemite concubine Abimelech (8:31), which means \"my father is king.\" Having refused a crown in public, he gives a son a royal name. The next chapter shows where that leads.",
+    "refs": [
+     "Judges 9:1-6"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Lord of the covenant",
+    "body": "As soon as Gideon dies, Israel turns to Baal Berith, \"Baal of the covenant\" (8:33), whose temple stood at Shechem. Shechem was where Joshua had led Israel to renew its covenant with Yahweh. The covenant God has been swapped for an idol with a covenant title.",
+    "refs": [
+     "Joshua 24:25-26",
+     "Judges 9:4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "From idol-breaker to idol-maker",
+    "body": "Gideon began by pulling down his father's altar to Baal (6:25-27) and ended by making an object that led all Israel astray. What makes a person who started so well drift so far, often after their greatest success?",
+    "refs": []
+   }
+  ]
+ },
+ "9": {
+  "summary": "Abimelech, Gideon's son by a Shechemite concubine, murders his seventy brothers and is made king at Shechem; Jotham's fable warns of the result, and within three years Abimelech and Shechem destroy each other.",
+  "lookfor": "Listen to Jotham's fable of the trees, then watch how his curse of fire coming out of the bramble plays out step by step.",
+  "names": [
+   {
+    "name": "Abimelech",
+    "kind": "person",
+    "gloss": "Gideon's son by a concubine from Shechem; the first man in Israel to be called king."
+   },
+   {
+    "name": "Shechem",
+    "kind": "place",
+    "gloss": "An old Canaanite city in the hills of Ephraim, between Mount Gerizim and Mount Ebal."
+   },
+   {
+    "name": "house of Baal Berith",
+    "kind": "place",
+    "gloss": "The temple of \"Baal of the covenant\" at Shechem, also called the house of Elberith."
+   },
+   {
+    "name": "Jotham",
+    "kind": "person",
+    "gloss": "Gideon's youngest son, the only one to escape Abimelech's massacre."
+   },
+   {
+    "name": "house of Millo",
+    "kind": "group",
+    "gloss": "Probably the people of a fortress or raised platform at Shechem, perhaps the same as its tower."
+   },
+   {
+    "name": "Mount Gerizim",
+    "kind": "place",
+    "gloss": "The mountain above Shechem where the blessings of the law were proclaimed under Joshua."
+   },
+   {
+    "name": "Gaal",
+    "kind": "person",
+    "gloss": "A newcomer to Shechem who stirs the city to rebel against Abimelech."
+   },
+   {
+    "name": "Thebez",
+    "kind": "place",
+    "gloss": "A town near Shechem where Abimelech meets his end."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Bone and flesh",
+    "body": "Abimelech's pitch to Shechem is kinship: \"I am your bone and your flesh\" (9:2). His mother was from Shechem, while Gideon's other sons were Israelites from Ophrah. Money from the temple of Baal Berith hires him a gang of \"vain and light fellows\" (9:4).",
+    "refs": [
+     "Genesis 34:1-2",
+     "Judges 8:31"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "On one stone",
+    "body": "Abimelech kills his seventy brothers \"on one stone\" (9:5), which suggests a public execution, perhaps with a ritual edge. The youngest, Jotham, hides and survives. A similar story is told of the baby Joash, hidden when Athaliah killed the royal family.",
+    "refs": [
+     "2 Kings 11:1-2"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Jotham's fable",
+    "body": "Jotham shouts his fable from Mount Gerizim (9:7), one of the few fables in the Bible in which plants speak. The olive, fig and vine are too busy being useful to rule (9:8-13); only the bramble agrees, offering shade it cannot give and threatening fire (9:15). In the dry summer, a bramble fire really could sweep through a forest.",
+    "refs": [
+     "2 Kings 14:9",
+     "Deuteronomy 11:29"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "To sway over the trees",
+    "body": "Each good tree asks whether it should give up its fruit \"to wave back and forth over the trees\" (9:9). The Hebrew verb nua means to sway or wander. Kingship is pictured as swaying above everyone else while producing nothing.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "An evil spirit from God",
+    "body": "God sends \"an evil spirit\" between Abimelech and Shechem (9:23) so that the blood of the seventy falls on those responsible (9:24). Scripture says something similar of Saul. Interpreters differ on whether this means a spirit of discord or a personal spirit God permits, but the point is God's judgment working through human treachery.",
+    "refs": [
+     "1 Samuel 16:14",
+     "1 Kings 22:19-23"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Sown with salt",
+    "body": "Abimelech destroys Shechem and sows it with salt (9:45), a symbolic curse of lasting barrenness also known from Assyrian and Hittite texts. Excavations at Shechem (Tell Balata) found a massive fortress-temple that many identify with the house of Elberith (9:46), and a destruction layer from this period.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "A woman with a millstone",
+    "body": "A woman drops an upper millstone on Abimelech's head (9:53), the hand-held grinding stone women used every day. He asks his armour-bearer to kill him so no one will say a woman killed him (9:54). Israel remembered anyway: generations later Joab cites this death as a warning about getting too near a city wall.",
+    "refs": [
+     "2 Samuel 11:21"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Israel's first king",
+    "body": "The narrator spells out the moral: God repaid Abimelech and Shechem for their wickedness, and Jotham's curse came true (9:56-57). Israel's first attempt at kingship is a usurper who murders his family and destroys his own city. The question of a king returns in 1 Samuel.",
+    "refs": [
+     "1 Samuel 8:5-7"
+    ]
+   }
+  ]
+ },
+ "10": {
+  "summary": "Two minor judges, Tola and Jair, keep the peace; then Israel sinks into worse idolatry, and when Ammon oppresses Gilead, God at first refuses to save them before being moved by their misery.",
+  "lookfor": "Notice the brief notices about Tola and Jair, the longest list of foreign gods in the book, and the unusual exchange between Israel and God in verses 10 to 16.",
+  "names": [
+   {
+    "name": "Tola",
+    "kind": "person",
+    "gloss": "A judge from the tribe of Issachar who led Israel for twenty-three years."
+   },
+   {
+    "name": "Shamir",
+    "kind": "place",
+    "gloss": "Tola's home in the hills of Ephraim; its location is unknown."
+   },
+   {
+    "name": "Jair",
+    "kind": "person",
+    "gloss": "A judge from Gilead, east of the Jordan, who led for twenty-two years."
+   },
+   {
+    "name": "Havvoth Jair",
+    "kind": "place",
+    "gloss": "\"The villages of Jair,\" a group of settlements in Gilead."
+   },
+   {
+    "name": "Gilead",
+    "kind": "place",
+    "gloss": "The hill country east of the Jordan, between the Sea of Galilee and the Dead Sea."
+   },
+   {
+    "name": "children of Ammon",
+    "kind": "group",
+    "gloss": "The Ammonites, a people east of Gilead, descended from Lot according to Genesis."
+   },
+   {
+    "name": "Maonites",
+    "kind": "group",
+    "gloss": "An uncertain people, perhaps the Meunites of the southern desert; the Greek has Midian."
+   },
+   {
+    "name": "Mizpah",
+    "kind": "place",
+    "gloss": "Meaning \"watchtower\"; here a gathering place in Gilead, not the Mizpah in Benjamin."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "The minor judges",
+    "body": "Scholars call Tola, Jair, Ibzan, Elon and Abdon the \"minor judges\" (10:1-5; 12:8-15). They get no stories and no cycle, just a home, a length of service and a burial. Their quiet years stand in contrast with the dramatic, troubled judges around them.",
+    "refs": [
+     "Judges 12:8-15"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Thirty sons on thirty donkeys",
+    "body": "Riding donkeys was a mark of status, and Jair's thirty sons each with a town (10:4) picture wealth and local rule. The towns' name, Havvoth Jair, is credited in Numbers to an earlier Jair of Manasseh, so the name may run in the clan. The Hebrew plays on ayarim, which can mean both donkey colts and towns.",
+    "refs": [
+     "Numbers 32:41",
+     "Judges 5:10",
+     "Judges 12:14"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Two enemies at once",
+    "body": "Yahweh sells Israel to the Philistines in the west and the Ammonites in the east (10:7). This verse sets up the rest of the book's heroes: Jephthah deals with Ammon in chapters 11 and 12, Samson with the Philistines in chapters 13 to 16.",
+    "refs": [
+     "Judges 11:4",
+     "Judges 13:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Seven gods, seven rescues",
+    "body": "Israel serves seven sets of gods (10:6): the Baals, the Ashtaroth, and the gods of Syria, Sidon, Moab, Ammon and the Philistines. God answers by naming seven peoples he has saved them from (10:11-12). Idolatry has reached its peak.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Go cry to your gods",
+    "body": "God at first refuses: \"Go and cry to the gods which you have chosen\" (10:14). Moses' song had foretold the same taunt. This time Israel not only confesses but puts away its foreign gods (10:16), as Jacob's household did and as Israel will again under Samuel.",
+    "refs": [
+     "Deuteronomy 32:37-38",
+     "Genesis 35:2",
+     "1 Samuel 7:3-4"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "His soul was grieved",
+    "body": "The Hebrew behind \"his soul was grieved for the misery of Israel\" (10:16) is literally \"his soul became short,\" an idiom for being unable to bear something any longer. Most interpreters read it as compassion for their suffering; a few as impatience with their fickle repentance. The same idiom is used of Samson worn down by Delilah.",
+    "refs": [
+     "Judges 16:16",
+     "Numbers 21:4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Repentance or relief?",
+    "body": "Israel confesses but adds, \"only deliver us, please, today\" (10:15). Can anyone fully tell the difference between turning back to God and simply wanting the pain to stop?",
+    "refs": []
+   }
+  ]
+ },
+ "11": {
+  "summary": "The outcast Jephthah is brought back to lead Gilead against Ammon; after a failed diplomatic exchange he makes a rash vow, wins the battle, and his only daughter comes out to meet him.",
+  "lookfor": "Notice how Jephthah bargains for power, the long history lesson in his letter to the king of Ammon, and the exact words of his vow.",
+  "names": [
+   {
+    "name": "Jephthah",
+    "kind": "person",
+    "gloss": "A warrior from Gilead, the son of a prostitute, driven out by his half-brothers."
+   },
+   {
+    "name": "Gilead",
+    "kind": "person",
+    "gloss": "Here the name of Jephthah's father, the same as the region he lived in."
+   },
+   {
+    "name": "Tob",
+    "kind": "place",
+    "gloss": "A region east of the Jordan, probably north-east of Gilead toward Syria."
+   },
+   {
+    "name": "Mizpah",
+    "kind": "place",
+    "gloss": "A town in Gilead where Jephthah lives and makes his agreement before Yahweh."
+   },
+   {
+    "name": "Arnon",
+    "kind": "place",
+    "gloss": "A deep river gorge flowing into the Dead Sea from the east; Moab's northern border."
+   },
+   {
+    "name": "Jabbok",
+    "kind": "place",
+    "gloss": "A river flowing west into the Jordan, where Jacob once wrestled with God."
+   },
+   {
+    "name": "Sihon",
+    "kind": "person",
+    "gloss": "An Amorite king of Heshbon whom Israel defeated in Moses' time."
+   },
+   {
+    "name": "Balak",
+    "kind": "person",
+    "gloss": "The king of Moab who hired Balaam to curse Israel."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The outcast called home",
+    "body": "Jephthah's half-brothers drive him out as \"the son of another woman\" (11:2), and the same elders come begging when Ammon attacks (11:7). He bargains hard: he will fight only if he becomes head of Gilead (11:9). Like Joseph and David, he is rejected by his own and then needed by them.",
+    "refs": [
+     "Genesis 37:4",
+     "1 Samuel 22:1-2"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Empty men",
+    "body": "The outlaws who join Jephthah (11:3) are in Hebrew anashim reqim, \"empty men,\" men with no land or standing. Abimelech hired the same kind of men (9:4). Judges gathers its leaders from the edges of society.",
+    "refs": [
+     "2 Chronicles 13:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A history lesson by letter",
+    "body": "Jephthah's answer to Ammon (11:15-27) retells Numbers 20 and 21: Israel went around Edom and Moab and took land only from Sihon. His claim of three hundred years in the land (11:26) is a round number but is often used in debates over dating the exodus. He ends by appealing to Yahweh as Judge (11:27), the only time the book uses that title for God.",
+    "refs": [
+     "Numbers 21:21-26",
+     "Deuteronomy 2:19"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Chemosh your god",
+    "body": "Jephthah speaks to the Ammonite king of \"Chemosh your god\" (11:24), though Chemosh was the god of Moab and Ammon's god was Milcom. He may be answering a claim to land that once belonged to Moab, or the king may have ruled both peoples. He also argues in his opponent's terms: each nation keeps what its god gives it.",
+    "refs": [
+     "Numbers 21:29",
+     "1 Kings 11:33"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A vow after the Spirit came",
+    "body": "The Spirit has already come on Jephthah (11:29) before he makes his vow (11:30-31), so the victory did not depend on it. The Hebrew \"whatever comes out\" can also mean \"whoever,\" and \"to meet me\" usually describes a person. Israelite houses often kept animals on the ground floor, so interpreters still debate what he expected.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "What the law said about vows",
+    "body": "The law condemned child sacrifice as something Yahweh hates, and it let people vowed to God be redeemed with money. A rabbinic tradition says Jephthah's vow should have been annulled, and blames both Jephthah and the high priest for not seeking a way out. Ecclesiastes warns against rash vows.",
+    "refs": [
+     "Deuteronomy 12:31",
+     "Leviticus 27:1-8",
+     "Ecclesiastes 5:4-6"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "What happened to her?",
+    "body": "Most ancient Jewish and Christian interpreters, and most modern scholars, read 11:39 as a real sacrifice. Some, including the medieval Jewish commentator David Kimchi, argued instead that she was dedicated to lifelong celibacy, noting that she mourns her virginity and that the verse adds \"She was a virgin.\" Hebrews lists Jephthah among the faithful, which commends his trust in God, not his vow.",
+    "refs": [
+     "Hebrews 11:32",
+     "2 Kings 3:27"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Remembered every year",
+    "body": "The daughter is never named, yet the daughters of Israel went out yearly to remember her (11:40). What does it say that the text keeps her memory alive while passing no verdict on her father?",
+    "refs": []
+   }
+  ]
+ },
+ "12": {
+  "summary": "Ephraim picks a quarrel with Jephthah, and the Gileadites slaughter Ephraimites at the Jordan fords using the password \"Shibboleth\"; then three more minor judges, Ibzan, Elon and Abdon, are briefly noted.",
+  "lookfor": "Compare Jephthah's reply to Ephraim with Gideon's in chapter 8, and notice that Israelites are now killing Israelites.",
+  "names": [
+   {
+    "name": "Ephraim",
+    "kind": "group",
+    "gloss": "A large central tribe that resented being left out of victories won by others."
+   },
+   {
+    "name": "Gileadites",
+    "kind": "group",
+    "gloss": "Israelites living in Gilead, east of the Jordan, led by Jephthah."
+   },
+   {
+    "name": "Ibzan",
+    "kind": "person",
+    "gloss": "A judge from Bethlehem with thirty sons and thirty daughters."
+   },
+   {
+    "name": "Bethlehem",
+    "kind": "place",
+    "gloss": "Probably the Bethlehem in Zebulun in the north, though some take it as the town in Judah."
+   },
+   {
+    "name": "Elon",
+    "kind": "person",
+    "gloss": "A judge from the tribe of Zebulun who led for ten years."
+   },
+   {
+    "name": "Abdon",
+    "kind": "person",
+    "gloss": "A judge from Pirathon in Ephraim with forty sons and thirty grandsons."
+   },
+   {
+    "name": "Pirathon",
+    "kind": "place",
+    "gloss": "A town in Ephraim, probably west of Shechem."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Ephraim again",
+    "body": "Ephraim makes the same complaint it made to Gideon, this time with a threat to burn Jephthah's house (12:1). Gideon calmed them with praise; Jephthah answers that he did call them and they did not come (12:2), and then he fights. How leaders respond to wounded pride shapes what follows.",
+    "refs": [
+     "Judges 8:1-3",
+     "Proverbs 15:1"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Fugitives of Ephraim",
+    "body": "The fight is fuelled by an insult: Ephraimites sneer that the Gileadites are just \"fugitives of Ephraim\" (12:4), runaways who do not count as a real tribe. The Jordan separated the tribes east and west, and tension between them runs back to the dispute over the altar in Joshua's day.",
+    "refs": [
+     "Joshua 22:10-12"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Shibboleth",
+    "body": "Shibboleth (12:6) means an ear of grain or a flowing stream; the meaning did not matter, only the sound. Ephraimites apparently pronounced the \"sh\" as \"s,\" so their dialect gave them away. The word passed into English for any test word or custom that marks who belongs.",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Israel against Israel",
+    "body": "The book has moved from tribes fighting Canaanites to Israelites slaughtering one another at the fords (12:6). This is a step toward the civil war against Benjamin at the end of Judges. Some scholars think the Hebrew elef, usually \"thousand,\" can also mean a military unit, which would make large numbers like forty-two thousand smaller in reality.",
+    "refs": [
+     "Judges 20:35"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Marriages and donkeys",
+    "body": "Ibzan sends thirty daughters to marry outside his clan and brings in thirty brides for his sons (12:9), building a network of alliances. Abdon's forty sons and thirty grandsons on seventy donkeys (12:14) show wealth and rank, as with Jair. These are local strongmen with families like minor royalty.",
+    "refs": [
+     "Judges 10:4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Which Bethlehem?",
+    "body": "Ibzan is \"of Bethlehem\" (12:8). Most scholars think this is the Bethlehem in Zebulun, since the judges around him are northern. The Talmud identifies Ibzan with Boaz of Bethlehem in Judah, which would link him to the book of Ruth.",
+    "refs": [
+     "Joshua 19:15",
+     "Ruth 4:13"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Old wounds",
+    "body": "Jephthah was once driven out by his brothers, and now he answers his kinsmen with the sword. How might old rejections shape the way a leader handles criticism?",
+    "refs": []
+   }
+  ]
+ },
+ "13": {
+  "summary": "Yahweh's angel tells Manoah's childless wife she will bear a son who must be a Nazirite from the womb; when the angel returns, he ascends in the flame of their offering.",
+  "lookfor": "Notice that the mother is never named, how much more she grasps than her husband, and exactly what the boy must and must not do.",
+  "names": [
+   {
+    "name": "Zorah",
+    "kind": "place",
+    "gloss": "A town in the low hills west of Jerusalem, in the area first given to Dan, near Philistine country."
+   },
+   {
+    "name": "Danites",
+    "kind": "group",
+    "gloss": "The tribe of Dan, squeezed by the Amorites and Philistines in its original land."
+   },
+   {
+    "name": "Manoah",
+    "kind": "person",
+    "gloss": "Samson's father, a man of Dan from Zorah."
+   },
+   {
+    "name": "Samson",
+    "kind": "person",
+    "gloss": "The last major judge, set apart to God from before his birth."
+   },
+   {
+    "name": "Mahaneh Dan",
+    "kind": "place",
+    "gloss": "\"The camp of Dan,\" a site between Zorah and Eshtaol."
+   },
+   {
+    "name": "Eshtaol",
+    "kind": "place",
+    "gloss": "A town near Zorah in the Sorek valley region."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "No cry this time",
+    "body": "The Philistines rule Israel for forty years (13:1), the longest oppression in the book, yet for the first time Israel does not cry out to Yahweh. God acts anyway. The angel says Samson will only \"begin\" to save Israel (13:5), and the Philistine threat lasts into the days of Samuel, Saul and David.",
+    "refs": [
+     "1 Samuel 7:13",
+     "2 Samuel 5:17-25"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Another barren mother",
+    "body": "Samson's birth follows a pattern seen with Sarah, Rebekah and Rachel: a childless woman, a promise, a son with a special role. Hannah's son Samuel and Elizabeth's son John are also set apart from birth, and John too is to drink no wine or strong drink.",
+    "refs": [
+     "Genesis 18:10-14",
+     "1 Samuel 1:11",
+     "Luke 1:13-15"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Nazirite",
+    "body": "Nazir means \"separated\" or \"consecrated.\" Under the law in Numbers, a Nazirite avoided wine and anything from the vine, did not cut their hair, and kept away from dead bodies, usually for a limited time by choice. Samson's dedication is lifelong and given before birth (13:5, 13:7), and his mother keeps part of it during her pregnancy (13:4).",
+    "refs": [
+     "Numbers 6:1-8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The wiser parent",
+    "body": "The angel comes to the woman twice; Manoah asks again for instructions he has already been given and does not recognise the visitor (13:8-16). When he panics that they will die, his wife reasons calmly that God would not have accepted their offering if he meant to kill them (13:22-23). The Talmud gives her a name, Tzlelponit, which the text itself withholds.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "A wonderful name",
+    "body": "The angel says his name is \"incomprehensible\" (13:18), Hebrew peli, from the root for \"wonder.\" The angel then does \"an amazing thing\" (13:19), from the same root. Isaiah uses a form of this word for the child whose name is \"Wonderful.\" Jacob also asked a heavenly visitor's name and was refused.",
+    "refs": [
+     "Genesis 32:29",
+     "Isaiah 9:6"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Up in the flame",
+    "body": "The angel refuses food and tells Manoah to offer it to Yahweh instead (13:16), then rises in the altar's flame (13:20). The scene echoes Gideon's meal consumed by fire from the rock, and both men fear death after seeing the angel.",
+    "refs": [
+     "Judges 6:20-23",
+     "Genesis 18:8"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "On the Philistine border",
+    "body": "Zorah and Eshtaol sat in the Shephelah, the low hills between the Judean highlands and the Philistine coastal plain. This was Dan's first allotment, which the tribe could not hold. Samson grows up on the front line where Israelite and Philistine villages met and mixed.",
+    "refs": [
+     "Joshua 19:40-41",
+     "Judges 1:34",
+     "Judges 18:1"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Called before birth",
+    "body": "Samson is set apart to God before he has done anything (13:5). What changes when a person sees their calling as something given rather than something earned?",
+    "refs": [
+     "Jeremiah 1:5",
+     "Galatians 1:15"
+    ]
+   }
+  ]
+ },
+ "14": {
+  "summary": "Samson insists on marrying a Philistine woman of Timnah, kills a lion with his bare hands, poses a riddle at his wedding feast, and when the guests cheat, kills thirty men of Ashkelon to pay the wager.",
+  "lookfor": "Watch for each way Samson brushes against his Nazirite calling, the secrets he keeps from his parents, and how the riddle turns the feast sour.",
+  "names": [
+   {
+    "name": "Samson",
+    "kind": "person",
+    "gloss": "A man of Dan set apart to God from birth, with great strength and strong appetites."
+   },
+   {
+    "name": "Timnah",
+    "kind": "place",
+    "gloss": "A town in the Sorek valley on the border between Dan's land and Philistine territory."
+   },
+   {
+    "name": "Philistines",
+    "kind": "group",
+    "gloss": "The people of the southern coastal plain, who ruled over Israel at this time."
+   },
+   {
+    "name": "Ashkelon",
+    "kind": "place",
+    "gloss": "One of the five main Philistine cities, on the Mediterranean coast."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Right in his eyes",
+    "body": "Samson says of the Timnite woman, \"she pleases me well\" (14:3), literally \"she is right in my eyes.\" The phrase anticipates the book's closing verdict that everyone did what was right in his own eyes. Samson lives out in one life what all Israel does by the end.",
+    "refs": [
+     "Judges 17:6",
+     "Judges 21:25"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "It was of Yahweh",
+    "body": "The narrator adds that his parents did not know \"it was of Yahweh\" (14:4), who was seeking an occasion against the Philistines. This does not make Samson's choice right. Scripture often shows God working his purposes through flawed human desires.",
+    "refs": [
+     "Genesis 50:20",
+     "Deuteronomy 7:3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Brushing against the vow",
+    "body": "A Nazirite was to avoid anything from the vine and any dead body. Samson meets the lion in the vineyards of Timnah (14:5), scoops honey from its carcass and gives some to his parents without telling them where it came from (14:8-9). The wedding \"feast\" (14:10) was in Hebrew a mishteh, a drinking feast.",
+    "refs": [
+     "Numbers 6:3-6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A seven-day wedding",
+    "body": "Weddings lasted seven days, as with Jacob and Leah. The bride's people supply thirty companions (14:11), perhaps as groomsmen or to keep an eye on the stranger. Thirty linen garments and thirty sets of clothes was a costly bet, since cloth was expensive.",
+    "refs": [
+     "Genesis 29:27"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Chidah: the riddle",
+    "body": "A chidah is a riddle or puzzling saying, the same word used of the hard questions the queen of Sheba put to Solomon. Samson's (14:14) is unfair because only he saw the lion and the honey. Some scholars suggest the guests answer with an old riddle of their own (14:18), whose usual answer was love.",
+    "refs": [
+     "1 Kings 10:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Plowing with my heifer",
+    "body": "Samson's retort (14:18) is a farmer's insult: they got the answer by working his wife like a borrowed animal. Threatened with being burned along with her father's house (14:15), she was caught between her people and her husband. The riddle's wording in the King James Version still appears on tins of Lyle's Golden Syrup, with the lion and bees.",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The Spirit and a temper",
+    "body": "Yahweh's Spirit \"came mightily on him\" (14:6, 14:19), and the verb means to rush upon. The same power that tears the lion also pays a wager by killing thirty men of Ashkelon, and \"his anger burned\" (14:19). Samson's gifts come from God; his use of them is often his own.",
+    "refs": [
+     "1 Samuel 10:6",
+     "1 Samuel 11:6"
+    ]
+   }
+  ]
+ },
+ "15": {
+  "summary": "Denied his wife, Samson burns the Philistines' harvest with foxes and torches; the revenge escalates until the men of Judah hand him over, and he kills a thousand Philistines with a donkey's jawbone.",
+  "lookfor": "Count the rounds of revenge, each side answering the last, and notice how Judah treats the man who could deliver it.",
+  "names": [
+   {
+    "name": "Timnite",
+    "kind": "person",
+    "gloss": "Samson's Philistine father-in-law from Timnah."
+   },
+   {
+    "name": "Etam",
+    "kind": "place",
+    "gloss": "A rocky height in Judah with a cave where Samson takes refuge."
+   },
+   {
+    "name": "Lehi",
+    "kind": "place",
+    "gloss": "A place in Judah whose name means \"jawbone.\""
+   },
+   {
+    "name": "Ramath Lehi",
+    "kind": "place",
+    "gloss": "\"Jawbone hill,\" named for Samson's victory."
+   },
+   {
+    "name": "En Hakkore",
+    "kind": "place",
+    "gloss": "\"The spring of the one who called,\" named for Samson's prayer for water."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "A young goat at harvest",
+    "body": "Samson comes at wheat harvest, in early summer, bringing a young goat (15:1), a customary gift; Judah once promised Tamar the same. Some scholars think this was a kind of marriage in which the wife stayed in her father's house and the husband visited. The dry, ripe grain made the Philistine fields easy to burn.",
+    "refs": [
+     "Genesis 38:17"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Foxes or jackals",
+    "body": "The Hebrew shu'al can mean fox or jackal, and since jackals live in packs, many think jackals were easier to catch in such numbers. Tying them tail to tail with a torch between (15:4) sent each pair running wildly in different directions. Grain, shocks and olive groves all went up in flames (15:5).",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "The spiral of revenge",
+    "body": "Each side answers the last: Samson burns the fields, the Philistines burn his wife and her father, Samson strikes them, and they invade Judah (15:3-10). His wife meets the very fate she had tried to avoid by betraying his riddle (14:15). Samson sums up the logic: \"As they did to me, so I have done to them\" (15:11).",
+    "refs": [
+     "Judges 14:15",
+     "Romans 12:17-19"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Judah hands over its deliverer",
+    "body": "Three thousand men of Judah come to bind Samson, saying the Philistines are their rulers (15:11-13). The tribe that led the way in chapter 1 now polices its own deliverer for the enemy. Some Christian readers have seen a foreshadowing of Jesus, bound and handed over by his own people, though the stories differ in much else.",
+    "refs": [
+     "Judges 1:1-2",
+     "John 18:12",
+     "John 19:16"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Heaps on heaps",
+    "body": "Samson's victory chant (15:16) is a pun: chamor means \"donkey\" and the same letters mean \"heap.\" With the jawbone of a chamor he made chamor upon chamor. The place is named Ramath Lehi, \"jawbone hill\" (15:17).",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "A fresh jawbone",
+    "body": "The jawbone was \"fresh\" (15:15), meaning from an animal recently dead, so once again Samson handles a carcass, something a Nazirite was to avoid. As with the lion, he uses what is at hand. The story never comments, but the pattern builds toward chapter 16.",
+    "refs": [
+     "Numbers 6:6",
+     "Judges 14:8-9"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Samson's first prayer",
+    "body": "Samson's first recorded prayer comes when he is desperately thirsty, and he calls himself God's servant (15:18). God splits the rock and the place is named for the one who called (15:19), much as water came from the rock in the wilderness. What does it suggest that God answers a prayer made only in need?",
+    "refs": [
+     "Exodus 17:6"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Twenty years",
+    "body": "The note that Samson judged Israel twenty years (15:20) appears again at the end of the next chapter. Many scholars think this marks the end of one collection of Samson stories, with chapter 16 added as their climax. He judges \"in the days of the Philistines,\" never fully removing them.",
+    "refs": [
+     "Judges 16:31",
+     "Judges 13:5"
+    ]
+   }
+  ]
+ },
+ "16": {
+  "summary": "Samson escapes a trap at Gaza by carrying off the city gate, falls for Delilah, who draws out the secret of his strength, and is captured and blinded; in Dagon's temple he prays once more and brings the building down.",
+  "lookfor": "Watch the pattern of Delilah's four attempts, how each of Samson's false answers edges closer to the truth, and the small note about his hair in verse 22.",
+  "names": [
+   {
+    "name": "Gaza",
+    "kind": "place",
+    "gloss": "The southernmost of the five Philistine cities, on the coast road to Egypt."
+   },
+   {
+    "name": "Hebron",
+    "kind": "place",
+    "gloss": "A town high in the hills of Judah, far uphill and inland from Gaza."
+   },
+   {
+    "name": "Sorek",
+    "kind": "place",
+    "gloss": "A valley running from the Judean hills toward the coast, near Samson's home."
+   },
+   {
+    "name": "Delilah",
+    "kind": "person",
+    "gloss": "The woman Samson loves, whose people are never stated; she is paid by the Philistines to betray him."
+   },
+   {
+    "name": "lords of the Philistines",
+    "kind": "group",
+    "gloss": "The rulers of the five Philistine cities, who acted together in war and policy."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Carrying off the gate",
+    "body": "Trapped at Gaza, Samson pulls up the city gate, posts, bar and all, and carries it toward Hebron (16:3), a climb of about 60 kilometres into the hills. A city's gate was the symbol of its strength. Genesis promises that Abraham's offspring will possess the gate of their enemies.",
+    "refs": [
+     "Genesis 22:17"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Seranim: the Philistine lords",
+    "body": "The \"lords of the Philistines\" (16:5) are in Hebrew seranim, a title used only for Philistine rulers. Many scholars connect it with the Greek word tyrannos, one clue that the Philistines came from the Aegean world. Each of the five lords offers Delilah eleven hundred pieces of silver.",
+    "refs": [
+     "Joshua 13:3",
+     "1 Samuel 6:16"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A fortune in silver",
+    "body": "Five lords at eleven hundred pieces each (16:5) makes 5,500 pieces of silver. In the next chapter a Levite is hired for ten pieces a year. Micah's mother's stolen silver in the next chapter is also eleven hundred pieces, a link between the stories.",
+    "refs": [
+     "Judges 17:2",
+     "Judges 17:10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Edging toward the truth",
+    "body": "Samson's answers move closer each time: fresh bowstrings, then new ropes like those Judah used (15:13), then weaving his hair into a loom (16:13-14), and at last the razor (16:17). The saddest line in the chapter is that he \"didn't know that Yahweh had departed from him\" (16:20).",
+    "refs": [
+     "Judges 15:13",
+     "1 Samuel 16:14"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Not magic hair",
+    "body": "Samson's strength was never in his hair as such; the hair was the sign of his dedication to God, and when it was gone, Yahweh had left him (16:20). Yet \"the hair of his head began to grow again\" (16:22), a small sign that the story is not over. God's purpose for Samson outlasts his failures.",
+    "refs": [
+     "Judges 13:5"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The mill and Dagon",
+    "body": "Blinded and chained, Samson grinds grain in prison (16:21), work for slaves and captives. Dagon was once thought to be a fish god, from Hebrew dag, \"fish,\" but is now generally linked with dagan, \"grain.\" The Philistines credit him with Samson's capture (16:23-24); in 1 Samuel his statue falls before the ark.",
+    "refs": [
+     "1 Samuel 5:1-5",
+     "2 Kings 25:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Two central pillars",
+    "body": "Excavations at Tell Qasile, a Philistine site near modern Tel Aviv, uncovered a temple whose roof rested on two central wooden pillars set on stone bases close together. This shows how a man between two pillars (16:29) could bring down a crowded roof. Spectators stood on the roof to watch (16:27).",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Remember me",
+    "body": "Samson's last prayer begins \"Lord Yahweh, remember me\" (16:28), though he asks to be avenged for his eyes. Hebrews lists him among those who \"from weakness were made strong.\" Some Christian interpreters see in his death a picture of victory through death; others stress how different his motive is from Christ's.",
+    "refs": [
+     "Hebrews 11:32-34",
+     "Luke 23:42"
+    ]
+   }
+  ]
+ },
+ "17": {
+  "summary": "Micah, a man of Ephraim, returns stolen silver to his mother, who has part of it made into an idol; he sets up a household shrine and hires a wandering Levite from Bethlehem as his priest.",
+  "lookfor": "Notice how every religious act in the chapter uses Yahweh's name while breaking his law, and the new refrain in verse 6.",
+  "names": [
+   {
+    "name": "Micah",
+    "kind": "person",
+    "gloss": "A man of Ephraim, not the later prophet, who builds a private shrine."
+   },
+   {
+    "name": "Ephraim",
+    "kind": "place",
+    "gloss": "The central hill country north of Jerusalem, home of the tribe of Ephraim."
+   },
+   {
+    "name": "Bethlehem Judah",
+    "kind": "place",
+    "gloss": "Bethlehem in Judah, so called to distinguish it from a Bethlehem in Zebulun."
+   },
+   {
+    "name": "Levite",
+    "kind": "group",
+    "gloss": "A member of the tribe of Levi, set apart for religious service and given no tribal land."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "The book's two closing stories",
+    "body": "Chapters 17 to 21 tell two stories not tied to any judge. They probably took place early in the period, since a grandson of Moses and a grandson of Aaron appear in them. Instead of enemies from outside, they show what Israel had become inside.",
+    "refs": [
+     "Judges 18:30",
+     "Judges 20:28"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Who is like Yahweh?",
+    "body": "In Hebrew, Micah's name in 17:1 and 17:4 is the longer Michayehu, \"Who is like Yahweh?\" It is an ironic name for a man who makes an image to represent God. The prophet Micah later plays on the meaning of the same name.",
+    "refs": [
+     "Micah 7:18",
+     "Exodus 20:4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A curse, a blessing and an idol",
+    "body": "His mother curses the unknown thief, then blesses her son when he confesses (17:2). She dedicates all the silver to Yahweh, but only two hundred of the eleven hundred pieces go to the silversmith (17:4). The image is made in Yahweh's name, which is exactly what the law forbids.",
+    "refs": [
+     "Deuteronomy 27:15"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Ephod and teraphim",
+    "body": "Micah's \"house of gods\" (17:5) holds an ephod and teraphim. Teraphim were household figurines used in family religion and to seek omens; Rachel stole her father's, and Michal used one to fool Saul's men. Micah makes one of his sons priest, though only descendants of Aaron were to serve as priests.",
+    "refs": [
+     "Genesis 31:19",
+     "1 Samuel 19:13",
+     "Numbers 3:10"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Right in his own eyes",
+    "body": "\"In those days there was no king in Israel. Everyone did that which was right in his own eyes\" (17:6). The refrain returns in 18:1, 19:1 and 21:25. Deuteronomy had warned against worship where everyone does whatever is right in his own eyes. Readers debate whether the refrain longs for a human king or laments that Israel ignored God as king.",
+    "refs": [
+     "Deuteronomy 12:8",
+     "Judges 21:25"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A Levite for hire",
+    "body": "Levites had no tribal land and were to be supported by Israel's tithes and given towns of their own. A Levite wandering \"to live where he could find a place\" (17:8) shows that system breaking down. Micah offers him ten pieces of silver a year, clothing and food (17:10).",
+    "refs": [
+     "Numbers 35:2-8",
+     "Deuteronomy 18:6-8"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Yahweh will do good to me",
+    "body": "Micah is sure that having a Levite as priest guarantees God's blessing (17:13). Can religion become a way of trying to secure God's favour on our own terms?",
+    "refs": [
+     "Micah 6:6-8"
+    ]
+   }
+  ]
+ },
+ "18": {
+  "summary": "The tribe of Dan, still without land, sends spies who consult Micah's priest; six hundred Danites then steal Micah's idols and priest, wipe out the quiet town of Laish, and set up their own shrine in the north.",
+  "lookfor": "Notice the echoes of the spy stories in Numbers and Joshua, and how quickly the Levite changes masters.",
+  "names": [
+   {
+    "name": "Danites",
+    "kind": "group",
+    "gloss": "The tribe of Dan, unable to hold its first allotment near the coast."
+   },
+   {
+    "name": "Laish",
+    "kind": "place",
+    "gloss": "A town at the far north of the land, by the springs of the Jordan, later renamed Dan."
+   },
+   {
+    "name": "Sidonians",
+    "kind": "group",
+    "gloss": "The people of Sidon, a Phoenician port city on the coast north of Israel."
+   },
+   {
+    "name": "Kiriath Jearim",
+    "kind": "place",
+    "gloss": "A town in Judah west of Jerusalem, where the ark later rested for many years."
+   },
+   {
+    "name": "Jonathan",
+    "kind": "person",
+    "gloss": "The Levite priest who serves the Danites, named only at the end of the chapter."
+   },
+   {
+    "name": "Gershom",
+    "kind": "person",
+    "gloss": "Moses' elder son, born in Midian."
+   },
+   {
+    "name": "Shiloh",
+    "kind": "place",
+    "gloss": "The town in Ephraim where the tabernacle stood in the time of the judges."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "A tribe without land",
+    "body": "Dan had been allotted land in the lowlands near the coast but was pushed into the hills (1:34). \"Their inheritance had not fallen to them\" (18:1) is the Danites' own view. Joshua briefly records this same move north.",
+    "refs": [
+     "Joshua 19:40-48",
+     "Judges 1:34"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A spy story turned upside down",
+    "body": "Five spies report a land that is \"very good\" (18:9), just as in Numbers and Joshua. But Laish is not a Canaanite nation under judgment; it is a quiet, isolated town with no protector (18:7, 18:28). The language of conquest is used for a land grab.",
+    "refs": [
+     "Numbers 13:17-20",
+     "Numbers 14:7",
+     "Joshua 2:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A vague oracle",
+    "body": "Asked to consult God, the Levite answers at once, \"Go in peace\" (18:6), without any mention that he actually inquired. The Hebrew phrase translated \"before Yahweh\" can mean simply \"in Yahweh's sight,\" which could be good or bad. The spies hear what they want to hear.",
+    "refs": [
+     "1 Kings 22:5-6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A grandson of Moses",
+    "body": "The priest is \"Jonathan, the son of Gershom, the son of Moses\" (18:30). In the Masoretic Hebrew a small letter nun is raised above the line, turning Moses into Manasseh; Jewish tradition explains it as sparing Moses' honour. The WEB, like the Latin Vulgate and much of the Greek tradition, follows the reading \"Moses.\"",
+    "refs": [
+     "Exodus 2:22"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Tel Dan",
+    "body": "Laish became Dan, at the springs that feed the Jordan. Excavations at Tel Dan have uncovered a large sacred platform from the time of the kings and an Aramaic inscription that mentions the \"house of David.\" Jeroboam later set up one of his golden calves here.",
+    "refs": [
+     "1 Kings 12:28-30"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A shrine that outlived Shiloh",
+    "body": "Jonathan's line served Dan's shrine \"until the day of the captivity of the land\" (18:30), probably the Assyrian deportations of the 8th century BC, while Micah's image stood as long as God's house was at Shiloh (18:31). The note shows the book reached its final form long after these events. Dan's unauthorised worship lasted for centuries.",
+    "refs": [
+     "2 Kings 15:29",
+     "Jeremiah 7:12"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "What more do I have?",
+    "body": "Micah chases the Danites, crying, \"You have taken away my gods which I made\" (18:24). Gods that can be carried off by stronger men cannot protect anyone. What does Micah's loss reveal about what he had been trusting?",
+    "refs": [
+     "Isaiah 46:1-2"
+    ]
+   }
+  ]
+ },
+ "19": {
+  "summary": "A Levite brings his concubine back from Bethlehem; at Gibeah in Benjamin no one takes them in but an old man, the town's men surround the house, and she is gang-raped through the night and dies, after which the Levite sends her body in twelve pieces through Israel.",
+  "lookfor": "Notice the long delays at the father-in-law's house, the choice not to stop at Jebus, and how closely the night at Gibeah echoes an earlier story in Genesis.",
+  "names": [
+   {
+    "name": "Levite",
+    "kind": "group",
+    "gloss": "A member of the tribe of Levi; this one, like the woman, is never named."
+   },
+   {
+    "name": "Bethlehem Judah",
+    "kind": "place",
+    "gloss": "Bethlehem in Judah, the concubine's home town."
+   },
+   {
+    "name": "Jebus",
+    "kind": "place",
+    "gloss": "Jerusalem while it was still held by the Jebusites."
+   },
+   {
+    "name": "Gibeah",
+    "kind": "place",
+    "gloss": "A town of Benjamin a few miles north of Jerusalem, later Saul's home."
+   },
+   {
+    "name": "Ramah",
+    "kind": "place",
+    "gloss": "A town of Benjamin just north of Gibeah, later Samuel's home."
+   },
+   {
+    "name": "Benjamites",
+    "kind": "group",
+    "gloss": "Members of the tribe of Benjamin, whose land lay between Judah and Ephraim."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Why Scripture tells this",
+    "body": "The story opens with the refrain \"there was no king in Israel\" (19:1) and offers no other comment. Neither the Levite nor the woman is named, and she never speaks. The scholar Phyllis Trible counted this among the Bible's \"texts of terror,\" stories told so that Israel would see how far it had fallen.",
+    "refs": [
+     "Judges 17:6",
+     "Judges 21:25"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Unfaithful or angry?",
+    "body": "The Hebrew says the concubine \"played the prostitute against him\" (19:2), but the Greek Septuagint says she became angry with him, and several modern translations follow that. Either way she returns to her father's house, and her husband goes \"to speak kindly to her\" (19:3), literally \"to speak to her heart.\"",
+    "refs": [
+     "Genesis 34:3",
+     "Hosea 2:14"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A father-in-law's hospitality",
+    "body": "The woman's father keeps the Levite feasting day after day (19:4-9), pressing him to stay in the generous manner of ancient hospitality. When the Levite finally leaves late on the fifth day, they are forced to look for shelter on the road at nightfall.",
+    "refs": [
+     "Genesis 24:54-56"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Safer among foreigners",
+    "body": "The Levite refuses to stop at Jebus because it is \"the city of a foreigner\" (19:12), expecting safety among fellow Israelites. In Gibeah no one takes them in, and the only host is an old man who is himself an outsider from Ephraim (19:16). The Israelite town proves worse than the foreign one.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Gibeah becomes Sodom",
+    "body": "The night scene (19:22-25) follows Genesis 19 closely, in places almost word for word: men surround the house, demand the guest, and the host offers women instead. At Sodom angels intervened; here no one does. Hosea later names \"the days of Gibeah\" as a byword for Israel's corruption.",
+    "refs": [
+     "Genesis 19:4-8",
+     "Hosea 9:9",
+     "Hosea 10:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Her hands on the threshold",
+    "body": "At dawn she falls at the door \"with her hands on the threshold\" (19:27). Her husband says, \"Get up, and let us be going!\" (19:28), but no one answers. The Hebrew does not say when she died; the Septuagint adds that she was dead. When the Levite later tells the story, he leaves out his own part (20:5).",
+    "refs": [
+     "Judges 20:5"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Twelve pieces and a future king",
+    "body": "Cutting the body into twelve pieces (19:29) summons all the tribes. Saul later cuts oxen in pieces to call Israel to rescue Jabesh Gilead, and he comes from Gibeah. Many scholars think these closing chapters deliberately set Gibeah, Saul's town, against Bethlehem, David's town, preparing for the books of Samuel.",
+    "refs": [
+     "1 Samuel 11:4-7",
+     "1 Samuel 10:26"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Consider it",
+    "body": "The chapter ends by telling Israel, \"Consider it, take counsel, and speak\" (19:30). What does it take to read a story like this honestly, without looking away and without rushing to a lesson?",
+    "refs": []
+   }
+  ]
+ },
+ "20": {
+  "summary": "Israel gathers at Mizpah, hears the Levite's account, and demands the men of Gibeah; when Benjamin refuses, civil war follows, and after two defeats Israel almost wipes out the tribe.",
+  "lookfor": "Compare the Levite's version of events (verses 4 to 7) with chapter 19, and watch how Israel's approach to God changes across the three battles.",
+  "names": [
+   {
+    "name": "Mizpah",
+    "kind": "place",
+    "gloss": "A town in Benjamin north of Jerusalem, used as a gathering place for the tribes."
+   },
+   {
+    "name": "Beersheba",
+    "kind": "place",
+    "gloss": "A town in the far south; \"from Dan to Beersheba\" means the whole land."
+   },
+   {
+    "name": "children of Benjamin",
+    "kind": "group",
+    "gloss": "The tribe of Benjamin, who side with Gibeah against the rest of Israel."
+   },
+   {
+    "name": "Bethel",
+    "kind": "place",
+    "gloss": "A town north of Gibeah where the ark was kept at this time."
+   },
+   {
+    "name": "Phinehas",
+    "kind": "person",
+    "gloss": "Aaron's grandson, the priest who serves before the ark."
+   },
+   {
+    "name": "Rimmon",
+    "kind": "place",
+    "gloss": "A rocky height in the wilderness east of Bethel where six hundred Benjamites hold out."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "The Levite's version",
+    "body": "The Levite says the men of Gibeah meant to kill him and that they raped his concubine and she died (20:5). He does not mention that he pushed her out to them. His account gives Israel cause for war while sparing himself.",
+    "refs": [
+     "Judges 19:22-25"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Folly in Israel",
+    "body": "The Levite calls the crime \"lewdness and folly in Israel\" (20:6). The Hebrew nevalah means more than foolishness: it names an outrage, often sexual, that tears the community apart. It is used for the rape of Dinah and for Amnon's rape of Tamar.",
+    "refs": [
+     "Genesis 34:7",
+     "2 Samuel 13:12"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "As one man",
+    "body": "Israel gathers \"as one man\" (20:1, 20:8, 20:11), from Dan to Beersheba. It is the only time in Judges the tribes act in full unity, and it is against one of their own. The book that opened with Judah sent first against the Canaanites now has Judah sent first against Benjamin (20:18).",
+    "refs": [
+     "Judges 1:1-2"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why lose twice?",
+    "body": "Israel asks God and is told to go up, yet loses twenty-two thousand and then eighteen thousand men (20:21, 20:25). The text gives no reason. Interpreters suggest Israel's own sins, overconfidence (at first they asked who should lead, not whether to fight), or a judgment falling on the whole people. Only after weeping, fasting and sacrifice does God promise victory (20:26-28).",
+    "refs": [
+     "Joshua 7:1-5"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Phinehas still alive",
+    "body": "The priest at Bethel is Phinehas, Aaron's grandson (20:28), who was already active under Moses and Joshua. That places these events early in the period of the judges, not at its end. The book's closing chapters are arranged by theme, not by date.",
+    "refs": [
+     "Numbers 25:7-13",
+     "Joshua 22:13"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Left-handed slingers",
+    "body": "Benjamin has seven hundred left-handed men who could sling a stone at a hair (20:16). The sling was a deadly long-range weapon, and sling stones turn up often in excavations. Benjamin's warriors were famous for it, and Ehud the left-handed judge came from the same tribe.",
+    "refs": [
+     "Judges 3:15",
+     "1 Chronicles 12:2"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The tactics of Ai",
+    "body": "The third battle copies Joshua's ambush at Ai: a feigned retreat, a hidden force, a signal of smoke from the burning city (20:29-40). Afterwards Israel burns Benjamin's towns (20:48). The methods of the conquest are now turned against a brother tribe.",
+    "refs": [
+     "Joshua 8:3-22"
+    ]
+   }
+  ]
+ },
+ "21": {
+  "summary": "Israel grieves that Benjamin is nearly wiped out, and to get around its own oath it destroys Jabesh Gilead to take four hundred young women for the survivors, then lets the Benjamites seize the dancing girls of Shiloh; the book ends with its refrain.",
+  "lookfor": "Notice how Israel's oaths trap them, how each solution creates a new wrong, and how the book's last verse sums it all up.",
+  "names": [
+   {
+    "name": "Bethel",
+    "kind": "place",
+    "gloss": "The town where the ark was kept and the tribes came to weep before God."
+   },
+   {
+    "name": "Jabesh Gilead",
+    "kind": "place",
+    "gloss": "A town east of the Jordan in Gilead that did not answer the call to Mizpah."
+   },
+   {
+    "name": "Shiloh",
+    "kind": "place",
+    "gloss": "The town in Ephraim where the tabernacle stood, site of a yearly festival."
+   },
+   {
+    "name": "Rimmon",
+    "kind": "place",
+    "gloss": "The rocky refuge where the six hundred surviving Benjamites held out."
+   },
+   {
+    "name": "Lebonah",
+    "kind": "place",
+    "gloss": "A town north of Shiloh, used here to give directions."
+   },
+   {
+    "name": "children of Benjamin",
+    "kind": "group",
+    "gloss": "The six hundred surviving men of the tribe of Benjamin."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Trapped by their own oaths",
+    "body": "At Mizpah Israel swore two oaths: no one would give a daughter to Benjamin, and whoever did not come would be put to death (21:1, 21:5). Now they want to save Benjamin but will not break their word, so they keep the letter of the oaths while breaking their spirit. Like Jephthah, they are bound by vows made in the heat of the moment.",
+    "refs": [
+     "Judges 11:30-35",
+     "Matthew 5:33-37"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Why has this happened?",
+    "body": "Israel weeps and asks God why a tribe is missing (21:3), as if they had not done it themselves. They say Yahweh \"had made a breach\" (21:15). God gives no answer in this chapter; from here on, every decision is the people's own.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Holy war turned inward",
+    "body": "The order to \"utterly destroy\" every male and married woman of Jabesh Gilead (21:11) uses the verb haram, the language once used for Canaanite cities under judgment. Israel now applies it to an Israelite town to solve a problem it created.",
+    "refs": [
+     "Deuteronomy 20:16-17",
+     "Judges 1:17"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Jabesh Gilead and Saul",
+    "body": "These marriages bound Jabesh Gilead to Benjamin. Later Saul, a Benjamite from Gibeah, begins his reign by rescuing Jabesh Gilead, and at his death its men risk their lives to recover his body. The ties formed in this dark chapter shape the story of Israel's first king.",
+    "refs": [
+     "1 Samuel 11:1-11",
+     "1 Samuel 31:11-13"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The dances at Shiloh",
+    "body": "The yearly \"feast of Yahweh\" at Shiloh (21:19), with dancing in the vineyards, was probably a harvest festival. The careful directions to Shiloh suggest the book was finished when the town was no longer well known. The Mishnah mentions young women dancing in the vineyards on the 15th of Av, and the Talmud links that day with Benjamin being allowed to marry again.",
+    "refs": [
+     "1 Samuel 1:3",
+     "Joshua 18:1"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "An ending with no comment",
+    "body": "The book ends with women from Jabesh Gilead and Shiloh taken by force to fix a problem caused by men's oaths, and with fathers talked out of complaining (21:22). Why might the narrator stop here, adding nothing but the refrain?",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "No king in Israel",
+    "body": "The last verse repeats the refrain in full (21:25). The book of Ruth, set \"in the days when the judges judged,\" then shows faithfulness and kindness in the same era, ending with David. 1 Samuel takes up the question of a king, beginning at Shiloh.",
+    "refs": [
+     "Ruth 1:1",
+     "Ruth 4:17",
+     "1 Samuel 1:3"
+    ]
+   }
+  ]
+ },
+ "intro": {
+  "who": "Jewish tradition in the Talmud credits Samuel with writing Judges. Many modern scholars see it as part of a larger history running from Deuteronomy to Kings, assembled from older hero stories and given its final shape during or after the exile.",
+  "when": "The stories fall between Joshua's death and the rise of Samuel and Saul, often placed around 1200 to 1050 BC (earlier on a 15th-century date for the exodus). The refrain \"there was no king in Israel\" suggests the book was finished after Israel had kings.",
+  "why": "It traces Israel's downward slide in the land through a repeated cycle of idolatry, oppression, crying out and rescue, ending in moral chaos that raises the question of what kind of leadership God's people need.",
+  "outline": [
+   {
+    "chapters": "1–2",
+    "title": "An unfinished conquest"
+   },
+   {
+    "chapters": "3–5",
+    "title": "Othniel, Ehud and Deborah"
+   },
+   {
+    "chapters": "6–9",
+    "title": "Gideon and Abimelech"
+   },
+   {
+    "chapters": "10–12",
+    "title": "Jephthah and minor judges"
+   },
+   {
+    "chapters": "13–16",
+    "title": "Samson"
+   },
+   {
+    "chapters": "17–21",
+    "title": "No king in Israel"
+   }
+  ],
+  "verse": "Judges 21:25"
+ }
+}
