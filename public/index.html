@@ -114,6 +114,9 @@ body[data-view=setup] .rail{display:none}
 .goto .go{width:auto;min-height:3rem}
 /* a verse for today: chosen from a hand-picked list of hope, not at random */
 .dvt{margin:.15rem 0 0;max-width:30em;font:400 1.3125rem/1.5 var(--serif);text-wrap:pretty}
+/* Indian scripts: taller lines for their marks above and below, and no tracking, which pulls apart joined letters; the phone's own fonts fill in where Garamond has no glyphs */
+:is(:lang(hi),:lang(ta),:lang(ml),:lang(te)){--read-lh:1.85;letter-spacing:0}
+.dvt:is(:lang(hi),:lang(ta),:lang(ml),:lang(te)){line-height:1.8}
 .dvt[aria-busy=true]{color:var(--ink-2)}
 .mark-row{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem;margin:0}
 .go.slim{width:auto;min-height:2.75rem;font-size:.85rem}
@@ -367,8 +370,15 @@ const bed=bi=>BEDS[BED_OF[bi]];
 const FIRST=BOOKS.map((_,i)=>BOOKS.slice(0,i).reduce((a,[,n])=>a+n,0)); // book index -> its first chapter's index
 const CH=BOOKS.flatMap(([b,n],bi)=>Array.from({length:n},(_,i)=>[b,i+1,bi])); // canonical order, 1189 chapters
 const EXTENT=BEDS.map((_,li)=>CH.filter(c=>BED_OF[c[2]]===li).length); // chapters per division: the tab heights
-// public-domain translations on bible-api.com: [name, speech language]
-const TR={web:['World English Bible','en-US'],kjv:['King James Version','en-GB'],asv:['American Standard Version','en-US'],bbe:['Bible in Basic English','en-US'],darby:['Darby','en-GB'],dra:['Douay-Rheims','en-US'],webbe:['World English Bible (British)','en-GB']};
+// translations: [name, speech language, bible.helloao.org id (none: bible-api.com), credit]
+const TR={web:['World English Bible','en-US'],kjv:['King James Version','en-GB'],asv:['American Standard Version','en-US'],bbe:['Bible in Basic English','en-US'],darby:['Darby','en-GB'],dra:['Douay-Rheims','en-US'],webbe:['World English Bible (British)','en-GB'],
+  hcv:['हिंदी समकालीन संस्करण','hi-IN','hin_cvb','Biblica, Inc. · CC BY-SA 4.0'],
+  'irv-ta':['தமிழ் இண்டியன் ரிவைஸ்டு வெர்ஸன்','ta-IN','tam_irv','Bridge Connectivity Solutions · CC BY-SA 4.0'],
+  ml1910:['സത്യവേദപുസ്തകം 1910','ml-IN','mal_fbf','The Free Bible Foundation · public domain'],
+  'irv-ml':['മലയാളം ഇന്ത്യൻ റിവൈസ്ഡ് വേർഷൻ','ml-IN','mal_irv','Bridge Connectivity Solutions · CC BY-SA 4.0'],
+  'irv-te':['తెలుగు ఇండియన్ రివైజ్డ్ వెర్షన్','te-IN','tel_irv','Bridge Connectivity Solutions · CC BY-SA 4.0']};
+const LANGS={en:'English',hi:'हिंदी · Hindi',ta:'தமிழ் · Tamil',ml:'മലയാളം · Malayalam',te:'తెలుగు · Telugu'};
+const USFM='GEN EXO LEV NUM DEU JOS JDG RUT 1SA 2SA 1KI 2KI 1CH 2CH EZR NEH EST JOB PSA PRO ECC SNG ISA JER LAM EZK DAN HOS JOL AMO OBA JON MIC NAM HAB ZEP HAG ZEC MAL MAT MRK LUK JHN ACT ROM 1CO 2CO GAL EPH PHP COL 1TH 2TH 1TI 2TI TIT PHM HEB JAS 1PE 2PE 1JN 2JN 3JN JUD REV'.split(' ');
 const KINDS={why:['Why here','why'],connection:['Connection','connection'],word:['Original language','word'],culture:['History & culture','culture'],detail:['Easy to miss','detail'],bigpicture:['Big picture','bigpicture'],ponder:['Ponder','ponder']};
 let KEPT=JSON.parse(localStorage.getItem('tolle-kept')||'[]'); // [{b, c, v, t: text, tr, d: date kept}], oldest first
 // a verse for today: hand-picked for hope and God's nearness, in canonical order; checked against the WEB text before shipping
@@ -381,7 +391,17 @@ const today=()=>iso(new Date());
 const days=(a,b)=>Math.round((new Date(b)-new Date(a))/864e5); // between two YYYY-MM-DD dates
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[c]);
 const slug=b=>b.toLowerCase().replaceAll(' ','-');
-const api=ref=>`https://bible-api.com/${encodeURIComponent(ref)}?translation=${S.tr}`;
+const ok=r=>{if(!r.ok)throw 0;return r.json()};
+function passage(ref){ // {text, verses:[{verse, text}]} for "Book C", "Book C:V" or "Book C:V-V", from either text service
+  const h=TR[S.tr][2];
+  if(!h)return fetch(`https://bible-api.com/${encodeURIComponent(ref)}?translation=${S.tr}`).then(ok);
+  const [,b,c,v1,v2]=ref.match(/^(.+) (\d+)(?::(\d+)(?:-(\d+))?)?$/),lo=+v1||0,hi=+(v2||v1)||1e3;
+  return fetch(`https://bible.helloao.org/api/${h}/${USFM[BOOKS.findIndex(([n])=>n===b)]}/${c}.json`).then(ok).then(j=>{
+    const verses=j.chapter.content.filter(x=>x.type==='verse'&&x.number>=lo&&x.number<=hi) // pieces: text, poetry lines, line breaks, footnote marks
+      .map(x=>({verse:x.number,text:x.content.map(p=>typeof p==='string'?p:p.text!=null?p.text+(p.poem?' ':''):p.lineBreak?' ':'').join('').replace(/\s+/g,' ').trim()}));
+    return {verses,text:verses.map(v=>v.text).join(' ')};
+  });
+}
 let wake=null; // screen wake lock while reading aloud
 const hush=()=>{window.speechSynthesis?.cancel();wake?.release();wake=null};
 const icon=n=>`<svg class=ic aria-hidden=true><use href="#i-${n}"/></svg>`;
@@ -559,11 +579,11 @@ const refParts=r=>{const [,bk,c,v]=r.match(/^(.+) (\d+):(\d+)/);return {bi:BOOKS
 const keptRef=r=>KEPT.some(k=>kref(k)===r);
 function dailyHTML(){
   const dv=daily(),{bi,c}=refParts(dv.r),have=dv.t&&dv.tr===S.tr;
-  if(!have)fetch(api(dv.r)).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{Object.assign(dv,{t:j.text.replace(/\s+/g,' ').trim(),tr:S.tr});localStorage.setItem('tolle-dv',JSON.stringify(dv));
+  if(!have)passage(dv.r).then(j=>{Object.assign(dv,{t:j.text.replace(/\s+/g,' ').trim(),tr:S.tr});localStorage.setItem('tolle-dv',JSON.stringify(dv));
       const p=document.getElementById('dvt');if(p){p.textContent=dv.t;p.removeAttribute('aria-busy');document.getElementById('dvk').hidden=false}})
     .catch(()=>{const p=document.getElementById('dvt');if(p)p.textContent="Today's verse needs a connection the first time. It will be here when you're back online."});
   return `<section class="leaf daily" aria-labelledby=dv-h><h2 id=dv-h>A verse for today</h2>
-    <p class=dvt id=dvt${have?'':' aria-busy=true'}>${have?esc(dv.t):'Opening today’s verse…'}</p>
+    <p class=dvt id=dvt lang=${TR[dv.tr||S.tr][1]}${have?'':' aria-busy=true'}>${have?esc(dv.t):'Opening today’s verse…'}</p>
     <p class=kmeta><span>${dv.r} · ${S.tr.toUpperCase()}</span><button class=link-btn id=dvk${have?'':' hidden'} onclick=keepDaily(this)>${keptRef(dv.r)?'Kept':'Keep'}</button><button class=link-btn onclick="openCh(${FIRST[bi]+c-1},${refParts(dv.r).v})">Read ${BOOKS[bi][0]} ${c}</button></p></section>`;
 }
 function keepDaily(btn){ // the day's verse into Kept, or back out
@@ -644,7 +664,7 @@ function keptView(){
   return `<h1 class=title>Kept verses</h1>
   ${gone?`<p class=gone role=status>Removed ${kref(gone.k)}.<button class=link-btn onclick=unremove()>Undo</button></p>`:''}
   ${KEPT.length?`<ol class=kept-list>${KEPT.map((k,i)=>[k,i]).reverse().map(([k,i])=>`<li class="leaf ${bed(k.b)[0]}"><span class=ktab>${kref(k)}</span>
-    <p class=ktext>${esc(k.t)}</p>
+    <p class=ktext lang=${TR[k.tr][1]}>${esc(k.t)}</p>
     <p class=kmeta><span>Kept ${fmtDate(k.d)} · ${k.tr.toUpperCase()}</span><button class=link-btn onclick=openCh(${FIRST[k.b]+k.c-1},${k.v})>Read ${BOOKS[k.b][0]} ${k.c}</button>${navigator.share?`<button class=link-btn onclick=share(${i})>Share</button>`:''}<button class=link-btn onclick=unkeep(${i})>Remove</button></p></li>`).join('')}</ol>`
   :`<section class=leaf><p class=empty>Nothing kept yet. While you read, tap a verse, then tap Keep. It gets a punched hole in the margin and waits here for you.</p></section>`}`;
 }
@@ -657,7 +677,7 @@ function settingsView(){
   <input type=date id=dl min="${today()}" value="${S.deadline}" onchange=setDeadline(this.value)>
   <p class=hint>Changing the date re-plans your reading from today.</p>
   <label for=tr>Translation</label>
-  <select id=tr onchange="S.tr=this.value;save()">${Object.entries(TR).map(([k,[n]])=>`<option value=${k}${k==S.tr?' selected':''}>${n}</option>`).join('')}</select>
+  <select id=tr onchange="S.tr=this.value;save()">${Object.entries(LANGS).map(([l,ln])=>`<optgroup label="${ln}">${Object.entries(TR).filter(([,t])=>t[1].startsWith(l)).map(([k,[n]])=>`<option value=${k}${k==S.tr?' selected':''}>${n}</option>`).join('')}</optgroup>`).join('')}</select>
   <fieldset class="picker setting"><legend class=lab>Night mode</legend>
     ${[['light','Off'],['dark','On'],['auto','Follow phone']].map(([v,n])=>`<label class=bk-pick style="--c:var(--hue);--o:var(--on-day)"><input type=radio name=theme value=${v}${(localStorage.getItem('tolle-theme')||'auto')===v?' checked':''} onchange=setTheme(this.value)><span>${n}</span></label>`).join('')}
     <p class=hint style="margin:0">Follow phone switches with your phone's dark mode.</p></fieldset>
@@ -671,7 +691,7 @@ function settingsView(){
     <p class=about>Your plan, progress and kept verses are saved on this phone only. Keep a copy, so a new phone or a cleared browser can pick up where you left off.${GID?' Google Drive keeps it in a hidden folder that only Tolle can see.':''}</p>
     ${backupHTML()}</section>
   <section class=leaf aria-labelledby=about-h><h2 id=about-h>About Tolle</h2>
-    <p class=about>The name comes from Augustine's "tolle lege": take up and read. Scripture text is from public-domain translations via bible-api.com. The Why &amp; How notes are AI-written, so check them against your own study. <a href=privacy.html>Privacy: what Tolle keeps, and where</a>.</p></section>
+    <p class=about>The name comes from Augustine's "tolle lege": take up and read. Scripture text: English from public-domain translations via bible-api.com; Hindi, Tamil, Malayalam and Telugu via bible.helloao.org, credited under each chapter. The Why &amp; How notes are AI-written, so check them against your own study. <a href=privacy.html>Privacy: what Tolle keeps, and where</a>.</p></section>
   <div class=danger-zone><button class=danger onclick=reset()>Erase all progress</button></div>`;
 }
 function backupHTML(){ // Settings and the first screen share it: Drive when it's set up, then the file
@@ -796,7 +816,7 @@ async function prefetch(){
   prefetched=today();
   for(const [b,c] of upcoming(goal()-todayN()).map(i=>CH[i])){
     insights(b);
-    await fetch(api(`${b} ${c}`)).catch(()=>{});
+    await passage(`${b} ${c}`).catch(()=>{});
     await new Promise(r=>setTimeout(r,2500)); // bible-api.com allows ~15 requests per 30s
   }
 }
@@ -812,15 +832,15 @@ function readerView(){
     <div class=sec><button class=num popovertarget=chsheet aria-label="Chapter ${c} of ${BOOKS[bi][1]}. Choose another chapter">${c}</button><p class="meta mono">${bed(bi)[1]} · <button class=chpick popovertarget=chsheet>chapter ${c} of ${BOOKS[bi][1]}</button><br><span class=vc>&nbsp;</span></p></div>
     <p class=sum hidden></p><p class=look hidden></p></header>
   ${first?intro:''}
-  <article class="leaf scripture" aria-busy=true><div class=skel aria-label="Loading ${b} ${c}">${'<i></i>'.repeat(8)}</div></article>
-  <p class=credit>${TR[S.tr][0]} · public domain</p>
+  <article class="leaf scripture" lang=${TR[S.tr][1]} aria-busy=true><div class=skel aria-label="Loading ${b} ${c}">${'<i></i>'.repeat(8)}</div></article>
+  <p class=credit>${TR[S.tr][0]} · ${TR[S.tr][3]||'public domain'}</p>
   <section class="leaf recall" aria-labelledby=rc-h hidden></section>
   ${first?'':intro}
   <section class="leaf why" hidden></section>
   <div class=actbar><button class=keep aria-pressed=false hidden onclick=keep(this)></button><button class=go onclick=finish(this)><span>Done${more?`<span class=nx> · next: ${nx[0]} ${nx[1]}</span>`:''}</span>${icon('check')}</button></div>
   ${chSheet(i)}`;
   const [txt,box,sum,vc,quiz,strip,look,about]=['.scripture','.why','.sum','.vc','.recall','.vstrip','.look','.intro'].map(q=>$.querySelector(q)); // grab now: the reader may leave before fetches return
-  const textP=fetch(api(`${b} ${c}`)).then(r=>{if(!r.ok)throw 0;return r.json()}),noteP=insights(b);
+  const textP=passage(`${b} ${c}`),noteP=insights(b);
   noteP.then(all=>{const x=all[c];
     if(x?.summary){sum.textContent=x.summary;sum.hidden=false}
     if(x?.lookfor){look.innerHTML=`<span class=kind>${icon('detail')}Look for</span>${esc(x.lookfor)}`;look.hidden=false}
@@ -942,7 +962,7 @@ function pick(btn){
 async function ref(btn){ // tap a reference to show that passage under the note; tap again to hide
   if(btn.q){btn.q.remove();btn.q=null;btn.setAttribute('aria-expanded',false);return}
   const q=btn.q=document.createElement('blockquote');q.textContent='Loading…';btn.closest('.refs').after(q);btn.setAttribute('aria-expanded',true);
-  try{const r=await fetch(api(btn.dataset.r));if(!r.ok)throw 0;q.textContent=`${btn.dataset.r}: ${(await r.json()).text.replace(/\s+/g,' ').trim()}`}
+  try{q.textContent=`${btn.dataset.r}: ${(await passage(btn.dataset.r)).text.replace(/\s+/g,' ').trim()}`}
   catch{q.textContent=`Couldn't load ${btn.dataset.r}. Check your connection and tap the reference again.`}
 }
 function listen(btn){ // one utterance per verse, so the current verse can be highlighted
