@@ -145,10 +145,11 @@ while ((batch = await client.messages.batches.retrieve(id)).processing_status !=
 }
 
 const books = {}; // slug -> that book's file contents, written once at the end
-let ok = 0, bad = 0;
+let ok = 0, bad = 0, tin = 0, tout = 0;
 for await (const r of await client.messages.batches.results(id)) {
   const [s, c] = r.custom_id.split("_");
   const m = r.result.type === "succeeded" ? r.result.message : null;
+  tin += m?.usage.input_tokens ?? 0; tout += m?.usage.output_tokens ?? 0; // thinking counts as output
   // refusal or max_tokens leave unusable JSON: skip and let the next run retry it
   const text = m?.stop_reason === "end_turn" && m.content.find((b) => b.type === "text")?.text;
   if (!text) { bad++; console.warn(`✗ ${r.custom_id}: ${r.result.type} ${m?.stop_reason ?? ""}`); continue; }
@@ -158,3 +159,5 @@ for await (const r of await client.messages.batches.results(id)) {
 for (const [s, data] of Object.entries(books)) fs.writeFileSync(path.join(outDir, `${s}.json`), JSON.stringify(data, null, 1));
 fs.rmSync(batchFile);
 console.log(`Saved ${ok} chapters${bad ? `, ${bad} failed - run again to retry them` : ""}.`);
+// Opus 5.5 batch rates: $2 in / $10 out per million tokens
+console.log(`Cost: ~$${((tin * 2 + tout * 10) / 1e6).toFixed(2)} (${tin} in, ${tout} out; ~$${((tin * 2 + tout * 10) / 1e6 / Math.max(1, ok)).toFixed(3)} per item).`);
