@@ -64,7 +64,6 @@ body[data-view=setup] .rail{display:none}
 
 .go{display:flex;align-items:center;justify-content:space-between;gap:.75rem;width:100%;min-height:3.25rem;padding:0 1.1rem;border:0;border-radius:2px;background:var(--ink);color:var(--milk);font:700 .95rem var(--head);font-stretch:82%;letter-spacing:.06em;text-transform:uppercase;text-align:left;cursor:pointer}
 @media(hover:hover){.go:hover{background:var(--ink-down)}}
-.go:active{translate:1px 1px}
 .go.ghost{background:none;border:1.5px solid var(--ink);color:var(--ink)}
 @media(hover:hover){.go.ghost:hover{background:color-mix(in srgb,var(--ink) 7%,transparent)}}
 
@@ -137,7 +136,6 @@ label.inline{margin:0;padding:0;font-weight:400}
 .bedname b{width:.85rem;height:.85rem;border-radius:2px;background:var(--c)}
 .bk-pick{margin:0 .35rem .4rem 0;letter-spacing:0;text-transform:none}
 @media(hover:hover){.bk-pick:hover{background:color-mix(in srgb,var(--ink) 6%,var(--milk))}}
-.bk-pick:active{translate:1px 1px}
 .preview{margin:0;font-size:1.0625rem}
 .preview b{font:800 2rem/1 var(--head);font-stretch:72%;vertical-align:-.1em}
 .actions{display:grid;gap:.75rem;margin-top:1rem}
@@ -155,7 +153,7 @@ body[data-view=reader] main{padding-top:0}
 @media(hover:hover){.icon-btn:hover{background:color-mix(in srgb,var(--on-board) 12%,transparent)}}
 .icon-btn[aria-pressed=true]{background:var(--ink);color:var(--milk)}
 .pos{font:500 .75rem var(--mono);text-transform:uppercase}
-.vstrip{display:flex;align-items:flex-end;gap:1px;height:1.7rem;margin:-.15rem .5rem -.45rem;padding:.45rem 0;cursor:pointer} /* tap a verse's bar to jump to it */
+.vstrip{display:flex;align-items:flex-end;gap:1px;height:1.7rem;margin:-.15rem .5rem -.45rem;padding:.45rem 0;cursor:pointer;touch-action:none;user-select:none} /* tap a verse's bar, or drag along them, and the text follows */
 .vstrip i{flex:1 1 0;min-width:0;height:.45rem;background:color-mix(in srgb,var(--on-board) 22%,transparent)}
 .vstrip i.on{background:var(--on-board)}
 .vstrip i.t{height:.8rem} /* a verse with a tabbed note stands taller */
@@ -193,7 +191,6 @@ body[data-view=reader] main{padding-top:0}
 .opts{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0 0}
 .opt{display:inline-flex;align-items:center;gap:.5rem;min-height:2.75rem;padding:0 1rem;border:1.5px solid var(--ink);border-radius:2px;background:var(--milk);font:500 1rem var(--sans);cursor:pointer}
 @media(hover:hover){.opt:hover:enabled{background:color-mix(in srgb,var(--ink) 6%,var(--milk))}}
-.opt:active:enabled{translate:1px 1px}
 .opt:disabled{cursor:default;color:var(--ink-2);border-color:var(--ink-2)}
 .opt.right{border-color:var(--ink);background:var(--ink);color:var(--milk)}
 .opt.right::before{content:'';width:.6rem;height:.6rem;border-radius:50%;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.5);animation:punch var(--hinge) both}
@@ -225,9 +222,10 @@ body[data-view=reader] main{padding-top:0}
 /* a name's card rises from the bottom edge, where a thumb can reach it */
 .gloss{inset:auto 0 0;width:auto;max-width:34rem;margin:0 auto;padding:1.15rem 1.15rem calc(1.2rem + env(safe-area-inset-bottom)) 2.4rem;border:0;border-radius:3px 3px 0 0;background:var(--milk);color:var(--ink);box-shadow:0 -3px 0 rgba(21,21,21,.24);font:400 1rem/1.5 var(--sans)}
 .gloss::before{content:'';position:absolute;left:.75rem;top:1.05rem;width:.75rem;height:.75rem;border-radius:50%;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.35)}
-.gloss::backdrop{background:rgba(21,21,21,.35)}
-.gloss:popover-open{animation:sheet var(--hinge) both}
-@keyframes sheet{from{translate:0 100%}}
+.gloss,.gloss::backdrop{transition:translate var(--hinge),background-color var(--hinge),overlay var(--hinge) allow-discrete,display var(--hinge) allow-discrete}
+.gloss{translate:0 100%}.gloss:popover-open{translate:0} /* it leaves the way it came: down past the bottom edge */
+@starting-style{.gloss:popover-open{translate:0 100%}.gloss:popover-open::backdrop{background:rgba(21,21,21,0)}}
+.gloss::backdrop{background:rgba(21,21,21,0)}.gloss:popover-open::backdrop{background:rgba(21,21,21,.35)}
 .gloss p{margin:0;max-width:34em}
 .gloss .gk{color:var(--ink-2);font:500 .75rem var(--mono);letter-spacing:.04em;text-transform:uppercase}
 .gloss .gname{margin:.2rem 0 .4rem;font:800 1.6rem/1 var(--head);font-stretch:72%;text-transform:uppercase}
@@ -252,7 +250,9 @@ button.num{padding:0;border:0;background:none;color:inherit;cursor:pointer}
 .refs{display:flex;align-items:baseline;gap:.6rem}
 .refs>i{display:flex;flex-wrap:wrap;gap:.4rem;font-style:normal}
 .refs>span{flex:none;color:var(--ink-2);font:500 .6875rem var(--mono);text-transform:uppercase}
-.ref:active,.jchip:active,.icon-btn:active,.tabs button:active,.stn-row>button:active,.chn:active{translate:1px 1px}
+/* every control answers the instant it's pressed: pushed 1px into the board; a note tab is pulled */
+:is(button,a,summary,.bk-pick):active{translate:1px 1px}
+.tab:active{translate:2px 0}
 .empty{margin:0;padding:.9rem 1rem;border:1.5px dashed var(--ink-2);border-radius:2px;color:var(--ink-2)}
 .actbar{position:fixed;inset:auto calc(var(--rail) + 2px) 0 0;z-index:6;display:flex;justify-content:center;gap:.5rem;padding:.75rem 1rem calc(.75rem + env(safe-area-inset-bottom));background:var(--board)}
 .actbar .go{flex:1;min-width:0;max-width:30rem}
@@ -263,7 +263,6 @@ button.num{padding:0;border:0;background:none;color:inherit;cursor:pointer}
 .keep{flex:none;display:inline-flex;align-items:center;gap:.5rem;min-height:3.25rem;padding:0 1rem;border:1.5px solid var(--ink);border-radius:2px;background:var(--milk);color:var(--ink);font:500 .8125rem var(--mono);text-transform:uppercase;cursor:pointer}
 .keep::before{content:'';width:.7rem;height:.7rem;border:1.5px solid var(--ink);border-radius:50%}
 .keep[aria-pressed=true]::before{border:0;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.5);animation:punch var(--hinge) both}
-.keep:active{translate:1px 1px}
 /* the kept verses: each a leaf, its reference a tab in its division's hue */
 .kept-list{list-style:none;margin:0;padding:0}
 .kept-list .leaf{padding-top:1.6rem}
@@ -317,10 +316,12 @@ body[data-view=reader] main{padding-bottom:6.5rem}
   .split>div{max-width:none}
   .col-route{position:sticky;top:2rem;max-height:calc(100dvh - 4rem);overflow:auto;padding:0 .5rem 0 0}
 }
+::view-transition-old(root),::view-transition-new(root){animation-duration:200ms;animation-timing-function:steps(4,jump-end)} /* day and night trade places in four steps, never a flash; a fade, so it stays under reduced motion */
 @media(prefers-reduced-motion:reduce){
-  .skel i,.gloss:popover-open,.vs.kept::before,.keep[aria-pressed=true]::before,.tabs button[aria-current=page]::after,.opt.right::before,.opt.wrong,.blank.filled,.go.punched::after{animation:none}
+  .skel i,.vs.kept::before,.keep[aria-pressed=true]::before,.tabs button[aria-current=page]::after,.opt.right::before,.opt.wrong,.blank.filled,.go.punched::after{animation:none}
   .vs{transition:none}
-  .go:active,.ref:active,.jchip:active,.icon-btn:active,.tabs button:active,.stn-row>button:active,.bk-pick:active,.keep:active,.chn:active{translate:none}
+  :is(button,a,summary,.bk-pick):active{translate:none;opacity:.72} /* still answers the press, without moving */
+  .gloss,.gloss::backdrop{transition:none}
 }
 </style>
 </head>
@@ -372,7 +373,8 @@ const KINDS={why:['Why here','why'],connection:['Connection','connection'],word:
 let KEPT=JSON.parse(localStorage.getItem('tolle-kept')||'[]'); // [{b, c, v, t: text, tr, d: date kept}], oldest first
 // a verse for today: hand-picked for hope and God's nearness, in canonical order; checked against the WEB text before shipping
 const HOPE=['Genesis 28:15','Genesis 50:20','Exodus 14:14','Exodus 15:2','Exodus 33:14','Leviticus 26:12','Numbers 6:24-26','Numbers 23:19','Deuteronomy 7:9','Deuteronomy 31:6','Deuteronomy 31:8','Joshua 1:9','Joshua 21:45','Ruth 2:12','1 Samuel 7:12','2 Samuel 22:31','1 Kings 8:56','1 Chronicles 16:34','2 Chronicles 20:15','Ezra 3:11','Nehemiah 8:10','Job 19:25','Psalms 23:1','Psalms 23:4','Psalms 27:1','Psalms 30:5','Psalms 34:18','Psalms 46:1','Psalms 55:22','Psalms 73:26','Psalms 91:1-2','Psalms 118:24','Psalms 121:1-2','Psalms 147:3','Proverbs 3:5-6','Proverbs 18:10','Ecclesiastes 3:11','Song of Solomon 8:7','Isaiah 26:3','Isaiah 40:31','Isaiah 41:10','Isaiah 43:2','Isaiah 54:10','Jeremiah 17:7','Jeremiah 29:11','Jeremiah 31:3','Lamentations 3:22-23','Ezekiel 36:26','Daniel 9:9','Hosea 14:4','Joel 2:25','Micah 7:18','Nahum 1:7','Habakkuk 3:19','Zephaniah 3:17','Zechariah 4:6','Malachi 4:2','Matthew 5:4','Matthew 11:28','Matthew 28:20','Mark 10:27','Luke 1:37','Luke 12:32','John 3:16','John 10:10','John 14:27','John 16:33','Acts 17:27','Romans 8:28','Romans 8:38-39','Romans 15:13','1 Corinthians 10:13','2 Corinthians 4:16','2 Corinthians 12:9','Galatians 6:9','Ephesians 3:20-21','Philippians 4:6-7','Philippians 4:13','1 Thessalonians 5:16-18','2 Thessalonians 3:3','2 Timothy 1:7','Hebrews 13:5','James 1:5','1 Peter 5:7','1 John 4:18','Revelation 21:4'];
-const saveKept=()=>localStorage.setItem('tolle-kept',JSON.stringify(KEPT));
+const saveKept=()=>{localStorage.setItem('tolle-kept',JSON.stringify(KEPT));touch()};
+const kref=k=>k.r||`${BOOKS[k.b][0]} ${k.c}:${k.v}`; // a kept verse's reference, which is also its identity
 const KEY='bible-plan',$=document.getElementById('app'),reduce=matchMedia('(prefers-reduced-motion: reduce)');
 const iso=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; // local YYYY-MM-DD; plain arithmetic, since a locale formatter per call cost ~100ms a screen on slow phones
 const today=()=>iso(new Date());
@@ -406,7 +408,7 @@ if(S&&S.read==null){ // plans saved before out-of-order reading: everything befo
   S.read='1'.repeat(done)+UNREAD.slice(done);S.day={d:today(),idx:Array.from({length:t},(_,k)=>done-t+k)};delete S.done;
 }
 if(S)S={tr:'web',rate:1,at:{},day:{d:today(),idx:[]},start:today(),startDone:count(S.read)-(S.log[today()]||0),...S}; // defaults for older plans
-const save=()=>localStorage.setItem(KEY,JSON.stringify(S));
+const save=()=>{localStorage.setItem(KEY,JSON.stringify(S));touch()};
 const todayN=()=>S.log[today()]||0;
 const todayIdx=()=>S.day?.d===today()?S.day.idx:[]; // chapters read in the app today, in the order read
 const daysLeft=()=>Math.max(1,days(today(),S.deadline)+1);
@@ -455,15 +457,16 @@ let view='today',seenT=null,entering=true,turning=false;
 const wide=matchMedia('(min-width:1200px)');wide.onchange=()=>{if(view==='today')render()}; // the Index column on Today exists only where it shows
 matchMedia('(prefers-color-scheme: dark)').onchange=()=>{theme();if(S)render()}; // the phone switched: follow it unless the reader chose
 const moon=()=>{const dark=document.documentElement.dataset.theme==='dark';return `<button class=icon-btn aria-label="${dark?'Switch to day':'Switch to night'}" onclick=flipNight(this)>${icon(dark?'sun':'moon')}</button>`};
-function flipNight(btn){ // the reader's moon: day or night at once, without redrawing the chapter, so place, selection and open notes stay
+const fade=f=>document.startViewTransition?document.startViewTransition(f):f(); // day and night cross-fade instead of jumping
+function flipNight(btn){fade(()=>{ // the reader's moon: day or night at once, without redrawing the chapter, so place, selection and open notes stay
   localStorage.setItem('tolle-theme',document.documentElement.dataset.theme==='dark'?'light':'dark');theme();paintBar();const dark=document.documentElement.dataset.theme==='dark';btn.ariaLabel=dark?'Switch to day':'Switch to night';btn.innerHTML=icon(dark?'sun':'moon'); // updated in place, so focus stays on it
-}
-function setTheme(v){v==='auto'?localStorage.removeItem('tolle-theme'):localStorage.setItem('tolle-theme',v);theme();render()}
+})}
+function setTheme(v){fade(()=>{v==='auto'?localStorage.removeItem('tolle-theme'):localStorage.setItem('tolle-theme',v);theme();render()})}
 let at=null,jv=null; // a chapter opened from the Index, Kept or a verse (and the verse to land on); null is the plan's next chapter
 const cur=()=>at??nextIdx();
 function openCh(i,v){at=i;jv=v||null;go('reader')}
 function go(v,popped){
-  sel=null;if(v!=='kept')gone=null;if(v!=='reader')at=jv=null;
+  sel=null;if(v!=='kept')gone=null;if(v!=='reader')at=jv=null;if(v!=='today')flash=null;
   if(!popped&&S){if(view==='today'&&v!=='today')history.pushState({v},'');else if(v==='today'&&history.state?.v)return history.back();else if(v!==view)history.replaceState({v},'')}
   hush();onscroll=null;view=v;entering=true;render();
 }
@@ -490,7 +493,8 @@ function render(){
 function setupView(){
   return `<header class=top><a class=mark href=landing.html>Tolle</a></header>
   <section class="leaf clear"><h1 class=station>Plan your reading</h1>
-  <p class=lede>Read the whole Bible by a date you choose. Tolle sets each day's chapters from what's left, in any order you've read so far.</p></section>
+  <p class=lede>Read the whole Bible by a date you choose. Tolle sets each day's chapters from what's left, in any order you've read so far.</p>
+  <p class=hint>Coming from another phone? <button class=link-btn onclick="document.getElementById('restore-h').scrollIntoView()">Restore your backup</button></p></section>
   <section class=leaf><fieldset class=picker aria-describedby=pkh><legend><h2 style="margin:0">Books you've already read</h2></legend>
     <p class=hint id=pkh>Tap every book you've finished, in any order. Read straight through? <label class=inline for=thru>Fill in up to</label>
       <select id=thru class=inline onchange=fillThrough(+this.value)><option value=0>choose a book</option>${BOOKS.map(([b],i)=>`<option value=${i+1}>${b}</option>`).join('')}</select></p>
@@ -501,7 +505,9 @@ function setupView(){
   <input type=date id=by min="${today()}" value="${new Date().getFullYear()}-12-31" onchange=preview() aria-describedby=byh>
   <p class=hint id=byh>Tolle plans backwards from this date.</p></section>
   <section class=leaf><p class=preview id=pv aria-live=polite></p><div id=stripbox></div></section>
-  <button class=go onclick=start()>Plan my reading${icon('arrow')}</button>`;
+  <button class=go onclick=start()>Plan my reading${icon('arrow')}</button>
+  <section class=leaf aria-labelledby=restore-h style="margin-top:3rem"><h2 id=restore-h>Coming from another phone?</h2>
+    <p class=hint>Pick up your plan, progress and kept verses from a backup.</p>${backupHTML()}</section>`;
 }
 const picked=()=>{let r=UNREAD;for(const c of $.querySelectorAll('.bk-pick input:checked')){const bi=+c.value;r=r.slice(0,FIRST[bi])+'1'.repeat(BOOKS[bi][1])+r.slice(FIRST[bi]+BOOKS[bi][1])}return r};
 function fillThrough(k){ // shortcut for straight-through readers: tick every book up to the one chosen
@@ -524,7 +530,7 @@ function start(){
 function todayView(){
   const g=goal(),t=todayN(),p=pace(),nx=CH[nextIdx()],done=todayIdx();
   const stops=[...done,...upcoming(Math.max(g-done.length,1))].map(i=>CH[i]),met=t>=g; // today's chapters, plus the next one once the goal is met
-  return `<header class=top><a class=mark href=landing.html>Tolle</a><p class="status ${p.cls}">${p.text}</p></header>
+  return `<header class=top><a class=mark href=landing.html>Tolle</a><p class="status ${p.cls}">${p.text}</p></header>${flash?`<p class=gone role=status>${flash}</p>`:''}
   <div class=split><div>
   <section class="leaf clear" aria-label="Next chapter">${nx?`
     <h1 class=station style=--w:${ww(nx[0])}>${nx[0]} ${nx[1]}</h1>
@@ -538,7 +544,8 @@ function todayView(){
   ${nx?`<section class=leaf aria-labelledby=stops-h><h2 id=stops-h>Today's chapters</h2>
     <ol class=stops>${stops.map((s,i)=>stopRow(s,i,done.length,stops[i+1])).join('')}</ol></section>`:''}
   <section class=leaf aria-labelledby=log-h><h2 id=log-h>Reading log</h2>${calendar()}
-    <p class=facts><span>${plural(streak(),'day')} in a row</span><span>${num(count())} / 1,189 chapters</span><span>Finish ${fmtDate(S.deadline)}</span></p></section>
+    <p class=facts><span>${plural(streak(),'day')} in a row</span><span>${num(count())} / 1,189 chapters</span><span>Finish ${fmtDate(S.deadline)}</span></p>
+    ${behind()?`<button class=link-btn id=bk-nudge onclick=connect()>Back up to Google Drive</button>`:''}</section>
   </div>${wide.matches?`<aside class=col-route aria-labelledby=route-h><h2 id=route-h class=sr>The whole Bible</h2>${routeBody()}</aside>`:''}</div>`;
 }
 function daily(){ // today's verse: from the book you're reading if the list has one, else its part of the Bible, else the next in the list; none repeats until all have come round
@@ -549,7 +556,7 @@ function daily(){ // today's verse: from the book you're reading if the list has
   dv={d:today(),r,seen:[...(fresh.length?dv.seen:[]),r]};localStorage.setItem('tolle-dv',JSON.stringify(dv));return dv;
 }
 const refParts=r=>{const [,bk,c,v]=r.match(/^(.+) (\d+):(\d+)/);return {bi:BOOKS.findIndex(([b])=>b===bk),c:+c,v:+v}};
-const keptRef=r=>KEPT.some(k=>(k.r||`${BOOKS[k.b][0]} ${k.c}:${k.v}`)===r);
+const keptRef=r=>KEPT.some(k=>kref(k)===r);
 function dailyHTML(){
   const dv=daily(),{bi,c}=refParts(dv.r),have=dv.t&&dv.tr===S.tr;
   if(!have)fetch(api(dv.r)).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{Object.assign(dv,{t:j.text.replace(/\s+/g,' ').trim(),tr:S.tr});localStorage.setItem('tolle-dv',JSON.stringify(dv));
@@ -560,7 +567,7 @@ function dailyHTML(){
     <p class=kmeta><span>${dv.r} · ${S.tr.toUpperCase()}</span><button class=link-btn id=dvk${have?'':' hidden'} onclick=keepDaily(this)>${keptRef(dv.r)?'Kept':'Keep'}</button><button class=link-btn onclick="openCh(${FIRST[bi]+c-1},${refParts(dv.r).v})">Read ${BOOKS[bi][0]} ${c}</button></p></section>`;
 }
 function keepDaily(btn){ // the day's verse into Kept, or back out
-  const dv=daily(),{bi,c,v}=refParts(dv.r),i=KEPT.findIndex(k=>(k.r||`${BOOKS[k.b][0]} ${k.c}:${k.v}`)===dv.r);
+  const dv=daily(),{bi,c,v}=refParts(dv.r),i=KEPT.findIndex(k=>kref(k)===dv.r);
   if(i<0)KEPT.push({b:bi,c,v,r:dv.r,t:dv.t,tr:dv.tr,d:today()});else KEPT.splice(i,1);
   saveKept();navigator.vibrate?.(i<0?12:[8,40,8]);btn.textContent=i<0?'Kept':'Keep';
 }
@@ -634,17 +641,16 @@ function markBook(bi,v){ // for books read outside the app: doesn't count toward
 
 let gone=null; // the last verse removed from Kept, so it can come back
 function keptView(){
-  const ref=k=>k.r||`${BOOKS[k.b][0]} ${k.c}:${k.v}`;
   return `<h1 class=title>Kept verses</h1>
-  ${gone?`<p class=gone role=status>Removed ${ref(gone.k)}.<button class=link-btn onclick=unremove()>Undo</button></p>`:''}
-  ${KEPT.length?`<ol class=kept-list>${KEPT.map((k,i)=>[k,i]).reverse().map(([k,i])=>`<li class="leaf ${bed(k.b)[0]}"><span class=ktab>${ref(k)}</span>
+  ${gone?`<p class=gone role=status>Removed ${kref(gone.k)}.<button class=link-btn onclick=unremove()>Undo</button></p>`:''}
+  ${KEPT.length?`<ol class=kept-list>${KEPT.map((k,i)=>[k,i]).reverse().map(([k,i])=>`<li class="leaf ${bed(k.b)[0]}"><span class=ktab>${kref(k)}</span>
     <p class=ktext>${esc(k.t)}</p>
     <p class=kmeta><span>Kept ${fmtDate(k.d)} · ${k.tr.toUpperCase()}</span><button class=link-btn onclick=openCh(${FIRST[k.b]+k.c-1},${k.v})>Read ${BOOKS[k.b][0]} ${k.c}</button>${navigator.share?`<button class=link-btn onclick=share(${i})>Share</button>`:''}<button class=link-btn onclick=unkeep(${i})>Remove</button></p></li>`).join('')}</ol>`
   :`<section class=leaf><p class=empty>Nothing kept yet. While you read, tap a verse, then tap Keep. It gets a punched hole in the margin and waits here for you.</p></section>`}`;
 }
 function unkeep(i){gone={i,k:KEPT.splice(i,1)[0]};saveKept();render()}
 function unremove(){KEPT.splice(gone.i,0,gone.k);gone=null;saveKept();render()}
-function share(i){const k=KEPT[i];navigator.share({text:`"${k.t}" ${k.r||`${BOOKS[k.b][0]} ${k.c}:${k.v}`} (${TR[k.tr][0]})`}).catch(()=>{})}
+function share(i){const k=KEPT[i];navigator.share({text:`"${k.t}" ${kref(k)} (${TR[k.tr][0]})`}).catch(()=>{})}
 function settingsView(){
   return `<h1 class=title>Settings</h1>
   <section class=leaf><label for=dl style="margin-top:0">Finish by</label>
@@ -661,13 +667,126 @@ function settingsView(){
     ${installEvt?`<button class="go ghost" id=inst onclick=install()>Install Tolle${icon('install')}</button>`:''}
     ${todayIdx().length?(([b,c])=>`<button class="go ghost" onclick=undo()>Undo last chapter (${b} ${c})${icon('undo')}</button>`)(CH[todayIdx().at(-1)]):''}
   </div></section>
+  <section class=leaf aria-labelledby=bk-h><h2 id=bk-h>Backup</h2>
+    <p class=about>Your plan, progress and kept verses are saved on this phone only. Keep a copy, so a new phone or a cleared browser can pick up where you left off.${GID?' Google Drive keeps it in a hidden folder that only Tolle can see.':''}</p>
+    ${backupHTML()}</section>
   <section class=leaf aria-labelledby=about-h><h2 id=about-h>About Tolle</h2>
-    <p class=about>The name comes from Augustine's "tolle lege": take up and read. Scripture text is from public-domain translations via bible-api.com. The Why &amp; How notes are AI-written, so check them against your own study.</p></section>
+    <p class=about>The name comes from Augustine's "tolle lege": take up and read. Scripture text is from public-domain translations via bible-api.com. The Why &amp; How notes are AI-written, so check them against your own study. <a href=privacy.html>Privacy: what Tolle keeps, and where</a>.</p></section>
   <div class=danger-zone><button class=danger onclick=reset()>Erase all progress</button></div>`;
+}
+function backupHTML(){ // Settings and the first screen share it: Drive when it's set up, then the file
+  return `${GID?`<p class=hint id=sync-note role=status>${SY.on?syncNote():''}</p>`:''}<div class=actions>
+    ${GID?`<button class=go onclick=connect()>${SY.on?'Back up now':S?'Back up to Google Drive':'Restore from Google Drive'}${icon('arrow')}</button>`:''}
+    ${S?`<button class="go ghost" onclick=saveBackup()>Save a backup file</button>`:''}
+    <button class="go ghost" onclick=this.nextElementSibling.click()>Restore from a backup file</button><input type=file hidden accept=".txt,.json,text/plain,application/json" onchange=restoreFile(this)></div>
+    ${GID&&SY.on?`<p><button class=link-btn onclick=disconnect()>Disconnect Google Drive</button></p>`:''}`;
 }
 function setDeadline(v){if(v){Object.assign(S,{deadline:v,start:today(),startDone:count()-todayN()});save()}}
 function undo(){const i=S.day.idx.pop();setRead(i,false);S.log[today()]--;save();render()} // only offered when something was read today
-function reset(){if(confirm('Erase all progress? This cannot be undone.')){localStorage.removeItem(KEY);S=null;seenT=null;go('today')}}
+function reset(){if(confirm('Erase all progress? This cannot be undone.')){localStorage.removeItem(KEY);S=null;seenT=null;touch();go('today')}}
+
+// backups: everything worth keeping (the plan and Kept) as one copy, stamped with when this phone last changed it
+const pack=()=>({app:'tolle',v:1,u:+localStorage.getItem('tolle-u')||0,plan:S,kept:KEPT});
+if((S||KEPT.length)&&!localStorage.getItem('tolle-u'))localStorage.setItem('tolle-u',1); // progress from before backups: older than any copy, but never empty
+let pushT;
+function touch(){localStorage.setItem('tolle-u',Date.now());clearTimeout(pushT);pushT=setTimeout(sync,2000)}
+const DAY=/^\d{4}-\d\d-\d\d$/,ix=i=>Number.isInteger(i)&&i>=0&&i<CH.length;
+function clean(p){ // a copy from a file or from Drive is checked field by field before any of it is used or drawn
+  const s=p?.plan,n=Number.isInteger;
+  const ok=p?.app==='tolle'&&Number.isFinite(p.u)&&Array.isArray(p.kept)
+    &&p.kept.every(k=>BOOKS[k?.b]&&n(k.b)&&n(k.c)&&k.c>0&&n(k.v)&&k.v>0&&typeof k.t==='string'&&TR[k.tr]&&DAY.test(k.d)&&(k.r==null||HOPE.includes(k.r)))
+    &&(s===null||/^[01]{1189}$/.test(s?.read)&&DAY.test(s.deadline)&&DAY.test(s.start)&&TR[s.tr]&&s.rate>0&&Number.isFinite(s.startDone)
+      &&Object.entries(s.log??0).every(([d,c])=>DAY.test(d)&&n(c))&&Object.values(s.at??0).every(ix)&&DAY.test(s.day?.d)&&s.day.idx?.every(ix));
+  if(!ok)throw Error('not a Tolle backup');
+  return p;
+}
+function merge(a,b){ // two copies: a chapter read on either counts, the newer copy's settings win, Kept gets verses from both
+  const [o,n]=a.u>b.u?[b,a]:[a,b],p=n.plan,q=o.plan;let plan=p||q;
+  if(p&&q){
+    const log={...q.log};for(const d in p.log)log[d]=Math.max(log[d]||0,p.log[d]);
+    plan={...q,...p,log,at:{...q.at,...p.at},read:[...p.read].map((c,i)=>c==='1'||q.read[i]==='1'?'1':'0').join(''),
+      day:p.day.d===q.day.d?{d:p.day.d,idx:[...new Set([...q.day.idx,...p.day.idx])]}:p.day.d>q.day.d?p.day:q.day};
+  }
+  const have=new Set(n.kept.map(kref));
+  return {...n,u:Date.now(),plan,kept:[...n.kept,...o.kept.filter(k=>!have.has(kref(k)))].sort((x,y)=>x.d.localeCompare(y.d))};
+}
+let flash=null; // one line for Today, saying what a restore brought back
+const restored=()=>`Restored: ${plural(count(),'chapter')} read, ${plural(KEPT.length,'kept verse')}.`;
+function adopt(p){ // take a copy as this phone's own
+  const fresh=!S;S=p.plan;KEPT=p.kept;if(fresh&&S)flash=restored();
+  S?localStorage.setItem(KEY,JSON.stringify(S)):localStorage.removeItem(KEY);
+  localStorage.setItem('tolle-kept',JSON.stringify(KEPT));localStorage.setItem('tolle-u',p.u);
+  if(view!=='reader')render(); // the reader keeps its place; the next page shows the new copy
+}
+function saveBackup(){ // one file, handed to the share sheet (Save to Drive, email...) or downloaded; Android shares text files, not JSON
+  const f=new File([JSON.stringify(pack())],`Tolle backup ${today()}.txt`,{type:'text/plain'});
+  if(navigator.canShare?.({files:[f]}))return navigator.share({files:[f]}).catch(()=>{});
+  const a=document.createElement('a');a.href=URL.createObjectURL(f);a.download=f.name;a.click();
+}
+function restoreFile(inp){ // adds the file's progress to this phone's: nothing here is lost
+  inp.files[0]?.text().then(t=>{adopt(merge(pack(),clean(JSON.parse(t))));touch();flash=S?restored():null;go('today')})
+    .catch(()=>alert("That file isn't a Tolle backup. Pick the file Tolle saved, named like “Tolle backup 2026-01-31”."))
+    .finally(()=>{inp.value=''});
+}
+
+// Google Drive: the same copy, kept in the Drive's hidden app folder (only Tolle can see it), synced while Google's one-hour pass is good
+const GID=''; // the OAuth client ID from Google Cloud: public by design; while empty, the Drive option stays hidden
+let SY=JSON.parse(localStorage.getItem('tolle-sync')||'{}'),syncing=false; // {on, k: pass, x: pass expiry, id: Drive file, base: copy's stamp at last sync, at: last sync, err}
+const keepSY=()=>localStorage.setItem('tolle-sync',JSON.stringify(SY));
+const passOK=()=>SY.k&&SY.x>Date.now();
+const gis=()=>window.google?.accounts?Promise.resolve():new Promise((ok,no)=>{const s=document.createElement('script');s.src='https://accounts.google.com/gsi/client';s.onload=ok;s.onerror=no;document.head.append(s)});
+function connect(){ // needs a tap: Google's popup hands back a one-hour pass for the app folder only
+  if(passOK())return sync();
+  gis().then(()=>google.accounts.oauth2.initTokenClient({client_id:GID,scope:'https://www.googleapis.com/auth/drive.appdata',
+    callback:r=>{if(r.error)return synced(r.error);Object.assign(SY,{on:true,k:r.access_token,x:Date.now()+(r.expires_in-60)*1e3});sync()},
+    error_callback:e=>synced(e.type)}).requestAccessToken({prompt:SY.on?'':'consent'}),()=>synced('offline'));
+}
+function disconnect(){const k=SY.k;if(k)gis().then(()=>google.accounts.oauth2.revoke(k),()=>{});SY={};keepSY();render()}
+function synced(err){ // Settings redraws; elsewhere only the note changes, so a page never jumps under the reader
+  SY.err=err||null;if(!err)SY.at=Date.now();keepSY();
+  if(S&&view==='settings')return render();
+  const n=document.getElementById('sync-note');if(n)n.textContent=syncNote();
+  if(!err)document.getElementById('bk-nudge')?.remove();
+}
+const drive=(path,o={})=>fetch('https://www.googleapis.com/'+path,{...o,headers:{Authorization:'Bearer '+SY.k,'Content-Type':'application/json'}})
+  .then(r=>{if(r.status===401)SY.k=null;if(!r.ok)throw r.status;return r});
+async function sync(){ // pull, combine if both sides changed since the last sync, push
+  if(!GID||!passOK()||syncing)return;
+  syncing=true;clearTimeout(pushT);
+  try{
+    SY.id??=(await (await drive("drive/v3/files?spaces=appDataFolder&q=name%3D'tolle.json'&fields=files(id)")).json()).files[0]?.id;
+    const remote=SY.id?clean(await (await drive(`drive/v3/files/${SY.id}?alt=media`)).json()):null,base=SY.base||0;
+    let out=pack();
+    if(remote&&remote.u!==base){if(out.u<=base){adopt(remote);out=null}else adopt(out=merge(out,remote))} // only Drive changed: take it; both: combine
+    else if(out.u<=base)out=null; // nothing new on either side
+    if(out){
+      SY.id??=(await (await drive('drive/v3/files?fields=id',{method:'POST',body:JSON.stringify({name:'tolle.json',parents:['appDataFolder']})})).json()).id;
+      await drive(`upload/drive/v3/files/${SY.id}?uploadType=media`,{method:'PATCH',body:JSON.stringify(out)});
+    }
+    if(out||remote){SY.base=(out||remote).u;synced()}else synced('none'); // 'none': a fresh phone and an empty Drive
+  }catch(e){if(e===404)SY.id=null;synced(e instanceof SyntaxError||e.message==='not a Tolle backup'?'bad copy':'offline')}
+  finally{syncing=false}
+}
+const syncNote=()=>SY.err==='none'?'There’s no Tolle backup in this Google account yet.':SY.err==='bad copy'?"The copy in Drive couldn't be read, so Tolle left it alone.":SY.err?"Couldn't reach Google Drive. Your progress is safe on this phone; tap Back up now to try again.":SY.at?`Backed up ${new Date(SY.at).toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'})}.`:'Not backed up yet.';
+const behind=()=>GID&&SY.on&&!passOK()&&pack().u>(SY.base||0); // changes Drive hasn't seen, and no pass to send them
+addEventListener('visibilitychange',()=>{if(!document.hidden)sync()});
+
+// a sheet follows the thumb down 1:1; let go and it drops away or settles back, by where the flick was headed
+const rubber=(x,h)=>x*h*.55/(h+.55*x); // past the top it gives a little, slower the further it goes
+addEventListener('touchstart',e=>{ // (any touchstart listener also turns on :active press states in iOS Safari)
+  const g=e.target.closest?.('.gloss:popover-open');if(!g||e.touches.length>1||g.scrollTop>0&&!e.target.closest('.shead'))return; // the header always drags; the body only from the top
+  const y0=e.touches[0].clientY,pts=[];let y=null;
+  const move=ev=>{const d=ev.touches[0].clientY-y0;
+    if(y===null){if(d<=0)return end();y=0;g.style.transition='none'} // a pull down from the top is the sheet's; anything else scrolls
+    ev.preventDefault();y=d<0?-rubber(-d,g.offsetHeight):d;g.style.translate=`0 ${y}px`;pts.push([ev.timeStamp,y]);if(pts.length>4)pts.shift()};
+  const end=()=>{removeEventListener('touchmove',move);removeEventListener('touchend',end);removeEventListener('touchcancel',end);
+    if(y===null)return;
+    const [t0,a]=pts[0]||[0,0],[t1,b]=pts.at(-1)||[1,0],v=(b-a)/Math.max(1,t1-t0)*1000; // px/s at release
+    g.style.transition=g.style.translate=''; // the house two frames, from where the finger left it
+    if(y+v*.499>g.offsetHeight/2)g.hidePopover(); // Apple's projection, deceleration .998: where the flick would come to rest
+  };
+  addEventListener('touchmove',move,{passive:false});addEventListener('touchend',end);addEventListener('touchcancel',end);
+},{passive:true});
 
 const INS={}; // book -> promise of its insights file (book.json: {chapter: {summary, insights}})
 const insights=b=>INS[b]??=fetch(`insights/${slug(b)}.json`).then(r=>r.ok?r.json():{}).catch(()=>({}));
@@ -688,7 +807,7 @@ function readerView(){
   $.innerHTML=`<div class=rbar><div class=rrow><button class=icon-btn onclick="go('today')" aria-label="Back to Today">${icon('back')}</button>
     <span class=pos>${again?'Read before':t<g?`${t+1} of ${g} today`:'Extra chapter'}</span>
     <span class=rtools>${moon()}${window.speechSynthesis?`<button class=icon-btn aria-pressed=false aria-label="Listen to this chapter" onclick=listen(this)>${icon('listen')}</button>`:''}</span></div>
-    <div class=vstrip role=slider tabindex=0 aria-label="Verses. Tap a bar or use the arrow keys to jump to a verse" aria-valuemin=0 aria-valuenow=0></div></div>
+    <div class=vstrip role=slider tabindex=0 aria-label="Verses. Tap or drag along the bars, or use the arrow keys, to jump to a verse" aria-valuemin=0 aria-valuenow=0></div></div>
   <header class="leaf clear opener"><h1 class=station style=--w:${ww(b)}>${b}<span class=sr> ${c}</span></h1>
     <div class=sec><button class=num popovertarget=chsheet aria-label="Chapter ${c} of ${BOOKS[bi][1]}. Choose another chapter">${c}</button><p class="meta mono">${bed(bi)[1]} · <button class=chpick popovertarget=chsheet>chapter ${c} of ${BOOKS[bi][1]}</button><br><span class=vc>&nbsp;</span></p></div>
     <p class=sum hidden></p><p class=look hidden></p></header>
@@ -720,7 +839,9 @@ function readerView(){
       const q=recallHTML(verses,`${b} ${c}`);if(q){quiz.innerHTML=q;quiz.hidden=false}
       onscroll=()=>{tk||=requestAnimationFrame(()=>{tk=0;track()})};track();
       const jump=k=>{const all=txt.querySelectorAll('.vs'),vs=all[Math.max(0,Math.min(all.length-1,k))];scrollTo(0,vs.getBoundingClientRect().top+scrollY-$.querySelector('.rbar').offsetHeight-12);track()};
-      strip.onclick=e=>{const r=strip.getBoundingClientRect();jump(Math.floor((e.clientX-r.left)/r.width*verses.length))};
+      const under=e=>{const r=strip.getBoundingClientRect();return Math.floor((e.clientX-r.left)/r.width*verses.length)};
+      strip.onpointerdown=e=>{strip.setPointerCapture(e.pointerId);jump(under(e))}; // a tap jumps; a drag scrubs, the text following the finger the whole way
+      strip.onpointermove=e=>{if(strip.hasPointerCapture(e.pointerId))jump(under(e))};
       strip.onkeydown=e=>{const n=+strip.ariaValueNow,k={ArrowRight:n,ArrowDown:n,ArrowLeft:n-2,ArrowUp:n-2,Home:0,End:verses.length-1}[e.key];if(k!=null){e.preventDefault();jump(k)}};
       const to=jv&&txt.querySelector(`.vs[data-v="${jv}"]`);jv=null;if(to){to.scrollIntoView({block:'center'});choose(to,b,c,bi)} // landing on a chosen verse
     }else txt.innerHTML=`<p style="margin:0">Couldn't load ${b} ${c}. You may be offline, or the text service is busy. <button class=link onclick="go('reader')">Try again</button>, or read it in your own Bible and tap Done.</p>`;
@@ -849,14 +970,14 @@ function finish(btn){
   navigator.vibrate?.(12);btn?.classList.add('punched');$.querySelectorAll('.vstrip i').forEach(c=>c.classList.add('on'));
   const shut=step($.querySelectorAll('.opener,.scripture'),'perspective(900px) rotateY(-75deg)','0 50%',true); // the leaves hinge shut at the punched edge
   if(!shut.length)return go(next);
-  turning=true;Promise.all(shut.map(a=>a.finished)).finally(()=>{turning=false;go(next)});
+  turning=true;Promise.all(shut.map(a=>a.finished)).finally(()=>{turning=false;if(view==='reader')go(next)}); // a tab tapped mid-turn wins
 }
 
 let installEvt; // Android Chrome: offer our own install button in Settings
 addEventListener('beforeinstallprompt',e=>{e.preventDefault();installEvt=e;if(view==='settings')render()});
 function install(){installEvt.prompt();installEvt=null;document.getElementById('inst')?.remove()}
 navigator.serviceWorker?.register('sw.js');
-render();
+render();sync();
 </script>
 </body>
 </html>

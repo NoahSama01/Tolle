@@ -278,7 +278,7 @@ Corners are barely softened: 2px on controls, 3px on leaves, and 1px on slips, l
 ### Buttons
 - **Shape:** sharp slab (2px radius).
 - **Primary:** print-ink slab, milk text in Archivo 700 caps at 82% width and .06em, 3.25rem tall, with label left and arrow right. On the app it spans the full leaf width.
-- **Hover / Active:** shifts to Ink Down; on press it translates 1px 1px. Reduced motion removes the press translate. Focus is a 2.5px ink outline offset 3px.
+- **Hover / Active:** shifts to Ink Down; on press it translates 1px 1px. Under reduced motion a press dims it to .72 opacity instead. Focus is a 2.5px ink outline offset 3px.
 - **Ghost:** transparent with a 1.5px ink border and the same type; hover fills with 7–8% ink.
 - **Slim:** 2.75rem tall at .85rem, used for in-panel marking.
 
@@ -339,7 +339,17 @@ Corners are barely softened: 2px on controls, 3px on leaves, and 1px on slips, l
 - **Entrances:** only the top ply hinges in on a new view (rotateY -16deg). In-place re-renders (marking a book, undo) replay nothing.
 - **Attention and feedback:** a rail tab or division chip lands on a division head that hinges down (rotateX -20deg). Book panels and pulled notes open the same way. The active tab's hole, the right answer's hole and the just-read row markers punch in (scale 0 to 1). A wrong answer is struck 5px out of register for two frames. The filled-in word prints in as a two-frame clip from left to right.
 - **Landing:** the rail tabs step in from the edge at 90ms intervals. After that, a scroll timeline drives a registered `--p`, so each tab fills top to bottom across its share of the Bible as the page is read. The 1,189-chapter grid unveils row by row in 12 hard steps, from a single view timeline on its container. Both fills are colour-only and keep running under reduced motion.
-- Under `prefers-reduced-motion: reduce`, `step()` and the band step return early and the CSS removes animations and press translates. State changes (holes, fills, slips) are then instant, but every state change still happens.
+- **Under the finger, motion is continuous; on release, it is the hinge.**
+  - **Sheets:** the names card and the chapter switcher rise from the bottom edge and leave the same way, in the hinge. They are a popover transition with `@starting-style` and `allow-discrete`, and the backdrop dims in step.
+  - **Pulling a sheet down:** the sheet follows the thumb 1:1. Its header always drags it; its body drags it only when scrolled to the top. Past the top it gives with a rubber band. On release it projects the flick (Apple's deceleration .998: `y + v·0.499`). If the projection passes half the sheet's height, the sheet drops away; otherwise it settles back. Either way it moves in the hinge, from where the finger let go.
+  - **Verse strip:** it scrubs. A press jumps to the bar under it, and a drag carries the text along with the finger (pointer capture, `touch-action:none`).
+- **Press:** every button, link and summary answers on press with a 1px push into the board. A note tab is pulled 2px instead.
+- **Day and night:** they trade places through a view transition, a 200ms cross-fade in four hard steps, so the brightness never jumps. It is a fade, not movement, so it stays under reduced motion.
+- **Interruption:** a tab tapped during Done's page turn wins over the turn's destination.
+- **Under `prefers-reduced-motion: reduce`:**
+  - `step()` and the band step return early, and the CSS removes animations and sheet transitions.
+  - A press dims the control to .72 opacity instead of moving it.
+  - State changes (holes, fills, slips) are then instant, but every state change, and every press, still answers.
 
 ## Do's and Don'ts
 
@@ -350,7 +360,7 @@ Corners are barely softened: 2px on controls, 3px on leaves, and 1px on slips, l
 - **Do** show selection as a punched hole (board-coloured circle, inset ink shadow): read chapters, picked books, the active tab or nav item.
 - **Do** keep the fore-edge rail on every screen except setup, with tabs sized by chapter extent, bands filling by read fraction, the current tab extended and full division names on milk slips.
 - **Do** set primary actions as print-ink slabs in Archivo 700 caps at 82% width and .06em.
-- **Do** use `--hinge` (90ms, two hard steps) for every change, and make it instant under reduced motion.
+- **Do** use `--hinge` (90ms, two hard steps) for every change, and make it instant under reduced motion. Anything the finger holds tracks it 1:1 until release.
 - **Do** keep touch targets at least 2.75rem.
 
 ### Don't:

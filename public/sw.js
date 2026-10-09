@@ -2,7 +2,7 @@
 // App files + insights: stale-while-revalidate, so weak signal never blocks the app
 // (an update shows on the next launch).
 // Scripture text: cache first, since it never changes.
-const APP = 'app-v21', TEXT = 'text';
+const APP = 'app-v23', TEXT = 'text';
 const SHELL = ['./', 'landing.html', 'tokens.css', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'board-grain.png',
   ...['archivo-400-800', 'eb-garamond', 'jetbrains-mono'].map(f => `fonts/${f}.woff2`)];
 const put = (name, req, res) => { if (res.ok) { const c = res.clone(); caches.open(name).then(x => x.put(req, c)) } return res };
