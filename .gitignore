@@ -14,3 +14,6 @@ scripts/.batch-id
 
 # aislop session logs
 .aislop/
+
+# WEB chapters cached by scripts/notes.py
+scripts/.web/
