@@ -43,5 +43,5 @@ Report each pull request URL, the checker's final output, and any judgement call
 
 ## Progress
 
-Done: Leviticus, Numbers, Deuteronomy, Joshua, Judges, Ruth.
-Next, in reading order: 1 Samuel, 2 Samuel, 1 Kings, 2 Kings, 1 Chronicles, 2 Chronicles, Ezra, Nehemiah, Esther, then Job onward. Genesis and Exodus are still to do as well.
+Done: Leviticus, Numbers, Deuteronomy, Joshua, Judges, Ruth, 1 Samuel, 2 Samuel.
+Next, in reading order: 1 Kings, 2 Kings, 1 Chronicles, 2 Chronicles, Ezra, Nehemiah, Esther, then Job onward. Genesis and Exodus are still to do as well.
