@@ -1,0 +1,3596 @@
+{
+ "1": {
+  "summary": "At Sinai, a year after leaving Egypt, Moses and Aaron count Israel's fighting men tribe by tribe, reaching 603,550, while the Levites are left out and set apart to carry and guard the tabernacle.",
+  "lookfor": "Watch for the leader named for each tribe, the formula repeated for every count, and the reason the tribe of Levi is not counted.",
+  "names": [
+   {
+    "name": "Nahshon",
+    "kind": "person",
+    "gloss": "Leader of the tribe of Judah. He is an ancestor of David and appears in Jesus' genealogy."
+   },
+   {
+    "name": "Gamaliel",
+    "kind": "person",
+    "gloss": "Leader of the tribe of Manasseh. Paul's teacher in Acts bore the same name centuries later."
+   },
+   {
+    "name": "Levites",
+    "kind": "group",
+    "gloss": "The tribe descended from Jacob's son Levi, set apart to serve at the tabernacle instead of going to war."
+   },
+   {
+    "name": "Tabernacle of the Testimony",
+    "kind": "place",
+    "gloss": "The portable sanctuary, named for the 'testimony', the tablets of the covenant kept in the ark inside it."
+   },
+   {
+    "name": "wilderness of Sinai",
+    "kind": "place",
+    "gloss": "The desert around Mount Sinai, where Israel had camped for almost a year since receiving the law."
+   }
+  ],
+  "skim": {
+   "advice": "Verses 20 to 43 repeat the same formula for each of the twelve tribes. Skim the totals, and read the opening command, the grand total and the Levites' exemption closely.",
+   "key": [
+    3,
+    46,
+    49,
+    53
+   ]
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Bemidbar: in the wilderness",
+    "body": "The Hebrew name of the book, Bemidbar, is its fifth word in 1:1: \"in the wilderness\" of Sinai. The English title comes from the Greek translation's Arithmoi and the Latin Numeri, named for this census and the second one in chapter 26. The two titles catch the book's two sides: a people being counted and organised, and a people being tested in the desert.",
+    "refs": [
+     "Numbers 26:2"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Counting an army",
+    "body": "The count includes only males \"from twenty years old and upward, all who are able to go out to war\" (1:3). Israel is being organised as an army to march into Canaan, not as a settled nation. The same words return in chapter 26, when a new generation is counted after the first has died in the wilderness.",
+    "refs": [
+     "Numbers 26:2",
+     "Numbers 26:64-65"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "How big was Israel?",
+    "body": "A total of 603,550 men (1:46) implies two million people or more, the same figure as the men counted for the sanctuary tax in Exodus. Some readers take it at face value as part of the miracle of the wilderness. Others suggest the Hebrew elef, usually \"thousand,\" can also mean a clan or military unit, which would make the totals far smaller; others read the numbers as symbolic. No proposal has won general agreement.",
+    "refs": [
+     "Exodus 38:26",
+     "Exodus 12:37"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A census can be dangerous",
+    "body": "Exodus requires a ransom when Israel is counted, \"that there be no plague among them.\" Centuries later David's census of his fighting men brings a plague on the nation. Here the count is God's own command (1:1-2), carried out exactly as he directed (1:19).",
+    "refs": [
+     "Exodus 30:12",
+     "2 Samuel 24:1-15"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Names that confess God",
+    "body": "Many of the tribal leaders' names contain a word for God: Elizur means \"my God is a rock\" and Zurishaddai \"my rock is Shaddai\" (1:5-6). Shaddai, usually translated Almighty, is the name by which God was known to Abraham, Isaac and Jacob. The roll call quietly preserves a family memory of who God had been to them.",
+    "refs": [
+     "Exodus 6:3"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Zar: the outsider",
+    "body": "\"The stranger who comes near shall be put to death\" (1:51). The Hebrew zar does not mean a foreigner here but anyone not authorised, including an ordinary Israelite. The Levites camp around the tabernacle as a living buffer, \"that there may be no wrath on the congregation\" (1:53).",
+    "refs": [
+     "Numbers 3:10",
+     "Numbers 18:7"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A promise being counted",
+    "body": "Seventy members of Jacob's family went down to Egypt. Now their descendants are counted in the hundreds of thousands, a partial fulfilment of God's promise that Abraham's offspring would be as many as the stars. The question Numbers goes on to ask is whether this numerous people will trust God enough to enter the land also promised.",
+    "refs": [
+     "Genesis 15:5",
+     "Genesis 22:17",
+     "Exodus 1:5"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Counted by name",
+    "body": "The census is taken \"according to the number of the names\" (1:2), one by one. What difference does it make to be known by name and not only as part of a total?",
+    "refs": [
+     "Isaiah 43:1",
+     "John 10:3"
+    ]
+   }
+  ]
+ },
+ "2": {
+  "summary": "God arranges the camp around the Tent of Meeting: three tribes on each side under four standards, with Judah's camp on the east leading the march and the Levites in the centre.",
+  "lookfor": "Notice which tribes camp on which side, which camp sets out first, and what stays in the middle of everything, in camp and on the march.",
+  "names": [
+   {
+    "name": "Judah",
+    "kind": "group",
+    "gloss": "The tribe descended from Jacob's fourth son. It leads the camp, foreshadowing the royal line of David."
+   },
+   {
+    "name": "Ephraim",
+    "kind": "group",
+    "gloss": "The tribe descended from Joseph's younger son, leading the western camp."
+   },
+   {
+    "name": "Dan",
+    "kind": "group",
+    "gloss": "The tribe descended from Jacob's son Dan. Its large camp brings up the rear on the march."
+   },
+   {
+    "name": "Eliasaph",
+    "kind": "person",
+    "gloss": "Leader of the tribe of Gad, called the son of Deuel in chapter 1 and the son of Reuel here."
+   }
+  ],
+  "skim": {
+   "advice": "Each of the four camps follows the same pattern of leader, tribe and total. Skim the figures, and note the direction, the lead tribe and the order of march for each.",
+   "key": [
+    2,
+    9,
+    17,
+    34
+   ]
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "God in the middle",
+    "body": "The tabernacle sits at the centre, ringed by the Levites and then by the twelve tribes, three on each side (2:2, 2:17). Everything is arranged around God's presence. Ezekiel's vision of the restored city and Revelation's new Jerusalem both use the same pattern of twelve tribes on four sides, three on each.",
+    "refs": [
+     "Ezekiel 48:30-34",
+     "Revelation 21:12-13"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A camp like a king's",
+    "body": "Ancient armies pitched camp around their king's tent. Egyptian reliefs of Ramesses II's campaign against Kadesh show a rectangular camp with the royal tent at its centre. Israel's camp follows a familiar military shape, but the tent at the middle belongs to Yahweh, their king.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Judah first, not Reuben",
+    "body": "Reuben was Jacob's firstborn, yet Judah camps on the east, the side of the tent's entrance, and sets out first (2:3, 2:9). Reuben leads only the second camp. The ranking anticipates Jacob's blessing that the scepter would not depart from Judah.",
+    "refs": [
+     "Genesis 49:8-10",
+     "Numbers 10:14"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Degel: a banner",
+    "body": "Each camp gathers \"by his own standard\" (2:2), Hebrew degel, a flag or banner. The same word appears in the Song of Solomon's \"His banner over me is love.\" The text never describes what the banners looked like; later Jewish and Christian writers imagined them bearing a lion, a man, an ox and an eagle, but that is tradition rather than text.",
+    "refs": [
+     "Song of Solomon 2:4",
+     "Ezekiel 1:10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Deuel or Reuel?",
+    "body": "Gad's leader is \"the son of Reuel\" here (2:14) but the son of Deuel in chapters 1, 7 and 10. In Hebrew script the letters d and r look almost alike, and copyists easily confused them. Some Hebrew manuscripts and ancient versions read the same name in every place.",
+    "refs": [
+     "Numbers 1:14",
+     "Numbers 7:42"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The totals add up",
+    "body": "The four camps number 186,400, 151,450, 108,100 and 157,600 (2:9, 2:16, 2:24, 2:31). Together they make exactly the 603,550 of chapter 1 (2:32). The careful bookkeeping matches the book's emphasis that Israel did \"according to all that Yahweh commanded Moses\" (2:34).",
+    "refs": [
+     "Numbers 1:46"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Order for worship's sake",
+    "body": "The camp's order is not for show but so that a holy God can live among a vast people. Paul makes a similar point when he tells the Corinthians that God \"is not a God of confusion, but of peace.\"",
+    "refs": [
+     "1 Corinthians 14:33",
+     "1 Corinthians 14:40"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "What sits at the centre",
+    "body": "Every tribe could see the tabernacle from its tents, and every march moved around it. If someone mapped your week, what would they find at the centre?",
+    "refs": [
+     "Matthew 6:33"
+    ]
+   }
+  ]
+ },
+ "3": {
+  "summary": "Aaron's family is introduced, the Levites are given to the priests as helpers and counted from a month old, and God claims them in place of Israel's firstborn sons, with the 273 left over redeemed for silver.",
+  "lookfor": "Watch the three Levite clans, where each camps and what each looks after, and the arithmetic of firstborn sons against Levites.",
+  "names": [
+   {
+    "name": "Nadab",
+    "kind": "person",
+    "gloss": "Aaron's eldest son, who died with his brother Abihu for offering unauthorised fire."
+   },
+   {
+    "name": "Abihu",
+    "kind": "person",
+    "gloss": "Aaron's second son, who died with Nadab before God at Sinai."
+   },
+   {
+    "name": "Eleazar",
+    "kind": "person",
+    "gloss": "Aaron's third son, placed over the Levites. He succeeds his father as high priest."
+   },
+   {
+    "name": "Ithamar",
+    "kind": "person",
+    "gloss": "Aaron's youngest son, who supervises two of the Levite clans."
+   },
+   {
+    "name": "Gershon",
+    "kind": "person",
+    "gloss": "Levi's eldest son, ancestor of the Gershonites, who camp west of the tabernacle."
+   },
+   {
+    "name": "Kohath",
+    "kind": "person",
+    "gloss": "Levi's second son, ancestor of the Kohathites, the clan of Moses and Aaron. They camp south of the tabernacle."
+   },
+   {
+    "name": "Merari",
+    "kind": "person",
+    "gloss": "Levi's third son, ancestor of the Merarites, who camp north of the tabernacle."
+   }
+  ],
+  "skim": {
+   "advice": "The clan lists and counts in verses 17 to 39 follow one pattern. Skim them for where each clan camps and what it guards, and read the exchange of Levites for firstborn at the end closely.",
+   "key": [
+    4,
+    12,
+    13,
+    46
+   ]
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Moses' sons go unnamed",
+    "body": "The chapter opens with \"the generations of Aaron and Moses\" (3:1), but only Aaron's sons are listed. Moses' own sons, Gershom and Eliezer, were simply counted among the Levites. The priesthood runs through Aaron's line, not through the great prophet's.",
+    "refs": [
+     "Exodus 18:3-4",
+     "1 Chronicles 23:14"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The firstborn belong to God",
+    "body": "God says the firstborn became his on the night he struck Egypt's firstborn (3:13). Exodus commands Israel to set them apart to him. Luke records that Mary and Joseph presented the infant Jesus in the Temple in keeping with this law.",
+    "refs": [
+     "Exodus 13:2",
+     "Luke 2:22-23"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why the Levites?",
+    "body": "When Israel worshipped the golden calf, the sons of Levi rallied to Moses and carried out a grim judgment. Jacob had once said Levi would be scattered in Israel because of his violence. In Numbers that scattering is turned into a calling: the Levites have no territory of their own but live in towns across all the tribes.",
+    "refs": [
+     "Exodus 32:26-29",
+     "Genesis 49:7",
+     "Joshua 21:41"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Padah: to buy back",
+    "body": "The 273 firstborn who outnumber the Levites are \"redeemed\" for five shekels each (3:46-47). The Hebrew verb padah means to buy back by paying a price. Deuteronomy uses it for God redeeming Israel from slavery, and Peter says believers were redeemed \"not with corruptible things, with silver or gold\" but with Christ's blood.",
+    "refs": [
+     "Deuteronomy 7:8",
+     "1 Peter 1:18-19"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Pidyon haben",
+    "body": "Jewish families still observe pidyon haben, the redemption of the firstborn son. When the boy is a month old, the father gives five silver coins to a kohen, a descendant of Aaron. The ceremony rests on this chapter and on Numbers 18.",
+    "refs": [
+     "Numbers 18:15-16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Numbers that almost add up",
+    "body": "The three Levite clans total 7,500, 8,600 and 6,200, which make 22,300 (3:22, 3:28, 3:34), yet the total given is 22,000 (3:39). Rashi, following the Talmud, explained that 300 Levites were firstborn themselves and could not stand in for anyone else. Others suggest a copying slip in one figure.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Camped at the door",
+    "body": "Moses, Aaron and Aaron's sons pitch their tents on the east, right in front of the tent's entrance (3:38). They guard the one way in. The warning about the outsider who comes near is repeated a third time in the chapter's closing section.",
+    "refs": [
+     "Numbers 1:51",
+     "Numbers 3:10"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Belonging by substitution",
+    "body": "Israel's firstborn were spared in Egypt, and the Levites now serve in their place. What does it change to see your own life as something spared and then given back?",
+    "refs": [
+     "Romans 12:1"
+    ]
+   }
+  ]
+ },
+ "4": {
+  "summary": "The working Levites aged thirty to fifty are counted, and each clan's duties in moving the tabernacle are spelled out: the priests wrap the holy objects, the Kohathites carry them, the Gershonites take the fabrics and the Merarites the frames.",
+  "lookfor": "Notice the coloured cloths wrapped around each object, who may and may not look at the holy things, and which of Aaron's sons supervises each clan.",
+  "names": [
+   {
+    "name": "Kohathites",
+    "kind": "group",
+    "gloss": "The Levite clan that carries the most holy objects on their shoulders."
+   },
+   {
+    "name": "Gershonites",
+    "kind": "group",
+    "gloss": "The Levite clan that carries the curtains, coverings and hangings."
+   },
+   {
+    "name": "Merari",
+    "kind": "person",
+    "gloss": "Levi's son; his descendants carry the tabernacle's frames, bars, pillars and bases."
+   },
+   {
+    "name": "Ithamar",
+    "kind": "person",
+    "gloss": "Aaron's youngest son, who directs the Gershonites and Merarites."
+   },
+   {
+    "name": "Eleazar",
+    "kind": "person",
+    "gloss": "Aaron's son, responsible for the lamp oil, incense, grain offering and anointing oil."
+   }
+  ],
+  "skim": {
+   "advice": "Verses 34 to 49 repeat the counting formula for each clan. Skim them, and read the wrapping instructions and the warning in verses 15 to 20 closely.",
+   "key": [
+    5,
+    15,
+    19,
+    20
+   ]
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "The ark shows blue",
+    "body": "Every holy object is wrapped in cloth and then covered with leather, but the ark alone gets the blue cloth on the outside (4:6). On the march, the ark would have been the one object everyone could pick out. Other items get scarlet (4:8) or purple (4:13) beneath their leather covering.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Tachash: an uncertain hide",
+    "body": "The World English Bible translates tachash as \"sealskin\" (4:6). Nobody is sure what animal is meant: suggestions include dolphin or dugong, which live in the Red Sea, a kind of fine leather, or goatskin. Older English versions said badger skins. It was clearly a tough outer covering for the journey.",
+    "refs": [
+     "Exodus 26:14"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "On their shoulders",
+    "body": "The Kohathites must carry the holy things themselves (4:15). When David first tried to bring the ark to Jerusalem on a new cart, Uzzah reached out to steady it and died. On the second attempt the Levites carried it on their shoulders with poles, \"as Moses commanded.\"",
+    "refs": [
+     "2 Samuel 6:3-7",
+     "1 Chronicles 15:13-15"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Protecting the carriers",
+    "body": "God tells Moses and Aaron, \"Don't cut off the tribe of the families of the Kohathites\" (4:18). The priests must cover everything first, because the carriers must not see the holy things \"even for a moment\" (4:20). The danger is real: the men of Beth Shemesh later died after looking into the ark.",
+    "refs": [
+     "1 Samuel 6:19"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Thirty to fifty",
+    "body": "The heavy work goes to men aged thirty to fifty (4:3), the years of full strength. Chapter 8 gives the starting age as twenty-five, and David later lowered it to twenty when the Temple no longer needed carrying. Jesus, Luke notes, was about thirty when he began his public work.",
+    "refs": [
+     "Numbers 8:24",
+     "1 Chronicles 23:24-27",
+     "Luke 3:23"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A God who travels",
+    "body": "God's dwelling is designed to be taken down, wrapped and carried; it goes where his people go. John echoes this when he says the Word became flesh and \"lived among us,\" using a Greek verb related to the word for tent or tabernacle.",
+    "refs": [
+     "John 1:14",
+     "2 Samuel 7:6"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Pegs and cords",
+    "body": "The Merarites carried bases, pegs and cords (4:31-32), and were assigned them \"by name\" (4:32). Which unseen tasks keep worship going where you are, and who does them?",
+    "refs": [
+     "1 Corinthians 12:22"
+    ]
+   }
+  ]
+ },
+ "5": {
+  "summary": "The unclean are put outside the camp, wrongs against others must be confessed and repaid with a fifth added, and a ritual is set out for a wife whose husband suspects her of adultery.",
+  "lookfor": "Look for the reason given for keeping the camp clean, the order of confession then repayment, and each step of the jealousy ritual, including what happens if the woman is innocent.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Because God lives there",
+    "body": "The unclean must leave the camp, \"in the midst of which I dwell\" (5:3). The rule is about the holy presence at the centre, not about people being sinful. Jesus later reaches out and touches a man with leprosy, and instead of becoming unclean himself, makes him clean.",
+    "refs": [
+     "Leviticus 13:46",
+     "Mark 1:40-42"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Wronging people wrongs God",
+    "body": "A sin against another person is called a trespass \"against Yahweh\" (5:6). The guilty person must confess, repay in full, and add a fifth (5:7). Leviticus gives the same rule; Zacchaeus goes far beyond it when he offers to repay fourfold.",
+    "refs": [
+     "Leviticus 6:4-5",
+     "Luke 19:8"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Go'el: the kinsman",
+    "body": "If the wronged person has died and has no \"kinsman\" (5:8), the repayment goes to the priest. The Hebrew go'el is the relative who stands up for family: the avenger of blood in chapter 35 and the redeemer Boaz in Ruth. Even when no one is left to receive it, the debt is still paid.",
+    "refs": [
+     "Numbers 35:19",
+     "Ruth 3:12"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A trial by ordeal",
+    "body": "Ancient law codes sometimes settled unprovable charges by ordeal; the Code of Hammurabi tells a wife accused without witnesses to plunge into the river. Here the test happens before Yahweh at the sanctuary, and the drink is only holy water, dust and dissolved ink (5:17, 5:23). Any harm must come from God, and many scholars think the ritual protected women from a husband's private revenge.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "A one-sided law",
+    "body": "The ritual answers a husband's \"spirit of jealousy\" whether or not his wife is guilty (5:14), and the chapter ends by declaring him free from iniquity (5:31). There is no matching procedure for a wife who suspects her husband. Readers rightly notice that the law reflects the unequal marriage customs of its world.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Ended by the rabbis",
+    "body": "The Mishnah, in a tractate named Sotah after this law, reports that Rabban Yohanan ben Zakkai stopped the bitter water ritual when adultery became widespread. It quotes Hosea, where God refuses to punish unfaithful wives while the men themselves are unfaithful.",
+    "refs": [
+     "Hosea 4:14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Writing dissolved in water",
+    "body": "The priest writes the curses, including God's name, and washes the ink into the water (5:23). Rabbinic tradition drew a lesson from this: God allows his own name to be erased in order to restore peace between a husband and wife. If she is innocent, she is free and \"shall conceive offspring\" (5:28).",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Suspicion brought into the open",
+    "body": "This law takes a private suspicion and brings it before God instead of leaving it to fester at home. Where do suspicions in your relationships need bringing into the light?",
+    "refs": [
+     "Ephesians 4:26-27"
+    ]
+   }
+  ]
+ },
+ "6": {
+  "summary": "Any man or woman may take a Nazirite vow, giving up grape products, haircuts and contact with the dead for a set time, and the chapter ends with the blessing the priests are to speak over Israel.",
+  "lookfor": "Notice the three things a Nazirite gives up, what happens if the vow is broken by accident, and the shape of the three-line blessing.",
+  "names": [
+   {
+    "name": "Nazirite",
+    "kind": "group",
+    "gloss": "A man or woman who takes a vow of special devotion to God, usually for a set period."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Nazir: one set apart",
+    "body": "Nazir comes from a root meaning to separate or consecrate. The unshaved hair is called \"his separation to God\" on his head (6:7), using the noun nezer, which also means a crown. The high priest's \"holy crown\" in Exodus is the same word.",
+    "refs": [
+     "Exodus 29:6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Open to women",
+    "body": "The vow is for \"either man or woman\" (6:2), one of the few forms of special religious dedication open to both. Jewish sources report women taking it; the Mishnah mentions Queen Helena of Adiabene, a convert to Judaism, keeping a Nazirite vow for years.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Nazirites in Scripture",
+    "body": "Numbers describes a voluntary vow for a set time. Samson and Samuel were dedicated by their mothers for life, and the angel says John the Baptist will drink no wine or strong drink. Paul cut his hair because of a vow and later paid the costs for four men completing theirs at the Temple.",
+    "refs": [
+     "Judges 13:5",
+     "1 Samuel 1:11",
+     "Luke 1:15",
+     "Acts 18:18",
+     "Acts 21:23-24"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "When death interrupts",
+    "body": "If someone dies suddenly beside a Nazirite, the vow is defiled even though nobody did anything wrong (6:9). The head is shaved, offerings are made, and the days already kept do not count (6:12). Contact with death and holiness to God are treated as incompatible.",
+    "refs": [
+     "Leviticus 21:11"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Silver scrolls from Jerusalem",
+    "body": "In 1979 two tiny silver scrolls were found in a burial cave at Ketef Hinnom in Jerusalem, dated to around 600 BC. They are inscribed with a form of this blessing (6:24-26). They are the oldest known copies of any text found in the Bible.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Three, five, seven",
+    "body": "In Hebrew the blessing's three lines have three, five and seven words, so it grows as it goes. Each line names Yahweh. Christian readers have often linked the threefold name with Paul's threefold blessing, while Jewish tradition stresses the widening gifts: protection, grace, then peace.",
+    "refs": [
+     "2 Corinthians 13:14"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A shining face",
+    "body": "\"Yahweh make his face to shine on you\" (6:25) pictures God's smile and favour. The psalms echo it in prayer, and the opposite is God hiding his face. In synagogues, descendants of Aaron still speak this blessing over the congregation with raised hands.",
+    "refs": [
+     "Psalms 67:1",
+     "Psalms 80:3",
+     "Deuteronomy 31:17"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Whose blessing?",
+    "body": "The priests speak, but God says, \"I will bless them\" (6:27). What changes if you hear a blessing spoken over you as God's own word rather than only a kind wish?",
+    "refs": []
+   }
+  ]
+ },
+ "7": {
+  "summary": "When the altar is dedicated, the twelve tribal leaders give wagons and oxen for the Levites, and then on twelve successive days each brings an identical gift.",
+  "lookfor": "Watch who receives the wagons and who does not, how each day's gift is exactly the same, and what Moses hears at the end.",
+  "names": [
+   {
+    "name": "Nahshon",
+    "kind": "person",
+    "gloss": "Leader of Judah, who brings the first day's gift."
+   },
+   {
+    "name": "Gershon",
+    "kind": "person",
+    "gloss": "Levi's son, whose clan receives two wagons for the tabernacle's fabrics."
+   },
+   {
+    "name": "Merari",
+    "kind": "person",
+    "gloss": "Levi's son, whose clan receives four wagons for the heavy frames and bases."
+   },
+   {
+    "name": "Kohath",
+    "kind": "person",
+    "gloss": "Levi's son, whose clan gets no wagons because it carries the holy objects by hand."
+   },
+   {
+    "name": "cherubim",
+    "kind": "group",
+    "gloss": "Winged figures of gold on the cover of the ark, guarding the place where God speaks."
+   }
+  ],
+  "skim": {
+   "advice": "From verse 12 to verse 83 the same gift is listed twelve times, one leader a day. Read the first day (verses 12 to 17) and the closing summary (84 to 89), and skim the rest for the names.",
+   "key": [
+    3,
+    9,
+    12,
+    89
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Stepping back in time",
+    "body": "The chapter begins \"on the day that Moses had finished setting up the tabernacle\" (7:1), a month before the census of chapter 1. Numbers often arranges material by topic rather than strict date order. Gathering the gifts here links them with the Levites who will use them.",
+    "refs": [
+     "Exodus 40:17",
+     "Numbers 1:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Wagons by weight",
+    "body": "Moses hands out the wagons according to need: two to the Gershonites for the fabrics and four to the Merarites for the heavy frames (7:7-8). The Kohathites get none, because they carry the holy things on their shoulders (7:9). David's later use of a cart for the ark ignored this pattern.",
+    "refs": [
+     "2 Samuel 6:3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Twelve identical gifts",
+    "body": "Each leader's gift is identical, down to the weight of the silver, yet each is listed in full. With 89 verses this is the longest chapter in the Torah. No tribe outgives another, and none is summarised; each gets its own day.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Judah leads again",
+    "body": "The days follow the marching order of chapter 2, so Judah gives first and Naphtali last (7:12, 7:78), not the order of Jacob's sons' births. The leaders are the same men named at the census.",
+    "refs": [
+     "Numbers 2:3",
+     "Numbers 1:5-15"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Chanukkah: dedication",
+    "body": "\"The dedication of the altar\" (7:84) translates chanukkat ha-mizbeach. The same word names Hanukkah, the festival recalling the rededication of the Temple altar in 164 BC after it was defiled under the Seleucid king Antiochus IV. John mentions Jesus in the Temple at the Feast of the Dedication, and synagogues still read this chapter during Hanukkah.",
+    "refs": [
+     "John 10:22"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The voice from the mercy seat",
+    "body": "After all the giving, the chapter ends with Moses hearing God's voice \"from between the two cherubim\" (7:89). That fulfils God's promise in Exodus to meet Moses there. The gifts have prepared the place, but the point of the place is that God speaks.",
+    "refs": [
+     "Exodus 25:22"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Equal and individual",
+    "body": "Twelve identical gifts are each recorded in full. What does that suggest about how God notices what each person brings, even when it looks the same as everyone else's?",
+    "refs": [
+     "Mark 12:41-44"
+    ]
+   }
+  ]
+ },
+ "8": {
+  "summary": "Aaron sets up the lamps, and the Levites are cleansed and presented before Yahweh by the whole people as a wave offering, then given their working ages.",
+  "lookfor": "Notice what the Levites must do to be cleansed, who lays hands on them and on what, and why they are said to belong to God.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "The menorah",
+    "body": "The lampstand is one piece of beaten gold with seven lamps that shine forward (8:2-4). The menorah became a lasting emblem of Judaism. The Arch of Titus in Rome shows the Temple menorah carried off as plunder after AD 70, and a menorah is the emblem of the modern State of Israel.",
+    "refs": [
+     "Exodus 25:31"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Lamps in later visions",
+    "body": "Zechariah sees a golden lampstand with seven lamps, a sign that God's work goes forward \"by my Spirit.\" In Revelation, John sees seven golden lampstands, which are the seven churches. The lamp that gives light in front of itself becomes an image of God's people.",
+    "refs": [
+     "Zechariah 4:2-6",
+     "Revelation 1:12",
+     "Revelation 1:20"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Hands on hands",
+    "body": "The whole people lay their hands on the Levites (8:10), and then the Levites lay their hands on the bulls (8:12). The gesture, used for sacrifices, shows the Levites standing in for Israel as the bulls stand in for them. The early church laid hands on the seven chosen to serve in Acts.",
+    "refs": [
+     "Leviticus 1:4",
+     "Acts 6:6"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Tenufah: waved or raised",
+    "body": "Aaron offers the Levites \"for a wave offering\" (8:11), Hebrew tenufah. Usually it means moving a portion of a sacrifice toward the altar and back, or perhaps lifting it up; some scholars translate it \"elevation offering.\" Here it is used for living people, given over to God for service. Paul's \"living sacrifice\" makes a similar point.",
+    "refs": [
+     "Romans 12:1"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Cleansed, not anointed",
+    "body": "Aaron's sons were anointed with oil and dressed in holy garments, but the Levites are only cleansed: sprinkled, shaved and washed (8:7). The difference marks two levels of service, priests at the altar and Levites assisting them. That line becomes the issue in Korah's rebellion.",
+    "refs": [
+     "Leviticus 8:12",
+     "Numbers 16:8-10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Twenty-five or thirty?",
+    "body": "Here Levites start work at twenty-five (8:24); chapter 4 counts those from thirty. Jewish tradition explains the gap as five years of training before full service. Others think the two passages describe different tasks or different periods.",
+    "refs": [
+     "Numbers 4:3"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Stepping back, not stepping out",
+    "body": "At fifty the Levites stop the heavy work but keep helping their brothers with their duties (8:25-26). What would it look like to keep serving when you can no longer do what you once did?",
+    "refs": [
+     "Psalms 92:14"
+    ]
+   }
+  ]
+ },
+ "9": {
+  "summary": "Israel keeps its second Passover at Sinai, God makes room for those who are unclean or travelling to keep it a month later, and the cloud over the tabernacle sets every move of the camp.",
+  "lookfor": "Watch how Moses handles a question he cannot answer, who else may keep the Passover, and the rhythm of the cloud lifting and settling.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Moses says, Wait",
+    "body": "Men made unclean by a death ask why they must miss the Passover, and Moses answers, \"Wait, that I may hear what Yahweh will command\" (9:8). The same pattern recurs with a blasphemer, a Sabbath-breaker and the daughters of Zelophehad. New laws grow out of honest questions from real people.",
+    "refs": [
+     "Leviticus 24:12",
+     "Numbers 15:34",
+     "Numbers 27:5"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The second Passover",
+    "body": "Those unable to keep Passover on time may keep it on the fourteenth of the second month (9:11). King Hezekiah used this provision when the priests and people were not ready in time. The Jewish calendar still marks Pesach Sheni, the \"second Passover,\" a month after Passover.",
+    "refs": [
+     "2 Chronicles 30:2-3"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Not a bone broken",
+    "body": "The Passover lamb must be eaten without breaking any of its bones (9:12). John notes that the soldiers did not break Jesus' legs on the cross, so that the Scripture was fulfilled, \"A bone of him will not be broken.\"",
+    "refs": [
+     "Exodus 12:46",
+     "John 19:36"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Room for the foreigner",
+    "body": "A foreigner living in Israel may also keep the Passover, under the same statute as the native-born (9:14). Exodus adds that his males must first be circumcised. Belonging to Israel's worship was never strictly a matter of birth.",
+    "refs": [
+     "Exodus 12:48-49"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Shakan: to dwell",
+    "body": "Where the cloud \"remained\" (9:17), the Hebrew verb is shakan, to settle or dwell. From it come mishkan, the tabernacle, and the later Jewish term Shekhinah for God's dwelling presence. The cloud resting on the tent shows God living among his people.",
+    "refs": [
+     "Exodus 25:8",
+     "Exodus 40:34"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "At the commandment of Yahweh",
+    "body": "The phrase \"at the commandment of Yahweh\" appears seven times in verses 18 to 23. Israel's movements are not decided by convenience, weather or Moses' plans, but by God. Exodus ends with the same picture, which Numbers now puts into practice for the journey.",
+    "refs": [
+     "Exodus 40:36-38"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Two days or a year",
+    "body": "Sometimes the cloud stayed one night, sometimes \"two days, or a month, or a year\" (9:22). How do you live faithfully in a season when nothing seems to move?",
+    "refs": [
+     "Psalms 27:14"
+    ]
+   }
+  ]
+ },
+ "10": {
+  "summary": "Moses makes two silver trumpets to call and move the camp, and Israel at last sets out from Sinai in marching order, with Moses urging his in-law Hobab to come along as their guide.",
+  "lookfor": "Watch the different trumpet signals, the order in which the camps set out, and the words Moses speaks whenever the ark moves or comes to rest.",
+  "names": [
+   {
+    "name": "Hobab",
+    "kind": "person",
+    "gloss": "Moses' Midianite in-law, the son of Reuel, who knew the desert well."
+   },
+   {
+    "name": "Reuel",
+    "kind": "person",
+    "gloss": "Moses' father-in-law, a priest of Midian, also called Jethro in Exodus."
+   },
+   {
+    "name": "wilderness of Paran",
+    "kind": "place",
+    "gloss": "The desert south of Canaan in the northeastern Sinai Peninsula, where Kadesh lay."
+   },
+   {
+    "name": "Mount of Yahweh",
+    "kind": "place",
+    "gloss": "Mount Sinai, where God gave the law."
+   }
+  ],
+  "skim": {
+   "advice": "Verses 14 to 27 list the tribes and their leaders in marching order, repeating chapter 2. Skim the names, but notice where the tabernacle and the holy objects travel (verses 17 and 21).",
+   "key": [
+    11,
+    21,
+    33,
+    35
+   ]
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Silver trumpets",
+    "body": "These trumpets (Hebrew chatsotsrah) were straight, hammered metal tubes, unlike the shofar, a ram's horn. Josephus describes them as just under a cubit long with a flared end, and the Arch of Titus in Rome shows trumpets among the spoils taken from the Temple. Only priests blew them (10:8).",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Teruah: the alarm",
+    "body": "One long blast gathers the people; a teruah, a broken or rising call, sets the camps moving (10:5-7). The same word names the festival of the seventh month, \"a day of blowing of trumpets,\" which Jews keep as Rosh Hashanah. Later prophets use the trumpet alarm for the day of Yahweh.",
+    "refs": [
+     "Numbers 29:1",
+     "Joel 2:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Remembered before God",
+    "body": "In battle the trumpet is more than a signal: \"you will be remembered before Yahweh your God\" (10:9). The blast works like a prayer. Phinehas takes the trumpets to war against Midian, and King Abijah tells his enemies that God's priests with their trumpets are on his side.",
+    "refs": [
+     "Numbers 31:6",
+     "2 Chronicles 13:12"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Leaving Sinai at last",
+    "body": "Israel arrived at Sinai in the third month after the exodus and leaves on the twentieth day of the second month of the second year (10:11), almost a year later. Everything from Exodus 19 to here has happened at the mountain. Deuteronomy notes that Kadesh is only eleven days' journey from Sinai; the story that follows explains why it took forty years.",
+    "refs": [
+     "Exodus 19:1",
+     "Deuteronomy 1:2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Who was Hobab?",
+    "body": "Moses' father-in-law is called Reuel and Jethro in Exodus, and Hobab is \"the son of Reuel\" (10:29). Judges calls Hobab Moses' in-law using a Hebrew word that can mean father-in-law or brother-in-law. Numbers does not say whether Hobab agreed to come, but Judges places his descendants, the Kenites, in the land with Judah.",
+    "refs": [
+     "Exodus 2:18",
+     "Exodus 3:1",
+     "Judges 1:16",
+     "Judges 4:11"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Rise up, Yahweh",
+    "body": "When the ark set out, Moses prayed, \"Rise up, Yahweh, and let your enemies be scattered!\" (10:35). Psalm 68 opens with almost the same words, and Psalm 132 asks God to rise into his resting place with the ark. The march through the desert became a pattern for Israel's worship.",
+    "refs": [
+     "Psalms 68:1",
+     "Psalms 132:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A book within a book",
+    "body": "In Hebrew Torah scrolls, verses 35 and 36 are set off by two inverted letters, a reversed nun before and after. The Talmud discusses this section as if it were a book of its own, which would divide the Torah into seven books. Why it is marked this way is still debated.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "You can be our eyes",
+    "body": "Israel has the cloud and the ark to guide them, yet Moses still asks Hobab, \"you can be our eyes\" (10:31). How do trust in God's guidance and the help of experienced people fit together in your life?",
+    "refs": [
+     "Proverbs 15:22"
+    ]
+   }
+  ]
+ },
+ "11": {
+  "summary": "Complaining breaks out at Taberah and again over meat; an exhausted Moses gets seventy elders to share his load, and quail arrives in overwhelming numbers, followed by a plague.",
+  "lookfor": "Notice what the people remember about Egypt, how Moses speaks to God when he is at the end of himself, and the two men who prophesy in the camp.",
+  "names": [
+   {
+    "name": "Taberah",
+    "kind": "place",
+    "gloss": "A camp named \"burning,\" after the fire that broke out there."
+   },
+   {
+    "name": "mixed multitude",
+    "kind": "group",
+    "gloss": "Non-Israelites who left Egypt with Israel."
+   },
+   {
+    "name": "Eldad",
+    "kind": "person",
+    "gloss": "One of the seventy elders, who prophesied in the camp instead of at the tent."
+   },
+   {
+    "name": "Medad",
+    "kind": "person",
+    "gloss": "The other elder who prophesied in the camp alongside Eldad."
+   },
+   {
+    "name": "Kibroth Hattaavah",
+    "kind": "place",
+    "gloss": "A camp whose name means \"graves of craving.\""
+   },
+   {
+    "name": "Hazeroth",
+    "kind": "place",
+    "gloss": "Israel's next stopping place in the desert, where the events of chapter 12 happen."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "The complaining begins",
+    "body": "Chapters 1 to 10 keep saying Israel did \"as Yahweh commanded.\" Just three days after leaving Sinai, the tone changes (11:1). Israel complained before Sinai too, but then God simply provided; now, after the covenant, complaining brings judgment. Paul points to these stories as warnings for the church.",
+    "refs": [
+     "Exodus 16:3",
+     "1 Corinthians 10:6",
+     "1 Corinthians 10:10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Cucumbers, leeks and garlic",
+    "body": "The people remember the fish they ate in Egypt \"for nothing\" (11:5), forgetting that they ate it as slaves. The foods they list were Egyptian staples; the Greek historian Herodotus reports an inscription recording the radishes, onions and garlic supplied to pyramid builders. Memory has made the past sweeter than it was.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "A leader at breaking point",
+    "body": "Moses asks whether he conceived this people, that he should carry them like a nurse with a baby (11:12), and begs to die (11:15). Jethro had warned him the load was too heavy for one man. Elijah later prays a similar prayer under a desert tree. God answers Moses not with a rebuke but with help.",
+    "refs": [
+     "Exodus 18:17-18",
+     "1 Kings 19:4"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Ruach: spirit and wind",
+    "body": "God takes some of \"the Spirit\" on Moses and puts it on the elders (11:17, 11:25). Later \"a wind from Yahweh\" brings the quail (11:31). Both are the Hebrew word ruach. The same divine breath that equips leaders also drives the storm that answers the people's craving.",
+    "refs": [
+     "Genesis 1:2"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "I wish all were prophets",
+    "body": "When Joshua wants Eldad and Medad stopped, Moses replies, \"I wish that all Yahweh's people were prophets\" (11:29). Jesus gives a similar answer when his disciples try to stop an outsider casting out demons. At Pentecost, Peter quotes Joel's promise that God will pour out his Spirit on all flesh.",
+    "refs": [
+     "Mark 9:38-40",
+     "Joel 2:28",
+     "Acts 2:17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Quail on the wind",
+    "body": "Quail migrate across Sinai in spring and autumn and often arrive exhausted, flying low enough to be caught by hand. The people gather for two days and a night, the least gathering ten homers, a huge amount (11:32). Spreading the birds out around the camp was probably to dry them.",
+    "refs": [
+     "Exodus 16:13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Graves of craving",
+    "body": "The meat is \"still between their teeth\" when the plague strikes (11:33), and the place is named for the people buried there. A psalm sums it up: God gave them their request, \"but sent leanness into their soul.\" The sin is not wanting meat but rejecting God, who is among them (11:20).",
+    "refs": [
+     "Psalms 106:14-15",
+     "Psalms 78:29-31"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Not able to bear it alone",
+    "body": "\"I am not able to bear all this people alone\" (11:14). What are you carrying alone that God may intend you to share with others?",
+    "refs": [
+     "Galatians 6:2"
+    ]
+   }
+  ]
+ },
+ "12": {
+  "summary": "Miriam and Aaron criticise Moses over his Cushite wife and challenge his unique authority; God defends Moses, Miriam is struck with a skin disease, and the camp waits seven days for her.",
+  "lookfor": "Notice what the complaint seems to be about and what it is really about, how God describes Moses, and how Aaron and Moses respond to Miriam's punishment.",
+  "names": [
+   {
+    "name": "Miriam",
+    "kind": "person",
+    "gloss": "Sister of Moses and Aaron, a prophet who led Israel's women in song after the crossing of the sea."
+   },
+   {
+    "name": "Cushite",
+    "kind": "group",
+    "gloss": "Someone from Cush, the land along the Nile south of Egypt, in present-day Sudan."
+   },
+   {
+    "name": "Hazeroth",
+    "kind": "place",
+    "gloss": "A desert camp where Israel stayed after Kibroth Hattaavah."
+   },
+   {
+    "name": "wilderness of Paran",
+    "kind": "place",
+    "gloss": "The desert south of Canaan from which the spies are sent in the next chapter."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Who was the Cushite woman?",
+    "body": "Cush usually means the Nubian kingdom south of Egypt. Some interpreters, including many rabbis, think she is Zipporah, the Midianite wife of Exodus, since Habakkuk pairs Cushan with Midian. Others think Moses married a second wife; Josephus tells a legend of Moses marrying a Cushite princess. The text does not settle it.",
+    "refs": [
+     "Exodus 2:21",
+     "Habakkuk 3:7"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The real complaint",
+    "body": "The marriage is the excuse, but the question is authority: \"Has Yahweh indeed spoken only with Moses?\" (12:2). Miriam was a recognised prophet and Aaron the high priest, so the challenge comes from the top of Israel's leadership. Micah later names all three as leaders God sent.",
+    "refs": [
+     "Exodus 15:20",
+     "Micah 6:4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Miriam's name comes first",
+    "body": "In Hebrew the verb \"spoke\" in verse 1 is feminine singular, suggesting Miriam started it. That may explain why only she is struck. Aaron, who is not punished, pleads for her and confesses for both of them (12:11).",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Anav: humble",
+    "body": "\"The man Moses was very humble\" (12:3) uses anav, a word for the lowly who depend on God rather than defend themselves. Moses says nothing in his own defence; God speaks for him. Traditional readers explain the verse as prophetic or as a later editor's note, since it is odd for a humble man to write it of himself.",
+    "refs": [
+     "Matthew 11:29"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Faithful in all my house",
+    "body": "God says other prophets receive visions and dreams, but with Moses he speaks \"mouth to mouth\" (12:8). Deuteronomy closes by saying no later prophet was like Moses. Hebrews quotes \"faithful in all my house\" (12:7) to compare Moses, a faithful servant in God's house, with Christ, the Son over it.",
+    "refs": [
+     "Exodus 33:11",
+     "Deuteronomy 34:10",
+     "Hebrews 3:2-6"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Tsara'at: not leprosy",
+    "body": "Miriam becomes \"leprous, as white as snow\" (12:10). The Hebrew tsara'at covers a range of skin conditions that made a person ritually unclean, and is not the disease now called leprosy. Some interpreters note a sharp irony: a complaint about a dark-skinned woman ends with Miriam's own skin turned white.",
+    "refs": [
+     "Leviticus 13:45-46"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Five-word prayer",
+    "body": "Moses, who has just been attacked, prays at once for his sister: \"Heal her, God, I beg you!\" (12:13). In Hebrew it is five short words, often cited as one of the briefest prayers in the Bible. God answers with a limit: seven days outside the camp, then restoration.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "The camp waits",
+    "body": "\"The people didn't travel until Miriam was brought in again\" (12:15). What would it look like for a community to wait for someone who has fallen, instead of moving on without them?",
+    "refs": [
+     "Deuteronomy 24:9",
+     "Galatians 6:1"
+    ]
+   }
+  ]
+ },
+ "13": {
+  "summary": "Twelve tribal leaders spy out Canaan for forty days and come back with fruit and a divided report; Caleb urges going up at once, but the others say the land devours its people and its giants made them feel like grasshoppers.",
+  "lookfor": "Watch the questions Moses tells the spies to answer, the cluster of grapes, and how the report slides from the land's goodness to fear of its people.",
+  "names": [
+   {
+    "name": "Caleb",
+    "kind": "person",
+    "gloss": "The spy from Judah who urges Israel to trust God and take the land."
+   },
+   {
+    "name": "Hoshea",
+    "kind": "person",
+    "gloss": "The spy from Ephraim, whom Moses renames Joshua; he later leads Israel into the land."
+   },
+   {
+    "name": "Hebron",
+    "kind": "place",
+    "gloss": "An ancient town in the southern hill country where Abraham, Isaac and Jacob were buried."
+   },
+   {
+    "name": "children of Anak",
+    "kind": "group",
+    "gloss": "The Anakim, a clan of unusually tall people living around Hebron."
+   },
+   {
+    "name": "Zoan",
+    "kind": "place",
+    "gloss": "A major city in Egypt's Nile delta, known to the Greeks as Tanis."
+   },
+   {
+    "name": "valley of Eshcol",
+    "kind": "place",
+    "gloss": "A valley near Hebron, named \"cluster\" after the grapes the spies cut there."
+   },
+   {
+    "name": "Kadesh",
+    "kind": "place",
+    "gloss": "An oasis in the desert south of Canaan that becomes Israel's base for years."
+   },
+   {
+    "name": "Nephilim",
+    "kind": "group",
+    "gloss": "Legendary giants of the days before the flood, mentioned in Genesis 6."
+   }
+  ],
+  "skim": {
+   "advice": "Verses 4 to 15 list the twelve spies, one from each tribe. Skim the names, but note Caleb (verse 6) and Hoshea, renamed Joshua (verses 8 and 16).",
+   "key": [
+    16,
+    27,
+    30,
+    33
+   ]
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Whose idea was it?",
+    "body": "Here God tells Moses to send the spies (13:1-2). In Deuteronomy, Moses recalls that the people asked to send men ahead, and he agreed. Read together, God grants the people's request, and the mission itself is not the sin; the report and the response are.",
+    "refs": [
+     "Deuteronomy 1:22-23"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Hoshea becomes Joshua",
+    "body": "Moses renames Hoshea, \"salvation,\" as Joshua (13:16), Yehoshua in Hebrew, \"Yahweh saves.\" Its Greek form is Iesous, the name the angel gives Jesus, \"for it is he who shall save his people from their sins.\" Hebrews contrasts the rest Joshua gave Israel with the rest still promised to God's people.",
+    "refs": [
+     "Matthew 1:21",
+     "Hebrews 4:8"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A cluster on a pole",
+    "body": "Two men carry one cluster of grapes on a pole between them (13:23), and the valley is named Eshcol, \"cluster.\" The hills around Hebron are still known for their grapes. The image of the two spies with the grapes is used today as the logo of Israel's Ministry of Tourism.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Older than Zoan",
+    "body": "A short aside notes that Hebron was built \"seven years before Zoan in Egypt\" (13:22). Zoan was a famous Egyptian city, later the capital Tanis. The remark seems meant to impress: the town Israel fears is even older than a great city of the land they left.",
+    "refs": [
+     "Psalms 78:12"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Milk and honey, and giants",
+    "body": "The spies confirm what God promised: the land \"flows with milk and honey\" (13:27). Then comes \"however\" (13:28). By the end their report has grown into a land that \"eats up its inhabitants\" and giants descended from the Nephilim (13:32-33), people Genesis places before the flood.",
+    "refs": [
+     "Exodus 3:8",
+     "Genesis 6:4"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Ten against two",
+    "body": "Ten spies say Israel cannot win; only Caleb, and in the next chapter Joshua, say God will give the land. Both sides saw the same cities and the same people. The difference was what they believed about God, and Joshua's book later has Caleb recall that he \"wholly followed Yahweh.\"",
+    "refs": [
+     "Joshua 14:7-8",
+     "Deuteronomy 1:28"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Seeing yourself as a grasshopper",
+    "body": "\"We were in our own sight as grasshoppers, and so we were in their sight\" (13:33). The spies assume they know what the Canaanites think. Joshua 2 later reveals that the people of Jericho were terrified of Israel the whole time.",
+    "refs": [
+     "Joshua 2:9-11"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The size of the obstacle",
+    "body": "Caleb and the ten saw the same giants. When you face something large, what determines whether you measure it against yourself or against God?",
+    "refs": [
+     "Romans 8:31"
+    ]
+   }
+  ]
+ },
+ "14": {
+  "summary": "The people weep, plan to return to Egypt and threaten to stone Joshua and Caleb; God threatens to destroy them, Moses intercedes, and God forgives but decrees forty years in the wilderness until that generation dies.",
+  "lookfor": "Notice what the people say they wish for, the argument Moses uses in prayer, the 'day for a year' sentence, and what happens when the people try to put things right on their own.",
+  "names": [
+   {
+    "name": "Caleb",
+    "kind": "person",
+    "gloss": "The faithful spy from Judah, promised the land he walked through."
+   },
+   {
+    "name": "Amalekite",
+    "kind": "group",
+    "gloss": "A desert people who had attacked Israel soon after the exodus."
+   },
+   {
+    "name": "Hormah",
+    "kind": "place",
+    "gloss": "A town in the south of Canaan; its name sounds like the Hebrew for destruction."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Be careful what you wish",
+    "body": "The people cry, \"We wish that we had died in the land of Egypt, or that we had died in this wilderness!\" (14:2). God answers, \"as you have spoken in my ears, so will I do to you\" (14:28): they will die in the wilderness. Their fear for their children is answered too; the little ones they said would be killed are the ones who enter (14:31).",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Moses quotes God to God",
+    "body": "Moses prays using almost the same words God used to describe himself at Sinai after the golden calf: slow to anger, abundant in loving kindness, forgiving, yet not clearing the guilty (14:18). As then, God had offered to make a new nation from Moses (14:12), and as then Moses refuses.",
+    "refs": [
+     "Exodus 34:6-7",
+     "Exodus 32:10-14"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "For the sake of God's name",
+    "body": "Moses' main argument is not Israel's goodness but God's reputation: the nations will say Yahweh could not bring his people into the land (14:15-16). God's reply widens the view: \"all the earth shall be filled with Yahweh's glory\" (14:21).",
+    "refs": [
+     "Exodus 32:11-12",
+     "Habakkuk 2:14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Pardoned, and yet",
+    "body": "God says, \"I have pardoned according to your word\" (14:20). The nation is not destroyed, but the adults who refused will not enter the land. Forgiveness keeps the relationship and the promise alive without cancelling every consequence.",
+    "refs": [
+     "Psalms 99:8"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The wilderness generation",
+    "body": "Forty years, a year for each day of spying (14:34), until the men twenty and over have died. Psalm 95 recalls God's oath that they would not enter his rest, and Hebrews applies it to Christians: \"they were not able to enter in because of unbelief.\"",
+    "refs": [
+     "Psalms 95:10-11",
+     "Hebrews 3:17-19"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The Ninth of Av",
+    "body": "The Mishnah teaches that on the Ninth of Av it was decreed that this generation would not enter the land. Jewish tradition places later disasters on the same date, including the destruction of both Temples. Tisha B'Av remains a day of fasting and mourning.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Too late to obey",
+    "body": "The next morning the people decide to go up after all (14:40). Moses warns them that Yahweh is not among them, and the ark stays in the camp (14:44). They are beaten back to Hormah; Deuteronomy says the enemy chased them \"as bees do.\" Obedience after God has said no is just another kind of disobedience.",
+    "refs": [
+     "Deuteronomy 1:41-44"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Another spirit",
+    "body": "God says Caleb \"had another spirit with him, and has followed me fully\" (14:24). What would it mean for you to follow fully when the crowd is going the other way?",
+    "refs": [
+     "Joshua 14:10-12"
+    ]
+   }
+  ]
+ },
+ "15": {
+  "summary": "After the disaster, God gives laws for life when Israel comes into the land: grain and wine with offerings, the first of the dough, atonement for unintended sins, the stoning of a man gathering sticks on the Sabbath, and blue-corded fringes.",
+  "lookfor": "Notice how several laws begin, the repeated 'one law' for native-born and foreigner, the line between unintended and defiant sin, and what the fringes are for.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "When you come into the land",
+    "body": "Right after God sentences a generation to die in the wilderness, he speaks of \"when you have come into the land\" (15:2, 15:18). The laws themselves are a promise. The adults will not enter, but Israel will, and God is already preparing its worship there.",
+    "refs": [
+     "Numbers 14:31"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "One law for all",
+    "body": "The chapter insists again and again that the foreigner living among Israel follows the same law as the native-born (15:14-16, 15:29). The stranger can bring offerings and receive forgiveness on equal terms. Paul later tells Gentile believers that they are no longer strangers but members of God's household.",
+    "refs": [
+     "Exodus 12:49",
+     "Ephesians 2:19"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The first of the dough",
+    "body": "Israel is to set aside a cake from \"the first of your dough\" (15:20); the Hebrew word is challah. Jewish practice still separates a piece of dough when baking, and the braided Sabbath loaf takes its name from it. Paul alludes to this law: \"If the first fruit is holy, so is the lump.\"",
+    "refs": [
+     "Romans 11:16"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "With a high hand",
+    "body": "Unintended sins (shegagah) can be atoned for by offerings (15:27-28), but the one who sins \"with a high hand\" is cut off (15:30). The phrase pictures a raised fist: open defiance. The same words describe Israel leaving Egypt boldly. The psalmist prays to be kept from presumptuous sins.",
+    "refs": [
+     "Exodus 14:8",
+     "Psalms 19:12-13",
+     "Hebrews 10:26"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The man gathering sticks",
+    "body": "The account of the Sabbath-breaker (15:32-36) follows straight after the law on defiant sin and seems meant as an example of it. The death penalty was already in the law, but how to carry it out had not been declared, so he is held while Moses asks. It is a hard passage, and Jesus' teaching that the Sabbath was made for people shapes how Christians read it.",
+    "refs": [
+     "Exodus 31:14",
+     "Exodus 35:3",
+     "Mark 2:27"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Fringes with a blue cord",
+    "body": "Israelites are to wear fringes, tzitzit, on the corners of their garments with a cord of blue (15:38). The blue dye came from a sea snail and was costly, a colour associated with royalty and the tabernacle. Observant Jews still wear tzitzit, and this passage is the third paragraph of the Shema, recited morning and evening.",
+    "refs": [
+     "Deuteronomy 22:12",
+     "Matthew 23:5"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Touching the fringe",
+    "body": "The woman with bleeding for twelve years touched \"the fringe of his garment\" (Matthew 9:20), very likely Jesus' tzitzit. Others later begged to touch it too. The cord meant to remind Israel of God's commands becomes the point of contact for healing.",
+    "refs": [
+     "Matthew 9:20",
+     "Matthew 14:36"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Scouting with your eyes",
+    "body": "The fringes keep Israel from following \"your own heart and your own eyes\" (15:39). The Hebrew verb is tur, the word used for spying out the land in chapter 13. What do your eyes go scouting after, and what helps you remember?",
+    "refs": [
+     "Numbers 13:2"
+    ]
+   }
+  ]
+ },
+ "16": {
+  "summary": "Korah the Levite, with Dathan, Abiram and 250 leaders, challenges Moses and Aaron; the ground swallows the rebels, fire consumes the 250, and when the people grumble again Aaron stops a plague by standing between the dead and the living.",
+  "lookfor": "Notice the two different complaints, Korah's about the priesthood and Dathan and Abiram's about Moses, the test with the censers, and Aaron running into the crowd.",
+  "names": [
+   {
+    "name": "Korah",
+    "kind": "person",
+    "gloss": "A Levite of the Kohath clan and Moses' cousin, who wants the priesthood."
+   },
+   {
+    "name": "Dathan",
+    "kind": "person",
+    "gloss": "A man of the tribe of Reuben who refuses Moses' summons."
+   },
+   {
+    "name": "Abiram",
+    "kind": "person",
+    "gloss": "Dathan's brother, also of Reuben, his partner in the revolt."
+   },
+   {
+    "name": "On",
+    "kind": "person",
+    "gloss": "A Reubenite named at the start of the revolt and never mentioned again."
+   },
+   {
+    "name": "Sheol",
+    "kind": "place",
+    "gloss": "The realm of the dead, pictured as deep beneath the earth."
+   },
+   {
+    "name": "Eleazar",
+    "kind": "person",
+    "gloss": "Aaron's son, who collects the censers of the dead men."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Two revolts in one",
+    "body": "Korah is a Levite already serving at the tabernacle who wants the priesthood too (16:9-10). Dathan and Abiram come from Reuben, Jacob's firstborn, and resent Moses' leadership (16:13). The two complaints merge, but Moses answers each one separately.",
+    "refs": [
+     "Numbers 3:6-10"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "All the congregation are holy",
+    "body": "Korah's slogan sounds true: \"all the congregation are holy\" (16:3). At Sinai God called Israel a kingdom of priests, and Peter calls the church a royal priesthood. Korah uses a real truth to claim a role God had not given him.",
+    "refs": [
+     "Exodus 19:6",
+     "1 Peter 2:9",
+     "Hebrews 5:4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Egypt, land of milk and honey",
+    "body": "Dathan and Abiram accuse Moses of bringing them \"out of a land flowing with milk and honey\" (16:13), meaning Egypt. The phrase God used for the promised land is turned upside down. Their refusal, \"We won't come up!\" (16:12), uses the same verb as going up into the land.",
+    "refs": [
+     "Exodus 3:8"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The Lord knows those who are his",
+    "body": "Moses says that in the morning Yahweh \"will show who are his\" (16:5). Paul quotes the Greek form of this verse to Timothy, \"The Lord knows those who are his,\" alongside a call to depart from wickedness, echoing Moses' warning to get away from the rebels' tents (16:26). Jude lists \"Korah's rebellion\" among his warnings.",
+    "refs": [
+     "2 Timothy 2:19",
+     "Jude 1:11"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Sheol",
+    "body": "The rebels \"go down alive into Sheol\" (16:30). Sheol is the Hebrew Bible's name for the realm of the dead, imagined beneath the earth, where all people go. Moses calls their end \"a new thing\" (16:30): not the common death of all, but the ground opening its mouth.",
+    "refs": [
+     "Psalms 106:16-18",
+     "Deuteronomy 11:6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Holy censers from sinners",
+    "body": "The censers of the 250 are still holy because they were offered before Yahweh (16:38). They are hammered into a covering for the altar as a warning that only Aaron's descendants may offer incense (16:40). The men are judged, but what they brought to God is not treated as common.",
+    "refs": [
+     "Leviticus 10:1-3"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Between the dead and the living",
+    "body": "The next day the whole congregation blames Moses and Aaron for the deaths (16:41), and a plague begins. Aaron, whose priesthood had just been challenged, runs into the crowd with incense and \"stood between the dead and the living\" (16:48). Christian readers have seen here a picture of Christ, who lives to intercede for others.",
+    "refs": [
+     "Hebrews 7:25"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Korah's sons survived",
+    "body": "Numbers later notes that \"the sons of Korah didn't die\" (Numbers 26:11). Their descendants became Temple musicians, and eleven psalms carry headings naming the sons of Korah, among them Psalm 42 and Psalm 84. A rebel's family became one of Israel's great choirs.",
+    "refs": [
+     "Numbers 26:11",
+     "Psalms 42",
+     "Psalms 84"
+    ]
+   }
+  ]
+ },
+ "17": {
+  "summary": "To end the grumbling about the priesthood, each tribal leader's staff is laid before the ark overnight, and only Aaron's sprouts, buds, blossoms and bears ripe almonds.",
+  "lookfor": "Watch what is written on each staff, what happens overnight, and the people's frightened reaction at the end.",
+  "names": [
+   {
+    "name": "Tent of the Testimony",
+    "kind": "place",
+    "gloss": "Another name for the tabernacle, after the covenant tablets kept in the ark."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Settled by life, not death",
+    "body": "Chapter 16 settled the question of the priesthood with earthquake, fire and plague. Here God settles it gently: a dead stick comes to life (17:8). The goal is stated plainly, to make the grumbling stop \"that they not die\" (17:10).",
+    "refs": [
+     "Numbers 16:35"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Matteh: staff and tribe",
+    "body": "The Hebrew word matteh means both a staff and a tribe, so twelve staffs stand for twelve tribes (17:2). Aaron's name is written on the staff of Levi (17:3). A leader's staff was a sign of authority, like a sceptre.",
+    "refs": [
+     "Exodus 7:12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The whole cycle in a night",
+    "body": "Aaron's staff \"sprouted, budded, produced blossoms, and bore ripe almonds\" (17:8). Every stage of growth happens at once, overnight, from dead wood. The lampstand inside the tabernacle was decorated with almond blossoms.",
+    "refs": [
+     "Exodus 25:33"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The watching tree",
+    "body": "The almond is the first tree to blossom in Israel, in late winter. Its Hebrew name, shaqed, sounds like shoqed, \"watching.\" Jeremiah sees an almond branch, and God says, \"I watch over my word to perform it.\"",
+    "refs": [
+     "Jeremiah 1:11-12"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Kept in the ark",
+    "body": "The staff is put back before the testimony as a lasting sign (17:10). Hebrews lists Aaron's rod that budded among the contents of the ark, along with the manna and the tablets. By Solomon's time, 1 Kings says, only the tablets remained.",
+    "refs": [
+     "Hebrews 9:4",
+     "1 Kings 8:9"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Life from dead wood",
+    "body": "Christian writers have long seen the budding staff as a picture of new life from what is dead, applying it to Christ's resurrection. Isaiah's image of a shoot from the stump of Jesse uses a similar picture for the coming king.",
+    "refs": [
+     "Isaiah 11:1"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "We perish!",
+    "body": "The sign meant to end the complaining leaves the people terrified: \"Everyone who keeps approaching Yahweh's tabernacle, dies!\" (17:13). Chapter 18 answers their fear. When God's holiness frightens you, where do you look for a way to come near?",
+    "refs": [
+     "Hebrews 10:19-20"
+    ]
+   }
+  ]
+ },
+ "18": {
+  "summary": "Answering the people's fear, God makes Aaron's family responsible for guarding the sanctuary, gives the Levites as their helpers, and sets out the gifts and tithes that will support priests and Levites who own no land.",
+  "lookfor": "Look for who bears the risk of coming near the holy things, the list of what belongs to the priests, and what God says will be Aaron's inheritance.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "An answer to 'We perish'",
+    "body": "The people have just cried that anyone who comes near will die (17:12-13). God's answer is that Aaron and his sons will \"bear the iniquity of the sanctuary\" (18:1), guarding it \"that there be no more wrath on the children of Israel\" (18:5). The priests take on the danger so the people can live near God.",
+    "refs": [
+     "Numbers 17:12-13"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Priesthood as a gift",
+    "body": "\"I give you the service of the priesthood as a gift\" (18:7). After Korah tried to seize it, the priesthood is described as something given, not taken. Hebrews makes the same point: no one takes this honour for himself, but is called by God.",
+    "refs": [
+     "Hebrews 5:4",
+     "Numbers 16:10"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "I am your portion",
+    "body": "Aaron receives no land: \"I am your portion and your inheritance\" (18:20). Deuteronomy, Joshua and Ezekiel repeat it for the priests and Levites. The psalms take up the same language of God as a person's portion, and it became a way of speaking about devotion for all believers.",
+    "refs": [
+     "Deuteronomy 18:1-2",
+     "Joshua 13:33",
+     "Ezekiel 44:28",
+     "Psalms 16:5"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A covenant of salt",
+    "body": "The priests' share is \"a covenant of salt forever\" (18:19). Salt preserved food and was shared at the meals that sealed agreements, so a covenant of salt meant a lasting one. Chronicles uses the same phrase for God's covenant with David's dynasty.",
+    "refs": [
+     "Leviticus 2:13",
+     "2 Chronicles 13:5"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Daughters at the table",
+    "body": "The most holy portions are eaten only by the males of the priestly family (18:10). But the wave offerings and first fruits go to Aaron's sons and daughters alike, and anyone ritually clean in his household may eat them (18:11, 18:19).",
+    "refs": [
+     "Leviticus 22:12-13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A tithe of the tithe",
+    "body": "The Levites live on Israel's tithes, but they must give a tenth of what they receive to the priests (18:26). No one in Israel is exempt from giving. Nehemiah records the returned exiles reviving this practice.",
+    "refs": [
+     "Nehemiah 10:38",
+     "Hebrews 7:5"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Those who serve should live from it",
+    "body": "Paul uses this pattern to argue that those who proclaim the gospel may be supported by it: those who serve at the altar share in what is offered. The Levites' tithe is called \"your reward in return for your service\" (18:31).",
+    "refs": [
+     "1 Corinthians 9:13-14"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "No land, but enough",
+    "body": "The Levites owned no fields, yet were fed by the gifts of the whole nation. What would it mean to treat God, rather than what you own, as your security?",
+    "refs": [
+     "Matthew 6:31-33"
+    ]
+   }
+  ]
+ },
+ "19": {
+  "summary": "A flawless red heifer is burned whole outside the camp, and its ashes are mixed with water to cleanse anyone made unclean by contact with a dead body.",
+  "lookfor": "Notice what is thrown into the fire with the heifer, who becomes unclean by handling it, and the sprinkling on the third and seventh days.",
+  "names": [
+   {
+    "name": "Eleazar",
+    "kind": "person",
+    "gloss": "Aaron's son and the future high priest, who oversees the heifer's death and sprinkles its blood."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "A remedy for a dying camp",
+    "body": "Thousands have just died in the rebellion and plague of chapters 16 and 17, and the people cried that anyone who comes near God's dwelling will die. Contact with a corpse was the most serious kind of uncleanness. This ritual answers how a people surrounded by death can go on living near the living God.",
+    "refs": [
+     "Numbers 16:49",
+     "Numbers 17:12-13"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Chuqqah: a statute",
+    "body": "The chapter opens, \"This is the statute of the law\" (19:2). Jewish tradition treats the red heifer as the classic chuqqah, a decree given without explanation. A midrash says even Solomon, wisest of kings, could not understand it. Its paradox is plain in the text: the ashes make the unclean clean, yet everyone who prepares them becomes unclean (19:7-10).",
+    "refs": [
+     "Ecclesiastes 7:23"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Only a handful ever",
+    "body": "The Mishnah, in a tractate named Parah (\"heifer\"), says only seven or nine red heifers were prepared in all of Israel's history, the first under Moses. Since a single heifer's ashes could serve for many years, few were needed. In recent years some groups in Israel have raised red heifers in hope of renewing Temple worship.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Cedar, hyssop and scarlet",
+    "body": "The priest throws cedar wood, hyssop and scarlet into the fire (19:6), the same three things used to cleanse someone healed of a skin disease. Hyssop, a small bushy plant, was used for sprinkling. David prays, \"Purify me with hyssop, and I will be clean.\"",
+    "refs": [
+     "Leviticus 14:4",
+     "Psalms 51:7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The ashes of a heifer",
+    "body": "Hebrews argues that if \"the ashes of a heifer\" cleansed the body, Christ's blood will cleanse the conscience much more. The heifer is a sin offering burned outside the camp (19:3, 19:9), and Hebrews also notes that Jesus \"suffered outside of the gate.\"",
+    "refs": [
+     "Hebrews 9:13-14",
+     "Hebrews 13:11-12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Living water",
+    "body": "The ashes are mixed with \"running water\" (19:17), in Hebrew mayim chayyim, literally living water, from a spring or stream rather than a cistern. Jesus offers the Samaritan woman \"living water,\" using the same image.",
+    "refs": [
+     "John 4:10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Death spreads through a tent",
+    "body": "When someone dies in a tent, everyone who enters and every open jar becomes unclean (19:14-15). Uncleanness from death is pictured as filling the air of a room. John notes that pilgrims went up to Jerusalem early before Passover to purify themselves.",
+    "refs": [
+     "John 11:55"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The last enemy",
+    "body": "Here death is the strongest source of uncleanness, cutting people off from worship. Paul calls death \"the last enemy\" to be destroyed. How does facing death change the way you approach God?",
+    "refs": [
+     "1 Corinthians 15:26"
+    ]
+   }
+  ]
+ },
+ "20": {
+  "summary": "Miriam dies at Kadesh; when the people quarrel over water, Moses strikes the rock instead of speaking to it and is barred from the land; Edom refuses Israel passage, and Aaron dies on Mount Hor.",
+  "lookfor": "Notice the gap in time at the start, exactly what God tells Moses to do with the rock and what he does, how Israel speaks to Edom, and the handing on of Aaron's garments.",
+  "names": [
+   {
+    "name": "wilderness of Zin",
+    "kind": "place",
+    "gloss": "The desert around Kadesh on the southern edge of Canaan."
+   },
+   {
+    "name": "Meribah",
+    "kind": "place",
+    "gloss": "A name meaning \"quarrel,\" given to the spring at Kadesh."
+   },
+   {
+    "name": "Edom",
+    "kind": "place",
+    "gloss": "The land southeast of the Dead Sea, settled by descendants of Esau, Jacob's brother."
+   },
+   {
+    "name": "king’s highway",
+    "kind": "place",
+    "gloss": "The main trade route east of the Jordan, running from the Gulf of Aqaba north to Damascus."
+   },
+   {
+    "name": "Mount Hor",
+    "kind": "place",
+    "gloss": "A mountain on the border of Edom where Aaron died; its exact location is uncertain."
+   },
+   {
+    "name": "Eleazar",
+    "kind": "person",
+    "gloss": "Aaron's son, who receives his father's garments and becomes high priest."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Thirty-eight silent years",
+    "body": "The chapter begins \"in the first month\" (20:1) without naming a year, but Aaron's death later in the chapter falls in the fortieth year. Almost four decades of wandering pass without a story. Miriam, who led Israel's song at the sea, dies at the start of the chapter and Aaron at the end.",
+    "refs": [
+     "Numbers 33:38",
+     "Exodus 15:20-21"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "What did Moses do wrong?",
+    "body": "God says to speak to the rock (20:8); Moses calls the people rebels, asks \"Shall we bring water out of this rock for you?\" and strikes it twice (20:10-11). God's verdict is that Moses and Aaron did not trust him or show him holy before the people (20:12). Interpreters point to the anger, the striking instead of speaking, or the \"we\" that takes God's place; a psalm says Moses \"spoke rashly with his lips.\"",
+    "refs": [
+     "Psalms 106:32-33",
+     "Deuteronomy 32:51"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Meribah and Kadesh",
+    "body": "Meribah means \"quarrel,\" from the same root as a legal dispute (20:13). Kadesh means \"holy,\" and God says Moses failed \"to sanctify me\" (20:12), the same root. Israel's quarrel happens at the holy place, and God shows himself holy there anyway (20:13).",
+    "refs": [
+     "Exodus 17:7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The rock was Christ",
+    "body": "Near the start of the journey, God told Moses to strike a rock at Horeb. Paul writes that Israel drank from \"a spiritual rock that followed them, and the rock was Christ.\" Rabbinic tradition linked the water to Miriam, saying her well dried up when she died, which is why the people are thirsty right after her death (20:1-2).",
+    "refs": [
+     "Exodus 17:6",
+     "1 Corinthians 10:4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Your brother Israel",
+    "body": "Moses' message begins, \"Thus says your brother Israel\" (20:14), recalling that Edom descends from Esau, Jacob's twin. Edom refuses even when Israel offers to pay for water (20:19-20). Deuteronomy forbids Israel to fight Edom, and the prophet Obadiah later condemns Edom for violence against \"your brother Jacob.\"",
+    "refs": [
+     "Genesis 25:23",
+     "Deuteronomy 2:4-5",
+     "Obadiah 1:10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The King's Highway",
+    "body": "Israel promises to keep to the king's highway (20:17), the main road along the high ground east of the Dead Sea, linking Arabia with Damascus. Trade caravans and armies used it for centuries, and a modern road in Jordan still carries the name.",
+    "refs": [
+     "Numbers 21:22"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Garments passed on",
+    "body": "On Mount Hor Moses strips Aaron of his priestly garments and puts them on Eleazar, and Aaron dies (20:28). The handover happens before Aaron dies, so the high priesthood is never empty. Israel mourns him thirty days, as it will later mourn Moses.",
+    "refs": [
+     "Numbers 33:38-39",
+     "Deuteronomy 34:8"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "One moment, long faithfulness",
+    "body": "After forty years of leading a difficult people, one moment of anger costs Moses the land he longed to enter. How do you hold together God's patience and the weight he gives to leaders' actions?",
+    "refs": [
+     "Deuteronomy 34:4",
+     "James 3:1"
+    ]
+   }
+  ]
+ },
+ "21": {
+  "summary": "Israel defeats the king of Arad, is bitten by venomous snakes and saved by looking at a bronze serpent, travels around Moab, and conquers Sihon and Og east of the Jordan.",
+  "lookfor": "Watch how Israel's fortunes change, the snake on the pole, the scraps of old songs, and the two kings who refuse to let Israel pass.",
+  "names": [
+   {
+    "name": "Arad",
+    "kind": "place",
+    "gloss": "A Canaanite town in the dry south of Canaan, whose king attacks Israel."
+   },
+   {
+    "name": "Hormah",
+    "kind": "place",
+    "gloss": "A name meaning \"devoted to destruction,\" where Israel had once been defeated."
+   },
+   {
+    "name": "Arnon",
+    "kind": "place",
+    "gloss": "A deep gorge running into the Dead Sea from the east, Moab's northern border."
+   },
+   {
+    "name": "Sihon",
+    "kind": "person",
+    "gloss": "Amorite king who ruled from Heshbon, north of the Arnon."
+   },
+   {
+    "name": "Heshbon",
+    "kind": "place",
+    "gloss": "Sihon's capital city, east of the Jordan near the north end of the Dead Sea."
+   },
+   {
+    "name": "Og",
+    "kind": "person",
+    "gloss": "King of Bashan, remembered as the last of a race of giants."
+   },
+   {
+    "name": "Bashan",
+    "kind": "place",
+    "gloss": "A fertile highland east of the Sea of Galilee, famous for its cattle and oaks."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "Hormah reversed",
+    "body": "Forty years earlier, Israel was beaten back \"even to Hormah\" when it attacked without God (14:45). Now the new generation vows to devote Arad's cities to God and wins, and the place is named Hormah (21:3). It is the first victory in the land of Canaan, and a turning point in the book.",
+    "refs": [
+     "Numbers 14:45"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Seraph: burning",
+    "body": "The \"venomous snakes\" (21:6) are literally \"burning serpents,\" seraphim, perhaps because of the burning pain of their bite. The same word names the fiery beings in Isaiah's vision of God's throne. Moses makes a nachash nechoshet, a \"serpent of brass\" (21:9), a play on two similar-sounding Hebrew words.",
+    "refs": [
+     "Isaiah 6:2",
+     "Deuteronomy 8:15"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Lifted up",
+    "body": "Jesus tells Nicodemus, \"As Moses lifted up the serpent in the wilderness, even so must the Son of Man be lifted up.\" The cure in Numbers is simply to look at what God provided (21:8-9). Jesus adds that he will draw all people to himself when he is lifted up.",
+    "refs": [
+     "John 3:14-15",
+     "John 12:32"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The serpent becomes an idol",
+    "body": "Israel kept the bronze serpent for centuries, and people began to burn incense to it. King Hezekiah broke it in pieces and called it Nehushtan, \"a thing of bronze.\" A sign of God's mercy had become a rival to God.",
+    "refs": [
+     "2 Kings 18:4"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A copper snake at Timna",
+    "body": "At Timna in the Arabah, south of the Dead Sea, archaeologists found a small copper snake with a gilded head in a shrine used by Midianite people in the 12th century BC. The region was a major centre of copper mining. It does not prove anything about Moses, but shows that snake images were used in worship and healing in this very area.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Lost books and old songs",
+    "body": "The chapter quotes \"the book of the Wars of Yahweh\" (21:14), a lost collection like the book of Jashar mentioned in Joshua. It also preserves a work song for digging a well (21:17-18) and a taunt song about Heshbon (21:27-30). Jeremiah reuses the Heshbon song in his oracle against Moab.",
+    "refs": [
+     "Joshua 10:13",
+     "Jeremiah 48:45-46"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Chemosh and the Mesha Stele",
+    "body": "The song calls Moab the \"people of Chemosh\" (21:29), Moab's national god. The Mesha Stele, a 9th-century BC inscription by a king of Moab found at Dibon in 1868, credits Chemosh with Moab's victories over Israel and names towns in this chapter, including Dibon and Medeba (21:30).",
+    "refs": [
+     "1 Kings 11:7",
+     "Judges 11:24"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Sihon and Og remembered",
+    "body": "These two victories became part of Israel's songs and memory. Psalm 136 praises God for defeating Sihon and Og, and Rahab tells the spies at Jericho that her people were terrified when they heard what Israel did to these two kings.",
+    "refs": [
+     "Psalms 136:19-20",
+     "Joshua 2:10",
+     "Deuteronomy 3:11"
+    ]
+   }
+  ]
+ },
+ "22": {
+  "summary": "Balak king of Moab hires the famous seer Balaam to curse Israel; God first forbids Balaam to go, then allows it, and on the way Balaam's donkey sees the angel of Yahweh that he cannot.",
+  "lookfor": "Watch Balaam's answers to Balak's messengers, the three times the donkey turns aside, and who in the story can actually see.",
+  "names": [
+   {
+    "name": "Balak",
+    "kind": "person",
+    "gloss": "King of Moab, frightened by Israel's victories."
+   },
+   {
+    "name": "Zippor",
+    "kind": "person",
+    "gloss": "Balak's father, mentioned only in his son's name."
+   },
+   {
+    "name": "Balaam",
+    "kind": "person",
+    "gloss": "A famous seer from Mesopotamia, hired to curse Israel."
+   },
+   {
+    "name": "Beor",
+    "kind": "person",
+    "gloss": "Balaam's father."
+   },
+   {
+    "name": "Pethor",
+    "kind": "place",
+    "gloss": "Balaam's home town near \"the River,\" the Euphrates, far to the northeast."
+   },
+   {
+    "name": "Midian",
+    "kind": "group",
+    "gloss": "A desert people allied with Moab; Moses' father-in-law was a Midianite."
+   },
+   {
+    "name": "Kiriath Huzoth",
+    "kind": "place",
+    "gloss": "A town in Moab where Balak welcomes Balaam with sacrifices."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Balaam outside the Bible",
+    "body": "In 1967 archaeologists at Deir Alla in the Jordan valley found an inscription written in ink on a plaster wall, dated around 800 BC. It tells of \"Balaam son of Beor,\" a seer of the gods who receives a vision at night. Balaam was evidently a well-known figure in the region, remembered outside Israel too.",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "Why Moab is afraid",
+    "body": "Israel camps on the plains of Moab after defeating Sihon and Og (22:2). Balak does not know that God had told Israel not to attack Moab. He turns to the strongest weapon he knows, a curse from a famous seer, because \"he whom you curse is cursed\" (22:6).",
+    "refs": [
+     "Deuteronomy 2:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Go, but why the anger?",
+    "body": "God tells Balaam to go \"if the men have come to call you\" (22:20), then is angry \"because he went\" (22:22). Interpreters suggest Balaam went eagerly, hoping for Balak's reward, or went without waiting for the condition to be met. Peter later describes him as one \"who loved the wages of wrongdoing.\"",
+    "refs": [
+     "2 Peter 2:15-16"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Satan: the adversary",
+    "body": "The angel of Yahweh stands in the road \"for an adversary\" (22:22, 22:32), in Hebrew le-satan. Here the opposer is God's own messenger, blocking a dangerous path. Only later does satan become the title of the accuser, as in Job.",
+    "refs": [
+     "Job 1:6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The seer who could not see",
+    "body": "Balaam is a professional seer, yet his donkey sees the angel three times while he sees nothing until Yahweh \"opened the eyes of Balaam\" (22:31). The three turns of the donkey anticipate Balaam's three blessings, when Balak will be thwarted three times just as Balaam is here.",
+    "refs": [
+     "Numbers 24:10"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Balaam remembered",
+    "body": "Joshua, Micah and Nehemiah recall how God turned Balaam's curse into a blessing. The New Testament remembers him less kindly: Peter mentions the donkey that \"stopped the madness of the prophet,\" Jude speaks of \"the error of Balaam for hire,\" and Revelation of \"the teaching of Balaam.\"",
+    "refs": [
+     "Joshua 24:9-10",
+     "Nehemiah 13:2",
+     "Jude 1:11",
+     "Revelation 2:14"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Asking again",
+    "body": "Balaam says no amount of silver and gold could make him go beyond God's word (22:18), yet he asks God a second time after God has said no (22:19). Is there a decision where you keep asking, hoping for a different answer?",
+    "refs": []
+   }
+  ]
+ },
+ "23": {
+  "summary": "From two high places Balak has Balaam build altars and look down on Israel to curse them, but each time Balaam speaks only blessing.",
+  "lookfor": "Notice how Balak keeps changing the viewpoint, the repeated phrase about the word put in Balaam's mouth, and what Balaam says about God in the second oracle.",
+  "names": [
+   {
+    "name": "Aram",
+    "kind": "place",
+    "gloss": "Upper Mesopotamia, Balaam's homeland in the region of present-day Syria."
+   },
+   {
+    "name": "field of Zophim",
+    "kind": "place",
+    "gloss": "A lookout point whose name means \"watchers,\" on the heights of Moab."
+   },
+   {
+    "name": "Pisgah",
+    "kind": "place",
+    "gloss": "A ridge in Moab overlooking the Jordan valley, where Moses later views the land."
+   },
+   {
+    "name": "Peor",
+    "kind": "place",
+    "gloss": "A mountain in Moab, linked with the worship of Baal in chapter 25."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Changing the view",
+    "body": "Balak builds seven altars at each site and moves Balaam to a new spot each time (23:13-14, 23:27-28). It seems to have been thought that a curse worked better if the curser could see its target. Balak hopes a different view will give a different result.",
+    "refs": [
+     "Numbers 22:41"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A word in his mouth",
+    "body": "Twice \"Yahweh put a word in Balaam's mouth\" (23:5, 23:16), and Balaam keeps telling Balak he can speak nothing else (23:12, 23:26). The pagan seer becomes a mouthpiece, much like the true prophet God promises in Deuteronomy.",
+    "refs": [
+     "Deuteronomy 18:18"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A people that dwells alone",
+    "body": "\"It is a people that dwells alone, and shall not be listed among the nations\" (23:9). Jewish readers have long reflected on this line as a description of Israel's distinct calling and its frequent isolation among the nations.",
+    "refs": [
+     "Exodus 19:5-6"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Dust of Jacob",
+    "body": "\"Who can count the dust of Jacob?\" (23:10) echoes God's promise that Abraham's and Jacob's offspring would be like the dust of the earth. The seer hired to curse unknowingly confirms the promise.",
+    "refs": [
+     "Genesis 13:16",
+     "Genesis 28:14"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "God is not a man",
+    "body": "\"God is not a man, that he should lie\" (23:19) is one of the Bible's clearest statements that God keeps his word. Samuel says something very similar to Saul, and Paul's letter to Titus calls God the one \"who can't lie.\"",
+    "refs": [
+     "1 Samuel 15:29",
+     "Titus 1:2"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Nachash: enchantment",
+    "body": "\"There is no enchantment with Jacob\" (23:23): no omen-reading can harm Israel. The Hebrew nachash, divination by omens, is spelled the same as the word for serpent in chapter 21. Balaam's own trade proves useless against God's people.",
+    "refs": [
+     "Numbers 24:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "What hath God wrought",
+    "body": "Where the World English Bible ends 23:23 with \"What has God done!\", the King James Version reads What hath God wrought. Samuel Morse sent those King James words as the first message over his long-distance telegraph line in 1844.",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Blessing that cannot be reversed",
+    "body": "\"He has blessed, and I can't reverse it\" (23:20). God promised Abraham he would bless those who bless him and curse those who treat him with contempt. Balak tries to buy a curse and discovers that God's blessing on Israel is not for sale.",
+    "refs": [
+     "Genesis 12:3",
+     "Nehemiah 13:2"
+    ]
+   }
+  ]
+ },
+ "24": {
+  "summary": "In a third and fourth oracle Balaam, now moved by the Spirit of God, praises Israel's tents and foresees a star and sceptre rising from Jacob, then pronounces doom on surrounding nations.",
+  "lookfor": "Notice how Balaam stops looking for omens, the pictures of gardens and water, the star and sceptre, and Balak's furious response.",
+  "names": [
+   {
+    "name": "Agag",
+    "kind": "person",
+    "gloss": "A name borne by an Amalekite king in Saul's day; possibly a royal title."
+   },
+   {
+    "name": "Sheth",
+    "kind": "group",
+    "gloss": "\"Sons of Sheth\" here probably names a people of Moab; its meaning is uncertain."
+   },
+   {
+    "name": "Seir",
+    "kind": "place",
+    "gloss": "The mountainous land of Edom."
+   },
+   {
+    "name": "Amalek",
+    "kind": "group",
+    "gloss": "A desert people who attacked Israel after the exodus."
+   },
+   {
+    "name": "Kenite",
+    "kind": "group",
+    "gloss": "A clan linked to Moses' in-laws, living in rocky strongholds."
+   },
+   {
+    "name": "Asshur",
+    "kind": "place",
+    "gloss": "Usually Assyria, the Mesopotamian empire; here possibly a desert tribe of the same name."
+   },
+   {
+    "name": "Kittim",
+    "kind": "place",
+    "gloss": "Originally Kition on Cyprus, later a name for powers from across the western sea."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "No more omens",
+    "body": "This time Balaam does not go looking for omens (24:1). He looks at Israel camped by tribes, and \"the Spirit of God came on him\" (24:2), language used of Israel's own prophets and judges. He introduces himself as one \"whose eyes are open\" (24:3), after a donkey had to open them.",
+    "refs": [
+     "Numbers 22:31"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "How goodly are your tents",
+    "body": "\"How goodly are your tents, Jacob\" (24:5) opens the Ma Tovu, a prayer many Jews say on entering a synagogue for morning prayers. Words from a foreign seer hired to curse Israel became part of Israel's daily worship.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "A star out of Jacob",
+    "body": "\"A star will come out of Jacob. A scepter will rise out of Israel\" (24:17). Jewish writings among the Dead Sea Scrolls read it as a promise of a coming ruler, and Rabbi Akiva applied it to Simon bar Kosiba, leader of the revolt of AD 132, who was nicknamed Bar Kokhba, \"son of the star.\" Christians connect it with the magi's star and Jesus as \"the Bright and Morning Star.\"",
+    "refs": [
+     "Matthew 2:2",
+     "Revelation 22:16"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Fulfilled in David, and beyond",
+    "body": "The star and sceptre strike Moab and possess Edom (24:17-18). David later conquered both nations. Many interpreters, Jewish and Christian, see David as a first fulfilment and look beyond him to a greater king, in line with Jacob's blessing that the sceptre would not depart from Judah.",
+    "refs": [
+     "2 Samuel 8:2",
+     "2 Samuel 8:14",
+     "Genesis 49:10"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Blessed and cursed",
+    "body": "\"Everyone who blesses you is blessed. Everyone who curses you is cursed\" (24:9). Balaam repeats almost word for word Isaac's blessing on Jacob, and through it God's first promise to Abraham. The man hired to curse ends up reciting Israel's founding blessing.",
+    "refs": [
+     "Genesis 27:29",
+     "Genesis 12:3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Higher than Agag",
+    "body": "Israel's king will be \"higher than Agag\" (24:7). An Amalekite king named Agag was later spared by Saul against God's command, and Esther's enemy Haman is called \"the Agagite.\" Agag may have been a royal title among the Amalekites.",
+    "refs": [
+     "1 Samuel 15:8",
+     "Esther 3:1"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Kittim",
+    "body": "\"Ships shall come from the coast of Kittim\" (24:24). The name comes from Kition, a city on Cyprus, and came to mean seafaring powers from the west. Daniel uses it of a Roman fleet, and the Dead Sea Scrolls call the Romans the Kittim.",
+    "refs": [
+     "Daniel 11:30"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Not now, not near",
+    "body": "\"I see him, but not now. I see him, but not near\" (24:17). Hebrews says the faithful saw God's promises \"from afar.\" What are you hoping for that you can see, but not yet?",
+    "refs": [
+     "Hebrews 11:13"
+    ]
+   }
+  ]
+ },
+ "25": {
+  "summary": "At Shittim Israel joins in Moabite feasts and worships Baal Peor; a plague breaks out, Phinehas kills an Israelite leader and a Midianite woman, and God gives him a covenant of lasting priesthood.",
+  "lookfor": "Notice how the sin begins with an invitation to a feast, the public act that provokes Phinehas, and the names given at the end.",
+  "names": [
+   {
+    "name": "Shittim",
+    "kind": "place",
+    "gloss": "Israel's last camp before crossing the Jordan; the name means \"acacia trees.\""
+   },
+   {
+    "name": "Phinehas",
+    "kind": "person",
+    "gloss": "Aaron's grandson, son of the high priest Eleazar."
+   },
+   {
+    "name": "Zimri",
+    "kind": "person",
+    "gloss": "A leader of a family in the tribe of Simeon."
+   },
+   {
+    "name": "Cozbi",
+    "kind": "person",
+    "gloss": "A Midianite woman, daughter of a Midianite chief."
+   },
+   {
+    "name": "Zur",
+    "kind": "person",
+    "gloss": "Cozbi's father, a Midianite leader later named among the five kings of Midian."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "What curses could not do",
+    "body": "Balaam could not curse Israel, but Israel undid itself at Peor. Chapter 31 reveals that the plan came from Balaam's advice, and Revelation remembers him as the one \"who taught Balak to throw a stumbling block before the children of Israel.\"",
+    "refs": [
+     "Numbers 31:16",
+     "Revelation 2:14"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Baal of Peor",
+    "body": "Baal, meaning \"lord\" or \"master,\" was a title of the Canaanite storm god, worshipped under local names like \"Baal Peor,\" the Baal of Mount Peor (25:3). The invitation was to sacrificial feasts (25:2), and a psalm speaks of eating \"the sacrifices of the dead,\" which some scholars connect with funeral feasts. Sexual immorality and idolatry are bound together.",
+    "refs": [
+     "Psalms 106:28",
+     "Hosea 9:10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Judgment on the leaders",
+    "body": "God orders that the chiefs of the people be publicly executed \"before the sun\" (25:4); the exact meaning of the Hebrew verb, impaling or exposing, is uncertain. Moses tells Israel's judges to kill those who had joined themselves to Baal Peor (25:5). The text presents this as judgment on open covenant betrayal, and it makes for sobering reading.",
+    "refs": [
+     "Deuteronomy 4:3"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Qin'ah: jealousy and zeal",
+    "body": "Phinehas \"was jealous with my jealousy\" (25:11). The Hebrew qin'ah means both jealousy and zeal, the same word used in the jealousy ritual of chapter 5. God's jealousy is the passion of a husband for a covenant partner, not petty envy.",
+    "refs": [
+     "Exodus 20:5",
+     "Numbers 5:14"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Credited for righteousness",
+    "body": "Psalm 106 says Phinehas's act \"was credited to him for righteousness, for all generations,\" the same phrase used of Abraham's faith. Later Jewish rebels, from the Maccabees to the Zealots of Jesus' day, looked to Phinehas as their model of zeal.",
+    "refs": [
+     "Psalms 106:30-31",
+     "Genesis 15:6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Twenty-four or twenty-three thousand?",
+    "body": "Numbers gives 24,000 dead in the plague (25:9). Paul, warning the Corinthians, says \"in one day twenty-three thousand fell.\" Explanations include Paul counting only those who died on a single day, a difference in what is counted, or a slip of memory; the point is the same.",
+    "refs": [
+     "1 Corinthians 10:8"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A covenant of peace",
+    "body": "God gives Phinehas \"my covenant of peace\" and an everlasting priesthood (25:12-13). The high priestly line ran through Phinehas to Zadok, the chief priest in Solomon's day. Malachi recalls God's covenant with Levi as one \"of life and peace.\"",
+    "refs": [
+     "1 Chronicles 6:4-8",
+     "Malachi 2:4-5"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Zeal and violence",
+    "body": "Scripture praises Phinehas, yet later movements used his example to justify violence of their own choosing, and Jesus rebuked his disciples for wanting fire from heaven. How can you tell zeal for God from zeal for your own cause?",
+    "refs": [
+     "Luke 9:54-55",
+     "Matthew 26:52"
+    ]
+   }
+  ]
+ },
+ "26": {
+  "summary": "After the plague, Moses and Eleazar count the new generation on the plains of Moab, clan by clan, as the basis for dividing the land; none of the men counted at Sinai remains except Caleb and Joshua.",
+  "lookfor": "Compare each tribe's total with chapter 1, notice the asides about Korah, Er and Onan and the daughters named in the list, and read the closing verses closely.",
+  "names": [
+   {
+    "name": "Eleazar",
+    "kind": "person",
+    "gloss": "Aaron's son, now high priest, who leads the census with Moses."
+   },
+   {
+    "name": "Zelophehad",
+    "kind": "person",
+    "gloss": "A man of Manasseh who died leaving five daughters and no sons."
+   },
+   {
+    "name": "Serah",
+    "kind": "person",
+    "gloss": "A daughter of Asher, Jacob's son, unusually named in a list of men."
+   },
+   {
+    "name": "Jochebed",
+    "kind": "person",
+    "gloss": "Mother of Moses, Aaron and Miriam."
+   },
+   {
+    "name": "Perez",
+    "kind": "person",
+    "gloss": "Son of Judah and Tamar, ancestor of David."
+   },
+   {
+    "name": "Gilead",
+    "kind": "person",
+    "gloss": "Grandson of Manasseh, whose name is also given to a region east of the Jordan."
+   },
+   {
+    "name": "Korahites",
+    "kind": "group",
+    "gloss": "Levites descended from Korah, whose line survived his rebellion."
+   }
+  ],
+  "skim": {
+   "advice": "Verses 5 to 50 list the clans of each tribe with their totals. Skim the names, but stop at the asides (verses 9 to 11, 19, 33 and 46) and read verses 52 to 65 closely.",
+   "key": [
+    11,
+    33,
+    53,
+    64
+   ]
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "A new generation",
+    "body": "\"There was not a man left of them, except Caleb the son of Jephunneh, and Joshua the son of Nun\" (26:65). The sentence of chapter 14 has run its course. The scholar Dennis Olson argued that the two censuses frame the whole book: the death of the old generation in chapters 1 to 25 and the birth of the new in chapters 26 to 36.",
+    "refs": [
+     "Numbers 14:29-30"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Totals compared",
+    "body": "The new total, 601,730 (26:51), is almost the same as the first. But individual tribes changed greatly: Simeon fell from 59,300 to 22,200 (26:14), while Manasseh rose from 32,200 to 52,700 (26:34). Some connect Simeon's loss with the plague at Peor, where Zimri, a Simeonite leader, was killed.",
+    "refs": [
+     "Numbers 1:23",
+     "Numbers 25:14"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Korah's sons survived",
+    "body": "The list pauses to recall Dathan and Abiram, then adds, \"Notwithstanding, the sons of Korah didn't die\" (26:11). Their descendants became Temple singers, and their name heads eleven psalms, including Psalm 84.",
+    "refs": [
+     "Psalms 84",
+     "1 Chronicles 6:33-37"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Women in a list of men",
+    "body": "The census counts males, yet it names Zelophehad's five daughters (26:33), Serah the daughter of Asher (26:46), Jochebed and Miriam (26:59). The daughters of Zelophehad prepare for the next chapter. Later Jewish legend made Serah a long-lived keeper of family memory.",
+    "refs": [
+     "Genesis 46:17",
+     "Numbers 27:1"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "From Perez to David",
+    "body": "Judah's clans include Perez and his son Hezron (26:20-21). Matthew's genealogy of Jesus runs through Perez, Hezron and Nahshon, the leader of Judah in chapter 1. The aside about Er and Onan (26:19) recalls the troubled family story behind Perez's birth.",
+    "refs": [
+     "Genesis 38:7-10",
+     "Matthew 1:3-4",
+     "Ruth 4:18-20"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "By size and by lot",
+    "body": "Larger tribes are to get more land (26:54), but the land is also divided \"by lot\" (26:55). The lot was trusted to express God's choice, as a proverb says: the lot is cast into the lap, \"but its every decision is from Yahweh.\" Need and divine allotment work together.",
+    "refs": [
+     "Proverbs 16:33",
+     "Joshua 14:1-2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Moses' family in brief",
+    "body": "In the middle of the Levites comes Moses' own family: Jochebed, a daughter of Levi, bore Aaron, Moses and Miriam (26:59). Hebrews praises Moses' parents for hiding him by faith. The family that began Israel's rescue is listed among the dead and the living.",
+    "refs": [
+     "Exodus 6:20",
+     "Hebrews 11:23"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Counted again",
+    "body": "Thirty-eight years after the first census, a whole new set of names fills the same tribes. What do you hope will be true of the generation after yours?",
+    "refs": [
+     "Psalms 78:4-7"
+    ]
+   }
+  ]
+ },
+ "27": {
+  "summary": "The five daughters of Zelophehad ask for their father's land and God grants it, creating a new inheritance law; Moses is shown the land he will not enter, asks God for a successor, and commissions Joshua.",
+  "lookfor": "Notice how the daughters make their case, God's verdict, Moses' request for the people rather than for himself, and how authority passes to Joshua.",
+  "names": [
+   {
+    "name": "Zelophehad",
+    "kind": "person",
+    "gloss": "A man of Manasseh who died in the wilderness leaving five daughters."
+   },
+   {
+    "name": "Mahlah",
+    "kind": "person",
+    "gloss": "The eldest-named of Zelophehad's daughters."
+   },
+   {
+    "name": "Noah",
+    "kind": "person",
+    "gloss": "One of Zelophehad's daughters; in Hebrew a different name from Noah of the flood."
+   },
+   {
+    "name": "Hoglah",
+    "kind": "person",
+    "gloss": "One of Zelophehad's daughters."
+   },
+   {
+    "name": "Milcah",
+    "kind": "person",
+    "gloss": "One of Zelophehad's daughters."
+   },
+   {
+    "name": "Tirzah",
+    "kind": "person",
+    "gloss": "One of Zelophehad's daughters; a town of the same name later became a royal city."
+   },
+   {
+    "name": "Abarim",
+    "kind": "place",
+    "gloss": "The mountain range east of the Dead Sea that includes Mount Nebo."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Not in Korah's company",
+    "body": "The daughters stress that their father was not part of Korah's rebellion; \"he died in his own sin\" (27:3), as one of the wilderness generation. Their question is about his name: \"Why should the name of our father be taken away?\" (27:4). Land kept a family's name alive in Israel.",
+    "refs": [
+     "Ruth 4:10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Standing at the door",
+    "body": "The five women come before Moses, Eleazar, the leaders and the whole congregation at the entrance of the Tent of Meeting (27:2). It is the most public place in Israel. Moses does not decide himself but brings \"their cause before Yahweh\" (27:5).",
+    "refs": [
+     "Numbers 9:8"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The daughters speak right",
+    "body": "God's verdict is direct: \"The daughters of Zelophehad speak right\" (27:7). Their case becomes a law for all Israel, setting an order of inheritance (27:8-11). Rabbinic tradition praised them as wise and learned, and Joshua records that they received their land.",
+    "refs": [
+     "Joshua 17:3-4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Seeing the land",
+    "body": "Moses is told to climb the Abarim range and see the land (27:12-14). Deuteronomy tells the scene in full: Moses goes up Mount Nebo, sees the land, and dies there. The reason given, the waters of Meribah, connects back to chapter 20.",
+    "refs": [
+     "Deuteronomy 32:49-51",
+     "Deuteronomy 34:1-5"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Sheep without a shepherd",
+    "body": "Moses' first thought is for the people: \"that the congregation of Yahweh may not be as sheep which have no shepherd\" (27:17). The prophet Micaiah uses the same image for a leaderless Israel, and the Gospels say Jesus had compassion on the crowds because they were like sheep without a shepherd.",
+    "refs": [
+     "1 Kings 22:17",
+     "Matthew 9:36",
+     "Mark 6:34"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Hands on Joshua",
+    "body": "Moses lays his hand on Joshua, \"a man in whom is the Spirit\" (27:18), in front of the priest and the whole congregation (27:22-23). Deuteronomy adds that Joshua was full of the spirit of wisdom because Moses had laid his hands on him. The laying on of hands for commissioning continues in the early church.",
+    "refs": [
+     "Deuteronomy 34:9",
+     "Acts 6:6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Urim: asking through the priest",
+    "body": "Joshua will not speak with God face to face as Moses did. He will stand before Eleazar, who will seek God's decision \"by the judgment of the Urim\" (27:21), sacred lots kept in the high priest's breastplate. Leadership after Moses is shared between the commander and the priest.",
+    "refs": [
+     "Exodus 28:30",
+     "Numbers 12:8"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Asking for others",
+    "body": "Told he is about to die, Moses asks not for himself but for a leader for the people. What would it look like to plan for those who come after you?",
+    "refs": [
+     "2 Timothy 2:2"
+    ]
+   }
+  ]
+ },
+ "28": {
+  "summary": "God sets out the public offerings for Israel's calendar: two lambs every day, more on each Sabbath and new moon, and the offerings for the week of Passover and the Feast of Weeks.",
+  "lookfor": "Notice how each special day adds to the daily offering instead of replacing it, the phrase 'my food', and the pattern of bulls, ram and lambs that keeps repeating.",
+  "names": [],
+  "skim": {
+   "advice": "The offerings are listed by occasion with the same amounts of flour, oil and wine each time. Read the daily offering (verses 2 to 8) closely, then skim for what each festival adds.",
+   "key": [
+    2,
+    3,
+    10,
+    26
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "A calendar for the new generation",
+    "body": "The new generation has been counted and a new leader appointed. Before a single battle west of the Jordan, God gives Israel a full calendar of public worship. Leviticus 23 tells the people when the festivals fall; these chapters tell the priests what must be offered on each one.",
+    "refs": [
+     "Leviticus 23:1-4",
+     "Numbers 27:18"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The tamid",
+    "body": "Two year-old lambs are offered every day, one in the morning and one at evening (28:3-4), called \"a continual burnt offering.\" The Hebrew is tamid, and a whole tractate of the Mishnah describes how it was carried out in the Temple. Daniel speaks of a time when the continual offering would be taken away.",
+    "refs": [
+     "Exodus 29:38-42",
+     "Daniel 8:11"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Lechem: my food",
+    "body": "God calls the offerings \"my food\" (28:2), Hebrew lachmi, from lechem, bread or food. Israel did not believe God needed feeding; a psalm has God ask whether he eats the meat of bulls. The language pictures a shared meal, with God as honoured guest at the centre of Israel's life.",
+    "refs": [
+     "Psalms 50:12-13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Always in addition",
+    "body": "Again and again the chapter says \"besides the continual burnt offering\" (28:10, 28:15, 28:23). The daily lambs never stop for a festival; special days are layered on top of ordinary faithfulness.",
+    "refs": [
+     "Numbers 29:6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Strong drink poured out",
+    "body": "The daily drink offering is \"strong drink,\" Hebrew shekar (28:7), poured out in the holy place. It is a rare instance of shekar being given to God; elsewhere the drink offering is wine (28:14). Nothing is drunk; it is all poured out.",
+    "refs": [
+     "Numbers 15:5"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The Feast of Weeks",
+    "body": "\"The day of the first fruits\" in the \"feast of weeks\" (28:26) came seven weeks after Passover. Greek-speaking Jews called it Pentecost, \"fiftieth.\" On that day in Acts, the Spirit was poured out on the disciples, and Christians have read it as the first fruits of the church's harvest.",
+    "refs": [
+     "Acts 2:1",
+     "Leviticus 23:15-16"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Every day the same",
+    "body": "Hebrews contrasts the priests who stand \"day by day\" offering the same sacrifices with Christ's single offering for all time. The same letter urges a sacrifice of praise offered continually. The rhythm of the tamid becomes a rhythm of prayer.",
+    "refs": [
+     "Hebrews 10:11-12",
+     "Hebrews 13:15"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Morning and evening",
+    "body": "Israel's every day began and ended at the altar. A psalm asks that prayer rise like incense and lifted hands be like the evening sacrifice. How do you begin and end your days?",
+    "refs": [
+     "Psalms 141:2",
+     "Acts 3:1"
+    ]
+   }
+  ]
+ },
+ "29": {
+  "summary": "The offerings for the seventh month: the day of trumpets, the Day of Atonement, and the eight days of the Feast of Tabernacles, when the number of bulls drops by one each day from thirteen to seven.",
+  "lookfor": "Watch the count of bulls through the feast, the smaller offering on the eighth day, and how the seventh month holds three festivals.",
+  "names": [],
+  "skim": {
+   "advice": "Verses 17 to 34 repeat the same formula for each day of the feast with one bull fewer each time. Skim them for the count, and read the opening festivals and the eighth day closely.",
+   "key": [
+    1,
+    7,
+    12,
+    35
+   ]
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "The seventh month",
+    "body": "Just as the seventh day is the Sabbath, the seventh month is the high point of the year, holding three festivals: trumpets on the first day (29:1), atonement on the tenth (29:7) and Tabernacles from the fifteenth (29:12). The year's worship reaches its height in its own sabbath season.",
+    "refs": [
+     "Leviticus 23:24-36"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A day of blowing",
+    "body": "The first day of the seventh month is \"a day of blowing of trumpets\" (29:1), Yom Teruah. Jews keep it as Rosh Hashanah, the New Year, sounding the shofar. Numbers gives only its offerings; its meaning was developed in later Jewish tradition.",
+    "refs": [
+     "Leviticus 23:24",
+     "Numbers 10:10"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The Day of Atonement",
+    "body": "On the tenth day Israel must \"afflict your souls\" (29:7), understood as fasting. The extra offerings here come \"besides the sin offering of atonement\" (29:11), the great rite described in Leviticus 16 with the two goats.",
+    "refs": [
+     "Leviticus 16:29-30"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Seventy bulls",
+    "body": "The bulls offered during the feast run 13, 12, 11, 10, 9, 8, 7 (29:13-32), seventy in all. The Talmud links the seventy bulls with the seventy nations listed in Genesis 10, saying Israel offered them on behalf of the world. Zechariah foresees the nations coming to keep this very feast.",
+    "refs": [
+     "Genesis 10:32",
+     "Zechariah 14:16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Counting down by sevens",
+    "body": "Every day of the feast also brings two rams and fourteen lambs. Across the seven days that makes 14 rams and 98 lambs, and the bulls end at seven on the seventh day (29:32). The whole festival is built from sevens.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Atseret: the closing assembly",
+    "body": "The eighth day is \"a solemn assembly\" (29:35), Hebrew atseret, from a root meaning to hold back. After a week of abundance, the offering shrinks to one bull, one ram and seven lambs. Jewish tradition calls it Shemini Atzeret, and rabbis pictured God asking his people to stay one more day.",
+    "refs": [
+     "Leviticus 23:36"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The last and greatest day",
+    "body": "John sets one of Jesus' great sayings at this feast: \"on the last and greatest day of the feast,\" Jesus invites the thirsty to come to him and drink. By then the Temple celebration included a daily procession pouring out water at the altar, described in the Mishnah.",
+    "refs": [
+     "John 7:37-38"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Abundance and a quiet ending",
+    "body": "The feast moves from thirteen bulls to one, and ends with a smaller, closer gathering. What would it look like to end a season of celebration by simply staying close to God?",
+    "refs": []
+   }
+  ]
+ },
+ "30": {
+  "summary": "Moses explains how vows work: a man must keep his word, while a vow made by a daughter at home or by a wife can be cancelled by her father or husband on the day he hears it.",
+  "lookfor": "Notice the different situations of a man, an unmarried daughter, a wife, and a widow or divorced woman, and the weight placed on 'the day that he hears'.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Following the festivals",
+    "body": "The festival offerings end with a mention of \"your vows\" (Numbers 29:39), and this chapter follows on. Vows often promised an offering or a period of self-denial. The opening rule is simple: a man \"shall not break his word\" (30:2).",
+    "refs": [
+     "Numbers 29:39"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Neder and issar",
+    "body": "The chapter uses two words: neder, a vow to give or do something, and issar, a \"bond\" by which someone binds themselves to abstain (30:2). Both bind the \"soul,\" the whole person. Words spoken to God are treated as binding as a contract.",
+    "refs": [
+     "Deuteronomy 23:21-23"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Vows and the household",
+    "body": "A daughter's or wife's vow could commit household goods or affect family life, so the father or husband could annul it on the day he heard it (30:5, 30:8). The law reflects the household structure of its time. Yet a widow or divorced woman is fully responsible for her own vows (30:9), with no one able to cancel them.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Silence is consent",
+    "body": "If the father or husband says nothing on the day he hears, the vow stands (30:4, 30:14). He cannot wait and cancel it later; if he does, \"he shall bear her iniquity\" (30:15). The woman is protected from a decision changed after the fact.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Yahweh will forgive her",
+    "body": "Three times the chapter says that when a woman's vow is cancelled, \"Yahweh will forgive her\" (30:5, 30:8, 30:12). She is not counted guilty for a vow she was not allowed to keep. The law guards her conscience as well as the household's order.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Hannah's vow",
+    "body": "Hannah vowed that if God gave her a son he would belong to Yahweh all his life. Her husband Elkanah, on hearing it, let it stand: \"Do what seems good to you.\" Samuel's whole story rests on a wife's vow and a husband's consent.",
+    "refs": [
+     "1 Samuel 1:11",
+     "1 Samuel 1:23"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Let your yes be yes",
+    "body": "Ecclesiastes warns that it is better not to vow than to vow and not pay. Jesus goes further, telling his followers not to swear at all: \"let your 'Yes' be 'Yes' and your 'No' be 'No.'\" Jephthah's rash vow in Judges shows how badly vows could go wrong.",
+    "refs": [
+     "Ecclesiastes 5:4-5",
+     "Matthew 5:33-37",
+     "Judges 11:30-31"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Words that bind",
+    "body": "This chapter treats spoken promises to God as seriously as legal contracts. Which promises have you made, to God or to others, that you need to remember?",
+    "refs": [
+     "Psalms 15:4"
+    ]
+   }
+  ]
+ },
+ "31": {
+  "summary": "Israel wages war on Midian for the sin at Peor, killing its kings and Balaam; Moses orders the captive boys and the women who had been with men to be killed, and the plunder is purified and divided between soldiers, people and sanctuary.",
+  "lookfor": "Notice the reason given for the war, Moses' anger at the officers and its reason, the purification rules, how the plunder is shared, and the officers' offering at the end.",
+  "names": [
+   {
+    "name": "Midianites",
+    "kind": "group",
+    "gloss": "A desert people allied with Moab who drew Israel into the worship of Baal Peor."
+   },
+   {
+    "name": "Phinehas",
+    "kind": "person",
+    "gloss": "Son of the high priest Eleazar, who goes with the army carrying the trumpets."
+   },
+   {
+    "name": "Balaam",
+    "kind": "person",
+    "gloss": "The seer from chapters 22 to 24, now found among the Midianites."
+   },
+   {
+    "name": "Eleazar",
+    "kind": "person",
+    "gloss": "The high priest, who gives the rules for purifying the soldiers and the plunder."
+   }
+  ],
+  "skim": {
+   "advice": "Verses 32 to 47 list the plunder and the shares in detail. Skim the figures, and read the reason for the war, Moses' order and the officers' gift closely.",
+   "key": [
+    2,
+    16,
+    27,
+    49
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Vengeance for Peor",
+    "body": "God tells Moses to avenge Israel on the Midianites, \"afterward you shall be gathered to your people\" (31:2). It is Moses' last campaign. The war follows from God's earlier command after Peor, where Midian \"harassed you with their wiles.\"",
+    "refs": [
+     "Numbers 25:17-18"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Balaam's end",
+    "body": "Balaam is killed with the sword among the Midianites (31:8), and Moses says the women caused Israel to sin \"through the counsel of Balaam\" (31:16). The seer who once prayed, \"Let me die the death of the righteous!\" dies among Israel's enemies. Joshua remembers him simply as \"the soothsayer.\"",
+    "refs": [
+     "Numbers 23:10",
+     "Joshua 13:22"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A deeply troubling chapter",
+    "body": "Moses orders the killing of the captive boys and of every woman who had been with a man, keeping the girls alive (31:17-18), presumably as wives or servants, under rules like those in Deuteronomy. The text presents it as judgment for Peor, but many readers, Jewish and Christian, find it among the hardest passages in Scripture. Some stress the conventions of ancient war writing, some a once-only judgment, and Christians read it alongside Jesus' command to love enemies; none of these makes it easy.",
+    "refs": [
+     "Deuteronomy 21:10-14",
+     "Matthew 5:44"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Midian survives",
+    "body": "Although the chapter says every male was killed (31:7), Midian is strong enough a few generations later to oppress Israel for seven years in Gideon's day. Most scholars take the account to concern particular Midianite clans near Moab rather than the whole people.",
+    "refs": [
+     "Judges 6:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Through fire and water",
+    "body": "Metal that can survive fire must pass through fire, and everything else through water (31:22-23). Soldiers and captives stay outside the camp for seven days and are purified on the third and seventh days (31:19), applying the law of chapter 19 for contact with the dead.",
+    "refs": [
+     "Numbers 19:11-12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Sharing the spoil",
+    "body": "The plunder is split in half between the soldiers and the rest of the people (31:27), with a portion from each half for the priests and Levites. David later makes a similar rule that those who guard the baggage share equally with those who fight.",
+    "refs": [
+     "1 Samuel 30:24-25"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Not one man missing",
+    "body": "The officers count their troops and report that \"there lacks not one man of us\" (31:49). They bring gold \"to make atonement for our souls\" (31:50). Exodus required a ransom when Israel was counted, and the officers may have had that in mind.",
+    "refs": [
+     "Exodus 30:12"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Reading the hardest pages",
+    "body": "This chapter does not let readers look away from violence done in God's name. How do you read such a passage honestly while also listening to the rest of Scripture?",
+    "refs": [
+     "Luke 24:27"
+    ]
+   }
+  ]
+ },
+ "32": {
+  "summary": "Reuben and Gad ask to settle in the good grazing land east of the Jordan; Moses angrily compares them to the spies, and they agree to cross and fight with the other tribes before returning home.",
+  "lookfor": "Notice what Moses fears the request will do to the rest of Israel, the deal that is struck, and the famous warning in the middle.",
+  "names": [
+   {
+    "name": "Reuben",
+    "kind": "group",
+    "gloss": "The tribe descended from Jacob's firstborn, rich in livestock."
+   },
+   {
+    "name": "Gad",
+    "kind": "group",
+    "gloss": "The tribe descended from Jacob's son Gad, also a tribe of herders."
+   },
+   {
+    "name": "Jazer",
+    "kind": "place",
+    "gloss": "A town and region east of the Jordan with good pasture."
+   },
+   {
+    "name": "Gilead",
+    "kind": "place",
+    "gloss": "The hilly, fertile region east of the Jordan, between the Yarmuk and the Arnon."
+   },
+   {
+    "name": "Machir",
+    "kind": "person",
+    "gloss": "Son of Manasseh, whose clan takes Gilead."
+   },
+   {
+    "name": "Havvoth Jair",
+    "kind": "place",
+    "gloss": "\"The villages of Jair,\" a group of settlements in Gilead and Bashan."
+   },
+   {
+    "name": "Nobah",
+    "kind": "person",
+    "gloss": "A man of Manasseh who captures Kenath and names it after himself."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "The spies all over again",
+    "body": "Moses hears the request, \"Don't bring us over the Jordan\" (32:5), and recalls Kadesh, when the spies discouraged the people (32:8-13). He fears the same refusal will doom the new generation. The whole story of Numbers 13 and 14 is retold in a few verses.",
+    "refs": [
+     "Numbers 14:1-4",
+     "Numbers 32:8-13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Sheep first, children second",
+    "body": "The tribes offer to build \"sheepfolds here for our livestock, and cities for our little ones\" (32:16). Moses answers, \"Build cities for your little ones, and folds for your sheep\" (32:24), putting the children first. Rashi and other Jewish commentators noticed the gentle correction.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Your sin will find you out",
+    "body": "\"Be sure your sin will find you out\" (32:23) became a proverb in English. In context it is quite specific: if Reuben and Gad break their promise to fight for their brothers, that failure is a sin against Yahweh that will catch up with them.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Gad in the Mesha Stele",
+    "body": "The Moabite king Mesha's inscription of the 9th century BC says \"the men of Gad\" had lived in the land of Ataroth from of old, and boasts of taking Ataroth and Nebo from Israel. Both towns are named in this chapter (32:3, 32:34, 32:38). It is outside evidence that Gad lived where Numbers places it.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "The promise kept",
+    "body": "Joshua reminds the eastern tribes of their promise, and their fighting men cross the Jordan ahead of Israel. When they go home, they build an altar by the Jordan that nearly starts a civil war, until they explain it as a witness that they too belong to Yahweh.",
+    "refs": [
+     "Joshua 1:12-15",
+     "Joshua 4:12",
+     "Joshua 22:10-34"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Living across the river",
+    "body": "Choosing land outside Canaan proper kept these tribes on the edge of Israel's life. Joshua 22 voices the worry that their land might be thought unclean. Centuries later they were among the first carried off by Assyria.",
+    "refs": [
+     "Joshua 22:19",
+     "1 Chronicles 5:25-26"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Names changed",
+    "body": "The Reubenites rebuild Nebo and Baal Meon, \"their names being changed\" (32:38). Nebo is the name of a Babylonian god and Baal a Canaanite one, which may be why they were renamed. Jair names his villages Havvoth Jair (32:41), a name that lasts into the time of the judges.",
+    "refs": [
+     "Deuteronomy 3:14",
+     "Judges 10:3-4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Shall you sit here?",
+    "body": "\"Shall your brothers go to the war, and shall you sit here?\" (32:6). Where might you be settling comfortably while others carry a burden you could share?",
+    "refs": [
+     "Philippians 2:4"
+    ]
+   }
+  ]
+ },
+ "33": {
+  "summary": "Moses' record of Israel's journey from Rameses in Egypt to the plains of Moab, stage by stage, followed by God's command to drive out the inhabitants of Canaan and destroy their idols.",
+  "lookfor": "Notice the familiar places from Exodus and Numbers, the long run of names found nowhere else, the note on Aaron's death, and the warning at the end.",
+  "names": [
+   {
+    "name": "Rameses",
+    "kind": "place",
+    "gloss": "A store city in Egypt's Nile delta, where the exodus began."
+   },
+   {
+    "name": "Succoth",
+    "kind": "place",
+    "gloss": "Israel's first camp after leaving Rameses."
+   },
+   {
+    "name": "Elim",
+    "kind": "place",
+    "gloss": "An oasis with twelve springs and seventy palm trees."
+   },
+   {
+    "name": "Rephidim",
+    "kind": "place",
+    "gloss": "The camp where water came from the rock and Israel fought Amalek."
+   },
+   {
+    "name": "Ezion Geber",
+    "kind": "place",
+    "gloss": "A site at the head of the Gulf of Aqaba, later Solomon's port."
+   },
+   {
+    "name": "Mount Hor",
+    "kind": "place",
+    "gloss": "The mountain on the edge of Edom where Aaron died."
+   }
+  ],
+  "skim": {
+   "advice": "The list of camps (verses 5 to 49) uses one formula throughout. Skim the names, pausing at the places you know and at the notes in verses 8 to 9, 14 and 38 to 40, then read the commands at the end closely.",
+   "key": [
+    2,
+    4,
+    38,
+    55
+   ]
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Moses wrote",
+    "body": "\"Moses wrote their goings out according to their journeys\" (33:2). It is one of only a few places where the Torah says Moses himself wrote something down, alongside the battle with Amalek, the covenant at Sinai and the law in Deuteronomy.",
+    "refs": [
+     "Exodus 17:14",
+     "Exodus 24:4",
+     "Deuteronomy 31:9"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Forty-two stages",
+    "body": "Counting Rameses, the list names forty-two places. Jerome wrote a long letter on these \"forty-two stations\" as stages of the soul's journey, linking them with the forty-two generations of Matthew's genealogy of Jesus. Jewish tradition too has read the journey as a pattern for life's wanderings.",
+    "refs": [
+     "Matthew 1:17"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Judgments on their gods",
+    "body": "Israel left Egypt \"with a high hand\" while Egypt buried its firstborn, and \"Yahweh also executed judgments on their gods\" (33:3-4). Exodus had promised this before the Passover. The plagues were a contest with Egypt's gods as well as with Pharaoh.",
+    "refs": [
+     "Exodus 12:12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Places known from nowhere else",
+    "body": "Between Hazeroth and Kadesh come about twenty camps, from Rithmah to Ezion Geber (33:18-36), most mentioned nowhere else in Scripture. These are likely the forgotten years of wandering. The list remembers places the story passes over in silence.",
+    "refs": [
+     "Deuteronomy 10:6-7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Ezion Geber",
+    "body": "Ezion Geber (33:35) lay at the northern tip of the Gulf of Aqaba, on the Red Sea. Solomon later built a fleet of ships there for trade. Many of the other places in the list have not been identified with certainty.",
+    "refs": [
+     "1 Kings 9:26"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A precise date for Aaron",
+    "body": "Aaron's death gets an unusually exact date: the fortieth year after the exodus, the fifth month, the first day (33:38), at the age of 123 (33:39). Jewish tradition marks the first of the month of Av as the anniversary of his death.",
+    "refs": [
+     "Numbers 20:28",
+     "Exodus 7:7"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Destroy their images",
+    "body": "God commands Israel to drive out the land's inhabitants and destroy their carved stones, metal images and high places (33:52). The target is Canaan's worship, which had just ensnared Israel at Peor. Deuteronomy repeats the command in more detail.",
+    "refs": [
+     "Deuteronomy 7:5",
+     "Numbers 25:1-3"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Thorns in your sides",
+    "body": "Those left in the land \"will be as pricks in your eyes and as thorns in your sides\" (33:55). Joshua repeats the warning, and Judges records it coming true when the tribes failed to drive out the Canaanites.",
+    "refs": [
+     "Joshua 23:13",
+     "Judges 2:3"
+    ]
+   }
+  ]
+ },
+ "34": {
+  "summary": "God defines the borders of Canaan, the land the nine and a half tribes west of the Jordan will divide, and names the leaders who will oversee the division.",
+  "lookfor": "Trace the southern, western, northern and eastern borders, and notice which of the named leaders you already know.",
+  "names": [
+   {
+    "name": "Salt Sea",
+    "kind": "place",
+    "gloss": "The Dead Sea."
+   },
+   {
+    "name": "Kadesh Barnea",
+    "kind": "place",
+    "gloss": "The oasis in the far south where Israel camped for many years."
+   },
+   {
+    "name": "brook of Egypt",
+    "kind": "place",
+    "gloss": "Probably the Wadi el-Arish in northern Sinai, the traditional border with Egypt."
+   },
+   {
+    "name": "great sea",
+    "kind": "place",
+    "gloss": "The Mediterranean."
+   },
+   {
+    "name": "Hamath",
+    "kind": "place",
+    "gloss": "A city in Syria; \"the entrance of Hamath\" marks the far northern border."
+   },
+   {
+    "name": "sea of Chinnereth",
+    "kind": "place",
+    "gloss": "The Sea of Galilee."
+   },
+   {
+    "name": "Caleb",
+    "kind": "person",
+    "gloss": "The faithful spy from chapter 13, now the leader chosen for Judah."
+   }
+  ],
+  "skim": {
+   "advice": "Verses 3 to 12 trace the borders by landmarks, and verses 19 to 28 list the tribal leaders. Skim both, noticing the seas and river that frame the land and the familiar names.",
+   "key": [
+    2,
+    12,
+    17,
+    19
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "A map before the battles",
+    "body": "God draws the land's borders before Israel has crossed the Jordan or fought a single battle west of it (34:2). The map is a promise in the form of a plan. The leaders who will divide it are named in advance too (34:17-29).",
+    "refs": [
+     "Joshua 14:1-2"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "From the brook of Egypt to Hamath",
+    "body": "The southern border runs from the Dead Sea to the brook of Egypt (34:3-5), probably the Wadi el-Arish. The northern border reaches \"the entrance of Hamath\" (34:8), probably Lebo-hamath in Lebanon's Beqaa valley. Israel rarely held so much; Solomon's kingdom is described with the same two limits.",
+    "refs": [
+     "1 Kings 8:65"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The Jordan as the border",
+    "body": "The eastern border follows the Jordan from the Sea of Galilee to the Dead Sea (34:11-12). So the land just settled by Reuben, Gad and half of Manasseh lies outside \"the land of Canaan\" (34:13-15). The tension surfaces in Joshua 22.",
+    "refs": [
+     "Numbers 32:33",
+     "Joshua 22:19"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Chinnereth",
+    "body": "The Sea of Galilee is called \"the sea of Chinnereth\" (34:11). The name is often linked with kinnor, a lyre, because of the lake's shape, though this is uncertain; a town of the same name stood on its shore. In the Gospels it appears as the lake of Gennesaret.",
+    "refs": [
+     "Joshua 19:35",
+     "Luke 5:1"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Borders in later visions",
+    "body": "Ezekiel's vision of the restored land uses almost the same boundaries, from Hamath in the north to the brook of Egypt in the south, with the Jordan to the east. God's promise to Abraham in Genesis reaches wider still, to the Euphrates.",
+    "refs": [
+     "Ezekiel 47:13-20",
+     "Genesis 15:18"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Caleb still standing",
+    "body": "Of the ten tribal leaders named here, only one appears in the earlier lists: \"Caleb the son of Jephunneh\" (34:19). Forty years after he urged Israel to go up, he is chosen to divide the land he spied out. Joshua later records him, at eighty-five, claiming Hebron.",
+    "refs": [
+     "Numbers 14:24",
+     "Joshua 14:10-12"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Land as gift",
+    "body": "The land is called \"the land that shall fall to you for an inheritance\" (34:2). It is never Israel's by conquest alone; it is given and assigned by lot. Leviticus puts it plainly: \"the land is mine.\"",
+    "refs": [
+     "Leviticus 25:23"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Promises with edges",
+    "body": "God's promise to Israel came with specific borders. How does it help to know the shape of what God has actually promised, rather than what you might wish he had?",
+    "refs": []
+   }
+  ]
+ },
+ "35": {
+  "summary": "Israel is to give the Levites forty-eight towns with pastureland, six of them cities of refuge where someone who kills by accident can be safe from the avenger of blood until trial and until the high priest's death.",
+  "lookfor": "Notice how the law distinguishes murder from accidental killing, the part the congregation plays, why the high priest's death matters, and the closing words about blood and the land.",
+  "names": [
+   {
+    "name": "avenger of blood",
+    "kind": "person",
+    "gloss": "The nearest male relative of someone killed, responsible for pursuing the killer."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Levite towns and their fields",
+    "body": "The Levites receive forty-eight towns spread across all the tribes (35:7), each with pastureland measured in thousands of cubits (35:4-5). Later rabbis drew partly on these measurements for the 2,000-cubit limit on Sabbath walking. Acts mentions \"a Sabbath day's journey.\"",
+    "refs": [
+     "Joshua 21:41",
+     "Acts 1:12"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The six cities named",
+    "body": "Exodus had promised a place where an accidental killer could flee. Joshua names the six cities: Kedesh, Shechem and Hebron west of the Jordan, and Bezer, Ramoth and Golan to the east (35:14). Deuteronomy adds that the land was to be divided into three parts so that every killer had a refuge within reach.",
+    "refs": [
+     "Exodus 21:13",
+     "Joshua 20:7-8",
+     "Deuteronomy 19:1-13"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Go'el ha-dam",
+    "body": "\"The avenger of blood\" (35:19) is the go'el ha-dam, literally the redeemer of blood. The go'el is the next of kin who protects a family: buying back land, redeeming a relative from slavery, or here pursuing a killer. Job uses the same word when he says, \"I know that my Redeemer lives.\"",
+    "refs": [
+     "Ruth 3:12",
+     "Job 19:25"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Intent matters",
+    "body": "The law weighs the weapon, past hatred and lying in wait (35:16-21) against sudden accidents with no enmity (35:22-23). The congregation, not the avenger, decides which it was (35:24). Jesus later presses further, tracing murder back to anger in the heart.",
+    "refs": [
+     "Matthew 5:21-22"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Until the high priest dies",
+    "body": "The accidental killer must stay in the city of refuge \"until the death of the high priest\" (35:25, 35:28). Jewish interpreters saw the high priest's death as closing a chapter and bringing release. Christian readers have seen Christ, the great high priest whose death sets the guilty free; Hebrews speaks of believers who have \"fled for refuge.\"",
+    "refs": [
+     "Hebrews 6:18"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "No ransom for a murderer",
+    "body": "A murderer may not pay to escape death (35:31), and the accidental killer may not buy an early return (35:32). Some ancient law codes, like the Hittite laws, allowed compensation for killing. Israel's law treats a human life as beyond price, and requires more than one witness (35:30).",
+    "refs": [
+     "Deuteronomy 17:6",
+     "Matthew 18:16"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Blood pollutes the land",
+    "body": "\"Blood pollutes the land\" (35:33), because God dwells in it (35:34). Abel's blood cried from the ground, and God told Noah that whoever sheds human blood answers for it, because humans are made in God's image. Hebrews speaks of Jesus' blood that \"speaks better than that of Abel.\"",
+    "refs": [
+     "Genesis 4:10",
+     "Genesis 9:6",
+     "Hebrews 12:24"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "A city to run to",
+    "body": "The cities of refuge were for people who had done real harm but without intent. Where can people who carry that kind of guilt find refuge in your community?",
+    "refs": [
+     "Psalms 46:1"
+    ]
+   }
+  ]
+ },
+ "36": {
+  "summary": "Leaders of Manasseh worry that Zelophehad's daughters' land could pass to another tribe if they marry outside it, so Moses rules that they must marry within their father's tribe, and the book closes on the plains of Moab.",
+  "lookfor": "Notice the clan's concern, how Moses answers it without overturning the earlier ruling, and what the daughters do.",
+  "names": [
+   {
+    "name": "Gilead",
+    "kind": "person",
+    "gloss": "Grandson of Manasseh; the clan leaders who raise the case descend from him."
+   },
+   {
+    "name": "Machir",
+    "kind": "person",
+    "gloss": "Son of Manasseh and father of Gilead."
+   },
+   {
+    "name": "Zelophehad",
+    "kind": "person",
+    "gloss": "The man of Manasseh who died leaving five daughters and no sons."
+   },
+   {
+    "name": "Mahlah",
+    "kind": "person",
+    "gloss": "One of Zelophehad's five daughters."
+   },
+   {
+    "name": "Tirzah",
+    "kind": "person",
+    "gloss": "One of Zelophehad's five daughters."
+   },
+   {
+    "name": "Hoglah",
+    "kind": "person",
+    "gloss": "One of Zelophehad's five daughters."
+   },
+   {
+    "name": "Milcah",
+    "kind": "person",
+    "gloss": "One of Zelophehad's five daughters."
+   },
+   {
+    "name": "Noah",
+    "kind": "person",
+    "gloss": "One of Zelophehad's five daughters, not Noah of the flood."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "A follow-up case",
+    "body": "Chapter 27 solved one problem and raised another. If the daughters married men from other tribes, their land would pass with them, shrinking Manasseh's share (36:3). Israel's law grows as each new question is brought before Moses and God.",
+    "refs": [
+     "Numbers 27:1-11"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The jubilee would not help",
+    "body": "Even the jubilee, when sold land returned to its original family (36:4), would not undo it. Land passed on by inheritance was not a sale, so it would stay with the other tribe for good.",
+    "refs": [
+     "Leviticus 25:10",
+     "Leviticus 25:23"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Free to choose, within the tribe",
+    "body": "Moses rules, \"Let them be married to whom they think best; only they shall marry into the family of the tribe of their father\" (36:6). The women keep their choice, and the tribe keeps its land. They marry their cousins (36:11).",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Nachalah: inheritance",
+    "body": "The word nachalah, inheritance, runs through the whole chapter. It means a family's allotted share of the land, held in trust from God rather than owned outright. Naboth later refuses to sell his vineyard to King Ahab because it is \"the inheritance of my fathers.\"",
+    "refs": [
+     "1 Kings 21:3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The names in a new order",
+    "body": "In 27:1 the daughters are Mahlah, Noah, Hoglah, Milcah and Tirzah; here Tirzah moves to second and Noah to last (36:11). Jewish interpreters suggested one list follows their ages and the other a different ranking. Either way, all five are named every time.",
+    "refs": [
+     "Numbers 26:33",
+     "Joshua 17:3"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The land received",
+    "body": "Joshua records the daughters coming to Eleazar and Joshua to claim their land, and receiving it among their father's brothers. Manasseh's territory was counted in ten parts \"because the daughters of Manasseh had an inheritance among his sons.\"",
+    "refs": [
+     "Joshua 17:3-6"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Ending on the plains of Moab",
+    "body": "Numbers began with a census of fighting men at Sinai and ends with five women securing their family's land in the promised land. The last verse places everything \"in the plains of Moab by the Jordan at Jericho\" (36:13), the setting of Deuteronomy. Leviticus ends at Sinai; Numbers ends at the river.",
+    "refs": [
+     "Leviticus 27:34",
+     "Deuteronomy 1:1-5"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Keeping what was given",
+    "body": "The book ends with people working out how to keep a gift intact for the next generation. What have you received that you are responsible for passing on?",
+    "refs": [
+     "Psalms 16:6"
+    ]
+   }
+  ]
+ },
+ "intro": {
+  "who": "Jewish and Christian tradition receive it as the fourth book of the Torah, given through Moses. Many modern scholars see it as a weaving of priestly material with older stories, poems and lists, reaching its final form during or after the exile.",
+  "when": "It covers almost forty years, from the second year after the exodus at Sinai to the fortieth year on the plains of Moab across from Jericho (Numbers 1:1; Numbers 33:38). Proposed dates for its writing run from Moses' time to the 6th or 5th century BC, depending on the view.",
+  "why": "It tells how the generation freed from Egypt refused to trust God and died in the wilderness, while God stayed faithful and brought their children to the edge of the promised land. Its Hebrew name, Bemidbar, means \"in the wilderness.\"",
+  "outline": [
+   {
+    "chapters": "1–10",
+    "title": "Ordering the camp at Sinai"
+   },
+   {
+    "chapters": "11–14",
+    "title": "Complaints and the spies"
+   },
+   {
+    "chapters": "15–19",
+    "title": "Rebellion and the priesthood"
+   },
+   {
+    "chapters": "20–21",
+    "title": "The road to Moab"
+   },
+   {
+    "chapters": "22–25",
+    "title": "Balaam and Baal Peor"
+   },
+   {
+    "chapters": "26–30",
+    "title": "A new generation"
+   },
+   {
+    "chapters": "31–36",
+    "title": "Ready to enter the land"
+   }
+  ],
+  "verse": "Numbers 6:24"
+ }
+}
