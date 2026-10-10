@@ -1,0 +1,2880 @@
+{
+ "1": {
+  "summary": "King Ahaziah of Israel, injured in a fall, sends to ask Baal Zebub of Ekron about his recovery; Elijah intercepts the messengers, calls down fire on two companies of soldiers, spares the humble third captain, and announces the king's death.",
+  "lookfor": "Notice the question Elijah repeats three times, how the king recognises him, and what is different about the third captain.",
+  "names": [
+   {
+    "name": "Ahaziah",
+    "kind": "person",
+    "gloss": "Ahab's son, king of Israel for about two years."
+   },
+   {
+    "name": "Samaria",
+    "kind": "place",
+    "gloss": "Capital of the northern kingdom of Israel."
+   },
+   {
+    "name": "Ekron",
+    "kind": "place",
+    "gloss": "One of the five Philistine cities, near the coast."
+   },
+   {
+    "name": "Elijah",
+    "kind": "person",
+    "gloss": "The prophet from Tishbe who opposed Ahab and Baal worship."
+   },
+   {
+    "name": "Jehoram",
+    "kind": "person",
+    "gloss": "Ahaziah's brother, who succeeds him as king of Israel."
+   },
+   {
+    "name": "Moab",
+    "kind": "place",
+    "gloss": "A kingdom east of the Dead Sea that had been paying tribute to Israel."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "No God in Israel?",
+    "body": "Elijah's question comes three times: \"Is it because there is no God in Israel\" (1:3, 1:6, 1:16). The king's sin is going to a foreign god for a word about his future. Kings judges rulers by whom they turn to in a crisis.",
+    "refs": [
+     "1 Kings 22:5-8",
+     "Isaiah 8:19"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Lord of the flies",
+    "body": "Baal Zebub means lord of the flies. Many scholars think it is a scornful twist of Baal Zebul, lord or prince, a title of Baal known from Ugaritic texts. In the Gospels Beelzebul becomes a name for the prince of demons.",
+    "refs": [
+     "Matthew 12:24",
+     "Mark 3:22"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Recognised by his clothes",
+    "body": "The messengers describe \"a hairy man, and wearing a leather belt around his waist\" (1:8), and the king knows at once it is Elijah. The Hebrew may mean a man in a garment of hair, the mark of a prophet. John the Baptist later wears the same leather belt, and Jesus links him with the Elijah who was to come.",
+    "refs": [
+     "Zechariah 13:4",
+     "Matthew 3:4",
+     "Matthew 11:14"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Fire from the sky",
+    "body": "Elijah calls down fire on two captains and their men (1:10, 1:12). When James and John want to call down fire on a Samaritan village, Jesus rebukes them. Some manuscripts of Luke add that they wanted to do as Elijah did.",
+    "refs": [
+     "Luke 9:51-56"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Whose word rules?",
+    "body": "The king orders the prophet to come down, but Elijah comes down only when Yahweh's angel tells him to (1:15). Throughout Kings, prophets speak God's word to kings, and kings who ignore it fall. The king dies exactly \"according to Yahweh's word which Elijah had spoken\" (1:17).",
+    "refs": [
+     "1 Kings 18:17-18",
+     "Amos 3:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A foreign oracle",
+    "body": "Ekron's site, Tel Miqne, has yielded a seventh-century BC inscription naming the city and its ruler. Kings in the ancient world often consulted famous shrines in other lands. For an Israelite king, though, it was a public statement that Yahweh could not be trusted.",
+    "refs": [
+     "Joshua 13:3",
+     "1 Samuel 5:10"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The third captain",
+    "body": "The third captain does not shout orders but kneels and asks that his life be \"precious in your sight\" (1:13). What changes when we come to God humbly instead of making demands?",
+    "refs": [
+     "James 4:6",
+     "Psalms 51:17"
+    ]
+   }
+  ]
+ },
+ "2": {
+  "summary": "Elijah is taken up to heaven in a whirlwind as Elisha watches; Elisha receives his mantle, parts the Jordan, heals Jericho's water, and is mocked by youths near Bethel.",
+  "lookfor": "Notice Elisha's refusal to leave Elijah, what he asks for, and how his first acts repeat Elijah's.",
+  "names": [
+   {
+    "name": "Elijah",
+    "kind": "person",
+    "gloss": "The prophet taken up to heaven without dying."
+   },
+   {
+    "name": "Elisha",
+    "kind": "person",
+    "gloss": "Elijah's disciple and successor, son of Shaphat."
+   },
+   {
+    "name": "Gilgal",
+    "kind": "place",
+    "gloss": "A town where a group of prophets lived."
+   },
+   {
+    "name": "Bethel",
+    "kind": "place",
+    "gloss": "A town with one of Jeroboam's golden calves and a company of prophets."
+   },
+   {
+    "name": "Jericho",
+    "kind": "place",
+    "gloss": "The city near the Jordan that Joshua first conquered."
+   },
+   {
+    "name": "Jordan",
+    "kind": "place",
+    "gloss": "The river Israel crossed under Joshua."
+   },
+   {
+    "name": "Mount Carmel",
+    "kind": "place",
+    "gloss": "The mountain where Elijah defeated the prophets of Baal."
+   },
+   {
+    "name": "Samaria",
+    "kind": "place",
+    "gloss": "Israel's capital."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "I will not leave you",
+    "body": "Three times Elijah tells Elisha to wait, and three times Elisha answers, \"As Yahweh lives, and as your soul lives, I will not leave you\" (2:2, 2:4, 2:6). The repetition tests his loyalty. Ruth's refusal to leave Naomi is a similar picture of devotion.",
+    "refs": [
+     "Ruth 1:16-17"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A double portion",
+    "body": "Elisha asks for \"a double portion of your spirit\" (2:9). The phrase echoes the law giving the firstborn son a double share of the inheritance, so Elisha is asking to be Elijah's true heir, not twice as great. Readers have still noticed that Kings records more miracles for Elisha than for Elijah.",
+    "refs": [
+     "Deuteronomy 21:17"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Taken up alive",
+    "body": "Elijah goes up \"by a whirlwind into heaven\" (2:11) without dying, like Enoch. This fed the Jewish hope of Elijah's return, still marked by a cup for Elijah at the Passover Seder. In the Gospels, Elijah appears with Moses and Jesus at the Transfiguration.",
+    "refs": [
+     "Genesis 5:24",
+     "Malachi 4:5-6",
+     "Matthew 17:3"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The mantle",
+    "body": "Elijah had thrown his cloak on Elisha when he first called him. Now Elisha picks up the fallen mantle and strikes the Jordan with it (2:13-14). The cloak stands for the prophet's office passing to his successor.",
+    "refs": [
+     "1 Kings 19:19"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A new Joshua",
+    "body": "Elijah leaves from the east bank of the Jordan, near where Moses died, and Elisha crosses back on dry ground to Jericho, as Joshua did. The story presents Elisha as Elijah's successor in the way Joshua succeeded Moses. Even the names are close: Joshua means Yahweh saves, and Elisha means God saves.",
+    "refs": [
+     "Joshua 3:14-17",
+     "Deuteronomy 34:9"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Chariots of Israel",
+    "body": "Elisha cries, \"My father, my father, the chariots of Israel and its horsemen!\" (2:12). He means the prophet was Israel's real defence, worth more than any army. King Joash will say the same words at Elisha's deathbed.",
+    "refs": [
+     "2 Kings 13:14"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The youths and the bears",
+    "body": "Youths from Bethel jeer, \"Go up, you baldy!\" (2:23), and two bears maul forty-two of them (2:24). The Hebrew can mean young men, not small children, and Bethel was the centre of Jeroboam's calf worship, so many readers hear contempt for Yahweh's prophet and perhaps a jibe at Elijah's going up. The story remains troubling, and it stands as a warning that despising God's messengers is serious.",
+    "refs": [
+     "1 Kings 12:28-29",
+     "2 Chronicles 36:16"
+    ]
+   }
+  ]
+ },
+ "3": {
+  "summary": "Jehoram of Israel, with Jehoshaphat of Judah and the king of Edom, marches against rebel Moab; Elisha promises water and victory, but the king of Moab sacrifices his son on the city wall and Israel withdraws.",
+  "lookfor": "Notice why Elisha agrees to help, the water in the dry valley, and the shocking ending.",
+  "names": [
+   {
+    "name": "Jehoram",
+    "kind": "person",
+    "gloss": "Ahab's son, king of Israel; also called Joram."
+   },
+   {
+    "name": "Jehoshaphat",
+    "kind": "person",
+    "gloss": "The faithful king of Judah, allied with Israel."
+   },
+   {
+    "name": "Mesha",
+    "kind": "person",
+    "gloss": "King of Moab, known also from his own inscription."
+   },
+   {
+    "name": "Moab",
+    "kind": "place",
+    "gloss": "Kingdom east of the Dead Sea."
+   },
+   {
+    "name": "Edom",
+    "kind": "place",
+    "gloss": "Kingdom south of the Dead Sea, then under Judah."
+   },
+   {
+    "name": "Elisha",
+    "kind": "person",
+    "gloss": "Elijah's successor as prophet."
+   },
+   {
+    "name": "Kir Hareseth",
+    "kind": "place",
+    "gloss": "A fortified city of Moab, probably modern Kerak."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "The Mesha Stele",
+    "body": "A black basalt stone found at Dhiban in 1868 gives Mesha's own account of throwing off Israel's rule. It names Omri king of Israel, who had oppressed Moab, mentions Yahweh, and credits the victory to Moab's god Chemosh. It is now in the Louvre and is one of the most important inscriptions for biblical history.",
+    "refs": [
+     "2 Kings 1:1",
+     "Numbers 21:29"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Sheep breeder",
+    "body": "Mesha is called a sheep breeder (3:4), using the same rare Hebrew word applied to the prophet Amos. His tribute of wool from a hundred thousand lambs and rams shows how rich Moab was in flocks. Losing it was a heavy blow to Israel.",
+    "refs": [
+     "Amos 1:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Not like his father",
+    "body": "Jehoram does evil, \"but not like his father, and like his mother\" (3:2), since he removes Baal's pillar. Yet he keeps Jeroboam's calves (3:3). Kings grades even bad kings carefully.",
+    "refs": [
+     "1 Kings 16:30-33"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Help for Jehoshaphat's sake",
+    "body": "Elisha tells Israel's king to go to the prophets of his father and mother (3:13). He agrees to help only out of respect for Jehoshaphat (3:14). One faithful king brings help to the whole army.",
+    "refs": [
+     "1 Kings 22:7-8",
+     "Genesis 18:26"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Bring me a musician",
+    "body": "Elisha calls for a musician, and as he plays \"Yahweh's hand came on him\" (3:15). Music and prophecy are linked elsewhere: Saul met prophets with harps, and David appointed Levites to prophesy with lyres.",
+    "refs": [
+     "1 Samuel 10:5",
+     "1 Chronicles 25:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Water like blood",
+    "body": "Water flows into the dry valley without wind or rain (3:17, 3:20). In the morning sun it looks \"as red as blood\" (3:22), perhaps from the reddish soil of Edom. The Moabites assume the kings have fought one another and rush into a trap.",
+    "refs": [
+     "Exodus 7:20"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Great wrath against Israel",
+    "body": "Mesha offers his eldest son as a burnt offering on the wall, and \"There was great wrath against Israel\" (3:27). The text does not say whose wrath. Interpreters have suggested Moab's fury, Israel's horror, or God's displeasure at the campaign, while some modern scholars think the writer meant the anger of Chemosh; the terse verse leaves the question open.",
+    "refs": [
+     "Micah 6:7",
+     "Deuteronomy 12:31"
+    ]
+   }
+  ]
+ },
+ "4": {
+  "summary": "Elisha multiplies a widow's oil, promises a son to a Shunammite woman and later raises the boy from death, makes poisoned stew safe, and feeds a hundred men with twenty loaves.",
+  "lookfor": "Notice who Elisha helps, the Shunammite's persistence, and how each miracle meets an ordinary need.",
+  "names": [
+   {
+    "name": "Elisha",
+    "kind": "person",
+    "gloss": "The prophet, called the man of God."
+   },
+   {
+    "name": "Shunem",
+    "kind": "place",
+    "gloss": "A village in the Jezreel valley."
+   },
+   {
+    "name": "Gehazi",
+    "kind": "person",
+    "gloss": "Elisha's servant."
+   },
+   {
+    "name": "Mount Carmel",
+    "kind": "place",
+    "gloss": "Where Elisha was staying when the mother came."
+   },
+   {
+    "name": "Gilgal",
+    "kind": "place",
+    "gloss": "A town with a community of prophets."
+   },
+   {
+    "name": "Baal Shalishah",
+    "kind": "place",
+    "gloss": "A village from which a man brings firstfruits bread."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Debt slavery",
+    "body": "The creditor comes to take the widow's two children as slaves (4:1). Israel's law allowed people to work off debts but limited it and demanded care for widows and orphans. The prophets condemned those who sold the poor.",
+    "refs": [
+     "Exodus 22:22-24",
+     "Leviticus 25:39-41",
+     "Amos 2:6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Empty containers",
+    "body": "Elisha tells the widow, \"Don't borrow just a few containers\" (4:3). The oil flows until \"There isn't another container\" (4:6). The size of the gift matches the room she made for it.",
+    "refs": [
+     "1 Kings 17:14-16",
+     "Malachi 3:10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A room on the roof",
+    "body": "The Shunammite builds a small room on her flat roof with a bed, table, chair and lamp stand (4:10). Hospitality to travellers was a sacred duty, and she asks for nothing in return. Offered a favour from the king, she says, \"I dwell among my own people\" (4:13).",
+    "refs": [
+     "Hebrews 13:2",
+     "Matthew 10:41"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The boy raised",
+    "body": "Elisha stretches himself on the dead child, and the boy sneezes seven times and opens his eyes (4:34-35). Elijah raised a widow's son in the same way, and Jesus raised a widow's son at Nain, a few miles from Shunem. Hebrews remembers: \"Women received their dead by resurrection.\"",
+    "refs": [
+     "1 Kings 17:17-24",
+     "Luke 7:11-17",
+     "Hebrews 11:35"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "It is well",
+    "body": "With her son lying dead, the mother answers Gehazi, \"It is well\" (4:26), and keeps her grief for the man of God, clinging to his feet (4:27). What would it look like to bring your deepest trouble straight to God and not let go?",
+    "refs": [
+     "Genesis 32:26",
+     "Luke 18:1-5"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Death in the pot",
+    "body": "The wild gourds were probably colocynth, a bitter plant that is a violent purgative. Elisha throws in meal, and \"there was nothing harmful in the pot\" (4:41). As with the salt at Jericho, God uses an ordinary substance as a sign of healing.",
+    "refs": [
+     "2 Kings 2:21",
+     "Exodus 15:25"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Twenty loaves for a hundred",
+    "body": "Elisha's servant asks, \"What, should I set this before a hundred men?\" (4:43), yet all eat and have some left over (4:44). The Gospel feedings echo this, with barley loaves, a doubting helper, and leftovers.",
+    "refs": [
+     "John 6:9-13",
+     "Matthew 14:17-20"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Care for ordinary people",
+    "body": "While kings fail, the miracles in this chapter serve a debtor widow, a childless woman, hungry prophets and a crowd in famine. God's care reaches faithful households when the nation is unfaithful. Jesus points out that God's prophets were often sent to the overlooked.",
+    "refs": [
+     "Luke 4:25-27",
+     "Psalms 146:9"
+    ]
+   }
+  ]
+ },
+ "5": {
+  "summary": "Naaman, a Syrian commander with leprosy, comes to Elisha, is told to wash seven times in the Jordan, is healed and confesses Israel's God; Elisha's servant Gehazi greedily takes Naaman's gifts and is struck with his leprosy.",
+  "lookfor": "Notice the captive girl, Naaman's anger and the servants' advice, his confession, and Gehazi's lies.",
+  "names": [
+   {
+    "name": "Naaman",
+    "kind": "person",
+    "gloss": "Commander of the army of Syria (Aram)."
+   },
+   {
+    "name": "Syria",
+    "kind": "place",
+    "gloss": "Aram, the kingdom north of Israel with its capital at Damascus."
+   },
+   {
+    "name": "Elisha",
+    "kind": "person",
+    "gloss": "The prophet in Samaria."
+   },
+   {
+    "name": "Jordan",
+    "kind": "place",
+    "gloss": "The river where Naaman washes."
+   },
+   {
+    "name": "Abanah",
+    "kind": "place",
+    "gloss": "A river of Damascus."
+   },
+   {
+    "name": "Pharpar",
+    "kind": "place",
+    "gloss": "Another river of Damascus."
+   },
+   {
+    "name": "Damascus",
+    "kind": "place",
+    "gloss": "Capital of Syria."
+   },
+   {
+    "name": "Gehazi",
+    "kind": "person",
+    "gloss": "Elisha's servant."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "A little maiden",
+    "body": "The story turns on a captive Israelite girl serving Naaman's wife (5:2-3). Taken from home by raiders, she still wants her master healed. The great man's healing begins with the least person in his house.",
+    "refs": [
+     "1 Corinthians 1:27"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Leprosy",
+    "body": "The Hebrew word covers a range of skin diseases, not only what is now called Hansen's disease. Naaman still holds his command, so in Syria his condition did not shut him out of society as it would have in Israel.",
+    "refs": [
+     "Leviticus 13:1-3",
+     "Leviticus 13:45-46"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Wash in the Jordan",
+    "body": "Naaman expects the prophet to come out and wave his hand over him, and he is insulted by a plain instruction (5:11-12). His servants reason, \"if the prophet had asked you do some great thing, wouldn't you have done it?\" (5:13). Healing requires him to humble himself and obey a simple word.",
+    "refs": [
+     "1 Corinthians 1:18"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Jesus and Naaman",
+    "body": "In his sermon at Nazareth, Jesus says there were many lepers in Israel in Elisha's time, but only Naaman the Syrian was cleansed. The crowd is enraged at the idea of God's grace going to an outsider. Early Christian writers such as Ambrose saw Naaman's washing as a picture of baptism.",
+    "refs": [
+     "Luke 4:27-29"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "No God but in Israel",
+    "body": "Naaman confesses, \"I know that there is no God in all the earth, but in Israel\" (5:15). In chapter 1, Israel's own king sent to a foreign god as though there were no God in Israel. A foreign general sees what Israel's king would not.",
+    "refs": [
+     "2 Kings 1:3",
+     "Isaiah 45:22"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Two mules' loads of earth",
+    "body": "Naaman asks for Israelite soil to take home (5:17), since people commonly linked a god with his own land. He also asks pardon for bowing in the temple of Rimmon, the storm god Hadad, when attending his king (5:18). Elisha simply answers, \"Go in peace\" (5:19), leaving a new believer to grow.",
+    "refs": [
+     "Psalms 137:4"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Gehazi's greed",
+    "body": "Gehazi invents a story to get silver and clothes (5:22), then lies to Elisha (5:25). Elisha asks, \"Is it a time to receive money\" (5:26), because taking payment would make God's free grace look bought. Gehazi receives Naaman's leprosy instead.",
+    "refs": [
+     "Acts 8:18-20",
+     "Matthew 10:8"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Too simple to obey",
+    "body": "Naaman nearly missed healing because the command seemed too ordinary. Is there a simple thing God asks of you that you resist because it seems too small?",
+    "refs": [
+     "James 1:22"
+    ]
+   }
+  ]
+ },
+ "6": {
+  "summary": "Elisha makes a lost ax head float, foils Syrian raids by revealing their plans, opens his servant's eyes to an army of fire, and leads blinded soldiers into Samaria to be fed; later a Syrian siege brings a famine so severe that mothers eat their children.",
+  "lookfor": "Notice what the servant cannot see at first, how Elisha treats his captives, and the king's despair at the end.",
+  "names": [
+   {
+    "name": "Elisha",
+    "kind": "person",
+    "gloss": "The prophet."
+   },
+   {
+    "name": "Jordan",
+    "kind": "place",
+    "gloss": "The river where the prophets cut timber."
+   },
+   {
+    "name": "Syria",
+    "kind": "place",
+    "gloss": "Aram, Israel's northern enemy."
+   },
+   {
+    "name": "Dothan",
+    "kind": "place",
+    "gloss": "A town north of Samaria where Elisha is staying."
+   },
+   {
+    "name": "Samaria",
+    "kind": "place",
+    "gloss": "Israel's capital, later besieged."
+   },
+   {
+    "name": "Benhadad",
+    "kind": "person",
+    "gloss": "King of Syria."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "It was borrowed",
+    "body": "The prophet's student cries out because the ax head \"was borrowed\" (6:5). Iron was costly, and a poor man could not easily replace it. God cares about a small loss to an honest worker.",
+    "refs": [
+     "Matthew 10:29-31"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Open his eyes",
+    "body": "The servant sees only the enemy army, but Elisha says, \"those who are with us are more than those who are with them\" (6:16). When God opens his eyes, \"the mountain was full of horses and chariots of fire around Elisha\" (6:17). The Psalms promise the same unseen protection.",
+    "refs": [
+     "Psalms 34:7",
+     "Romans 8:31",
+     "2 Kings 2:11"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Feed your enemies",
+    "body": "Instead of killing the captured soldiers, Elisha tells the king to \"Set bread and water before them\" (6:22). After the feast, the raids stop (6:23). Kindness achieves what the sword would not.",
+    "refs": [
+     "Proverbs 25:21-22",
+     "Romans 12:20"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Siege prices",
+    "body": "A donkey's head, unclean food, sells for eighty pieces of silver (6:25). Dove's dung may be literal, used as fuel or food, or a popular name for some poor food such as seeds or pods. Either way the city is starving.",
+    "refs": [
+     "Leviticus 11:2-3"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The covenant curse",
+    "body": "Two mothers agree to eat their sons (6:28-29). Deuteronomy warned that unfaithfulness would bring sieges so terrible that parents would eat their children, and Lamentations records it again at Jerusalem's fall. The text reports the horror without comment, showing how far the nation has fallen.",
+    "refs": [
+     "Deuteronomy 28:53-57",
+     "Lamentations 4:10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Sackcloth underneath",
+    "body": "The king wears sackcloth under his robes (6:30), a sign of mourning. Yet he blames Elisha and swears to behead him (6:31). The closing words, probably the king's, are, \"Why should I wait for Yahweh any longer?\" (6:33).",
+    "refs": [
+     "Joel 2:13"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Seeing what is there",
+    "body": "The servant's danger did not change; his sight did. When trouble surrounds you, what might change if your eyes were opened to God's presence?",
+    "refs": [
+     "2 Corinthians 4:18",
+     "Hebrews 12:1"
+    ]
+   }
+  ]
+ },
+ "7": {
+  "summary": "Elisha predicts cheap food in starving Samaria by the next day; four lepers find the Syrian camp abandoned after the Lord made the army hear a great noise, the city is fed, and the officer who scoffed is trampled in the gate.",
+  "lookfor": "Notice the officer's doubt, the lepers' reasoning, and how exactly Elisha's word comes true.",
+  "names": [
+   {
+    "name": "Elisha",
+    "kind": "person",
+    "gloss": "The prophet."
+   },
+   {
+    "name": "Samaria",
+    "kind": "place",
+    "gloss": "Israel's besieged capital."
+   },
+   {
+    "name": "Syrians",
+    "kind": "group",
+    "gloss": "The army of Aram besieging Samaria."
+   },
+   {
+    "name": "Hittites",
+    "kind": "group",
+    "gloss": "Peoples of small kingdoms in northern Syria."
+   },
+   {
+    "name": "Egyptians",
+    "kind": "group",
+    "gloss": "The people of Egypt."
+   },
+   {
+    "name": "Jordan",
+    "kind": "place",
+    "gloss": "The river to which the Syrians fled."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "A seah for a shekel",
+    "body": "A seah was a dry measure of roughly seven litres, though estimates vary. Elisha promises fine flour at a shekel a seah in the gate (7:1), the city's market. After the starvation prices of the siege, it sounds impossible.",
+    "refs": [
+     "2 Kings 6:25"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Windows in heaven",
+    "body": "The king's officer scoffs, \"if Yahweh made windows in heaven, could this thing be?\" (7:2). Elisha says he will see it but not eat it. The chapter repeats the exchange at the end to show it fulfilled (7:17-20).",
+    "refs": [
+     "Malachi 3:10",
+     "Genesis 7:11"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Saved by outcasts",
+    "body": "The good news comes through four men with skin disease, shut outside the city gate (7:3). Their logic is blunt: if they go to the Syrians, \"we will only die\" (7:4). God uses outcasts to rescue the city.",
+    "refs": [
+     "Leviticus 13:46",
+     "1 Corinthians 1:27-28"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Hittites and Egyptians",
+    "body": "The Lord makes the Syrians hear chariots and horses (7:6), and they assume Israel has hired Hittites and Egyptians. The great Hittite empire had fallen centuries earlier, but smaller kingdoms in northern Syria still carried the name. No Israelite fights; a sound wins the battle.",
+    "refs": [
+     "2 Samuel 5:24"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A day of good news",
+    "body": "After hiding treasure, the lepers say, \"Today is a day of good news, and we keep silent\" (7:9). Christians have long heard here a call to share the gospel instead of keeping it. Isaiah praises the feet of those who bring good news.",
+    "refs": [
+     "Isaiah 52:7",
+     "Romans 10:14-15"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The word comes true",
+    "body": "The flour is sold for a shekel \"according to Yahweh's word\" (7:16), and the officer dies as the man of God had said (7:17). Kings constantly marks prophecies and their fulfilment. God's word, not the king or the enemy, governs what happens.",
+    "refs": [
+     "1 Kings 8:56",
+     "Isaiah 55:11"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Keeping good to yourself",
+    "body": "The lepers' first instinct was to eat, drink and hide what they found (7:8). Is there some good you have received that you are keeping to yourself?",
+    "refs": [
+     "1 Peter 4:10"
+    ]
+   }
+  ]
+ },
+ "8": {
+  "summary": "The Shunammite woman gets her land back after a famine; Elisha weeps as he tells Hazael he will be king of Syria, and Hazael murders Benhadad; Jehoram and Ahaziah reign badly in Judah, linked by marriage to Ahab's house.",
+  "lookfor": "Notice the timing of the woman's appeal, Elisha's tears, and the marriages that tie Judah to Ahab.",
+  "names": [
+   {
+    "name": "Gehazi",
+    "kind": "person",
+    "gloss": "Elisha's servant, telling the king about Elisha."
+   },
+   {
+    "name": "Benhadad",
+    "kind": "person",
+    "gloss": "The sick king of Syria."
+   },
+   {
+    "name": "Hazael",
+    "kind": "person",
+    "gloss": "Benhadad's officer, who seizes the throne."
+   },
+   {
+    "name": "Damascus",
+    "kind": "place",
+    "gloss": "Capital of Syria."
+   },
+   {
+    "name": "Jehoram",
+    "kind": "person",
+    "gloss": "Jehoshaphat's son, king of Judah; also called Joram."
+   },
+   {
+    "name": "Edom",
+    "kind": "place",
+    "gloss": "Kingdom south of the Dead Sea that revolts from Judah."
+   },
+   {
+    "name": "Ahaziah",
+    "kind": "person",
+    "gloss": "Jehoram's son, king of Judah for one year."
+   },
+   {
+    "name": "Athaliah",
+    "kind": "person",
+    "gloss": "Ahaziah's mother, of Ahab's family."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Perfect timing",
+    "body": "The woman arrives to plead for her land just as Gehazi is telling the king about her son (8:5). The king restores her land and all its produce (8:6). Since Gehazi became a leper in chapter 5, some think this scene took place earlier, as the Elisha stories are grouped by theme more than date.",
+    "refs": [
+     "2 Kings 4:8-37",
+     "Romans 8:28"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Elisha weeps",
+    "body": "Elisha stares at Hazael until he is ashamed, then weeps (8:11). He foresees the atrocities Hazael will commit against Israel (8:12). The prophet takes no pleasure in announcing judgment.",
+    "refs": [
+     "1 Kings 19:15",
+     "Luke 19:41-44"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "But a dog",
+    "body": "Hazael answers, \"what is your servant, who is but a dog\" (8:13), a common expression of self-lowering also found in the Lachish letters. An inscription of the Assyrian king Shalmaneser III calls Hazael the son of a nobody, meaning a usurper without royal blood.",
+    "refs": [
+     "1 Samuel 24:14",
+     "2 Samuel 9:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Two answers",
+    "body": "Elisha's message has two parts: the illness will not kill Benhadad, but he will die (8:10). Hazael reports only the first and smothers the king the next day with a wet cloth (8:15). Knowing the future did not make Hazael innocent.",
+    "refs": [
+     "Acts 2:23"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A lamp for David",
+    "body": "Judah's King Jehoram marries Ahab's daughter and does evil, \"However Yahweh would not destroy Judah, for David his servant's sake\" (8:19). The lamp image recalls God's promise that David's line would not be put out. Christians see that kept lamp leading to Jesus, the son of David.",
+    "refs": [
+     "2 Samuel 7:12-16",
+     "1 Kings 11:36",
+     "Psalms 132:17"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Ahab's ways reach Jerusalem",
+    "body": "The marriage alliance between the two kingdoms (8:18, 8:26-27) brings Ahab's religion into Jerusalem. Athaliah is called daughter of Omri (8:26), a Hebrew way of saying granddaughter; she will soon try to wipe out David's line. Political alliances have spiritual costs.",
+    "refs": [
+     "2 Kings 11:1",
+     "1 Kings 22:4"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Edom breaks free",
+    "body": "Edom revolts and sets up its own king (8:20-22), ending a control that went back to David. Libnah, a town on the Philistine border, also revolts. Judah is shrinking under a faithless king.",
+    "refs": [
+     "2 Samuel 8:14",
+     "Genesis 27:40"
+    ]
+   }
+  ]
+ },
+ "9": {
+  "summary": "A young prophet anoints Jehu king of Israel; Jehu drives furiously to Jezreel, kills King Joram of Israel and King Ahaziah of Judah, and has Jezebel thrown from a window, fulfilling Elijah's word.",
+  "lookfor": "Notice the repeated question about peace, the places where the bodies fall, and how Elijah's words come true.",
+  "names": [
+   {
+    "name": "Elisha",
+    "kind": "person",
+    "gloss": "The prophet who sends a student to anoint Jehu."
+   },
+   {
+    "name": "Jehu",
+    "kind": "person",
+    "gloss": "An army commander, anointed king of Israel."
+   },
+   {
+    "name": "Ramoth Gilead",
+    "kind": "place",
+    "gloss": "A frontier city east of the Jordan held against Syria."
+   },
+   {
+    "name": "Jezreel",
+    "kind": "place",
+    "gloss": "A royal city of Ahab's family in the Jezreel valley."
+   },
+   {
+    "name": "Joram",
+    "kind": "person",
+    "gloss": "Ahab's son, king of Israel."
+   },
+   {
+    "name": "Ahaziah",
+    "kind": "person",
+    "gloss": "King of Judah, Joram's nephew."
+   },
+   {
+    "name": "Jezebel",
+    "kind": "person",
+    "gloss": "Ahab's widow, the queen mother."
+   },
+   {
+    "name": "Naboth",
+    "kind": "person",
+    "gloss": "The man Ahab and Jezebel had killed for his vineyard."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "An old command carried out",
+    "body": "At Horeb God told Elijah to anoint Hazael over Syria and Jehu over Israel. Elisha has now seen to both, through his words to Hazael in chapter 8 and his messenger here (9:1-3). God's word to Elijah is fulfilled years later.",
+    "refs": [
+     "1 Kings 19:15-17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Cloaks on the stairs",
+    "body": "The officers spread their cloaks under Jehu and blow the trumpet, saying, \"Jehu is king\" (9:13). Laying down garments honoured a new king. The crowds did the same for Jesus entering Jerusalem.",
+    "refs": [
+     "Matthew 21:8",
+     "1 Kings 1:39"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "He drives furiously",
+    "body": "The watchman recognises Jehu at a distance, \"for he drives furiously\" (9:20). The Hebrew word suggests madness, from the same root as \"mad fellow\" (9:11), the soldiers' name for the prophet. Jehu's reckless speed suits his whole bloody revolution.",
+    "refs": [
+     "Hosea 9:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Is it peace?",
+    "body": "The question Is it peace? recurs (9:17-22, 9:31). Jehu answers Joram, \"What peace, so long as the prostitution of your mother Jezebel and her witchcraft abound?\" (9:22). Prostitution is the prophets' usual picture for idolatry.",
+    "refs": [
+     "Hosea 2:2-5",
+     "Jeremiah 3:1"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Naboth's field",
+    "body": "Joram's body is thrown onto the plot of Naboth the Jezreelite (9:25-26), whose vineyard Ahab took after Naboth was murdered. Jehu recalls the word of judgment spoken then. Innocent blood is not forgotten by God.",
+    "refs": [
+     "1 Kings 21:17-24",
+     "Genesis 4:10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Painted eyes",
+    "body": "Jezebel paints her eyes and arranges her hair before Jehu arrives (9:30). Eye paint was usual for royal women, and she likely means to face death as a queen, not to seduce him. She taunts him as \"Zimri\" (9:31), the officer who killed his master and reigned only seven days.",
+    "refs": [
+     "1 Kings 16:9-18"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "God's instrument, still judged",
+    "body": "God sends Jehu to strike Ahab's house (9:7), and Jezebel's end fulfils Elijah's word (9:36-37). Yet about a century later Hosea announces, \"I will avenge the blood of Jezreel on the house of Jehu.\" Interpreters take this to mean Jehu went beyond his commission out of ambition; being used by God does not excuse cruelty.",
+    "refs": [
+     "Hosea 1:4",
+     "Isaiah 10:5-7"
+    ]
+   }
+  ]
+ },
+ "10": {
+  "summary": "Jehu has Ahab's seventy sons killed, slaughters Ahaziah's relatives and Baal's worshippers in a trap, and destroys Baal's temple, but keeps Jeroboam's golden calves; meanwhile Hazael begins to take Israel's lands east of the Jordan.",
+  "lookfor": "Notice how Jehu spreads the guilt, his public zeal, and the limits of his reform.",
+  "names": [
+   {
+    "name": "Jehu",
+    "kind": "person",
+    "gloss": "The new king of Israel."
+   },
+   {
+    "name": "Samaria",
+    "kind": "place",
+    "gloss": "Israel's capital, where Ahab's sons were raised."
+   },
+   {
+    "name": "Jezreel",
+    "kind": "place",
+    "gloss": "Royal city where Jehu is staying."
+   },
+   {
+    "name": "Ahaziah",
+    "kind": "person",
+    "gloss": "The dead king of Judah, whose relatives Jehu kills."
+   },
+   {
+    "name": "Jehonadab",
+    "kind": "person",
+    "gloss": "Son of Rechab, a strict worshipper of Yahweh who backs Jehu."
+   },
+   {
+    "name": "Hazael",
+    "kind": "person",
+    "gloss": "King of Syria."
+   },
+   {
+    "name": "Gilead",
+    "kind": "place",
+    "gloss": "Israel's territory east of the Jordan."
+   },
+   {
+    "name": "Jehoahaz",
+    "kind": "person",
+    "gloss": "Jehu's son and successor."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Who killed all these?",
+    "body": "Jehu displays the heads of Ahab's sons and tells the people, \"I conspired against my master and killed him, but who killed all these?\" (10:9). By making Samaria's leaders do the killing, he makes them share the guilt. It is shrewd and chilling politics.",
+    "refs": [
+     "1 Kings 21:21"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The Rechabites",
+    "body": "Jehu takes Jehonadab son of Rechab into his chariot as a public supporter (10:15-16). Jehonadab's descendants kept his rules for centuries: no wine, no houses, no farming. Jeremiah holds up their faithfulness as a rebuke to Judah.",
+    "refs": [
+     "Jeremiah 35:6-10"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "My zeal for Yahweh",
+    "body": "Jehu says, \"Come with me, and see my zeal for Yahweh\" (10:16). Zeal can be holy, as with Phinehas or Elijah, but here it is put on show and mixed with ambition. It stops short of the golden calves (10:29).",
+    "refs": [
+     "Numbers 25:11-13",
+     "1 Kings 19:10"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A trap for Baal's worshippers",
+    "body": "Jehu pretends to be a greater Baal worshipper than Ahab (10:18) to gather them in one temple. The writer says plainly that \"Jehu did deceptively\" (10:19). Kings records the end of Baal worship in Israel while letting readers see the methods.",
+    "refs": [
+     "1 Kings 18:40",
+     "Deuteronomy 13:6-9"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Half a reform",
+    "body": "God commends Jehu and promises his sons the throne to the fourth generation (10:30). \"But Jehu took no heed to walk in the law of Yahweh, the God of Israel, with all his heart\" (10:31). Removing a rival god is not the same as wholehearted obedience.",
+    "refs": [
+     "2 Kings 15:12",
+     "Deuteronomy 6:5"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The Black Obelisk",
+    "body": "A monument of the Assyrian king Shalmaneser III, now in the British Museum, shows Jehu or his envoy bowing with tribute. Its caption calls him Jehu son of Omri, meaning of the house or land of Omri. It is the only surviving picture of an Israelite king, and it fits Israel's weakness as Hazael pressed from the north (10:32).",
+    "refs": [
+     "2 Kings 13:7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Selective zeal",
+    "body": "Jehu was fierce for God where it served his power and lax where it did not. Where might your own zeal be selective?",
+    "refs": [
+     "Matthew 23:23"
+    ]
+   }
+  ]
+ },
+ "11": {
+  "summary": "Athaliah seizes Judah's throne and kills the royal family, but the infant Joash is hidden in the Temple for six years; the priest Jehoiada crowns him, Athaliah is executed, and the people renew the covenant and tear down Baal's temple.",
+  "lookfor": "Notice the single surviving child, the careful plan in the Temple, and the covenant that follows.",
+  "names": [
+   {
+    "name": "Athaliah",
+    "kind": "person",
+    "gloss": "Ahab's daughter, mother of King Ahaziah; she rules Judah six years."
+   },
+   {
+    "name": "Ahaziah",
+    "kind": "person",
+    "gloss": "Judah's king, killed by Jehu."
+   },
+   {
+    "name": "Jehosheba",
+    "kind": "person",
+    "gloss": "Ahaziah's sister, who rescues the baby."
+   },
+   {
+    "name": "Joash",
+    "kind": "person",
+    "gloss": "Ahaziah's infant son, the hidden heir."
+   },
+   {
+    "name": "Jehoiada",
+    "kind": "person",
+    "gloss": "The priest who leads the coup."
+   },
+   {
+    "name": "Carites",
+    "kind": "group",
+    "gloss": "Royal guards, probably foreign mercenaries."
+   },
+   {
+    "name": "Mattan",
+    "kind": "person",
+    "gloss": "Priest of Baal in Jerusalem."
+   },
+   {
+    "name": "Jehoash",
+    "kind": "person",
+    "gloss": "Another form of the name Joash."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "David's line by a thread",
+    "body": "Athaliah destroys \"all the royal offspring\" (11:1), and only one baby survives. God's promise of a lasting house for David hangs on a single hidden child. Matthew tells of another king who tried to kill a royal child.",
+    "refs": [
+     "2 Samuel 7:16",
+     "Matthew 2:13-16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A brave aunt",
+    "body": "Jehosheba, the king's sister, steals the baby and his nurse and hides them (11:2). Chronicles adds that she was the wife of Jehoiada the priest. A woman's courage saves the royal line, as the midwives' courage once saved Israel's sons.",
+    "refs": [
+     "2 Chronicles 22:11",
+     "Exodus 1:17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The Carites",
+    "body": "The Carites (11:4, 11:19) were probably foreign guards, perhaps from Caria in Asia Minor, like David's Cherethites and Pelethites. Jehoiada wins over the palace guard before he acts. The coup happens on the Sabbath, when the shifts change (11:5-9).",
+    "refs": [
+     "2 Samuel 20:23"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Gave him the covenant",
+    "body": "Jehoiada crowns Joash and \"gave him the covenant\" (11:12), probably a written copy of the law or of the king's duties. Deuteronomy required the king to keep a copy of the law and read it. The king is crowned under God's word.",
+    "refs": [
+     "Deuteronomy 17:18-20",
+     "1 Samuel 10:25"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Not in the Temple",
+    "body": "Athaliah cries treason (11:14), though she took the throne by murder. Jehoiada orders, \"Don't let her be slain in Yahweh's house\" (11:15). Even in a revolt he guards the holiness of the Temple.",
+    "refs": [
+     "Numbers 35:33-34"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Covenant renewed",
+    "body": "Jehoiada makes a covenant \"that they should be Yahweh's people\" (11:17), and the people tear down Baal's temple (11:18). Like Joshua at Shechem and later Josiah, renewal means recommitting to God and removing idols.",
+    "refs": [
+     "Joshua 24:25",
+     "2 Kings 23:3"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Hidden for six years",
+    "body": "For six years the true king grew up in hiding while a usurper ruled (11:3). When God's purposes seem hidden, what helps you keep trusting?",
+    "refs": [
+     "Psalms 27:13-14"
+    ]
+   }
+  ]
+ },
+ "12": {
+  "summary": "Joash reigns forty years and does right while Jehoiada guides him; he sets up a collection chest to repair the Temple, but later strips its treasures to buy off Hazael and is assassinated by his servants.",
+  "lookfor": "Notice the phrase about Jehoiada's instruction, how the repair money is handled, and what Joash gives away.",
+  "names": [
+   {
+    "name": "Jehoash",
+    "kind": "person",
+    "gloss": "King of Judah, also called Joash."
+   },
+   {
+    "name": "Zibiah",
+    "kind": "person",
+    "gloss": "Jehoash's mother."
+   },
+   {
+    "name": "Beersheba",
+    "kind": "place",
+    "gloss": "A town in the far south of Judah."
+   },
+   {
+    "name": "Jehoiada",
+    "kind": "person",
+    "gloss": "The priest who raised and guided the king."
+   },
+   {
+    "name": "Hazael",
+    "kind": "person",
+    "gloss": "King of Syria."
+   },
+   {
+    "name": "Gath",
+    "kind": "place",
+    "gloss": "A Philistine city captured by Hazael."
+   },
+   {
+    "name": "Amaziah",
+    "kind": "person",
+    "gloss": "Jehoash's son and successor."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "While Jehoiada instructed him",
+    "body": "Jehoash did right \"all his days in which Jehoiada the priest instructed him\" (12:2). The phrase hints at a change after Jehoiada's death, which Chronicles describes: the king even had Jehoiada's son Zechariah stoned in the Temple court. Many think Jesus refers to this murder when he speaks of the blood of Zechariah.",
+    "refs": [
+     "2 Chronicles 24:17-22",
+     "Matthew 23:35"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Twenty-three years of delay",
+    "body": "By the king's twenty-third year the priests still had not repaired the Temple (12:6). The text does not say why, though the money may have gone to their own support. The king changes the system instead of only blaming them.",
+    "refs": [
+     "1 Corinthians 9:13-14"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The collection chest",
+    "body": "Jehoiada bores a hole in a chest lid and sets it beside the altar (12:9). The money is counted by the king's scribe and the high priest and paid straight to carpenters, builders and masons (12:10-12). It is an early picture of open, accountable giving.",
+    "refs": [
+     "Mark 12:41-44"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "They dealt faithfully",
+    "body": "The overseers were not asked for accounts, \"for they dealt faithfully\" (12:15). Honest people made trust possible. Paul, too, took care that collections were handled honourably.",
+    "refs": [
+     "2 Kings 22:7",
+     "2 Corinthians 8:20-21",
+     "Luke 16:10"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The high places remained",
+    "body": "Even good kings of Judah carry the note, \"However the high places were not taken away\" (12:3). These local shrines, often for Yahweh, were forbidden once God chose one place for worship. Only Hezekiah and Josiah remove them.",
+    "refs": [
+     "Deuteronomy 12:13-14",
+     "2 Kings 18:4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Paying off the enemy",
+    "body": "Jehoash sends the Temple's dedicated treasures to Hazael to make him withdraw (12:18). Asa did the same before him, and Ahaz and Hezekiah will do it after. Gifts given to God become the price of political survival.",
+    "refs": [
+     "1 Kings 15:18",
+     "2 Kings 16:8",
+     "2 Kings 18:15"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Joash or Jehoash",
+    "body": "The king is called both Jehoash and Joash (12:1, 12:19), two forms of one name meaning Yahweh has given. Israel will soon have a king with the same name. Readers need to watch which kingdom is meant.",
+    "refs": [
+     "2 Kings 13:10"
+    ]
+   }
+  ]
+ },
+ "13": {
+  "summary": "Jehoahaz and then Jehoash reign over Israel under heavy Syrian pressure; the dying Elisha has Jehoash shoot an arrow and strike the ground, and rebukes him for stopping at three; a dead man revives on touching Elisha's bones.",
+  "lookfor": "Notice God's mercy to undeserving kings, the arrows at Elisha's deathbed, and the strange miracle at his tomb.",
+  "names": [
+   {
+    "name": "Jehoahaz",
+    "kind": "person",
+    "gloss": "Jehu's son, king of Israel."
+   },
+   {
+    "name": "Hazael",
+    "kind": "person",
+    "gloss": "King of Syria, Israel's oppressor."
+   },
+   {
+    "name": "Benhadad",
+    "kind": "person",
+    "gloss": "Hazael's son and successor."
+   },
+   {
+    "name": "Jehoash",
+    "kind": "person",
+    "gloss": "Jehoahaz's son, king of Israel; also called Joash."
+   },
+   {
+    "name": "Elisha",
+    "kind": "person",
+    "gloss": "The prophet, now old and dying."
+   },
+   {
+    "name": "Aphek",
+    "kind": "place",
+    "gloss": "A town where Israel would defeat Syria."
+   },
+   {
+    "name": "Moabites",
+    "kind": "group",
+    "gloss": "Raiders from Moab."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "God listened anyway",
+    "body": "Jehoahaz does evil, yet when he begs Yahweh, \"Yahweh listened to him\" (13:4). God gives Israel \"a savior\" (13:5), though the people keep their sins (13:6). The pattern recalls the book of Judges; the savior may be a later king of Israel, or Assyria's pressure on Syria.",
+    "refs": [
+     "Judges 2:16-19"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Like dust in threshing",
+    "body": "Israel's army shrinks to fifty horsemen, ten chariots and ten thousand foot soldiers (13:7). An inscription of Shalmaneser III credits Ahab with two thousand chariots at the battle of Qarqar a few decades earlier. The numbers show how badly Hazael had crushed Israel.",
+    "refs": [
+     "2 Kings 10:32"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "My father, my father",
+    "body": "King Jehoash weeps over the dying Elisha with the words Elisha himself cried when Elijah was taken: \"the chariots of Israel and its horsemen!\" (13:14). Even an unfaithful king knows the prophet was Israel's real strength.",
+    "refs": [
+     "2 Kings 2:12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Three strikes",
+    "body": "Elisha tells the king to strike the ground with the arrows, and he \"struck three times, and stopped\" (13:18). Elisha is angry, because half-hearted action will bring only partial victory (13:19). Jehoash duly beats Syria three times (13:25).",
+    "refs": [
+     "2 Kings 13:25"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Elisha's bones",
+    "body": "A dead man thrown hastily into Elisha's tomb revives when he touches the bones (13:21). Catholic and Orthodox Christians have cited this verse in support of honouring relics, seeing God's power at work even through a saint's body. Protestants usually read it as a unique sign confirming Elisha's ministry. The book of Sirach praises Elisha, whose body prophesied even in death.",
+    "refs": [
+     "Acts 19:11-12"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Mercy for the patriarchs' sake",
+    "body": "Yahweh is gracious to Israel \"because of his covenant with Abraham, Isaac, and Jacob\" (13:23). Israel is spared because God remembers his promise, not because it deserves to be. The words \"as yet\" warn that his patience has a limit.",
+    "refs": [
+     "Exodus 2:24",
+     "Leviticus 26:42"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Stopping at three",
+    "body": "The king did what he was told, but without eagerness, and settled for less than was offered. Where might you be settling for less than God offers?",
+    "refs": [
+     "Ephesians 3:20"
+    ]
+   }
+  ]
+ },
+ "14": {
+  "summary": "Amaziah of Judah defeats Edom, then foolishly challenges Jehoash of Israel, who routs him and plunders Jerusalem; Amaziah is assassinated, and in Israel Jeroboam II restores the old borders as the prophet Jonah had foretold.",
+  "lookfor": "Notice Amaziah's care for the law, the fable of the thistle and the cedar, and God's mercy through a bad king.",
+  "names": [
+   {
+    "name": "Amaziah",
+    "kind": "person",
+    "gloss": "Son of Joash, king of Judah."
+   },
+   {
+    "name": "Jehoash",
+    "kind": "person",
+    "gloss": "King of Israel."
+   },
+   {
+    "name": "Sela",
+    "kind": "place",
+    "gloss": "An Edomite stronghold; the name means rock."
+   },
+   {
+    "name": "Beth Shemesh",
+    "kind": "place",
+    "gloss": "A town of Judah west of Jerusalem."
+   },
+   {
+    "name": "Azariah",
+    "kind": "person",
+    "gloss": "Amaziah's son, also called Uzziah."
+   },
+   {
+    "name": "Jeroboam",
+    "kind": "person",
+    "gloss": "Jeroboam II, king of Israel for forty-one years."
+   },
+   {
+    "name": "Jonah",
+    "kind": "person",
+    "gloss": "The prophet son of Amittai."
+   },
+   {
+    "name": "Hamath",
+    "kind": "place",
+    "gloss": "A city in Syria marking Israel's ideal northern border."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Each for his own sin",
+    "body": "Amaziah executes his father's murderers but spares their children (14:5-6), quoting the law of Moses: \"every man shall die for his own sin\" (14:6). Kings rarely shows a king following a particular command so exactly. Ezekiel later develops this principle of personal responsibility.",
+    "refs": [
+     "Deuteronomy 24:16",
+     "Ezekiel 18:20"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Sela",
+    "body": "Sela means rock, and it was once linked with the later rock city of Petra. Many scholars now prefer a site nearer Judah, such as es-Sela near Bozrah. Amaziah renames it Joktheel (14:7), since naming a conquered city marked ownership.",
+    "refs": [
+     "2 Chronicles 25:11-12"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Look one another in the face",
+    "body": "Amaziah's message, \"Come, let us look one another in the face\" (14:8), is a challenge to battle. Jehoash replies with a fable of a thistle asking a cedar for its daughter, only to be trampled by a passing animal (14:9). Amaziah is the thistle.",
+    "refs": [
+     "Judges 9:8-15"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Pride before the fall",
+    "body": "Jehoash warns, \"your heart has lifted you up\" (14:10), but Amaziah will not listen (14:11). Judah is routed, Jerusalem's wall is broken and the Temple plundered (14:13-14). Chronicles adds that Amaziah had begun worshipping the gods of Edom after his victory.",
+    "refs": [
+     "Proverbs 16:18",
+     "2 Chronicles 25:14-20"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Jonah son of Amittai",
+    "body": "Jeroboam II restores Israel's borders according to the word of \"Jonah the son of Amittai\" (14:25). This is the same prophet later sent to Nineveh. Here he announces good news for Israel; in his own book he resents God's mercy to Assyria.",
+    "refs": [
+     "Jonah 1:1-3",
+     "Jonah 4:1-2"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Saved through a bad king",
+    "body": "Jeroboam II does evil (14:24), yet God saves Israel through him, seeing that \"there was no helper for Israel\" (14:26). God's compassion is not earned by the king. Amos and Hosea, who preached in his prosperous reign, expose the injustice beneath the success.",
+    "refs": [
+     "Amos 6:4-7",
+     "Hosea 1:1"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Truth from a rival",
+    "body": "Jehoash's advice to stay home was sound, even though it came from an enemy. How do you respond when someone you dislike tells you a hard truth?",
+    "refs": [
+     "Proverbs 27:6",
+     "Proverbs 12:15"
+    ]
+   }
+  ]
+ },
+ "15": {
+  "summary": "Azariah (Uzziah) and Jotham reign long in Judah, while Israel collapses into a series of assassinations under Zechariah, Shallum, Menahem, Pekahiah and Pekah; Assyria takes tribute and then the northern territories.",
+  "lookfor": "Notice how briefly each king of Israel appears, the end of Jehu's line, and the arrival of Assyria.",
+  "names": [
+   {
+    "name": "Azariah",
+    "kind": "person",
+    "gloss": "King of Judah, also called Uzziah."
+   },
+   {
+    "name": "Jotham",
+    "kind": "person",
+    "gloss": "Azariah's son, regent and then king of Judah."
+   },
+   {
+    "name": "Zechariah",
+    "kind": "person",
+    "gloss": "Jeroboam II's son, the last of Jehu's dynasty."
+   },
+   {
+    "name": "Shallum",
+    "kind": "person",
+    "gloss": "Zechariah's assassin, king for one month."
+   },
+   {
+    "name": "Menahem",
+    "kind": "person",
+    "gloss": "Shallum's assassin, king for ten years."
+   },
+   {
+    "name": "Pul",
+    "kind": "person",
+    "gloss": "Another name for Tiglath Pileser III of Assyria."
+   },
+   {
+    "name": "Pekah",
+    "kind": "person",
+    "gloss": "Son of Remaliah, who seizes Israel's throne."
+   },
+   {
+    "name": "Tiglath Pileser",
+    "kind": "person",
+    "gloss": "King of Assyria, 745–727 BC."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Azariah or Uzziah",
+    "body": "Judah's king is called Azariah (15:1) and Uzziah (15:13, 15:30). The names mean Yahweh has helped and Yahweh is my strength. Isaiah dates his great vision to the year King Uzziah died.",
+    "refs": [
+     "Isaiah 6:1",
+     "2 Chronicles 26:1"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A king with leprosy",
+    "body": "\"Yahweh struck the king, so that he was a leper\" (15:5), and he lived apart while his son Jotham governed. Kings gives no reason. Chronicles explains that he proudly burned incense in the Temple, a task reserved for priests.",
+    "refs": [
+     "2 Chronicles 26:16-21"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "To the fourth generation",
+    "body": "Zechariah's murder ends Jehu's dynasty, and the writer notes that God's promise to Jehu was kept: \"So it came to pass\" (15:12). After this, no dynasty in Israel lasts more than two kings. God's word sets both the blessing and its limit.",
+    "refs": [
+     "2 Kings 10:30"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Kings not chosen by God",
+    "body": "Of Israel's last six kings, four are murdered by their successors (15:10, 15:14, 15:25, 15:30). Each reign is summed up in a few verses. Hosea, preaching in these years, has God say, \"They have set up kings, but not by me.\"",
+    "refs": [
+     "Hosea 8:4",
+     "Hosea 7:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Pul of Assyria",
+    "body": "Pul (15:19) is Tiglath Pileser III (15:29); Babylonian records call him Pulu. His own annals list Menahem of Samaria among the kings who paid him tribute. Menahem raised a thousand talents by charging about sixty thousand wealthy men fifty shekels each (15:20).",
+    "refs": [
+     "1 Chronicles 5:26"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Like the nations",
+    "body": "Menahem rips open the pregnant women of Tiphsah (15:16), the very atrocity Elisha had wept to foresee from Hazael. Amos condemned Ammon for the same crime. Israel's king now behaves like its worst enemies.",
+    "refs": [
+     "2 Kings 8:12",
+     "Amos 1:13"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Galilee taken",
+    "body": "Around 733 BC Tiglath Pileser takes Galilee and the land of Naphtali and deports its people (15:29). Isaiah later promises that this same region will see a great light. Matthew applies that promise to Jesus' ministry in Galilee.",
+    "refs": [
+     "Isaiah 9:1-2",
+     "Matthew 4:13-16"
+    ]
+   }
+  ]
+ },
+ "16": {
+  "summary": "Ahaz of Judah sacrifices his son, asks Tiglath Pileser of Assyria for help against Syria and Israel and pays him with Temple treasure, and replaces the Temple's bronze altar with a copy of an altar he saw in Damascus.",
+  "lookfor": "Notice where Ahaz turns for help, what it costs, and how he reshapes the Temple.",
+  "names": [
+   {
+    "name": "Ahaz",
+    "kind": "person",
+    "gloss": "Jotham's son, king of Judah."
+   },
+   {
+    "name": "Rezin",
+    "kind": "person",
+    "gloss": "King of Syria."
+   },
+   {
+    "name": "Pekah",
+    "kind": "person",
+    "gloss": "King of Israel, allied with Rezin."
+   },
+   {
+    "name": "Elath",
+    "kind": "place",
+    "gloss": "A port on the Red Sea gulf."
+   },
+   {
+    "name": "Tiglath Pileser",
+    "kind": "person",
+    "gloss": "King of Assyria."
+   },
+   {
+    "name": "Damascus",
+    "kind": "place",
+    "gloss": "Capital of Syria, captured by Assyria."
+   },
+   {
+    "name": "Urijah",
+    "kind": "person",
+    "gloss": "The chief priest in Jerusalem."
+   },
+   {
+    "name": "Hezekiah",
+    "kind": "person",
+    "gloss": "Ahaz's son and successor."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Through the fire",
+    "body": "Ahaz \"made his son to pass through the fire\" (16:3), most likely a child sacrifice. The law called this one of the abominations of the nations. Ahaz is the first king of Judah said to do it.",
+    "refs": [
+     "Deuteronomy 18:10",
+     "Leviticus 18:21"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Isaiah's sign to Ahaz",
+    "body": "During this crisis Isaiah urged Ahaz to trust God, not Assyria, and gave the sign of a young woman, or virgin, bearing a son called Immanuel. Ahaz refused and sent to Assyria instead (16:7). Jewish interpreters usually see the sign fulfilled in Isaiah's own day; Christians, following Matthew, see its fullest meaning in the birth of Jesus.",
+    "refs": [
+     "Isaiah 7:1-14",
+     "Matthew 1:22-23"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Your servant and your son",
+    "body": "Ahaz writes, \"I am your servant and your son\" (16:7), the language of a vassal treaty. A king of David's line, whom God called his own son, now calls himself Assyria's son. He pays with silver and gold from the Temple (16:8).",
+    "refs": [
+     "2 Samuel 7:14",
+     "Psalms 2:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The altar from Damascus",
+    "body": "Ahaz sends Urijah the priest a drawing of an altar he saw in Damascus (16:10). The new altar takes the central place, and Solomon's bronze altar is kept \"for me to inquire by\" (16:15), perhaps for omens. Copying the worship of the powerful was a way of showing loyalty.",
+    "refs": [
+     "1 Kings 8:64"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Stripping the Temple",
+    "body": "Ahaz removes the panels from the stands and takes the bronze sea off its oxen (16:17), probably to pay tribute. He also changes the royal entrance \"because of the king of Assyria\" (16:18). Fear of Assyria reshapes God's house.",
+    "refs": [
+     "1 Kings 7:23-29"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A rescue that becomes a trap",
+    "body": "Assyria crushes Damascus as Ahaz asked (16:9). But the help costs Judah its independence, and in the next generation Assyria will march on Jerusalem itself. Trusting a superpower instead of God brings short-term relief and long-term ruin.",
+    "refs": [
+     "Isaiah 8:6-8",
+     "2 Kings 18:13"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Where we run first",
+    "body": "Ahaz ran first to Assyria, not to God. When you are under pressure, where do you turn first?",
+    "refs": [
+     "Psalms 20:7",
+     "Isaiah 30:15"
+    ]
+   }
+  ]
+ },
+ "17": {
+  "summary": "Hoshea rebels against Assyria, Samaria falls after a three-year siege, and Israel is taken into exile; the writer explains why, and describes the foreigners settled in Samaria who worship Yahweh alongside their own gods.",
+  "lookfor": "Notice the long explanation of Israel's fall, the prophets' warnings, and the mixed worship of the new settlers.",
+  "names": [
+   {
+    "name": "Hoshea",
+    "kind": "person",
+    "gloss": "Israel's last king."
+   },
+   {
+    "name": "Shalmaneser",
+    "kind": "person",
+    "gloss": "Shalmaneser V, king of Assyria."
+   },
+   {
+    "name": "So",
+    "kind": "person",
+    "gloss": "A king of Egypt, of uncertain identity."
+   },
+   {
+    "name": "Samaria",
+    "kind": "place",
+    "gloss": "Israel's capital, which falls in 722 BC."
+   },
+   {
+    "name": "Halah",
+    "kind": "place",
+    "gloss": "A region in Assyria where exiles were settled."
+   },
+   {
+    "name": "Gozan",
+    "kind": "place",
+    "gloss": "A region on the Habor river in upper Mesopotamia."
+   },
+   {
+    "name": "Jeroboam",
+    "kind": "person",
+    "gloss": "Jeroboam son of Nebat, who set up the golden calves."
+   },
+   {
+    "name": "Bethel",
+    "kind": "place",
+    "gloss": "Site of a calf shrine, where a priest returns to teach."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Who was So?",
+    "body": "Hoshea sought help from \"So king of Egypt\" (17:4), whose identity is debated. Suggestions include Osorkon IV, or reading So as Sais, a city in the Nile Delta. Egypt was divided and weak, and no help came.",
+    "refs": [
+     "Isaiah 30:1-3",
+     "Hosea 7:11"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Sargon's claim",
+    "body": "Assyrian inscriptions of Sargon II, Shalmaneser's successor, claim the capture of Samaria and the deportation of 27,290 people. Kings names only \"the king of Assyria\" for the final capture (17:6). The exiles were settled in upper Mesopotamia and among the Medes.",
+    "refs": [
+     "2 Kings 18:9-11"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why Israel fell",
+    "body": "The writer pauses to explain (17:7-23): Israel feared other gods, made the calves, served Baal and sacrificed children. Above all, \"they would not listen\" (17:14) to the prophets God kept sending. The exile is presented not as Assyria's victory but as God's judgment.",
+    "refs": [
+     "Deuteronomy 28:36",
+     "Deuteronomy 28:64"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Every prophet and seer",
+    "body": "God warned Israel \"by every prophet, and every seer\" (17:13), calling it to turn. Amos and Hosea preached to this kingdom in its last decades. Jesus later laments Jerusalem as the city that kills the prophets sent to it.",
+    "refs": [
+     "Amos 4:6-12",
+     "Matthew 23:37"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Vanity",
+    "body": "Israel \"followed vanity, and became vain\" (17:15). The Hebrew hevel means breath or vapour, the word that runs through Ecclesiastes. People become like what they worship.",
+    "refs": [
+     "Jeremiah 2:5",
+     "Psalms 115:8",
+     "Ecclesiastes 1:2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Lions in the land",
+    "body": "When the settlers do not fear Yahweh, lions kill some of them (17:25). The Assyrians decide the newcomers need \"the law of the god of the land\" (17:26). They treat Yahweh as one more local god to be kept happy.",
+    "refs": [
+     "Leviticus 18:28"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Roots of the Samaritans",
+    "body": "Assyria resettles people from Babylon, Cuthah, Hamath and elsewhere in Samaria (17:24), and they mix the worship of Yahweh with their own gods (17:33). Jewish tradition later called the Samaritans Cuthim from this passage, while Samaritans trace their descent from Israelites who stayed in the land. This history explains the hostility in the Gospels, and the shock of Jesus' good Samaritan.",
+    "refs": [
+     "John 4:9",
+     "Luke 10:33",
+     "Ezra 4:1-3"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Divided loyalties",
+    "body": "\"They feared Yahweh, and also served their own gods\" (17:33). Where might you honour God while keeping other loyalties alongside him?",
+    "refs": [
+     "Matthew 6:24",
+     "1 Kings 18:21"
+    ]
+   }
+  ]
+ },
+ "18": {
+  "summary": "Hezekiah, Judah's most trusting king, removes the high places and breaks the bronze serpent; Samaria falls to Assyria; Sennacherib invades Judah, and his officer the Rabshakeh mocks Hezekiah's trust in Yahweh outside Jerusalem's walls.",
+  "lookfor": "Notice what Hezekiah destroys, the praise given to him, and each argument in the Rabshakeh's speech.",
+  "names": [
+   {
+    "name": "Hezekiah",
+    "kind": "person",
+    "gloss": "Son of Ahaz, king of Judah."
+   },
+   {
+    "name": "Shalmaneser",
+    "kind": "person",
+    "gloss": "King of Assyria who besieged Samaria."
+   },
+   {
+    "name": "Sennacherib",
+    "kind": "person",
+    "gloss": "King of Assyria, 705–681 BC."
+   },
+   {
+    "name": "Lachish",
+    "kind": "place",
+    "gloss": "Judah's second city, where Sennacherib set up camp."
+   },
+   {
+    "name": "Rabshakeh",
+    "kind": "person",
+    "gloss": "A title for a senior Assyrian official, the chief cupbearer."
+   },
+   {
+    "name": "Eliakim",
+    "kind": "person",
+    "gloss": "Son of Hilkiah, palace administrator."
+   },
+   {
+    "name": "Joah",
+    "kind": "person",
+    "gloss": "Son of Asaph, the royal recorder."
+   },
+   {
+    "name": "Egypt",
+    "kind": "place",
+    "gloss": "The power Judah was tempted to rely on."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Nehushtan",
+    "body": "Hezekiah breaks the bronze serpent Moses made, because people were burning incense to it, and he calls it Nehushtan (18:4). The name plays on the Hebrew for bronze and serpent, something like a mere bronze thing. A gift from God had become an idol. Jesus later uses the serpent lifted up in the wilderness as a picture of his own lifting up.",
+    "refs": [
+     "Numbers 21:8-9",
+     "John 3:14-15"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "None like him",
+    "body": "\"He trusted in Yahweh, the God of Israel; so that after him was no one like him among all the kings of Judah\" (18:5). Josiah is praised in similar terms for turning to the law. Hezekiah is singled out for trust, which this chapter will test.",
+    "refs": [
+     "2 Kings 23:25"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Sennacherib's own account",
+    "body": "Sennacherib's annals record his campaign of 701 BC: forty-six walled towns of Judah taken and Hezekiah shut up in Jerusalem like a bird in a cage. Reliefs from his palace, now in the British Museum, show the siege of Lachish (18:14). The annals agree on thirty talents of gold, though they claim more silver than Kings does.",
+    "refs": [
+     "Isaiah 36:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Paying for peace",
+    "body": "Even trusting Hezekiah first tries to buy peace, stripping the gold from the Temple doors he had overlaid himself (18:16). Assyria takes the money and sends an army anyway (18:17). Payment does not buy safety.",
+    "refs": [
+     "2 Kings 16:8"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The Rabshakeh's argument",
+    "body": "The Assyrian officer's speech is clever propaganda (18:19-35). He mocks trust in Egypt as \"the staff of this bruised reed\" (18:21), twists Hezekiah's removal of the high places into an offence against Yahweh (18:22), and claims Yahweh sent him (18:25). His final argument is that no god has saved any nation from Assyria (18:33-35).",
+    "refs": [
+     "Isaiah 36:4-20",
+     "Ezekiel 29:6-7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Speak Aramaic",
+    "body": "Hezekiah's officials ask him to speak \"in the Syrian language\" (18:26), Aramaic, the language of diplomacy, not in Judah's own Hebrew. The Rabshakeh refuses and shouts louder so the people on the wall will hear (18:27-28). His aim is to break their morale.",
+    "refs": [
+     "Ezra 4:7",
+     "Daniel 2:4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Your own vine and fig tree",
+    "body": "The Rabshakeh promises that each man will eat \"from his own vine\" and \"from his own fig tree\" (18:31), until Assyria moves them to a land like their own. These were Israel's own pictures of peace under God. Assyria offers God's blessings without God.",
+    "refs": [
+     "Micah 4:4",
+     "1 Kings 4:25"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Answering not a word",
+    "body": "The people stay silent, as the king commanded (18:36). When faith is mocked, when is silence wiser than argument?",
+    "refs": [
+     "Proverbs 26:4",
+     "Isaiah 53:7"
+    ]
+   }
+  ]
+ },
+ "19": {
+  "summary": "Hezekiah turns to Isaiah and spreads Sennacherib's threatening letter before Yahweh in prayer; Isaiah announces God's answer, Yahweh's angel strikes the Assyrian camp, and Sennacherib goes home, where his sons later kill him.",
+  "lookfor": "Notice how Hezekiah prays, what he asks for, and how God's reply mocks Assyria's pride.",
+  "names": [
+   {
+    "name": "Hezekiah",
+    "kind": "person",
+    "gloss": "King of Judah."
+   },
+   {
+    "name": "Isaiah",
+    "kind": "person",
+    "gloss": "The prophet, son of Amoz."
+   },
+   {
+    "name": "Rabshakeh",
+    "kind": "person",
+    "gloss": "Sennacherib's spokesman."
+   },
+   {
+    "name": "Libnah",
+    "kind": "place",
+    "gloss": "A town of Judah attacked by Assyria."
+   },
+   {
+    "name": "Tirhakah",
+    "kind": "person",
+    "gloss": "A Nubian ruler of Egypt."
+   },
+   {
+    "name": "Sennacherib",
+    "kind": "person",
+    "gloss": "King of Assyria."
+   },
+   {
+    "name": "Nineveh",
+    "kind": "place",
+    "gloss": "Assyria's capital."
+   },
+   {
+    "name": "Esar Haddon",
+    "kind": "person",
+    "gloss": "Sennacherib's son and successor."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Spread before Yahweh",
+    "body": "Hezekiah takes the letter to the Temple and \"spread it before Yahweh\" (19:14). He lays the actual threat in front of God. His prayer begins not with the danger but with who God is (19:15).",
+    "refs": [
+     "Philippians 4:6",
+     "1 Peter 5:7"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "So all kingdoms may know",
+    "body": "Hezekiah asks for more than rescue: \"that all the kingdoms of the earth may know that you, Yahweh, are God alone\" (19:19). The Assyrians had treated Yahweh like the idols of wood and stone they had burned (19:18). The real issue is God's honour.",
+    "refs": [
+     "1 Kings 18:37",
+     "Psalms 46:10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Tirhakah",
+    "body": "Tirhakah \"king of Ethiopia\" (19:9) belonged to the dynasty from Cush, or Nubia, that ruled Egypt. In 701 BC he was probably a young prince leading the army, and he became pharaoh around 690 BC. The writer may be using the title he later held.",
+    "refs": [
+     "Isaiah 37:9"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Virgin daughter of Zion",
+    "body": "God's reply calls Jerusalem \"The virgin daughter of Zion\" (19:21), a city not yet taken by any conqueror. She shakes her head in scorn at the boasting king. The prophets often picture a city as a daughter.",
+    "refs": [
+     "Lamentations 2:13",
+     "Zechariah 9:9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A hook in your nose",
+    "body": "God says, \"I will put my hook in your nose, and my bridle in your lips\" (19:28). Assyrian reliefs show captives led by ropes fastened through their lips or noses. The cruel empire will be treated as it treated others.",
+    "refs": [
+     "Ezekiel 38:4",
+     "Isaiah 10:12-15"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "For my own sake",
+    "body": "God defends Jerusalem \"for my own sake, and for my servant David's sake\" (19:34), and that night his angel strikes the Assyrian camp (19:35). Sennacherib's own annals boast of trapping Hezekiah but never claim to take Jerusalem. The rescue rests on God's name and his promise to David.",
+    "refs": [
+     "2 Samuel 7:16",
+     "Isaiah 37:35"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Songs of Zion",
+    "body": "Many interpreters, Jewish and Christian, connect Psalms 46 and 48 with this deliverance, since they celebrate God shattering kings who attack his city. Isaiah tells the same story almost word for word. Chronicles gives a shorter account.",
+    "refs": [
+     "Psalms 46:1-7",
+     "Psalms 48:4-8",
+     "Isaiah 37:36-38",
+     "2 Chronicles 32:20-22"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Killed by his sons",
+    "body": "Sennacherib returns to Nineveh (19:36) and is later killed by his sons while worshipping in his god's temple (19:37). Babylonian records confirm his murder in 681 BC, twenty years after this campaign. The god he trusted could not protect him in his own temple.",
+    "refs": [
+     "Isaiah 37:38"
+    ]
+   }
+  ]
+ },
+ "20": {
+  "summary": "Hezekiah falls ill, prays and is granted fifteen more years, with the sign of the shadow going back on the steps of Ahaz; he then shows all his treasures to envoys from Babylon, and Isaiah predicts the Babylonian exile.",
+  "lookfor": "Notice how God answers Hezekiah's tears, the sign he is given, and his response to Isaiah's last prophecy.",
+  "names": [
+   {
+    "name": "Hezekiah",
+    "kind": "person",
+    "gloss": "King of Judah."
+   },
+   {
+    "name": "Isaiah",
+    "kind": "person",
+    "gloss": "The prophet."
+   },
+   {
+    "name": "Amoz",
+    "kind": "person",
+    "gloss": "Isaiah's father."
+   },
+   {
+    "name": "Ahaz",
+    "kind": "person",
+    "gloss": "Hezekiah's father, who built the steps used as a sundial."
+   },
+   {
+    "name": "Berodach Baladan",
+    "kind": "person",
+    "gloss": "A Babylonian king who rebelled against Assyria."
+   },
+   {
+    "name": "Babylon",
+    "kind": "place",
+    "gloss": "A city then seeking allies against Assyria."
+   },
+   {
+    "name": "Manasseh",
+    "kind": "person",
+    "gloss": "Hezekiah's son and successor."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Does God change his mind?",
+    "body": "Isaiah tells Hezekiah he will die (20:1), then returns with fifteen more years (20:5-6). The first word was a true warning that left room for prayer, like Jonah's message to Nineveh. Scripture presents prayer as a real conversation that God invites and answers.",
+    "refs": [
+     "Jonah 3:10",
+     "Jeremiah 18:7-8",
+     "James 5:16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "I have seen your tears",
+    "body": "God's answer is, \"I have heard your prayer. I have seen your tears\" (20:5). Hezekiah's bitter weeping is not rebuked. Isaiah preserves the song Hezekiah wrote after he recovered.",
+    "refs": [
+     "Psalms 56:8",
+     "Isaiah 38:9-20"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A cake of figs",
+    "body": "Isaiah has a fig poultice laid on the boil (20:7). Figs were used as medicine in the ancient Near East; texts from Ugarit prescribe them for horses. Healing comes through prayer and a remedy together.",
+    "refs": [
+     "Isaiah 38:21"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The steps of Ahaz",
+    "body": "The sign is the shadow going back ten steps \"on the sundial of Ahaz\" (20:11). The Hebrew word means steps or stairs, perhaps a stairway on which the shadow marked the time. Ahaz once refused a sign from Isaiah; now his structure carries a sign for his son.",
+    "refs": [
+     "Isaiah 7:11-12",
+     "Isaiah 38:8"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Envoys from Babylon",
+    "body": "Berodach Baladan, Marduk-apla-iddina in Babylonian records, fought Assyria for years and was looking for allies. Hezekiah shows his envoys everything (20:13, 20:15), perhaps to impress them as a partner. Chronicles says God left Hezekiah to test what was in his heart.",
+    "refs": [
+     "2 Chronicles 32:31"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Babylon on the horizon",
+    "body": "Isaiah announces that everything will be \"carried to Babylon\" (20:17), and some of Hezekiah's descendants will serve as eunuchs there (20:18). At this point Babylon is a small ally against Assyria; a century later it will destroy Jerusalem. The book's ending comes into view.",
+    "refs": [
+     "2 Kings 24:13",
+     "Daniel 1:3-6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Hezekiah's tunnel",
+    "body": "The pool and conduit that brought water into the city (20:20) are usually identified with Hezekiah's Tunnel, cut about 533 metres through rock to the Pool of Siloam. An inscription found inside in 1880 describes the two teams of diggers meeting. It secured Jerusalem's water during a siege.",
+    "refs": [
+     "2 Chronicles 32:30",
+     "John 9:7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Peace in my days",
+    "body": "Hezekiah replies, \"Isn't it so, if peace and truth will be in my days?\" (20:19). Some read this as humble acceptance, others as relief that disaster will fall on others. How much do you care about the generation after you?",
+    "refs": [
+     "Psalms 78:4-7"
+    ]
+   }
+  ]
+ },
+ "21": {
+  "summary": "Manasseh reigns fifty-five years and undoes his father's reforms, rebuilding high places, setting an idol in the Temple, sacrificing his son and shedding much innocent blood; God announces Jerusalem's doom, and Manasseh's son Amon is assassinated after two years.",
+  "lookfor": "Notice how completely Manasseh reverses Hezekiah's work, the images of judgment, and who puts Josiah on the throne.",
+  "names": [
+   {
+    "name": "Manasseh",
+    "kind": "person",
+    "gloss": "Hezekiah's son, king of Judah for fifty-five years."
+   },
+   {
+    "name": "Hezekiah",
+    "kind": "person",
+    "gloss": "Manasseh's reforming father."
+   },
+   {
+    "name": "Hephzibah",
+    "kind": "person",
+    "gloss": "Manasseh's mother."
+   },
+   {
+    "name": "Ahab",
+    "kind": "person",
+    "gloss": "The king of Israel whose ways Manasseh copies."
+   },
+   {
+    "name": "Amorites",
+    "kind": "group",
+    "gloss": "A people of Canaan, a byword for wickedness."
+   },
+   {
+    "name": "Amon",
+    "kind": "person",
+    "gloss": "Manasseh's son, king for two years."
+   },
+   {
+    "name": "Josiah",
+    "kind": "person",
+    "gloss": "Amon's son, made king at eight."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "The worst king",
+    "body": "Manasseh leads Judah to do more evil than \"the nations did whom Yahweh destroyed\" (21:9). His reign, the longest of any king of Judah, undoes Hezekiah's work. Kings will later name his sins as the reason Judah fell.",
+    "refs": [
+     "2 Kings 23:26",
+     "2 Kings 24:3-4"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The army of the sky",
+    "body": "Manasseh builds altars for \"all the army of the sky\" (21:5), the sun, moon and stars. Star worship was central to Assyrian religion, and Judah was then Assyria's vassal. Deuteronomy had forbidden it.",
+    "refs": [
+     "Deuteronomy 4:19",
+     "Zephaniah 1:5"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Ears will tingle",
+    "body": "God says the disaster will be such that \"both his ears will tingle\" (21:12), the words he spoke to Samuel about Eli's house. Jeremiah repeats the phrase about Jerusalem. It describes news so shocking that it rings in the hearer's head.",
+    "refs": [
+     "1 Samuel 3:11",
+     "Jeremiah 19:3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Wiping a dish",
+    "body": "God will stretch over Jerusalem \"the line of Samaria\" and \"wipe Jerusalem as a man wipes a dish, wiping it and turning it upside down\" (21:13). A builder's line and plumb weight test whether a wall is straight. Jerusalem will be judged by the same standard as Samaria.",
+    "refs": [
+     "Amos 7:7-9",
+     "Isaiah 28:17"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Innocent blood",
+    "body": "Manasseh \"shed innocent blood very much\" (21:16). Jewish tradition, followed by some early Christians, holds that the prophet Isaiah was sawn in two under Manasseh. Hebrews may allude to this when it speaks of the faithful who were sawn apart.",
+    "refs": [
+     "Hebrews 11:37"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Manasseh's repentance",
+    "body": "Kings says nothing good about Manasseh, but Chronicles records that he was taken captive to Babylon, humbled himself, and was restored. The Prayer of Manasseh, part of Orthodox Bibles and printed among the Apocrypha by others, gives words to that repentance. Kings stresses the lasting damage; Chronicles stresses God's mercy even to the worst.",
+    "refs": [
+     "2 Chronicles 33:10-16"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The people of the land",
+    "body": "Amon's servants kill him in his house (21:23), but \"the people of the land\" kill the conspirators and crown eight-year-old Josiah (21:24). This group of landowners in Judah often acted to keep David's line on the throne. They had done the same for Joash.",
+    "refs": [
+     "2 Kings 11:14",
+     "2 Kings 11:20"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "A long shadow",
+    "body": "Manasseh's reign shaped Judah long after his death. What patterns might you pass on to others, and what would it take to break a harmful one?",
+    "refs": [
+     "Exodus 20:5-6",
+     "Ezekiel 18:14-17"
+    ]
+   }
+  ]
+ },
+ "22": {
+  "summary": "Young King Josiah orders Temple repairs; the high priest Hilkiah finds the book of the law, the king tears his clothes in grief, and the prophetess Huldah confirms the coming judgment but promises Josiah he will die in peace.",
+  "lookfor": "Notice the discovery of the book, the king's reaction, and Huldah's two-part answer.",
+  "names": [
+   {
+    "name": "Josiah",
+    "kind": "person",
+    "gloss": "King of Judah, crowned at eight."
+   },
+   {
+    "name": "Shaphan",
+    "kind": "person",
+    "gloss": "The royal scribe."
+   },
+   {
+    "name": "Hilkiah",
+    "kind": "person",
+    "gloss": "The high priest."
+   },
+   {
+    "name": "Ahikam",
+    "kind": "person",
+    "gloss": "Shaphan's son, later Jeremiah's protector."
+   },
+   {
+    "name": "Achbor",
+    "kind": "person",
+    "gloss": "An official, son of Micaiah."
+   },
+   {
+    "name": "Asaiah",
+    "kind": "person",
+    "gloss": "The king's servant."
+   },
+   {
+    "name": "Huldah",
+    "kind": "person",
+    "gloss": "A prophetess living in Jerusalem."
+   },
+   {
+    "name": "Shallum",
+    "kind": "person",
+    "gloss": "Huldah's husband, keeper of the wardrobe."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Not turning aside",
+    "body": "Josiah \"didn't turn away to the right hand or to the left\" (22:2), the language Deuteronomy and Joshua use for keeping the law. He is presented as the model king of Deuteronomy. The same faithful handling of money from Joash's day appears again (22:7).",
+    "refs": [
+     "Deuteronomy 17:20",
+     "Joshua 1:7",
+     "2 Kings 12:15"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The book of the law",
+    "body": "Hilkiah finds \"the book of the law\" (22:8) during the repairs. Most scholars think it was some form of Deuteronomy, because Josiah's reforms follow its demands closely: one place of worship, covenant renewal and Passover. Traditional Jewish commentators say it was a Torah scroll hidden away under wicked kings, while many critical scholars think it was written not long before.",
+    "refs": [
+     "Deuteronomy 31:24-26",
+     "2 Chronicles 34:14-15"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "He tore his clothes",
+    "body": "Hearing the words, the king tears his clothes (22:11). He sees at once that \"our fathers have not listened to the words of this book\" (22:13). The rediscovered word leads to repentance, not pride.",
+    "refs": [
+     "Joel 2:12-13"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Huldah the prophetess",
+    "body": "The king's officials consult Huldah (22:14), though Jeremiah and Zephaniah were also active. She stands with Miriam, Deborah and later Anna among women recognised as prophets. Jewish tradition connects her name with the Huldah Gates on the Temple Mount.",
+    "refs": [
+     "Judges 4:4",
+     "Luke 2:36",
+     "Exodus 15:20"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A tender heart",
+    "body": "Huldah tells Josiah that \"your heart was tender, and you humbled yourself\" (22:19). A tender heart is soft and responsive to God's word, the opposite of the stiff neck Israel showed before its fall. God hears such a heart.",
+    "refs": [
+     "2 Kings 17:14",
+     "Ezekiel 36:26",
+     "Psalms 51:17"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Delayed, not cancelled",
+    "body": "Huldah's message has two parts: God's wrath against this place \"will not be quenched\" (22:17), but Josiah will go to his grave in peace (22:20). A person's repentance can bring mercy even when the nation's course is set. Since Josiah dies in battle in the next chapter, many explain in peace as meaning before the city's destruction.",
+    "refs": [
+     "2 Kings 23:29",
+     "Isaiah 57:1-2"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "A lost book",
+    "body": "The law had been lost inside God's own house. What part of God's word might be lost in your life, and what might happen if you found it again?",
+    "refs": [
+     "Psalms 119:105",
+     "Psalms 119:18"
+    ]
+   }
+  ]
+ },
+ "23": {
+  "summary": "Josiah reads the covenant to the people and purges idolatry from Jerusalem and Judah, destroying the altar at Bethel as foretold; he celebrates a great Passover, but God's anger over Manasseh stands, and Josiah is killed at Megiddo by Pharaoh Necoh, who then installs Jehoiakim as his vassal.",
+  "lookfor": "Notice how thorough Josiah's reform is, the old prophecy fulfilled at Bethel, and why judgment still comes.",
+  "names": [
+   {
+    "name": "Josiah",
+    "kind": "person",
+    "gloss": "King of Judah."
+   },
+   {
+    "name": "Kidron",
+    "kind": "place",
+    "gloss": "The valley east of Jerusalem."
+   },
+   {
+    "name": "Topheth",
+    "kind": "place",
+    "gloss": "A site in the valley of Hinnom used for child sacrifice."
+   },
+   {
+    "name": "Bethel",
+    "kind": "place",
+    "gloss": "Site of Jeroboam's altar."
+   },
+   {
+    "name": "Pharaoh Necoh",
+    "kind": "person",
+    "gloss": "Necho II, king of Egypt."
+   },
+   {
+    "name": "Megiddo",
+    "kind": "place",
+    "gloss": "A fortress city guarding a key pass."
+   },
+   {
+    "name": "Jehoahaz",
+    "kind": "person",
+    "gloss": "Josiah's son, king for three months."
+   },
+   {
+    "name": "Jehoiakim",
+    "kind": "person",
+    "gloss": "Another son of Josiah, put on the throne by Egypt."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Covenant at the pillar",
+    "body": "Josiah stands \"by the pillar\" (23:3), where Joash was crowned, and makes a covenant to keep God's commands with all his heart and soul. All the people join it. It echoes Israel's covenant at Sinai and Joshua's at Shechem.",
+    "refs": [
+     "2 Kings 11:14",
+     "Exodus 24:7",
+     "Joshua 24:25"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Topheth and Gehenna",
+    "body": "Topheth, in the valley of Hinnom (23:10), was where children were burned to Molech. Josiah defiles it so it cannot be used again. The valley's Hebrew name, Ge Hinnom, became Gehenna, the word Jesus uses for the place of final judgment.",
+    "refs": [
+     "Jeremiah 7:31-32",
+     "Matthew 10:28"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Horses of the sun",
+    "body": "Josiah removes horses dedicated to the sun and burns \"the chariots of the sun\" (23:11). Sun worship had reached the Temple itself; Ezekiel later saw men there bowing to the sun. The purge reaches every corner.",
+    "refs": [
+     "Ezekiel 8:16",
+     "Deuteronomy 17:3"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A prophecy three centuries old",
+    "body": "At Bethel Josiah burns bones on Jeroboam's altar (23:16), fulfilling the word of the man of God from Judah who named Josiah about three hundred years earlier. Josiah spares that prophet's own tomb (23:17-18). Kings shows God's word waiting patiently for its time.",
+    "refs": [
+     "1 Kings 13:2",
+     "1 Kings 13:31-32"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why judgment still came",
+    "body": "\"There was no king like him before him\" (23:25), yet \"Yahweh didn't turn from the fierceness of his great wrath\" (23:26) because of Manasseh. Jeremiah, who began preaching in Josiah's reign, saw that the people's return was not wholehearted. One king's reform could not undo a nation's long rebellion.",
+    "refs": [
+     "Jeremiah 3:10",
+     "Jeremiah 15:4"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Death at Megiddo",
+    "body": "In 609 BC Necoh marched north to the Euphrates (23:29); Babylonian records show he went to help Assyria against Babylon, which fits the Hebrew, as it can mean to as well as against. Josiah tried to stop him at Megiddo and was killed. Chronicles says Necoh warned him that God had sent him, and Zechariah recalls the great mourning at Megiddo.",
+    "refs": [
+     "2 Chronicles 35:20-25",
+     "Zechariah 12:11"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A new name",
+    "body": "Necoh makes Eliakim king and renames him Jehoiakim (23:34), meaning Yahweh raises up. Renaming a vassal showed the overlord's power. Nebuchadnezzar will do the same to Mattaniah, renamed Zedekiah.",
+    "refs": [
+     "2 Kings 24:17",
+     "Daniel 1:7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "With all his might",
+    "body": "Josiah turned to Yahweh \"with all his heart, and with all his soul, and with all his might\" (23:25), the words of the Shema. What would that kind of devotion look like in your life this week?",
+    "refs": [
+     "Deuteronomy 6:5",
+     "Mark 12:30"
+    ]
+   }
+  ]
+ },
+ "24": {
+  "summary": "Jehoiakim submits to Nebuchadnezzar and then rebels; his son Jehoiachin surrenders after three months and is taken to Babylon with the Temple treasures, the leaders and the craftsmen; Nebuchadnezzar makes Zedekiah king, and he too rebels.",
+  "lookfor": "Notice the reasons given for the disaster, who is taken away, and who is left behind.",
+  "names": [
+   {
+    "name": "Nebuchadnezzar",
+    "kind": "person",
+    "gloss": "King of Babylon, 605–562 BC."
+   },
+   {
+    "name": "Jehoiakim",
+    "kind": "person",
+    "gloss": "King of Judah, son of Josiah."
+   },
+   {
+    "name": "Chaldeans",
+    "kind": "group",
+    "gloss": "The Babylonians."
+   },
+   {
+    "name": "Jehoiachin",
+    "kind": "person",
+    "gloss": "Jehoiakim's son, king for three months."
+   },
+   {
+    "name": "Nehushta",
+    "kind": "person",
+    "gloss": "Jehoiachin's mother."
+   },
+   {
+    "name": "Mattaniah",
+    "kind": "person",
+    "gloss": "Josiah's son, renamed Zedekiah."
+   },
+   {
+    "name": "Zedekiah",
+    "kind": "person",
+    "gloss": "Judah's last king."
+   },
+   {
+    "name": "Babylon",
+    "kind": "place",
+    "gloss": "The capital of the new empire."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Babylon rises",
+    "body": "Nebuchadnezzar defeated Egypt at Carchemish in 605 BC, and after that \"The king of Egypt didn't come out of his land any more\" (24:7). Judah's kings now faced a new superpower. Daniel's exile began in these years.",
+    "refs": [
+     "Jeremiah 46:2",
+     "Daniel 1:1-2"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "For the sins of Manasseh",
+    "body": "The writer says this came \"for the sins of Manasseh\" (24:3) and the innocent blood he shed, which \"Yahweh would not pardon\" (24:4). Jeremiah makes clear that Judah's own sins continued too. A long pattern of rebellion finally bears its fruit.",
+    "refs": [
+     "2 Kings 21:16",
+     "Jeremiah 15:4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Jehoiakim and Jeremiah",
+    "body": "Kings says little about Jehoiakim, but Jeremiah shows him cutting up and burning the prophet's scroll piece by piece. Jeremiah also condemns him for building a lavish palace with unpaid labour.",
+    "refs": [
+     "Jeremiah 36:22-24",
+     "Jeremiah 22:13-19"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The Babylonian Chronicle",
+    "body": "A Babylonian tablet records that Nebuchadnezzar captured the city of Judah on the second day of Adar in his seventh year, March 597 BC, seized its king and appointed a king of his own choice. It closely matches this chapter (24:10-17). This is one of the most exactly dated events in the Old Testament.",
+    "refs": [
+     "2 Chronicles 36:9-10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Craftsmen and smiths",
+    "body": "Babylon takes the king, the officials, the soldiers, and \"all the craftsmen and the smiths\" (24:14), leaving only \"the poorest people of the land\". Removing skilled workers made rebellion harder and enriched Babylon. The prophet Ezekiel was among these exiles.",
+    "refs": [
+     "Ezekiel 1:1-3",
+     "Jeremiah 24:1"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Jehoiachin's names",
+    "body": "Jehoiachin, meaning Yahweh establishes, is also called Jeconiah and Coniah in Jeremiah. Jeremiah declared that none of his offspring would prosper on David's throne. Matthew still lists Jechoniah in Jesus' family line, and interpreters explain the tension in different ways, some noting that Jesus' descent through Joseph was legal rather than physical.",
+    "refs": [
+     "Jeremiah 22:24-30",
+     "Matthew 1:11-12"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "As Yahweh had said",
+    "body": "The Temple treasures are carried off \"as Yahweh had said\" (24:13), recalling Isaiah's word to Hezekiah. Each step of the fall is told as prophecy fulfilled. The disaster is God's judgment, not God's defeat.",
+    "refs": [
+     "2 Kings 20:17"
+    ]
+   }
+  ]
+ },
+ "25": {
+  "summary": "Babylon besieges Jerusalem; Zedekiah is captured and blinded, the city and Temple are burned and the people exiled; the governor Gedaliah is murdered and many flee to Egypt; years later in Babylon, King Jehoiachin is released from prison and eats at the king's table.",
+  "lookfor": "Notice the exact dates, what is lost from the Temple, and the quiet note of hope at the very end.",
+  "names": [
+   {
+    "name": "Nebuchadnezzar",
+    "kind": "person",
+    "gloss": "King of Babylon."
+   },
+   {
+    "name": "Zedekiah",
+    "kind": "person",
+    "gloss": "Judah's last king."
+   },
+   {
+    "name": "Riblah",
+    "kind": "place",
+    "gloss": "Nebuchadnezzar's headquarters in Syria."
+   },
+   {
+    "name": "Nebuzaradan",
+    "kind": "person",
+    "gloss": "Captain of the Babylonian guard."
+   },
+   {
+    "name": "Gedaliah",
+    "kind": "person",
+    "gloss": "Governor of Judah under Babylon, grandson of Shaphan."
+   },
+   {
+    "name": "Mizpah",
+    "kind": "place",
+    "gloss": "A town north of Jerusalem, Gedaliah's seat."
+   },
+   {
+    "name": "Ishmael",
+    "kind": "person",
+    "gloss": "A member of the royal family who murders Gedaliah."
+   },
+   {
+    "name": "Evilmerodach",
+    "kind": "person",
+    "gloss": "Nebuchadnezzar's son and successor."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "The last thing he saw",
+    "body": "Zedekiah's sons are killed before his eyes; then he is blinded and taken to Babylon in chains (25:7). Jeremiah had urged him to surrender and live. Ezekiel had foretold that he would be brought to Babylon yet not see it.",
+    "refs": [
+     "Jeremiah 38:17-18",
+     "Ezekiel 12:13"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Days of mourning",
+    "body": "The writer gives exact dates: the siege begins on the tenth day of the tenth month (25:1), the city is breached in the fourth month (25:3-4), and the Temple burns in the fifth month (25:8-9). Zechariah mentions fasts in the fourth, fifth, seventh and tenth months, and Jews still keep them, above all Tisha B'Av, the ninth of Av, which mourns both Temples.",
+    "refs": [
+     "Zechariah 8:19",
+     "Jeremiah 52:12-13"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why the Temple fell",
+    "body": "The house where God had put his name is burned (25:9). Solomon had been warned that if Israel turned away, this house would become a ruin. Jeremiah told the people that the Temple's presence was no guarantee for those who ignored God.",
+    "refs": [
+     "1 Kings 9:6-9",
+     "Jeremiah 7:4-14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Bronze carried away",
+    "body": "The bronze pillars, the sea and the stands Solomon made are broken up and carried off (25:13-17). The writer lingers over them, listing what was lost. The glory of Solomon's Temple ends as scrap metal.",
+    "refs": [
+     "1 Kings 7:15-23"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Gedaliah at Mizpah",
+    "body": "Babylon appoints Gedaliah, grandson of Josiah's scribe Shaphan, as governor (25:22). A clay seal impression reading Gedaliah who is over the house was found at Lachish, though it may not be the same man. Ishmael of the royal family murders him (25:25), and the survivors flee to Egypt, taking Jeremiah with them.",
+    "refs": [
+     "Jeremiah 40:5-6",
+     "Jeremiah 43:5-7"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Evilmerodach",
+    "body": "The name is Amel-Marduk in Babylonian, meaning man of Marduk; it has nothing to do with the English word evil. He reigned only about two years, 562–560 BC. Babylonian ration tablets list oil for Jehoiachin king of Judah and his sons, confirming he lived in Babylon.",
+    "refs": [
+     "Jeremiah 52:31-34"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A lamp still burning",
+    "body": "Kings ends not with the fire but with Jehoiachin released, given a seat above other captive kings, and fed at the king's table \"all the days of his life\" (25:29). The note is quiet but deliberate: David's line still lives. Jewish and Christian readers alike have seen in it a sign that God's promise to David was not dead.",
+    "refs": [
+     "2 Samuel 7:16",
+     "2 Samuel 9:7",
+     "Matthew 1:12"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Hope in exile",
+    "body": "The book ends with a king still in Babylon, waiting. Where are you waiting, and what small signs of God's faithfulness can you see there?",
+    "refs": [
+     "Jeremiah 29:10-14",
+     "Lamentations 3:21-23"
+    ]
+   }
+  ]
+ },
+ "intro": {
+  "who": "The author is not named; the Talmud credits Jeremiah. Many modern scholars see 1 and 2 Kings as the last part of a history running from Deuteronomy to Kings, compiled from royal annals and prophetic stories and finished during the Babylonian exile.",
+  "when": "2 Kings runs from about 850 BC, after Ahab's death, through the fall of Samaria to Assyria in 722 BC and the fall of Jerusalem to Babylon in 586 BC. It ends around 561 BC, when the exiled King Jehoiachin is released from prison. 1 and 2 Kings were one book in Hebrew.",
+  "why": "It explains why both kingdoms were lost: Israel and then Judah refused the prophets God kept sending and served other gods. Yet it also shows God's patience, faithful reformers like Hezekiah and Josiah, and a final glimmer of hope for David's line in exile.",
+  "outline": [
+   {
+    "chapters": "1–8",
+    "title": "Elisha succeeds Elijah"
+   },
+   {
+    "chapters": "9–12",
+    "title": "Jehu's purge and Joash"
+   },
+   {
+    "chapters": "13–17",
+    "title": "Israel's decline and fall"
+   },
+   {
+    "chapters": "18–20",
+    "title": "Hezekiah and Assyria"
+   },
+   {
+    "chapters": "21–23",
+    "title": "Manasseh and Josiah"
+   },
+   {
+    "chapters": "24–25",
+    "title": "Jerusalem falls to Babylon"
+   }
+  ],
+  "verse": "2 Kings 17:13"
+ }
+}
