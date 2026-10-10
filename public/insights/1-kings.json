@@ -1,0 +1,2252 @@
+{
+ "1": {
+  "summary": "As David lies old and frail, his son Adonijah claims the throne; Nathan and Bathsheba remind David of his promise, and David has Solomon anointed king at the Gihon spring.",
+  "lookfor": "Notice who supports each son, how Nathan and Bathsheba work together, and how quickly Adonijah's party scatters.",
+  "names": [
+   {
+    "name": "Abishag",
+    "kind": "person",
+    "gloss": "A young woman from Shunem brought to care for the aged David."
+   },
+   {
+    "name": "Adonijah",
+    "kind": "person",
+    "gloss": "David's fourth son, the eldest surviving, who claims the throne."
+   },
+   {
+    "name": "Joab",
+    "kind": "person",
+    "gloss": "David's long-serving army commander, who backs Adonijah."
+   },
+   {
+    "name": "Abiathar",
+    "kind": "person",
+    "gloss": "A priest who served David since his outlaw days, also backing Adonijah."
+   },
+   {
+    "name": "Zadok",
+    "kind": "person",
+    "gloss": "A priest loyal to David and Solomon."
+   },
+   {
+    "name": "Nathan",
+    "kind": "person",
+    "gloss": "The prophet who had promised David a dynasty and rebuked him over Bathsheba."
+   },
+   {
+    "name": "Benaiah",
+    "kind": "person",
+    "gloss": "Commander of David's bodyguard."
+   },
+   {
+    "name": "Gihon",
+    "kind": "place",
+    "gloss": "The main spring of Jerusalem, just outside the old city."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Couldn't keep warm",
+    "body": "The book opens with the great king unable to keep warm (1:1). Abishag is brought to care for him, but \"the king didn't know her\" (1:4). The scene shows David's weakness and sets up a later conflict over Abishag.",
+    "refs": [
+     "1 Kings 2:17",
+     "1 Kings 2:22"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Never disciplined",
+    "body": "Adonijah announces \"I will be king\" with chariots and runners, like Absalom before him (1:5). The narrator adds that David \"had not displeased him at any time\" by asking why he acted as he did (1:6). David's failure as a father appears again.",
+    "refs": [
+     "2 Samuel 15:1",
+     "2 Samuel 13:21"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Two parties",
+    "body": "Joab and Abiathar back Adonijah; Zadok, Benaiah, Nathan and David's mighty men do not (1:7-8). The old guard of David's outlaw years splits. Solomon's reign begins with factions that he will deal with ruthlessly in chapter 2.",
+    "refs": [
+     "1 Kings 2:28-35"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Nathan and Bathsheba",
+    "body": "Nathan coaches Bathsheba to remind David of an oath that Solomon would reign (1:13), then comes in to confirm her words (1:22-27). Readers debate whether the oath was real, since the earlier books never record it; the text presents David as remembering it.",
+    "refs": [
+     "1 Chronicles 22:9-10",
+     "2 Samuel 12:24-25"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Riding the king's mule",
+    "body": "David orders Solomon to ride his own mule down to the Gihon, to be anointed by Zadok and Nathan with trumpets and shouts of \"Long live king Solomon!\" (1:33-34). Riding the king's animal was a public sign of succession. Jesus' entry into Jerusalem on a donkey drew on royal imagery like this.",
+    "refs": [
+     "Zechariah 9:9",
+     "Matthew 21:5"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The earth split",
+    "body": "The crowd rejoices so loudly \"that the earth shook with their sound\" (1:40). Adonijah's guests hear it at their feast, and when the news comes they scatter (1:49). Adonijah runs to the altar and grabs its horns for sanctuary (1:50).",
+    "refs": [
+     "Exodus 21:14"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Passing the baton",
+    "body": "David's failure to settle his succession nearly caused a civil war. What do you need to settle now so that others are not left in confusion later?",
+    "refs": [
+     "2 Timothy 2:2"
+    ]
+   }
+  ]
+ },
+ "2": {
+  "summary": "David charges Solomon to keep God's law and to deal with Joab and Shimei, then dies; Solomon secures his throne by executing Adonijah, Joab and Shimei and banishing Abiathar.",
+  "lookfor": "Notice David's two kinds of instruction, Adonijah's request, and how each enemy is dealt with.",
+  "names": [
+   {
+    "name": "Shimei",
+    "kind": "person",
+    "gloss": "The Benjamite who cursed David during Absalom's revolt."
+   },
+   {
+    "name": "Barzillai",
+    "kind": "person",
+    "gloss": "The Gileadite who fed David's men in exile."
+   },
+   {
+    "name": "Anathoth",
+    "kind": "place",
+    "gloss": "A priestly town in Benjamin, later Jeremiah's home."
+   },
+   {
+    "name": "Kidron",
+    "kind": "place",
+    "gloss": "The brook east of Jerusalem that Shimei must not cross."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Show yourself a man",
+    "body": "David's last words begin, \"I am going the way of all the earth. You be strong therefore, and show yourself a man\" (2:2), echoing Joshua's farewell. He tells Solomon to keep the law of Moses so that God's promise of a lasting throne will stand (2:3-4).",
+    "refs": [
+     "Joshua 23:14",
+     "2 Samuel 7:12-16"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Unfinished business",
+    "body": "David tells Solomon not to let Joab's \"gray head go down to Sheol in peace\" for the murders of Abner and Amasa (2:5-6), and to deal with Shimei (2:9). Readers are divided: some see justice long delayed, others a dying king settling scores. The text records it without comment.",
+    "refs": [
+     "2 Samuel 3:27",
+     "2 Samuel 20:10",
+     "2 Samuel 19:23"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Asking for Abishag",
+    "body": "Adonijah asks Bathsheba to request Abishag as his wife (2:17). Taking a former king's woman signalled a claim to his throne, as Absalom showed. Solomon sees the danger at once and has him executed (2:22-25).",
+    "refs": [
+     "2 Samuel 16:21-22",
+     "2 Samuel 3:7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Abiathar banished",
+    "body": "Solomon sends Abiathar home to Anathoth, \"that he might fulfill Yahweh's word which he spoke concerning the house of Eli in Shiloh\" (2:27). The prophecy against Eli's family is completed generations later.",
+    "refs": [
+     "1 Samuel 2:31-35",
+     "1 Samuel 3:12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Holding the altar",
+    "body": "Joab flees to the altar and holds its horns (2:28), but Benaiah kills him there (2:34). The Law allowed a deliberate murderer to be taken even from God's altar.",
+    "refs": [
+     "Exodus 21:14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Shimei's line",
+    "body": "Shimei agrees to stay in Jerusalem and never cross the Kidron (2:36-38). Three years later he leaves to chase runaway slaves and is executed (2:39-46). He breaks his own oath.",
+    "refs": [
+     "2 Samuel 16:5-8"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Established in his hand",
+    "body": "\"The kingdom was established in the hand of Solomon\" (2:46). It is secured by bloodshed rather than by peace. Solomon's reign begins with the same mix of faith and political violence that marked David's.",
+    "refs": [
+     "1 Chronicles 29:23"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Mercy and judgment",
+    "body": "David spared Shimei but asked Solomon to punish him later. How do you hold together forgiveness and justice?",
+    "refs": [
+     "Romans 12:19"
+    ]
+   }
+  ]
+ },
+ "3": {
+  "summary": "Solomon marries Pharaoh's daughter and worships at the high places; at Gibeon God offers him anything, and he asks for wisdom to govern, which he soon shows by judging between two mothers claiming one baby.",
+  "lookfor": "Notice the mixed note at the start, what Solomon asks for and why, and how the case of the two women is solved.",
+  "names": [
+   {
+    "name": "Pharaoh",
+    "kind": "person",
+    "gloss": "The king of Egypt, whose daughter Solomon married."
+   },
+   {
+    "name": "Gibeon",
+    "kind": "place",
+    "gloss": "A town north of Jerusalem with the most important high place, where the tabernacle stood."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Pharaoh's daughter",
+    "body": "Solomon makes an alliance with Egypt by marrying Pharaoh's daughter (3:1). For Israel's king to marry an Egyptian princess shows his prestige; Egyptian pharaohs rarely gave daughters to foreign kings. It also hints at the foreign marriages that will turn his heart.",
+    "refs": [
+     "1 Kings 11:1",
+     "Deuteronomy 17:16-17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The high places",
+    "body": "\"The people sacrificed in the high places\" because there was no Temple yet (3:2), and Solomon himself offered a thousand burnt offerings at Gibeon (3:4). High places were hilltop shrines. Kings later is critical of them once the Temple exists.",
+    "refs": [
+     "2 Chronicles 1:3",
+     "2 Kings 23:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Ask what I shall give you",
+    "body": "God appears in a dream: \"Ask for what I should give you\" (3:5). Solomon calls himself \"a little child\" who doesn't know how to go out or come in (3:7). Humility comes before wisdom.",
+    "refs": [
+     "Matthew 7:7",
+     "Proverbs 1:7"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A hearing heart",
+    "body": "Solomon asks for \"an understanding heart to judge your people\" (3:9). The Hebrew is literally \"a hearing heart,\" lev shomea. Wisdom begins with listening, to God and to people.",
+    "refs": [
+     "James 1:5",
+     "Proverbs 2:6"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "What he didn't ask",
+    "body": "God is pleased that Solomon did not ask for long life, riches or his enemies' lives (3:11), and gives him those as well (3:13). Jesus' teaching to seek God's kingdom first and the rest will be added echoes this.",
+    "refs": [
+     "Matthew 6:33"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Two mothers, one child",
+    "body": "Two prostitutes claim the same baby. Solomon orders it cut in two; the real mother would rather give it up than see it die (3:26). The famous judgment shows \"the wisdom of God was in him\" (3:28).",
+    "refs": [
+     "Proverbs 20:5"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Wisdom for justice",
+    "body": "Solomon's gift is not wisdom in general but wisdom \"to discern justice\" (3:11). The first case shows it serving two of the lowest people in society. Psalm 72, linked to Solomon, prays for a king who defends the poor.",
+    "refs": [
+     "Psalms 72:1-4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Your request",
+    "body": "If God asked what to give you, what would you ask for, and what would your answer show about your heart? Solomon asked for a listening heart to serve others well, and God added what he did not ask for.",
+    "refs": [
+     "Psalms 27:4"
+    ]
+   }
+  ]
+ },
+ "4": {
+  "summary": "A list of Solomon's officials and twelve district governors, the daily provisions for his court, and praise of his peace, prosperity and great wisdom.",
+  "lookfor": "Notice the districts that supply the court, the picture of peace, and the description of Solomon's wisdom.",
+  "names": [
+   {
+    "name": "Azariah",
+    "kind": "person",
+    "gloss": "Son of Zadok, one of Solomon's chief officials."
+   },
+   {
+    "name": "Adoniram",
+    "kind": "person",
+    "gloss": "Officer over forced labour."
+   },
+   {
+    "name": "Ethan the Ezrahite",
+    "kind": "person",
+    "gloss": "A famous wise man; Psalm 89 is credited to him."
+   }
+  ],
+  "skim": {
+   "advice": "Verses 1 to 19 list Solomon's officials and the twelve districts. Skim the names and read verses 20 to 34 closely.",
+   "key": [
+    20,
+    25,
+    29,
+    32
+   ]
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Twelve districts",
+    "body": "Solomon divides the land into twelve districts, each supplying the court for one month (4:7). The districts do not match the tribal borders exactly, and Judah seems to be left out. Many scholars think this administration, and the heavy demands it made, fed the north's later resentment.",
+    "refs": [
+     "1 Kings 12:4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "One day's food",
+    "body": "The court's daily provisions include thirty cors of fine flour, sixty of meal, thirty cattle and a hundred sheep, besides deer and fowl (4:22-23). Samuel had warned that a king would take the people's produce.",
+    "refs": [
+     "1 Samuel 8:15-17"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Like the sand of the sea",
+    "body": "\"Judah and Israel were numerous as the sand which is by the sea in multitude, eating and drinking and making merry\" (4:20). God's promise to Abraham of descendants like the sand seems fulfilled in Solomon's day.",
+    "refs": [
+     "Genesis 22:17"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Under vine and fig tree",
+    "body": "\"Every man under his vine and under his fig tree\" (4:25) became a classic image of peace and security. Micah uses it for the coming age of peace, and Zechariah too.",
+    "refs": [
+     "Micah 4:4",
+     "Zechariah 3:10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Wiser than the East",
+    "body": "Solomon's wisdom \"excelled the wisdom of all the children of the east, and all the wisdom of Egypt\" (4:30). Wisdom literature was an international tradition; Egyptian instruction texts like that of Amenemope have close parallels in Proverbs.",
+    "refs": [
+     "Proverbs 22:17-21"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Proverbs and songs",
+    "body": "\"He spoke three thousand proverbs; and his songs numbered one thousand five\" (4:32). He spoke about trees, animals, birds and fish (4:33). Proverbs, the Song of Songs and Ecclesiastes are traditionally linked to him.",
+    "refs": [
+     "Proverbs 1:1",
+     "Song of Solomon 1:1"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Wisdom about creation",
+    "body": "Solomon's wisdom included plants and animals. How might studying God's creation be part of growing wise?",
+    "refs": [
+     "Job 12:7-10"
+    ]
+   }
+  ]
+ },
+ "5": {
+  "summary": "Solomon makes a treaty with Hiram king of Tyre for cedar and cypress from Lebanon, and drafts tens of thousands of Israelites into forced labour to prepare materials for the Temple.",
+  "lookfor": "Notice why Solomon can build when David could not, what each king supplies, and the scale of the labour force.",
+  "names": [
+   {
+    "name": "Hiram",
+    "kind": "person",
+    "gloss": "King of Tyre, the Phoenician port, a friend of David."
+   },
+   {
+    "name": "Lebanon",
+    "kind": "place",
+    "gloss": "The mountains north of Israel, famous for cedar forests."
+   },
+   {
+    "name": "Gebalites",
+    "kind": "group",
+    "gloss": "Craftsmen from Gebal, the Phoenician city later called Byblos."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Rest on every side",
+    "body": "Solomon tells Hiram that David could not build because of constant war, \"But now Yahweh my God has given me rest on every side\" (5:4). God had promised that David's son would build the house.",
+    "refs": [
+     "2 Samuel 7:12-13",
+     "1 Chronicles 22:8-9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Cedars of Lebanon",
+    "body": "Lebanon's cedars were prized across the ancient world for temples and palaces; Mesopotamian and Egyptian kings boasted of obtaining them. The logs were floated as rafts down the coast (5:9). Only scattered groves survive today.",
+    "refs": [
+     "Psalms 104:16",
+     "Ezra 3:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Wheat and oil for timber",
+    "body": "In return for timber, Solomon sends Hiram wheat and pure oil every year (5:11). Phoenicia had timber but little farmland; Israel had grain and olives. The trade suits both.",
+    "refs": [
+     "Ezekiel 27:17"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Forced labour",
+    "body": "Solomon drafts thirty thousand men from all Israel, working in Lebanon one month in three (5:13-14), plus seventy thousand carriers and eighty thousand stonecutters (5:15). Samuel's warning about the king taking sons for his work is being fulfilled.",
+    "refs": [
+     "1 Samuel 8:16",
+     "1 Kings 12:4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Hiram blesses Yahweh",
+    "body": "The Phoenician king says, \"Blessed is Yahweh today, who has given to David a wise son\" (5:7). Foreigners recognise Israel's God through Solomon's wisdom, a theme that returns with the queen of Sheba.",
+    "refs": [
+     "1 Kings 10:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Peace with Hiram",
+    "body": "\"There was peace between Hiram and Solomon, and the two of them made a treaty together\" (5:12). Solomon's name comes from shalom, peace. His reign is marked by alliances rather than conquests.",
+    "refs": [
+     "1 Chronicles 22:9"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The cost of building",
+    "body": "The Temple was built with great faith and great human cost. How do you weigh the cost to people in what you build for God?",
+    "refs": [
+     "Micah 3:9-10"
+    ]
+   }
+  ]
+ },
+ "6": {
+  "summary": "Solomon builds the Temple over seven years: its stone structure, cedar panelling overlaid with gold, the inner sanctuary with two great cherubim, and carvings of palm trees and flowers.",
+  "lookfor": "Notice the date given at the start, the silence of the building site, God's word in the middle, and the decoration.",
+  "names": [
+   {
+    "name": "cherubim",
+    "kind": "group",
+    "gloss": "Winged heavenly guardians, carved in olive wood and covered in gold."
+   }
+  ],
+  "skim": {
+   "advice": "Much of the chapter gives measurements and building details. Skim them, and read verses 1, 7, 11 to 13 and 23 to 28 closely.",
+   "key": [
+    1,
+    7,
+    12,
+    13
+   ]
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "The 480th year",
+    "body": "The Temple was begun \"in the four hundred and eightieth year after the children of Israel had come out of the land of Egypt\" (6:1). On a literal reading this dates the exodus to around 1446 BC. Others see 480 as twelve generations of forty years, a symbolic figure.",
+    "refs": [
+     "Judges 11:26"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A temple plan",
+    "body": "The Temple had a porch, a main hall and an inner sanctuary (6:2-3, 6:16), about thirty metres long. Temples with this three-part plan have been found in Syria, such as at Ain Dara. Israel's Temple used a familiar design for a unique God.",
+    "refs": [
+     "Exodus 26:33"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "No hammer heard",
+    "body": "\"No hammer or ax or any tool of iron was heard in the house while it was under construction\" (6:7). The stones were finished at the quarry. Jewish tradition connected this with the Law's ban on iron tools for the altar.",
+    "refs": [
+     "Exodus 20:25",
+     "Deuteronomy 27:5"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The word in the middle",
+    "body": "In the middle of the building account God speaks: \"if you will walk in my statutes... I will dwell among the children of Israel\" (6:12-13). The building does not guarantee God's presence; obedience does.",
+    "refs": [
+     "Jeremiah 7:4-7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Cherubim of olive wood",
+    "body": "Two cherubim of olive wood, overlaid with gold, ten cubits high, stand in the inner sanctuary with wings touching wall to wall (6:23-27). Winged guardian figures flanked thrones and sacred spaces across the ancient Near East.",
+    "refs": [
+     "Exodus 25:18-20",
+     "Ezekiel 41:18"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Garden imagery",
+    "body": "The walls are carved with cherubim, palm trees and open flowers (6:29). Many scholars see the Temple as a picture of Eden, the garden where God walked with humanity, guarded by cherubim. Revelation ends with a city that is also a garden.",
+    "refs": [
+     "Genesis 3:24",
+     "Revelation 22:1-2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Seven years",
+    "body": "The Temple took seven years to build (6:38); Solomon's own palace took thirteen (7:1). Some readers see a quiet comment on Solomon's priorities.",
+    "refs": [
+     "1 Kings 7:1",
+     "Haggai 1:4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Silent building",
+    "body": "The Temple went up without the sound of iron tools. What quiet work is God doing in you that no one can hear?",
+    "refs": [
+     "1 Peter 2:5"
+    ]
+   }
+  ]
+ },
+ "7": {
+  "summary": "Solomon builds his palace and public halls over thirteen years, and Hiram the bronze worker casts the Temple's great bronze pillars, the bronze sea, stands and basins.",
+  "lookfor": "Notice how long the palace took, the names of the two pillars, and the size of the bronze sea.",
+  "names": [
+   {
+    "name": "Forest of Lebanon",
+    "kind": "place",
+    "gloss": "A great hall of Solomon's palace, named for its many cedar pillars."
+   }
+  ],
+  "skim": {
+   "advice": "Most of the chapter describes buildings and bronze work in detail. Skim the measurements, and read about the palace (verses 1 to 12), the pillars (15 to 22) and the sea (23 to 26).",
+   "key": [
+    1,
+    21,
+    23,
+    51
+   ]
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Thirteen years",
+    "body": "\"Solomon was building his own house thirteen years\" (7:1), nearly twice the Temple's seven. The narrator places the palace account inside the Temple account, perhaps to invite comparison.",
+    "refs": [
+     "1 Kings 6:38"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "House of the Forest of Lebanon",
+    "body": "The great hall had forty-five cedar pillars in rows (7:2-3), like a forest. It later stored gold shields (10:17). Royal complexes in the region had similar pillared halls.",
+    "refs": [
+     "1 Kings 10:17",
+     "Isaiah 22:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Hiram the craftsman",
+    "body": "A different Hiram, a bronze worker from Tyre, makes the Temple bronzes. His mother was a widow of Naphtali (7:14). Like Bezalel for the tabernacle, he is \"filled with wisdom and understanding\" (7:14).",
+    "refs": [
+     "Exodus 31:2-3",
+     "2 Chronicles 2:13-14"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Jachin and Boaz",
+    "body": "The two bronze pillars at the porch are named Jachin, probably meaning he will establish, and Boaz, probably meaning in him is strength (7:21). Their exact meaning is uncertain; they may have been the opening words of royal inscriptions.",
+    "refs": [
+     "2 Chronicles 3:17",
+     "2 Kings 25:16-17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The bronze sea",
+    "body": "The \"molten sea\" was a huge round basin of cast bronze about five metres across, standing on twelve bronze oxen facing outward (7:23-25). Chronicles says it was for the priests to wash in. In the ancient world the sea often symbolised chaos; here it is tamed and set in God's house.",
+    "refs": [
+     "2 Chronicles 4:6",
+     "Psalms 93:3-4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Pi as three",
+    "body": "The sea is ten cubits across and thirty cubits round (7:23), which works out pi as three. Explanations include rounded numbers, measuring the inside diameter and outside circumference, or the flared lip described in verse 26.",
+    "refs": [
+     "1 Kings 7:26"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Carried to Babylon",
+    "body": "The pillars, stands and sea are broken up and carried to Babylon when Jerusalem falls (2 Kings 25:13). Kings records their loss in detail, as if mourning them.",
+    "refs": [
+     "2 Kings 25:13-17",
+     "Jeremiah 52:17"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Skill for God",
+    "body": "Hiram's craftsmanship served God's house. How can your skills be offered to God?",
+    "refs": [
+     "Colossians 3:23"
+    ]
+   }
+  ]
+ },
+ "8": {
+  "summary": "The ark is brought into the Temple, the cloud of God's glory fills it, and Solomon blesses the people, prays a long prayer of dedication, and holds a fourteen-day feast.",
+  "lookfor": "Notice what was in the ark, the cloud, the question Solomon asks about God's dwelling, and the repeated request \"hear in heaven.\"",
+  "names": [
+   {
+    "name": "Horeb",
+    "kind": "place",
+    "gloss": "Mount Sinai, where the covenant was given."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Only the tablets",
+    "body": "\"There was nothing in the ark except the two stone tablets\" (8:9). Hebrews mentions a pot of manna and Aaron's rod as well; by Solomon's time, Kings says, only the tablets remained. The heart of the Temple is God's covenant word.",
+    "refs": [
+     "Hebrews 9:4",
+     "Deuteronomy 10:5"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The cloud fills the house",
+    "body": "\"The cloud filled Yahweh's house, so that the priests could not stand to minister\" (8:10-11). The same happened when the tabernacle was finished. God accepts the house as his dwelling.",
+    "refs": [
+     "Exodus 40:34-35",
+     "Ezekiel 43:4-5"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Can heaven contain you?",
+    "body": "Solomon asks, \"will God in very deed dwell on the earth? Behold, heaven and the heaven of heavens can't contain you; how much less this house\" (8:27). The Temple is the place where God puts his name (8:29), not a box that holds him. Stephen and Paul later quote the same idea.",
+    "refs": [
+     "Acts 7:48-49",
+     "Acts 17:24"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Hear in heaven",
+    "body": "Seven times Solomon asks God to hear from heaven when people pray toward this house: after sin, in drought, famine, war, even in exile (8:30-50). The Temple becomes a direction of prayer. Daniel prays toward Jerusalem in Babylon.",
+    "refs": [
+     "Daniel 6:10",
+     "Jonah 2:4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The foreigner too",
+    "body": "Solomon prays for the foreigner who comes \"for your name's sake\" (8:41-43), \"that all the peoples of the earth may know your name.\" Isaiah calls the Temple \"a house of prayer for all peoples,\" which Jesus quotes when he clears the Temple.",
+    "refs": [
+     "Isaiah 56:7",
+     "Mark 11:17"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "No one who doesn't sin",
+    "body": "\"There is no man who doesn't sin\" (8:46), Solomon admits, and he foresees exile and asks God to forgive those who repent there. The prayer anticipates the very disaster that ends Kings.",
+    "refs": [
+     "Ecclesiastes 7:20",
+     "2 Kings 25:21"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Feast of Tents",
+    "body": "The dedication takes place in the seventh month at the feast (8:2), the Feast of Tents, and lasts fourteen days (8:65). The vast number of sacrifices, twenty-two thousand cattle and a hundred and twenty thousand sheep (8:63), marks it as the greatest celebration of the age.",
+    "refs": [
+     "Leviticus 23:34",
+     "2 Chronicles 7:8-10"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "A place to pray toward",
+    "body": "Israel prayed toward the Temple wherever they were. What helps you turn your heart toward God when you pray?",
+    "refs": [
+     "John 4:21-24"
+    ]
+   }
+  ]
+ },
+ "9": {
+  "summary": "God appears to Solomon a second time, promising to establish his throne if he obeys and warning of ruin if he turns away; Solomon gives Hiram twenty towns, uses forced labour, builds cities and a fleet.",
+  "lookfor": "Notice the two sides of God's warning, Hiram's reaction to the towns, and who did the forced labour.",
+  "names": [
+   {
+    "name": "Cabul",
+    "kind": "place",
+    "gloss": "A name Hiram gave the Galilean towns, perhaps meaning \"as nothing.\""
+   },
+   {
+    "name": "Hazor",
+    "kind": "place",
+    "gloss": "A major northern city rebuilt by Solomon."
+   },
+   {
+    "name": "Megiddo",
+    "kind": "place",
+    "gloss": "A strategic city guarding the Jezreel valley."
+   },
+   {
+    "name": "Gezer",
+    "kind": "place",
+    "gloss": "A city on the coastal route, given as a dowry with Pharaoh's daughter."
+   },
+   {
+    "name": "Ezion Geber",
+    "kind": "place",
+    "gloss": "Solomon's port on the Gulf of Aqaba."
+   },
+   {
+    "name": "Ophir",
+    "kind": "place",
+    "gloss": "A distant land famous for gold, of uncertain location."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "If and if not",
+    "body": "God promises a lasting throne \"if you will walk before me, as David your father walked\" (9:4-5), and warns that if Solomon or his sons turn to other gods, Israel will be cut off and the Temple become a heap of ruins (9:6-8). The rest of Kings shows the warning fulfilled.",
+    "refs": [
+     "2 Kings 25:9",
+     "Deuteronomy 29:24-26"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "People will ask why",
+    "body": "Passers-by will hiss and ask, \"Why has Yahweh done this to this land?\" and be told it is because Israel forsook God (9:8-9). The same question and answer appear in Deuteronomy and Jeremiah.",
+    "refs": [
+     "Deuteronomy 29:24-25",
+     "Jeremiah 22:8-9"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Towns that didn't please",
+    "body": "Solomon gives Hiram twenty towns in Galilee, but Hiram calls them \"Cabul\" (9:13), perhaps meaning \"good for nothing.\" The great trade relationship had its tensions. Solomon also seems to owe Hiram gold (9:14).",
+    "refs": [
+     "2 Chronicles 8:2"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Hazor, Megiddo and Gezer",
+    "body": "Solomon fortifies Hazor, Megiddo and Gezer (9:15). Archaeologists found similar six-chambered gates at all three, which many dated to Solomon's time. The dating is now debated, but the three cities' strategic role is clear.",
+    "refs": [
+     "Joshua 11:10",
+     "Joshua 16:10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Who were the labourers?",
+    "body": "Here the forced labourers are the remaining Canaanite peoples, while Israelites served as soldiers and officers (9:20-22). Chapter 5 says Israelites were drafted too. The two pictures may describe permanent slaves and temporary work gangs.",
+    "refs": [
+     "1 Kings 5:13",
+     "1 Kings 12:4"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Ships to Ophir",
+    "body": "Solomon builds a fleet at Ezion Geber on the Red Sea, crewed with Hiram's sailors, which brings gold from Ophir (9:26-28). Ophir's location is unknown; proposals include Arabia, East Africa and India. A pottery fragment found near Tel Aviv mentions \"gold of Ophir.\"",
+    "refs": [
+     "Job 22:24",
+     "Psalms 45:9"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Conditions",
+    "body": "God's promise came with a warning. How do you hold together God's faithfulness and your responsibility to obey?",
+    "refs": [
+     "2 Timothy 2:11-13"
+    ]
+   }
+  ]
+ },
+ "10": {
+  "summary": "The queen of Sheba visits to test Solomon's wisdom and is overwhelmed; the chapter describes Solomon's vast wealth in gold, his ivory throne, trade and horses.",
+  "lookfor": "Notice why the queen came, what impresses her, and the growing lists of gold, horses and chariots.",
+  "names": [
+   {
+    "name": "Sheba",
+    "kind": "place",
+    "gloss": "A kingdom probably in southwest Arabia, modern Yemen, rich from the incense trade."
+   },
+   {
+    "name": "Ophir",
+    "kind": "place",
+    "gloss": "A distant source of gold."
+   },
+   {
+    "name": "Tarshish",
+    "kind": "place",
+    "gloss": "A far-off port, probably in the western Mediterranean."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "The queen of Sheba",
+    "body": "Sheba was probably the kingdom of Saba in southwest Arabia, which grew rich from frankincense and myrrh caravans. Her visit may have had a trade purpose too. Ethiopian tradition holds that she bore Solomon a son, Menelik, founder of its royal line; the Bible says nothing of this.",
+    "refs": [
+     "Isaiah 60:6",
+     "Psalms 72:10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Not even half",
+    "body": "After seeing it all, the queen says, \"not even half was told me!\" (10:7), and blesses Yahweh who delighted in Solomon (10:9). She sees that the purpose of his kingship is \"to do justice and righteousness.\"",
+    "refs": [
+     "1 Kings 5:7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Something greater than Solomon",
+    "body": "Jesus says the queen of the south will rise in judgment against his generation, because she came from the ends of the earth to hear Solomon's wisdom, \"and behold, someone greater than Solomon is here.\" A foreign queen travelled far to hear wisdom, and Jesus contrasts her eagerness with those who ignore the wisdom standing in front of them.",
+    "refs": [
+     "Matthew 12:42",
+     "Luke 11:31"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "666 talents",
+    "body": "Solomon's yearly income in gold was \"six hundred sixty-six talents\" (10:14), over twenty tonnes. Some readers link the number with the beast's number in Revelation, though the connection is uncertain.",
+    "refs": [
+     "Revelation 13:18"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Ivory throne",
+    "body": "Solomon's throne was ivory overlaid with gold, with six steps and twelve lions (10:18-20). Ivory furniture was a sign of royal luxury across the region; carved ivory panels have been found at Samaria and elsewhere.",
+    "refs": [
+     "Amos 6:4",
+     "1 Kings 22:39"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Horses from Egypt",
+    "body": "Solomon gathers chariots and horsemen and imports horses from Egypt (10:26-29), along with silver \"as common as stones\" (10:27). Deuteronomy forbade the king to multiply horses, return people to Egypt, or amass silver and gold. The glory carries the seeds of the fall.",
+    "refs": [
+     "Deuteronomy 17:16-17",
+     "1 Kings 11:1-3"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The nations come",
+    "body": "\"All the earth sought the presence of Solomon, to hear his wisdom, which God had put in his heart\" (10:24). The prophets picture nations streaming to Jerusalem in the age to come. Solomon's reign gives a glimpse of that hope.",
+    "refs": [
+     "Isaiah 2:2-3",
+     "Isaiah 60:3"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Glory and danger",
+    "body": "Solomon's success contained the seeds of his downfall. How can blessings become dangers?",
+    "refs": [
+     "Deuteronomy 8:12-14"
+    ]
+   }
+  ]
+ },
+ "11": {
+  "summary": "In old age Solomon's many foreign wives turn his heart to other gods; God announces that most of the kingdom will be torn from his son, raises up enemies, and the prophet Ahijah promises ten tribes to Jeroboam.",
+  "lookfor": "Notice how Solomon's heart is described, why one tribe is left to David's line, and the torn cloak.",
+  "names": [
+   {
+    "name": "Ashtoreth",
+    "kind": "person",
+    "gloss": "Astarte, a Phoenician goddess of fertility and war."
+   },
+   {
+    "name": "Milcom",
+    "kind": "person",
+    "gloss": "The national god of the Ammonites, also called Molech."
+   },
+   {
+    "name": "Chemosh",
+    "kind": "person",
+    "gloss": "The national god of Moab."
+   },
+   {
+    "name": "Hadad",
+    "kind": "person",
+    "gloss": "An Edomite prince who became Solomon's enemy."
+   },
+   {
+    "name": "Rezon",
+    "kind": "person",
+    "gloss": "A rebel who seized Damascus."
+   },
+   {
+    "name": "Jeroboam",
+    "kind": "person",
+    "gloss": "An Ephraimite official over forced labour, promised ten tribes."
+   },
+   {
+    "name": "Ahijah",
+    "kind": "person",
+    "gloss": "A prophet from Shiloh."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Seven hundred wives",
+    "body": "Solomon had \"seven hundred wives, princesses, and three hundred concubines\" (11:3). Many were political marriages to seal alliances. Deuteronomy had warned that many wives would turn a king's heart away.",
+    "refs": [
+     "Deuteronomy 17:17",
+     "Nehemiah 13:26"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "When Solomon was old",
+    "body": "\"When Solomon was old, his wives turned away his heart after other gods\" (11:4). The fall comes late, gradually, by accommodation. He built high places for Chemosh and Molech on the hill east of Jerusalem (11:7).",
+    "refs": [
+     "2 Kings 23:13",
+     "Hebrews 3:12-13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Not perfect as David",
+    "body": "Solomon's heart \"was not perfect with Yahweh his God, as the heart of David his father was\" (11:4). David sinned grievously but never worshipped other gods. From here, every king will be measured against David.",
+    "refs": [
+     "1 Kings 15:3",
+     "1 Kings 15:11"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "For David's sake",
+    "body": "God will tear the kingdom away, but not in Solomon's lifetime, and will leave one tribe \"for David my servant's sake, and for Jerusalem's sake\" (11:12-13). God's promise to David holds even when David's son fails.",
+    "refs": [
+     "2 Samuel 7:15",
+     "1 Kings 11:36"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Enemies raised up",
+    "body": "God raises adversaries: Hadad of Edom and Rezon of Damascus (11:14, 11:23). The same Hebrew word, satan, adversary, is used for them. Peace on every side (5:4) gives way to opposition.",
+    "refs": [
+     "1 Kings 5:4",
+     "1 Samuel 29:4"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A torn cloak",
+    "body": "Ahijah tears his new cloak into twelve pieces and tells Jeroboam to take ten (11:30-31). Prophets often acted out their messages. The torn garment recalls Samuel's robe torn when the kingdom was taken from Saul.",
+    "refs": [
+     "1 Samuel 15:27-28",
+     "Jeremiah 13:1-11"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A lamp in Jerusalem",
+    "body": "God promises that David will \"have a lamp always before me in Jerusalem\" (11:36). The lamp image returns as Judah survives kings who deserve to be cut off.",
+    "refs": [
+     "1 Kings 15:4",
+     "2 Kings 8:19"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "A divided heart",
+    "body": "Solomon's fall was slow and late. What small accommodations could gradually pull your heart away from God?",
+    "refs": [
+     "Proverbs 4:23"
+    ]
+   }
+  ]
+ },
+ "12": {
+  "summary": "At Shechem Solomon's son Rehoboam refuses to lighten the people's burden, and the ten northern tribes break away under Jeroboam, who sets up golden calves at Bethel and Dan to keep his people from Jerusalem.",
+  "lookfor": "Notice the two pieces of advice Rehoboam receives, the northern cry, and the reasons Jeroboam gives for his calves.",
+  "names": [
+   {
+    "name": "Rehoboam",
+    "kind": "person",
+    "gloss": "Solomon's son and heir."
+   },
+   {
+    "name": "Shechem",
+    "kind": "place",
+    "gloss": "An ancient city in the northern hill country, where Joshua renewed the covenant."
+   },
+   {
+    "name": "Jeroboam",
+    "kind": "person",
+    "gloss": "The Ephraimite who becomes the first king of the northern kingdom."
+   },
+   {
+    "name": "Adoram",
+    "kind": "person",
+    "gloss": "Officer over forced labour, stoned by the northern tribes."
+   },
+   {
+    "name": "Shemaiah",
+    "kind": "person",
+    "gloss": "A prophet who forbids civil war."
+   },
+   {
+    "name": "Bethel",
+    "kind": "place",
+    "gloss": "An ancient sanctuary on the southern edge of the northern kingdom."
+   },
+   {
+    "name": "Dan",
+    "kind": "place",
+    "gloss": "A town in the far north, near the springs of the Jordan."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Lighten the yoke",
+    "body": "The people ask, \"make the hard service of your father, and his heavy yoke which he put on us, lighter\" (12:4). Solomon's building and labour drafts had cost them dearly. Rehoboam is offered a chance to reign by serving.",
+    "refs": [
+     "1 Kings 5:13-14",
+     "1 Samuel 8:11-18"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A servant to this people",
+    "body": "The old advisers say, \"If you will be a servant to this people today... then they will be your servants forever\" (12:7). Rehoboam rejects this for the young men's boast: \"My little finger is thicker than my father's waist\" (12:10). Jesus later teaches that the greatest must be the servant.",
+    "refs": [
+     "Mark 10:42-45"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Whips and scorpions",
+    "body": "\"My father chastised you with whips, but I will chastise you with scorpions\" (12:14). Scorpions may mean whips with metal barbs. The harsh words cost Rehoboam ten tribes.",
+    "refs": [
+     "Proverbs 15:1"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "To your tents, Israel",
+    "body": "The north answers, \"What portion have we in David?... To your tents, Israel!\" (12:16). Sheba had raised the same cry against David. The old north–south rift opens for good.",
+    "refs": [
+     "2 Samuel 20:1",
+     "2 Samuel 19:43"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "This thing is from me",
+    "body": "God tells Rehoboam not to fight, \"for this thing is from me\" (12:24). The split fulfils Ahijah's word. Human pride and God's judgment work together in the same event.",
+    "refs": [
+     "1 Kings 11:31",
+     "1 Kings 12:15"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Golden calves",
+    "body": "Jeroboam makes two golden calves and says, \"behold your gods, Israel, which brought you up out of the land of Egypt!\" (12:28), almost the words of Aaron at Sinai. He may have meant the calves as pedestals for an invisible Yahweh, but Kings treats them as idolatry. \"The sins of Jeroboam\" becomes the refrain for every northern king.",
+    "refs": [
+     "Exodus 32:4",
+     "2 Kings 17:21-22"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Bethel and Dan",
+    "body": "Jeroboam places the calves at Bethel in the south and Dan in the north (12:29), both old sanctuaries. At Tel Dan archaeologists found a large cult platform from the period of the divided kingdom. Jeroboam also appoints non-Levite priests and moves a festival to the eighth month (12:31-33).",
+    "refs": [
+     "Genesis 28:19",
+     "Judges 18:30"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Servant or master",
+    "body": "Rehoboam chose to rule by force rather than by serving. In your influence over others, which do you lean toward?",
+    "refs": [
+     "1 Peter 5:3"
+    ]
+   }
+  ]
+ },
+ "13": {
+  "summary": "A man of God from Judah denounces Jeroboam's altar at Bethel and foretells King Josiah, but on his way home he is deceived by an old prophet into disobeying God's command and is killed by a lion.",
+  "lookfor": "Notice the signs at the altar, the old prophet's lie, and the strange scene of the lion and the donkey.",
+  "names": [
+   {
+    "name": "Josiah",
+    "kind": "person",
+    "gloss": "A king of Judah who would reign about three hundred years later."
+   },
+   {
+    "name": "Bethel",
+    "kind": "place",
+    "gloss": "The site of one of Jeroboam's golden calves."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Josiah by name",
+    "body": "The man of God cries, \"a son will be born to David's house, Josiah by name\" (13:2), who will burn priests' bones on this altar. Three centuries later Josiah does exactly this. Some scholars think the name was added after the event; the text presents it as prophecy.",
+    "refs": [
+     "2 Kings 23:15-16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A withered hand",
+    "body": "Jeroboam points at the prophet to have him seized, and his hand dries up (13:4). The altar splits and its ashes pour out (13:5). Jeroboam begs for prayer, and his hand is restored (13:6).",
+    "refs": [
+     "Exodus 4:6-7"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Don't eat or drink there",
+    "body": "God had told the man of God not to eat or drink in Bethel or return the same way (13:9). Refusing hospitality marked the northern sanctuary as under judgment. His obedience is the message.",
+    "refs": [
+     "1 Corinthians 5:11"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "He lied to him",
+    "body": "An old prophet claims an angel told him to bring the man home, and the narrator adds bluntly, \"He lied to him\" (13:18). The man of God trusts a fellow prophet's claim over God's direct word.",
+    "refs": [
+     "Galatians 1:8",
+     "1 John 4:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A lion that didn't eat",
+    "body": "A lion kills the man of God but stands beside the body without eating it or the donkey (13:24-28). Lions lived in Israel then. The unnatural scene marks the death as God's judgment, not chance.",
+    "refs": [
+     "2 Kings 17:25"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Buried together",
+    "body": "The old prophet buries the man of God in his own tomb, mourns him, and asks to be buried beside him (13:30-31). When Josiah later digs up the bones at Bethel, he leaves these two graves alone.",
+    "refs": [
+     "2 Kings 23:17-18"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Jeroboam didn't turn",
+    "body": "\"After this thing Jeroboam didn't return from his evil way\" (13:33). Even with miracles before his eyes, he goes on appointing priests for the high places. This becomes the sin that destroys his house.",
+    "refs": [
+     "1 Kings 14:10",
+     "2 Kings 17:21"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Testing claims",
+    "body": "The man of God believed someone who claimed a message from God. How do you test claims to speak for God?",
+    "refs": [
+     "1 John 4:1"
+    ]
+   }
+  ]
+ },
+ "14": {
+  "summary": "Jeroboam's wife visits the blind prophet Ahijah in disguise and hears judgment on Jeroboam's house; their son dies; in Judah, Rehoboam's people turn to idolatry and Pharaoh Shishak plunders Jerusalem.",
+  "lookfor": "Notice the failed disguise, what Ahijah says about the dying child, and what Shishak takes.",
+  "names": [
+   {
+    "name": "Ahijah",
+    "kind": "person",
+    "gloss": "The prophet of Shiloh who had promised Jeroboam the kingdom."
+   },
+   {
+    "name": "Abijah",
+    "kind": "person",
+    "gloss": "Jeroboam's son, who falls ill."
+   },
+   {
+    "name": "Tirzah",
+    "kind": "place",
+    "gloss": "A city that served as an early capital of the northern kingdom."
+   },
+   {
+    "name": "Shishak",
+    "kind": "person",
+    "gloss": "Pharaoh of Egypt, known from Egyptian records as Sheshonq I."
+   },
+   {
+    "name": "Naamah",
+    "kind": "person",
+    "gloss": "Rehoboam's mother, an Ammonite."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "A blind prophet sees",
+    "body": "Jeroboam's wife disguises herself, but the old blind prophet knows her before she enters (14:4-6). God had told him. No disguise works before God.",
+    "refs": [
+     "1 Samuel 28:12",
+     "Hebrews 4:13"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Cast me behind your back",
+    "body": "Ahijah's verdict: Jeroboam has \"cast me behind your back\" (14:9). The man God raised up has done worse than all before him. His house will be swept away like dung (14:10).",
+    "refs": [
+     "Nehemiah 9:26",
+     "Ezekiel 23:35"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Some good thing",
+    "body": "Only the sick boy will be buried with honour, \"because in him there is found some good thing toward Yahweh\" (14:13). The child's death is a mercy in a doomed house. It is a hard and tender verse.",
+    "refs": [
+     "Isaiah 57:1"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Beyond the River",
+    "body": "Ahijah foresees Israel uprooted and scattered \"beyond the River\" (14:15), the Euphrates. Two centuries later Assyria deports the northern kingdom.",
+    "refs": [
+     "2 Kings 17:6",
+     "2 Kings 17:23"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Shishak's campaign",
+    "body": "In Rehoboam's fifth year, Shishak king of Egypt takes the Temple and palace treasures, including Solomon's gold shields (14:25-26). Egyptian records confirm a campaign by Sheshonq I into Canaan around 925 BC, listing many towns on a temple wall at Karnak.",
+    "refs": [
+     "2 Chronicles 12:2-9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Bronze for gold",
+    "body": "Rehoboam replaces the gold shields with bronze ones (14:27), kept in the guardroom and carried out when the king went to the Temple. The glitter of Solomon's age is gone, replaced by imitation.",
+    "refs": [
+     "1 Kings 10:16-17"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Judah no better",
+    "body": "Judah builds high places, pillars and Asherah poles \"on every high hill, and under every green tree\" (14:23), with shrine prostitutes in the land (14:24). The south is not innocent; both kingdoms drift.",
+    "refs": [
+     "Deuteronomy 12:2",
+     "Jeremiah 2:20"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Some good thing",
+    "body": "God noticed some good in one child in a corrupt family. What does that suggest about how God sees individuals?",
+    "refs": [
+     "Malachi 3:16"
+    ]
+   }
+  ]
+ },
+ "15": {
+  "summary": "Abijam and then Asa reign in Judah, with Asa removing idols and his own mother's Asherah image; in Israel, Nadab son of Jeroboam is killed by Baasha, who wipes out Jeroboam's house.",
+  "lookfor": "Notice the formula used for each king, how Asa is judged, and how Ahijah's prophecy is fulfilled.",
+  "names": [
+   {
+    "name": "Abijam",
+    "kind": "person",
+    "gloss": "Rehoboam's son, king of Judah for three years."
+   },
+   {
+    "name": "Asa",
+    "kind": "person",
+    "gloss": "Abijam's son, a reforming king of Judah who reigned forty-one years."
+   },
+   {
+    "name": "Maacah",
+    "kind": "person",
+    "gloss": "Asa's grandmother, the queen mother, who made an idol."
+   },
+   {
+    "name": "Ben Hadad",
+    "kind": "person",
+    "gloss": "King of Aram in Damascus."
+   },
+   {
+    "name": "Nadab",
+    "kind": "person",
+    "gloss": "Jeroboam's son, king of Israel for two years."
+   },
+   {
+    "name": "Baasha",
+    "kind": "person",
+    "gloss": "The man who killed Nadab and became king of Israel."
+   }
+  ],
+  "skim": {
+   "advice": "Much of the chapter uses the standard formulas for each king's reign. Skim them, and read the verdicts on Abijam and Asa (verses 3 to 5 and 11 to 14) and the fulfilment in verses 29 to 30 closely.",
+   "key": [
+    4,
+    5,
+    14,
+    29
+   ]
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "The regnal formula",
+    "body": "Each king is introduced with the year he began in relation to the other kingdom's king, his age, the length of his reign, his mother's name for Judah, and a verdict (15:1-3, 15:9-11). The book refers readers to royal annals, now lost, for more (15:7).",
+    "refs": [
+     "1 Kings 14:29"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Except Uriah",
+    "body": "David \"didn't turn away from anything that he commanded him all the days of his life, except only in the matter of Uriah the Hittite\" (15:5). Even in praising David, the narrator does not forget his great sin.",
+    "refs": [
+     "2 Samuel 11:27",
+     "2 Samuel 12:9"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A lamp for David",
+    "body": "Abijam's heart was not perfect, \"Nevertheless for David's sake\" God kept \"a lamp in Jerusalem\" (15:4). The dynasty survives bad kings because of God's promise.",
+    "refs": [
+     "1 Kings 11:36",
+     "2 Samuel 7:15-16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Removing the queen mother",
+    "body": "Asa removes his grandmother Maacah from being queen mother because she made \"an abominable image for an Asherah\" and burns it at the Kidron (15:13). The queen mother had real power in Judah; Asa puts God before family.",
+    "refs": [
+     "Matthew 10:37",
+     "2 Chronicles 15:16"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "But the high places",
+    "body": "\"But the high places were not taken away. Nevertheless the heart of Asa was perfect with Yahweh\" (15:14). The phrase \"the high places were not taken away\" recurs for good kings until Hezekiah. Reform is real but incomplete.",
+    "refs": [
+     "2 Kings 18:4",
+     "2 Kings 12:3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Buying Aram's help",
+    "body": "Asa sends the Temple's silver and gold to Ben Hadad of Damascus to break his treaty with Israel (15:18-19). It works, but Chronicles records a prophet rebuking Asa for relying on Aram instead of God.",
+    "refs": [
+     "2 Chronicles 16:7-9"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Jeroboam's house wiped out",
+    "body": "Baasha kills Nadab and strikes \"all the house of Jeroboam\" (15:29), as Ahijah had prophesied. Israel's kings will fall by assassination again and again. Judah's dynasty, by contrast, lasts.",
+    "refs": [
+     "1 Kings 14:10-11",
+     "Hosea 8:4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Incomplete reform",
+    "body": "Asa's heart was right, but the high places remained. What areas of your life have you never fully surrendered?",
+    "refs": [
+     "Psalms 139:23-24"
+    ]
+   }
+  ]
+ },
+ "16": {
+  "summary": "A rapid series of northern kings: Baasha's house is destroyed by Zimri, who reigns seven days before Omri takes power, builds Samaria, and is succeeded by Ahab, who marries Jezebel and serves Baal.",
+  "lookfor": "Notice how quickly kings fall, the founding of Samaria, and how Ahab is introduced.",
+  "names": [
+   {
+    "name": "Jehu",
+    "kind": "person",
+    "gloss": "A prophet, son of Hanani (not the later king Jehu)."
+   },
+   {
+    "name": "Elah",
+    "kind": "person",
+    "gloss": "Baasha's son, killed while drunk."
+   },
+   {
+    "name": "Zimri",
+    "kind": "person",
+    "gloss": "A chariot commander who reigned seven days."
+   },
+   {
+    "name": "Omri",
+    "kind": "person",
+    "gloss": "Army commander who founded a powerful dynasty."
+   },
+   {
+    "name": "Samaria",
+    "kind": "place",
+    "gloss": "The new northern capital Omri built on a hill."
+   },
+   {
+    "name": "Ahab",
+    "kind": "person",
+    "gloss": "Omri's son, the most notorious king of Israel."
+   },
+   {
+    "name": "Jezebel",
+    "kind": "person",
+    "gloss": "A Phoenician princess, daughter of the king of Sidon, Ahab's wife."
+   },
+   {
+    "name": "Hiel",
+    "kind": "person",
+    "gloss": "A man of Bethel who rebuilt Jericho."
+   }
+  ],
+  "skim": {
+   "advice": "Verses 1 to 22 move rapidly through short reigns using standard formulas. Skim them, and read the accounts of Omri and Ahab (verses 23 to 34) closely.",
+   "key": [
+    24,
+    25,
+    31,
+    34
+   ]
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Seven-day king",
+    "body": "Zimri kills Elah while he is drunk and reigns seven days in Tirzah (16:9-15). When the army makes Omri king, Zimri burns the palace over himself (16:18). His name became a byword for a traitor.",
+    "refs": [
+     "2 Kings 9:31"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Omri the great",
+    "body": "Kings gives Omri only a few verses, yet he was a major ruler. The Moabite Mesha Stele says Omri oppressed Moab for many years, and Assyrian records called Israel \"the house of Omri\" long after his dynasty ended.",
+    "refs": [
+     "2 Kings 3:4-5",
+     "Micah 6:16"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Building Samaria",
+    "body": "Omri buys the hill of Samaria for two talents of silver (16:24) and builds a new capital. Excavations show fine royal buildings and carved ivories from the following decades. Samaria gave its name to the whole region.",
+    "refs": [
+     "Amos 6:1",
+     "Amos 3:15"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Worse than all before",
+    "body": "Omri \"dealt wickedly above all who were before him\" (16:25), and Ahab did evil \"above all that were before him\" (16:30). Kings judges kings by faithfulness to Yahweh, not by political success.",
+    "refs": [
+     "1 Kings 21:25"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Jezebel and Baal",
+    "body": "As if Jeroboam's sins were \"a light thing,\" Ahab marries Jezebel daughter of Ethbaal of Sidon and serves Baal, building him a temple in Samaria (16:31-32). Baal was a Canaanite storm god believed to send rain. The stage is set for Elijah.",
+    "refs": [
+     "1 Kings 18:21",
+     "Revelation 2:20"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Jericho rebuilt",
+    "body": "Hiel of Bethel rebuilds Jericho at the cost of his firstborn and youngest sons (16:34), fulfilling Joshua's curse. The note shows God's word still standing, centuries later, in an age that ignores it.",
+    "refs": [
+     "Joshua 6:26"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Civil war",
+    "body": "Israel splits between Omri and Tibni for some years before Omri prevails (16:21-22). The north has no settled dynasty; power belongs to whoever controls the army.",
+    "refs": [
+     "Hosea 8:4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Success and faithfulness",
+    "body": "Omri was powerful, yet the Bible gives him a few lines and a bad verdict. How does God's measure of a life differ from the world's?",
+    "refs": [
+     "1 Samuel 16:7"
+    ]
+   }
+  ]
+ },
+ "17": {
+  "summary": "Elijah announces a drought to Ahab, is fed by ravens at a brook, then by a widow in Zarephath whose flour and oil never run out, and raises her son from the dead.",
+  "lookfor": "Notice who provides for Elijah, where the widow lives, and what she says at the end.",
+  "names": [
+   {
+    "name": "Elijah",
+    "kind": "person",
+    "gloss": "A prophet from Tishbe in Gilead; his name means \"Yahweh is my God.\""
+   },
+   {
+    "name": "Gilead",
+    "kind": "place",
+    "gloss": "The hilly region east of the Jordan."
+   },
+   {
+    "name": "Cherith",
+    "kind": "place",
+    "gloss": "A brook east of the Jordan where Elijah hid."
+   },
+   {
+    "name": "Zarephath",
+    "kind": "place",
+    "gloss": "A Phoenician town between Tyre and Sidon, Jezebel's home territory."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "No dew nor rain",
+    "body": "Elijah tells Ahab there will be no dew or rain \"but according to my word\" (17:1). Baal was the storm god who supposedly sent rain. The drought is a direct challenge: who really controls the rain?",
+    "refs": [
+     "Deuteronomy 11:16-17",
+     "James 5:17"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Fed by ravens",
+    "body": "At the brook Cherith ravens bring Elijah bread and meat morning and evening (17:6). Ravens were unclean birds. God provides through unlikely means.",
+    "refs": [
+     "Leviticus 11:15",
+     "Luke 12:24"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A widow of Sidon",
+    "body": "God sends Elijah to a widow in Zarephath, in Sidon, Jezebel's homeland (17:9). Jesus points to this in Nazareth: there were many widows in Israel, but Elijah was sent to a foreign one.",
+    "refs": [
+     "Luke 4:25-26"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The last meal",
+    "body": "The widow is gathering sticks to bake her last flour and oil \"that we may eat it, and die\" (17:12). Elijah asks for a cake first. \"The jar of meal didn't run out, and the jar of oil did not fail\" (17:16).",
+    "refs": [
+     "2 Kings 4:2-7",
+     "Mark 12:42-44"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The son raised",
+    "body": "When her son dies, the widow blames Elijah (17:18). He carries the boy upstairs, stretches himself on him three times and prays, and the child lives (17:21-22). It is the first resurrection recorded in the Bible.",
+    "refs": [
+     "2 Kings 4:32-35",
+     "Luke 7:15"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Now I know",
+    "body": "The widow says, \"Now I know that you are a man of God, and that Yahweh's word in your mouth is truth\" (17:24). A foreign woman confesses what Israel's king refuses to see.",
+    "refs": [
+     "1 Kings 18:39"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Elijah's name",
+    "body": "Elijah's name means \"Yahweh is my God,\" a summary of his whole mission against Baal. On Mount Carmel the people will cry out almost his name: \"Yahweh, he is God!\"",
+    "refs": [
+     "1 Kings 18:39",
+     "Malachi 4:5"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Giving first",
+    "body": "The widow fed the prophet from her last flour. When has trusting God meant giving before you could see how you'd be provided for?",
+    "refs": [
+     "Matthew 6:33"
+    ]
+   }
+  ]
+ },
+ "18": {
+  "summary": "In the third year of drought Elijah confronts Ahab and challenges the prophets of Baal on Mount Carmel; Baal does not answer, God sends fire on Elijah's soaked altar, the people confess Yahweh, the prophets are killed, and rain comes.",
+  "lookfor": "Notice Obadiah's divided position, Elijah's challenge to the people, his mockery, and the small cloud.",
+  "names": [
+   {
+    "name": "Obadiah",
+    "kind": "person",
+    "gloss": "Ahab's palace manager, who secretly hid a hundred prophets."
+   },
+   {
+    "name": "Mount Carmel",
+    "kind": "place",
+    "gloss": "A mountain ridge by the Mediterranean in northern Israel."
+   },
+   {
+    "name": "Kishon",
+    "kind": "place",
+    "gloss": "A brook below Mount Carmel."
+   },
+   {
+    "name": "Jezreel",
+    "kind": "place",
+    "gloss": "Ahab's second royal city, in the Jezreel valley."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Obadiah in the palace",
+    "body": "Obadiah \"feared Yahweh greatly\" (18:3) and hid a hundred prophets from Jezebel in caves (18:4), yet served Ahab. He is terrified to report Elijah. He shows a believer working faithfully inside a hostile regime.",
+    "refs": [
+     "Daniel 6:3-4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Troubler of Israel",
+    "body": "Ahab greets Elijah: \"Is that you, you troubler of Israel?\" (18:17). Elijah replies that Ahab is the troubler, for forsaking God (18:18). The word was used of Achan, whose sin brought disaster on Israel.",
+    "refs": [
+     "Joshua 7:25",
+     "1 Samuel 14:29"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Limping between two opinions",
+    "body": "\"How long will you waver between the two sides? If Yahweh is God, follow him; but if Baal, then follow him\" (18:21). The verb pictures limping or hopping. The people's silence shows their divided hearts.",
+    "refs": [
+     "Joshua 24:15",
+     "Matthew 6:24"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Is Baal asleep?",
+    "body": "Elijah mocks: perhaps Baal \"is deep in thought, or he has gone somewhere, or he is on a journey, or perhaps he sleeps\" (18:27). Canaanite texts from Ugarit describe Baal dying and reviving, travelling and feasting. The prophets cut themselves, a known ritual (18:28), but there was \"no voice, no answer, and nobody paid attention\" (18:29).",
+    "refs": [
+     "Psalms 121:4",
+     "Deuteronomy 14:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Twelve stones and water",
+    "body": "Elijah rebuilds Yahweh's altar with twelve stones for the tribes (18:31) and drenches it with twelve jars of water (18:33-35). In a drought, the water is costly. Then \"Yahweh's fire fell\" and consumed even the stones and water (18:38).",
+    "refs": [
+     "Leviticus 9:24",
+     "Joshua 4:3"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Yahweh, he is God",
+    "body": "The people fall on their faces: \"Yahweh, he is God! Yahweh, he is God!\" (18:39). It echoes Moses' teaching and Elijah's own name. Then Elijah has the prophets of Baal killed at the Kishon (18:40), following the Law's penalty for false prophets, a grim end to the contest.",
+    "refs": [
+     "Deuteronomy 4:35",
+     "Deuteronomy 13:1-5"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A cloud like a hand",
+    "body": "Elijah prays with his face between his knees and sends his servant seven times to look at the sea; the seventh time, \"a small cloud, like a man's hand\" (18:44). James cites Elijah as an example of persistent prayer.",
+    "refs": [
+     "James 5:17-18"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Two opinions",
+    "body": "Israel tried to keep both Yahweh and Baal. What divided loyalties are you living with?",
+    "refs": [
+     "James 1:8"
+    ]
+   }
+  ]
+ },
+ "19": {
+  "summary": "Threatened by Jezebel, Elijah flees to the wilderness and asks to die; an angel feeds him, he journeys to Horeb, meets God in a gentle whisper rather than wind, earthquake or fire, and is sent to anoint kings and Elisha.",
+  "lookfor": "Notice Elijah's despair after victory, how God cares for him, the question God asks twice, and where God is not found.",
+  "names": [
+   {
+    "name": "Jezebel",
+    "kind": "person",
+    "gloss": "Ahab's queen, devoted to Baal."
+   },
+   {
+    "name": "Beersheba",
+    "kind": "place",
+    "gloss": "A town at the southern edge of Judah."
+   },
+   {
+    "name": "Horeb",
+    "kind": "place",
+    "gloss": "Mount Sinai, where God spoke to Moses."
+   },
+   {
+    "name": "Hazael",
+    "kind": "person",
+    "gloss": "A future king of Aram (Syria)."
+   },
+   {
+    "name": "Jehu",
+    "kind": "person",
+    "gloss": "A future king of Israel who would destroy Ahab's house."
+   },
+   {
+    "name": "Elisha",
+    "kind": "person",
+    "gloss": "A farmer's son who becomes Elijah's successor."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "After the mountaintop",
+    "body": "Right after Carmel, one threat from Jezebel sends Elijah running (19:2-3). He sits under a broom tree and asks to die: \"It is enough\" (19:4). Spiritual highs can be followed by deep lows.",
+    "refs": [
+     "Numbers 11:15",
+     "Jonah 4:3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Sleep and food",
+    "body": "God's first answer to Elijah's despair is not a rebuke but bread, water and sleep, twice (19:5-8). \"The journey is too great for you\" (19:7). Care for the body comes before words.",
+    "refs": [
+     "Matthew 11:28",
+     "Psalms 103:14"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Forty days to Horeb",
+    "body": "Strengthened by the food, Elijah travels forty days and nights to Horeb (19:8). Moses spent forty days on the same mountain, and Jesus fasted forty days in the wilderness. Elijah goes back to where Israel's covenant began.",
+    "refs": [
+     "Exodus 34:28",
+     "Matthew 4:2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "What are you doing here?",
+    "body": "Twice God asks, \"What are you doing here, Elijah?\" (19:9, 19:13). Twice Elijah gives the same answer: he alone is left (19:10, 19:14). God lets him say it, then gives him new work.",
+    "refs": [
+     "Genesis 3:9"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A still small voice",
+    "body": "God was not in the wind, the earthquake or the fire, but in \"a still small voice\" (19:12). The Hebrew is something like a sound of thin silence. At Sinai God had come in fire and thunder; here he comes quietly.",
+    "refs": [
+     "Exodus 19:18",
+     "Exodus 33:21-22"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Seven thousand",
+    "body": "Elijah thinks he alone is faithful, but God has kept \"seven thousand in Israel, all the knees of which have not bowed to Baal\" (19:18). Paul quotes this to show God always keeps a remnant by grace.",
+    "refs": [
+     "Romans 11:2-5"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The mantle",
+    "body": "Elijah finds Elisha ploughing with twelve yoke of oxen and throws his cloak over him (19:19). The mantle signals a claim and a calling. Elisha slaughters his oxen and burns the yoke to cook them (19:21), leaving his old life behind.",
+    "refs": [
+     "2 Kings 2:13-14",
+     "Luke 9:61-62"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "I alone am left",
+    "body": "Elijah felt completely alone. When have you felt that way, and how did God show you otherwise?",
+    "refs": [
+     "Hebrews 12:1"
+    ]
+   }
+  ]
+ },
+ "20": {
+  "summary": "Ben Hadad of Aram besieges Samaria with thirty-two kings; a prophet promises victory, Israel wins twice, but Ahab spares Ben Hadad and makes a treaty, and a prophet condemns him for it.",
+  "lookfor": "Notice Ben Hadad's arrogance, Ahab's proverb, the Arameans' theory about Israel's God, and the prophet's acted parable.",
+  "names": [
+   {
+    "name": "Ben Hadad",
+    "kind": "person",
+    "gloss": "King of Aram, based in Damascus."
+   },
+   {
+    "name": "Aphek",
+    "kind": "place",
+    "gloss": "A town east of the Sea of Galilee where the second battle was fought."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Don't boast too soon",
+    "body": "To Ben Hadad's threats Ahab replies, \"Don't let him who puts on his armor brag like he who takes it off\" (20:11). It is a proverb of the time, and a wise one, even from Ahab.",
+    "refs": [
+     "Proverbs 27:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Drunk in the booths",
+    "body": "Ben Hadad and the thirty-two kings are drinking in their booths when Israel attacks at noon (20:16). Arrogance and drink cost them the battle.",
+    "refs": [
+     "Proverbs 20:1"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "God of the hills",
+    "body": "The Arameans think Israel's god is \"a god of the hills\" and plan to fight in the plain (20:23). God answers through a prophet: because they said this, \"I will deliver all this great multitude into your hand\" (20:28). Yahweh is not a local god.",
+    "refs": [
+     "1 Kings 8:27",
+     "Psalms 121:1-2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Sackcloth and ropes",
+    "body": "Defeated, Ben Hadad's servants come with sackcloth on their loins and ropes on their heads to beg for mercy (20:31-32). Ahab calls him \"my brother\" and makes a treaty (20:33-34).",
+    "refs": [
+     "Isaiah 22:12"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Devoted to destruction",
+    "body": "A prophet, disguised as a wounded soldier, tells a story that makes Ahab condemn himself (20:39-40), like Nathan with David. Because Ahab let go the man God had \"devoted to destruction,\" his life will pay (20:42).",
+    "refs": [
+     "2 Samuel 12:1-7",
+     "1 Samuel 15:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Sullen and angry",
+    "body": "Ahab goes home \"sullen and angry\" (20:43). The same words describe him in the next chapter when Naboth refuses him. Rebuke makes him sulk, not repent.",
+    "refs": [
+     "1 Kings 21:4"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Markets in Damascus",
+    "body": "Ben Hadad offers Ahab trading streets in Damascus (20:34), like those his father had in Samaria. Commercial quarters for foreign merchants were a common part of ancient treaties.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Mercy in the wrong place",
+    "body": "Ahab was generous to an enemy king and ruthless to his own subject Naboth. How can misplaced mercy and misplaced harshness both be wrong?",
+    "refs": [
+     "Micah 6:8"
+    ]
+   }
+  ]
+ },
+ "21": {
+  "summary": "Naboth refuses to sell Ahab his family vineyard; Jezebel arranges false charges and his stoning, and Ahab takes the vineyard, but Elijah pronounces doom on Ahab and Jezebel, and Ahab humbles himself.",
+  "lookfor": "Notice why Naboth refuses, how Jezebel uses legal forms to murder, and God's response to Ahab's repentance.",
+  "names": [
+   {
+    "name": "Naboth",
+    "kind": "person",
+    "gloss": "A man of Jezreel whose vineyard lay next to Ahab's palace."
+   },
+   {
+    "name": "Jezebel",
+    "kind": "person",
+    "gloss": "Ahab's queen, from Sidon."
+   },
+   {
+    "name": "Elijah the Tishbite",
+    "kind": "person",
+    "gloss": "The prophet who confronts Ahab."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The inheritance of my fathers",
+    "body": "Naboth refuses: \"May Yahweh forbid me, that I should give the inheritance of my fathers to you!\" (21:3). Family land was a trust from God, not merchandise. The Law protected such inheritances.",
+    "refs": [
+     "Leviticus 25:23",
+     "Numbers 36:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A sulking king",
+    "body": "Ahab goes home \"sullen and angry,\" lies on his bed, turns his face away and won't eat (21:4). The most powerful man in Israel acts like a spoiled child.",
+    "refs": [
+     "1 Kings 20:43"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Do you now govern?",
+    "body": "Jezebel asks, \"Do you now govern the kingdom of Israel?\" (21:7). In her Phoenician world, kings took what they wanted. Israel's law limited the king, and Jezebel shows her contempt for it.",
+    "refs": [
+     "Deuteronomy 17:18-20",
+     "1 Samuel 8:14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Murder by legal process",
+    "body": "Jezebel writes letters in Ahab's name, proclaims a fast, and has two worthless men accuse Naboth of cursing God and the king (21:9-10). He is stoned, and his sons too (2 Kings 9:26). She uses the Law's form, two witnesses, to break its heart.",
+    "refs": [
+     "Deuteronomy 17:6",
+     "Exodus 20:16",
+     "2 Kings 9:26"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Killed and taken possession",
+    "body": "Elijah meets Ahab in the vineyard: \"Have you killed and also taken possession?\" (21:19), and \"dogs will lick your blood\" (21:19). Ahab says, \"Have you found me, my enemy?\" (21:20). Like David with Uriah, a king has killed to take what he wanted.",
+    "refs": [
+     "2 Samuel 12:9",
+     "1 Kings 22:38"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Sold himself",
+    "body": "\"There was no one like Ahab, who sold himself to do that which was evil in Yahweh's sight, whom Jezebel his wife stirred up\" (21:25). The verdict is severe, and it notes Jezebel's influence.",
+    "refs": [
+     "1 Kings 16:30-33"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Ahab humbles himself",
+    "body": "Ahab tears his clothes, wears sackcloth and fasts (21:27). God tells Elijah, \"See how Ahab humbles himself before me?\" and delays the disaster to his son's days (21:29). Even Ahab's repentance is noticed.",
+    "refs": [
+     "Jonah 3:10",
+     "2 Chronicles 33:12-13"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Abuse of power",
+    "body": "Naboth's story is about the powerful taking from the weak under cover of law. Where do you see that happening today, and what is your response?",
+    "refs": [
+     "Isaiah 5:8",
+     "Proverbs 31:8-9"
+    ]
+   }
+  ]
+ },
+ "22": {
+  "summary": "Ahab and Jehoshaphat of Judah plan to retake Ramoth Gilead; four hundred prophets promise victory, but Micaiah foresees defeat; Ahab disguises himself, yet a random arrow kills him; Jehoshaphat's and Ahaziah's reigns are summarised.",
+  "lookfor": "Notice why Jehoshaphat asks for another prophet, Micaiah's vision, the disguise, and how Elijah's word comes true.",
+  "names": [
+   {
+    "name": "Jehoshaphat",
+    "kind": "person",
+    "gloss": "King of Judah, son of Asa, allied with Ahab."
+   },
+   {
+    "name": "Ramoth Gilead",
+    "kind": "place",
+    "gloss": "A city east of the Jordan disputed between Israel and Aram."
+   },
+   {
+    "name": "Micaiah",
+    "kind": "person",
+    "gloss": "A prophet, son of Imlah, who speaks only what God says."
+   },
+   {
+    "name": "Zedekiah",
+    "kind": "person",
+    "gloss": "One of Ahab's court prophets."
+   },
+   {
+    "name": "Ahaziah",
+    "kind": "person",
+    "gloss": "Ahab's son and successor."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "One more prophet",
+    "body": "Four hundred prophets say go, but Jehoshaphat asks, \"Isn't there here a prophet of Yahweh, that we may inquire of him?\" (22:7). Ahab admits there is one, \"but I hate him, for he does not prophesy good concerning me\" (22:8).",
+    "refs": [
+     "2 Timothy 4:3-4",
+     "Isaiah 30:10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Iron horns",
+    "body": "Zedekiah makes iron horns and declares Ahab will gore the Arameans (22:11). Prophets often acted out their messages. The horn was a symbol of strength.",
+    "refs": [
+     "Deuteronomy 33:17",
+     "Jeremiah 28:10-11"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Sheep without a shepherd",
+    "body": "Micaiah sees \"all Israel scattered on the mountains, as sheep that have no shepherd\" (22:17), a picture of Ahab's death. Moses had prayed that Israel would never be like that, and Jesus had compassion on crowds who were.",
+    "refs": [
+     "Numbers 27:17",
+     "Matthew 9:36"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A lying spirit",
+    "body": "Micaiah describes a vision of God's council, where a spirit offers to be \"a lying spirit in the mouth of all his prophets\" (22:22). It is one of the Bible's most puzzling scenes. Interpreters see God giving Ahab over to the falsehood he preferred, while still sending Micaiah to tell him the truth.",
+    "refs": [
+     "2 Thessalonians 2:11",
+     "Job 1:6-12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Faithful at a cost",
+    "body": "Micaiah vows, \"what Yahweh says to me, that I will speak\" (22:14). He is slapped and imprisoned on bread and water (22:24-27). His last words: \"If you return at all in peace, Yahweh has not spoken by me\" (22:28).",
+    "refs": [
+     "Jeremiah 20:2",
+     "Deuteronomy 18:22"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "An arrow at random",
+    "body": "Ahab disguises himself, but \"a certain man drew his bow at random\" and hits him between the joints of his armour (22:34). No disguise can hide him from God's word. He bleeds to death propped up in his chariot (22:35).",
+    "refs": [
+     "Proverbs 21:30",
+     "Numbers 32:23"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Dogs licked his blood",
+    "body": "His chariot is washed at the pool of Samaria, and the dogs lick his blood (22:38), as Elijah had foretold. The detail about prostitutes bathing there adds to the shame.",
+    "refs": [
+     "1 Kings 21:19"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Wanting to hear good news",
+    "body": "Ahab gathered prophets who told him what he wanted. Do you seek out voices that will tell you the truth, even when it is unwelcome?",
+    "refs": [
+     "Proverbs 27:6"
+    ]
+   }
+  ]
+ },
+ "intro": {
+  "who": "The author is not named; the Talmud credits Jeremiah. Many modern scholars see 1 and 2 Kings as the last part of a history running from Deuteronomy to Kings, compiled from royal annals and prophetic stories and finished during the Babylonian exile.",
+  "when": "1 Kings runs from David's death and Solomon's accession, around 970 BC, to the death of Ahab and the reign of his son Ahaziah, around 850 BC. 1 and 2 Kings were one book in Hebrew; the Greek translation called them 3 and 4 Kingdoms.",
+  "why": "It tells how Solomon's glorious kingdom, with its Temple, split in two after his unfaithfulness, and how kings in both kingdoms are judged by one question: did they worship Yahweh alone? The prophets, above all Elijah, confront kings who turn to Baal.",
+  "outline": [
+   {
+    "chapters": "1–2",
+    "title": "Solomon takes the throne"
+   },
+   {
+    "chapters": "3–10",
+    "title": "Solomon's wisdom and Temple"
+   },
+   {
+    "chapters": "11–14",
+    "title": "The kingdom divided"
+   },
+   {
+    "chapters": "15–16",
+    "title": "Kings of Judah and Israel"
+   },
+   {
+    "chapters": "17–19",
+    "title": "Elijah against Baal"
+   },
+   {
+    "chapters": "20–22",
+    "title": "Ahab's wars and death"
+   }
+  ],
+  "verse": "1 Kings 18:21"
+ }
+}
