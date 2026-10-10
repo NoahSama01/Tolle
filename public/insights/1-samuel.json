@@ -1,0 +1,2810 @@
+{
+ "1": {
+  "summary": "Childless Hannah, taunted by her rival, pours out her soul at the sanctuary in Shiloh and vows that if God gives her a son she will give him back; Samuel is born and, once weaned, is presented to Eli.",
+  "lookfor": "Notice how Hannah prays, how Eli misreads her, and how she keeps her vow.",
+  "names": [
+   {
+    "name": "Elkanah",
+    "kind": "person",
+    "gloss": "A man from Ephraim's hill country, Samuel's father."
+   },
+   {
+    "name": "Hannah",
+    "kind": "person",
+    "gloss": "Elkanah's beloved but childless wife; her name means \"grace\" or \"favour.\""
+   },
+   {
+    "name": "Peninnah",
+    "kind": "person",
+    "gloss": "Elkanah's other wife, who had children and taunted Hannah."
+   },
+   {
+    "name": "Shiloh",
+    "kind": "place",
+    "gloss": "The town where the tabernacle and the ark had stood since Joshua's day."
+   },
+   {
+    "name": "Eli",
+    "kind": "person",
+    "gloss": "The aged priest at Shiloh, who also judged Israel."
+   },
+   {
+    "name": "Hophni",
+    "kind": "person",
+    "gloss": "One of Eli's sons, a corrupt priest."
+   },
+   {
+    "name": "Ramah",
+    "kind": "place",
+    "gloss": "Elkanah's home town, later Samuel's base, a few miles north of Jerusalem."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "In the days of the judges",
+    "body": "The book opens in the same unsettled world as Judges, with Israel's sanctuary at Shiloh run by a weak priest and his corrupt sons. In Christian Bibles, Ruth sits between them and ends with David's name. God's answer to the chaos begins with a barren woman's prayer.",
+    "refs": [
+     "Judges 21:25",
+     "Ruth 4:22"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Another barren mother",
+    "body": "\"Yahweh had shut up her womb\" (1:5). Like Sarah, Rebekah and Rachel before her and Elizabeth after, Hannah's childlessness becomes the setting for a child God gives for a special purpose. In each story, a rival or long wait sharpens the pain.",
+    "refs": [
+     "Genesis 30:1",
+     "Luke 1:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Better than ten sons?",
+    "body": "Elkanah loves Hannah and gives her a double portion (1:5), but asks, \"Am I not better to you than ten sons?\" (1:8). His kindness cannot reach the depth of her grief. The story honours both his love and the limits of it.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Praying silently",
+    "body": "\"Only her lips moved, but her voice was not heard. Therefore Eli thought she was drunk\" (1:13). Prayer was normally spoken aloud. The Talmud later drew on Hannah as a model for how to pray, with lips moving but voice low.",
+    "refs": [
+     "Psalms 62:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "No razor",
+    "body": "Hannah vows that \"no razor shall come on his head\" (1:11), the mark of a Nazirite. A Dead Sea Scroll copy and the Greek translation add that he will drink no wine, making the link explicit. Samuel, like Samson, is dedicated from birth.",
+    "refs": [
+     "Numbers 6:5",
+     "Judges 13:5"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Asked of Yahweh",
+    "body": "Hannah names him Samuel, \"Because I have asked him of Yahweh\" (1:20). The Hebrew verb for \"ask,\" sha'al, runs through the chapter; she later says he is \"given to Yahweh,\" literally \"asked\" or \"lent\" (1:28). The same root forms the name Saul, the king the people will \"ask\" for.",
+    "refs": [
+     "1 Samuel 8:10",
+     "1 Samuel 12:13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Keeping the vow",
+    "body": "Hannah waits until Samuel is weaned, perhaps at two or three years old, then brings him to Shiloh with three bulls, flour and wine (1:24). \"I prayed for this child... Therefore I have also given him to Yahweh\" (1:27-28). The gift she longed for is the gift she gives back.",
+    "refs": [
+     "Numbers 30:6-7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Pouring out your soul",
+    "body": "Hannah says, \"I poured out my soul before Yahweh\" (1:15). Do you bring your deepest disappointments to God as honestly as she did?",
+    "refs": [
+     "Philippians 4:6"
+    ]
+   }
+  ]
+ },
+ "2": {
+  "summary": "Hannah sings a song of praise to the God who reverses fortunes, while Eli's sons abuse their priesthood; young Samuel grows in God's favour, and a prophet announces judgment on Eli's house.",
+  "lookfor": "Notice the reversals in Hannah's song, the contrast between Eli's sons and Samuel, and the promise of a faithful priest.",
+  "names": [
+   {
+    "name": "Hophni",
+    "kind": "person",
+    "gloss": "Eli's son, a priest who took the best of the offerings by force."
+   },
+   {
+    "name": "Phinehas",
+    "kind": "person",
+    "gloss": "Eli's other son, named after the zealous priest of Numbers."
+   },
+   {
+    "name": "Sheol",
+    "kind": "place",
+    "gloss": "The realm of the dead."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "The great reversal",
+    "body": "Hannah's song celebrates a God who reverses positions: the mighty broken and the stumbling strengthened, the full hungry and the hungry satisfied, the barren with seven children (2:4-5). \"He raises up the poor out of the dust\" (2:8). The theme runs through the whole book, as a shepherd boy rises and a king falls.",
+    "refs": [
+     "Psalms 113:7-9"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Mary's song",
+    "body": "Mary's song in Luke closely echoes Hannah's: God brings down the mighty and lifts the lowly, fills the hungry and sends the rich away empty. Both mothers see their own child's birth as part of God's turning the world upside down.",
+    "refs": [
+     "Luke 1:46-55"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "His anointed",
+    "body": "Hannah ends, \"He will give strength to his king, and exalt the horn of his anointed\" (2:10). Israel has no king yet. The word \"anointed\" is mashiach, from which \"Messiah\" comes, and the song looks ahead to David and beyond.",
+    "refs": [
+     "Psalms 2:2",
+     "Luke 1:69"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The priests' fork",
+    "body": "The custom was for the priest's servant to stab a three-pronged fork into the boiling pot and take what came up (2:13-14). Eli's sons went further, demanding raw meat before the fat was burned for God (2:15-16). They put themselves before God and treated worshippers with contempt.",
+    "refs": [
+     "Leviticus 3:16",
+     "Leviticus 7:31-34"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A little robe",
+    "body": "Each year Hannah made Samuel \"a little robe\" and brought it to him (2:19). Amid the corruption, this small detail shows a mother's continuing love for the son she gave away.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Growing in favour",
+    "body": "\"The child Samuel grew on, and increased in favor both with Yahweh, and also with men\" (2:26). Luke uses almost the same words of the boy Jesus.",
+    "refs": [
+     "Luke 2:52"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Those who honour me",
+    "body": "A man of God tells Eli, \"those who honor me I will honor, and those who despise me will be cursed\" (2:30). Eli honoured his sons above God (2:29) by not stopping them. God promises \"a faithful priest\" instead (2:35), often linked with Zadok, whose line served in Solomon's Temple.",
+    "refs": [
+     "1 Kings 2:27",
+     "1 Kings 2:35"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Honouring God",
+    "body": "Eli rebuked his sons but did nothing more. Where might you be honouring people's comfort above honouring God?",
+    "refs": []
+   }
+  ]
+ },
+ "3": {
+  "summary": "God calls the boy Samuel by night in the sanctuary; after three mistakes, Eli teaches him to answer, and God gives Samuel a message of judgment on Eli's house; Samuel becomes known as a prophet throughout Israel.",
+  "lookfor": "Notice how rare God's word was, Samuel's three trips to Eli, and how Eli responds to the hard message.",
+  "names": [
+   {
+    "name": "Samuel",
+    "kind": "person",
+    "gloss": "Hannah's son, serving as a boy at the sanctuary in Shiloh."
+   },
+   {
+    "name": "Dan",
+    "kind": "place",
+    "gloss": "A town in the far north; \"from Dan to Beersheba\" means the whole land."
+   },
+   {
+    "name": "Beersheba",
+    "kind": "place",
+    "gloss": "A town in the far south of the land."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The word was rare",
+    "body": "\"Yahweh's word was precious in those days. There were not many visions\" (3:1). Eli's eyes were growing dim (3:2), a picture of spiritual blindness as well as old age. God's word was about to return through a child.",
+    "refs": [
+     "Amos 8:11"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The lamp had not gone out",
+    "body": "\"God's lamp hadn't yet gone out\" (3:3): the lampstand was kept burning through the night until morning. The detail sets the time just before dawn, and hints that Israel's light was dim but not yet extinguished.",
+    "refs": [
+     "Exodus 27:20-21"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Here I am",
+    "body": "Three times Samuel runs to Eli saying, \"Here I am\" (3:4-8). \"Samuel didn't yet know Yahweh\" (3:7), meaning he had not yet received God's word directly. It is Eli, the failing priest, who recognises the call and teaches him to listen.",
+    "refs": [
+     "Genesis 22:1",
+     "Isaiah 6:8"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Speak, your servant hears",
+    "body": "\"Speak; for your servant hears\" (3:10) became a classic prayer of openness to God. Hearing in Hebrew includes obeying. God's first message to Samuel is a hard one, about the man who raised him.",
+    "refs": [
+     "Psalms 85:8",
+     "John 10:27"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Tingling ears",
+    "body": "God says he will do \"a thing in Israel, at which both the ears of everyone who hears it will tingle\" (3:11). Kings and Jeremiah later use the same phrase for the disaster of Jerusalem's fall.",
+    "refs": [
+     "2 Kings 21:12",
+     "Jeremiah 19:3"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "It is Yahweh",
+    "body": "Eli demands the full message, then accepts it: \"It is Yahweh. Let him do what seems good to him\" (3:18). Whether this is humble acceptance or weary resignation, interpreters differ. Either way, he does not argue with the verdict.",
+    "refs": [
+     "Job 1:21"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "From Dan to Beersheba",
+    "body": "\"All Israel from Dan even to Beersheba knew that Samuel was established to be a prophet\" (3:20). Samuel becomes the first great prophet since Moses, and will anoint Israel's first two kings. God \"let none of his words fall to the ground\" (3:19).",
+    "refs": [
+     "Acts 3:24",
+     "Deuteronomy 18:22"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Learning to listen",
+    "body": "Samuel needed an older person to help him recognise God's voice. Who has helped you learn to listen to God, and whom could you help?",
+    "refs": [
+     "Titus 2:3-5"
+    ]
+   }
+  ]
+ },
+ "4": {
+  "summary": "Israel is defeated by the Philistines, brings the ark into battle as a lucky charm, and loses again; the ark is captured, Eli's sons are killed, Eli dies at the news, and his daughter-in-law names her newborn Ichabod.",
+  "lookfor": "Notice why Israel brings the ark, how the Philistines react, and the name given to Phinehas' son.",
+  "names": [
+   {
+    "name": "Philistines",
+    "kind": "group",
+    "gloss": "Sea Peoples settled on the southern coast, Israel's main enemy in this period."
+   },
+   {
+    "name": "Ebenezer",
+    "kind": "place",
+    "gloss": "Israel's camp before the battle; the name means \"stone of help.\""
+   },
+   {
+    "name": "Aphek",
+    "kind": "place",
+    "gloss": "A town at the edge of the coastal plain where the Philistines camped."
+   },
+   {
+    "name": "Ichabod",
+    "kind": "person",
+    "gloss": "Eli's grandson, whose name means roughly \"Where is the glory?\""
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The ark as a charm",
+    "body": "After a defeat the elders say, \"Let us get the ark... that it may come among us, and save us\" (4:3). They treat the ark like a magic object that forces God to fight. No one asks God what to do.",
+    "refs": [
+     "Jeremiah 7:4",
+     "Numbers 14:44"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The Philistines afraid",
+    "body": "The Philistines hear the shout and cry, \"God has come into the camp\" (4:7). They know the story of the plagues in Egypt (4:8). Yet they fight harder, and win.",
+    "refs": [
+     "Joshua 2:10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Eli's last moment",
+    "body": "Eli, ninety-eight and blind, sits by the road \"for his heart trembled for God's ark\" (4:13). He survives the news of his sons' deaths, but when the messenger mentions the ark he falls backwards and dies (4:18). For all his failings, he cared most about the ark.",
+    "refs": [
+     "1 Samuel 2:34"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Ichabod",
+    "body": "Phinehas' wife names her son Ichabod, saying, \"The glory has departed from Israel\" (4:21). The name means no glory, or where is the glory? The Hebrew for \"departed\" is the verb used for going into exile.",
+    "refs": [
+     "Ezekiel 10:18"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Shiloh destroyed?",
+    "body": "The text does not say what happened to Shiloh after the defeat, but later the sanctuary is no longer there, and Jeremiah points to Shiloh's fate as a warning. Excavations at Shiloh suggest a destruction around this period.",
+    "refs": [
+     "Jeremiah 7:12",
+     "Psalms 78:60-61"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Judgment fulfilled",
+    "body": "Hophni and Phinehas die on the same day (4:11), just as the man of God had said (2:34). God's word through Samuel and the prophet comes true, and the old priestly house collapses.",
+    "refs": [
+     "1 Samuel 2:34",
+     "1 Samuel 3:12"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Using God",
+    "body": "Israel tried to use the ark to get what they wanted. In what ways might people try to use God, prayer or religion as a tool rather than seeking God himself?",
+    "refs": []
+   }
+  ]
+ },
+ "5": {
+  "summary": "The Philistines put the captured ark in the temple of their god Dagon, whose statue falls and breaks before it; plagues of tumors strike each city that holds the ark, and they decide to send it back.",
+  "lookfor": "Notice what happens to Dagon on two mornings, and how the ark moves from city to city.",
+  "names": [
+   {
+    "name": "Ashdod",
+    "kind": "place",
+    "gloss": "One of the five Philistine cities, near the coast."
+   },
+   {
+    "name": "Dagon",
+    "kind": "person",
+    "gloss": "A god worshipped by the Philistines, probably a grain god taken over from the region."
+   },
+   {
+    "name": "Gath",
+    "kind": "place",
+    "gloss": "A Philistine city, later Goliath's home town."
+   },
+   {
+    "name": "Ekron",
+    "kind": "place",
+    "gloss": "The northernmost of the five Philistine cities."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "A trophy in Dagon's temple",
+    "body": "Ancient armies often placed captured gods' images in the temple of their own god as trophies. Putting the ark beside Dagon (5:2) declares that Dagon has defeated Yahweh. The story overturns that claim.",
+    "refs": [
+     "Judges 16:23"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Fallen on his face",
+    "body": "The first morning Dagon has \"fallen on his face to the ground before Yahweh's ark\" (5:3), as if bowing. The second morning his head and hands are broken off on the threshold (5:4). The god who supposedly won lies in pieces.",
+    "refs": [
+     "Isaiah 46:1-2"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Dagon",
+    "body": "Dagon was an old god of the region, worshipped in Syria long before the Philistines arrived; his name is probably linked with the word for grain. An older idea that he was a fish god comes from a later play on the Hebrew word for fish and is now generally doubted.",
+    "refs": [
+     "Judges 16:23"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The threshold",
+    "body": "\"Neither the priests of Dagon, nor any who come into Dagon's house, step on the threshold of Dagon in Ashdod, to this day\" (5:5). The narrator explains a Philistine custom by the humiliation of their god. Zephaniah later mentions people who leap over the threshold.",
+    "refs": [
+     "Zephaniah 1:9"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The heavy hand",
+    "body": "\"Yahweh's hand was heavy on the people of Ashdod\" (5:6). The word for heavy, kaved, shares its root with kavod, glory. Israel thought the glory had departed (4:21), but God's \"weight\" is pressing on the Philistines.",
+    "refs": [
+     "1 Samuel 4:21",
+     "Exodus 9:3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Passing it on",
+    "body": "Ashdod sends the ark to Gath, and Gath to Ekron, where the people cry, \"They have brought the ark... to kill us\" (5:10). Each city that holds it suffers tumors and panic. The prize has become a burden.",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "God fights alone",
+    "body": "Israel's army failed, but God defends his own honour in enemy territory without any human help. The episode echoes the plagues on Egypt, which the Philistines themselves mentioned (4:8).",
+    "refs": [
+     "Exodus 12:12",
+     "1 Samuel 6:6"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Not a captive",
+    "body": "The Philistines thought they had captured Israel's God. Are there ways you assume God is contained or controlled by circumstances?",
+    "refs": [
+     "Isaiah 40:18-20"
+    ]
+   }
+  ]
+ },
+ "6": {
+  "summary": "After seven months the Philistines send the ark back on a cart drawn by two cows with golden offerings; it comes to Beth Shemesh, where many die for looking into it, and the people ask Kiriath Jearim to take it.",
+  "lookfor": "Notice the test the Philistine priests devise with the cows, the golden gifts, and the reaction at Beth Shemesh.",
+  "names": [
+   {
+    "name": "Beth Shemesh",
+    "kind": "place",
+    "gloss": "An Israelite town on the border with Philistine land; its name means \"house of the sun.\""
+   },
+   {
+    "name": "Kiriath Jearim",
+    "kind": "place",
+    "gloss": "A town in the hills west of Jerusalem where the ark stayed for many years."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Golden tumors and mice",
+    "body": "The Philistine priests advise sending five golden tumors and five golden mice, one for each lord (6:4). Making models of a plague as an offering to the god who sent it was known in the ancient world. The mice suggest the plague was linked with rodents, which some have taken as a sign of bubonic plague.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Don't harden your hearts",
+    "body": "The priests warn, \"Why then do you harden your hearts, as the Egyptians and Pharaoh hardened their hearts?\" (6:6). Even pagan priests learned from the exodus story. They give glory to the God of Israel (6:5).",
+    "refs": [
+     "Exodus 8:15",
+     "Joshua 7:19"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The cows' test",
+    "body": "Two cows that had just calved and never been yoked are hitched to a cart, their calves shut up at home (6:7, 6:10). Naturally they would turn back to their calves. Instead they go straight to Beth Shemesh, \"lowing as they went\" (6:12), proving the plague came from Israel's God.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "On the great stone",
+    "body": "The cart stops by a great stone in a field, and the Levites set the ark on it while the people sacrifice the cows (6:14-15). The stone remained \"to this day\" (6:18). Joy turns quickly to grief.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Looking into the ark",
+    "body": "God strikes the men of Beth Shemesh \"because they had looked into Yahweh's ark\" (6:19). The Hebrew number is unclear; the World English Bible's \"fifty thousand seventy\" follows the Hebrew literally, but many translations read seventy, and some scholars think fifty thousand was added later. The Law had warned that even the Levites must not look at the holy things.",
+    "refs": [
+     "Numbers 4:20"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Who can stand?",
+    "body": "\"Who is able to stand before Yahweh, this holy God?\" (6:20). The men of Beth Shemesh learn what the Philistines learned: God's presence is not safe to handle casually, even for his own people.",
+    "refs": [
+     "Psalms 24:3-4",
+     "Malachi 3:2"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Holy and near",
+    "body": "The ark brought both joy and death. How do you hold together God's nearness and his holiness?",
+    "refs": [
+     "Hebrews 12:28-29"
+    ]
+   }
+  ]
+ },
+ "7": {
+  "summary": "After twenty years Samuel calls Israel to put away foreign gods; they gather at Mizpah to repent, God thunders against the attacking Philistines, and Samuel sets up a stone called Ebenezer, then judges Israel all his life.",
+  "lookfor": "Notice what Israel must do before God acts, Samuel's role in the battle, and the stone at the end.",
+  "names": [
+   {
+    "name": "Mizpah",
+    "kind": "place",
+    "gloss": "A town in Benjamin used as a gathering place for Israel."
+   },
+   {
+    "name": "Ashtaroth",
+    "kind": "group",
+    "gloss": "Images of Astarte, a Canaanite goddess of fertility and war."
+   },
+   {
+    "name": "Ebenezer",
+    "kind": "place",
+    "gloss": "\"Stone of help,\" the memorial Samuel set up after the victory."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Twenty years later",
+    "body": "The ark sits at Kiriath Jearim for twenty years while \"all the house of Israel lamented after Yahweh\" (7:2). Only then does Samuel call for repentance, and Israel removes \"the Baals and the Ashtaroth\" (7:4). Turning back to God comes before any victory.",
+    "refs": [
+     "Judges 10:15-16"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Water poured out",
+    "body": "At Mizpah the people \"drew water, and poured it out before Yahweh, and fasted\" (7:6). The ritual is mentioned nowhere else in the Old Testament and its meaning is uncertain: perhaps a sign of repentance, of pouring out the heart, or of helplessness. It may also be a prayer for rain.",
+    "refs": [
+     "Lamentations 2:19"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Don't stop crying out",
+    "body": "When the Philistines attack, the people beg Samuel, \"Don't stop crying to Yahweh our God for us\" (7:8). Samuel prays and offers a lamb, and \"Yahweh thundered with a great thunder\" (7:10). Unlike the ark in chapter 4, prayer and repentance bring victory.",
+    "refs": [
+     "1 Samuel 4:3",
+     "Psalms 99:6"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Hitherto has the Lord helped us",
+    "body": "Samuel sets up a stone and calls it Ebenezer, \"Yahweh helped us until now\" (7:12). It reverses the earlier defeat at a place of the same name (4:1). The phrase became famous in English through the hymn \"Come, Thou Fount,\" with its line about raising an Ebenezer.",
+    "refs": [
+     "1 Samuel 4:1",
+     "Joshua 4:6-7"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Samuel the judge",
+    "body": "\"Samuel judged Israel all the days of his life\" (7:15), travelling a circuit of Bethel, Gilgal and Mizpah (7:16). He is the last of the judges and the first of the prophets, a bridge between two eras. His leadership brings peace, even with the Amorites (7:14).",
+    "refs": [
+     "Acts 13:20",
+     "Judges 2:16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The hand against the Philistines",
+    "body": "\"Yahweh's hand was against the Philistines all the days of Samuel\" (7:13), and lost cities are restored. The summary sounds complete, yet the Philistines return in later chapters. The narrator is describing the pattern of Samuel's years, not a permanent end.",
+    "refs": [
+     "1 Samuel 13:5"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Your Ebenezer",
+    "body": "Samuel marked a place where God had helped them. Where could you set up a reminder of how far God has brought you?",
+    "refs": [
+     "Psalms 124:8"
+    ]
+   }
+  ]
+ },
+ "8": {
+  "summary": "When Samuel's sons prove corrupt, Israel's elders demand a king like the other nations; God tells Samuel they are rejecting God, not him, and Samuel warns them what a king will take, but they insist.",
+  "lookfor": "Notice the reasons the elders give, God's response, and the repeated word \"take\" in Samuel's warning.",
+  "names": [
+   {
+    "name": "Joel",
+    "kind": "person",
+    "gloss": "Samuel's firstborn son, a corrupt judge."
+   },
+   {
+    "name": "Abijah",
+    "kind": "person",
+    "gloss": "Samuel's second son, also corrupt."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Like father, unlike sons",
+    "body": "Samuel's sons \"turned away after dishonest gain, took bribes, and perverted justice\" (8:3). The story repeats Eli's failure with his own sons. Even a great leader could not pass on his faith by appointment.",
+    "refs": [
+     "1 Samuel 2:12",
+     "Deuteronomy 16:19"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Like all the nations",
+    "body": "The elders ask for \"a king to judge us like all the nations\" (8:5) and to \"fight our battles\" (8:20). Deuteronomy allowed for a king but warned against one \"like all the nations.\" Israel was meant to be different, with God as its king.",
+    "refs": [
+     "Deuteronomy 17:14-15",
+     "Judges 8:22-23"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "They have rejected me",
+    "body": "God tells Samuel, \"they have not rejected you, but they have rejected me as the king over them\" (8:7). He comforts Samuel and names the real issue. Yet God tells him three times to listen to their voice (8:7, 8:9, 8:22).",
+    "refs": [
+     "1 Samuel 10:19",
+     "John 15:18"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "He will take",
+    "body": "Samuel's warning repeats the verb \"take\" again and again: your sons, daughters, fields, vineyards, servants, a tenth of your crops and flocks (8:11-17). The king will be a taker. Solomon's forced labour and heavy taxes later fulfil the warning.",
+    "refs": [
+     "1 Kings 12:4",
+     "1 Kings 4:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Kings of the time",
+    "body": "Texts from Ugarit and elsewhere describe kings seizing land, drafting labour and taxing harvests much as Samuel warns. His description matches real Canaanite city-state kingship of the period.",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "God gives them their request",
+    "body": "\"Listen to their voice, and make them a king\" (8:22). God allows what they ask, yet will work through it, eventually raising up David and promising a king from his line. Interpreters debate whether the monarchy was a concession, a judgment, or part of God's plan; the book holds all three in tension.",
+    "refs": [
+     "Hosea 13:11",
+     "2 Samuel 7:12-16"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Wanting to be like everyone",
+    "body": "Israel wanted to be like the nations around them. Where are you tempted to want what everyone else has rather than what God offers?",
+    "refs": [
+     "Romans 12:2"
+    ]
+   }
+  ]
+ },
+ "9": {
+  "summary": "Saul, a tall young man from Benjamin, goes searching for his father's lost donkeys and is led to the seer Samuel, who has been told by God to expect him and honours him at a sacrificial meal.",
+  "lookfor": "Notice how ordinary events lead Saul to Samuel, how Saul sees himself, and the honour Samuel gives him.",
+  "names": [
+   {
+    "name": "Kish",
+    "kind": "person",
+    "gloss": "Saul's father, a wealthy man of Benjamin."
+   },
+   {
+    "name": "Saul",
+    "kind": "person",
+    "gloss": "Kish's son, tall and handsome, soon to be Israel's first king."
+   },
+   {
+    "name": "Zuph",
+    "kind": "place",
+    "gloss": "The district around Samuel's home town of Ramah."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Taller than anyone",
+    "body": "Saul is \"an impressive young man\" and \"From his shoulders and upward he was taller than any of the people\" (9:2). He looks like a king. Later God will warn Samuel not to judge by appearance or height.",
+    "refs": [
+     "1 Samuel 16:7",
+     "1 Samuel 10:23"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Lost donkeys",
+    "body": "Saul sets out to find lost donkeys and finds a kingdom. God works through an ordinary errand, a servant's idea and some girls at a well (9:6, 9:11). The narrator lets the reader see God's hand where Saul sees only a frustrating search.",
+    "refs": [
+     "Proverbs 16:9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Seer and prophet",
+    "body": "\"He who is now called a prophet was before called a seer\" (9:9). The aside shows the narrator writing later and explaining older language. Seers were consulted for a small fee, which is why Saul worries about having no gift (9:7-8).",
+    "refs": [
+     "2 Samuel 24:11",
+     "1 Kings 14:3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "God had told Samuel",
+    "body": "The day before, God told Samuel, \"Tomorrow about this time I will send you a man\" (9:16), because \"their cry has come to me.\" The words echo God hearing Israel's cry in Egypt. The king is God's response to real need as well as to the people's demand.",
+    "refs": [
+     "Exodus 3:7-9"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The smallest tribe",
+    "body": "Saul protests, \"Am I not a Benjamite, of the smallest of the tribes of Israel?\" (9:21). Benjamin had nearly been wiped out at the end of Judges. His humility is real at this point; Samuel later reminds him he was \"little in your own sight.\"",
+    "refs": [
+     "Judges 20:46-48",
+     "1 Samuel 15:17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The reserved portion",
+    "body": "At the meal Samuel has the cook set before Saul the thigh that had been kept for him (9:23-24). The best portion and the seat of honour among thirty guests mark Saul publicly as someone special before anyone knows why.",
+    "refs": [
+     "Genesis 43:34"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "God in the ordinary",
+    "body": "Saul's call came while he looked for lost animals. Where might God be at work in the ordinary tasks of your week?",
+    "refs": []
+   }
+  ]
+ },
+ "10": {
+  "summary": "Samuel secretly anoints Saul, who receives three signs and prophesies when God's Spirit comes on him; at Mizpah Saul is chosen publicly by lot, though he is found hiding among the baggage.",
+  "lookfor": "Notice the three signs, the proverb about Saul, and how Saul behaves when he is chosen.",
+  "names": [
+   {
+    "name": "Rachel’s tomb",
+    "kind": "place",
+    "gloss": "The tomb of Jacob's wife Rachel, on the border of Benjamin."
+   },
+   {
+    "name": "Gibeah",
+    "kind": "place",
+    "gloss": "Saul's home town in Benjamin, later his capital."
+   },
+   {
+    "name": "Matrites",
+    "kind": "group",
+    "gloss": "Saul's clan within the tribe of Benjamin."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Oil on the head",
+    "body": "Samuel pours oil on Saul's head and kisses him (10:1). Anointing set someone apart for a sacred role; priests had been anointed, and now a king. The word for anointed, mashiach, gives us \"Messiah.\"",
+    "refs": [
+     "Exodus 29:7",
+     "1 Samuel 16:13"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Prince, not king",
+    "body": "Samuel anoints Saul \"to be prince over his inheritance\" (10:1). The Hebrew nagid means leader or designated ruler, a title that may emphasise that Saul serves under God. Israel belongs to God as his inheritance, not to Saul.",
+    "refs": [
+     "1 Samuel 9:16",
+     "1 Samuel 13:14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Another heart",
+    "body": "\"God gave him another heart\" (10:9), and when the Spirit comes on him Saul prophesies with a band of prophets (10:10). The beginning is full of promise. The tragedy is that this gift is later lost.",
+    "refs": [
+     "1 Samuel 16:14",
+     "Ezekiel 36:26"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Is Saul also among the prophets?",
+    "body": "People are astonished: \"Is Saul also among the prophets?\" (10:11). It became a proverb, perhaps meaning surprise that an ordinary farmer's son should behave like a prophet. The same proverb is explained again, very differently, in chapter 19.",
+    "refs": [
+     "1 Samuel 19:23-24"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Wait seven days",
+    "body": "Samuel tells Saul to wait seven days at Gilgal until Samuel comes to offer sacrifice (10:8). This instruction becomes the test Saul fails in chapter 13.",
+    "refs": [
+     "1 Samuel 13:8-13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Hiding in the baggage",
+    "body": "Chosen by lot, Saul cannot be found; \"he has hidden himself among the baggage\" (10:22). Whether from modesty or fear, the future king hides. When he stands up he is head and shoulders above everyone (10:23).",
+    "refs": [
+     "Joshua 7:16-18"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Long live the king",
+    "body": "The people shout, \"Long live the king!\" (10:24). Samuel writes \"the regulations of the kingdom\" in a book and lays it before Yahweh (10:25), a written constitution limiting the king, as Deuteronomy required.",
+    "refs": [
+     "Deuteronomy 17:18-20"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "A changed heart",
+    "body": "God gave Saul another heart at the start. What does it take to keep a heart God has changed?",
+    "refs": [
+     "Proverbs 4:23"
+    ]
+   }
+  ]
+ },
+ "11": {
+  "summary": "When the Ammonite Nahash besieges Jabesh Gilead and threatens to gouge out the men's right eyes, God's Spirit stirs Saul to rally Israel; he rescues the city and the kingdom is renewed at Gilgal.",
+  "lookfor": "Notice Nahash's cruel terms, how Saul summons the tribes, and how he treats those who doubted him.",
+  "names": [
+   {
+    "name": "Nahash",
+    "kind": "person",
+    "gloss": "King of the Ammonites, east of the Jordan."
+   },
+   {
+    "name": "Jabesh Gilead",
+    "kind": "place",
+    "gloss": "A town in Gilead east of the Jordan."
+   },
+   {
+    "name": "Bezek",
+    "kind": "place",
+    "gloss": "A place west of the Jordan where Saul mustered the army."
+   },
+   {
+    "name": "Gilgal",
+    "kind": "place",
+    "gloss": "An old sanctuary near Jericho where Israel first camped in the land."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Gouging out right eyes",
+    "body": "Nahash demands to put out every man's right eye as a disgrace on all Israel (11:2). A warrior who lost his right eye could not fight well behind a shield. A Dead Sea Scroll of Samuel includes an extra paragraph explaining that Nahash had been doing this to Israelites east of the Jordan.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Saul behind the oxen",
+    "body": "The newly chosen king is found \"following the oxen out of the field\" (11:5). He is still a farmer. When the Spirit comes on him, he becomes the deliverer, like the judges before him.",
+    "refs": [
+     "Judges 6:34",
+     "Judges 14:6"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Oxen cut in pieces",
+    "body": "Saul cuts up a yoke of oxen and sends the pieces through Israel with a warning (11:7). It grimly echoes the end of Judges, when a Levite cut up his concubine and sent her body through the tribes, a story set in Saul's own town of Gibeah.",
+    "refs": [
+     "Judges 19:29",
+     "Judges 20:1"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Jabesh remembers",
+    "body": "Jabesh Gilead never forgot what Saul did. When the Philistines hung Saul's body on a wall, the men of Jabesh marched all night to recover it and bury it.",
+    "refs": [
+     "1 Samuel 31:11-13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "No one shall die today",
+    "body": "The people want to kill those who had despised Saul (10:27), but Saul says, \"No man shall be put to death today; for today Yahweh has rescued Israel\" (11:13). It is Saul at his best: generous and giving credit to God.",
+    "refs": [
+     "1 Samuel 10:27",
+     "2 Samuel 19:22"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Renewing the kingdom",
+    "body": "Samuel leads the people to Gilgal to \"renew the kingdom\" (11:14), and Saul is made king before Yahweh (11:15). Saul had been anointed privately and chosen by lot; now, after proving himself in battle, the whole nation confirms him.",
+    "refs": [
+     "1 Samuel 10:1",
+     "1 Samuel 10:24"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Grace in victory",
+    "body": "Saul could have taken revenge on his critics. How do you treat people who doubted you once things go your way?",
+    "refs": [
+     "Romans 12:19-21"
+    ]
+   }
+  ]
+ },
+ "12": {
+  "summary": "Samuel gives a farewell address, asking Israel to testify to his honesty, recounting God's faithfulness, and calling down thunder in harvest to show their sin in asking for a king, yet promising God will not forsake them.",
+  "lookfor": "Notice Samuel's challenge about his own conduct, the history he retells, and his promise to keep praying.",
+  "names": [
+   {
+    "name": "Jerubbaal",
+    "kind": "person",
+    "gloss": "Another name for Gideon, the judge who defeated Midian."
+   },
+   {
+    "name": "Bedan",
+    "kind": "person",
+    "gloss": "A deliverer not named elsewhere; some ancient versions read Barak."
+   },
+   {
+    "name": "Jephthah",
+    "kind": "person",
+    "gloss": "The judge from Gilead who defeated the Ammonites."
+   },
+   {
+    "name": "Sisera",
+    "kind": "person",
+    "gloss": "The Canaanite commander defeated in Deborah's day."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Whose ox have I taken?",
+    "body": "Samuel asks, \"Whose ox have I taken? Whose donkey have I taken? Whom have I defrauded?\" (12:3). The questions contrast with the king who will \"take\" (8:11-17). Samuel leaves office with clean hands. Paul makes a similar claim to the Ephesian elders.",
+    "refs": [
+     "1 Samuel 8:11-17",
+     "Acts 20:33"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Who was Bedan?",
+    "body": "Samuel lists deliverers: \"Jerubbaal, Bedan, Jephthah, and Samuel\" (12:11). Bedan is unknown; the Greek and Syriac versions read Barak, Deborah's general, and many translations follow them.",
+    "refs": [
+     "Judges 4:6",
+     "Hebrews 11:32"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Thunder in wheat harvest",
+    "body": "\"Isn't it wheat harvest today? I will call to Yahweh, that he may send thunder and rain\" (12:17). In Israel the wheat harvest falls in late spring, when rain almost never comes, and a storm could damage the crop. The sign was unmistakable.",
+    "refs": [
+     "Proverbs 26:1"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Don't turn away",
+    "body": "The people realise their sin, but Samuel says, \"Don't be afraid... yet don't turn away from following Yahweh\" (12:20). Their wrong choice of a king is not the end. God \"will not forsake his people for his great name's sake\" (12:22).",
+    "refs": [
+     "Psalms 94:14",
+     "Romans 11:1-2"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Sin to stop praying",
+    "body": "\"Far be it from me that I should sin against Yahweh in ceasing to pray for you\" (12:23). Samuel treats prayerlessness for his people as sin. Jeremiah names Moses and Samuel as Israel's great intercessors.",
+    "refs": [
+     "Jeremiah 15:1",
+     "Psalms 99:6"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Both you and your king",
+    "body": "The king does not replace the covenant; he stands under it. If the people and \"the king who reigns over you\" follow God, all will be well; if not, \"you will be consumed, both you and your king\" (12:14, 12:25). The rest of Israel's history tests this warning.",
+    "refs": [
+     "Deuteronomy 17:19-20",
+     "2 Kings 17:7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Considering what he has done",
+    "body": "\"Consider what great things he has done for you\" (12:24). When did you last stop to remember God's past faithfulness?",
+    "refs": [
+     "Psalms 126:3"
+    ]
+   }
+  ]
+ },
+ "13": {
+  "summary": "Saul, facing a huge Philistine army with a deserting force, offers the sacrifice himself instead of waiting for Samuel, and Samuel tells him his kingdom will not last; Israel has almost no weapons.",
+  "lookfor": "Notice the pressure Saul is under, his excuses, and the note about blacksmiths.",
+  "names": [
+   {
+    "name": "Jonathan",
+    "kind": "person",
+    "gloss": "Saul's eldest son, a brave warrior."
+   },
+   {
+    "name": "Michmash",
+    "kind": "place",
+    "gloss": "A town in Benjamin facing Geba across a steep valley."
+   },
+   {
+    "name": "Geba",
+    "kind": "place",
+    "gloss": "A town in Benjamin with a Philistine garrison."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "A broken number",
+    "body": "The Hebrew of verse 1 literally says Saul was one year old when he began to reign and reigned two years. Numbers seem to have dropped out, and translations fill the gaps differently; the World English Bible gives thirty and forty-two. Acts says Saul reigned forty years.",
+    "refs": [
+     "Acts 13:21"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Hiding in holes",
+    "body": "Faced with a vast Philistine army, Israelites hide \"in caves, in thickets, in rocks, in tombs, and in pits\" (13:6), and some cross the Jordan. Saul's army shrinks to six hundred (13:15). The pressure on him is real.",
+    "refs": [
+     "Judges 6:2"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Saul's sacrifice",
+    "body": "Samuel had said to wait seven days (10:8). On the seventh day, with men deserting, Saul offers the burnt offering himself, and Samuel arrives just as he finishes (13:9-10). Saul's excuse, \"I forced myself\" (13:12), shows he trusted the ritual more than the instruction.",
+    "refs": [
+     "1 Samuel 10:8",
+     "1 Samuel 15:22"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A man after his own heart",
+    "body": "Samuel says, \"Yahweh has sought for himself a man after his own heart\" (13:14). Paul quotes this of David in Acts. Many scholars note the phrase can also mean a man of God's own choosing, according to God's purpose.",
+    "refs": [
+     "Acts 13:22",
+     "1 Samuel 16:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "No blacksmiths",
+    "body": "\"There was no blacksmith found throughout all the land of Israel\" (13:19). The Philistines controlled iron working, so Israelites had to pay them to sharpen farm tools, at a price of a \"payim\" (13:21). Stone weights inscribed pym have been found, confirming the word's meaning.",
+    "refs": [
+     "Judges 1:19"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Only two swords",
+    "body": "\"Neither sword nor spear was found in the hand of any of the people... but Saul and Jonathan his son had them\" (13:22). Israel's army fights with farm tools. Any victory must come from God.",
+    "refs": [
+     "Judges 5:8"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Under pressure",
+    "body": "Saul broke God's instruction when time was running out. When do you find it hardest to wait for God?",
+    "refs": [
+     "Isaiah 40:31"
+    ]
+   }
+  ]
+ },
+ "14": {
+  "summary": "Jonathan and his armour-bearer attack a Philistine outpost, sparking panic and a great victory, but Saul's rash oath forbidding food nearly costs Jonathan his life until the people rescue him.",
+  "lookfor": "Notice Jonathan's faith, Saul's oath and its effects, and how the people respond to Saul's verdict.",
+  "names": [
+   {
+    "name": "Ahijah",
+    "kind": "person",
+    "gloss": "A priest descended from Eli, serving with Saul."
+   },
+   {
+    "name": "Bozez",
+    "kind": "place",
+    "gloss": "One of two rocky crags at the pass of Michmash."
+   },
+   {
+    "name": "Seneh",
+    "kind": "place",
+    "gloss": "The other crag at the pass."
+   },
+   {
+    "name": "Abner",
+    "kind": "person",
+    "gloss": "Saul's cousin and the commander of his army."
+   },
+   {
+    "name": "Michal",
+    "kind": "person",
+    "gloss": "Saul's younger daughter, later David's wife."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "By many or by few",
+    "body": "Jonathan says, \"there is no restraint on Yahweh to save by many or by few\" (14:6). He acts on faith, not numbers, much as Gideon's small army did. His armour-bearer replies, \"I am with you according to your heart\" (14:7).",
+    "refs": [
+     "Judges 7:2",
+     "2 Chronicles 14:11"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The pass of Michmash",
+    "body": "Jonathan climbs between two crags named Bozez and Seneh (14:4-5). In 1918, during the First World War, a British officer reportedly used this chapter's description to find a path up the cliffs at Michmash for a surprise attack. The story is often told, though details vary.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "An earthquake and panic",
+    "body": "\"The earth quaked, so there was an exceedingly great trembling\" (14:15), probably a panic sent by God. The Philistines strike each other in confusion (14:20), and Hebrews who had served the Philistines switch sides (14:21).",
+    "refs": [
+     "Judges 7:22"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Saul's rash oath",
+    "body": "Saul curses anyone who eats before evening \"until... I am avenged of my enemies\" (14:24). His words focus on his own revenge. The hungry army fights less well, and later eats meat with the blood (14:32), breaking God's law.",
+    "refs": [
+     "Leviticus 17:10-11",
+     "Ecclesiastes 5:2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Honey and bright eyes",
+    "body": "Jonathan, unaware of the oath, eats honey and \"his eyes brightened\" (14:27). He says, \"My father has troubled the land\" (14:29), using the word applied to Achan. The son sees what the father cannot.",
+    "refs": [
+     "Joshua 7:25"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The people rescue Jonathan",
+    "body": "When the lot falls on Jonathan, Saul swears he will die, but the people say, \"As Yahweh lives, there shall not one hair of his head fall to the ground\" (14:45). The army overrules the king. Jephthah, by contrast, kept a terrible vow.",
+    "refs": [
+     "Judges 11:30-35"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Saul's family",
+    "body": "The chapter ends with a summary of Saul's wars and family (14:47-52), the kind of record found at the close of a king's reign. Jonathan, Michal and Abner will all play major roles in David's story.",
+    "refs": [
+     "1 Samuel 18:20",
+     "2 Samuel 2:8"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Rash words",
+    "body": "Saul's oath hurt his own army and nearly killed his son. Have you ever made a rash promise that you later had to undo?",
+    "refs": [
+     "James 1:19"
+    ]
+   }
+  ]
+ },
+ "15": {
+  "summary": "Commanded to destroy Amalek completely, Saul spares King Agag and the best livestock; Samuel declares that obedience is better than sacrifice and that God has rejected Saul as king, then kills Agag himself.",
+  "lookfor": "Notice how Saul describes what he did, Samuel's reply, the torn robe, and God's grief.",
+  "names": [
+   {
+    "name": "Amalek",
+    "kind": "group",
+    "gloss": "A desert people who attacked Israel after the exodus."
+   },
+   {
+    "name": "Kenites",
+    "kind": "group",
+    "gloss": "A clan related to Moses' in-laws, friendly to Israel."
+   },
+   {
+    "name": "Agag",
+    "kind": "person",
+    "gloss": "The king of Amalek whom Saul spared."
+   },
+   {
+    "name": "Carmel",
+    "kind": "place",
+    "gloss": "A town in Judah's hill country, not Mount Carmel."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Why Amalek?",
+    "body": "God's command recalls what Amalek did to Israel after the exodus (15:2), attacking the weak and weary. Moses had recorded God's oath to blot out Amalek's memory. The total destruction ordered here is among the hardest commands in Scripture, and readers have long struggled with it.",
+    "refs": [
+     "Exodus 17:14",
+     "Deuteronomy 25:17-19"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Sparing the Kenites",
+    "body": "Before attacking, Saul warns the Kenites to leave, \"for you showed kindness to all the children of Israel\" (15:6). Old kindness is remembered. The Kenites were relatives of Moses' father-in-law.",
+    "refs": [
+     "Judges 1:16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A monument for himself",
+    "body": "After the battle Saul \"set up a monument for himself\" at Carmel (15:12). Samuel had once set up a stone called Ebenezer, giving God the glory (7:12). Saul's pride is showing.",
+    "refs": [
+     "1 Samuel 7:12",
+     "2 Samuel 18:18"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Bleating sheep",
+    "body": "Saul greets Samuel, \"I have performed the commandment of Yahweh,\" and Samuel replies, \"Then what does this bleating of the sheep in my ears... mean?\" (15:13-14). Saul blames the people and claims the animals were for sacrifice (15:15, 15:21).",
+    "refs": [
+     "Genesis 3:12"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "To obey is better than sacrifice",
+    "body": "\"Behold, to obey is better than sacrifice, and to listen than the fat of rams\" (15:22). The prophets repeat the theme: Hosea says God desires loyalty, not sacrifice, and Jesus quotes Hosea twice.",
+    "refs": [
+     "Hosea 6:6",
+     "Matthew 9:13",
+     "Psalms 51:16-17"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "God's grief and God's constancy",
+    "body": "God says, \"It grieves me that I have set up Saul to be king\" (15:11), and the chapter ends saying God \"grieved\" (15:35). Yet Samuel says God \"will not lie nor repent; for he is not a man\" (15:29). The same Hebrew verb, nacham, is used for both; God feels sorrow at human failure, but does not change his purposes like a fickle human.",
+    "refs": [
+     "Numbers 23:19",
+     "Genesis 6:6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The torn robe",
+    "body": "Saul grabs Samuel's robe and it tears; Samuel says God \"has torn the kingdom of Israel from you today\" (15:27-28). Later David cuts the edge of Saul's robe, and the prophet Ahijah tears his cloak to show Solomon's kingdom being torn.",
+    "refs": [
+     "1 Samuel 24:4-5",
+     "1 Kings 11:30-31"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Partial obedience",
+    "body": "Saul obeyed most of the command and called it obedience. Where might you be doing most of what God asks and calling it enough?",
+    "refs": [
+     "James 2:10"
+    ]
+   }
+  ]
+ },
+ "16": {
+  "summary": "God sends Samuel to Bethlehem to anoint one of Jesse's sons; passing over the older brothers, God chooses the youngest, David, the shepherd; God's Spirit leaves Saul, and David is brought to court to play the harp.",
+  "lookfor": "Notice why the older sons are passed over, where David is when Samuel arrives, and how David first enters Saul's service.",
+  "names": [
+   {
+    "name": "Jesse",
+    "kind": "person",
+    "gloss": "A man of Bethlehem, grandson of Ruth and Boaz, David's father."
+   },
+   {
+    "name": "Bethlehem",
+    "kind": "place",
+    "gloss": "A small town in Judah south of Jerusalem."
+   },
+   {
+    "name": "Eliab",
+    "kind": "person",
+    "gloss": "Jesse's eldest son, tall and impressive."
+   },
+   {
+    "name": "David",
+    "kind": "person",
+    "gloss": "Jesse's youngest son, a shepherd; his name may mean \"beloved.\""
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "How long will you mourn?",
+    "body": "God asks Samuel, \"How long will you mourn for Saul?\" (16:1). Samuel's grief for Saul was real (15:35). God does not dismiss it but turns Samuel toward what he is doing next.",
+    "refs": [
+     "1 Samuel 15:35"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "God looks at the heart",
+    "body": "Samuel sees tall Eliab and thinks, \"Surely Yahweh's anointed is before him\" (16:6). God answers, \"man looks at the outward appearance, but Yahweh looks at the heart\" (16:7). Saul too had been chosen tall; the next king is chosen another way.",
+    "refs": [
+     "1 Samuel 9:2",
+     "1 Samuel 10:23"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The youngest, with the sheep",
+    "body": "Seven sons pass before Samuel and none is chosen. Jesse had not even called the youngest, who \"is keeping the sheep\" (16:11). God repeatedly chooses younger sons: Abel, Isaac, Jacob, Joseph, Ephraim.",
+    "refs": [
+     "Genesis 25:23",
+     "Genesis 48:19"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Shepherd king",
+    "body": "David is called from the sheep, and the picture of the king as shepherd runs through Scripture. Psalm 78 says God took him from the sheepfolds to shepherd Israel. Jesus calls himself the good shepherd, born in David's town.",
+    "refs": [
+     "Psalms 78:70-72",
+     "John 10:11"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The Spirit came and went",
+    "body": "When David is anointed, \"Yahweh's Spirit came mightily on David from that day forward\" (16:13). In the next verse, \"Yahweh's Spirit departed from Saul\" (16:14). The two anointed men are now on opposite paths.",
+    "refs": [
+     "1 Samuel 10:10",
+     "Psalms 51:11"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "An evil spirit from Yahweh",
+    "body": "\"An evil spirit from Yahweh troubled him\" (16:14). Ancient Israel saw everything as under God's sovereignty, even troubling spirits. Interpreters differ on whether to read this as a demonic presence or a darkness of mind permitted by God; many see in Saul's later behaviour signs of what we might call depression or paranoia.",
+    "refs": [
+     "Judges 9:23",
+     "1 Kings 22:22-23"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Music that soothes",
+    "body": "Saul's servants suggest a harpist, and David is described as skilled, brave, wise in speech, handsome, \"and Yahweh is with him\" (16:18). David enters the court as the king's musician and armour-bearer, and Saul \"loved him greatly\" (16:21). Saul does not know David has been anointed.",
+    "refs": [
+     "2 Samuel 23:1"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "What God sees",
+    "body": "God looks at the heart. What would God see if he looked at yours today?",
+    "refs": [
+     "Psalms 139:23-24"
+    ]
+   }
+  ]
+ },
+ "17": {
+  "summary": "The Philistine champion Goliath defies Israel for forty days; young David, bringing food to his brothers, volunteers to fight him and kills him with a sling and a stone in the name of Yahweh.",
+  "lookfor": "Notice Goliath's armour, how David's brothers and Saul react to him, and what David says about whose battle it is.",
+  "names": [
+   {
+    "name": "Goliath",
+    "kind": "person",
+    "gloss": "A giant Philistine champion from Gath."
+   },
+   {
+    "name": "Gath",
+    "kind": "place",
+    "gloss": "A Philistine city where some of the Anakim had survived."
+   },
+   {
+    "name": "valley of Elah",
+    "kind": "place",
+    "gloss": "A valley in the Shephelah west of Bethlehem, on the Philistine frontier."
+   },
+   {
+    "name": "Eliab",
+    "kind": "person",
+    "gloss": "David's eldest brother, a soldier in Saul's army."
+   },
+   {
+    "name": "Abner",
+    "kind": "person",
+    "gloss": "Saul's army commander and cousin."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Single combat",
+    "body": "Goliath proposes that one champion from each side fight to decide the battle (17:8-9). Single combat between champions is known from other ancient sources, including the Egyptian Story of Sinuhe and Homer's Iliad. It spared armies but put everything on one man.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "How tall was Goliath?",
+    "body": "The Hebrew text gives his height as \"six cubits and a span\" (17:4), nearly three metres. The Greek translation and a Dead Sea Scroll of Samuel say four cubits and a span, about two metres, still a giant among men of that time. His bronze armour weighed about fifty-seven kilograms (17:5).",
+    "refs": [
+     "Deuteronomy 3:11"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Two introductions?",
+    "body": "David is introduced again here as if for the first time (17:12), and at the end Saul asks whose son he is (17:55-58), although David was already his harpist in chapter 16. The main Greek manuscripts lack several of these verses. Scholars think two accounts may have been combined; others explain that Saul knew David but not his family.",
+    "refs": [
+     "1 Samuel 16:21-22"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Defying the living God",
+    "body": "David sees what the soldiers do not: \"who is this uncircumcised Philistine, that he should defy the armies of the living God?\" (17:26). For Saul's army Goliath is a military problem; for David it is an insult to God.",
+    "refs": [
+     "2 Kings 19:4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Lion and bear",
+    "body": "David's qualification is shepherding: he struck the lion and the bear that took his sheep (17:34-36). \"Yahweh who delivered me out of the paw of the lion... will deliver me\" (17:37). Past faithfulness grounds present faith.",
+    "refs": [
+     "Psalms 23:4"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The sling",
+    "body": "A sling was not a child's toy but a serious weapon; Judges mentions left-handed Benjamites who could sling a stone at a hair and not miss. Slingstones about the size of a tennis ball have been found at many ancient battle sites. David chooses a weapon that works at a distance, before Goliath can reach him.",
+    "refs": [
+     "Judges 20:16"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The battle is Yahweh's",
+    "body": "\"You come to me with a sword... but I come to you in the name of Yahweh of Armies\" (17:45), \"for the battle is Yahweh's\" (17:47). The victory is meant to show \"that there is a God in Israel\" (17:46). David's faith, not his size, makes him the true king in waiting.",
+    "refs": [
+     "2 Chronicles 20:15",
+     "Zechariah 4:6"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Who killed Goliath?",
+    "body": "2 Samuel says Elhanan of Bethlehem killed \"Goliath the Gittite.\" Chronicles reads that Elhanan killed Goliath's brother Lahmi. Scholars debate whether a copying error, two giants of the same name, or two traditions lie behind this.",
+    "refs": [
+     "2 Samuel 21:19",
+     "1 Chronicles 20:5"
+    ]
+   }
+  ]
+ },
+ "18": {
+  "summary": "Jonathan binds himself to David in friendship, David's victories make him popular, and jealous Saul tries to kill him, first with a spear and then by sending him to win a Philistine bride price, but David marries Michal.",
+  "lookfor": "Notice Jonathan's gifts, the women's song, the growing fear in Saul, and how often it says Yahweh was with David.",
+  "names": [
+   {
+    "name": "Jonathan",
+    "kind": "person",
+    "gloss": "Saul's eldest son and heir, a brave warrior."
+   },
+   {
+    "name": "Merab",
+    "kind": "person",
+    "gloss": "Saul's elder daughter, promised to David but given to another man."
+   },
+   {
+    "name": "Michal",
+    "kind": "person",
+    "gloss": "Saul's younger daughter, who loved David."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Knit together",
+    "body": "\"The soul of Jonathan was knit with the soul of David, and Jonathan loved him as his own soul\" (18:1). The friendship is one of the Bible's great portraits of loyalty, between a crown prince and the man who will take his throne.",
+    "refs": [
+     "2 Samuel 1:26",
+     "Proverbs 18:24"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Robe, sword and bow",
+    "body": "Jonathan gives David his robe, armour, sword, bow and belt (18:4). For a prince to hand over his royal clothing and weapons is a powerful gesture, as if handing over his place. Jonathan later says plainly, \"You will be king over Israel.\"",
+    "refs": [
+     "1 Samuel 23:17",
+     "Numbers 20:26"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Thousands and ten thousands",
+    "body": "The women sing, \"Saul has slain his thousands, and David his ten thousands\" (18:7). In Hebrew poetry this pattern can simply mean that both did great deeds, but Saul hears an insult. Even the Philistines later quote the song.",
+    "refs": [
+     "1 Samuel 21:11",
+     "1 Samuel 29:5"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Jealousy takes hold",
+    "body": "\"Saul watched David from that day and forward\" (18:9). The next day Saul throws a spear at David twice (18:11). Saul becomes afraid because \"Yahweh was with him, and had departed from Saul\" (18:12).",
+    "refs": [
+     "James 3:16",
+     "Proverbs 27:4"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A bride price",
+    "body": "Saul asks for no dowry except a hundred Philistine foreskins (18:25), hoping David will die trying. Proof of enemies killed was sometimes taken in ancient warfare; Egyptian records count hands or foreskins of the slain. David brings two hundred.",
+    "refs": [
+     "Genesis 34:12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Everyone loves David",
+    "body": "Jonathan loves David (18:1, 18:3), \"all Israel and Judah loved David\" (18:16), and Michal loves him (18:20). The chapter never says David loved any of them. The narrator leaves David's own heart in the background while showing the effect he has.",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Yahweh was with him",
+    "body": "The chapter repeats that \"Yahweh was with him\" (18:12, 18:14, 18:28). The phrase explains David's success and Saul's fear. The same was said of Joseph in Egypt.",
+    "refs": [
+     "Genesis 39:2-3",
+     "1 Samuel 16:18"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Another's success",
+    "body": "Saul could not bear David's success. How do you respond when someone else is praised more than you?",
+    "refs": [
+     "Romans 12:15"
+    ]
+   }
+  ]
+ },
+ "19": {
+  "summary": "Saul openly orders David's death; Jonathan pleads for him, Michal helps him escape through a window, and when Saul pursues him to Samuel at Ramah, Saul himself is overcome by God's Spirit and prophesies.",
+  "lookfor": "Notice how Jonathan and Michal each protect David, and what happens to everyone sent to capture him at Ramah.",
+  "names": [
+   {
+    "name": "Naioth",
+    "kind": "place",
+    "gloss": "A place in Ramah, perhaps the prophets' living quarters."
+   },
+   {
+    "name": "Secu",
+    "kind": "place",
+    "gloss": "A place near Ramah with a great well."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Jonathan intercedes",
+    "body": "Jonathan reminds Saul of David's courage against Goliath and pleads, \"why then will you sin against innocent blood?\" (19:5). Saul swears David will not die (19:6), but the oath does not last.",
+    "refs": [
+     "Proverbs 31:8-9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The spear again",
+    "body": "As David plays music, Saul again tries to pin him to the wall with a spear (19:10). The spear has become Saul's constant companion, in his hand at home and at court.",
+    "refs": [
+     "1 Samuel 18:10-11",
+     "1 Samuel 22:6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Michal's teraphim",
+    "body": "Michal lets David down through a window and puts \"the teraphim\" in his bed with goat's hair at its head (19:13). Teraphim were household figures, often linked with family gods or divination, and could apparently be life-sized. Rachel had stolen her father's teraphim too.",
+    "refs": [
+     "Genesis 31:19",
+     "1 Samuel 15:23"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Down through a window",
+    "body": "Michal lets David down through a window (19:12), as Rahab did for the spies and as the disciples later did for Paul in a basket at Damascus. Each time, a woman's or a friend's quick thinking saves God's servant from his enemies.",
+    "refs": [
+     "Joshua 2:15",
+     "Acts 9:25"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Messengers who prophesy",
+    "body": "Saul sends three groups of messengers to seize David at Ramah, and each one begins prophesying (19:20-21). Then Saul goes himself, and God's Spirit comes on him too (19:23). God protects David by overwhelming his pursuers.",
+    "refs": [
+     "Numbers 11:25"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Saul among the prophets again",
+    "body": "Saul strips off his clothes and lies down all day and night prophesying before Samuel, and \"Therefore they say, 'Is Saul also among the prophets?'\" (19:24). In chapter 10 the proverb marked Saul's promising start; here it marks his humiliation.",
+    "refs": [
+     "1 Samuel 10:11-12"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Unexpected allies",
+    "body": "David was saved by Saul's own son and daughter. Who has God placed near you to help in hard times?",
+    "refs": [
+     "Ecclesiastes 4:9-10"
+    ]
+   }
+  ]
+ },
+ "20": {
+  "summary": "Jonathan and David renew their covenant; Jonathan tests Saul's intentions at the New Moon feast, Saul hurls a spear at his own son, and Jonathan warns David by a signal with arrows before a tearful parting.",
+  "lookfor": "Notice the covenant between the two friends, Saul's outburst at the meal, and the signal of the arrows.",
+  "names": [
+   {
+    "name": "Jonathan",
+    "kind": "person",
+    "gloss": "Saul's son, risking his father's anger to protect David."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "The New Moon feast",
+    "body": "David's absence from the king's table at the New Moon (20:5) would be noticed. The first of each month was a festival with special sacrifices and meals. Saul first assumes David is ritually unclean (20:26).",
+    "refs": [
+     "Numbers 28:11",
+     "Amos 8:5"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Chesed between friends",
+    "body": "Jonathan asks David to show him \"the loving kindness of Yahweh\" and never cut off his kindness from Jonathan's family (20:14-15). The word is chesed, covenant loyalty. David later keeps the promise by caring for Jonathan's son Mephibosheth.",
+    "refs": [
+     "2 Samuel 9:1",
+     "2 Samuel 9:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A spear at his own son",
+    "body": "Saul calls Jonathan \"you son of a perverse rebellious woman\" and warns that while David lives, Jonathan's kingdom will not be established (20:30-31). When Jonathan protests, Saul throws his spear at him (20:33). Saul's rage now endangers his own family.",
+    "refs": [
+     "1 Samuel 18:11"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Jonathan's choice",
+    "body": "Saul tells Jonathan plainly that David threatens his own throne (20:31). Jonathan chooses friendship and God's purpose over his own future as king. His loyalty is one of the most selfless in Scripture.",
+    "refs": [
+     "1 Samuel 23:17",
+     "John 3:30"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The arrows",
+    "body": "Jonathan shoots arrows and calls to the boy, \"Isn't the arrow beyond you?\" (20:37), the agreed signal that David must flee. The secret code lets him warn David without being seen together.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Weeping together",
+    "body": "The two friends kiss and weep, \"and David wept the most\" (20:41), and Jonathan sends him away in peace, reminding him of their oath in Yahweh's name (20:42). It is the last time they meet but one.",
+    "refs": [
+     "1 Samuel 23:16-18"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Faithful friendship",
+    "body": "Jonathan stood by David at great cost. Who has been that kind of friend to you, and to whom could you be one?",
+    "refs": [
+     "John 15:13"
+    ]
+   }
+  ]
+ },
+ "21": {
+  "summary": "David flees to the priest Ahimelech at Nob, who gives him holy bread and Goliath's sword, while Saul's servant Doeg watches; then David escapes to the Philistine king of Gath by pretending to be insane.",
+  "lookfor": "Notice David's half-truths, the holy bread, who is watching, and how David escapes from Gath.",
+  "names": [
+   {
+    "name": "Nob",
+    "kind": "place",
+    "gloss": "A town of priests near Jerusalem, where the sanctuary stood after Shiloh."
+   },
+   {
+    "name": "Ahimelech",
+    "kind": "person",
+    "gloss": "The chief priest at Nob, great-grandson of Eli."
+   },
+   {
+    "name": "Doeg the Edomite",
+    "kind": "person",
+    "gloss": "Saul's chief herdsman, who later betrays the priests."
+   },
+   {
+    "name": "Achish",
+    "kind": "person",
+    "gloss": "The Philistine king of Gath."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "A cover story",
+    "body": "David tells Ahimelech he is on a secret mission for the king (21:2). It is not true. The narrator records it without comment, but the lie leads to disaster for the priests in the next chapter.",
+    "refs": [
+     "1 Samuel 22:22"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The holy bread",
+    "body": "Ahimelech has only the show bread, holy bread from the sanctuary table that normally only priests could eat (21:4-6). He gives it to David's hungry men. Jesus cites this story when the Pharisees criticise his disciples for picking grain on the Sabbath.",
+    "refs": [
+     "Leviticus 24:5-9",
+     "Mark 2:25-26"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Abiathar or Ahimelech?",
+    "body": "Mark records Jesus saying this happened \"at the time of Abiathar the high priest,\" though here the priest is Ahimelech, Abiathar's father. Explanations include the phrase meaning in the passage about Abiathar, Abiathar being present and better known, or a different reckoning of names.",
+    "refs": [
+     "Mark 2:26",
+     "1 Samuel 22:20"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Goliath's sword",
+    "body": "The only weapon at Nob is Goliath's sword, wrapped in a cloth behind the ephod (21:9). David says, \"There is none like that.\" The trophy of his greatest victory now equips him as a fugitive.",
+    "refs": [
+     "1 Samuel 17:51",
+     "1 Samuel 17:54"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Doeg watching",
+    "body": "\"A certain man of the servants of Saul was there that day... Doeg the Edomite\" (21:7). The narrator plants the detail quietly; it will matter terribly in chapter 22.",
+    "refs": [
+     "1 Samuel 22:9-10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Pretending to be mad",
+    "body": "Recognised in Gath, David \"pretended to be insane,\" scribbling on the gate and drooling into his beard (21:13). Psalm 34's heading links that psalm to this escape, giving the king's name as Abimelech, probably a royal title.",
+    "refs": [
+     "Psalms 34:4",
+     "Psalms 56:3-4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Running and lying",
+    "body": "David, the hero of chapter 17, now lies and feigns madness to survive. How does it help to see that God's chosen people had moments of fear and failure?",
+    "refs": [
+     "Psalms 56:3"
+    ]
+   }
+  ]
+ },
+ "22": {
+  "summary": "David gathers four hundred outcasts at the cave of Adullam and shelters his parents in Moab, while Saul, told by Doeg about Nob, has the priests killed; only Abiathar escapes to David.",
+  "lookfor": "Notice who gathers to David, Saul's speech to his servants, and David's response to Abiathar.",
+  "names": [
+   {
+    "name": "Adullam",
+    "kind": "place",
+    "gloss": "A town in the Judean lowlands with caves nearby."
+   },
+   {
+    "name": "Gad",
+    "kind": "person",
+    "gloss": "A prophet who advised David."
+   },
+   {
+    "name": "Abiathar",
+    "kind": "person",
+    "gloss": "Ahimelech's son, the only priest of Nob to survive."
+   },
+   {
+    "name": "Doeg the Edomite",
+    "kind": "person",
+    "gloss": "Saul's herdsman who informed on the priests and killed them."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Distressed, in debt, discontented",
+    "body": "\"Everyone who was in distress, everyone who was in debt, and everyone who was discontented\" gathers to David (22:2). His first followers are outcasts. They become the core of his later mighty men.",
+    "refs": [
+     "2 Samuel 23:8-9",
+     "1 Corinthians 1:26-28"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Parents in Moab",
+    "body": "David takes his father and mother to the king of Moab for safety (22:3-4). His great-grandmother Ruth was a Moabite, which may explain the welcome.",
+    "refs": [
+     "Ruth 4:17",
+     "Ruth 1:4"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Fields and vineyards",
+    "body": "Saul asks his fellow Benjamites whether \"the son of Jesse\" will give them all fields and vineyards (22:7). He appeals to tribal self-interest, exactly the kind of royal favouritism Samuel had warned about.",
+    "refs": [
+     "1 Samuel 8:14"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The massacre at Nob",
+    "body": "When Saul's own guards refuse to kill \"the priests of Yahweh\" (22:17), Doeg the Edomite does it, killing eighty-five priests and then the whole town (22:18-19). It is Saul's darkest act. It also fulfils the word against Eli's house.",
+    "refs": [
+     "1 Samuel 2:31-33",
+     "1 Samuel 3:12-14"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Psalm 52",
+    "body": "The heading of Psalm 52 links it to Doeg's betrayal. The psalm condemns the powerful man who boasts in evil and trusts in riches, and contrasts him with a green olive tree in God's house.",
+    "refs": [
+     "Psalms 52:1",
+     "Psalms 52:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "I am responsible",
+    "body": "David tells Abiathar, \"I am responsible for the death of all the persons of your father's house\" (22:22). He admits that his deception at Nob led to the slaughter. Abiathar stays with David and becomes his priest.",
+    "refs": [
+     "1 Samuel 21:2",
+     "1 Samuel 23:6"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Owning consequences",
+    "body": "David admitted his part in a tragedy he did not directly cause. Where do you need to take responsibility for consequences of your choices?",
+    "refs": [
+     "Psalms 32:5"
+    ]
+   }
+  ]
+ },
+ "23": {
+  "summary": "David rescues the town of Keilah from the Philistines, then flees when God warns him the townspeople would betray him; Jonathan visits him in the wilderness, and Saul nearly traps him until a Philistine raid calls Saul away.",
+  "lookfor": "Notice how often David asks God before acting, Jonathan's visit, and the narrow escape at the end.",
+  "names": [
+   {
+    "name": "Keilah",
+    "kind": "place",
+    "gloss": "A walled town in the Judean lowlands."
+   },
+   {
+    "name": "Ziph",
+    "kind": "place",
+    "gloss": "A town in the hills south of Hebron with wild country nearby."
+   },
+   {
+    "name": "Maon",
+    "kind": "place",
+    "gloss": "A town in the hills south of Hebron, near the desert."
+   },
+   {
+    "name": "En Gedi",
+    "kind": "place",
+    "gloss": "An oasis with springs and caves on the western shore of the Dead Sea."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "David inquires",
+    "body": "Unlike Saul, David repeatedly asks God before acting: whether to save Keilah (23:2, 23:4), and whether the town will betray him (23:11-12). With Abiathar and the ephod now with him (23:6), he seeks guidance at each step.",
+    "refs": [
+     "1 Samuel 14:37",
+     "1 Samuel 28:6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The ephod",
+    "body": "Abiathar came \"with an ephod in his hand\" (23:6). The priest's ephod held the Urim and Thummim, used to receive yes or no answers from God. It became David's means of guidance while on the run.",
+    "refs": [
+     "Exodus 28:30",
+     "1 Samuel 30:7-8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Rescued, then betrayed",
+    "body": "David saves Keilah, yet God tells him its people would hand him over to Saul (23:12). Gratitude has limits when a king is coming. David leaves rather than put the town at risk.",
+    "refs": [
+     "Psalms 31:21"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Strengthened in God",
+    "body": "Jonathan finds David in the wilderness and \"strengthened his hand in God\" (23:16), saying, \"You will be king over Israel, and I will be next to you\" (23:17). It is their last meeting. The promise of being next to him never comes true; Jonathan dies with his father.",
+    "refs": [
+     "1 Samuel 31:2",
+     "Hebrews 10:24-25"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Betrayed by Ziph",
+    "body": "The Ziphites offer to hand David over to Saul (23:19-20). The heading of Psalm 54 links that psalm to this betrayal. Saul even blesses them for their \"compassion\" on him (23:21).",
+    "refs": [
+     "Psalms 54:3-4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The rock of escape",
+    "body": "Saul and David are on opposite sides of one mountain, with Saul closing in, when news of a Philistine raid forces Saul away (23:26-28). The place is named Sela Hammahlekoth, probably \"rock of parting\" or \"rock of escape.\"",
+    "refs": [
+     "Psalms 18:2"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Strengthening someone in God",
+    "body": "Jonathan did not solve David's problems but strengthened him in God. Whom could you encourage in that way this week?",
+    "refs": [
+     "1 Thessalonians 5:11"
+    ]
+   }
+  ]
+ },
+ "24": {
+  "summary": "In a cave at En Gedi David has the chance to kill Saul but only cuts off the edge of his robe, then confronts Saul from a distance; Saul weeps, admits David is more righteous and will be king, and asks him to spare his family.",
+  "lookfor": "Notice what David's men urge, why David's heart troubles him, and what Saul says in reply.",
+  "names": [
+   {
+    "name": "En Gedi",
+    "kind": "place",
+    "gloss": "An oasis by the Dead Sea with rugged cliffs and caves."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Into the cave",
+    "body": "Saul goes into a cave \"to relieve himself\" (24:3), not knowing David and his men are hiding deep inside. The caves around En Gedi are large enough to hide many men. The king is at his most vulnerable.",
+    "refs": [
+     "Judges 3:24"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The voice of his men",
+    "body": "David's men tell him, \"Behold, the day of which Yahweh said to you\" (24:4), interpreting events as God's permission. Circumstances seem to say kill him. David refuses to let opportunity overrule principle.",
+    "refs": [
+     "1 Samuel 26:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A pang over a robe",
+    "body": "David cuts off the edge of Saul's robe, then \"David's heart struck him\" (24:5). Even this small act against the king troubles his conscience. The torn robe echoes Samuel's torn robe and the kingdom torn from Saul.",
+    "refs": [
+     "1 Samuel 15:27-28"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Yahweh's anointed",
+    "body": "\"Yahweh forbid that I should... stretch out my hand against him, since he is Yahweh's anointed\" (24:6). David respects God's choice even in a king God has rejected. He leaves Saul's removal to God.",
+    "refs": [
+     "Romans 12:19",
+     "Psalms 105:15"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A dead dog? A flea?",
+    "body": "David calls himself \"A dead dog? A flea?\" (24:14), mocking the idea that he is worth the king's whole army. He calls Saul \"my father\" (24:11) and asks God to judge between them (24:15).",
+    "refs": [
+     "2 Samuel 9:8"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "More righteous than I",
+    "body": "Saul weeps and says, \"You are more righteous than I; for you have done good to me, whereas I have done evil to you\" (24:17). Judah said almost the same to Tamar. Saul admits David will be king (24:20) and asks him to spare his descendants (24:21).",
+    "refs": [
+     "Genesis 38:26",
+     "2 Samuel 21:7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Leaving it to God",
+    "body": "David had every reason to strike back and refused. Where are you tempted to take matters into your own hands?",
+    "refs": [
+     "1 Peter 2:23"
+    ]
+   }
+  ]
+ },
+ "25": {
+  "summary": "Samuel dies; David asks the rich herdsman Nabal for provisions, is insulted, and sets out for revenge, but Nabal's wise wife Abigail intercepts him with gifts and words that stop him; Nabal dies and David marries Abigail.",
+  "lookfor": "Notice Nabal's insult, the contrast between him and Abigail, and what Abigail says that changes David's mind.",
+  "names": [
+   {
+    "name": "Nabal",
+    "kind": "person",
+    "gloss": "A rich, surly sheep owner; his name means \"fool.\""
+   },
+   {
+    "name": "Abigail",
+    "kind": "person",
+    "gloss": "Nabal's intelligent and beautiful wife."
+   },
+   {
+    "name": "Carmel",
+    "kind": "place",
+    "gloss": "A town in Judah's hill country, where Nabal sheared his sheep."
+   },
+   {
+    "name": "Ahinoam",
+    "kind": "person",
+    "gloss": "A woman from Jezreel whom David also married."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Samuel dies",
+    "body": "The chapter opens with a single verse: \"Samuel died; and all Israel gathered themselves together, and mourned for him\" (25:1). The great prophet's death leaves David more alone. The story that follows shows a different kind of wise voice stepping in.",
+    "refs": [
+     "1 Samuel 28:3"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Sheep-shearing",
+    "body": "Shearing time was a festival, with plenty of food and drink and generosity expected (25:2, 25:36). David's men had protected Nabal's shepherds in the wilderness (25:15-16) and asked for a share. Refusing was a serious insult in a culture of hospitality.",
+    "refs": [
+     "2 Samuel 13:23",
+     "Genesis 38:12-13"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Nabal: fool",
+    "body": "Abigail says, \"as his name is, so is he. Nabal is his name, and folly is with him\" (25:25). In Hebrew nabal means a fool, not merely silly but morally senseless. Psalm 14 opens, \"The fool has said in his heart, 'There is no God.'\"",
+    "refs": [
+     "Psalms 14:1",
+     "Proverbs 17:21"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "David's hot temper",
+    "body": "Insulted, David tells his men, \"Every man put on his sword!\" (25:13) and vows to leave no male of Nabal's house alive (25:22). The man who spared Saul is about to massacre a household over an insult.",
+    "refs": [
+     "James 1:19-20"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Abigail's wisdom",
+    "body": "Abigail brings food, falls at David's feet, takes the blame, and reminds him that God will make him a \"sure house\" and that he should not have bloodguilt on his conscience when he becomes king (25:28-31). Her words keep David from sin.",
+    "refs": [
+     "Proverbs 15:1",
+     "Proverbs 25:15"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The bundle of life",
+    "body": "Abigail says David's life will be \"bound in the bundle of life with Yahweh your God,\" while his enemies' lives will be slung out \"as from the hollow of a sling\" (25:29). The sling image recalls Goliath. The phrase \"bound in the bundle of life\" appears on many Jewish gravestones.",
+    "refs": [
+     "1 Samuel 17:49"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Became as a stone",
+    "body": "When Nabal hears how close he came to death, \"his heart died within him, and he became as a stone\" (25:37), probably a stroke. Ten days later God strikes him and he dies (25:38). David did not have to avenge himself.",
+    "refs": [
+     "Romans 12:19"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Someone who stops you",
+    "body": "Abigail stopped David from doing something he would regret. Who has God used to stop you, and are you listening to such people?",
+    "refs": [
+     "Proverbs 27:6"
+    ]
+   }
+  ]
+ },
+ "26": {
+  "summary": "Betrayed again by the Ziphites, David creeps into Saul's sleeping camp, refuses to let Abishai kill him, and takes Saul's spear and water jar; he calls out from a hilltop, and Saul again admits his wrong.",
+  "lookfor": "Compare this scene with chapter 24, notice Abishai's offer, and David's taunt to Abner.",
+  "names": [
+   {
+    "name": "Ziphites",
+    "kind": "group",
+    "gloss": "People of Ziph who betrayed David's hiding places to Saul."
+   },
+   {
+    "name": "Abishai",
+    "kind": "person",
+    "gloss": "David's nephew, son of Zeruiah and brother of Joab, a fierce warrior."
+   },
+   {
+    "name": "Ahimelech the Hittite",
+    "kind": "person",
+    "gloss": "A Hittite in David's band, a foreigner who followed him."
+   },
+   {
+    "name": "Abner",
+    "kind": "person",
+    "gloss": "Saul's army commander, supposed to guard the king."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "A second time",
+    "body": "For the second time David has Saul at his mercy and spares him (compare chapter 24). Some scholars think the two stories are versions of one event; others see a deliberate pairing that shows David's restraint was not a one-off.",
+    "refs": [
+     "1 Samuel 24:3-7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "One stroke",
+    "body": "Abishai whispers, \"let me strike him with the spear to the earth at one stroke, and I will not strike him the second time\" (26:8). David refuses: \"who can stretch out his hand against Yahweh's anointed, and be guiltless?\" (26:9). Abishai's eagerness for violence appears again in 2 Samuel.",
+    "refs": [
+     "2 Samuel 16:9-10",
+     "2 Samuel 19:21-22"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Leaving the end to God",
+    "body": "David says Saul will die when God strikes him, or his day comes, or he falls in battle (26:10). David is content to wait. He takes Saul's spear and water jar as proof (26:11-12).",
+    "refs": [
+     "Psalms 37:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A deep sleep from Yahweh",
+    "body": "No one wakes \"because a deep sleep from Yahweh was fallen on them\" (26:12). The same word is used for the deep sleep God put on Adam and on Abraham. David's daring raid succeeds because God makes it possible.",
+    "refs": [
+     "Genesis 2:21",
+     "Genesis 15:12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Mocking Abner",
+    "body": "From a safe hill David taunts Abner: \"Aren't you a man? Who is like you in Israel? Why then have you not kept watch over your lord, the king?\" (26:15). He says Abner deserves to die for failing to protect Yahweh's anointed (26:16).",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Serve other gods",
+    "body": "David complains that his enemies have driven him out \"that I shouldn't cling to Yahweh's inheritance, saying, 'Go, serve other gods!'\" (26:19). In the ancient world, to be driven from your land was to be driven from your god. Exile felt like spiritual exile.",
+    "refs": [
+     "Psalms 42:1-2",
+     "Psalms 137:4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "A flea and a partridge",
+    "body": "David compares Saul's pursuit to hunting \"a flea, as when one hunts a partridge in the mountains\" (26:20). When have you poured huge energy into a fight that was not worth it?",
+    "refs": []
+   }
+  ]
+ },
+ "27": {
+  "summary": "Despairing of escape, David takes his men to live among the Philistines under Achish of Gath, who gives him Ziklag; David raids desert peoples, kills all witnesses, and deceives Achish into thinking he is attacking Judah.",
+  "lookfor": "Notice David's reasoning, the town he receives, and how he deceives Achish.",
+  "names": [
+   {
+    "name": "Achish",
+    "kind": "person",
+    "gloss": "The Philistine king of Gath."
+   },
+   {
+    "name": "Ziklag",
+    "kind": "place",
+    "gloss": "A town in the south given to David by Achish."
+   },
+   {
+    "name": "Geshurites",
+    "kind": "group",
+    "gloss": "A people of the southern desert, distinct from Geshur in the north."
+   },
+   {
+    "name": "Amalekites",
+    "kind": "group",
+    "gloss": "Desert raiders, old enemies of Israel."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Said in his heart",
+    "body": "\"David said in his heart, 'I will now perish one day by the hand of Saul'\" (27:1). After two dramatic escapes, he despairs and decides on his own to go to Philistia. The chapter never mentions David asking God, a contrast with chapter 23.",
+    "refs": [
+     "1 Samuel 23:2",
+     "Psalms 13:1-2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Ziklag belongs to Judah",
+    "body": "Achish gives David Ziklag, \"therefore Ziklag belongs to the kings of Judah to this day\" (27:6). The aside shows the writer living in the time of Judah's kings. David's base in exile becomes royal property.",
+    "refs": [
+     "Joshua 19:5"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "No witnesses",
+    "body": "David raids the Geshurites, Girzites and Amalekites, \"and saved no man or woman alive\" (27:9), so no one could tell Achish the truth (27:11). It is a brutal and morally troubling strategy, recorded without comment.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "A double game",
+    "body": "David tells Achish he has raided Judah and its allies (27:10). Achish believes David has made his own people hate him and \"will be my servant forever\" (27:12). David is living a dangerous lie.",
+    "refs": [
+     "1 Samuel 29:3"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A Philistine vassal",
+    "body": "Kings of the time often gave towns to mercenary leaders in exchange for military service. David becomes, in Achish's eyes, a loyal vassal. Philistine city-states relied on such arrangements.",
+    "refs": [
+     "1 Samuel 28:1-2"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Training a king?",
+    "body": "During sixteen months among the Philistines (27:7) David learns their ways of war and builds his own power base in the south. When he becomes king, he will defeat the Philistines decisively. God uses even a questionable season.",
+    "refs": [
+     "2 Samuel 5:17-25",
+     "2 Samuel 8:1"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "When despair decides",
+    "body": "David made a major decision out of despair, without asking God. What decisions have you made in a low moment that you later regretted?",
+    "refs": [
+     "Psalms 42:5"
+    ]
+   }
+  ]
+ },
+ "28": {
+  "summary": "As the Philistines gather for war, Saul, terrified and unanswered by God, disguises himself and consults a medium at Endor, who calls up Samuel; Samuel announces that Saul and his sons will die tomorrow.",
+  "lookfor": "Notice what Saul had done to mediums earlier, why he goes to one now, and what Samuel says.",
+  "names": [
+   {
+    "name": "Endor",
+    "kind": "place",
+    "gloss": "A village in the north near Mount Tabor, home of a medium."
+   },
+   {
+    "name": "Shunem",
+    "kind": "place",
+    "gloss": "A town in the Jezreel valley where the Philistines camped."
+   },
+   {
+    "name": "Gilboa",
+    "kind": "place",
+    "gloss": "A mountain ridge overlooking the Jezreel valley where Saul's army camped."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Saul had banned them",
+    "body": "\"Saul had sent away those who had familiar spirits and the wizards out of the land\" (28:3), obeying the Law. Now he seeks one out himself (28:7). In desperation, he breaks his own reform.",
+    "refs": [
+     "Deuteronomy 18:10-12",
+     "Leviticus 19:31"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "No answer",
+    "body": "\"Yahweh didn't answer him by dreams, by Urim, or by prophets\" (28:6). Saul had killed the priests of Nob and lost Samuel. The man who would not listen to God now cannot hear him.",
+    "refs": [
+     "1 Samuel 14:37",
+     "Proverbs 1:28"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A god coming up",
+    "body": "The woman says, \"I see a god coming up out of the earth\" (28:13). In the ancient world the dead were thought to live below the earth, and the word elohim could be used for spirits of the dead. She sees an old man wrapped in a robe, and Saul knows it is Samuel (28:14).",
+    "refs": [
+     "Isaiah 8:19",
+     "Isaiah 29:4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Was it really Samuel?",
+    "body": "The medium seems shocked when Samuel actually appears (28:12). Jewish and Christian interpreters have debated whether it was truly Samuel, a demon impersonating him, or the woman's trickery. The text calls him Samuel, and his message matches his earlier words exactly.",
+    "refs": [
+     "1 Chronicles 10:13-14",
+     "Luke 16:31"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Torn from your hand",
+    "body": "Samuel repeats his old verdict: \"Yahweh has torn the kingdom out of your hand, and given it to your neighbor, even to David\" (28:17), because of Amalek (28:18). He adds, \"tomorrow you and your sons will be with me\" (28:19).",
+    "refs": [
+     "1 Samuel 15:28"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A meal from the medium",
+    "body": "Saul collapses, having eaten nothing all day and night (28:20). The medium kills a fattened calf and bakes bread for him (28:24). The last meal of Israel's first king is served by the woman he should have banished.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "When God is silent",
+    "body": "Saul, feeling God's silence, turned to forbidden ways. When God seems silent, what do you turn to?",
+    "refs": [
+     "Psalms 62:5"
+    ]
+   }
+  ]
+ },
+ "29": {
+  "summary": "As the Philistine armies march to battle against Israel, the Philistine commanders refuse to let David fight with them, and Achish reluctantly sends him back to Ziklag.",
+  "lookfor": "Notice the commanders' suspicion, Achish's high opinion of David, and how David protests.",
+  "names": [
+   {
+    "name": "Aphek",
+    "kind": "place",
+    "gloss": "A Philistine gathering point in the north of the coastal plain."
+   },
+   {
+    "name": "Jezreel",
+    "kind": "place",
+    "gloss": "A town and valley in the north where Israel camped."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "Rescued from a trap",
+    "body": "David is caught: if he fights Israel he betrays his people and Saul, God's anointed; if he refuses he betrays Achish. The Philistine commanders' suspicion gets him out of it (29:4). God rescues David from a dilemma he created himself.",
+    "refs": [
+     "1 Corinthians 10:13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Thousands and ten thousands again",
+    "body": "The commanders quote the old song: \"Saul has slain his thousands, and David his ten thousands\" (29:5). David's reputation as Israel's hero follows him even into Philistia.",
+    "refs": [
+     "1 Samuel 18:7",
+     "1 Samuel 21:11"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Like an angel of God",
+    "body": "Achish says David is \"good in my sight, as an angel of God\" (29:9). The Philistine king swears \"As Yahweh lives\" (29:6). David's deception has been completely successful.",
+    "refs": [
+     "2 Samuel 14:17",
+     "1 Samuel 27:12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "David protests",
+    "body": "David asks, \"what have I done?... that I may not go and fight against the enemies of my lord the king?\" (29:8). The phrase \"my lord the king\" is ambiguous: Achish hears himself; the reader may wonder whether David means Saul.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Fear of defectors",
+    "body": "The commanders worry David might turn on them in battle to win back Saul's favour (29:4). In chapter 14, Hebrews serving the Philistines had switched sides mid-battle. Their fear was reasonable.",
+    "refs": [
+     "1 Samuel 14:21"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Closed doors",
+    "body": "David was sent away and spared a terrible choice. Can you look back on a closed door that turned out to be a mercy?",
+    "refs": [
+     "Proverbs 16:9"
+    ]
+   }
+  ]
+ },
+ "30": {
+  "summary": "David returns to find Ziklag burned and all the families taken by Amalekites; facing his own men's anger, he strengthens himself in God, pursues the raiders, recovers everything, and shares the spoil with those who stayed behind.",
+  "lookfor": "Notice David's response in his lowest moment, the Egyptian servant, and the rule David makes about sharing.",
+  "names": [
+   {
+    "name": "Ziklag",
+    "kind": "place",
+    "gloss": "David's town, burned by the Amalekites."
+   },
+   {
+    "name": "Abiathar",
+    "kind": "person",
+    "gloss": "David's priest, who brings the ephod to seek God's guidance."
+   },
+   {
+    "name": "Besor",
+    "kind": "place",
+    "gloss": "A brook in the southern desert."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Weeping until no strength remained",
+    "body": "David and his men \"wept until they had no more power to weep\" (30:4). Then the men talk of stoning David (30:6). His lowest point comes just as Saul faces his last battle elsewhere.",
+    "refs": [
+     "Psalms 42:3"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Strengthened in Yahweh",
+    "body": "\"David strengthened himself in Yahweh his God\" (30:6). Saul in the previous chapters turned to a medium; David turns to God. Then he asks for the ephod and inquires of Yahweh (30:7-8), as he had not done before going to Philistia.",
+    "refs": [
+     "1 Samuel 28:7",
+     "Psalms 18:1-2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "An abandoned servant",
+    "body": "An Egyptian slave left behind sick by his Amalekite master leads David to the raiders (30:11-15). David's men feed him first. The kindness to a stranger becomes the key to recovering everything.",
+    "refs": [
+     "Proverbs 19:17",
+     "Deuteronomy 10:19"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Nothing missing",
+    "body": "\"David recovered all that the Amalekites had taken\" (30:18), \"There was nothing lacking to them, neither small nor great\" (30:19). The Amalekites, whom Saul failed to destroy, are defeated by David.",
+    "refs": [
+     "1 Samuel 15:9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Equal shares",
+    "body": "Some \"worthless fellows\" among David's men refuse to share with those who stayed behind with the baggage (30:22). David rules, \"as his share is who goes down to the battle, so shall his share be who stays with the baggage\" (30:24). It becomes a statute in Israel (30:25).",
+    "refs": [
+     "Numbers 31:27"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Gifts to Judah",
+    "body": "David sends gifts from the spoil to the elders of many towns in Judah (30:26-31). It is generosity, and also wise politics: these towns will soon make him king at Hebron.",
+    "refs": [
+     "2 Samuel 2:1-4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Strength in God",
+    "body": "When everything collapsed, David found strength in God before he found a plan. Where do you turn first when things fall apart?",
+    "refs": [
+     "Habakkuk 3:17-18"
+    ]
+   }
+  ]
+ },
+ "31": {
+  "summary": "The Philistines defeat Israel on Mount Gilboa; Saul's sons, including Jonathan, are killed, and the wounded Saul falls on his own sword; the Philistines hang his body on the wall of Beth Shan, but the men of Jabesh Gilead rescue and bury it.",
+  "lookfor": "Notice how Saul dies, what the Philistines do with his body, and who remembers him with honour.",
+  "names": [
+   {
+    "name": "Mount Gilboa",
+    "kind": "place",
+    "gloss": "A ridge in the north overlooking the Jezreel valley."
+   },
+   {
+    "name": "Beth Shan",
+    "kind": "place",
+    "gloss": "A fortified city where the Jezreel valley meets the Jordan valley."
+   },
+   {
+    "name": "Jabesh Gilead",
+    "kind": "place",
+    "gloss": "A town east of the Jordan that Saul once rescued."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Jonathan dies too",
+    "body": "\"The Philistines killed Jonathan, Abinadab, and Malchishua, the sons of Saul\" (31:2). Jonathan, David's friend and the most faithful member of Saul's house, shares his father's fate. Samuel's prophecy is fulfilled (28:19).",
+    "refs": [
+     "1 Samuel 28:19",
+     "2 Samuel 1:23"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Saul falls on his sword",
+    "body": "Badly wounded, Saul asks his armour-bearer to kill him lest the uncircumcised \"abuse me\" (31:4). When he refuses, Saul falls on his own sword. Chronicles explains his death as the result of unfaithfulness and consulting a medium.",
+    "refs": [
+     "1 Chronicles 10:13-14"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A different account",
+    "body": "In 2 Samuel 1 an Amalekite claims he killed Saul at his request. Most readers take the Amalekite to be lying, hoping for a reward from David. The narrator's own account here is that Saul took his own life.",
+    "refs": [
+     "2 Samuel 1:6-10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Armour in the temple of Ashtaroth",
+    "body": "The Philistines put Saul's armour \"in the house of the Ashtaroth\" and fasten his body to the wall of Beth Shan (31:10). Displaying defeated enemies' bodies and trophies in temples was common. Chronicles adds that they put his head in Dagon's temple.",
+    "refs": [
+     "1 Chronicles 10:10",
+     "1 Samuel 5:2"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Jabesh remembers",
+    "body": "The men of Jabesh Gilead march all night to take down the bodies, burn them, bury the bones under a tamarisk, and fast seven days (31:11-13). Saul's first act as king was to rescue Jabesh (chapter 11); their last act is to honour him.",
+    "refs": [
+     "1 Samuel 11:1-11",
+     "2 Samuel 2:4-6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The Philistines spread the news",
+    "body": "The Philistines send messengers \"to carry the news to the house of their idols, and to the people\" (31:9). Saul's defeat is celebrated as their gods' victory. David's lament in the next book will say, \"Don't tell it in Gath.\"",
+    "refs": [
+     "2 Samuel 1:20"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "A tragic king",
+    "body": "Saul began humble and Spirit-filled and ended alone and desperate. What lessons does his life hold for anyone given responsibility?",
+    "refs": [
+     "1 Corinthians 10:12"
+    ]
+   }
+  ]
+ },
+ "intro": {
+  "who": "The author is not named. The Talmud credits Samuel with the early chapters and the prophets Nathan and Gad with the rest; many modern scholars see 1 and 2 Samuel as part of a larger history from Deuteronomy to Kings, drawing on older sources such as court records and stories of David's rise.",
+  "when": "It covers roughly the late 11th century BC, from Samuel's birth through Saul's reign to his death, as Israel moves from judges to kings. Samuel and Kings were one book in Hebrew; the Greek translation divided them and called them 1 to 4 Kingdoms.",
+  "why": "It tells how Israel gained a king: the faithful prophet Samuel, the tragic first king Saul, and the rise of David, the shepherd God chose because he looks at the heart. It asks what kind of leader God's people need and what happens when a king will not listen to God.",
+  "outline": [
+   {
+    "chapters": "1–7",
+    "title": "Samuel and the ark"
+   },
+   {
+    "chapters": "8–12",
+    "title": "Israel asks for a king"
+   },
+   {
+    "chapters": "13–15",
+    "title": "Saul rejected"
+   },
+   {
+    "chapters": "16–20",
+    "title": "David anointed and loved"
+   },
+   {
+    "chapters": "21–27",
+    "title": "David on the run"
+   },
+   {
+    "chapters": "28–31",
+    "title": "The death of Saul"
+   }
+  ],
+  "verse": "1 Samuel 16:7"
+ }
+}
