@@ -1,0 +1,433 @@
+{
+ "1": {
+  "summary": "Famine drives an Israelite family to Moab, where the father and both sons die; Naomi returns to Bethlehem, and her Moabite daughter-in-law Ruth refuses to leave her.",
+  "lookfor": "Watch how often the word \"return\" comes up, the different choices Orpah and Ruth make, and what Naomi says about God when she reaches home.",
+  "names": [
+   {
+    "name": "Bethlehem",
+    "kind": "place",
+    "gloss": "A town in Judah, south of Jerusalem; its name means \"house of bread.\" David and Jesus were later born there."
+   },
+   {
+    "name": "Moab",
+    "kind": "place",
+    "gloss": "The land east of the Dead Sea, home of the Moabites, often hostile to Israel."
+   },
+   {
+    "name": "Elimelech",
+    "kind": "person",
+    "gloss": "Naomi's husband; his name means \"my God is king.\""
+   },
+   {
+    "name": "Naomi",
+    "kind": "person",
+    "gloss": "The widow at the centre of the story; her name means \"pleasant.\""
+   },
+   {
+    "name": "Mahlon",
+    "kind": "person",
+    "gloss": "Naomi's son, Ruth's first husband."
+   },
+   {
+    "name": "Chilion",
+    "kind": "person",
+    "gloss": "Naomi's other son, Orpah's husband."
+   },
+   {
+    "name": "Orpah",
+    "kind": "person",
+    "gloss": "A Moabite daughter-in-law who, at Naomi's urging, goes back home."
+   },
+   {
+    "name": "Ephrathites",
+    "kind": "group",
+    "gloss": "A clan of Bethlehem; Ephrathah was an old name for the town and its district."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "In the days of the judges",
+    "body": "The book opens \"in the days when the judges judged\" (1:1), the violent era that ends with everyone doing what was right in their own eyes. Christian Bibles place Ruth straight after Judges, while Hebrew Bibles put it among the Writings. Against that dark background, Ruth is a story of quiet faithfulness in one family.",
+    "refs": [
+     "Judges 21:25"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Famine in the house of bread",
+    "body": "A famine strikes Bethlehem, whose name means \"house of bread\" (1:1). The family leaves the land of promise for Moab, and loses everything there. The turn comes when Naomi hears that Yahweh has \"visited his people in giving them bread\" (1:6).",
+    "refs": [
+     "Genesis 12:10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Why Moab mattered",
+    "body": "Moab traced its origins to Lot's incestuous union with his daughter, and the law barred Moabites from Israel's assembly. Moab had also hired Balaam to curse Israel. An Israelite audience would notice at once that the heroine of this story is a Moabite.",
+    "refs": [
+     "Genesis 19:36-37",
+     "Deuteronomy 23:3"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Chesed: loyal kindness",
+    "body": "Naomi prays, \"May Yahweh deal kindly with you, as you have dealt with the dead, and with me\" (1:8). The word behind \"kindly\" is chesed, the loyal, more-than-required love God shows in his covenant. It is the key word of the book, and its characters show it to one another.",
+    "refs": [
+     "Exodus 34:6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Ruth clings",
+    "body": "Orpah kisses Naomi goodbye, \"but Ruth joined with her\" (1:14). The Hebrew verb, davaq, is the one used in Genesis for a man joining his wife. Ruth's choice is not sentimental; her vow commits her to Naomi's people, her God and her grave (1:16-17).",
+    "refs": [
+     "Genesis 2:24"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Your God my God",
+    "body": "Ruth's words, \"Your people will be my people, and your God my God\" (1:16), are often read at weddings, though she said them to her mother-in-law. Jewish tradition sees in them the model of a convert's commitment. She seals it with the oath formula used elsewhere in Scripture, \"May Yahweh do so to me, and more also\" (1:17).",
+    "refs": [
+     "1 Samuel 3:17"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Call me Mara",
+    "body": "Naomi tells the women of Bethlehem, \"Don't call me Naomi. Call me Mara\" (1:20): not \"pleasant\" but \"bitter.\" She says she went out full and came back empty (1:21). Yet she does not come back alone, and the chapter ends at the start of barley harvest (1:22).",
+    "refs": [
+     "Job 1:21"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Honest bitterness",
+    "body": "Naomi blames God openly for her losses, and the book never rebukes her for it. What does it mean that Scripture makes room for that kind of honesty?",
+    "refs": [
+     "Psalms 13:1-2"
+    ]
+   }
+  ]
+ },
+ "2": {
+  "summary": "Ruth goes out to glean in the barley harvest and happens on the field of Boaz, a wealthy relative of Naomi's husband, who treats her with unusual generosity.",
+  "lookfor": "Notice how Ruth is described by others, the many small kindnesses Boaz arranges, and Naomi's reaction when she hears whose field it was.",
+  "names": [
+   {
+    "name": "Boaz",
+    "kind": "person",
+    "gloss": "A wealthy landowner of Bethlehem, from the same family as Naomi's late husband."
+   },
+   {
+    "name": "Ruth the Moabitess",
+    "kind": "person",
+    "gloss": "The story's heroine, a widow from Moab now living in Bethlehem."
+   },
+   {
+    "name": "Elimelech",
+    "kind": "person",
+    "gloss": "Naomi's dead husband, whose family line is at stake."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "The right to glean",
+    "body": "Israel's law told farmers not to reap the edges of their fields or go back for forgotten sheaves, but to leave them \"for the poor and for the foreigner\" and the widow. Ruth is all three. Gleaning was the welfare system of an agricultural society, giving the poor the dignity of working for their food.",
+    "refs": [
+     "Leviticus 19:9-10",
+     "Deuteronomy 24:19"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "She happened to come",
+    "body": "Ruth \"happened to come to the portion of the field belonging to Boaz\" (2:3). The Hebrew is stronger, roughly \"her chance chanced upon.\" The narrator smiles: what looks like luck is how the book shows God at work, without miracles or visions.",
+    "refs": [
+     "Proverbs 16:9"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A man of worth",
+    "body": "Boaz is introduced as \"a mighty man of wealth\" (2:1), in Hebrew gibbor chayil, a man of strength, standing or worth. Later he calls Ruth \"a worthy woman\" (3:11), using the same word chayil. The poor foreign widow and the rich landowner are matched in character.",
+    "refs": [
+     "Ruth 3:11"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Greetings in the field",
+    "body": "Boaz greets his reapers with \"May Yahweh be with you,\" and they answer, \"May Yahweh bless you\" (2:4). Faith shows up in the ordinary language of the workplace. The exchange still echoes in Christian liturgy's \"The Lord be with you.\"",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Under his wings",
+    "body": "Boaz prays that Ruth will be rewarded by the God \"under whose wings you have come to take refuge\" (2:12). The psalms use the same picture of a bird sheltering its young, and Jesus uses it of himself over Jerusalem. In the next chapter Ruth will ask Boaz himself to spread his \"wing\" over her.",
+    "refs": [
+     "Psalms 91:4",
+     "Psalms 17:8",
+     "Matthew 23:37"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "More than gleanings",
+    "body": "Boaz gives Ruth water, a place at his meal, protection from the young men, and has extra grain pulled out of the bundles for her (2:9, 2:14-16). She goes home with about an ephah of barley (2:17), perhaps twenty or more litres, far more than a gleaner could expect. She even brings Naomi her leftovers (2:18).",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Go'el: one of our redeemers",
+    "body": "Naomi recognises the name: \"The man is a close relative to us, one of our near kinsmen\" (2:20). The Hebrew word is go'el, the relative responsible for buying back family land or people in trouble. From here the question is whether a go'el will act for this family.",
+    "refs": [
+     "Leviticus 25:25",
+     "Leviticus 25:47-49"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Kindness to the living and the dead",
+    "body": "Naomi blesses God, \"who has not abandoned his kindness to the living and to the dead\" (2:20). The woman who called herself bitter now sees God's chesed again. Where have you seen God's kindness arrive through someone's generosity?",
+    "refs": [
+     "Deuteronomy 10:18"
+    ]
+   }
+  ]
+ },
+ "3": {
+  "summary": "Naomi sends Ruth to the threshing floor at night to ask Boaz to marry her; Boaz agrees, but there is a closer relative who has the first right.",
+  "lookfor": "Notice Naomi's careful plan, the risk Ruth takes, the exact words she uses to Boaz, and how Boaz protects her reputation.",
+  "names": [
+   {
+    "name": "Boaz",
+    "kind": "person",
+    "gloss": "Naomi's wealthy relative, who has been kind to Ruth during the harvest."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Seeking rest",
+    "body": "Naomi asks, \"shall I not seek rest for you?\" (3:1), echoing her prayer that her daughters-in-law find rest in a husband's house (1:9). For a widow without sons, marriage meant security and a future. Naomi stops waiting and makes a plan.",
+    "refs": [
+     "Ruth 1:9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The threshing floor",
+    "body": "After harvest the grain was beaten and then tossed in the evening breeze so the wind carried the chaff away. The owner often slept by the heap to guard it (3:7). A threshing floor at night was a place of working men and late-night celebration, not where a respectable woman would normally go.",
+    "refs": [
+     "Hosea 9:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Uncovering his feet",
+    "body": "Ruth uncovers Boaz's feet and lies down (3:7). Interpreters debate how much is implied, since \"feet\" can be a euphemism in Hebrew. The story itself stresses restraint: Boaz praises her character, makes no move, and sends her home before dawn to protect her name (3:14).",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Spread your wing",
+    "body": "Ruth asks, \"spread the corner of your garment over your servant\" (3:9). \"Corner\" is kanaf, the same word as the \"wings\" of God in 2:12, and covering with a garment was a gesture of marriage, as in Ezekiel. Ruth asks Boaz to become the answer to his own prayer.",
+    "refs": [
+     "Ezekiel 16:8",
+     "Ruth 2:12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Ruth goes beyond the plan",
+    "body": "Naomi said Boaz would tell Ruth what to do (3:4), but Ruth tells Boaz what to do, naming him a go'el (3:9). Boaz calls this a greater kindness than her first (3:10): she chose to seek a husband who could redeem Naomi's family rather than a young man of her own choosing.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "A worthy woman",
+    "body": "\"All the city of my people knows that you are a worthy woman\" (3:11), eshet chayil. Proverbs 31 asks, \"Who can find a worthy woman?\" In many Hebrew Bibles Ruth comes right after Proverbs, as if Ruth were the answer.",
+    "refs": [
+     "Proverbs 31:10",
+     "Proverbs 31:29"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Not empty",
+    "body": "Boaz sends Ruth home with six measures of barley, saying, \"Don't go empty to your mother-in-law\" (3:17). Naomi had said Yahweh brought her back \"empty\" (1:21). The gift is a pledge to Naomi as much as to Ruth that her emptiness is ending.",
+    "refs": [
+     "Ruth 1:21"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Risk and patience",
+    "body": "Ruth takes a bold risk; then Naomi tells her, \"Wait, my daughter\" (3:18). When is faith a matter of acting boldly, and when is it a matter of waiting?",
+    "refs": [
+     "Psalms 27:14"
+    ]
+   }
+  ]
+ },
+ "4": {
+  "summary": "At the town gate Boaz offers the nearer relative the chance to redeem Elimelech's land, and when he declines because Ruth comes with it, Boaz marries her; their son Obed becomes the grandfather of David.",
+  "lookfor": "Notice how Boaz brings up the field first and Ruth second, the sandal ceremony, the blessings of the witnesses, and who names the baby.",
+  "names": [
+   {
+    "name": "Rachel",
+    "kind": "person",
+    "gloss": "Jacob's beloved wife, buried near Bethlehem."
+   },
+   {
+    "name": "Leah",
+    "kind": "person",
+    "gloss": "Jacob's first wife; with Rachel, mother of the tribes of Israel."
+   },
+   {
+    "name": "Ephrathah",
+    "kind": "place",
+    "gloss": "An old name for Bethlehem and its district."
+   },
+   {
+    "name": "Perez",
+    "kind": "person",
+    "gloss": "Son of Judah and Tamar, ancestor of Bethlehem's leading clan."
+   },
+   {
+    "name": "Tamar",
+    "kind": "person",
+    "gloss": "Judah's daughter-in-law, who secured an heir through an unusual route, as Ruth does."
+   },
+   {
+    "name": "Obed",
+    "kind": "person",
+    "gloss": "The son of Ruth and Boaz; his name means \"servant\" or \"worshipper.\""
+   },
+   {
+    "name": "Jesse",
+    "kind": "person",
+    "gloss": "Obed's son, the father of King David."
+   },
+   {
+    "name": "Salmon",
+    "kind": "person",
+    "gloss": "Father of Boaz; Matthew names his wife as Rahab."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Business at the gate",
+    "body": "The town gate was where elders sat and legal business was done in public (4:1-2). Boaz gathers ten elders as witnesses. Proverbs 31 ends with the worthy woman praised \"in the gates,\" the very place where Ruth's future is settled.",
+    "refs": [
+     "Proverbs 31:31",
+     "Deuteronomy 25:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Mr So-and-So",
+    "body": "Boaz calls the nearer kinsman \"friend\" (4:1), translating the Hebrew peloni almoni, roughly \"so-and-so.\" The man who refuses to preserve a dead man's name is himself left without one, while everyone who shows kindness in the story is named.",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "Why the kinsman backs out",
+    "body": "He agrees to buy the field (4:4) until he hears Ruth comes with it, to raise up a son in the dead man's name (4:5). That son would inherit the land, so he would pay for a field his own family would not keep, and he fears for his own inheritance (4:6). Boaz is willing to take the loss.",
+    "refs": [
+     "Deuteronomy 25:5-6",
+     "Jeremiah 32:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A sandal handed over",
+    "body": "The narrator explains an old custom: to confirm a transfer, a man took off his sandal and gave it to the other (4:7). In Deuteronomy's levirate law, a widow pulls off the sandal of a brother-in-law who refuses and spits in his face. Here there is no shaming, only a transaction.",
+    "refs": [
+     "Deuteronomy 25:9"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Like Rachel, Leah and Tamar",
+    "body": "The witnesses bless Ruth to be like Rachel and Leah, who \"built the house of Israel,\" and Boaz's house like that of Perez, born to Tamar (4:11-12). Tamar too was a widow who secured her dead husband's line by bold action. A Moabite is welcomed with Israel's founding mothers.",
+    "refs": [
+     "Genesis 38:26",
+     "Genesis 35:19"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A son born to Naomi",
+    "body": "The women who heard Naomi say \"Call me Mara\" now say, \"A son is born to Naomi\" (4:17), and call Ruth \"better to you than seven sons\" (4:15). They, not the parents, name the child. Naomi, who came back empty, holds the baby in her lap (4:16).",
+    "refs": [
+     "Ruth 1:20-21"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The grandfather of David",
+    "body": "The book ends with a ten-generation genealogy from Perez to David (4:18-22), with Boaz in the seventh place. A Moabite widow's loyalty leads to Israel's greatest king. Matthew names Ruth, with Tamar and Rahab, among Jesus' ancestors.",
+    "refs": [
+     "Matthew 1:5-6",
+     "1 Samuel 16:1"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The law and the welcome",
+    "body": "Deuteronomy barred Moabites from Israel's assembly, yet Ruth becomes David's great-grandmother; Ezra and Nehemiah later took a hard line on foreign wives. How does this book shape the way you think about who belongs among God's people?",
+    "refs": [
+     "Deuteronomy 23:3",
+     "Nehemiah 13:23",
+     "Galatians 3:28"
+    ]
+   }
+  ]
+ },
+ "intro": {
+  "who": "The author is not named. The Talmud credits Samuel; many modern scholars place the writing in the time of the kings, though some date it after the exile, partly because of its ending in David's family tree.",
+  "when": "The story is set \"in the days when the judges judged\" (Ruth 1:1), about three generations before David, often placed in the 12th or 11th century BC. Proposed dates for its writing range from David's or Solomon's reign to the 5th century BC.",
+  "why": "It shows God's quiet care working through the loyal kindness of ordinary people, as a Moabite widow joins Israel and becomes the great-grandmother of King David. Jews read it at the Feast of Weeks (Shavuot), the harvest festival.",
+  "outline": [
+   {
+    "chapters": "1",
+    "title": "Emptied in Moab"
+   },
+   {
+    "chapters": "2",
+    "title": "Gleaning in Boaz's field"
+   },
+   {
+    "chapters": "3",
+    "title": "At the threshing floor"
+   },
+   {
+    "chapters": "4",
+    "title": "Redeemed at the gate"
+   }
+  ],
+  "verse": "Ruth 1:16"
+ }
+}
