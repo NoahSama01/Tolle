@@ -79,6 +79,22 @@ body[data-view=setup] .rail{display:none}
 .cal{display:grid;grid-template-rows:repeat(7,1fr);grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);gap:3px}
 .cal i{aspect-ratio:1;border-radius:1px;background:color-mix(in srgb,var(--ink) 8%,transparent)}
 .cal i.on{background:var(--c);box-shadow:inset 0 0 0 1px rgba(21,21,21,.25)}
+.run{display:flex;align-items:flex-end;gap:.8rem;margin:0 0 .8rem}
+.run b{font:800 3.4rem/.78 var(--head);font-stretch:72%}
+.run span{color:var(--ink-2);font:500 .75rem/1.4 var(--mono);text-transform:uppercase}
+.week{display:flex;gap:.55rem;margin:0 0 .6rem;padding:0;list-style:none}
+.week li{display:grid;justify-items:center;gap:.25rem;color:var(--ink-2);font:500 .6875rem var(--mono)}
+.week i{width:1.25rem;height:1.25rem;border:1.5px solid var(--ink-2);border-radius:50%}
+.week .on i{border:0;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.4)} /* a day read is a hole punched */
+.week .now{color:var(--ink);font-weight:700}.week .now:not(.on) i{border:2.5px solid var(--ink)}
+.pc{display:grid;gap:.55rem}
+.pc div{display:flex;align-items:baseline;gap:.6rem}
+.pc span{flex:none;width:5.4rem;color:var(--ink-2);font:500 .6875rem var(--mono);text-transform:uppercase}
+.pc p{display:flex;flex-wrap:wrap;gap:.3rem;margin:0}
+.pc i{width:.85rem;height:.85rem;border:1.5px solid color-mix(in srgb,var(--ink) 35%,transparent);border-radius:50%}
+.pc i.on{border:0;background:var(--c);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.4)}
+.cheer .hole{float:right;width:3.4rem;height:3.4rem;margin:0 0 .5rem .75rem;border-radius:50%;background:var(--board);box-shadow:inset 3px 3px 0 rgba(21,21,21,.4);animation:punch var(--hinge) both}
+.cheer .station{animation:inkin var(--hinge) 90ms both}
 .facts{display:flex;flex-wrap:wrap;gap:.25rem .9rem;margin:.9rem 0 0;color:var(--ink-2);font:500 .75rem var(--mono);text-transform:uppercase}
 .facts span{white-space:nowrap}
 @media(max-width:600px){main .facts{flex-direction:column}}
@@ -321,7 +337,7 @@ body[data-view=reader] main{padding-bottom:6.5rem}
 }
 ::view-transition-old(root),::view-transition-new(root){animation-duration:200ms;animation-timing-function:steps(4,jump-end)} /* day and night trade places in four steps, never a flash; a fade, so it stays under reduced motion */
 @media(prefers-reduced-motion:reduce){
-  .skel i,.gone,.vs.kept::before,.keep[aria-pressed=true]::before,.tabs button[aria-current=page]::after,.opt.right::before,.opt.wrong,.blank.filled,.go.punched::after{animation:none}
+  .skel i,.gone,.cheer .hole,.cheer .station,.vs.kept::before,.keep[aria-pressed=true]::before,.tabs button[aria-current=page]::after,.opt.right::before,.opt.wrong,.blank.filled,.go.punched::after{animation:none}
   .vs{transition:none}
   :is(button,a,summary,.bk-pick):active{translate:none;opacity:.72} /* still answers the press, without moving */
   .gloss,.gloss::backdrop{transition:none}
@@ -435,6 +451,9 @@ const daysLeft=()=>Math.max(1,days(today(),S.deadline)+1);
 // recomputed daily from what's left, so a missed day raises tomorrow's goal; stable within a day
 const goal=()=>Math.ceil((CH.length-count()+todayN())/daysLeft());
 function streak(){let n=0,d=new Date();if(!S.log[iso(d)])d.setDate(d.getDate()-1);for(;S.log[iso(d)];d.setDate(d.getDate()-1))n++;return n}
+function bestRun(){let best=0,run=0,prev;for(const d of Object.keys(S.log).filter(d=>S.log[d]).sort()){run=prev&&days(prev,d)===1?run+1:1;best=Math.max(best,run);prev=d}return best} // the longest unbroken run of reading days
+const bookDone=bi=>readIn(bi)===BOOKS[bi][1],booksDone=()=>BOOKS.filter((_,bi)=>bookDone(bi)).length;
+const divDone=li=>BOOKS.every((_,bi)=>BED_OF[bi]!==li||bookDone(bi));
 const perDay=()=>(CH.length-S.startDone)/(days(S.start,S.deadline)+1);
 function pace(){ // vs a straight line from plan start to deadline; today's portion counts as on track
   const el=Math.min(days(S.start,today()),days(S.start,S.deadline)+1);
@@ -486,7 +505,7 @@ let at=null,jv=null; // a chapter opened from the Index, Kept or a verse (and th
 const cur=()=>at??nextIdx();
 function openCh(i,v){at=i;jv=v||null;go('reader')}
 function go(v,popped){
-  sel=null;if(v!=='kept')gone=null;if(v!=='reader')at=jv=null;if(v!=='today')flash=null;
+  sel=null;if(v!=='kept')gone=null;if(v!=='reader')at=jv=null;if(v!=='today')flash=cheer=null;
   if(!popped&&S){if(view==='today'&&v!=='today')history.pushState({v},'');else if(v==='today'&&history.state?.v)return history.back();else if(v!==view)history.replaceState({v},'')}
   hush();onscroll=null;view=v;entering=true;render();
 }
@@ -507,6 +526,7 @@ function render(){
   stepBand();
   if(!S)return preview();
   if(view==='today')ride();
+  if(cheer?.k==='bible'&&!cheer.shown){cheer.shown=true;if(!reduce.matches)BEDS.forEach((_,li)=>setTimeout(()=>setBoard(li),li*220))} // every division's colour in turn, ending on the last
   if(view!=='reader')prefetch();
 }
 
@@ -550,25 +570,52 @@ function start(){
 }
 
 function todayView(){
-  const g=goal(),t=todayN(),p=pace(),nx=CH[nextIdx()],done=todayIdx();
+  const g=goal(),t=todayN(),nx=CH[nextIdx()],p=nx?pace():{cls:'ahead',text:'Complete'},done=todayIdx();
   const stops=[...done,...upcoming(Math.max(g-done.length,1))].map(i=>CH[i]),met=t>=g; // today's chapters, plus the next one once the goal is met
   return `<header class=top><a class=mark href=landing.html>Tolle</a><p class="status ${p.cls}">${p.text}</p></header>${flash?`<p class=gone role=status>${flash}</p>`:''}
-  <div class=split><div>
+  <div class=split><div>${cheerHTML()}
   <section class="leaf clear" aria-label="Next chapter">${nx?`
     <h1 class=station style=--w:${ww(nx[0])}>${nx[0]} ${nx[1]}</h1>
     <p class="meta mono">${bed(nx[2])[1]} · ${met?"today's reading done":`${t+1} of ${g} today`}</p>
     <p class=lede>${met?`You've read ${plural(t,'chapter')} today. Keep going if you like.`:`${g-t} left today, about ${mins(g-t)} minutes.`}</p>
     <button class="go${met?' ghost':''}" onclick="go('reader')">${met?'Keep reading:':'Read'} ${nx[0]} ${nx[1]}${icon('arrow')}</button>`:`
     <h1 class=station>The whole Bible, read</h1>
-    <p class=lede>You've read all 1,189 chapters. Every band on the index is full.</p>`}
+    <p class=lede>You've read all 1,189 chapters. Every band on the index is full.</p>${journeyHTML()}`}
   </section>
   ${dailyHTML()}
   ${nx?`<section class=leaf aria-labelledby=stops-h><h2 id=stops-h>Today's chapters</h2>
     <ol class=stops>${stops.map((s,i)=>stopRow(s,i,done.length,stops[i+1])).join('')}</ol></section>`:''}
-  <section class=leaf aria-labelledby=log-h><h2 id=log-h>Reading log</h2>${calendar()}
-    <p class=facts><span>${plural(streak(),'day')} in a row</span><span>${num(count())} / 1,189 chapters</span><span>Finish ${fmtDate(S.deadline)}</span></p>
+  <section class=leaf aria-labelledby=log-h><h2 id=log-h>Reading log</h2>${runHTML()}${calendar()}
+    <p class=facts><span>${num(count())} / 1,189 chapters</span><span>Finish ${fmtDate(S.deadline)}</span></p>
     ${behind()?`<button class=link-btn id=bk-nudge onclick=connect()>Back up to Google Drive</button>`:''}</section>
+  ${cardHTML()}
   </div>${wide.matches?`<aside class=col-route aria-labelledby=route-h><h2 id=route-h class=sr>The whole Bible</h2>${routeBody()}</aside>`:''}</div>`;
+}
+function runHTML(){ // the run of days: its count, the best so far, and this week as seven holes, punched on the days read
+  const n=streak(),d=new Date(),wd=new Intl.DateTimeFormat(undefined,{weekday:'narrow'});d.setDate(d.getDate()-d.getDay());
+  let on=0;const week=Array.from({length:7},()=>{const k=iso(d),r=!!S.log[k],h=`<li class="${r?'on':''}${k===today()?' now':''}"><i></i>${wd.format(d)}</li>`;on+=r;d.setDate(d.getDate()+1);return h}).join('');
+  return `<div class=run><b>${num(n)}</b><span>${n==1?'day':'days'} in a row<br>Best ${num(Math.max(bestRun(),n))}</span></div>
+    <ol class=week aria-label="This week: read on ${plural(on,'day')}">${week}</ol>
+    <p class=hint style="margin:0 0 1.1rem">${todayN()?"Today's hole is punched.":n?`Read a chapter today to make it ${num(n+1)}.`:'Read a chapter today to start a run.'}</p>`;
+}
+function cardHTML(){ // the punch card: one hole a book, punched in its division's colour when the book is finished
+  const n=booksDone();
+  return `<section class=leaf aria-labelledby=pc-h><h2 id=pc-h>Punch card</h2>
+    <div class=pc role=img aria-label="${n} of 66 books finished">${BEDS.map(([id,name,k,,,short],li)=>{const b0=BED_OF.indexOf(li);
+      return `<div style="--c:var(--${id})"><span>${short||name}</span><p>${BOOKS.slice(b0,b0+k).map(([b],j)=>`<i${bookDone(b0+j)?' class=on':''} title="${b}"></i>`).join('')}</p></div>`}).join('')}</div>
+    <p class=facts><span>${n} of 66 books finished</span></p></section>`;
+}
+function cheerHTML(){ // the mark for what Done just finished: a large hole punched, and the name printed in
+  if(!cheer||cheer.k==='bible')return '';
+  const [kick,head,line]=cheer.k==='run'?['A run of days',`${num(cheer.n)} days in a row`,'A chapter or more, every day. Keep the holes coming.']
+    :cheer.k==='div'?['Division finished',BEDS[cheer.li][1],`${BOOKS[cheer.bi][0]} was its last book. ${booksDone()} of 66 books finished.`]
+    :['Book finished',BOOKS[cheer.bi][0],`${plural(BOOKS[cheer.bi][1],'chapter')} read. ${booksDone()} of 66 books finished.`];
+  return `<section class="leaf cheer" role=status><i class=hole aria-hidden=true></i><p class="meta mono">${kick}</p><h2 class=station style=--w:${ww(head)}>${head}</h2><p class=lede>${line}</p></section>`;
+}
+function journeyHTML(){ // the finished Bible: the journey in figures, and a way to tell someone
+  const ds=Object.keys(S.log).filter(d=>S.log[d]).sort(),from=ds[0]||S.start,to=ds.at(-1)||today();
+  return `<p class=facts><span>${fmtDate(from)} to ${fmtDate(to)}</span><span>${plural(ds.length,'day')} of reading</span><span>Best run ${plural(bestRun(),'day')}</span><span>${plural(KEPT.length,'verse')} kept</span></p>
+    ${navigator.share?`<button class="go ghost" style="margin-top:1rem" onclick="navigator.share({text:'I have read the whole Bible: 1,189 chapters, 66 books.'}).catch(()=>{})">Share this</button>`:''}`;
 }
 function daily(){ // today's verse: from the book you're reading if the list has one, else its part of the Bible, else the next in the list; none repeats until all have come round
   let dv=JSON.parse(localStorage.getItem('tolle-dv')||'{"seen":[]}');
@@ -737,6 +784,7 @@ function merge(a,b){ // two copies: a chapter read on either counts, the newer c
   return {...n,u:Date.now(),plan,kept:[...n.kept,...o.kept.filter(k=>!have.has(kref(k)))].sort((x,y)=>x.d.localeCompare(y.d))};
 }
 let flash=null; // one line for Today, saying what a restore brought back
+let cheer=null; // {k: book|div|bible|run, ...}: what the last Done finished, marked once on Today
 const restored=()=>`Restored: ${plural(count(),'chapter')} read, ${plural(KEPT.length,'kept verse')}.`;
 function adopt(p){ // take a copy as this phone's own
   const fresh=!S;S=p.plan;KEPT=p.kept;if(fresh&&S)flash=restored();
@@ -993,8 +1041,10 @@ function finish(btn){
   setRead(i,true);S.log[d]=(S.log[d]||0)+1;S.at[d]=i;
   if(S.day?.d!==d)S.day={d,idx:[]};S.day.idx.push(i);save();
   const n=nextIn(S.read,i+1);at=n<CH.length?n:null; // carry on from here: the next unread chapter after this one
-  const next=at!=null&&S.log[d]<goal()?'reader':'today'; // keep reading until today's goal is met
-  navigator.vibrate?.(12);btn?.classList.add('punched');$.querySelectorAll('.vstrip i').forEach(c=>c.classList.add('on'));
+  const li=BED_OF[bi],run=streak(); // something worth marking: the whole Bible, a division, a book, or a run reaching a milestone
+  cheer=count()===CH.length?{k:'bible'}:bookDone(bi)?{k:divDone(li)?'div':'book',bi,li}:S.log[d]===1&&[7,30,100,365].includes(run)?{k:'run',n:run}:null;
+  const next=!cheer&&at!=null&&S.log[d]<goal()?'reader':'today'; // keep reading until today's goal is met, unless there's something to mark
+  navigator.vibrate?.(cheer?[12,70,12,70,40]:12);btn?.classList.add('punched');$.querySelectorAll('.vstrip i').forEach(c=>c.classList.add('on'));
   const shut=step($.querySelectorAll('.opener,.scripture'),'perspective(900px) rotateY(-75deg)','0 50%',true); // the leaves hinge shut at the punched edge
   if(!shut.length)return go(next);
   turning=true;Promise.all(shut.map(a=>a.finished)).finally(()=>{turning=false;if(view==='reader')go(next)}); // a tab tapped mid-turn wins
@@ -1004,6 +1054,7 @@ let installEvt; // Android Chrome: offer our own install button in Settings
 addEventListener('beforeinstallprompt',e=>{e.preventDefault();installEvt=e;if(view==='settings')render()});
 function install(){installEvt.prompt();installEvt=null;document.getElementById('inst')?.remove()}
 navigator.serviceWorker?.register('sw.js');
+history.replaceState(null,''); // a reload starts on Today, so forget any page the browser remembered being on
 render();sync();
 </script>
 </body>

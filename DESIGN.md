@@ -346,6 +346,11 @@ Corners are barely softened: 2px on controls, 3px on leaves, and 1px on slips, l
 - **Press:** every button, link and summary answers on press with a 1px push into the board. A note tab is pulled 2px instead.
 - **Day and night:** they trade places through a view transition, a 200ms cross-fade in four hard steps, so the brightness never jumps. It is a fade, not movement, so it stays under reduced motion.
 - **Interruption:** a tab tapped during Done's page turn wins over the turn's destination.
+- **Marks of progress are punched holes too.**
+  - **The run:** a count of days in a row, the best run, and this week as seven holes punched on the days read.
+  - **The punch card:** one hole a book, punched in its division's hue when the book is finished.
+  - **The mark:** finishing a book, a division or a run of 7, 30, 100 or 365 days puts one leaf at the top of Today: a 3.4rem hole (`punch`) and the name printed in (`inkin`), with a longer vibration. It shows once and leaves with the page.
+  - **The whole Bible:** the board steps through all six division hues, 220ms apart, and Today keeps the journey in figures with a Share button.
 - **Small bridges, all in the hinge:** a removed Kept verse shuts like Done's leaves, and its Undo slip prints in (`inkin`). Undo hinges the verse back where it was. A book's intro and a pulled passage hinge down like book panels. Keep steps in from its edge the first time it appears. In setup, a ticked book's bar steps to its new fill.
 - **Under `prefers-reduced-motion: reduce`:**
   - `step()` and the band step return early, and the CSS removes animations and sheet transitions.
