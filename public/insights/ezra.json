@@ -1,0 +1,1057 @@
+{
+ "1": {
+  "summary": "Cyrus king of Persia decrees that the Jews may go home and rebuild the Temple, and he hands back the sacred vessels Nebuchadnezzar had taken.",
+  "lookfor": "Notice who does the stirring in this chapter, the echo of an older departure with gifts from neighbours, and what Cyrus returns.",
+  "names": [
+   {
+    "name": "Cyrus",
+    "kind": "person",
+    "gloss": "Founder of the Persian Empire, who conquered Babylon in 539 BC."
+   },
+   {
+    "name": "Persia",
+    "kind": "place",
+    "gloss": "The empire, centred in modern Iran, that replaced Babylon as ruler of the Near East."
+   },
+   {
+    "name": "Jeremiah",
+    "kind": "person",
+    "gloss": "The prophet who had foretold a return after seventy years."
+   },
+   {
+    "name": "Nebuchadnezzar",
+    "kind": "person",
+    "gloss": "The Babylonian king who destroyed Jerusalem and its Temple in 586 BC."
+   },
+   {
+    "name": "Mithredath",
+    "kind": "person",
+    "gloss": "Cyrus's treasurer; his Persian name honours the god Mithra."
+   },
+   {
+    "name": "Sheshbazzar",
+    "kind": "person",
+    "gloss": "The \"prince of Judah\" put in charge of the first return and later called governor."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "A new empire, a new policy",
+    "body": "Babylon fell to Cyrus in 539 BC, nearly fifty years after Jerusalem was burned. Babylon had deported conquered peoples; Persia preferred to send them home and win their loyalty by supporting their local temples. The decree (1:2-4) belongs to that wider policy.",
+    "refs": [
+     "2 Kings 25:8-11"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The Cyrus Cylinder",
+    "body": "A clay cylinder found at Babylon in 1879 records Cyrus returning displaced peoples and the images of their gods to their own sanctuaries. It does not mention Judah, but it shows the kind of policy Ezra describes. It is now in the British Museum.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Jeremiah's seventy years",
+    "body": "The book opens by saying the decree fulfils the word spoken \"by Jeremiah's mouth\" (1:1). Jeremiah had said the exiles would return after seventy years. The same verses close 2 Chronicles, so the Hebrew Bible, which ends with Chronicles, finishes on Cyrus's invitation to go up.",
+    "refs": [
+     "Jeremiah 29:10",
+     "2 Chronicles 36:22-23"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Cyrus the anointed",
+    "body": "Isaiah names Cyrus as the one who will say of the temple, \"Your foundation will be laid,\" and even calls him God's \"anointed.\" Ezra shows that hope coming true through a pagan ruler whose spirit Yahweh \"stirred up\" (1:1). Traditional readers take Isaiah as prediction; many modern scholars date these chapters of Isaiah to the exile itself.",
+    "refs": [
+     "Isaiah 44:28",
+     "Isaiah 45:1"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Stirred up",
+    "body": "The Hebrew verb is ur, to rouse or awaken. God rouses the spirit of Cyrus (1:1), and the same verb describes the Jews whose spirit God had stirred to go (1:5). Both the emperor's policy and the people's courage are traced to the same source.",
+    "refs": [
+     "Haggai 1:14"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A second exodus",
+    "body": "Neighbours load the travellers with silver, gold and goods (1:6), much as the Egyptians gave Israel silver and gold when they left Egypt. Prophets had promised a new exodus from Babylon, and Ezra quietly tells the return in those colours.",
+    "refs": [
+     "Exodus 12:35-36",
+     "Isaiah 48:20"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The vessels come home",
+    "body": "Nebuchadnezzar had placed the Temple vessels in the house of his gods (1:7), a way of showing his gods had won. Their return is the first sign of continuity between Solomon's Temple and the new one. Daniel's story of Belshazzar's feast turns on the same vessels.",
+    "refs": [
+     "2 Kings 25:13-15",
+     "Daniel 5:2-4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "God at work through outsiders",
+    "body": "The returning exiles owed their freedom to a king who did not worship their God. Where might God be at work through people or systems you would not expect?",
+    "refs": []
+   }
+  ]
+ },
+ "2": {
+  "summary": "A list of the families, priests, Levites and servants who returned from Babylon, ending with their gifts for rebuilding the Temple.",
+  "lookfor": "Look for the people who cannot prove their family line, how the priests among them are treated, and the gifts given at the end.",
+  "names": [
+   {
+    "name": "Zerubbabel",
+    "kind": "person",
+    "gloss": "A grandson of King Jehoiachin who led the returning community."
+   },
+   {
+    "name": "Jeshua",
+    "kind": "person",
+    "gloss": "The high priest of the return, called Joshua in Haggai and Zechariah."
+   },
+   {
+    "name": "Nehemiah",
+    "kind": "person",
+    "gloss": "A leader of the first return; probably not the later governor of the book of Nehemiah."
+   },
+   {
+    "name": "Mordecai",
+    "kind": "person",
+    "gloss": "A leader of the first return; not the Mordecai of Esther, who lived later in Susa."
+   },
+   {
+    "name": "Anathoth",
+    "kind": "place",
+    "gloss": "A priestly town north of Jerusalem, Jeremiah's home."
+   },
+   {
+    "name": "Tel Melah",
+    "kind": "place",
+    "gloss": "One of the Jewish settlements in Babylonia from which returnees came."
+   },
+   {
+    "name": "Barzillai the Gileadite",
+    "kind": "person",
+    "gloss": "A loyal friend of King David whose name a priestly family had taken through marriage."
+   },
+   {
+    "name": "temple servants",
+    "kind": "group",
+    "gloss": "Assistants in the Temple's work, in Hebrew the Nethinim, \"given ones.\""
+   }
+  ],
+  "skim": {
+   "advice": "Skim the family and town lists with their numbers, but read the opening, the people who could not prove their ancestry, and the total and gifts at the end.",
+   "key": [
+    1,
+    59,
+    62,
+    64
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Why the list matters",
+    "body": "After the exile, belonging to Israel and serving as a priest depended on showing your family line. This list records who came back and from which families and towns. It also links the returned community with the Israel that went into exile.",
+    "refs": [
+     "1 Chronicles 9:1-3"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The list appears twice",
+    "body": "Nehemiah copies almost the same list, with many small differences in names and numbers. Copyists could easily confuse Hebrew numbers, and the lists may come from different stages of the return. Both give the same grand total.",
+    "refs": [
+     "Nehemiah 7:6-73"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A total larger than its parts",
+    "body": "The groups listed add up to about 30,000, yet the total given is 42,360 (2:64). Suggestions include women, people from other tribes, or groups not itemised. The writer does not explain the gap.",
+    "refs": [
+     "Nehemiah 7:66"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Urim and Thummim",
+    "body": "Priests unable to prove their descent were barred from eating the most holy food until a priest could consult the Urim and Thummim (2:63). These were objects kept in the high priest's breastpiece and used to learn God's will. Their use seems to have lapsed by this time, so the question stayed open.",
+    "refs": [
+     "Exodus 28:30",
+     "Numbers 27:21"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Darics of gold",
+    "body": "The gift of \"sixty-one thousand darics of gold\" (2:69) uses the Persian gold coin called the daric, probably named after Darius I. Since it was first minted after Cyrus's day, the writer seems to give the value in the money of his own time.",
+    "refs": [
+     "Nehemiah 7:70-72"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "All Israel in their cities",
+    "body": "The chapter ends with priests, Levites and people settled \"in their cities, and all Israel in their cities\" (2:70). The returnees were mostly from Judah and Benjamin, but the writer still calls them Israel. The return is presented as a new beginning for the whole people.",
+    "refs": [
+     "Ezra 6:17"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Animals counted too",
+    "body": "The list ends with horses, mules, camels and 6,720 donkeys (2:66-67). The trip from Babylon to Jerusalem was about 900 miles and took months. The count is a reminder that this was a real journey with real baggage.",
+    "refs": [
+     "Ezra 7:9"
+    ]
+   }
+  ]
+ },
+ "3": {
+  "summary": "The returned exiles rebuild the altar, keep the feast of tents, and lay the Temple's foundation amid shouts of joy and loud weeping.",
+  "lookfor": "Notice what is built first and why, which old instructions are followed, and the two different sounds when the foundation is laid.",
+  "names": [
+   {
+    "name": "Jeshua the son of Jozadak",
+    "kind": "person",
+    "gloss": "The high priest, whose father was taken into exile."
+   },
+   {
+    "name": "Zerubbabel the son of Shealtiel",
+    "kind": "person",
+    "gloss": "The governor from David's royal family."
+   },
+   {
+    "name": "Joppa",
+    "kind": "place",
+    "gloss": "The port on the coast, modern Jaffa, where timber for the Temple was landed."
+   },
+   {
+    "name": "Kadmiel",
+    "kind": "person",
+    "gloss": "Head of a Levite family who helped oversee the work."
+   },
+   {
+    "name": "Asaph",
+    "kind": "person",
+    "gloss": "A singer of David's time whose descendants led Temple music."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Altar before walls",
+    "body": "The people set up the altar first, \"in spite of their fear\" of the surrounding peoples (3:3). Daily sacrifice resumed on the first day of the seventh month (3:6), before any Temple stood. Worship came before security or buildings.",
+    "refs": [
+     "Numbers 28:1-8"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The seventh month",
+    "body": "The seventh month held the trumpets on the first day, the Day of Atonement and the feast of tents. Keeping the feast of tents (3:4) recalled Israel living in shelters in the wilderness, a fitting memory for people camping among ruins.",
+    "refs": [
+     "Leviticus 23:24-36",
+     "Nehemiah 8:14-17"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Like Solomon's Temple",
+    "body": "Cedar from Lebanon floated to Joppa and paid for with food and oil (3:7) repeats how Solomon got timber from Tyre. Building began in the second month (3:8), the same month Solomon began. The writer shows the new Temple following the pattern of the first.",
+    "refs": [
+     "1 Kings 5:6-11",
+     "1 Kings 6:1"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Loving kindness",
+    "body": "The singers' refrain says God's \"loving kindness endures forever\" (3:11). The Hebrew word hesed means loyal, committed love, especially love that keeps covenant. The same refrain runs through Psalm 136 and was sung when Solomon's Temple was dedicated.",
+    "refs": [
+     "Psalms 136:1",
+     "2 Chronicles 5:13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Joy and weeping together",
+    "body": "Older people who had seen the first Temple wept aloud while others shouted for joy, and no one could tell the sounds apart (3:12-13). Haggai would later ask who remembered the house \"in its former glory\" and found the new one as nothing. Both reactions are recorded without blame.",
+    "refs": [
+     "Haggai 2:3"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The day of small things",
+    "body": "The prophet Zechariah also spoke to this generation, asking \"who despises the day of small things?\" and promising that Zerubbabel's hands would finish the house. The new start looked small to the people who remembered the old.",
+    "refs": [
+     "Zechariah 4:9-10"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Worship ordered as of old",
+    "body": "Everything is done \"as it is written in the law of Moses\" (3:2) and \"according to the directions of David\" (3:10). The writer stresses continuity: the community after exile is the same Israel, with the same law and worship.",
+    "refs": [
+     "1 Chronicles 16:4-7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Mixed feelings at a new start",
+    "body": "Some wept for what was lost while others rejoiced at what was beginning. How do you hold grief for the past together with hope for what God is doing now?",
+    "refs": []
+   }
+  ]
+ },
+ "4": {
+  "summary": "Local opponents, rebuffed when they offer to help, hinder the building for years, and a later letter to King Artaxerxes stops work on Jerusalem's walls.",
+  "lookfor": "Watch for the offer of help and its refusal, the kings' names that jump forward in time, and the change of language in the middle of the chapter.",
+  "names": [
+   {
+    "name": "Esar Haddon",
+    "kind": "person",
+    "gloss": "Assyrian king (681–669 BC) who settled foreigners in the old northern kingdom."
+   },
+   {
+    "name": "Darius",
+    "kind": "person",
+    "gloss": "Darius I, Persian king from 522 to 486 BC."
+   },
+   {
+    "name": "Ahasuerus",
+    "kind": "person",
+    "gloss": "Usually identified with Xerxes I (486–465 BC), the king of the book of Esther."
+   },
+   {
+    "name": "Artaxerxes",
+    "kind": "person",
+    "gloss": "Artaxerxes I, Persian king from 465 to 424 BC."
+   },
+   {
+    "name": "Rehum",
+    "kind": "person",
+    "gloss": "A Persian official in Samaria who wrote against Jerusalem."
+   },
+   {
+    "name": "Shimshai",
+    "kind": "person",
+    "gloss": "The scribe who wrote the letter with Rehum."
+   },
+   {
+    "name": "Osnappar",
+    "kind": "person",
+    "gloss": "An Assyrian king who resettled peoples in Samaria, probably Ashurbanipal."
+   },
+   {
+    "name": "Samaria",
+    "kind": "place",
+    "gloss": "The old capital of northern Israel and now the seat of a Persian province."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Who were the adversaries?",
+    "body": "The people offering help said they had worshipped Israel's God since Esar Haddon brought them there (4:2). Kings describes how Assyria settled foreigners in Samaria who worshipped Yahweh alongside their own gods. Zerubbabel refused, appealing to Cyrus's decree, which named the exiles alone (4:3).",
+    "refs": [
+     "2 Kings 17:24-33"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A chapter that jumps forward",
+    "body": "After work stalls under Cyrus (4:5), the chapter leaps to Ahasuerus (4:6) and Artaxerxes (4:7-23), decades later, then returns to Darius (4:24). The writer groups episodes of opposition by theme, not by date. The letter actually concerns the city walls, not the Temple.",
+    "refs": [
+     "Ezra 6:14-15"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "From Hebrew to Aramaic",
+    "body": "From the letter at 4:8 to 6:18 the book is written in Aramaic, the shared language of the Persian Empire, called Syrian in 4:7. Another Aramaic section is Artaxerxes' letter in chapter 7. The only other Aramaic in the Old Testament is a long section of Daniel, one verse of Jeremiah and two words in Genesis.",
+    "refs": [
+     "Ezra 7:12-26",
+     "Daniel 2:4",
+     "Jeremiah 10:11"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Eating the palace salt",
+    "body": "The officials say they \"eat the salt of the palace\" (4:14), meaning they receive the king's pay and owe him loyalty. Salt sealed agreements in the ancient world, as in the Bible's covenant of salt.",
+    "refs": [
+     "Numbers 18:19",
+     "2 Chronicles 13:5"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Royal archives",
+    "body": "The letter asks the king to search \"the book of the records\" (4:15). Persian kings kept extensive archives, and thousands of administrative tablets have been found at Persepolis. The search confirms Jerusalem's history of revolt (4:19), something the Bible itself records.",
+    "refs": [
+     "2 Kings 24:20"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Long roots of a rift",
+    "body": "The quarrel between the returnees and the people of Samaria hardened over the following centuries. By New Testament times Jews and Samaritans had separate temples and avoided each other, which gives force to Jesus' conversation with a Samaritan woman.",
+    "refs": [
+     "John 4:9",
+     "Luke 10:33"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Opposition from start to finish",
+    "body": "Resistance spans the reigns of Cyrus, Darius, Xerxes and Artaxerxes. Gathering these episodes together shows that rebuilding God's people was never easy. Nehemiah meets the same kind of opposition when he finally rebuilds the walls.",
+    "refs": [
+     "Nehemiah 4:1-8"
+    ]
+   }
+  ]
+ },
+ "5": {
+  "summary": "Urged on by the prophets Haggai and Zechariah, the Jews resume building, and when the governor Tattenai questions them he writes to Darius to check their claim.",
+  "lookfor": "Watch who restarts the work, how the elders answer the governor's questions, and what keeps the work from being stopped while the letter goes to the king.",
+  "names": [
+   {
+    "name": "Haggai",
+    "kind": "person",
+    "gloss": "A prophet who in 520 BC urged the people to finish the Temple."
+   },
+   {
+    "name": "Zechariah the son of Iddo",
+    "kind": "person",
+    "gloss": "A prophet who worked alongside Haggai; his visions fill the book of Zechariah."
+   },
+   {
+    "name": "Tattenai",
+    "kind": "person",
+    "gloss": "Persian governor of the province \"beyond the River,\" west of the Euphrates."
+   },
+   {
+    "name": "Shetharbozenai",
+    "kind": "person",
+    "gloss": "An official working with Tattenai."
+   },
+   {
+    "name": "Chaldean",
+    "kind": "group",
+    "gloss": "The people of southern Babylonia, whose dynasty ruled Babylon in Nebuchadnezzar's time."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "The prophets restart the work",
+    "body": "Haggai's first message is dated to the second year of Darius, 520 BC. He asked whether it was a time for the people \"to dwell in your paneled houses, while this house lies waste.\" Within weeks, Ezra says, the leaders \"rose up and began to build\" (5:2).",
+    "refs": [
+     "Haggai 1:1-4",
+     "Haggai 1:14-15"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Beyond the River",
+    "body": "Beyond the River was the Persian province west of the Euphrates, including Syria and Judah. A Babylonian tablet from 502 BC names a governor of Beyond the River called Tattannu, widely taken to be the Tattenai of this chapter.",
+    "refs": [
+     "Ezra 4:10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The eye of their God",
+    "body": "Tattenai does not stop the work while waiting for the king's reply, and the writer explains why: \"the eye of their God was on the elders of the Jews\" (5:5). The governor follows proper procedure, and the writer sees God's watchful care in that.",
+    "refs": [
+     "Psalms 33:18"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Owning the past",
+    "body": "The elders' answer does not hide the exile. They admit that their fathers \"provoked the God of heaven to wrath\" (5:12), and that is why the Temple was destroyed. Their claim to build rests on Cyrus's decree, not on any merit of their own.",
+    "refs": [
+     "2 Chronicles 36:15-17"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "God of heaven",
+    "body": "The title \"God of heaven\" (5:11-12) appears mainly in books of the Persian period. It was a name Persian officials could understand, and the Jews used it in dealings with them. It makes the point that Israel's God is not a local deity.",
+    "refs": [
+     "Nehemiah 1:4",
+     "Daniel 2:18-19"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Faithfulness under scrutiny",
+    "body": "The builders do not stop or resist; they explain themselves and let the matter go up to the king. Much of Ezra shows God's people living faithfully inside a foreign empire rather than overthrowing it.",
+    "refs": [
+     "Jeremiah 29:7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "When a work stalls",
+    "body": "The Temple sat unfinished for about sixteen years until prophets stirred the people again. What helps you return to something God gave you to do after a long pause?",
+    "refs": []
+   }
+  ]
+ },
+ "6": {
+  "summary": "Darius finds Cyrus's decree, orders the work to go ahead at royal expense, and the Temple is finished and dedicated, followed by a joyful Passover.",
+  "lookfor": "Notice where the old decree turns up, what Darius adds to it, the date the house is finished, and who is welcome at the Passover.",
+  "names": [
+   {
+    "name": "Achmetha",
+    "kind": "place",
+    "gloss": "Ecbatana, modern Hamadan in Iran, a summer capital of the Persian kings."
+   },
+   {
+    "name": "Media",
+    "kind": "place",
+    "gloss": "A region of north-west Iran, joined with Persia in Cyrus's empire."
+   },
+   {
+    "name": "Tattenai",
+    "kind": "person",
+    "gloss": "The Persian governor who had asked for the king's ruling."
+   },
+   {
+    "name": "Apharsachites",
+    "kind": "group",
+    "gloss": "Probably a title for a class of Persian officials rather than the name of a people; the meaning is uncertain."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Found in the summer palace",
+    "body": "The search starts in Babylon, but the scroll turns up at Achmetha (6:2), where Cyrus spent his summers. It is a memo for the archive, giving the Temple's size and the funding, rather than the public announcement of chapter 1. Such details fit what is known of Persian record-keeping.",
+    "refs": [
+     "Ezra 1:2-4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A Persian king's prayer request",
+    "body": "Darius pays for sacrifices so that the priests may \"pray for the life of the king, and of his sons\" (6:10). Persian kings wanted the goodwill of every god in their empire. Jeremiah had told the exiles to seek the peace of the city where they lived and pray for it.",
+    "refs": [
+     "Jeremiah 29:7",
+     "1 Timothy 2:1-2"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A brutal penalty",
+    "body": "Anyone who alters the decree is to be impaled on a beam from his own house (6:11). Darius records in his Behistun inscription that he impaled rebels. The threat shows the full weight of imperial power now protecting the Temple.",
+    "refs": [
+     "Esther 7:9-10"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Finished in 515 BC",
+    "body": "The Temple was completed in Adar of Darius's sixth year (6:15), early in 515 BC, about seventy years after Solomon's Temple was burned. With alterations and Herod's great rebuilding, this Second Temple stood until the Romans destroyed it in AD 70.",
+    "refs": [
+     "Zechariah 1:12",
+     "John 2:20"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Twelve goats for all Israel",
+    "body": "The sin offering is \"twelve male goats, according to the number of the tribes of Israel\" (6:17). The returnees were few and mainly from Judah, yet they offered for all twelve tribes. Ezra's own group later does the same.",
+    "refs": [
+     "Ezra 8:35",
+     "Numbers 7:84-87"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Dedication",
+    "body": "The Aramaic word for the \"dedication\" (6:16) is hanukkah, the same word used for the dedication of the altar in the wilderness. The Jewish festival of Hanukkah takes its name from the later rededication of this same Temple in 164 BC.",
+    "refs": [
+     "Numbers 7:10",
+     "John 10:22"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Open to those who separated",
+    "body": "Passover was eaten by the returned exiles and \"all who had separated themselves to them\" from the impurity of the nations to seek Yahweh (6:21). The community was not closed by birth alone. People who turned to Israel's God could join.",
+    "refs": [
+     "Exodus 12:48"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The king of Assyria",
+    "body": "The writer says God turned the heart of \"the king of Assyria\" (6:22), though Darius was Persian. Persia now ruled Assyria's old lands, and the empire that had scattered the northern tribes is now helping rebuild. The reversal is part of the book's theme of God moving foreign rulers.",
+    "refs": [
+     "Proverbs 21:1"
+    ]
+   }
+  ]
+ },
+ "7": {
+  "summary": "Decades later Ezra, a priest and scribe, travels from Babylon to Jerusalem with a letter from King Artaxerxes giving him gifts, funds and authority to teach and enforce God's law.",
+  "lookfor": "Watch how far back Ezra's family line goes, what he set his heart to do, the phrase about God's hand that keeps returning, and the powers the king's letter gives him.",
+  "names": [
+   {
+    "name": "Ezra",
+    "kind": "person",
+    "gloss": "A priest descended from Aaron and a scribe expert in the law of Moses."
+   },
+   {
+    "name": "Artaxerxes",
+    "kind": "person",
+    "gloss": "Persian king, usually taken as Artaxerxes I (465–424 BC)."
+   },
+   {
+    "name": "Seraiah",
+    "kind": "person",
+    "gloss": "The chief priest executed by the Babylonians in 586 BC, here an ancestor of Ezra."
+   },
+   {
+    "name": "Hilkiah",
+    "kind": "person",
+    "gloss": "The high priest who found the book of the law in Josiah's reign."
+   },
+   {
+    "name": "Zadok",
+    "kind": "person",
+    "gloss": "High priest under David and Solomon."
+   },
+   {
+    "name": "Aaron",
+    "kind": "person",
+    "gloss": "Brother of Moses and first high priest."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "A gap of nearly sixty years",
+    "body": "\"After these things\" (7:1) skips from 515 BC to Artaxerxes' seventh year, usually dated 458 BC. The events of Esther fall in this gap. Some scholars place Ezra's journey in 398 BC under Artaxerxes II, but most keep the traditional date.",
+    "refs": [
+     "Ezra 6:15",
+     "Esther 1:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A shortened family tree",
+    "body": "Ezra's line runs back through Hilkiah and Zadok to Aaron (7:1-5), but the list skips generations; Chronicles gives a fuller list. Seraiah was probably Ezra's ancestor rather than his father, since he died in 586 BC. The point is Ezra's legitimate priestly descent.",
+    "refs": [
+     "1 Chronicles 6:3-15",
+     "2 Kings 25:18-21"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Scribe",
+    "body": "Ezra is a \"skilled scribe\" (7:6), in Hebrew sofer. In Persian service a scribe could be a high official, and the title may also be his court rank. In Jewish memory Ezra became the model scribe and teacher of Torah, the forerunner of the scribes of the Gospels.",
+    "refs": [
+     "Nehemiah 8:1",
+     "Matthew 13:52"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Seek, do, teach",
+    "body": "Ezra \"had set his heart to seek Yahweh's law, and to do it, and to teach\" (7:10). The order matters: study, then practice, then teaching. James later warns that hearing the word without doing it is self-deception.",
+    "refs": [
+     "Deuteronomy 6:6-7",
+     "James 1:22"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The good hand of his God",
+    "body": "A refrain runs through Ezra's story: the king grants his request \"according to Yahweh his God's hand on him\" (7:6, 7:9, 7:28). It returns three times in chapter 8. Nehemiah uses the same phrase about his own journey.",
+    "refs": [
+     "Ezra 8:18",
+     "Ezra 8:22",
+     "Ezra 8:31",
+     "Nehemiah 2:8"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The king's law and God's law",
+    "body": "Artaxerxes empowers Ezra to appoint judges and enforce \"the law of your God and the law of the king\" (7:26). Persian kings are known to have authorised local legal traditions, as Darius did in Egypt. Scholars debate how far such authorisation shaped the Torah's final form.",
+    "refs": [
+     "Esther 1:19"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A second Moses",
+    "body": "Jewish tradition honours Ezra almost as a second Moses; the Talmud says the Torah could have been given through him had Moses not come first. Like Moses, he leads a journey to the land and teaches God's law to the people.",
+    "refs": [
+     "Nehemiah 8:1-8"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Strength from the hand of God",
+    "body": "Ezra says he \"was strengthened according to Yahweh my God's hand on me\" (7:28) before gathering others to go with him. What gives you courage to take on a task larger than yourself?",
+    "refs": []
+   }
+  ]
+ },
+ "8": {
+  "summary": "Ezra lists those who travelled with him, recruits Levites, fasts for a safe journey rather than ask for soldiers, and delivers the Temple treasure safely to Jerusalem.",
+  "lookfor": "Look for who is missing at the gathering point, why Ezra will not ask the king for an escort, and how carefully the gold and silver are handled.",
+  "names": [
+   {
+    "name": "Hattush",
+    "kind": "person",
+    "gloss": "A descendant of David, of the family of Zerubbabel."
+   },
+   {
+    "name": "Ahava",
+    "kind": "place",
+    "gloss": "A river or canal in Babylonia where Ezra's group assembled."
+   },
+   {
+    "name": "Casiphia",
+    "kind": "place",
+    "gloss": "An unknown place in Babylonia, apparently a centre of Levites and temple servants."
+   },
+   {
+    "name": "Iddo",
+    "kind": "person",
+    "gloss": "Leader at Casiphia; not the prophet Zechariah's ancestor."
+   },
+   {
+    "name": "Sherebiah",
+    "kind": "person",
+    "gloss": "A Levite recruited at Ahava, later active in Nehemiah's reforms."
+   },
+   {
+    "name": "Meremoth",
+    "kind": "person",
+    "gloss": "The priest who received and weighed the treasure in Jerusalem."
+   },
+   {
+    "name": "Mahli",
+    "kind": "person",
+    "gloss": "A grandson of Levi, ancestor of a Levite clan."
+   }
+  ],
+  "skim": {
+   "advice": "Verses 1 to 14 are a list of family heads and the number of men with each. Skim the names, then read closely from verse 15, where Ezra finds no Levites.",
+   "key": [
+    15,
+    21,
+    22,
+    31
+   ]
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "No Levites",
+    "body": "At the river Ahava Ezra finds \"none of the sons of Levi\" (8:15). Only 74 Levites returned with the first group as well. Levites had served at the Temple, and in Babylon there was no Temple; life there may have been more settled than the hard work back home.",
+    "refs": [
+     "Ezra 2:40"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Ashamed to ask for soldiers",
+    "body": "Ezra had told the king that God's hand is on those who seek him (8:22). Asking for an armed guard would have looked like doubt, so he proclaimed a fast instead (8:21). Nehemiah, a royal official, later travels with an escort, and the Bible does not fault either man.",
+    "refs": [
+     "Nehemiah 2:9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A vast treasure",
+    "body": "The silver and gold handed over (8:26-27) weighed many tons by any reckoning of the talent. The road from Babylon was long and exposed to bandits (8:31). The weighing at both ends protected the carriers from any suspicion of theft.",
+    "refs": [
+     "2 Corinthians 8:20-21"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Holy to Yahweh",
+    "body": "Ezra tells the priests, \"You are holy to Yahweh, and the vessels are holy\" (8:28). The Hebrew word qodesh marks something set apart for God. Holy people carry holy things, matching the old rule that only Levites could carry the sanctuary's furnishings.",
+    "refs": [
+     "Numbers 4:15",
+     "Leviticus 22:2"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A son of David returns",
+    "body": "Hattush, \"of the sons of David\" (8:2), appears in Chronicles among the descendants of Zerubbabel. Even with no king on the throne, David's line is still present among the returning exiles.",
+    "refs": [
+     "1 Chronicles 3:22"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Twelves again",
+    "body": "Twelve priests guard the treasure (8:24), and on arrival the returnees offer twelve bulls \"for all Israel\" and twelve goats (8:35). As at the Temple's dedication, the small community understands itself as the whole of Israel.",
+    "refs": [
+     "Ezra 6:17"
+    ]
+   }
+  ]
+ },
+ "9": {
+  "summary": "Ezra learns that many returnees, including leaders and priests, have married women of the surrounding peoples, and he responds with public grief and a long prayer of confession.",
+  "lookfor": "Notice how Ezra reacts, how the list of peoples echoes older passages, who he includes in \"we,\" and the images of a remnant and a nail.",
+  "names": [
+   {
+    "name": "Canaanites",
+    "kind": "group",
+    "gloss": "The peoples who lived in the land before Israel."
+   },
+   {
+    "name": "Ammonites",
+    "kind": "group",
+    "gloss": "A people east of the Jordan, around modern Amman."
+   },
+   {
+    "name": "Moabites",
+    "kind": "group",
+    "gloss": "A people east of the Dead Sea."
+   },
+   {
+    "name": "Persia",
+    "kind": "place",
+    "gloss": "The empire whose kings had favoured the returning exiles."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The fear behind the reaction",
+    "body": "The issue was mixing with peoples whose worship Israel had been told to avoid. Ezra's prayer links it to the sins that led to exile (9:7) and fears another collapse (9:14). For a small community just rebuilt, losing its faith through marriage seemed like losing everything.",
+    "refs": [
+     "Deuteronomy 7:3-4",
+     "1 Kings 11:1-4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "An old list of nations",
+    "body": "The princes list Canaanites, Hittites, Perizzites, Jebusites and Amorites, peoples who no longer existed as such, alongside Ammonites, Moabites and Egyptians (9:1). The list draws on Deuteronomy's warnings, applying old law to a new situation.",
+    "refs": [
+     "Deuteronomy 7:1",
+     "Deuteronomy 23:3-7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Tearing hair and robes",
+    "body": "Tearing garments was a common sign of grief. Pulling out one's own hair and beard (9:3) was more extreme and rare. Nehemiah, facing the same issue later, pulls out the hair of the offenders instead.",
+    "refs": [
+     "Nehemiah 13:25",
+     "Job 1:20"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A nail in his holy place",
+    "body": "Ezra says God has given \"a nail in his holy place\" (9:8). The Hebrew yated means a tent peg or wall peg, something fixed that holds firm. Isaiah uses the same image of a man fastened \"like a nail in a sure place.\"",
+    "refs": [
+     "Isaiah 22:23",
+     "Zechariah 10:4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "We, not they",
+    "body": "Ezra had not married a foreign wife, yet he prays \"our iniquities\" and \"our guiltiness\" (9:6). He stands with the people rather than above them. Nehemiah and Daniel pray in the same way.",
+    "refs": [
+     "Nehemiah 1:6-7",
+     "Daniel 9:5"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Ruth and Rahab too",
+    "body": "The Bible also tells of foreign women who joined Israel, such as Rahab and Ruth the Moabite, both ancestors of David. Many readers distinguish their wholehearted turning to Israel's God from marriages that drew Israel away. Readers today weigh these passages in different ways.",
+    "refs": [
+     "Ruth 1:16",
+     "Matthew 1:5"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Grieving the sin of a community",
+    "body": "Ezra mourned sins he had not personally committed. What would it look like to grieve over wrongs in your community without setting yourself apart from it?",
+    "refs": []
+   }
+  ]
+ },
+ "10": {
+  "summary": "The people agree to a covenant to send away their foreign wives and children, and after an inquiry lasting months the book ends with a list of the men involved.",
+  "lookfor": "Watch who proposes the covenant, the weather on the day of the assembly, the few who object, and how abruptly the book stops.",
+  "names": [
+   {
+    "name": "Shecaniah",
+    "kind": "person",
+    "gloss": "The man who proposes the covenant; his own father's name appears in the later list."
+   },
+   {
+    "name": "Jehohanan the son of Eliashib",
+    "kind": "person",
+    "gloss": "A priest whose room Ezra uses; perhaps related to the high priest Eliashib of Nehemiah's time."
+   },
+   {
+    "name": "Jonathan the son of Asahel",
+    "kind": "person",
+    "gloss": "One of the few who opposes the plan."
+   },
+   {
+    "name": "Jahzeiah the son of Tikvah",
+    "kind": "person",
+    "gloss": "Another who opposes the plan."
+   },
+   {
+    "name": "Jeshua",
+    "kind": "person",
+    "gloss": "The high priest of the first return, whose own family appears on the list."
+   }
+  ],
+  "skim": {
+   "advice": "Verses 18 to 44 list the men who had married foreign women. Skim the names, but notice that the list starts with the high priest's family.",
+   "key": [
+    2,
+    3,
+    18,
+    44
+   ]
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "The proposal comes from the people",
+    "body": "Ezra does not order the divorces. Shecaniah suggests the covenant (10:2-3), and the assembly agrees (10:12). Shecaniah's father Jehiel of the sons of Elam may be the Jehiel named later among the offenders (10:26), which would make this a son proposing against his own family.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Sitting in the winter rain",
+    "body": "The assembly met on the twentieth day of the ninth month, Kislev, in December (10:9). Winter rains in Jerusalem are cold. The people trembled \"because of this matter, and because of the great rain,\" and asked for time to handle it properly (10:13).",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Some objected",
+    "body": "Four men \"stood up against this\" (10:15). The Hebrew is unclear: they may have opposed the divorces or only the procedure. The writer records them without comment.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Covenant",
+    "body": "The people \"make a covenant\" (10:3), using the Hebrew berit, the word for God's binding agreements with Israel. Here the community binds itself by oath. Nehemiah later records a similar written covenant.",
+    "refs": [
+     "Nehemiah 9:38",
+     "Nehemiah 10:30"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The problem returns",
+    "body": "Ezra ends as if the matter is settled, but a generation later Nehemiah finds Jews married to women of Ashdod, Ammon and Moab, with children who could not speak the Jews' language. Malachi also speaks against marrying \"the daughter of a foreign god.\"",
+    "refs": [
+     "Nehemiah 13:23-27",
+     "Malachi 2:11"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A hard ending",
+    "body": "The book closes with the note that some of these men \"had wives by whom they had children\" (10:44). It says nothing of what became of them. Readers across traditions have found this painful; some see a necessary act to preserve a fragile faith, others a severe response that the wider Bible tempers.",
+    "refs": [
+     "Malachi 2:16",
+     "1 Corinthians 7:12-14"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Holiness and belonging",
+    "body": "Ezra ends with a community trying to be a holy people in a mixed world, a concern that continues through Nehemiah. The New Testament takes up the same question of holiness and the nations, opening God's people to Gentiles by faith while calling them not to be yoked with unbelievers.",
+    "refs": [
+     "Acts 15:8-9",
+     "2 Corinthians 6:14"
+    ]
+   }
+  ]
+ },
+ "intro": {
+  "who": "Jewish tradition in the Talmud names Ezra as the author, and chapters 7 to 9 are written in his own voice. Most modern scholars see an editor working some time after 400 BC, who combined Ezra's memoir, lists and official letters, some of them in Aramaic. In the Hebrew Bible Ezra and Nehemiah form a single book.",
+  "when": "The events run from Cyrus's decree in 538 BC to the Temple's completion in 515 BC, then jump to Ezra's arrival in the seventh year of Artaxerxes, usually dated 458 BC. A minority of scholars place Ezra later, in 398 BC under Artaxerxes II.",
+  "why": "It tells how exiles returned from Babylon, rebuilt the Temple against opposition, and tried to rebuild a community shaped by the law of Moses, showing God keeping his promises through foreign kings.",
+  "outline": [
+   {
+    "chapters": "1–2",
+    "title": "Cyrus sends the exiles home"
+   },
+   {
+    "chapters": "3–4",
+    "title": "Altar, foundation, opposition"
+   },
+   {
+    "chapters": "5–6",
+    "title": "The Temple finished"
+   },
+   {
+    "chapters": "7–8",
+    "title": "Ezra comes to Jerusalem"
+   },
+   {
+    "chapters": "9–10",
+    "title": "The crisis of mixed marriages"
+   }
+  ],
+  "verse": "Ezra 7:10"
+ }
+}
