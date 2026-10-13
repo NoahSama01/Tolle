@@ -1,0 +1,3121 @@
+{
+ "1": {
+  "summary": "Job, a blameless and wealthy man of Uz, is put to the test when Yahweh allows Satan to take his possessions and children, yet Job worships and does not sin.",
+  "lookfor": "Watch the switch between earth and the heavenly court, Satan's question about why Job fears God, and the rhythm of the messengers who arrive one after another.",
+  "names": [
+   {
+    "name": "Uz",
+    "kind": "place",
+    "gloss": "Job's homeland, somewhere east of Israel, often linked with Edom or northern Arabia."
+   },
+   {
+    "name": "Satan",
+    "kind": "person",
+    "gloss": "In Hebrew \"the satan,\" the accuser or adversary, who appears among the heavenly beings before Yahweh."
+   },
+   {
+    "name": "Sabeans",
+    "kind": "group",
+    "gloss": "Raiders from Sheba in Arabia, a people known for long-distance trade."
+   },
+   {
+    "name": "Chaldeans",
+    "kind": "group",
+    "gloss": "A people of southern Mesopotamia, here pictured as raiders who swoop on Job's camels."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "A man outside Israel",
+    "body": "Job lives in Uz among \"the children of the east\" (1:3), not in Israel. Lamentations links Uz with Edom, and Genesis names an Uz among Abraham's relatives. Job offers sacrifices himself as head of his family (1:5), with no priest or temple, much like Abraham.",
+    "refs": [
+     "Lamentations 4:21",
+     "Genesis 22:20-21"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The satan, the accuser",
+    "body": "The Hebrew has the article, ha-satan, \"the adversary\" or \"the accuser,\" more a title than a personal name. Here he is one of the heavenly beings who answer to God. Christian tradition identifies him with the devil, while many Jewish and modern readers see a prosecuting figure within God's court.",
+    "refs": [
+     "Zechariah 3:1-2",
+     "Numbers 22:22"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Blessing that means cursing",
+    "body": "The verb translated \"renounced\" (1:5, 1:11) is the Hebrew barak, \"bless.\" Scribes seem to have used it as a polite substitute for \"curse God,\" which they would not write. The same verb then appears in Job's \"Blessed be Yahweh's name\" (1:21), turning Satan's prediction on its head.",
+    "refs": [
+     "1 Kings 21:10"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "For nothing?",
+    "body": "Satan's question \"Does Job fear God for nothing?\" (1:9) sets up the whole book. If Job's goodness depends on his blessings, it is a bargain rather than devotion. The test is not mainly about Job's suffering but about whether faith can be disinterested.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Four messengers, no pause",
+    "body": "The disasters alternate between human raiders and forces of nature (1:15-19), and each report begins before the last has finished. Each messenger ends with the same line about escaping alone. The pace leaves Job, and the reader, no time to breathe.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Who raises Job's name?",
+    "body": "It is Yahweh, not Satan, who first points to Job (1:8). Readers have wrestled with why God would invite such a test, and the book never explains it to Job. Does the story aim to justify God's decision, or to set up a question that only the rest of the book can explore?",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A proverbial righteous man",
+    "body": "Ezekiel names Job alongside Noah and Daniel as famous examples of righteousness, and James holds up his endurance. The story of Job was well known in Israel, whenever the book reached its present form.",
+    "refs": [
+     "Ezekiel 14:14",
+     "James 5:11"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Naked from the womb",
+    "body": "Job's response (1:21) reappears in Ecclesiastes and in Paul's words to Timothy: we bring nothing into the world and take nothing out. Job pairs this with worship rather than resignation.",
+    "refs": [
+     "Ecclesiastes 5:15",
+     "1 Timothy 6:7"
+    ]
+   }
+  ]
+ },
+ "2": {
+  "summary": "In a second heavenly scene Satan is allowed to strike Job's body with sores; Job rejects his wife's call to curse God, and three friends come and sit with him in silence for seven days.",
+  "lookfor": "Notice the words \"integrity\" and \"without cause,\" what the narrator says and does not say about Job's speech, and how the friends' first response differs from what comes next.",
+  "names": [
+   {
+    "name": "Eliphaz",
+    "kind": "person",
+    "gloss": "A friend from Teman in Edom, a region famed for its wise men; he speaks first and most courteously."
+   },
+   {
+    "name": "Bildad",
+    "kind": "person",
+    "gloss": "A friend from Shuah, a people descended from Abraham and Keturah."
+   },
+   {
+    "name": "Zophar",
+    "kind": "person",
+    "gloss": "A friend called the Naamathite, from a place that cannot be identified with certainty."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Integrity",
+    "body": "Yahweh says Job \"still maintains his integrity\" (2:3), and his wife repeats the same words as a question (2:9). The Hebrew tummah comes from tam, the \"blameless\" of 1:1. Holding on to his integrity becomes Job's stand through the whole dialogue.",
+    "refs": [
+     "Job 1:1",
+     "Job 27:5-6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Without cause",
+    "body": "God says Satan incited him to ruin Job \"without cause\" (2:3). The Hebrew hinnam is the same word Satan used when he asked whether Job feared God \"for nothing.\" The book quietly admits from the start that Job's suffering is not a punishment.",
+    "refs": [
+     "Job 1:9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Skin for skin",
+    "body": "\"Skin for skin\" (2:4) is an old saying whose exact origin is unclear; some link it to bartering hides. Satan's point is plain enough: a person will give up anything to save his own life, so touch Job's body and his piety will fail.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Among the ashes",
+    "body": "Job scrapes his sores with a broken piece of pottery and sits among the ashes (2:8), a sign of mourning and of being cut off. The Greek translation places him on the rubbish heap outside the town, where outcasts and the diseased would sit.",
+    "refs": [
+     "Lamentations 4:5"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Job's wife",
+    "body": "His wife has lost ten children too, yet she gets only one line (2:9). Many readers have judged her harshly, while others hear grief, or even a wish that death would end his pain. What is she really asking for, and why does Job call her words foolish rather than wicked?",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "With his lips",
+    "body": "The first test ended with \"Job did not sin\"; this one ends \"Job didn't sin with his lips\" (2:10). A rabbinic comment in the Talmud suggests he was already sinning in his heart, while most readers take the phrase simply to mean his words stayed faithful. Either way, words are about to become the centre of the book.",
+    "refs": [
+     "Job 1:22"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Seven days of silence",
+    "body": "Seven days was the customary period of mourning, as at Jacob's funeral, and the friends sit as mourners for a man still alive (2:13). Many readers think this silent presence was the friends' best comfort, before they began to explain.",
+    "refs": [
+     "Genesis 50:10"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The curtain falls",
+    "body": "After this chapter the heavenly court disappears. Job and his friends never learn what the reader knows, and Satan is never mentioned again, not even at the end. The rest of the book is argued by people who cannot see behind the curtain.",
+    "refs": []
+   }
+  ]
+ },
+ "3": {
+  "summary": "After seven days of silence Job breaks out in poetry, cursing the day of his birth and asking why those in misery are given life.",
+  "lookfor": "Listen for images of light and darkness, the picture of the grave as a place of rest, and the questions that begin with \"Why.\"",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "From prose to poetry",
+    "body": "With this chapter the book moves from simple prose into poetry that runs almost to the end. The Hebrew of Job is among the hardest in the Bible, with many rare words, so translations differ more than usual. The patient Job of the opening now becomes a Job who protests.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Creation run backwards",
+    "body": "\"Let that day be darkness\" (3:4) reverses God's first word in Genesis, \"Let there be light.\" Job wishes his day of birth unmade, piling up darkness, clouds and blackness. His grief reaches for the language of creation itself.",
+    "refs": [
+     "Genesis 1:3"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Rousing leviathan",
+    "body": "Those \"ready to rouse up leviathan\" (3:8) seem to be people believed able to curse days with spells. Leviathan was a sea monster of chaos, known as Lotan in older Canaanite texts from Ugarit. Job asks for his birthday to be swallowed by that chaos. God will speak about leviathan at length near the end of the book.",
+    "refs": [
+     "Job 41:1",
+     "Psalms 74:14"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Shadow of death",
+    "body": "The Hebrew tsalmawet (3:5) has long been read as \"shadow of death,\" as in Psalm 23. Many scholars think it simply means \"deep darkness,\" with the ending sounding like the word for death. The word occurs more often in Job than in any other book.",
+    "refs": [
+     "Psalms 23:4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Jeremiah's twin lament",
+    "body": "Jeremiah also curses the day he was born and the man who brought news of his birth. Both speakers wish they had never lived, but neither curses God. Scripture keeps such words rather than editing them out.",
+    "refs": [
+     "Jeremiah 20:14-18"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Hedged in",
+    "body": "Satan complained that God had put a protective hedge around Job (1:10). Now Job speaks of a man \"whom God has hedged in\" (3:23). The same image that meant safety now feels like a trap.",
+    "refs": [
+     "Job 1:10"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Is this faith or its failure?",
+    "body": "Job says nothing here that would count as cursing God, yet he wishes he had never been born. At the end God says Job spoke rightly and the friends did not. Is a lament like this a form of faith, still addressed toward God, or a step away from it?",
+    "refs": [
+     "Job 42:7"
+    ]
+   }
+  ]
+ },
+ "4": {
+  "summary": "Eliphaz, the first friend to speak, gently reminds Job of his own advice to others and insists that the innocent never perish, citing a vision in the night.",
+  "lookfor": "Notice how Eliphaz starts politely, the claim he makes about the innocent, and the eerie night vision he relies on for authority.",
+  "names": [
+   {
+    "name": "Eliphaz",
+    "kind": "person",
+    "gloss": "Job's friend from Teman in Edom, the oldest-sounding and most courteous of the three."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Taking his own medicine",
+    "body": "Eliphaz begins by praising Job as one who has steadied the weak and the falling (4:3-4). His point is that Job should now accept the counsel he once gave others. It sounds kind, but it already implies Job has a lesson to learn.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "The innocent never perish?",
+    "body": "Eliphaz asks \"whoever perished, being innocent?\" (4:7) and answers from experience: people reap what they sow (4:8). This principle of retribution runs through all the friends' speeches. The reader already knows from the opening that it does not explain Job.",
+    "refs": [
+     "Job 2:3",
+     "Galatians 6:7"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Five words for lion",
+    "body": "In just two verses (4:10-11) Hebrew uses five different words for lion, covering the roaring lion, the fierce lion, the young lions, the old lion and the lioness. The point is that even the strongest wicked are broken. The rich vocabulary is typical of Job's poetry.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "A spirit in the night",
+    "body": "Eliphaz describes a vision with trembling bones and hair standing on end, a form he could not make out, and a whisper (4:12-16). In the ancient world, night visions were a respected source of revelation. Later in the book God speaks to Job directly from a storm.",
+    "refs": [
+     "Job 38:1"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Houses of clay",
+    "body": "The vision describes humans as those \"who dwell in houses of clay, whose foundation is in the dust\" (4:19). This draws on the picture of God forming people from the dust of the ground. Job picks up the same image when he reminds God that he was fashioned like clay.",
+    "refs": [
+     "Genesis 2:7",
+     "Job 10:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A question Job turns around",
+    "body": "The spirit asks whether a mortal can be more just than God (4:17). Job will soon ask a sharper version: how can anyone be in the right before God at all, when God is both opponent and judge?",
+    "refs": [
+     "Job 9:2"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "True words, wrong answer?",
+    "body": "Much of what Eliphaz says sounds like proverbs found elsewhere in Scripture, yet God later says the friends did not speak rightly. How can statements that are true in general become false when applied to one suffering person?",
+    "refs": [
+     "Job 42:7"
+    ]
+   }
+  ]
+ },
+ "5": {
+  "summary": "Eliphaz continues, urging Job to seek God and accept discipline, and promising that the one God corrects will be restored to safety and prosperity.",
+  "lookfor": "Look for the confident promises in the second half, the line about sparks flying upward, and the counting pattern \"six... seven.\"",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Holy ones",
+    "body": "Eliphaz asks which of \"the holy ones\" Job could turn to (5:1). These are heavenly beings, like the \"sons of God\" seen in the opening court. His point is that no heavenly helper will take Job's side, a hope Job himself will later voice.",
+    "refs": [
+     "Job 1:6",
+     "Job 16:19-21"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Sons of Resheph",
+    "body": "\"As the sparks fly upward\" (5:7) translates a Hebrew phrase meaning \"sons of Resheph.\" Resheph was a Canaanite god of plague and flame, and here the name has become a poetic word for sparks or flashes. Some translators see birds instead.",
+    "refs": [
+     "Habakkuk 3:5"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Quoted by Paul",
+    "body": "\"He takes the wise in their own craftiness\" (5:13) is the one line of Job clearly quoted in the New Testament. Paul cites it as Scripture in 1 Corinthians. A friend's speech can contain true words, even if God later judges the friends' overall case wrong.",
+    "refs": [
+     "1 Corinthians 3:19"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The Almighty",
+    "body": "\"The Almighty\" (5:17) translates Shaddai, an ancient divine name. The book of Job uses it about thirty times, more than the rest of the Old Testament put together. In Genesis it is the name God uses with the patriarchs, which fits the book's early-feeling setting.",
+    "refs": [
+     "Exodus 6:3"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Happy is the corrected",
+    "body": "Eliphaz's beatitude on the man God corrects (5:17) is close to Proverbs, which Hebrews quotes to encourage suffering believers. The friends' theology of discipline is not foreign to the Bible; the question is whether it fits Job.",
+    "refs": [
+     "Proverbs 3:11-12",
+     "Hebrews 12:5-6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Six, yes seven",
+    "body": "\"In six troubles; yes, in seven\" (5:19) is a counting pattern common in Hebrew wisdom, where a number is followed by one more for emphasis. It means complete protection, not a list to be counted.",
+    "refs": [
+     "Proverbs 6:16",
+     "Amos 1:3"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Was Eliphaz right after all?",
+    "body": "Eliphaz promises that if Job accepts God's correction he will be restored with peace, children and a long life (5:24-26). At the end Job is restored, yet God says Eliphaz spoke wrongly. What is the difference between his promise and what actually happens?",
+    "refs": [
+     "Job 42:7-10"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A tidy system",
+    "body": "Eliphaz ends, \"we have searched it, so it is\" (5:27). The friends speak for a wisdom that sees a neat moral order in the world. The book of Job sits beside Proverbs and Ecclesiastes as a voice that tests where that order breaks down.",
+    "refs": []
+   }
+  ]
+ },
+ "6": {
+  "summary": "Job replies that his anguish outweighs the sand of the sea, longs for God to end his life, and complains that his friends have failed him like a dried-up stream.",
+  "lookfor": "Look for Job's defence of his rash words, the picture of the dry stream and the desert caravans, and what Job asks his friends to show him.",
+  "names": [
+   {
+    "name": "Tema",
+    "kind": "place",
+    "gloss": "An oasis town in north-west Arabia on the caravan routes."
+   },
+   {
+    "name": "Sheba",
+    "kind": "place",
+    "gloss": "A trading kingdom in southern Arabia whose caravans crossed the desert."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Why the words are rash",
+    "body": "Job admits his words have been rash and gives the reason: his calamity weighed on a scale would be heavier than the sand of the seas (6:2-3). Even an animal bellows only when it lacks food (6:5). He asks his friends to judge his words by his pain.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Arrows of the Almighty",
+    "body": "Job pictures God as an archer whose poisoned arrows are in him (6:4). The same image appears in Lamentations and in a psalm of a sick and guilty man. Job uses it without confessing any guilt.",
+    "refs": [
+     "Lamentations 3:12-13",
+     "Psalms 38:2"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Kindness owed",
+    "body": "\"Kindness\" (6:14) is the Hebrew hesed, the loyal love expected within a covenant or friendship. Job says it is owed even to someone who abandons the fear of God. The verse is difficult in Hebrew, but its point is that friendship should not depend on the friend being right.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Treacherous wadis",
+    "body": "Desert streambeds, or wadis, run full with winter snowmelt but vanish in summer heat (6:15-17). Caravans from Tema and Sheba that counted on them would turn aside and perish (6:18-20). Job's friends are like those streams: present when not needed, dry when they are.",
+    "refs": [
+     "Jeremiah 15:18"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The white of an egg",
+    "body": "Job's tasteless food (6:6) may be the white of an egg, but the Hebrew phrase is rare. Others render it the slimy juice of a plant such as mallow. Either way he means the friends' comfort is as unappetising as food without salt.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "You see a terror",
+    "body": "Job accuses his friends of being afraid (6:21). Seeing what happened to him, they may fear that it could happen to them unless there is a reason. Their theology may also be a way of keeping that fear at bay.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Show me where I erred",
+    "body": "Job does not refuse correction: \"Teach me, and I will hold my peace\" (6:24). He asks only for honest, specific evidence. What would it look like to answer a suffering friend with that kind of honesty rather than general principles?",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Holding on to God's words",
+    "body": "Job's comfort is that he has not denied \"the words of the Holy One\" (6:10). Even as he longs for death, he wants to die faithful. Throughout the book his protest happens inside his relationship with God, not outside it.",
+    "refs": []
+   }
+  ]
+ },
+ "7": {
+  "summary": "Job turns from his friends to God, lamenting the brevity and misery of life and asking why God watches him so closely and will not leave him alone.",
+  "lookfor": "Notice when Job stops speaking to his friends and speaks directly to God, and listen for an echo of a well-known psalm about what humans are.",
+  "names": [
+   {
+    "name": "Sheol",
+    "kind": "place",
+    "gloss": "The realm of the dead in Hebrew thought, a shadowy place below where all go."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Hard service",
+    "body": "Job compares life to forced service and to a hired hand longing for evening and wages (7:1-2). The first word can mean military service, the same word Isaiah uses for Jerusalem's \"warfare\" being over. Life feels like conscription with no discharge.",
+    "refs": [
+     "Isaiah 40:2"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Thread and hope",
+    "body": "Job's days are swifter than a weaver's shuttle and \"spent without hope\" (7:6). The Hebrew tiqvah means both \"hope\" and \"thread\" or cord, as in Rahab's scarlet cord. The image is of a weaving that ends when the thread runs out.",
+    "refs": [
+     "Joshua 2:18"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Only a breath",
+    "body": "\"My days are but a breath\" (7:16) uses hevel, the word for vapour or breath that runs through Ecclesiastes as \"vanity.\" Job feels his life is as brief and insubstantial as a puff of air.",
+    "refs": [
+     "Ecclesiastes 1:2"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Sea and sea monster",
+    "body": "\"Am I a sea, or a sea monster?\" (7:12) draws on ancient stories in which the sea and its dragon were chaos powers a god had to guard and subdue. Job asks why God treats a frail man as if he were a cosmic threat.",
+    "refs": [
+     "Psalms 74:13",
+     "Isaiah 51:9"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "What is man?",
+    "body": "\"What is man, that you should magnify him?\" (7:17) echoes Psalm 8, which marvels that God cares for humans. Job turns the psalm inside out: God's attention, which should be a gift, feels like constant testing.",
+    "refs": [
+     "Psalms 8:4",
+     "Psalms 144:3"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Watcher of men",
+    "body": "Job calls God \"you watcher of men\" (7:20) and begs to be left alone long enough to swallow. What happens to a person when God's nearness, the great hope of the psalms, feels unbearable?",
+    "refs": [
+     "Psalms 139:7-12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "God will miss me",
+    "body": "Job ends with a strange tenderness: \"You will seek me diligently, but I shall not be\" (7:21). Even while accusing God, he imagines God looking for him after he is gone.",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Job prays; they do not",
+    "body": "Here Job speaks to God directly, and he will do so again and again. The friends talk about God at length, but they never once address him. That difference may matter when God later judges who spoke rightly.",
+    "refs": [
+     "Job 42:7-8"
+    ]
+   }
+  ]
+ },
+ "8": {
+  "summary": "Bildad insists that God never perverts justice, suggests Job's children died for their own sins, and appeals to the wisdom of past generations.",
+  "lookfor": "Notice what Bildad says about Job's children, his appeal to the ancestors, and his pictures of plants that wither without water.",
+  "names": [
+   {
+    "name": "Bildad",
+    "kind": "person",
+    "gloss": "The second friend to speak, from the people of Shuah; he leans on tradition."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Justice",
+    "body": "Bildad asks, \"Does God pervert justice?\" (8:3). The Hebrew mishpat means both justice and a legal case or verdict. Job will soon start demanding exactly that: a mishpat, a hearing before God.",
+    "refs": [
+     "Job 9:19",
+     "Job 13:18"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A cruel inference",
+    "body": "\"If your children have sinned against him\" (8:4) suggests Job's sons and daughters got what their sins deserved. Bildad's system leaves room for nothing else. The reader knows from the opening that Job had prayed and sacrificed for them.",
+    "refs": [
+     "Job 1:5"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Ask the ancestors",
+    "body": "Bildad points Job to the learning of earlier generations, \"For we are but of yesterday\" (8:8-9). Ancient wisdom valued tradition handed down from the fathers above personal experience. Job will counter by appealing to what he sees and suffers.",
+    "refs": [
+     "Deuteronomy 32:7"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Reeds of the Nile",
+    "body": "The papyrus and rushes of 8:11 are marsh plants, and both Hebrew words are thought to be borrowed from Egyptian. The second appears in Pharaoh's dream of cows feeding in the reeds. Such plants die quickly when the water fails.",
+    "refs": [
+     "Genesis 41:2"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Two kinds of plant",
+    "body": "Bildad's pictures of withering papyrus and an uprooted plant (8:11-19) recall Psalm 1 and Jeremiah, where the wicked are chaff or desert scrub and the righteous are well-watered trees. Bildad uses the familiar contrast to warn Job which kind he is.",
+    "refs": [
+     "Psalms 1:3-4",
+     "Jeremiah 17:5-8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "An unwitting prophecy",
+    "body": "Bildad promises that though Job's \"beginning was small,\" his \"latter end would greatly increase\" (8:7). The final chapter uses the same contrast between Job's beginning and latter end, though not for the reasons Bildad imagined.",
+    "refs": [
+     "Job 42:12"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Comfort with a condition",
+    "body": "Bildad's encouragement hangs on \"If you were pure and upright\" (8:6). His closing promise of laughter (8:21) is warm, but only if Job admits guilt. When comfort depends on the sufferer first agreeing with us, is it still comfort?",
+    "refs": []
+   }
+  ]
+ },
+ "9": {
+  "summary": "Job agrees God is just in power, but despairs of ever winning a hearing, since God is both his opponent and his judge, and longs for an umpire between them.",
+  "lookfor": "Listen for courtroom language (contend, answer, summon, judge) and for the hymn to God's power in the opening verses.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Just before God",
+    "body": "\"How can man be just with God?\" (9:2) uses tsadaq, \"to be in the right,\" here in its legal sense of winning a case. From now on Job's speech is full of court words: contend, answer, summon, judge, umpire. He wants a trial, not a sermon.",
+    "refs": [
+     "Job 4:17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Bear, Orion, Pleiades",
+    "body": "Job names constellations God made (9:9). The identifications of the Hebrew names are traditional but not certain, and \"the rooms of the south\" may be southern star groups. Amos and the later divine speeches mention the same stars.",
+    "refs": [
+     "Amos 5:8",
+     "Job 38:31-32"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The helpers of Rahab",
+    "body": "This Rahab (9:13) is not the woman of Jericho but a sea monster of chaos, a poetic name for the forces God subdued. Ancient Near Eastern stories told of a storm god defeating the sea and its allies. The Bible uses the image to praise God's unrivalled rule.",
+    "refs": [
+     "Psalms 89:10",
+     "Isaiah 51:9"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Walking on the sea",
+    "body": "God \"treads on the waves of the sea\" (9:8); the Greek translation renders it as walking on the sea as on dry ground. Many interpreters see this background when the Gospels show Jesus walking on the water and saying \"It is I.\"",
+    "refs": [
+     "Mark 6:48-50"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "If not he, then who?",
+    "body": "Job's boldest words are that God \"destroys the blameless and the wicked\" alike (9:22) and that if God is not behind injustice, \"then who is it?\" (9:24). He never blames chance or another power. The reader knows of Satan, but Job does not.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "An umpire",
+    "body": "Job wishes for an \"umpire\" (9:33) who could lay a hand on both parties. The Hebrew mokiach is an arbiter who decides between two sides. Christian readers have heard here a longing answered by the one mediator between God and humans.",
+    "refs": [
+     "1 Timothy 2:5"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Arguing with God",
+    "body": "Job says even snow and lye could not make him clean if God is set on condemning him (9:30-31). Yet he keeps wishing to speak to God without fear (9:35). Is the desire to argue with God presumption, or a kind of faith that God can be met at all?",
+    "refs": []
+   }
+  ]
+ },
+ "10": {
+  "summary": "Job speaks his complaint directly to God, asking why the Maker who carefully formed him in the womb now seems determined to destroy him.",
+  "lookfor": "Look for the tender description of how God formed Job and the suspicion that follows it, and notice how Job pictures the land of the dead.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Show me the charge",
+    "body": "\"Show me why you contend with me\" (10:2) uses riv, the word for a lawsuit. The prophets use it for God bringing a case against Israel. Job reverses the roles and asks God to name the charges.",
+    "refs": [
+     "Micah 6:2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Eyes of flesh",
+    "body": "Job asks whether God sees as humans see or lives a short life (10:4-5), since he seems to be investigating Job like a human judge in a hurry. The irony is that Job knows God already knows he is not wicked (10:7).",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Formed in the womb",
+    "body": "Job describes God shaping him like clay, clothing him with skin and knitting bones and sinews (10:8-11). Psalm 139 uses similar language with wonder. Job uses it with bewilderment: why destroy what you made so carefully?",
+    "refs": [
+     "Psalms 139:13-16",
+     "Genesis 2:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Milk and cheese",
+    "body": "\"Poured me out like milk, and curdled me like cheese\" (10:10) reflects an ancient picture of conception, in which the fluid of conception thickened into a body. It is poetry about God's care in forming a child, not a medical account.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Kindness or a hidden plan?",
+    "body": "Job remembers God's \"life and loving kindness\" (10:12) and then suspects it hid another purpose all along (10:13). Suffering can make past blessings look like a set-up. How does a person hold together the God of their memories and the God of their present pain?",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Hunted like a lion",
+    "body": "Job says God hunts him \"like a lion\" (10:16). Eliphaz had used lions as a picture of the wicked being broken (4:10-11). Job feels he has been cast as the prey.",
+    "refs": [
+     "Job 4:10-11"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A land without order",
+    "body": "Job's picture of death is a land of darkness \"without any order, where the light is as midnight\" (10:22). Most of the Old Testament has only a dim view of what lies beyond death. Clearer hope of resurrection comes later, which is one reason Job's longing for vindication in this life is so urgent.",
+    "refs": [
+     "Daniel 12:2"
+    ]
+   }
+  ]
+ },
+ "11": {
+  "summary": "Zophar, the bluntest friend, rebukes Job's many words, says God is punishing him less than he deserves, and urges him to repent so that his life will become bright again.",
+  "lookfor": "Notice Zophar's insults, his questions about the depths of God, and the hopeful picture he offers if Job will put away iniquity.",
+  "names": [
+   {
+    "name": "Zophar",
+    "kind": "person",
+    "gloss": "The third friend, the Naamathite; the harshest of the three."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Less than you deserve",
+    "body": "Zophar goes further than the others: \"God exacts of you less than your iniquity deserves\" (11:6). Having no evidence of Job's sin, he simply concludes it must be large and hidden. His theology forces him to judge.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "The hidden side of wisdom",
+    "body": "Zophar wishes God would show Job \"the secrets of wisdom,\" which has \"two sides\" (11:6). The Hebrew is obscure, but the idea is that there is more to God's wisdom than appears. The irony is that the reader knows a hidden side of this story, the heavenly court, of which Zophar knows nothing.",
+    "refs": [
+     "Job 1:8-12"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Higher than heaven",
+    "body": "Zophar asks whether Job can fathom God, whose limits are higher than heaven, deeper than Sheol, longer than earth and broader than the sea (11:7-9). Paul marvels in similar terms at the depth of God's wisdom. God's own speeches will later press the same point on Job, but without Zophar's accusations.",
+    "refs": [
+     "Romans 11:33",
+     "Job 38:4"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A wild donkey's insult",
+    "body": "\"An empty-headed man becomes wise when a man is born as a wild donkey's colt\" (11:12) is a proverb meaning \"never.\" Zophar is calling Job a fool. The wild donkey reappears among the creatures God describes later.",
+    "refs": [
+     "Job 39:5-8"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Repent of what?",
+    "body": "Zophar's call to stretch out hands to God and put iniquity far away (11:13-14) would be good counsel to a guilty man. What should someone do when told to repent of sins they cannot find in themselves?",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "A double-edged ending",
+    "body": "Zophar's beautiful promise of light and rest (11:17-19) ends with a warning that the wicked's only hope is \"the giving up of the spirit\" (11:20). Job has already said that death is what he longs for, so the line lands with a hidden barb.",
+    "refs": [
+     "Job 3:21"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The friend who falls silent",
+    "body": "Zophar speaks only twice. In the third round of speeches he has no turn at all, a sign many readers take of the friends running out of arguments.",
+    "refs": [
+     "Job 20:1"
+    ]
+   }
+  ]
+ },
+ "12": {
+  "summary": "Job mocks his friends' claim to wisdom, insists that all creation knows God's hand is behind everything, and describes God's power to overturn rulers and nations.",
+  "lookfor": "Listen for Job's sarcasm at the start, his appeal to the animals, and the long list of the powerful whom God brings down.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Wisdom shall die with you",
+    "body": "Job opens with sarcasm: \"you are the people, and wisdom shall die with you\" (12:2). He insists that everyone knows the commonplaces the friends keep repeating (12:3). His quarrel is not with their facts but with their use of them.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "The blameless as a joke",
+    "body": "\"The just, the blameless man is a joke\" (12:4). Those at ease find it easy to despise someone whose foot has slipped (12:5). Why is it so tempting to treat the misfortunes of others as proof of their failings?",
+    "refs": [
+     "Psalms 22:7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Ask the animals",
+    "body": "Job tells his friends to ask the animals, birds, earth and fish (12:7-8), since all creation knows God's hand is at work. God's own speeches later lead Job through a long tour of the animal world.",
+    "refs": [
+     "Job 38:39-41",
+     "Job 39:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The only Yahweh",
+    "body": "\"Yahweh's hand has done this\" (12:9) is the only time the name Yahweh is used in the dialogue between Job and his friends; elsewhere they say God or the Almighty. The phrase matches Isaiah word for word, and a few Hebrew manuscripts read \"God\" here instead.",
+    "refs": [
+     "Isaiah 41:20"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "God in their hands",
+    "body": "The prosperous robbers \"carry their God in their hands\" (12:6). The Hebrew is unclear: it may mean they carry idols, or that their own fist is their god. Either way they thrive without true reverence.",
+    "refs": [
+     "Habakkuk 1:11"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A hymn turned upside down",
+    "body": "Job's hymn (12:13-25) praises God's wisdom and might, but every line shows God tearing down: counsellors stripped, judges made fools, kings, priests and elders humbled. Praise songs usually celebrate God lifting the lowly. Job's song shows a power he cannot predict.",
+    "refs": [
+     "1 Samuel 2:6-8"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Not a dispute about power",
+    "body": "Job and his friends agree that God controls everything. Their quarrel is about whether God's power is always matched by visible justice. Job will not settle the question by denying either God's sovereignty or his own innocence.",
+    "refs": []
+   }
+  ]
+ },
+ "13": {
+  "summary": "Job accuses his friends of lying on God's behalf, resolves to argue his case with God whatever it costs, and asks God to name his sins.",
+  "lookfor": "Watch Job's warning that God will rebuke the friends, his resolve to risk his life, and the two things he asks of God before he speaks.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Plasterers of lies",
+    "body": "\"Forgers of lies\" (13:4) is literally \"plasterers of falsehood,\" people who smear over cracks rather than repairing them. Their \"defenses of clay\" (13:12) are the same picture. Job means their theology covers up the facts.",
+    "refs": [
+     "Ezekiel 13:10-12"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Silence is wisdom",
+    "body": "\"Oh that you would be completely silent! Then you would be wise\" (13:5). Proverbs makes the same observation that even a fool seems wise when silent. The friends' week of silence was the wisest thing they did.",
+    "refs": [
+     "Proverbs 17:28",
+     "Job 2:13"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Lying for God",
+    "body": "Job asks whether his friends will \"speak unrighteously for God\" (13:7) and warns that God will reprove them for it (13:10). Defending God with false claims does God no honour. The end of the book proves him right.",
+    "refs": [
+     "Job 42:7-8"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Life in my hand",
+    "body": "To \"take my flesh in my teeth, and put my life in my hand\" (13:14) means to risk everything. Jephthah and David use the second phrase for risking death. Job will press his case before God even if it kills him.",
+    "refs": [
+     "Judges 12:3",
+     "1 Samuel 19:5"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Though he slay me",
+    "body": "In the King James Version, 13:15 is the famous line in which Job will trust God even if God slays him. The written Hebrew has lo, \"not,\" giving \"I have no hope,\" which the WEB follows; the traditional reading aloud has a word that sounds the same, lo, \"in him.\" Both readings are ancient, and both end with Job holding his ground before God.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Paul borrows a line",
+    "body": "\"This also shall be my salvation\" (13:16) appears almost word for word, in the Greek translation's form, in Paul's letter to the Philippians, written from prison. Paul, like Job, expects to be vindicated before God.",
+    "refs": [
+     "Philippians 1:19"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "In the stocks",
+    "body": "Job says God puts his feet \"in the stocks\" (13:27), a wooden frame that held a prisoner's feet. Jeremiah and, much later, Paul and Silas were put in stocks.",
+    "refs": [
+     "Jeremiah 20:2",
+     "Acts 16:24"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Honest before God",
+    "body": "Job believes a godless man would never dare to come before God (13:16), so his very boldness is a sign of his sincerity. Is there a kind of honesty with God that honours him more than careful, polite defence?",
+    "refs": []
+   }
+  ]
+ },
+ "14": {
+  "summary": "Job reflects on the short, troubled life of mortals, contrasts a cut tree that sprouts again with a man who dies, and dares to wonder whether God might remember him beyond death.",
+  "lookfor": "Look for the image of the tree and the scent of water, the question about living again, and how Job's hope rises and then falls.",
+  "names": [
+   {
+    "name": "Sheol",
+    "kind": "place",
+    "gloss": "The realm of the dead, here imagined as a hiding place until God's anger passes."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Born of a woman",
+    "body": "\"Man, who is born of a woman, is of few days, and full of trouble\" (14:1) became one of the best-known lines of Job. The Book of Common Prayer sets it to be said at the graveside, and it has been spoken at countless burials since.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Hope for a tree",
+    "body": "A felled tree can sprout again at \"the scent of water\" (14:7-9), but a man does not (14:10). Isaiah uses the same picture for the shoot from Jesse's stump, a royal line cut down that grows again.",
+    "refs": [
+     "Isaiah 11:1"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Shall he live again?",
+    "body": "\"If a man dies, shall he live again?\" (14:14) is asked here as an open question. Job dares to imagine God hiding him in Sheol and then calling him back. Later Scripture answers with the hope of resurrection.",
+    "refs": [
+     "Daniel 12:2",
+     "1 Corinthians 15:20"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Until my release",
+    "body": "Job will wait out \"my warfare\" until \"my release\" (14:14). The first word is the hard service of 7:1; the second, chaliphah, means a change or relief, like a soldier relieved at the end of his watch.",
+    "refs": [
+     "Job 7:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Sins sealed in a bag",
+    "body": "\"My disobedience is sealed up in a bag\" (14:17) may draw on the practice of sealing records or tally stones in a bag. Job imagines God keeping a careful account of his faults. The line could also mean they are sealed away out of sight, and readers differ.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "A God who longs",
+    "body": "In a striking moment Job imagines God calling and Job answering, because God would \"have a desire to the work of your hands\" (14:15). Then the hope collapses (14:16). What does it say that Job's deepest wish is not only relief but to be wanted by God?",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Water wears the stones",
+    "body": "The chapter ends with mountains crumbling and water wearing away stone (14:18-19). In the same slow way, Job says, God destroys human hope. The first round of speeches closes on this bleak note.",
+    "refs": []
+   }
+  ]
+ },
+ "15": {
+  "summary": "In his second speech Eliphaz turns sharply against Job, accusing him of undermining reverence for God and describing at length the anxious life and sure ruin of the wicked.",
+  "lookfor": "Compare Eliphaz's tone here with his first speech, notice the lines he repeats from his night vision, and watch for hints that his portrait of the wicked is aimed at Job.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The gloves come off",
+    "body": "Eliphaz's first speech began with praise; this one begins with \"vain knowledge\" and \"the east wind\" (15:2). He now says Job is destroying reverence for God (15:4) and that Job's own mouth condemns him (15:6). The second round of speeches is harsher on every side.",
+    "refs": [
+     "Job 4:2-6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The east wind",
+    "body": "The east wind (15:2) was the scorching desert wind that withers plants and parches the land. To fill oneself with it is to be full of hot air. Hosea uses the same image for empty and harmful policies.",
+    "refs": [
+     "Hosea 12:1",
+     "Genesis 41:6"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Before the hills",
+    "body": "\"Were you brought out before the hills?\" (15:7) echoes the language Proverbs uses of Wisdom, brought forth before the mountains. Eliphaz mocks Job for speaking as if he had been present at creation. God will later ask Job a similar question in earnest.",
+    "refs": [
+     "Proverbs 8:25",
+     "Job 38:4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The vision repeated",
+    "body": "Eliphaz repeats the message of his night vision almost word for word (15:14-16), but with a harsher ending: humans are \"abominable and corrupt,\" drinking \"iniquity like water.\" His one revelation has hardened into a verdict.",
+    "refs": [
+     "Job 4:17-19"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A pure tradition",
+    "body": "Eliphaz claims his teaching comes from wise men to whom the land was given, \"and no stranger passed among them\" (15:19). He prizes a tradition untouched by foreign ideas. Ironically, the book sets its whole story among non-Israelites.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Covered with fat",
+    "body": "The wicked man has \"covered his face with his fatness\" (15:27). In Hebrew poetry, fatness can picture prosperity that has grown into arrogance and dulled the conscience, as in the Song of Moses and Psalm 73.",
+    "refs": [
+     "Deuteronomy 32:15",
+     "Psalms 73:7"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The fate of the wicked",
+    "body": "Each friend in this second round paints a portrait of the wicked man's ruin (15:20-35). None names Job, but the details of terror, lost wealth and fire in the tent point at him. Job will answer by describing wicked people who live long and die in peace.",
+    "refs": [
+     "Job 18:5",
+     "Job 20:5",
+     "Job 21:7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The consolations of God",
+    "body": "Eliphaz asks, \"Are the consolations of God too small for you?\" (15:11), meaning his own words. When does sincere advice start claiming the authority of God's own comfort?",
+    "refs": []
+   }
+  ]
+ },
+ "16": {
+  "summary": "Job calls his friends miserable comforters, describes God as a savage attacker who has torn him apart, and yet declares that his witness is in heaven.",
+  "lookfor": "Notice the string of violent images for what God has done to Job, the cry to the earth not to cover his blood, and the sudden turn to a witness on high.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Comforters of trouble",
+    "body": "\"Miserable comforters\" (16:2) is literally \"comforters of trouble,\" using amal, the same word as the \"mischief\" Eliphaz said the wicked conceive. Their comfort produces the very trouble they accuse the wicked of.",
+    "refs": [
+     "Job 15:35"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "What a friend would do",
+    "body": "Job says that if their places were reversed he could shake his head at them, but instead he would strengthen them with his words (16:4-5). He is describing what he had hoped they would do for him.",
+    "refs": [
+     "Job 4:3-4"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "God as attacker",
+    "body": "Job piles up pictures of God as a wild beast tearing with its teeth, a wrestler seizing him by the neck, an archer, and a warrior breaching a wall (16:9-14). He is not describing God's character in calm terms but how his suffering feels. The Psalms and Lamentations use similar language in grief.",
+    "refs": [
+     "Lamentations 3:10-13"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Struck on the cheek",
+    "body": "Job says his enemies gape at him and strike him on the cheek (16:10). Lamentations and Micah use the same humiliation, and the Gospels record Jesus being struck and spat on. Christian readers have often seen in Job a figure of the suffering righteous one.",
+    "refs": [
+     "Lamentations 3:30",
+     "Matthew 26:67"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Horn in the dust",
+    "body": "The horn (16:15) was a symbol of strength and dignity, as in Hannah's song. Job has thrust it into the dust and sewn sackcloth onto his skin, as if his mourning will never be taken off.",
+    "refs": [
+     "1 Samuel 2:1"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Earth, don't cover my blood",
+    "body": "\"Earth, don't cover my blood\" (16:18) draws on the belief that innocent blood left uncovered cries out for justice, as Abel's blood cried from the ground. Job does not want his case buried with him.",
+    "refs": [
+     "Genesis 4:10",
+     "Isaiah 26:21"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Who is the witness?",
+    "body": "\"My witness is in heaven\" (16:19). Some readers think Job is appealing from God to God, trusting the God he cannot see over the God who seems to attack him. Others see a heavenly advocate, and Christians have heard an anticipation of Christ who pleads for us. Who does Job hope for?",
+    "refs": [
+     "1 John 2:1",
+     "Hebrews 7:25"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A rising hope",
+    "body": "Job first wished for an umpire who did not exist (9:33). Here he speaks of a witness who already is in heaven, and soon he will speak of a Redeemer who lives. In the middle of his darkest words, his hope keeps reaching further.",
+    "refs": [
+     "Job 9:33",
+     "Job 19:25"
+    ]
+   }
+  ]
+ },
+ "17": {
+  "summary": "Job, near the grave and mocked by those around him, asks God to stand surety for him and wonders whether his hope will go down with him into the dust.",
+  "lookfor": "Look for the picture of a pledge, the strange burst of confidence about the righteous in the middle, and the family Job imagines finding in the grave.",
+  "names": [
+   {
+    "name": "Sheol",
+    "kind": "place",
+    "gloss": "The realm of the dead, pictured here as a dark house with gates."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Strike hands with me",
+    "body": "To \"strike hands\" (17:3) was to seal a pledge, guaranteeing another person's debt. Proverbs warns against doing it lightly. Job asks God himself to be his guarantor, in effect to stand by him against God.",
+    "refs": [
+     "Proverbs 6:1",
+     "Proverbs 17:18"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A byword",
+    "body": "\"He has made me a byword\" (17:6) uses mashal, the same word as \"proverb.\" Job's name has become a saying people use about disaster. Deuteronomy warns that a faithless Israel would become such a byword among the nations.",
+    "refs": [
+     "Deuteronomy 28:37"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Spat on",
+    "body": "\"They spit in my face\" (17:6) is the deepest public insult. The servant in Isaiah does not hide his face from spitting, and the Gospels show the same done to Jesus.",
+    "refs": [
+     "Isaiah 50:6",
+     "Mark 14:65"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The righteous hold on",
+    "body": "In the middle of despair Job says the righteous will hold on their way and grow stronger (17:8-9). Some readers think he is quoting the friends ironically, but most take it as Job's own stubborn conviction that integrity is worth keeping.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Calling night day",
+    "body": "Job says his friends turn night into day, saying \"The light is near\" in the presence of darkness (17:12). Their promises of a bright future sound like denial to someone who feels the grave already prepared (17:1).",
+    "refs": [
+     "Job 11:17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A family in the grave",
+    "body": "Job imagines calling the pit his father and the worm his mother and sister (17:14). In a culture where family was everything, and his own family is gone or estranged, the grave is the only household left to him.",
+    "refs": [
+     "Job 19:13-17"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The gates of Sheol",
+    "body": "Job asks whether his hope will go down to \"the gates of Sheol\" (17:16). The image of the underworld as a city with gates appears elsewhere in the Old Testament and in Jesus' promise that the gates of Hades will not prevail against his church.",
+    "refs": [
+     "Isaiah 38:10",
+     "Matthew 16:18"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Where then is my hope?",
+    "body": "Job asks \"where then is my hope?\" (17:15) and wonders if it will be buried with him. After his bold words about a witness in heaven, the hope seems to ebb again. Is faith often like this, rising and falling rather than growing in a straight line?",
+    "refs": []
+   }
+  ]
+ },
+ "18": {
+  "summary": "Bildad, offended, answers Job with a grim poem on the fate of the wicked: their light goes out, traps seize them, disease devours them and their name is forgotten.",
+  "lookfor": "Count the different traps the wicked man walks into, and notice how many of the wicked man's troubles match what has happened to Job.",
+  "names": [
+   {
+    "name": "Bildad",
+    "kind": "person",
+    "gloss": "The friend from Shuah, speaking for the second time."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Treated like cattle",
+    "body": "Bildad is stung that Job counts the friends \"as animals\" (18:3), perhaps remembering Job's advice to go and ask the beasts. He also mocks Job's rage: should the earth be rearranged just for him (18:4)?",
+    "refs": [
+     "Job 12:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The lamp in the tent",
+    "body": "A lamp burned through the night in an inhabited home, so a lamp going out (18:5-6) meant a household had died out. Proverbs uses the same picture for the end of the wicked.",
+    "refs": [
+     "Proverbs 13:9",
+     "Proverbs 24:20"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Six kinds of trap",
+    "body": "In three verses (18:8-10) Hebrew uses six different words for snares: net, mesh, snare, trap, noose and another trap. The wicked man is caught by his own feet. The rich vocabulary makes his doom feel unavoidable.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "The king of terrors",
+    "body": "\"The firstborn of death\" (18:13) is probably the deadliest disease, and \"the king of terrors\" (18:14) is death itself pictured as a ruler. In Canaanite myth, Death was a god who devoured his victims. The Bible borrows the image while giving death no divine status.",
+    "refs": [
+     "Isaiah 25:8"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Sulfur on the tent",
+    "body": "\"Sulfur shall be scattered on his habitation\" (18:15) recalls the judgment on Sodom and Gomorrah. It may also hint at the \"fire of God\" that burned Job's flocks.",
+    "refs": [
+     "Genesis 19:24",
+     "Job 1:16"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A portrait aimed at Job",
+    "body": "Bildad never names Job, but his wicked man loses his skin to disease (18:13), his tent, his name and every descendant (18:19). Everyone listening knows whose life this describes. It is cruelty disguised as a general truth.",
+    "refs": [
+     "Job 1:18-19",
+     "Job 2:7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "One who doesn't know God",
+    "body": "Bildad ends by saying this is the fate of \"him who doesn't know God\" (18:21). Yet Job is the one who keeps speaking to God, while the friends only speak about him. Who really knows God in this story?",
+    "refs": []
+   }
+  ]
+ },
+ "19": {
+  "summary": "Job protests that God has wronged him and that everyone has abandoned him, begs his friends for pity, and then declares his conviction that his Redeemer lives and that he will see God.",
+  "lookfor": "Follow Job's list of the people who have turned away from him, his wish for his words to be carved in rock, and the turn in the final verses.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "God has wronged me",
+    "body": "\"God has subverted me\" (19:6) uses the same Hebrew verb, iwwet, as Bildad's question \"Does God pervert justice?\" Job answers him directly: in my case, yes, he has bent things. Job says what the friends cannot imagine saying.",
+    "refs": [
+     "Job 8:3"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A siege against a tent",
+    "body": "Job pictures God's troops building a siege ramp around his tent (19:12). Siege ramps were used against walled cities. Using one against a tent shows how out of proportion God's attack feels.",
+    "refs": [
+     "2 Samuel 20:15"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Abandoned by all",
+    "body": "Brothers, acquaintances, relatives, household guests, maids, his own servant, his wife, his mother's other children and even small children turn from him (19:13-19). In a society built on family and household, this is a kind of social death.",
+    "refs": [
+     "Psalms 88:8",
+     "Psalms 88:18"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The skin of my teeth",
+    "body": "The English idiom \"by the skin of my teeth\" comes from 19:20, through early English Bibles. The Hebrew is obscure, possibly meaning Job has escaped with nothing at all, or with only his gums.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Written in rock",
+    "body": "Job wishes his words were engraved with an iron tool and lead in rock forever (19:24). Ancient kings carved inscriptions in cliff faces to last; lead may refer to filling the carved letters. Ironically, Job's words were preserved in a book read for thousands of years.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Redeemer",
+    "body": "\"I know that my Redeemer lives\" (19:25) uses go'el, the close relative who buys back family land, avenges blood or defends a kinsman's rights, as Boaz does for Ruth. Job is sure someone will stand up for him in the end. Many Jewish and modern readers take this vindicator to be God himself, while Christian tradition has heard Christ.",
+    "refs": [
+     "Leviticus 25:25",
+     "Ruth 4:4-6"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "In my flesh shall I see God",
+    "body": "The Hebrew of 19:26 is very difficult and can be read \"in my flesh\" or \"apart from my flesh.\" Christian tradition, and Handel's Messiah, have read the passage as hope of bodily resurrection; many scholars think Job means being vindicated before death. Either way, his deepest desire is to see God \"on my side\" (19:27).",
+    "refs": [
+     "1 Corinthians 15:52-53"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Persecuting as God",
+    "body": "Job asks why his friends \"persecute me as God\" (19:22). In defending God, they have taken on the role of judges. When suffering people need pity (19:21), how easily do we take God's place instead?",
+    "refs": []
+   }
+  ]
+ },
+ "20": {
+  "summary": "Zophar, insulted, insists that the triumph of the wicked is always brief, describing riches that turn to poison in the wicked man's stomach and the wrath of God that overtakes him.",
+  "lookfor": "Follow Zophar's images of eating, swallowing and vomiting, and notice the specific sins he describes near the middle.",
+  "names": [
+   {
+    "name": "Zophar",
+    "kind": "person",
+    "gloss": "The Naamathite friend, speaking for the second and last time."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Stung into speech",
+    "body": "Zophar says he has \"heard the reproof which puts me to shame\" (20:3), likely Job's warning that the friends should fear judgment (19:29). He answers with haste rather than reflection (20:2).",
+    "refs": [
+     "Job 19:28-29"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Success but for a moment",
+    "body": "Zophar's claim that the triumph of the wicked is short (20:5) matches the hope of Psalm 37 and the conclusion of Psalm 73. The psalmists say it after struggling with the question; Zophar says it as if there were no question.",
+    "refs": [
+     "Psalms 37:35-36",
+     "Psalms 73:18-20"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A crude insult",
+    "body": "The wicked man \"shall perish forever like his own dung\" (20:7), a deliberately coarse image. Some read it as a hint at Job, who sits among the ashes, perhaps on a refuse heap.",
+    "refs": [
+     "Job 2:8"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Sweet then bitter",
+    "body": "Wickedness savoured like food under the tongue turns to cobra venom in the stomach (20:12-14), and swallowed riches are vomited up (20:15). Proverbs says bread gained by falsehood is sweet but ends as a mouth full of gravel.",
+    "refs": [
+     "Proverbs 20:17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Honey and butter",
+    "body": "The wicked will never see \"the flowing streams of honey and butter\" (20:17). Such phrases describe a land of plenty, like the \"milk and honey\" of the promised land.",
+    "refs": [
+     "Exodus 3:8"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The charge is hinted",
+    "body": "Zophar says the wicked man \"oppressed and forsaken the poor\" and seized houses (20:19). He does not yet say Job did this, but Eliphaz soon will. Job answers the charge in full when he describes his care for the poor.",
+    "refs": [
+     "Job 22:6-9",
+     "Job 29:12-17"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The portion of the wicked",
+    "body": "Zophar closes with \"This is the portion of a wicked man from God\" (20:29). Portion, cheleq, is the share of an inheritance. Job later repeats almost the same line, and readers debate whether he is quoting Zophar or agreeing.",
+    "refs": [
+     "Job 27:13"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Does it always happen?",
+    "body": "Zophar describes judgment falling while the wicked man is still eating (20:23). Experience often seems to say otherwise, as Job will argue next. Can a statement be true as a final outcome but false as a rule for every life?",
+    "refs": [
+     "Job 21:7"
+    ]
+   }
+  ]
+ },
+ "21": {
+  "summary": "Job answers the friends' portraits of the wicked by pointing to wicked people who live long, prosper, raise happy children and die in peace, and calls their comfort empty.",
+  "lookfor": "Compare Job's description of the wicked with the friends' versions, and notice what the wicked say to God.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Look at the evidence",
+    "body": "The friends have spent the second round insisting the wicked suffer. Job asks \"Why do the wicked live, become old, yes, and grow mighty?\" (21:7). He describes their safe homes, fertile herds and dancing children (21:8-12) as a plain fact of experience.",
+    "refs": [
+     "Job 20:5"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Jeremiah's question",
+    "body": "Jeremiah asks God why the way of the wicked prospers, and Psalm 73 describes the psalmist nearly slipping when he saw it. Job's complaint belongs to a line of honest questions inside Scripture.",
+    "refs": [
+     "Jeremiah 12:1",
+     "Psalms 73:3-12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Hand over the mouth",
+    "body": "Job tells his friends to \"Lay your hand on your mouth\" (21:5), a gesture of stunned silence. Near the end of the book, after God speaks, Job does exactly this himself.",
+    "refs": [
+     "Job 40:4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "What profit is there?",
+    "body": "The wicked ask, \"What profit should we have, if we pray to him?\" (21:15). It is the mirror of Satan's question in the opening: Job is the man who serves God without counting the profit, while these people refuse to serve because there is none.",
+    "refs": [
+     "Job 1:9"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Children paying for parents",
+    "body": "The friends say God stores up a man's iniquity for his children (21:19). Job objects that the sinner himself should feel it. Ezekiel and Jeremiah also reject the idea that children bear the guilt of their parents.",
+    "refs": [
+     "Ezekiel 18:20",
+     "Jeremiah 31:29-30"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "An honoured funeral",
+    "body": "The wicked man is carried to the grave with a crowd behind him and a watch kept over the tomb, and \"the clods of the valley shall be sweet to him\" (21:32-33). A well-attended burial was a sign of honour. Even in death, Job says, the wicked are not shamed.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Empty comfort",
+    "body": "\"Nonsense\" in Job's last line (21:34) is hevel, breath or vapour, the same word he used for his own fleeting days. Their comfort, he says, is a puff of air.",
+    "refs": [
+     "Job 7:16"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Ask the travellers",
+    "body": "Job tells the friends to ask \"wayfaring men\" (21:29), people who have seen the wider world. What should believers do when what they see in life seems to contradict what they have been taught?",
+    "refs": []
+   }
+  ]
+ },
+ "22": {
+  "summary": "In his third speech Eliphaz finally accuses Job of specific crimes against the poor and urges him to return to the Almighty, promising that his prayers would again be heard.",
+  "lookfor": "Notice the concrete sins Eliphaz now lists, the words he puts in Job's mouth, and the closing promise about delivering others.",
+  "names": [
+   {
+    "name": "Ophir",
+    "kind": "place",
+    "gloss": "A distant land famous for fine gold, probably in Arabia or East Africa."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Inventing the crimes",
+    "body": "Eliphaz now names sins: taking pledges for nothing, stripping the naked, withholding bread and water, sending widows away empty (22:6-9). He has no evidence. He reasons backwards: Job's suffering is great, so his sin must be great (22:5). Job will answer each charge.",
+    "refs": [
+     "Job 29:12-17",
+     "Job 31:16-22"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Taking a pledge",
+    "body": "A lender could take a borrower's goods, even a cloak, as security for a loan (22:6). The Law required a poor man's cloak to be returned by sunset because it was his blanket. To strip the poor this way was a recognised form of cruelty.",
+    "refs": [
+     "Exodus 22:26-27",
+     "Deuteronomy 24:10-13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Does God gain anything?",
+    "body": "Eliphaz asks whether Job's righteousness gives the Almighty any pleasure (22:2-3), and assumes it does not. The opening chapters show the opposite: God takes delight in Job and stakes something on his faithfulness.",
+    "refs": [
+     "Job 1:8",
+     "Job 2:3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Job's words turned back",
+    "body": "Eliphaz puts words in Job's mouth, \"What does God know?\" (22:13), though Job complained God watched him too closely. He then repeats Job's own description of the wicked who say \"Depart from us\" (22:17) and even Job's line about the counsel of the wicked (22:18). The debate has become a quarrel over quotations.",
+    "refs": [
+     "Job 21:14-16",
+     "Job 7:20"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Gold of Ophir",
+    "body": "Eliphaz urges Job to throw his gold of Ophir among the stones of the brooks (22:24). Ophir was proverbial for fine gold, brought back by Solomon's ships, though its location is uncertain. The Almighty, he says, will be Job's true treasure (22:25).",
+    "refs": [
+     "1 Kings 9:28"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "An ironic prophecy",
+    "body": "Eliphaz ends by saying God will deliver even someone not innocent \"through the cleanness of your hands\" (22:30). At the end of the book that is exactly what happens, but Eliphaz is the guilty one, and he is spared through Job's prayer.",
+    "refs": [
+     "Job 42:8"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Good words, false premise",
+    "body": "Eliphaz's call to return to God, delight in the Almighty and pray (22:21-27) could be preached as it stands. Yet it rests on the false charge that Job is wicked. How can true counsel be spoiled by a wrong diagnosis?",
+    "refs": []
+   }
+  ]
+ },
+ "23": {
+  "summary": "Job longs to find God and lay out his case before him, confident he would be heard, yet God cannot be found in any direction and Job is terrified of him.",
+  "lookfor": "Notice how Job's mood changes from the hope of a fair hearing to fear, and watch for the search in every direction.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Talking past Eliphaz",
+    "body": "Job barely responds to Eliphaz's accusations. Instead he cries, \"Oh that I knew where I might find him!\" (23:3). His real problem is not his friends' theology but the silence of God.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "He would listen to me",
+    "body": "Earlier Job feared God would crush him with power if he tried to argue (9:14-19). Now he believes God would not use his power but would listen (23:6). His confidence in God's fairness has grown even as his circumstances have not changed.",
+    "refs": [
+     "Job 9:14-19"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Searching every direction",
+    "body": "Job looks east, west, north and south and cannot find God (23:8-9). Psalm 139 uses the same sweep of directions to say the opposite: there is nowhere the psalmist can escape God. Both experiences belong to the life of faith.",
+    "refs": [
+     "Psalms 139:7-10"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Come out like gold",
+    "body": "\"When he has tried me, I shall come out like gold\" (23:10) uses the picture of refining metal in fire. The prophets and Peter use it for God purifying his people through hardship.",
+    "refs": [
+     "Zechariah 13:9",
+     "1 Peter 1:7"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "More than my food",
+    "body": "Job has treasured God's words more than his \"necessary food\" (23:12). The Hebrew choq means an allotted portion or ration. Deuteronomy and Jesus also say people live by God's word, not by bread alone.",
+    "refs": [
+     "Deuteronomy 8:3",
+     "Matthew 4:4"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "He knows the way",
+    "body": "\"He knows the way that I take\" (23:10) is truer than Job realises. The reader knows that God has watched Job closely from the start and calls him his servant. Job's faith reaches for what the prologue has already shown.",
+    "refs": [
+     "Job 1:8"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Longing and dread",
+    "body": "Job longs to come before God (23:3) and yet is terrified at the thought of his presence (23:15-16). Can longing for God and fear of him belong together, and what does that say about who God is?",
+    "refs": []
+   }
+  ]
+ },
+ "24": {
+  "summary": "Job asks why God does not set days of judgment, describing the misery of the poor driven off their land and the crimes of those who work in darkness, while God seems to take no notice.",
+  "lookfor": "Look for the vivid picture of the landless poor and the people who love the dark, and notice the shift in tone in the last part of the chapter.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "No court days",
+    "body": "Job asks why the Almighty does not set \"times\" (24:1) for judgment that the faithful could see. The rest of the chapter is evidence for the question: oppression goes on and no court sits. His complaint widens from his own case to the suffering of the poor everywhere.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Moving the landmark",
+    "body": "Boundary stones marked a family's land, so moving them (24:2) was a quiet way of stealing a field. The Law and Proverbs forbid it. The widow's ox and the orphan's donkey (24:3) were often a poor family's only working animals.",
+    "refs": [
+     "Deuteronomy 19:14",
+     "Proverbs 22:28"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Thirsty at the winepress",
+    "body": "Job paints a picture of landless labourers who carry sheaves while hungry and tread winepresses while thirsty (24:10-11). They sleep in the cold and cling to rocks for shelter (24:7-8). Few passages in the Old Testament describe poverty so concretely.",
+    "refs": [
+     "Deuteronomy 25:4"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "God doesn't regard the folly",
+    "body": "Job's starkest line is that the wounded cry out, \"yet God doesn't regard the folly\" (24:12). The word tiflah, \"folly\" or \"wrong,\" is the same one used in the opening, where Job did not \"charge God with wrongdoing.\" Here he comes close to doing just that.",
+    "refs": [
+     "Job 1:22"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Lovers of darkness",
+    "body": "The murderer, adulterer and burglar \"rebel against the light\" (24:13-17) and treat the morning as darkness. John's Gospel uses the same contrast: those who do evil hate the light so that their deeds are not exposed.",
+    "refs": [
+     "John 3:19-20"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Digging through houses",
+    "body": "Thieves \"dig through houses\" (24:16) because most walls were made of mud brick. Jesus speaks of thieves who \"break through\" in the same way, using a Greek word that means to dig through.",
+    "refs": [
+     "Matthew 6:19"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A puzzling ending",
+    "body": "The last part (24:18-24) says the wicked are swept away, which sounds more like the friends. Some read it as Job's concession that judgment comes in the end, others as Job quoting them, and some scholars think the third round of speeches has become disordered in transmission. Chapters 24 to 27 are among the hardest in the book to assign to speakers.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Prove me a liar",
+    "body": "Job ends with a challenge: if this is not how the world is, \"who will prove me a liar?\" (24:25). How should faith respond to injustice it can see but cannot explain?",
+    "refs": []
+   }
+  ]
+ },
+ "25": {
+  "summary": "Bildad gives a brief final speech, praising God's majesty and declaring that no human, a mere worm, can be pure before him.",
+  "lookfor": "Notice how short this speech is, and listen for a question Job himself asked earlier.",
+  "names": [
+   {
+    "name": "Bildad",
+    "kind": "person",
+    "gloss": "The friend from Shuah, speaking for the last time."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "Running out of words",
+    "body": "Bildad's third speech is only six verses long, and Zophar gives no third speech at all. Many readers see the friends' arguments exhausted. They have nothing left to say but that God is great and humans are small.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Peace in the heights",
+    "body": "\"He makes peace in his high places\" (25:2) pictures God bringing order to the heavens, perhaps by subduing rebellious powers. The line lives on in Jewish prayer: the Kaddish and the Amidah close with a petition built on these words.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Job's question, reversed",
+    "body": "\"How then can man be just with God?\" (25:4) is almost word for word Job's own question. Job asked it in protest at a God he could not face in court. Bildad asks it to tell Job to stop protesting.",
+    "refs": [
+     "Job 9:2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The same old vision",
+    "body": "Bildad's argument that even the moon and stars are not pure before God (25:5) repeats what Eliphaz said twice, from his night vision. The friends have one main thought and keep returning to it.",
+    "refs": [
+     "Job 4:17-19",
+     "Job 15:14-16"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Man, a worm",
+    "body": "Bildad calls humans worms with two different Hebrew words (25:6). The psalmist says \"I am a worm\" in his anguish, and Isaiah calls Israel a worm while promising God's help. In those texts the word expresses lowliness that God lifts up, not contempt.",
+    "refs": [
+     "Psalms 22:6",
+     "Isaiah 41:14"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Exalting God by shrinking man?",
+    "body": "Psalm 8 marvels that God has crowned humans with glory; Bildad calls them worms. Is lowering human worth the best way to honour God, or does it miss something of how God made people?",
+    "refs": [
+     "Psalms 8:4-5"
+    ]
+   }
+  ]
+ },
+ "26": {
+  "summary": "Job mocks Bildad's help and then describes God's power over the underworld, the sky and the sea, saying all this is only the outer edge of his ways.",
+  "lookfor": "Look for the journey from the depths of the dead to the clouds and the sea, and for the closing line about a whisper and thunder.",
+  "names": [
+   {
+    "name": "Abaddon",
+    "kind": "place",
+    "gloss": "\"Destruction,\" a poetic name for the realm of the dead, paired with Sheol."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "How you've helped!",
+    "body": "Job's \"you\" in 26:2-4 is singular, aimed at Bildad. His sarcasm is sharp: what help has Bildad given the powerless? And whose spirit is he speaking from (26:4)?",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "The departed spirits",
+    "body": "\"The departed spirits\" (26:5) are the rephaim, the shades of the dead. The same word names a people of giants in Deuteronomy. Even these shadowy dead tremble before God.",
+    "refs": [
+     "Isaiah 14:9",
+     "Deuteronomy 2:11"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Abaddon uncovered",
+    "body": "Sheol and Abaddon are naked before God (26:6); nothing is hidden from him, even among the dead. Proverbs says the same. In Revelation, Abaddon becomes the name of the angel of the abyss.",
+    "refs": [
+     "Proverbs 15:11",
+     "Revelation 9:11"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The earth hung on nothing",
+    "body": "God \"hangs the earth on nothing\" (26:7). Some readers see an anticipation of modern astronomy, but the point in context is God's power to hold up a world that seems to rest on nothing at all. \"The north\" was linked with the high mountain of the gods in Canaanite thought.",
+    "refs": [
+     "Isaiah 14:13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A circle on the waters",
+    "body": "God has drawn a boundary on the face of the waters at the edge of light and darkness (26:10), probably the horizon where sky meets sea. Proverbs uses the same image of Wisdom present when God drew a circle on the deep.",
+    "refs": [
+     "Proverbs 8:27"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The swift serpent",
+    "body": "God strikes Rahab and pierces \"the swift serpent\" (26:12-13). Isaiah uses the same phrase for leviathan, the fleeing serpent, whom God will punish. These images of chaos defeated prepare for God's own speeches about the sea monsters.",
+    "refs": [
+     "Isaiah 27:1"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Whose speech is this?",
+    "body": "Because 26:5-14 sounds like the hymns of the friends, some scholars think it belongs to Bildad's short speech, displaced in the third round. Others hear Job outdoing Bildad at his own theme. Both views are held by careful readers.",
+    "refs": [
+     "Job 25:2-6"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "A whisper of him",
+    "body": "\"These are but the outskirts of his ways. How small a whisper do we hear of him!\" (26:14). If all we have seen is the edge, what does that do to the confidence with which anyone, friend or Job, speaks about God?",
+    "refs": []
+   }
+  ]
+ },
+ "27": {
+  "summary": "Job swears an oath that he will never give up his integrity or admit to guilt he does not have, then describes the fate that awaits the wicked.",
+  "lookfor": "Notice the oath at the start, what Job refuses to do, and how the second half sounds like the friends' speeches.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "As God lives",
+    "body": "\"As God lives\" (27:2) is the formula of a solemn oath. The paradox is striking: Job swears by the very God \"who has taken away my right.\" He appeals to God against God's apparent injustice.",
+    "refs": [
+     "1 Samuel 14:39",
+     "Ruth 3:13"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "I will not let it go",
+    "body": "\"I will not put away my integrity\" (27:5) uses tummah again, the word from the opening chapters. Job's wife asked whether he still held on to it. His answer, given at last, is yes, to his death.",
+    "refs": [
+     "Job 2:3",
+     "Job 2:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Refusing to agree",
+    "body": "\"Far be it from me that I should justify you\" (27:5) means Job will not say his friends are right just to end the argument. Confessing sins he did not commit would be its own lie (27:4).",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "Taking up his parable",
+    "body": "\"Job again took up his parable\" (27:1) is a new kind of introduction; until now each speech began \"Job answered.\" The word mashal means a formal discourse or proverb. It suggests this speech, and the one in chapter 29, stand apart from the back-and-forth of the debate.",
+    "refs": [
+     "Job 29:1",
+     "Numbers 23:7"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Zophar's missing speech?",
+    "body": "The second half (27:13-23) sounds like the friends, and 27:13 nearly repeats Zophar's closing line. Some scholars think this is Zophar's lost third speech; others think Job is conceding that the wicked do fall in the end, or quoting the friends to answer them.",
+    "refs": [
+     "Job 20:29"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A watchman's booth",
+    "body": "The wicked man's house is like a moth's cocoon or a \"booth which the watchman makes\" (27:18), a flimsy shelter put up in a vineyard during harvest. Isaiah pictures Jerusalem left as such a hut.",
+    "refs": [
+     "Isaiah 1:8"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Hissing and clapping",
+    "body": "People clap their hands and hiss at the fallen wicked man (27:23), gestures of scorn and horror. Lamentations describes passers-by doing the same at ruined Jerusalem.",
+    "refs": [
+     "Lamentations 2:15"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Pride or honesty?",
+    "body": "Job will not let go of his righteousness: \"My heart shall not reproach me\" (27:6). Some readers hear stubborn pride; others hear honesty that will not lie even to God. Where is the line between the two?",
+    "refs": []
+   }
+  ]
+ },
+ "28": {
+  "summary": "A poem on wisdom describes how humans dig deep into the earth to find precious metals but cannot find wisdom, which only God knows, ending with the fear of the Lord as true wisdom.",
+  "lookfor": "Follow the miners into the earth, listen for the repeated question about where wisdom is found, and compare the final line with the description of Job in chapter 1.",
+  "names": [
+   {
+    "name": "Ophir",
+    "kind": "place",
+    "gloss": "A land famous for its gold, probably in Arabia or East Africa."
+   },
+   {
+    "name": "Ethiopia",
+    "kind": "place",
+    "gloss": "In Hebrew Cush, the land south of Egypt along the upper Nile."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Who is speaking?",
+    "body": "No new speaker is introduced, so the poem may continue Job's words from chapter 27. Its calm tone is so different from the debate that many readers take it as an interlude, a pause in which the book itself reflects on the search for wisdom.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Ancient mining",
+    "body": "The poem describes shafts sunk far from towns and miners hanging and swinging on ropes (28:4). Mining for copper and turquoise is well attested in the Arabah and Sinai from early times. The point is that humans will go anywhere to find what they value.",
+    "refs": [
+     "Deuteronomy 8:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Sapphires with gold dust",
+    "body": "\"Sapphires\" with \"dust of gold\" (28:6) probably refers to lapis lazuli, a blue stone flecked with gold-coloured pyrite. It was highly prized across the ancient world. Many of the gems in 28:16-19 cannot be identified with certainty.",
+    "refs": [
+     "Exodus 24:10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A refrain",
+    "body": "The question \"where shall wisdom be found?\" (28:12) returns almost word for word (28:20). The deep, the sea, Destruction and Death all say they do not have it (28:14, 28:22). The poem builds suspense for its answer.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Better than rubies",
+    "body": "Wisdom cannot be bought with gold, silver or jewels (28:15-19). Proverbs says the same of wisdom, using the same comparison with rubies.",
+    "refs": [
+     "Proverbs 3:14-15",
+     "Proverbs 8:11"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "God knows its place",
+    "body": "Only God knows where wisdom is, because he set the measure of the wind, the waters, the rain and the lightning (28:23-27). This prepares for God's own speeches, which lead Job through the order of creation.",
+    "refs": [
+     "Job 38:25-27"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Job was already wise",
+    "body": "The poem ends: the fear of the Lord is wisdom, and to depart from evil is understanding (28:28). These are the very words used of Job at the start, a man who \"feared God, and turned away from evil.\" Proverbs makes the fear of the Lord the beginning of wisdom.",
+    "refs": [
+     "Job 1:1",
+     "Proverbs 9:10"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Light in the mine",
+    "body": "Humans can bring hidden things out to light from deep in the earth (28:11), yet wisdom remains hidden. What does it mean that the most valuable thing cannot be dug out by skill, only received?",
+    "refs": []
+   }
+  ]
+ },
+ "29": {
+  "summary": "Job looks back with longing on the days when God was his friend, his children were around him, and he was honoured at the city gate for his care for the poor.",
+  "lookfor": "Notice how Job describes God's presence in those days, the respect he received in public, and the people he helped.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "Job's closing case",
+    "body": "Chapters 29 to 31 form Job's final statement: what he was (chapter 29), what he has become (chapter 30), and a sworn oath of innocence (chapter 31). It is laid out like a closing defence in court, ending with a demand that God answer.",
+    "refs": [
+     "Job 31:35"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The friendship of God",
+    "body": "\"The friendship of God was in my tent\" (29:4) uses sod, intimate counsel shared among close friends. A psalm says the same friendship of Yahweh is with those who fear him. What Job misses most is not his wealth but that closeness.",
+    "refs": [
+     "Psalms 25:14"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A seat at the gate",
+    "body": "The city gate (29:7) was where elders sat, cases were judged and public business was done. Boaz settles his case there, and the husband in Proverbs 31 is respected there. Job's seat at the gate marks him as a leading citizen and judge.",
+    "refs": [
+     "Ruth 4:1-2",
+     "Proverbs 31:23"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The answer to Eliphaz",
+    "body": "Job delivered the poor and the fatherless, made the widow's heart sing, and was eyes to the blind and feet to the lame (29:12-16). Each line answers Eliphaz's charges that he had sent widows away empty and ignored the needy.",
+    "refs": [
+     "Job 22:6-9"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Clothed with righteousness",
+    "body": "\"I put on righteousness, and it clothed me\" (29:14) uses a picture found in Isaiah, where God puts on righteousness as armour, and in Paul's armour of God. Justice was not an occasional act for Job but what he wore every day.",
+    "refs": [
+     "Isaiah 59:17",
+     "Ephesians 6:14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Like the sand, or the phoenix",
+    "body": "Job expected to \"count my days as the sand\" (29:18). The Hebrew word chol can mean sand, but some Jewish interpreters read it as the name of the phoenix, the bird said to live for centuries. Both readings fit his hope of a long life.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Honour lost",
+    "body": "Much of Job's memory is about honour: the young stepping aside, princes falling silent, people waiting for his words like rain (29:8-10, 29:21-23). In a culture of honour and shame, losing it was a deep wound. How much of our own grief is about the respect we have lost?",
+    "refs": []
+   }
+  ]
+ },
+ "30": {
+  "summary": "Job contrasts his former honour with his present humiliation, mocked by society's outcasts, ignored by God, and reduced to mourning.",
+  "lookfor": "Listen for the repeated \"But now,\" Job's description of those who mock him, and his direct complaint to God.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "But now",
+    "body": "The chapter turns on the words \"But now\" (30:1), repeated as \"Now\" in 30:9 and 30:16. Each time Job sets his present misery against the past he has just described in chapter 29.",
+    "refs": [
+     "Job 29:2"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Mocked by the outcasts",
+    "body": "Those who mock Job are themselves outcasts, driven from society to live in ravines and eat salt herbs and broom roots (30:3-7). In an honour culture, being scorned by the lowest was the deepest humiliation.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Job's contempt",
+    "body": "Job says he would not have set these young men's fathers with his sheep dogs (30:1). Even the man who was a father to the needy speaks with contempt for the poorest. Does suffering expose attitudes we did not know we had?",
+    "refs": [
+     "Job 29:16"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Roots of the broom",
+    "body": "The broom tree (30:4) is a desert shrub; Elijah lay down under one when he wanted to die. Its roots were bitter and eaten only in desperation, though they also made good charcoal.",
+    "refs": [
+     "1 Kings 19:4",
+     "Psalms 120:4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Dust and ashes",
+    "body": "\"I have become like dust and ashes\" (30:19) echoes Abraham's humble words when he pleaded with God. Job uses the phrase once more at the very end, when he answers God.",
+    "refs": [
+     "Genesis 18:27",
+     "Job 42:6"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "You do not answer",
+    "body": "\"I cry to you, and you do not answer me\" (30:20) is the heart of Job's complaint. The words are close to the opening of Psalm 22, the psalm Jesus prayed from the cross. Job's worst pain is God's silence.",
+    "refs": [
+     "Psalms 22:1-2"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Brother to jackals",
+    "body": "Jackals and ostriches (30:29) lived in desert ruins and were known for their eerie, mournful cries. Isaiah pictures fallen cities as their home. Job's lament sounds like theirs, far from human company.",
+    "refs": [
+     "Isaiah 34:13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Harp to mourning",
+    "body": "Job's harp and pipe now play only for weeping (30:31). Children dancing to harp and pipe was how he described the happy wicked (21:11-12). The music has gone from his life but not from theirs.",
+    "refs": [
+     "Job 21:11-12",
+     "Lamentations 5:15"
+    ]
+   }
+  ]
+ },
+ "31": {
+  "summary": "Job ends his defence with a long oath of innocence, calling down curses on himself if he has sinned in lust, deceit, injustice, greed, idolatry or cruelty, and signs his demand for God to answer.",
+  "lookfor": "Notice the pattern \"If I have... then let...,\" how far Job's standards reach into thoughts and attitudes, and the final challenge to God.",
+  "names": [
+   {
+    "name": "Adam",
+    "kind": "person",
+    "gloss": "The first man, who hid after his sin; the Hebrew can also mean \"as people do.\""
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "An oath of clearance",
+    "body": "The repeated pattern \"If I have... then let\" (31:7-8) is an oath that calls down a curse on oneself if guilty. In ancient courts such an oath could settle a case when there were no witnesses. By swearing it, Job forces the issue: either God strikes, or God must answer.",
+    "refs": [
+     "Numbers 5:19-22",
+     "Exodus 22:10-11"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A covenant with my eyes",
+    "body": "Job begins not with adultery but with the look that leads to it (31:1), and his heart walking after his eyes (31:7). Jesus makes the same move in the Sermon on the Mount, treating lustful looking as adultery in the heart.",
+    "refs": [
+     "Matthew 5:28"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Servants made by the same God",
+    "body": "Job says he never dismissed a servant's complaint, because \"Didn't he who made me in the womb make him?\" (31:15). Grounding the rights of servants in a shared Creator was remarkable in the ancient world. Proverbs and Malachi make the same appeal to one Maker.",
+    "refs": [
+     "Proverbs 22:2",
+     "Malachi 2:10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A kiss to the moon",
+    "body": "Throwing a kiss from the hand to the sun or moon (31:26-27) was a gesture of worship to heavenly bodies. Deuteronomy warns against bowing to them, and kissing was part of worship of Baal. Job counts even a secret gesture as denying God.",
+    "refs": [
+     "Deuteronomy 4:19",
+     "1 Kings 19:18"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "No joy at an enemy's fall",
+    "body": "Job never rejoiced when his enemy was ruined, or cursed him (31:29-30). Proverbs warns against gloating over an enemy, and Jesus goes further by commanding love for enemies.",
+    "refs": [
+     "Proverbs 24:17",
+     "Matthew 5:44"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Here is my signature",
+    "body": "\"Here is my signature\" (31:35) is literally \"here is my taw,\" the last letter of the Hebrew alphabet, written in the old script as an X or cross. Job signs his sworn statement like a legal document. He even wants his opponent's written charge so he can wear it proudly (31:36).",
+    "refs": [
+     "Ezekiel 9:4"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The words of Job are ended",
+    "body": "Job has rested his case (31:40). The next voice should be God's, and the reader expects it. Instead a new speaker, Elihu, steps in, and God's reply is delayed six more chapters.",
+    "refs": [
+     "Job 32:1-2",
+     "Job 38:1"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Could anyone swear this?",
+    "body": "Job's oath covers thoughts, glances, servants, the poor, wealth, worship, enemies and even the land itself (31:38-40). Could anyone honestly swear to all of it? And what does it mean that God never disputes Job's claim?",
+    "refs": [
+     "Job 1:8"
+    ]
+   }
+  ]
+ },
+ "32": {
+  "summary": "When the three friends fall silent, a younger man named Elihu, angry with both Job and the friends, explains why he has waited and why he must now speak.",
+  "lookfor": "Count how often Elihu's anger is mentioned, notice why he says he waited, and listen to how he describes his urge to speak.",
+  "names": [
+   {
+    "name": "Elihu",
+    "kind": "person",
+    "gloss": "A younger bystander who speaks after the three friends give up; his name means \"He is my God.\""
+   },
+   {
+    "name": "Barachel",
+    "kind": "person",
+    "gloss": "Elihu's father; the name means \"God blesses.\""
+   },
+   {
+    "name": "Buzite",
+    "kind": "group",
+    "gloss": "From Buz, a people named after a brother of Uz among Abraham's relatives."
+   },
+   {
+    "name": "Ram",
+    "kind": "person",
+    "gloss": "The head of Elihu's clan; otherwise unknown."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Four times angry",
+    "body": "Elihu's anger is mentioned four times in four verses (32:2-5). He is angry with Job for justifying himself rather than God, and with the friends for condemning Job without answering him. He enters the book as a man who thinks everyone else has failed.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "A full introduction",
+    "body": "No other speaker gets a father, a clan and a people (32:2), and Elihu's name is Hebrew in form. Buz is the brother of Uz in Genesis, which ties Elihu to Job's own region. The detail suggests his speech is important, even though no one else in the book mentions him.",
+    "refs": [
+     "Genesis 22:21"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Age and the spirit",
+    "body": "Elihu waited because the others were older and \"Days should speak\" (32:7). But he decides understanding comes from \"the breath of the Almighty\" (32:8), not age. Paul also tells young Timothy not to let anyone despise his youth.",
+    "refs": [
+     "1 Timothy 4:12"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Wine ready to burst",
+    "body": "Elihu says he is like new wineskins with no vent, about to burst (32:19). The picture is almost comic after his long preamble. Jesus later uses new wine and wineskins as a picture of something new that old containers cannot hold.",
+    "refs": [
+     "Matthew 9:17"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Who is Elihu?",
+    "body": "Elihu appears from nowhere, speaks for six chapters, and is not mentioned in the prologue or epilogue; God neither praises nor rebukes him. Some scholars think his speeches were added later. Readers have seen him as anything from a wise forerunner preparing for God's speech to a pompous young man who adds little.",
+    "refs": [
+     "Job 42:7-9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "No flattering titles",
+    "body": "Elihu promises not to show partiality or give flattering titles to anyone (32:21-22). It is a claim to honesty, but also a warning that he will not spare Job or the older men.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Angry for whom?",
+    "body": "Elihu says his anger is for God's sake, yet he also says he must speak to be \"refreshed\" (32:20). Is his zeal for truth, for God's honour, or for his own chance to be heard? How easily do those mix?",
+    "refs": []
+   }
+  ]
+ },
+ "33": {
+  "summary": "Elihu addresses Job directly, quotes his complaints back to him, and argues that God speaks to people through dreams and through pain in order to turn them back from death.",
+  "lookfor": "Notice how Elihu presents himself as Job's equal, the ways he says God speaks, and the figure of the angel who finds a ransom.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Calling Job by name",
+    "body": "\"Job, please hear my speech\" (33:1). Elihu addresses Job by name, something the three friends never did in all their speeches. It is a small sign that he means to speak to Job, not just about him.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Made of the same clay",
+    "body": "Elihu says he too is formed from clay and his terror will not overwhelm Job (33:6-7). He seems to be answering Job's wish for someone who could hear his case without making him afraid.",
+    "refs": [
+     "Job 9:34",
+     "Job 13:21"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Quoting Job",
+    "body": "Elihu quotes Job as saying he is clean and that God counts him an enemy and puts his feet in the stocks (33:9-11). The last lines are almost exactly Job's own words. Elihu, unlike the friends, takes Job's statements as his starting point.",
+    "refs": [
+     "Job 13:24",
+     "Job 13:27"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Pain as a warning",
+    "body": "Elihu says God speaks \"once, yes twice\" (33:14): through dreams at night, and through pain on a sickbed (33:19). Suffering, in his view, is not only punishment for past sin but a warning to keep people from pride and death. This is his main contribution to the debate.",
+    "refs": [
+     "Psalms 119:67",
+     "Hebrews 12:11"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "An interpreter and a ransom",
+    "body": "Elihu imagines an angel, \"an interpreter, one among a thousand\" (33:23), who speaks for a person and says \"I have found a ransom\" (33:24). The Hebrew kopher is a price paid to free a life. It echoes Job's hope for a mediator, and Christian readers recall Jesus giving his life as a ransom.",
+    "refs": [
+     "Job 16:19-21",
+     "Mark 10:45"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A picture of restoration",
+    "body": "Elihu describes flesh renewed like a child's, joyful prayer, and a song of confession: \"I have sinned... and it didn't profit me\" (33:25-28). It is a moving picture of recovery, but it assumes Job's restoration must begin with confession of sin.",
+    "refs": [
+     "2 Kings 5:14"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "I desire to justify you",
+    "body": "Elihu says, \"Speak, for I desire to justify you\" (33:32), and then tells Job to be silent while he teaches (33:33). Does he really want to hear Job, or does he already know what he will conclude?",
+    "refs": []
+   }
+  ]
+ },
+ "34": {
+  "summary": "Elihu turns to the wise men listening and defends God's justice, insisting that the Almighty cannot do wrong, rules impartially, and sees all, and he accuses Job of speaking without knowledge.",
+  "lookfor": "Notice the lines Elihu borrows from Job and Eliphaz, his strong statements about God's justice, and his verdict on Job at the end.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Borrowed words",
+    "body": "\"The ear tries words, as the palate tastes food\" (34:3) is almost exactly Job's own line from chapter 12. Elihu's \"drinks scorn like water\" (34:7) echoes Eliphaz's \"drinks iniquity like water.\" He has listened closely to the whole debate.",
+    "refs": [
+     "Job 12:11",
+     "Job 15:16"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Far be it from God",
+    "body": "Elihu's central point is \"far be it from God, that he should do wickedness\" (34:10) and the Almighty will not \"pervert justice\" (34:12). Where Job demanded that God answer, Elihu insists that God cannot be wrong. The two positions are not as far apart as they sound, since Job too appeals to God's justice.",
+    "refs": [
+     "Genesis 18:25",
+     "Job 8:3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Words Job never said",
+    "body": "Elihu claims Job said it profits nothing to delight in God (34:9). Job put similar words in the mouth of the wicked (21:15), and said God destroys the blameless and the wicked alike (9:22), but he never said this himself. Elihu, like the friends, hears Job's protest as a denial.",
+    "refs": [
+     "Job 21:15",
+     "Job 9:22"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "If God withdrew his breath",
+    "body": "If God gathered back his spirit and breath, \"all flesh would perish together\" (34:14-15). Life depends moment by moment on God's breath, as in Genesis and Psalm 104. Elihu argues that a God who sustains everything has no reason to be unjust.",
+    "refs": [
+     "Genesis 2:7",
+     "Psalms 104:29-30"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A judge of kings",
+    "body": "Elihu describes God as one who calls kings vile and nobles wicked, and shows no favour to princes over the poor (34:18-19). In a world where rulers expected deference, impartial judgment was a mark of true justice. Deuteronomy and Peter speak of God in the same way.",
+    "refs": [
+     "Deuteronomy 10:17",
+     "Acts 10:34"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Without knowledge",
+    "body": "Elihu's verdict is that \"Job speaks without knowledge\" (34:35). God's first words from the storm will make a similar charge. But God will also say that Job, unlike the friends, spoke rightly, so the book does not simply side with Elihu.",
+    "refs": [
+     "Job 38:2",
+     "Job 42:7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "True but enough?",
+    "body": "Everything Elihu says about God's justice and power may be true, and still Job's question about his own case remains. Can a general truth about God answer a particular sufferer?",
+    "refs": []
+   }
+  ]
+ },
+ "35": {
+  "summary": "Elihu argues that human sin or righteousness cannot harm or benefit God, and that cries of the oppressed go unanswered when they come from pain or pride rather than a search for God.",
+  "lookfor": "Notice what Elihu claims Job has said, the reason he gives for unanswered cries, and the phrase \"songs in the night.\"",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Does righteousness profit?",
+    "body": "Elihu takes up what he hears as Job's complaint: what advantage is there in not sinning (35:3)? His answer is that God is beyond being hurt by sin or enriched by goodness (35:6-7). Our actions matter mainly to other people (35:8).",
+    "refs": [
+     "Job 22:2-3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Look up",
+    "body": "Elihu tells Job to look at the skies, which are far above him (35:5). If the clouds are out of reach, how much higher is God? Eliphaz made the same move earlier with the stars.",
+    "refs": [
+     "Job 22:12"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Songs in the night",
+    "body": "Elihu speaks of \"God my Maker, who gives songs in the night\" (35:10). Psalms speak of God's song with the psalmist in the night, and Paul and Silas sang hymns at midnight in prison. It is one of Elihu's most beautiful phrases.",
+    "refs": [
+     "Psalms 42:8",
+     "Acts 16:25"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Wiser than the birds",
+    "body": "God \"teaches us more than the animals of the earth\" (35:11). Job had told the friends to learn from the animals. Soon God himself will teach Job by pointing to the animals.",
+    "refs": [
+     "Job 12:7",
+     "Job 39:1"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Why prayers go unanswered",
+    "body": "Elihu says the oppressed cry out because of pain, but no one asks \"Where is God my Maker?\" (35:9-10). God does not hear \"an empty cry\" (35:13). His explanation is that some cries are protest without faith. The Bible elsewhere also links answered prayer to the heart of the one praying.",
+    "refs": [
+     "James 4:3",
+     "Psalms 66:18"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Was Job's cry empty?",
+    "body": "Elihu applies this to Job (35:14-16), yet Job had cried to God directly again and again. Is it fair to call an honest, God-directed complaint an empty cry?",
+    "refs": [
+     "Job 30:20"
+    ]
+   }
+  ]
+ },
+ "36": {
+  "summary": "Elihu continues on God's behalf, arguing that God uses affliction to teach and rescue the humble, warns Job not to turn to wrongdoing, and begins to describe God's greatness in the rain and the storm.",
+  "lookfor": "Look for Elihu's claim about his own knowledge, his key idea about what affliction is for, and the gathering storm at the end.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Perfect in knowledge",
+    "body": "Elihu tells Job that \"One who is perfect in knowledge is with you\" (36:4), apparently meaning himself. In the next chapter he uses the same phrase for God. Readers differ on whether this is youthful arrogance or a claim that his words come from God.",
+    "refs": [
+     "Job 37:16"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Delivered by affliction",
+    "body": "\"He delivers the afflicted by their affliction\" (36:15) is a play on two similar Hebrew words, ani (afflicted) and oni (affliction). For Elihu, suffering is not only punishment but the means by which God opens a person's ear and draws them out of distress.",
+    "refs": [
+     "Psalms 119:71"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "With kings on the throne",
+    "body": "God sets the righteous with kings and exalts them (36:7). Hannah's song and Psalm 113 also describe God lifting the lowly to sit with princes.",
+    "refs": [
+     "1 Samuel 2:8",
+     "Psalms 113:7-8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Who is a teacher like him?",
+    "body": "\"Who is a teacher like him?\" (36:22) sums up Elihu's view of God. Where the friends saw God mainly as judge, Elihu sees a teacher who instructs through dreams, pain and creation.",
+    "refs": [
+     "Job 33:16"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The water cycle",
+    "body": "God draws up drops of water that distil as rain from vapour and pour down from the skies (36:27-28). Ancient observers saw the pattern of evaporation and rainfall and credited it to God. Ecclesiastes and Amos describe the same cycle.",
+    "refs": [
+     "Ecclesiastes 1:7",
+     "Amos 9:6"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A storm gathers",
+    "body": "From 36:26 Elihu's speech turns to clouds, thunder and lightning, and it continues through the next chapter. Some readers picture a real storm rising as he speaks. It sets the scene for God's answer \"out of the whirlwind.\"",
+    "refs": [
+     "Job 38:1"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Great and unknown",
+    "body": "\"God is great, and we don't know him\" (36:26). Elihu says this and yet speaks at great length on God's behalf. How do humility about God and confidence in speaking for him belong together?",
+    "refs": []
+   }
+  ]
+ },
+ "37": {
+  "summary": "Elihu describes God's majesty in thunder, lightning, snow and ice, challenges Job to consider God's wonders, and ends by saying the Almighty is beyond reach yet just.",
+  "lookfor": "Listen for the voice of God in the thunder, the questions Elihu begins to put to Job, and the golden splendour from the north.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "The voice in the thunder",
+    "body": "Elihu hears God's voice in the thunder that rolls under the whole sky (37:2-5). Psalm 29 describes \"Yahweh's voice\" in a storm in the same way. In John's Gospel some in the crowd took God's voice from heaven for thunder.",
+    "refs": [
+     "Psalms 29:3-9",
+     "John 12:28-29"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Winter stops work",
+    "body": "\"He seals up the hand of every man\" (37:7) probably means that snow and heavy rain halt work in the fields. Animals take shelter too (37:8). Weather reminds everyone that God, not people, sets the seasons.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Correction or kindness",
+    "body": "The storm may come \"for correction, or for his land, or for loving kindness\" (37:13). The last word is hesed, God's loyal love. Elihu sees the same rain serving judgment or blessing, depending on God's purpose.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Questions before the questions",
+    "body": "\"Do you know...?\" Elihu asks Job (37:15-16). His questions about clouds and lightning anticipate the questions God is about to ask. Elihu prepares the way, though God's voice will be far stronger.",
+    "refs": [
+     "Job 38:33-35"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A sky like a metal mirror",
+    "body": "The sky is \"strong as a cast metal mirror\" (37:18). Ancient mirrors were polished bronze, and the sky was pictured as a solid, shining dome over the earth. Genesis calls it an expanse that separates the waters.",
+    "refs": [
+     "Genesis 1:6-8"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Splendour from the north",
+    "body": "\"Out of the north comes golden splendor\" (37:22) may describe bright light after a storm, or divine glory approaching. Ezekiel's vision of God also begins with a storm wind and brightness from the north.",
+    "refs": [
+     "Ezekiel 1:4"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "We can't reach him",
+    "body": "Elihu ends: \"We can't reach the Almighty\" (37:23). The very next words of the book are that Yahweh answered Job out of the whirlwind. The God no one could reach comes himself.",
+    "refs": [
+     "Job 38:1"
+    ]
+   }
+  ]
+ },
+ "38": {
+  "summary": "Yahweh at last answers Job out of a whirlwind, not with explanations but with a torrent of questions about the making of the world, the sea, light, weather, the stars and the wild animals.",
+  "lookfor": "Notice what God does and does not talk about, the pictures of the sea, the morning and the rain, and how often God's care reaches places where no human lives.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "God answers Job",
+    "body": "After thirty-five chapters, \"Yahweh answered Job\" (38:1). The covenant name Yahweh returns after being almost absent from the dialogue. God speaks to Job, not to the friends or Elihu, and never mentions Satan, the test, or any sin of Job's.",
+    "refs": [
+     "Job 1:12",
+     "Job 31:35"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Brace yourself like a man",
+    "body": "\"Brace yourself like a man\" (38:3) is literally \"gird your loins like a geber,\" a strong man or warrior, tucking up the robe for action. God treats Job as a serious opponent and accepts his demand for a hearing, though on God's terms.",
+    "refs": [
+     "Job 13:22",
+     "1 Kings 18:46"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "When the morning stars sang",
+    "body": "God describes creation like building a house: foundations, measuring line, cornerstone (38:4-6). At its completion \"the morning stars sang together, and all the sons of God shouted for joy\" (38:7). The heavenly beings of the opening chapters appear again, celebrating.",
+    "refs": [
+     "Job 1:6",
+     "Psalms 104:5"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The sea in swaddling clothes",
+    "body": "In ancient stories the sea was a monster to be destroyed. Here it bursts from the womb like a baby and God wraps it in clouds and darkness and sets its limits (38:8-11). The chaos is not slain but contained and cared for.",
+    "refs": [
+     "Psalms 104:9",
+     "Jeremiah 5:22"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Rain where no one lives",
+    "body": "God sends rain \"on a land where no man is\" to make desolate ground grow grass (38:26-27). Creation is not arranged only for human benefit. God tends places no person ever sees.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Pleiades and Orion again",
+    "body": "God asks whether Job can bind the Pleiades or loosen Orion (38:31-32). Job had named these constellations as God's works (9:9) when he said God was too powerful to face. Now God turns that power into questions.",
+    "refs": [
+     "Job 9:9",
+     "Amos 5:8"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Food for the ravens",
+    "body": "The speech ends with lions and ravens whose young \"cry to God\" for food (38:39-41). Psalm 147 and Jesus both point to ravens as creatures God feeds, to teach trust.",
+    "refs": [
+     "Psalms 147:9",
+     "Luke 12:24"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Is a question an answer?",
+    "body": "Job asked for reasons; God gives questions. Some readers find this a refusal to explain, others a deeper answer that invites Job to see the world from God's side. What do these questions give Job that an explanation would not?",
+    "refs": []
+   }
+  ]
+ },
+ "39": {
+  "summary": "God continues with questions about wild creatures beyond human control: mountain goats, the wild donkey, the wild ox, the ostrich, the war horse, the hawk and the eagle.",
+  "lookfor": "Notice how few of these animals are any use to humans, and watch for touches of humour and delight in God's descriptions.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "A wild gallery",
+    "body": "Almost every animal here lives outside human control: born in the wild, roaming free, refusing the plough. God knows the hour of their birth and provides for them (39:1-4). Job is shown a world that runs on God's care, not on human usefulness.",
+    "refs": [
+     "Psalms 104:18"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The free wild donkey",
+    "body": "The wild donkey scorns the city and the shouting driver (39:5-7). Zophar had used it in an insult, and Genesis calls Ishmael \"a wild donkey among men.\" Here God speaks of it with pride, as a creature he set free.",
+    "refs": [
+     "Job 11:12",
+     "Genesis 16:12"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The wild ox",
+    "body": "The wild ox (39:9-12) was the aurochs, a huge wild bull hunted by Assyrian kings and extinct since the 1600s. Older English Bibles followed the Greek and called it a \"unicorn.\" No one could harness it to a plough.",
+    "refs": [
+     "Numbers 23:22",
+     "Psalms 92:10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The foolish ostrich",
+    "body": "The ostrich seems careless with her eggs and young (39:14-16), reflecting how ancient observers saw her, because God \"has deprived her of wisdom\" (39:17). Yet she outruns horse and rider (39:18). God includes a creature that makes no obvious sense, and delights in it anyway.",
+    "refs": [
+     "Lamentations 4:3"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The war horse",
+    "body": "The war horse (39:19-25) is the only domesticated animal here, yet God describes its untamed courage: it laughs at fear, swallows the ground, and snorts \"Aha!\" at the trumpet. Horses for chariots and cavalry were the most powerful weapons of the age.",
+    "refs": [
+     "Psalms 33:17"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Flying south",
+    "body": "God asks whether it is by Job's wisdom that the hawk \"stretches her wings toward the south\" (39:26). This seems to refer to the seasonal migration of birds of prey through the Levant. Jeremiah also notices birds that know their seasons.",
+    "refs": [
+     "Jeremiah 8:7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Where the slain are",
+    "body": "The chapter ends starkly: the eagle's young drink blood, \"Where the slain are, there he is\" (39:30). Jesus uses a similar saying about vultures gathering where the carcass is.",
+    "refs": [
+     "Matthew 24:28"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Useless and beloved",
+    "body": "None of these creatures serves Job, yet God clearly delights in them. What does it mean for Job, and for us, to belong to a world God loves for more than its usefulness to people?",
+    "refs": []
+   }
+  ]
+ },
+ "40": {
+  "summary": "Job replies that he is small and will speak no more; God speaks again, challenging Job to rule the world in justice himself, and describes the mighty creature behemoth.",
+  "lookfor": "Notice Job's gesture of silence, the question God asks about his justice, and the details of behemoth's strength and home.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Hand on mouth",
+    "body": "\"I lay my hand on my mouth\" (40:4). Job once told his friends to do this, and remembered princes doing it before him. Now he does it himself before God. He does not yet withdraw his case, but he will speak no further (40:5).",
+    "refs": [
+     "Job 21:5",
+     "Job 29:9"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Condemn me to be justified?",
+    "body": "\"Will you even annul my judgment? Will you condemn me, that you may be justified?\" (40:8). The word is mishpat, the justice Job demanded. God does not say Job is guilty; he challenges Job's reasoning that God must be wrong if Job is right.",
+    "refs": [
+     "Job 19:6",
+     "Job 27:2"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Try running the world",
+    "body": "God invites Job to put on majesty and humble every proud and wicked person (40:10-13). If Job could do that, God says, his own right hand could save him (40:14). Governing the moral world is not as simple as Job's complaint assumed.",
+    "refs": [
+     "Psalms 98:1"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Behemoth",
+    "body": "Behemoth (40:15) is the plural of behemah, \"beast,\" meaning something like \"the beast of beasts.\" Its home among lotus and reeds suggests the hippopotamus, though some suggest the elephant, and others see a creature of myth like leviathan.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Made as well as you",
+    "body": "God introduces behemoth as one \"which I made as well as you\" (40:15). Job and the great beast are fellow creatures. The point is humbling, but also strangely companionable.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "The chief of God's ways",
+    "body": "Behemoth is \"the chief of the ways of God\" (40:19), literally the first or beginning of his ways. Proverbs uses almost the same phrase for Wisdom, possessed at the beginning of God's way. God shows the creature as a masterpiece.",
+    "refs": [
+     "Proverbs 8:22"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Does God answer the question?",
+    "body": "God has not explained why Job suffered. Instead he shows Job a world too vast and wild for any human to govern. Has Job's question been answered, set aside, or transformed?",
+    "refs": []
+   }
+  ]
+ },
+ "41": {
+  "summary": "God describes leviathan, a terrifying creature of the sea that no human can catch, tame or wound, and that rules over all the proud.",
+  "lookfor": "Notice the ironic questions about taming leviathan, the fiery description of its body, and the final line about pride.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Crocodile or dragon?",
+    "body": "Leviathan's scales, teeth and armoured body (41:13-17) suggest the Nile crocodile, but fire and smoke from its mouth and nostrils (41:19-21) go beyond any real animal. Elsewhere leviathan is a sea dragon God defeated, and texts from Ugarit describe a similar seven-headed monster. The poem draws on both.",
+    "refs": [
+     "Psalms 74:14",
+     "Isaiah 27:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A pet for your girls?",
+    "body": "God asks whether leviathan will make a covenant to serve Job or be kept on a string as a pet for his daughters (41:4-5). The questions are comic. A psalm says God made leviathan to play in the sea.",
+    "refs": [
+     "Psalms 104:26"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Remember the battle",
+    "body": "\"Lay your hand on him. Remember the battle, and do so no more\" (41:8). Anyone who tried once would never try again. If no one dares stir up leviathan, God asks, who can stand before the one who made it (41:10)?",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Who has first given?",
+    "body": "\"Who has first given to me, that I should repay him?\" (41:11). Paul echoes this at the climax of Romans 9 to 11, after marvelling at God's unsearchable wisdom: no one has a claim on God.",
+    "refs": [
+     "Romans 11:35"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Terror dances before him",
+    "body": "\"Terror dances before him\" (41:22) personifies fear as a dancer leaping ahead of the beast. The poetry here is some of the most vivid in the Bible, down to the white wake that makes the deep look grey-haired (41:32).",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "King over the proud",
+    "body": "God's speeches end with leviathan as \"king over all the sons of pride\" (41:34). In later Jewish and Christian thought, leviathan and the dragon became images of the evil only God can master, as in Revelation. Here it shows that what terrifies humans is still God's creature.",
+    "refs": [
+     "Revelation 12:9",
+     "Job 40:11-12"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Ending with a monster",
+    "body": "God's last words are not about Job but about a creature Job can never control. Why end there? Is it a rebuke, a comfort, or an invitation to trust a God who holds even chaos on a leash?",
+    "refs": []
+   }
+  ]
+ },
+ "42": {
+  "summary": "Job confesses that he spoke of things too wonderful for him and now sees God; God rebukes the three friends, Job prays for them, and Yahweh restores Job with double his former wealth, new children and a long life.",
+  "lookfor": "Notice how Job quotes God's own words, what God says about who spoke rightly, and the details of Job's restoration, especially his daughters.",
+  "names": [
+   {
+    "name": "Jemimah",
+    "kind": "person",
+    "gloss": "Job's first daughter after his restoration; her name probably means \"dove.\""
+   },
+   {
+    "name": "Keziah",
+    "kind": "person",
+    "gloss": "Job's second daughter, named after cassia, a fragrant spice."
+   },
+   {
+    "name": "Keren Happuch",
+    "kind": "person",
+    "gloss": "Job's third daughter; the name means \"horn of eye-paint,\" a container of cosmetic kohl."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Quoting God back",
+    "body": "Job repeats God's words, \"Who is this who hides counsel without knowledge?\" (42:3) and \"I will question you, and you will answer me\" (42:4). He shows he has heard. Then comes the turning point: \"I had heard of you by the hearing of the ear, but now my eye sees you\" (42:5).",
+    "refs": [
+     "Job 38:2-3"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Repent in dust and ashes",
+    "body": "\"I abhor myself, and repent in dust and ashes\" (42:6) is notoriously hard to translate. The Hebrew has no \"myself,\" and the verb nicham can mean to repent, to relent or to be comforted. Some take it to mean Job retracts his words and is comforted, others take it as traditional repentance; all agree Job's stance has changed after seeing God.",
+    "refs": [
+     "Job 30:19"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Job spoke rightly",
+    "body": "God tells Eliphaz the friends \"have not spoken of me the thing that is right, as my servant Job has\" (42:7), and says it twice. The man who protested is vindicated over the men who defended God with false claims. God calls Job \"my servant\" four times, as in the opening.",
+    "refs": [
+     "Job 1:8",
+     "Job 13:7-10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Job as priest again",
+    "body": "The friends must bring seven bulls and seven rams, and Job must pray for them (42:8). Job began the book offering sacrifices for his children (1:5) and ends it interceding for the men who accused him. Eliphaz's own words about deliverance through clean hands come true for Eliphaz himself.",
+    "refs": [
+     "Job 1:5",
+     "Job 22:30"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Turned the captivity",
+    "body": "\"Yahweh turned the captivity of Job\" (42:10) uses a set phrase, shuv shevut, often meaning \"restored the fortunes.\" It is the same expression used for Israel's return from exile, and it comes as Job prays for his friends.",
+    "refs": [
+     "Deuteronomy 30:3",
+     "Psalms 126:4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Who brought the evil?",
+    "body": "The narrator says the comforters consoled Job for \"all the evil that Yahweh had brought on him\" (42:11). Satan is never mentioned again. Each visitor brings a qesitah, a piece of money found elsewhere only in stories of Jacob, an old coin that fits the book's patriarchal setting.",
+    "refs": [
+     "Genesis 33:19"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Daughters who inherit",
+    "body": "Job's livestock is exactly double what he had (42:12), but he again has seven sons and three daughters (42:13). Only the daughters are named, praised for their beauty, and given an inheritance with their brothers (42:15). In Israelite law daughters normally inherited only when there were no sons.",
+    "refs": [
+     "Job 1:3",
+     "Numbers 27:8"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "A happy ending?",
+    "body": "Job dies \"old and full of days\" (42:17), like Abraham. Some readers feel the restoration undercuts the book's point that faith is not for reward; others see God's free generosity, not payment. New children do not erase the loss of the first ten. What does this ending say, and what does it leave unsaid?",
+    "refs": [
+     "Genesis 25:8",
+     "James 5:11"
+    ]
+   }
+  ]
+ },
+ "intro": {
+  "who": "The author is unknown. A Talmudic tradition credits Moses with writing it, while most modern scholars see an Israelite poet who set a dialogue in elaborate Hebrew verse inside an older prose folk tale.",
+  "when": "The story is set in a patriarchal world of flocks, family sacrifice and very long life, outside Israel. Dates proposed for its writing range widely, from Solomon's time to after the exile; many scholars favour the 6th to 4th centuries BC.",
+  "why": "It asks whether anyone serves God for nothing and how to speak truly about God when the innocent suffer, testing the common belief that people always get what they deserve.",
+  "outline": [
+   {
+    "chapters": "1–2",
+    "title": "The test in heaven"
+   },
+   {
+    "chapters": "3–14",
+    "title": "Lament and first round"
+   },
+   {
+    "chapters": "15–21",
+    "title": "Second round of speeches"
+   },
+   {
+    "chapters": "22–27",
+    "title": "Third round breaks down"
+   },
+   {
+    "chapters": "28–31",
+    "title": "Wisdom and Job's oath"
+   },
+   {
+    "chapters": "32–37",
+    "title": "Elihu speaks"
+   },
+   {
+    "chapters": "38–41",
+    "title": "Yahweh speaks from the storm"
+   },
+   {
+    "chapters": "42",
+    "title": "Job answers and is restored"
+   }
+  ],
+  "verse": "Job 1:21"
+ }
+}
