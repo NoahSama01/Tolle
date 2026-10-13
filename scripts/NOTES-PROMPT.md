@@ -34,7 +34,7 @@ Any Scripture in double quotes must match the WEB wording word for word. WEB wor
 1. Write the notes into part files (for example `/tmp/part-a.json` with keys `"intro"`, `"1"`…`"9"`), each a JSON object of chapters.
 2. Run `python scripts/notes.py "<Book>" /tmp/part-a.json /tmp/part-b.json …`. It merges into `public/insights/<slug>.json` and checks shape, kinds, refs, names-in-text, verse ranges and in-chapter WEB quotations. Fix every problem it reports. Then run `python scripts/quotes.py "<Book>"`, which checks quotations from other chapters and books against the verses each note cites; list every quoted verse in that note's `refs`. Lines saying "quote not in chapter (check if from elsewhere)" are acceptable ONLY for quotes verified from other books, or for non-Scripture terms in quotes (name meanings, scholars' terms).
 3. Confirm the file has every chapter and an intro.
-4. From an up-to-date `main`, create branch `notes/<slug>`, commit only that book's JSON with the message `Notes for <Book>`. Do NOT add any "Co-Authored-By" trailer or any AI/Claude attribution to commits or pull requests: the repo owner has forbidden it.
+4. Before committing, set the author to the repo owner: `git config user.name "Noah"` and `git config user.email "nobelnoah.n@gmail.com"`. Check with `git log -1 --format='%an <%ae>'` after committing; it must not say Claude or anthropic.com. Then, from an up-to-date `main`, create branch `notes/<slug>`, commit only that book's JSON with the message `Notes for <Book>`. Do NOT add any "Co-Authored-By" trailer or any AI/Claude attribution to commits or pull requests: the repo owner has forbidden it.
 5. Open a pull request to `main` titled `Notes for <Book>`. Do not merge it.
 
 Report each pull request URL, the checker's final output, and any judgement calls you were unsure about.
@@ -43,7 +43,7 @@ Report each pull request URL, the checker's final output, and any judgement call
 
 ## Progress
 
-Done: Leviticus, Numbers, Deuteronomy, Joshua, Judges, Ruth, 1 Samuel, 2 Samuel, 1 Kings, 2 Kings.
-Next, in reading order: 1 Chronicles, 2 Chronicles, Ezra, Nehemiah, Esther, Job, Psalms, Proverbs, Ecclesiastes, Song of Solomon, then the Prophets and the New Testament. Genesis and Exodus are still to do as well.
+Done: Leviticus, Numbers, Deuteronomy, Joshua, Judges, Ruth, 1 Samuel, 2 Samuel, 1 Kings, 2 Kings, 1 Chronicles, 2 Chronicles, Ezra, Nehemiah, Esther, Job.
+Next, in reading order: Psalms, Proverbs, Ecclesiastes, Song of Solomon, then the Prophets (Isaiah to Malachi) and the New Testament. Genesis and Exodus are still to do as well.
 
 Several sessions can run at once as long as no two are given the same book: each book is its own file and its own pull request.
