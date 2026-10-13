@@ -1,0 +1,913 @@
+{
+ "1": {
+  "summary": "Amos announces that Yahweh roars from Zion against Israel's neighbours, condemning Damascus, Gaza, Tyre, Edom and Ammon for atrocities in war.",
+  "lookfor": "Notice the repeated formula for each nation, the crimes named, and which nations are next to Israel on the map.",
+  "names": [
+   {
+    "name": "Tekoa",
+    "kind": "place",
+    "gloss": "A village in the hills of Judah about ten miles south of Jerusalem."
+   },
+   {
+    "name": "Uzziah",
+    "kind": "person",
+    "gloss": "King of Judah, also called Azariah, who reigned for about fifty years in the 8th century BC."
+   },
+   {
+    "name": "Jeroboam",
+    "kind": "person",
+    "gloss": "Jeroboam II, king of Israel from about 786 to 746 BC."
+   },
+   {
+    "name": "Carmel",
+    "kind": "place",
+    "gloss": "A green, wooded ridge on the northern coast of Israel."
+   },
+   {
+    "name": "Damascus",
+    "kind": "place",
+    "gloss": "Capital of the Aramean kingdom of Syria, north-east of Israel."
+   },
+   {
+    "name": "Hazael",
+    "kind": "person",
+    "gloss": "King of Damascus in the late 9th century BC, who seized the throne and harassed Israel."
+   },
+   {
+    "name": "Gaza",
+    "kind": "place",
+    "gloss": "A leading Philistine city on the southern coast."
+   },
+   {
+    "name": "Rabbah",
+    "kind": "place",
+    "gloss": "Capital of Ammon, modern Amman in Jordan."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Two years before the earthquake",
+    "body": "Amos's words are dated two years before the earthquake (1:1). It was remembered for centuries; Zechariah recalls people fleeing from it in Uzziah's days. Archaeologists have found evidence of a major mid-8th century BC earthquake at sites such as Hazor, often linked to this one.",
+    "refs": [
+     "Zechariah 14:5"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A herdsman of Tekoa",
+    "body": "Amos came from Tekoa, a village at the edge of the Judean wilderness, and was a herdsman (1:1). The word used, noqed, appears elsewhere for King Mesha of Moab, a large sheep breeder, so Amos may have been a manager of flocks rather than a poor shepherd. He was a southerner speaking in the north, which made him easy to dismiss.",
+    "refs": [
+     "2 Kings 3:4",
+     "Amos 7:14-15"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The lion roars",
+    "body": "Yahweh will roar from Zion (1:2) repeats almost word for word the words near the end of Joel, which comes just before Amos in the Hebrew order. Amos uses lion imagery often. He compares God's word to a lion's roar that no one can ignore.",
+    "refs": [
+     "Joel 3:16",
+     "Amos 3:8"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Three transgressions, yes, four",
+    "body": "Each oracle begins for three transgressions, yes, for four (1:3). This number pattern, common in Hebrew poetry, means the sins have piled up past the limit. Amos lists only one crime for each nation, perhaps the last straw.",
+    "refs": [
+     "Proverbs 30:18-19",
+     "Proverbs 30:21-23"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Crimes against humanity",
+    "body": "The nations are not judged for idolatry but for atrocities in war: threshing captives with iron sledges (1:3), selling whole communities as slaves (1:6, 1:9), and ripping open pregnant women (1:13). Amos assumes all peoples know these acts are wrong and answer to God for them. Many readers see here an early form of what later thinkers called natural law.",
+    "refs": [
+     "Romans 2:14-15"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Damascus and Hazael",
+    "body": "Hazael of Damascus and his son Ben Hadad brutally oppressed Israel's territory east of the Jordan in the late 9th century BC. Elisha wept foreseeing Hazael's cruelty. Amos's threat that Syria would go into exile to Kir came true when Assyria took Damascus in 732 BC.",
+    "refs": [
+     "2 Kings 8:12",
+     "2 Kings 10:32-33",
+     "2 Kings 16:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The brotherly covenant",
+    "body": "Tyre forgot the brotherly covenant (1:9), perhaps the old treaty between Hiram and Solomon, and Edom pursued his brother with the sword (1:11), recalling Jacob and Esau. Breaking ties of kinship and treaty made the crimes worse.",
+    "refs": [
+     "1 Kings 5:12",
+     "Genesis 25:23-26",
+     "Obadiah 1:10-12"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Applause before the turn",
+    "body": "An Israelite audience would have cheered as Amos condemned its enemies one by one. The circle closes around Israel, which will be the last and longest oracle. Why might a prophet begin by condemning others before turning to his hearers?",
+    "refs": [
+     "Amos 2:6",
+     "2 Samuel 12:1-7"
+    ]
+   }
+  ]
+ },
+ "2": {
+  "summary": "After condemning Moab and Judah, Amos turns on Israel itself for selling the poor, sexual abuse, and profaning worship, recalling all God had done for them and announcing that no one will escape.",
+  "lookfor": "Compare Israel's sins with those of the other nations, and notice what God reminds Israel he has done for them.",
+  "names": [
+   {
+    "name": "Moab",
+    "kind": "place",
+    "gloss": "The land east of the Dead Sea."
+   },
+   {
+    "name": "Kerioth",
+    "kind": "place",
+    "gloss": "A major city of Moab, perhaps a sanctuary of its god Chemosh."
+   },
+   {
+    "name": "Amorite",
+    "kind": "group",
+    "gloss": "A name for the earlier inhabitants of Canaan, remembered as giants."
+   },
+   {
+    "name": "Nazirites",
+    "kind": "group",
+    "gloss": "People under a vow of special dedication to God who abstained from wine."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Burning bones into lime",
+    "body": "Moab's crime is not against Israel but against Edom: burning the bones of Edom's king to lime (2:1). Desecrating a body denied the dead an honourable burial. God judges cruelty between foreign nations too, not only cruelty to Israel.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Judah's charge is different",
+    "body": "Judah is condemned for rejecting Yahweh's law (2:4), not for war crimes. Many scholars think this oracle was added for later Judean readers, since its style differs from the others. Either way, it shows that Amos's own people are not exempt.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "A pair of shoes",
+    "body": "Israel sells the needy for a pair of shoes (2:6), probably meaning that people were sold into debt slavery for trivial debts. Some suggest sandals were used as a token in land transactions. The same charge reappears in 8:6.",
+    "refs": [
+     "Amos 8:6",
+     "Ruth 4:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Pledged cloaks",
+    "body": "The law said that a poor man's cloak taken as a pledge must be returned before nightfall, since it was his blanket. Israel's elite lie beside the altars on such cloaks and drink wine bought with fines (2:8). Their very worship is built on exploitation.",
+    "refs": [
+     "Exodus 22:26-27",
+     "Deuteronomy 24:12-13"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The longest oracle",
+    "body": "Israel's oracle is longer than all the others and lists many sins rather than one (2:6-8). Israel had been prosperous under Jeroboam II, but the wealth went to the few. The climax shows Amos's real target.",
+    "refs": [
+     "2 Kings 14:25-27"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Remembering grace",
+    "body": "God reminds Israel of the exodus, the wilderness, the conquest of the Amorites, and the prophets and Nazirites he raised up (2:9-11). Their sins are not just broken rules but ingratitude toward a rescuer. The giant Amorites recall the spies' report in Numbers.",
+    "refs": [
+     "Numbers 13:32-33",
+     "Deuteronomy 2:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Silencing the prophets",
+    "body": "Israel made the Nazirites drink wine and told the prophets not to prophesy (2:12). Amos himself will be told to leave in chapter 7. Corrupting those devoted to God and silencing those who speak for him is presented as a sin on a par with oppressing the poor.",
+    "refs": [
+     "Numbers 6:1-4",
+     "Amos 7:12-13"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "No escape for the strong",
+    "body": "The swift, the strong, the archer and the horseman will all fail (2:14-16), and the bravest will flee naked. Everything Israel relied on for security is listed and dismissed. What do people rely on today that would fail in the same way?",
+    "refs": [
+     "Psalms 33:16-17"
+    ]
+   }
+  ]
+ },
+ "3": {
+  "summary": "Amos insists that Israel's chosen status makes it more accountable, defends his right to prophesy with a series of cause-and-effect questions, and announces that Samaria's luxury will be stripped away.",
+  "lookfor": "Notice the chain of questions in 3:3-8, which nations are called as witnesses, and the image of what a shepherd rescues from a lion.",
+  "names": [
+   {
+    "name": "Ashdod",
+    "kind": "place",
+    "gloss": "A Philistine city on the coast."
+   },
+   {
+    "name": "Samaria",
+    "kind": "place",
+    "gloss": "Capital of the northern kingdom, built on a hill."
+   },
+   {
+    "name": "Bethel",
+    "kind": "place",
+    "gloss": "Israel's royal sanctuary on its southern border."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Known, therefore punished",
+    "body": "God says, I have only chosen you of all the families of the earth (3:2); the Hebrew verb is know, meaning an intimate, covenant relationship. Israel assumed that being chosen meant protection. Amos draws the opposite conclusion: closeness means greater accountability.",
+    "refs": [
+     "Deuteronomy 7:6-8",
+     "Luke 12:48"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Questions with obvious answers",
+    "body": "Do two walk together unless they agreed? Will a lion roar with no prey? (3:3-6) Each question expects the answer no, and each describes a cause behind an effect. The series leads up to the point: Amos speaks because God has spoken (3:8).",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "Does evil happen and Yahweh hasn't done it?",
+    "body": "The word for evil in 3:6 means disaster or calamity, not moral evil. Amos means that disasters striking a city are not random but within God's purposes. Readers continue to wrestle with how to understand God's role in calamity.",
+    "refs": [
+     "Isaiah 45:7",
+     "Lamentations 3:37-38"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The secret to the prophets",
+    "body": "The Lord Yahweh will do nothing unless he reveals his secret to his servants the prophets (3:7). The word for secret, sod, also means a council. Jeremiah describes true prophets as those who stood in the council of Yahweh.",
+    "refs": [
+     "Jeremiah 23:18-22",
+     "Genesis 18:17"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Foreign witnesses",
+    "body": "Amos calls Ashdod and Egypt to gather on the hills of Samaria to see its oppression (3:9). Even pagan nations, Israel's old oppressors, are summoned to testify. The thought is that Samaria's injustice would shock outsiders.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Two legs and an ear",
+    "body": "Under the law, a shepherd whose sheep was killed by a wild animal brought back remains as evidence that he had not stolen it. Amos says Israel will be rescued like that: two legs or a piece of an ear (3:12). The rescue only proves the animal is dead.",
+    "refs": [
+     "Exodus 22:13",
+     "Genesis 31:39"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Houses of ivory",
+    "body": "Excavations at Samaria have uncovered hundreds of carved ivory pieces once inlaid in furniture and walls, dating from this period. Ahab built an ivory house there. Winter and summer houses (3:15) were a mark of great wealth.",
+    "refs": [
+     "1 Kings 22:39",
+     "Amos 6:4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The horns of the altar",
+    "body": "The horns of Bethel's altar will be cut off (3:14). A fugitive could grasp the altar's horns to seek sanctuary. If even the place of refuge is destroyed, where can anyone flee? What does Amos suggest about refuge sought in religious places rather than in God?",
+    "refs": [
+     "1 Kings 1:50-51",
+     "Amos 9:1"
+    ]
+   }
+  ]
+ },
+ "4": {
+  "summary": "Amos condemns the wealthy women of Samaria, mocks Israel's busy worship, and lists the disasters God sent that failed to bring Israel back, ending with the warning to prepare to meet God.",
+  "lookfor": "Listen for the refrain repeated after each disaster in 4:6-11, and notice what Amos says Israel's worship really pleases.",
+  "names": [
+   {
+    "name": "Bashan",
+    "kind": "place",
+    "gloss": "Fertile pastureland east of the Sea of Galilee, famous for fat cattle."
+   },
+   {
+    "name": "Harmon",
+    "kind": "place",
+    "gloss": "An unknown place; the Hebrew is obscure, possibly toward Mount Hermon."
+   },
+   {
+    "name": "Gilgal",
+    "kind": "place",
+    "gloss": "An ancient sanctuary near Jericho."
+   },
+   {
+    "name": "Sodom",
+    "kind": "place",
+    "gloss": "A city destroyed by God in Abraham's day, a byword for judgment."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Cows of Bashan",
+    "body": "Bashan's cattle were famously well fed. Amos calls the wealthy women of Samaria cows of Bashan who oppress the poor and order their husbands to bring drinks (4:1). The insult is sharp but the charge is specific: their luxury is paid for by the poor.",
+    "refs": [
+     "Psalms 22:12",
+     "Deuteronomy 32:14"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Led away with hooks",
+    "body": "The women will be taken away with hooks and fish hooks (4:2). Assyrian reliefs show captives led by ropes attached to rings or hooks in their noses or lips. They will be dragged out through breaches in the city wall (4:3).",
+    "refs": [
+     "2 Kings 19:28"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Go to Bethel, and sin",
+    "body": "Amos parodies a priest's call to worship: Go to Bethel, and sin; to Gilgal, and sin more (4:4). The people bring sacrifices and tithes eagerly, but this pleases you (4:5), not God. Worship has become self-display.",
+    "refs": [
+     "Hosea 4:15"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Yet you haven't returned",
+    "body": "Five times God lists a disaster: famine, drought, blight, plague, destruction, each followed by yet you haven't returned to me (4:6-11). The refrain shows that the disasters were meant as warnings. Leviticus and Deuteronomy describe similar curses meant to call Israel back.",
+    "refs": [
+     "Leviticus 26:18-26",
+     "Deuteronomy 28:22-24"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Cleanness of teeth",
+    "body": "Cleanness of teeth (4:6) is a vivid idiom for famine: there is nothing to get stuck between them. Amos's language is often earthy and drawn from farm life. He was a farmer and herdsman.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "A brand plucked from the fire",
+    "body": "Israel was like a burning stick plucked out of the fire (4:11), barely saved. Zechariah uses the same image for the high priest Joshua. John Wesley later applied the phrase to himself after being rescued from a burning house as a child.",
+    "refs": [
+     "Zechariah 3:2"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Prepare to meet your God",
+    "body": "Prepare to meet your God (4:12) is often heard today as a warning of death. In context, it follows God's failed attempts to bring Israel back, and the meeting will be one of judgment. What is it that God will do (4:12)? The text leaves it unsaid.",
+    "refs": [
+     "Exodus 19:17"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A hymn to the Creator",
+    "body": "The chapter ends with a short hymn to the God who forms mountains and creates the wind (4:13). Similar hymn fragments appear in 5:8-9 and 9:5-6. They remind Israel that the one they will meet is Creator of all, not just the God of their national shrines.",
+    "refs": [
+     "Amos 5:8-9",
+     "Amos 9:5-6"
+    ]
+   }
+  ]
+ },
+ "5": {
+  "summary": "Amos laments Israel's fall, calls them to seek Yahweh and live, warns that the day of Yahweh will be darkness, and declares that God hates their feasts but wants justice to roll like rivers.",
+  "lookfor": "Notice the repeated call to seek, the warning about the day of Yahweh, and the contrast between festivals and justice.",
+  "names": [
+   {
+    "name": "Beersheba",
+    "kind": "place",
+    "gloss": "A town and sanctuary in the far south of Judah, linked with Abraham and Isaac."
+   },
+   {
+    "name": "Joseph",
+    "kind": "group",
+    "gloss": "The house of Joseph, the tribes of Ephraim and Manasseh, standing for the northern kingdom."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "A funeral song",
+    "body": "Amos begins with a lament (5:1-2) for the virgin of Israel, as if Israel were already dead. The rhythm of the Hebrew is the limping qinah metre used for funeral songs. He sings a dirge for a nation that thought it was flourishing.",
+    "refs": [
+     "Lamentations 1:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Seek me and live",
+    "body": "The command to seek me and live (5:4, 5:6, 5:14) comes three times. Seeking God is set against seeking the shrines at Bethel, Gilgal and Beersheba (5:5). The Hebrew contains puns: Gilgal will go into exile, and Bethel will become nothing.",
+    "refs": [
+     "Deuteronomy 30:15-20"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Justice in the gate",
+    "body": "The city gate was where elders heard disputes and judged. Those who reprove in the gate are hated (5:10), and the powerful take bribes and turn away the needy (5:12). Justice in the gate (5:15) means fair courts.",
+    "refs": [
+     "Deuteronomy 16:18-20",
+     "Ruth 4:1-2"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Darkness, not light",
+    "body": "Israel looked forward to the day of Yahweh as a day of victory over its enemies. Amos is the first prophet known to have turned it around: it will be darkness, not light (5:18-20). Escaping the lion only to meet a bear and a snake (5:19) shows that there will be no escape.",
+    "refs": [
+     "Joel 2:1-2",
+     "Zephaniah 1:14-15"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Let justice roll",
+    "body": "Let justice roll on like rivers, and righteousness like a mighty stream (5:24). Most streams in the land dry up in summer; Amos wants justice that never stops flowing. Martin Luther King Jr. quoted this verse repeatedly in the civil rights movement, including in his 1963 speech in Washington.",
+    "refs": [
+     "Micah 6:8",
+     "Isaiah 1:16-17"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "I hate your feasts",
+    "body": "God says he hates their feasts and will not accept their offerings or hear their songs (5:21-23). Amos is not rejecting worship itself but worship cut off from justice. Similar words appear in Isaiah, Hosea and Micah.",
+    "refs": [
+     "Isaiah 1:11-17",
+     "Hosea 6:6"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Stephen quotes Amos",
+    "body": "Stephen quotes 5:25-27 in his speech before the council, following the Greek version, which reads Moloch and Rephan. The Hebrew names are Sakkuth and Kaiwan, often understood as Assyrian astral deities linked with the planet Saturn. Stephen uses the passage to show Israel's long record of idolatry.",
+    "refs": [
+     "Acts 7:42-43"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "It may be",
+    "body": "Even after commanding Israel to hate evil and love good, Amos can only say it may be that God will be gracious (5:15). He promises nothing. Why might prophets leave room for hope without guaranteeing it?",
+    "refs": [
+     "Joel 2:14",
+     "Zephaniah 2:3"
+    ]
+   }
+  ]
+ },
+ "6": {
+  "summary": "Amos pronounces woe on the complacent elite of Zion and Samaria who feast on ivory couches while ignoring the nation's ruin, and announces that they will be the first to go into exile.",
+  "lookfor": "Notice the details of the banquet in 6:4-6, what the feasters are not grieved about, and the absurd questions in 6:12.",
+  "names": [
+   {
+    "name": "Calneh",
+    "kind": "place",
+    "gloss": "A city in northern Syria, conquered by Assyria."
+   },
+   {
+    "name": "Hamath",
+    "kind": "place",
+    "gloss": "An important Aramean city on the Orontes river in Syria."
+   },
+   {
+    "name": "Gath",
+    "kind": "place",
+    "gloss": "A Philistine city."
+   },
+   {
+    "name": "Arabah",
+    "kind": "place",
+    "gloss": "The rift valley south of the Dead Sea; its brook marked Israel's southern border."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "At ease in Zion",
+    "body": "Woe to those who are at ease in Zion and secure in Samaria (6:1). Israel's leaders felt safe because they had recently expanded the kingdom's borders. Amos asks whether other kingdoms like Calneh, Hamath and Gath are better (6:2); these cities were or would be conquered.",
+    "refs": [
+     "2 Kings 14:25-28"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The marzeah banquet",
+    "body": "The feasting and lounging (6:7) translates marzeah, a type of banquet known from texts across the ancient Near East, often connected with drinking and sometimes with mourning for the dead. Amos describes it in detail: ivory beds, choice meat, music, wine in bowls and fine oils (6:4-6).",
+    "refs": [
+     "Jeremiah 16:5"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Like David",
+    "body": "The feasters improvise songs on instruments like David (6:5). David was remembered as a musician who served God; these use music to entertain themselves. Their reference to David may have flattered them, but Amos makes it an accusation.",
+    "refs": [
+     "1 Chronicles 23:5",
+     "1 Samuel 16:23"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Not grieved for Joseph",
+    "body": "Their sin is that they are not grieved for the affliction of Joseph (6:6). Amos does not say feasting is wrong but that indifference to the nation's collapse is. What does it mean to enjoy good things while others suffer?",
+    "refs": [
+     "Luke 16:19-25"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Don't mention the name",
+    "body": "In a plague-stricken house, a survivor will say: Hush! We must not mention Yahweh's name (6:10). The people fear that even saying God's name might draw more judgment. The scene is eerie and stark.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Plowing rocks",
+    "body": "Do horses run on rocks? Does anyone plow rock with oxen? (6:12). These are absurd; so is turning justice into poison. Injustice is presented as contrary to the nature of things.",
+    "refs": [
+     "Amos 5:7"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Lo Debar and Karnaim",
+    "body": "In 6:13, the Hebrew names two towns Israel had captured in Transjordan, Lo Debar and Karnaim, which the WEB translates by their meanings: a thing of nothing and horns. The pun mocks Israel's boasting. Its victories are nothing, and its strength is self-made.",
+    "refs": [
+     "2 Samuel 9:4"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "From Hamath to the Arabah",
+    "body": "God will raise up a nation to afflict Israel from the entrance of Hamath to the brook of the Arabah (6:14). These are exactly the borders that Jeroboam II had restored. The territory Israel boasted of will become the stage of its defeat by Assyria.",
+    "refs": [
+     "2 Kings 14:25"
+    ]
+   }
+  ]
+ },
+ "7": {
+  "summary": "Amos sees three visions: locusts and fire, which he averts through prayer, and a plumb line that seals judgment; then the priest Amaziah orders him out of Bethel, and Amos replies.",
+  "lookfor": "Notice what Amos prays in the first two visions and why he does not pray after the third, and how Amaziah and Amos describe each other.",
+  "names": [
+   {
+    "name": "Amaziah",
+    "kind": "person",
+    "gloss": "The priest in charge of the royal sanctuary at Bethel."
+   },
+   {
+    "name": "Jeroboam",
+    "kind": "person",
+    "gloss": "Jeroboam II, king of Israel."
+   },
+   {
+    "name": "Isaac",
+    "kind": "person",
+    "gloss": "Abraham's son, used here as a poetic name for Israel."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "The prophet who prayed",
+    "body": "In the first two visions, Amos pleads: How could Jacob stand? For he is small (7:2, 7:5). Both times God relents. Amos is often seen only as a stern judge, but here he intercedes like Moses.",
+    "refs": [
+     "Exodus 32:11-14",
+     "Jeremiah 15:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The king's harvest",
+    "body": "The locusts come after the king's harvest (7:1), the first cutting, which seems to have gone to the king as tax. The farmers' second crop, the one they lived on, is the one destroyed. The detail fits the book's concern for the poor.",
+    "refs": [
+     "1 Kings 4:7"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A plumb line",
+    "body": "The traditional translation plumb line comes from the Hebrew anak (7:7-8), a word found only here. It may mean tin or lead. If it is a plumb line, it measures whether the wall stands straight; if tin, it may suggest weakness or a weapon. Either way, the third vision ends Amos's intercession.",
+    "refs": [
+     "2 Kings 21:13",
+     "Isaiah 28:17"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Conspiracy at Bethel",
+    "body": "Amaziah reports to the king that Amos has conspired against him (7:10). Bethel was the king's sanctuary (7:13), the official shrine of the state. Amaziah treats prophecy against the nation as treason. His accusation also misquotes Amos slightly.",
+    "refs": [
+     "1 Kings 12:28-33"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Go home and earn your bread",
+    "body": "Amaziah tells Amos to go back to Judah and eat bread there (7:12), suggesting he prophesies for money. Amos's reply, I was no prophet ... but a herdsman (7:14), denies being a professional prophet. The Hebrew has no verb, so it can be read I am no prophet or I was no prophet.",
+    "refs": [
+     "Micah 3:5",
+     "Amos 1:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Sycamore figs",
+    "body": "Amos was a farmer of sycamore figs (7:14). These were a cheap food, and growers pierced or scraped the fruit to make it ripen and become sweet. Sycamore figs grew in lowland areas, not around Tekoa, so Amos may have travelled or managed land elsewhere.",
+    "refs": [
+     "1 Kings 10:27",
+     "Luke 19:4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Taken from the flock",
+    "body": "Yahweh took me from following the flock (7:15) echoes the call of David, also taken from following the sheep. God chooses people from unlikely places. Amos's authority comes from that call, not from any office.",
+    "refs": [
+     "2 Samuel 7:8",
+     "Psalms 78:70-71"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The priest's fate",
+    "body": "Amos announces terrible consequences for Amaziah's family (7:17). The narrative does not tell us what happened to him. Why might the conflict between a state priest and a prophet without credentials be preserved at the heart of the book?",
+    "refs": [
+     "Jeremiah 20:1-6"
+    ]
+   }
+  ]
+ },
+ "8": {
+  "summary": "In a fourth vision of summer fruit, Amos announces the end for Israel, condemns merchants who cheat the poor and resent the Sabbath, and warns of darkness at noon and a famine of hearing God's word.",
+  "lookfor": "Notice the wordplay in the vision, what the merchants say about holy days, and the different kinds of famine.",
+  "names": [
+   {
+    "name": "Dan",
+    "kind": "place",
+    "gloss": "A city in the far north of Israel with a royal sanctuary and golden calf."
+   },
+   {
+    "name": "Beersheba",
+    "kind": "place",
+    "gloss": "A sanctuary town in the far south of Judah."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Summer fruit and the end",
+    "body": "God shows Amos a basket of summer fruit, qayits, and says the end, qets, has come (8:1-2). The words sound almost the same in Hebrew. Late-summer fruit is the last harvest of the year, ripe and about to spoil.",
+    "refs": [
+     "Jeremiah 1:11-12"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Waiting for the Sabbath to end",
+    "body": "The merchants can hardly wait for the new moon and Sabbath to end so they can sell grain (8:5). Commerce stopped on these holy days. Their religion is a pause in cheating rather than a change of heart.",
+    "refs": [
+     "Nehemiah 13:15-18",
+     "Exodus 20:8-10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Small ephah, large shekel",
+    "body": "They make the ephah small and the shekel large (8:5), selling short measures of grain while weighing payment with heavy weights. Archaeologists have found standard weights in Israel that vary noticeably. The law demanded honest weights and measures.",
+    "refs": [
+     "Leviticus 19:35-36",
+     "Deuteronomy 25:13-16",
+     "Proverbs 11:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Selling the sweepings",
+    "body": "They sell the sweepings with the wheat (8:6), mixing chaff into the grain they sell. And they buy the poor for silver and the needy for a pair of shoes, repeating the charge of 2:6. The poor are exploited both as customers and as property.",
+    "refs": [
+     "Amos 2:6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The sun at noon",
+    "body": "I will cause the sun to go down at noon (8:9). A total eclipse of the sun was visible in the region on 15 June 763 BC, recorded in Assyrian records, and some scholars think it lies behind this image. The Gospels report darkness at midday at Jesus's death.",
+    "refs": [
+     "Matthew 27:45"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Mourning for an only son",
+    "body": "The day will be like mourning for an only son (8:10), the most bitter grief in ancient Israel, when a family's future died. Zechariah uses the same image of mourning for an only son.",
+    "refs": [
+     "Zechariah 12:10",
+     "Jeremiah 6:26"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A famine of hearing",
+    "body": "God will send a famine not of bread but of hearing Yahweh's words (8:11). People who silenced the prophets will search everywhere for a word from God and not find it (8:12). In the time of Eli, too, the word of Yahweh was rare.",
+    "refs": [
+     "1 Samuel 3:1",
+     "Amos 2:12",
+     "Deuteronomy 8:3"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Thirsty young people",
+    "body": "The beautiful virgins and the young men will faint for thirst (8:13). Even the strongest and most hopeful members of society will be spiritually exhausted. What might a famine of God's word look like in an age of abundant words?",
+    "refs": []
+   }
+  ]
+ },
+ "9": {
+  "summary": "In a final vision Amos sees the Lord beside the altar ordering its destruction, with no escape for anyone, yet the book ends with the promise that God will rebuild David's fallen tent and restore Israel.",
+  "lookfor": "Notice all the places where people try to hide, the surprising comparison in 9:7, and the change of tone at 9:11.",
+  "names": [
+   {
+    "name": "Carmel",
+    "kind": "place",
+    "gloss": "A wooded ridge on Israel's northern coast."
+   },
+   {
+    "name": "Ethiopians",
+    "kind": "group",
+    "gloss": "In Hebrew Cushites, people of the land south of Egypt."
+   },
+   {
+    "name": "Caphtor",
+    "kind": "place",
+    "gloss": "Probably Crete, the Philistines' place of origin."
+   },
+   {
+    "name": "Kir",
+    "kind": "place",
+    "gloss": "A place in Mesopotamia from which the Arameans came."
+   },
+   {
+    "name": "Edom",
+    "kind": "place",
+    "gloss": "Judah's southern neighbour."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "The Lord beside the altar",
+    "body": "The last vision is the most terrible: God himself stands beside the altar and orders the temple shaken so that it falls on the worshippers (9:1). The place they trusted for protection becomes the place of judgment. The altar is probably Bethel's.",
+    "refs": [
+     "Amos 3:14"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "No place to hide",
+    "body": "Though they dig into Sheol or climb to heaven, hide on Carmel or at the bottom of the sea (9:2-3), God will find them. Psalm 139 uses the same pairs to comfort: wherever I go, you are there. Amos turns that comfort into a threat.",
+    "refs": [
+     "Psalms 139:7-10",
+     "Jeremiah 23:24"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Like the Ethiopians",
+    "body": "Are you not like the children of the Ethiopians to me? (9:7) God says he brought the Philistines from Caphtor and the Arameans from Kir as he brought Israel from Egypt. The exodus is not proof that God has no concern for other peoples. Israel cannot claim special treatment while acting unjustly.",
+    "refs": [
+     "Amos 3:2",
+     "Deuteronomy 2:10-12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Not utterly destroyed",
+    "body": "God will destroy the sinful kingdom, except that I will not utterly destroy the house of Jacob (9:8). Israel will be shaken in a sieve among the nations, but no kernel will fall to the ground (9:9). The image suggests a remnant preserved through judgment.",
+    "refs": [
+     "Luke 22:31-32"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The fallen tent of David",
+    "body": "God will raise up the tent of David who is fallen (9:11). At the Jerusalem council, James quotes this passage from the Greek version to argue that Gentiles can be part of God's people without becoming Jews. The Greek reads that the rest of humanity may seek the Lord.",
+    "refs": [
+     "Acts 15:13-18"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A later addition?",
+    "body": "Many scholars think 9:11-15 was added after the fall of Jerusalem, because it speaks of David's house as fallen and promises return from captivity. Others argue that judgment followed by hope is typical of prophets and that Amos could have seen beyond the disaster. Either way, the book ends with hope, not only doom.",
+    "refs": [
+     "Hosea 3:5"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The plowman overtakes the reaper",
+    "body": "The harvest will be so great that the plowman will catch up with the reaper (9:13), and the mountains will drip with sweet wine. The curses of the book are reversed: people will rebuild and live in their cities and drink their own wine (9:14), unlike the threat of 5:11.",
+    "refs": [
+     "Amos 5:11",
+     "Joel 3:18",
+     "Leviticus 26:5"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Planted, never plucked up",
+    "body": "The final promise is that Israel will be planted in its land and never plucked up again (9:15). How do judgment and restoration fit together in a book that has spoken so severely? Readers continue to ask how this promise relates to later history.",
+    "refs": [
+     "Jeremiah 24:6"
+    ]
+   }
+  ]
+ },
+ "intro": {
+  "who": "Amos, a herdsman and grower of sycamore figs from Tekoa in Judah, who was sent to prophesy in the northern kingdom of Israel. Most scholars accept that the core of the book goes back to him, with some passages, such as the hopeful ending, possibly added by later editors in Judah.",
+  "when": "He spoke in the reign of Jeroboam II of Israel and Uzziah of Judah, around 760 to 750 BC, two years before a remembered earthquake, when Israel was prosperous and confident.",
+  "why": "It confronts a wealthy, religious society with its injustice to the poor, insisting that worship without justice is hateful to God and that the day of Yahweh will bring judgment on Israel, not only on its enemies.",
+  "outline": [
+   {
+    "chapters": "1–2",
+    "title": "Judgment on the nations"
+   },
+   {
+    "chapters": "3–4",
+    "title": "Hear this word"
+   },
+   {
+    "chapters": "5–6",
+    "title": "Seek me and live"
+   },
+   {
+    "chapters": "7–9",
+    "title": "Five visions and restoration"
+   }
+  ],
+  "verse": "Amos 5:24"
+ }
+}
