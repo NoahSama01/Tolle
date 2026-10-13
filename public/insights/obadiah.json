@@ -1,0 +1,137 @@
+{
+ "1": {
+  "summary": "Obadiah announces that proud Edom, secure in its mountain strongholds, will be brought down for gloating over and plundering Judah when Jerusalem fell, while Mount Zion will be restored and the kingdom will be Yahweh's.",
+  "lookfor": "Notice Edom's boast in 1:3, the list of things Edom should not have done on the day of Judah's disaster, and the principle in 1:15.",
+  "names": [
+   {
+    "name": "Obadiah",
+    "kind": "person",
+    "gloss": "The prophet; his name means servant or worshipper of Yahweh."
+   },
+   {
+    "name": "Edom",
+    "kind": "place",
+    "gloss": "The mountainous land south-east of the Dead Sea, home of Esau's descendants."
+   },
+   {
+    "name": "Esau",
+    "kind": "person",
+    "gloss": "Jacob's twin brother and ancestor of the Edomites."
+   },
+   {
+    "name": "Teman",
+    "kind": "place",
+    "gloss": "A region or city of Edom, famed for wisdom."
+   },
+   {
+    "name": "Jacob",
+    "kind": "person",
+    "gloss": "Esau's twin, ancestor of Israel, here standing for Judah."
+   },
+   {
+    "name": "Zarephath",
+    "kind": "place",
+    "gloss": "A Phoenician town between Tyre and Sidon."
+   },
+   {
+    "name": "Sepharad",
+    "kind": "place",
+    "gloss": "Probably Sardis in Asia Minor; later Jewish tradition took it as Spain."
+   },
+   {
+    "name": "Negev",
+    "kind": "place",
+    "gloss": "The dry southern region of Judah."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The day of Jerusalem",
+    "body": "When Babylon destroyed Jerusalem in 586 BC, Edom took advantage: it seized fleeing refugees and plundered the city (1:11-14). A psalm remembers the Edomites shouting Raze it! as the city fell. Several prophets condemn Edom for this betrayal.",
+    "refs": [
+     "Psalms 137:7",
+     "Ezekiel 35:10-15",
+     "Lamentations 4:21-22"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Clefts of the rock",
+    "body": "Edom's heartland was a high, rugged plateau with cliffs and narrow gorges, easy to defend (1:3). Edom's cities, like Bozrah and Sela, were strongholds. Later, the Nabataeans carved the city of Petra into the rock of the same region.",
+    "refs": [
+     "2 Kings 14:7",
+     "Jeremiah 49:16"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Shared with Jeremiah",
+    "body": "Verses 1-9 closely resemble Jeremiah's oracle against Edom, sometimes word for word. Scholars debate whether one borrowed from the other or both drew on an older oracle. Either way, Edom's pride was a recognised theme.",
+    "refs": [
+     "Jeremiah 49:7-22"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Brothers at war",
+    "body": "Edom's crime is worse because Jacob is your brother (1:10). The rivalry goes back to the twins struggling in Rebekah's womb. The law commanded Israel not to despise an Edomite, for he is your brother, but the brotherhood was betrayed on both sides over the centuries.",
+    "refs": [
+     "Genesis 25:22-23",
+     "Deuteronomy 23:7",
+     "Numbers 20:14-21"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Eight don'ts",
+    "body": "Verses 12-14 list eight things Edom should not have done, from looking down on Judah to handing over survivors. Each ends with a phrase like in the day of their calamity. The list moves from gloating to looting to active violence, showing how indifference escalates.",
+    "refs": [
+     "Proverbs 24:17-18"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "As you have done",
+    "body": "As you have done, it will be done to you (1:15) states the principle of the book. The day of Yahweh is near for all nations, not just Edom. Jesus's saying that the measure you give will be the measure you get echoes the same principle.",
+    "refs": [
+     "Matthew 7:2",
+     "Galatians 6:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "What happened to Edom",
+    "body": "Edom lost its homeland when Arab peoples, including the Nabataeans, moved in during the Persian period. Edomites shifted west into southern Judah, called Idumea. In the 2nd century BC the Judean ruler John Hyrcanus forced them to convert, and King Herod the Great was of Idumean descent.",
+    "refs": [
+     "Malachi 1:3-4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Saviors on Mount Zion",
+    "body": "The book ends with saviors going up to Mount Zion to judge Esau, and the kingdom will be Yahweh's (1:21). Is this vindication or revenge? The final word gives the kingdom not to Judah but to God, which may be the point.",
+    "refs": [
+     "Psalms 22:28",
+     "Revelation 11:15"
+    ]
+   }
+  ]
+ },
+ "intro": {
+  "who": "Obadiah, whose name means servant of Yahweh; nothing else is known of him. The Talmud identified him with the Obadiah who hid prophets from Ahab, but most interpreters, ancient and modern, see a later prophet of Judah.",
+  "when": "Most scholars date it soon after the Babylonians destroyed Jerusalem in 586 BC, when Edom joined in plundering Judah. Some earlier interpreters linked it to an Edomite revolt in the 9th century BC.",
+  "why": "The shortest book of the Old Testament announces God's judgment on Edom for betraying its brother nation Judah in its disaster, and promises that the kingdom will belong to Yahweh.",
+  "outline": [
+   {
+    "chapters": "1",
+    "title": "Edom brought down"
+   }
+  ],
+  "verse": "Obadiah 1:15"
+ }
+}
