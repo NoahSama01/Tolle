@@ -1,0 +1,889 @@
+{
+ "1": {
+  "summary": "King Ahasuerus throws lavish feasts at Susa, and when Queen Vashti refuses to appear at his command, she is deposed by royal decree.",
+  "lookfor": "Notice the scale of the feasts, how much wine is involved, the king's reliance on advisers, and the irony of a decree ordering men to rule their own homes.",
+  "names": [
+   {
+    "name": "Ahasuerus",
+    "kind": "person",
+    "gloss": "The Persian king, usually identified with Xerxes I (486–465 BC)."
+   },
+   {
+    "name": "Shushan",
+    "kind": "place",
+    "gloss": "Susa, in south-west Iran, the Persian kings' winter capital."
+   },
+   {
+    "name": "Vashti",
+    "kind": "person",
+    "gloss": "Ahasuerus's queen, deposed for refusing his summons."
+   },
+   {
+    "name": "Memucan",
+    "kind": "person",
+    "gloss": "One of the king's seven chief advisers, who proposes Vashti's removal."
+   },
+   {
+    "name": "Media",
+    "kind": "place",
+    "gloss": "A region of north-west Iran joined with Persia in one empire."
+   },
+   {
+    "name": "Ethiopia",
+    "kind": "place",
+    "gloss": "Cush, the land south of Egypt, the empire's south-western edge."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "The palace at Susa",
+    "body": "French excavations at Susa uncovered the palace of Darius I and Xerxes, with its great columned hall. The rich hangings, couches and coloured stone pavement described here (1:6) fit what is known of Persian royal splendour.",
+    "refs": [
+     "Nehemiah 1:1",
+     "Daniel 8:2"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A six-month display",
+    "body": "The feast fell in the king's third year (1:3), around 483 BC. The Greek historian Herodotus describes Xerxes gathering his nobles about then to plan his invasion of Greece. A 180-day display of wealth (1:4) would suit a ruler rallying support for war.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "A book of feasts",
+    "body": "The Hebrew mishteh, a drinking feast, runs through Esther from the king's banquets to Esther's own and finally the feasting of Purim. Key turns in the story happen at feasts. The book that begins with royal drinking ends with a people's celebration.",
+    "refs": [
+     "Esther 5:4",
+     "Esther 9:17-19"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Vashti's refusal",
+    "body": "Vashti is summoned \"to show the people and the princes her beauty\" (1:11), and she refuses (1:12). The text gives no reason. Later Jewish interpreters filled the gap in different ways, and modern readers have often admired her courage.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Laws that cannot be altered",
+    "body": "Memucan proposes a decree \"among the laws of the Persians and the Medes, so that it cannot be altered\" (1:19). Daniel mentions the same rule. The idea becomes crucial in Esther when one irreversible decree has to be countered by another.",
+    "refs": [
+     "Daniel 6:8",
+     "Esther 8:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Comedy at court",
+    "body": "The most powerful king on earth cannot make his wife come to dinner, and his response is an empire-wide decree that every man should rule his own house (1:22). Many readers see the writer gently mocking the court. Under the humour, the story shows how quickly the king's whims become law.",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A book without God's name",
+    "body": "Esther never mentions God, prayer, the Temple or the law. Even so, Jewish and Christian readers have long seen God at work behind the scenes. The Greek version adds prayers and names God, and Catholic and Orthodox Bibles include those additions.",
+    "refs": [
+     "Proverbs 21:1"
+    ]
+   }
+  ]
+ },
+ "2": {
+  "summary": "Young women are gathered for the king, and Esther, an orphan raised by her cousin Mordecai, wins his favour and becomes queen, while Mordecai uncovers a plot against the king.",
+  "lookfor": "Watch what Esther keeps secret and why, how she wins favour at each stage, and the small act of loyalty recorded in the king's chronicles.",
+  "names": [
+   {
+    "name": "Mordecai",
+    "kind": "person",
+    "gloss": "A Jew of the tribe of Benjamin living at Susa, Esther's cousin and guardian."
+   },
+   {
+    "name": "Hadassah",
+    "kind": "person",
+    "gloss": "Esther's Hebrew name, meaning \"myrtle.\""
+   },
+   {
+    "name": "Esther",
+    "kind": "person",
+    "gloss": "An orphaned Jewish girl who becomes queen of Persia."
+   },
+   {
+    "name": "Hegai",
+    "kind": "person",
+    "gloss": "The eunuch in charge of the women's house."
+   },
+   {
+    "name": "Kish",
+    "kind": "person",
+    "gloss": "Mordecai's ancestor, sharing the name of King Saul's father."
+   },
+   {
+    "name": "Jeconiah",
+    "kind": "person",
+    "gloss": "King Jehoiachin of Judah, exiled to Babylon in 597 BC."
+   },
+   {
+    "name": "Bigthan",
+    "kind": "person",
+    "gloss": "A palace doorkeeper who plotted against the king."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "No real choice",
+    "body": "Young women were gathered \"to the citadel of Susa\" (2:3) by royal officers; they and their families had little say. Each spent a single night with the king and then lived in the concubines' house unless he called her again (2:14). The story does not dwell on the cost, but it is real.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Son of Kish, a Benjamite",
+    "body": "Mordecai's line runs back to \"Kish, a Benjamite\" (2:5), the name of Saul's father. Haman will be called an Agagite, recalling Agag, the Amalekite king Saul spared. Many readers see the old conflict between Saul and Agag replayed here.",
+    "refs": [
+     "1 Samuel 9:1",
+     "1 Samuel 15:8-9",
+     "Esther 3:1"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Two names",
+    "body": "Esther's Hebrew name Hadassah means myrtle (2:7). Esther is probably Persian for \"star,\" though some link it to the goddess Ishtar. Mordecai's name seems related to the Babylonian god Marduk. Jews in exile often carried two names, like Daniel and his friends.",
+    "refs": [
+     "Daniel 1:6-7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Keeping her identity hidden",
+    "body": "Esther does not reveal her people, because Mordecai told her not to (2:10, 2:20). Unlike Daniel, who refused the king's food, Esther blends in. Interpreters differ on whether this was wise caution or compromise.",
+    "refs": [
+     "Daniel 1:8"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A year of preparation",
+    "body": "Each woman underwent twelve months of beauty treatments, six with oil of myrrh and six with perfumes (2:12). Esther asked for nothing beyond what Hegai advised (2:15) and \"obtained favor in the sight of all those who looked at her.\"",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Plots in the palace",
+    "body": "Two doorkeepers plot against the king (2:21). Such conspiracies were real: Greek historians report that Xerxes himself was murdered in his palace by a court official in 465 BC. Mordecai's loyalty is written down and then seemingly forgotten (2:23).",
+    "refs": [
+     "Esther 6:1-2"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Like Joseph",
+    "body": "A young exile wins the favour of officials, rises to power in a foreign court, and is placed to save their people. Esther's story echoes Joseph's in Egypt, and Mordecai's later rise even more closely.",
+    "refs": [
+     "Genesis 39:21",
+     "Genesis 41:39-43"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Faith in a foreign system",
+    "body": "Esther survives and rises inside a system she did not choose. How do you live faithfully inside structures you cannot control?",
+    "refs": []
+   }
+  ]
+ },
+ "3": {
+  "summary": "When Mordecai refuses to bow to Haman, the newly promoted official casts lots and persuades the king to decree the destruction of all the Jews in the empire.",
+  "lookfor": "Notice how a personal insult grows into a plan of genocide, how Haman describes the Jews to the king, and how the chapter's final verse contrasts the palace and the city.",
+  "names": [
+   {
+    "name": "Haman",
+    "kind": "person",
+    "gloss": "The king's chief minister, an Agagite and enemy of the Jews."
+   },
+   {
+    "name": "Hammedatha",
+    "kind": "person",
+    "gloss": "Haman's father."
+   },
+   {
+    "name": "Agagite",
+    "kind": "group",
+    "gloss": "Probably meaning a descendant of Agag, king of the Amalekites, Israel's ancient enemy."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Why won't Mordecai bow?",
+    "body": "Israelites did bow to kings and officials, so bowing in itself was not idolatry. Mordecai's only explanation is \"that he was a Jew\" (3:4). Many readers link it to the ancient feud with Amalek; the Greek additions say he would not give a man honour due to God.",
+    "refs": [
+     "2 Samuel 14:4",
+     "Exodus 17:16"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Pur, the lot",
+    "body": "Haman casts \"Pur, that is, the lot\" (3:7) to choose a day. Pur is a Babylonian word for a lot or die; a clay die inscribed as the lot of an Assyrian official has been found. The festival of Purim takes its name from it, and Proverbs says every decision of the lot comes from Yahweh.",
+    "refs": [
+     "Esther 9:24-26",
+     "Proverbs 16:33"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Their laws are different",
+    "body": "Haman tells the king that \"a certain people\" scattered through the empire has different laws and does not keep the king's laws (3:8). He never names them. Paul and Silas later face a similar charge in Philippi, of being Jews who promote unlawful customs.",
+    "refs": [
+     "Acts 16:20-21"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Ten thousand talents",
+    "body": "Haman offers ten thousand talents of silver (3:9), an enormous sum, perhaps hoping to recover it from the plundered Jews. Herodotus reports the empire's annual tribute at around fifteen thousand talents. The king hands over his signet ring (3:10), giving Haman full authority.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "The eve of Passover",
+    "body": "The decree is written on the thirteenth of Nisan (3:12), the day before Passover, when Jews remember God saving them from Pharaoh. Jewish interpreters noticed the timing. The day chosen for the killing is nearly a year away (3:13).",
+    "refs": [
+     "Exodus 12:6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Drinking while the city reels",
+    "body": "\"The king and Haman sat down to drink; but the city of Shushan was perplexed\" (3:15). The chapter ends on the contrast between careless power and the confusion of ordinary people, including non-Jews.",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "An old enemy",
+    "body": "Haman is called \"the Jews' enemy\" (3:10). Israel's law called for a lasting struggle against Amalek, who attacked the weak at the rear of the exodus. Jewish tradition has seen in Haman every later attempt to destroy the Jewish people.",
+    "refs": [
+     "Deuteronomy 25:17-19"
+    ]
+   }
+  ]
+ },
+ "4": {
+  "summary": "As Jews across the empire mourn, Mordecai urges Esther to plead with the king, and after hesitating she decides to risk her life, asking all the Jews of Susa to fast for her.",
+  "lookfor": "Follow the messages passing back and forth, the law about approaching the king, Mordecai's challenge, and Esther's turn from hesitation to resolve.",
+  "names": [
+   {
+    "name": "Hathach",
+    "kind": "person",
+    "gloss": "A eunuch assigned to serve Esther, who carries messages."
+   },
+   {
+    "name": "Mordecai",
+    "kind": "person",
+    "gloss": "Esther's cousin and guardian."
+   },
+   {
+    "name": "Shushan",
+    "kind": "place",
+    "gloss": "Susa, the Persian capital."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Sackcloth at the gate",
+    "body": "Mordecai puts on sackcloth and ashes and wails through the city, but no one in sackcloth may pass the king's gate (4:1-2). Signs of mourning were kept from the king's presence. Esther sends clothes, and Mordecai refuses them (4:4).",
+    "refs": [
+     "Nehemiah 2:2"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Unsummoned means death",
+    "body": "Anyone who approached the king's inner court uncalled faced death unless he held out the golden scepter (4:11). Greek writers also describe how hard it was to reach a Persian king. Esther had not been called for thirty days.",
+    "refs": [
+     "Esther 5:2"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "From another place",
+    "body": "Mordecai says that if Esther stays silent, deliverance will arise \"from another place\" (4:14). Some readers hear a veiled reference to God; in later Jewish usage, \"the Place\" (HaMakom) became a name for God. Others take it simply as other human help.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "For such a time as this",
+    "body": "\"Who knows if you haven't come to the kingdom for such a time as this?\" (4:14) is the book's most quoted line. Like Joseph, who told his brothers God had sent him ahead to save lives, Esther is invited to see her position as purposeful.",
+    "refs": [
+     "Genesis 45:5",
+     "Genesis 50:20"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "If I perish, I perish",
+    "body": "Esther's words \"if I perish, I perish\" (4:16) echo Jacob's resigned \"If I am bereaved of my children, I am bereaved\" when he lets Benjamin go to Egypt. Both accept a risk they cannot avoid.",
+    "refs": [
+     "Genesis 43:14"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A fast without a prayer",
+    "body": "Esther asks for a three-day fast (4:16). Prayer is not mentioned, but in the Bible fasting usually goes with prayer. Jews still keep the Fast of Esther the day before Purim.",
+    "refs": [
+     "Ezra 8:21-23",
+     "Jonah 3:5-9"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Your place and your moment",
+    "body": "Esther's position gave her an opportunity no one else had, at great personal risk. Where might your own situation have placed you for the sake of others?",
+    "refs": []
+   }
+  ]
+ },
+ "5": {
+  "summary": "Esther approaches the king unbidden and is welcomed, invites him and Haman to two banquets, and meanwhile Haman builds a towering gallows for Mordecai.",
+  "lookfor": "Notice the moment of danger and how it is resolved, why Esther delays her request, and what spoils Haman's happiness.",
+  "names": [
+   {
+    "name": "Haman",
+    "kind": "person",
+    "gloss": "The king's chief minister and Mordecai's enemy."
+   },
+   {
+    "name": "Zeresh",
+    "kind": "person",
+    "gloss": "Haman's wife, who suggests the gallows."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "On the third day",
+    "body": "\"On the third day\" (5:1), after the fast, Esther puts on her royal robes and stands in the inner court. The king holds out the golden scepter and she touches its tip (5:2). The danger passes in a single sentence.",
+    "refs": [
+     "Esther 4:16"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Up to half the kingdom",
+    "body": "\"It shall be given you even to the half of the kingdom\" (5:3) was a courtly way of promising generosity, not a literal offer. Herod uses the same phrase to Herodias's daughter.",
+    "refs": [
+     "Mark 6:23"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why two banquets?",
+    "body": "Esther invites the king and Haman to a banquet, then postpones her request to a second (5:8). The text does not explain why. The delay builds suspense, flatters Haman, and leaves room for what happens that night.",
+    "refs": [
+     "Esther 6:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "All this avails me nothing",
+    "body": "Haman boasts of his wealth, sons and honours, then says, \"Yet all this avails me nothing, so long as I see Mordecai the Jew\" (5:13). One man's refusal to bow outweighs everything he has.",
+    "refs": [
+     "Proverbs 16:18"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Gallows or stake",
+    "body": "The Hebrew word translated \"gallows\" is ets, a tree or wooden pole. Persians often executed people by impaling or by displaying bodies on stakes. At fifty cubits, about 75 feet (5:14), it is deliberately excessive, built to be seen.",
+    "refs": [
+     "Ezra 6:11"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Pride on display",
+    "body": "Haman stands at the height of his power, invited alone with the king and queen, with a stake ready for his enemy. The reader can sense the fall coming. The Bible often shows God bringing the proud low and lifting the humble.",
+    "refs": [
+     "1 Samuel 2:7-8",
+     "Luke 1:52"
+    ]
+   }
+  ]
+ },
+ "6": {
+  "summary": "During a sleepless night the king learns that Mordecai was never rewarded, and the next morning Haman, expecting honour for himself, must lead Mordecai through the city in royal robes.",
+  "lookfor": "Look for the run of coincidences, Haman's mistaken assumption, and his wife's warning at the end.",
+  "names": [
+   {
+    "name": "Mordecai",
+    "kind": "person",
+    "gloss": "The Jew who had exposed a plot against the king."
+   },
+   {
+    "name": "Bigthana",
+    "kind": "person",
+    "gloss": "Another spelling of Bigthan, the doorkeeper who plotted against the king."
+   },
+   {
+    "name": "Teresh",
+    "kind": "person",
+    "gloss": "The other doorkeeper in the plot."
+   },
+   {
+    "name": "Zeresh",
+    "kind": "person",
+    "gloss": "Haman's wife."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "The night everything turns",
+    "body": "\"On that night, the king couldn't sleep\" (6:1). Many scholars see this as the hinge of the book: before it everything moves toward the Jews' destruction, after it everything reverses. The Greek version says the Lord took the king's sleep away; the Hebrew leaves the reader to notice.",
+    "refs": [
+     "Daniel 6:18",
+     "Psalms 121:4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A chain of coincidences",
+    "body": "The king cannot sleep, has the chronicles read, reaches the entry about Mordecai, learns nothing was done for him, and at that moment Haman walks into the court (6:1-4). Each is ordinary; together they look like design.",
+    "refs": [
+     "Proverbs 16:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Who would the king honour?",
+    "body": "Haman thinks, \"Who would the king delight to honor more than myself?\" (6:6). He designs the very honour he must give to the man he came to have killed. The scene is one of the Bible's great comic reversals.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Robes, horse and herald",
+    "body": "Mordecai rides through the city in royal clothing while a herald calls out before him (6:11). Pharaoh honoured Joseph the same way, with fine robes, a chariot and men crying out ahead.",
+    "refs": [
+     "Genesis 41:42-43"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A horse with a royal crown",
+    "body": "Haman asks for \"the horse that the king rides on, and on the head of which a crown royal is set\" (6:8). Assyrian and Persian art shows royal horses with ornamental headdresses. Using the king's own clothes and horse was to share in his majesty.",
+    "refs": [
+     "1 Kings 1:33"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Begun to fall",
+    "body": "Haman's wife and advisers say, \"If Mordecai, before whom you have begun to fall, is of Jewish descent, you will not prevail\" (6:13). The Hebrew word for fall, naphal, recurs: Haman will soon fall on Esther's couch (7:8).",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Providence in small things",
+    "body": "God is never named in this chapter, yet the timing seems anything but accidental. Where might you have missed God's hand in ordinary events?",
+    "refs": []
+   }
+  ]
+ },
+ "7": {
+  "summary": "At the second banquet Esther reveals her identity and Haman's plot, and the furious king has Haman hanged on the gallows he built for Mordecai.",
+  "lookfor": "Notice how Esther frames her request, the moment she names Haman, and how the gallows comes back into the story.",
+  "names": [
+   {
+    "name": "Harbonah",
+    "kind": "person",
+    "gloss": "One of the king's eunuchs, who points out Haman's gallows."
+   },
+   {
+    "name": "Haman",
+    "kind": "person",
+    "gloss": "The king's chief minister."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "My life and my people",
+    "body": "Esther asks first for her own life, then her people's (7:3). She uses the words of Haman's decree, \"to be destroyed, to be slain, and to perish\" (7:4), and says that slavery she would have accepted in silence. For the first time she openly identifies with the Jews.",
+    "refs": [
+     "Esther 3:13"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "We are sold",
+    "body": "\"We are sold, I and my people\" (7:4) recalls the money Haman offered the king (3:9). Esther tactfully exposes that the king himself was part of the bargain, without accusing him.",
+    "refs": [
+     "Esther 4:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Fallen on the couch",
+    "body": "Persians reclined on couches at meals. Haman throws himself on Esther's couch to plead (7:8), and the king returning from the garden reads it as assault. Strict rules governed men near the royal women, so the gesture sealed his fate.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Caught in his own trap",
+    "body": "Haman is hanged \"on the gallows that he had prepared for Mordecai\" (7:10). The psalms and proverbs speak of the wicked falling into the pit they dug and their violence coming back on their own heads.",
+    "refs": [
+     "Psalms 7:15-16",
+     "Proverbs 26:27"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "They covered his face",
+    "body": "As soon as the king speaks, \"they covered Haman's face\" (7:8). This may have been a sign that he was condemned. The man everyone had to bow to is now hidden from sight.",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "The danger is not over",
+    "body": "Haman is dead and \"the king's wrath pacified\" (7:10), but his decree still stands. Under Persian law it cannot be revoked. The next chapter must deal with that.",
+    "refs": [
+     "Esther 1:19",
+     "Esther 8:8"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Courage at the table",
+    "body": "Esther moves from hiding her identity to risking her life by revealing it. Her courage at the banquet complements Mordecai's refusal to bow. Both kinds of faithfulness are needed for the people's rescue.",
+    "refs": [
+     "Esther 4:16"
+    ]
+   }
+  ]
+ },
+ "8": {
+  "summary": "Mordecai receives Haman's office and the king's ring, and a new decree allows Jews everywhere to defend themselves, turning mourning into celebration.",
+  "lookfor": "Notice how the new decree mirrors the old one, what Mordecai wears, and how people across the empire respond.",
+  "names": [
+   {
+    "name": "Mordecai",
+    "kind": "person",
+    "gloss": "Now chief minister in Haman's place."
+   },
+   {
+    "name": "Haman the Agagite",
+    "kind": "person",
+    "gloss": "The executed enemy of the Jews, whose decree still stands."
+   },
+   {
+    "name": "India",
+    "kind": "place",
+    "gloss": "The Indus region, the empire's eastern edge."
+   },
+   {
+    "name": "Ethiopia",
+    "kind": "place",
+    "gloss": "Cush, south of Egypt, the empire's south-western edge."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "A decree against a decree",
+    "body": "The king cannot cancel Haman's decree, because a sealed royal law \"may not be reversed by any man\" (8:8). Instead Mordecai writes a second decree allowing the Jews to gather and defend themselves on the same day (8:11-12).",
+    "refs": [
+     "Esther 3:12-13",
+     "Daniel 6:15"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Mirror-image wording",
+    "body": "Mordecai's decree copies Haman's almost word for word (8:9-13): the same scribes, the same provinces and languages, the same couriers, even the phrase to destroy, kill and cause to perish. Every element of the threat is turned around.",
+    "refs": [
+     "Esther 3:12-15"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Royal couriers",
+    "body": "Letters went out on \"royal horses that were bred from swift steeds\" (8:10). Herodotus admired the Persian relay system, with fresh horses and riders posted a day's ride apart along the royal roads.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Light, gladness, joy",
+    "body": "\"The Jews had light, gladness, joy, and honor\" (8:16). Jews recite this verse in the Havdalah blessing that marks the end of each Sabbath. Light and joy are biblical pictures of rescue.",
+    "refs": [
+     "Psalms 97:11",
+     "Psalms 30:11"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Became Jews",
+    "body": "\"Many from among the peoples of the land became Jews\" (8:17) translates a Hebrew verb found only here, mityahadim. It may mean they converted, or that they claimed to be Jews out of fear. Interpreters are divided.",
+    "refs": [
+     "Esther 9:27",
+     "Zechariah 8:23"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Mordecai like Joseph",
+    "body": "The king gives Mordecai the signet ring he took from Haman (8:2), and Mordecai goes out in royal robes and a gold crown (8:15). As with Joseph and Daniel, a faithful exile now stands next to the throne.",
+    "refs": [
+     "Genesis 41:42",
+     "Daniel 5:29"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Fixing what cannot be undone",
+    "body": "The first decree could not be cancelled, only countered. How do you respond when harm already done cannot simply be erased?",
+    "refs": []
+   }
+  ]
+ },
+ "9": {
+  "summary": "On the appointed day the Jews defeat those who attack them, and Mordecai and Esther establish the yearly feast of Purim to remember how sorrow was turned to joy.",
+  "lookfor": "Notice the phrase about reversal, the repeated note about plunder, the extra day in Susa, and the customs set for the festival.",
+  "names": [
+   {
+    "name": "Mordecai",
+    "kind": "person",
+    "gloss": "Now the king's chief minister."
+   },
+   {
+    "name": "Hammedatha",
+    "kind": "person",
+    "gloss": "Haman's father."
+   },
+   {
+    "name": "Abihail",
+    "kind": "person",
+    "gloss": "Esther's father, Mordecai's uncle."
+   }
+  ],
+  "skim": {
+   "advice": "Verses 7 to 10 list the ten sons of Haman. Read the opening verse, the note about plunder, and the instructions for Purim from verse 20.",
+   "key": [
+    1,
+    16,
+    22,
+    26
+   ]
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Turned upside down",
+    "body": "The day the enemies hoped to win \"was turned\" so that the Jews won instead (9:1). The Hebrew phrase, venahafokh hu, sums up the whole book: Haman's plans are reversed one by one. The month \"was turned to them from sorrow to gladness\" (9:22).",
+    "refs": [
+     "Psalms 30:11"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Facing the violence honestly",
+    "body": "The Jews kill their attackers, including seventy-five thousand across the provinces (9:16) and Haman's ten sons, and at Esther's request fighting continues a second day in Susa (9:13). The text presents it as self-defence against those who sought their harm (9:2, 9:16). Readers are troubled by the scale and by Esther's request, and Jewish and Christian interpreters have weighed it in various ways.",
+    "refs": [
+     "Esther 8:11"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "They did not take the plunder",
+    "body": "Three times the writer notes they \"didn't lay their hand on the plunder\" (9:10, 9:15, 9:16), though the decree allowed it. Saul lost his kingdom for taking the spoil from Agag's Amalekites. The descendants of Kish do not repeat that mistake.",
+    "refs": [
+     "1 Samuel 15:9",
+     "Esther 8:11"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Two days of Purim",
+    "body": "Jews in the provinces rested on the fourteenth of Adar, those in Susa on the fifteenth (9:17-19). Jewish practice still follows this: most celebrate on the fourteenth, while walled cities, such as Jerusalem, celebrate Shushan Purim on the fifteenth.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "How Purim is kept",
+    "body": "Mordecai calls for feasting, sending food to one another and gifts to the needy (9:22). These remain the customs of Purim, together with public reading of the scroll of Esther, when listeners often drown out Haman's name with noise.",
+    "refs": [
+     "Nehemiah 8:10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A feast not in the law",
+    "body": "Purim is the only major Jewish festival in the Bible not commanded in the law of Moses. The Jews \"imposed on themselves\" the obligation (9:27), confirmed by letters from Mordecai and Esther (9:29-32). This raised discussion among the rabbis, who affirmed it.",
+    "refs": [
+     "Leviticus 23:1-4"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Remembering deliverance",
+    "body": "The days are to be \"remembered and kept throughout every generation\" (9:28). Like Passover, Purim keeps a past rescue alive in the community's memory and gives hope in later dangers.",
+    "refs": [
+     "Exodus 12:14",
+     "Psalms 105:5"
+    ]
+   }
+  ]
+ },
+ "10": {
+  "summary": "A short epilogue records the king's power and Mordecai's greatness as second to the king, seeking the good of his people.",
+  "lookfor": "Notice the familiar closing formula, where Mordecai stands at the end, and what he is remembered for.",
+  "names": [
+   {
+    "name": "Ahasuerus",
+    "kind": "person",
+    "gloss": "The Persian king."
+   },
+   {
+    "name": "Mordecai the Jew",
+    "kind": "person",
+    "gloss": "Second only to the king."
+   },
+   {
+    "name": "Media",
+    "kind": "place",
+    "gloss": "Region of north-west Iran, joined with Persia."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Written in the chronicles",
+    "body": "\"Aren't they written in the book of the chronicles of the kings of Media and Persia?\" (10:2) echoes the closing formula used for kings in Kings. The writer places Mordecai's story within the official history of the empire.",
+    "refs": [
+     "1 Kings 14:29",
+     "Esther 2:23"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Tribute from the islands",
+    "body": "The king laid tribute \"on the land, and on the islands of the sea\" (10:1). The Persian Empire did control islands in the eastern Mediterranean, although Xerxes lost many Greek islands after his defeat in 480 BC.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Second to the king",
+    "body": "Mordecai was \"next to King Ahasuerus\" (10:3), the second most powerful man in the empire. A Persian tablet from about this time mentions an official named Marduka at Susa, though whether he is the same man cannot be known.",
+    "refs": [
+     "Genesis 41:40",
+     "Daniel 2:48"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Seeking the good of his people",
+    "body": "Mordecai is remembered for \"seeking the good of his people, and speaking peace to all his descendants\" (10:3). Power is justified by how it serves others. Nehemiah's enemies were grieved that someone sought Israel's welfare.",
+    "refs": [
+     "Nehemiah 2:10",
+     "Jeremiah 29:7"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The hidden God",
+    "body": "A Talmudic wordplay links Esther's name to the Hebrew astir, \"I will hide,\" from God's words \"I will surely hide my face.\" Isaiah also speaks of a God \"who has hidden yourself.\" For many readers, God hidden but not absent is the book's theology.",
+    "refs": [
+     "Deuteronomy 31:18",
+     "Isaiah 45:15"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Life in the diaspora",
+    "body": "Esther ends with Jews still in Persia, not returning to Jerusalem. It shows God's people surviving and even thriving in exile, a picture that spoke to Jews scattered across many lands and later to Christians who saw themselves as sojourners.",
+    "refs": [
+     "1 Peter 1:1",
+     "Jeremiah 29:4-7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Faith without fanfare",
+    "body": "The book never names God, yet the story is full of reversals and rescue. How do you recognise God's work when it is not announced?",
+    "refs": []
+   }
+  ]
+ },
+ "intro": {
+  "who": "The author is unknown; the Talmud credits the men of the Great Assembly, a council of the early Second Temple period. Most scholars see a Jewish writer living in the Persian or early Greek-ruled diaspora, who knew the customs of the Persian court well.",
+  "when": "The story is set in the reign of Ahasuerus, usually identified with Xerxes I (486–465 BC). The book was probably written in the 4th or 3rd century BC. Scholars debate how far it is history and how far a historical story told to explain Purim.",
+  "why": "It tells how a Jewish queen and her cousin foiled a plot to destroy the Jews of the Persian Empire, explaining the origin of the feast of Purim and showing God's hidden care for his scattered people, though God is never named.",
+  "outline": [
+   {
+    "chapters": "1–2",
+    "title": "Esther becomes queen"
+   },
+   {
+    "chapters": "3–4",
+    "title": "Haman's plot"
+   },
+   {
+    "chapters": "5–7",
+    "title": "Esther's banquets"
+   },
+   {
+    "chapters": "8",
+    "title": "A counter-decree"
+   },
+   {
+    "chapters": "9",
+    "title": "Victory and Purim"
+   },
+   {
+    "chapters": "10",
+    "title": "Mordecai's greatness"
+   }
+  ],
+  "verse": "Esther 4:14"
+ }
+}
