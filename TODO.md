@@ -48,7 +48,7 @@ Everything deferred so far, grouped by when it matters. Tick items off as they l
 - [ ] Notes in these languages (largest job; after the English notes are finished).
 
 ## Why & How notes
-- [x] Leviticus through Esther (every book from Leviticus to Esther), and Job.
+- [x] Every book from Leviticus to Psalms (17 books, 606 chapters).
 - [ ] Every other book. Instructions and the progress list are in `scripts/NOTES-PROMPT.md`; cloud credit expires 5 November 2026.
 - [ ] Use high effort for the hardest books: Job, Psalms, Isaiah, Romans, Hebrews, Revelation.
 
