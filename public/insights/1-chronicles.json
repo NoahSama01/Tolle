@@ -1,0 +1,3104 @@
+{
+ "1": {
+  "summary": "The book opens with a list of names running from Adam through Noah's sons and the nations, to Abraham, Isaac and Esau's descendants in Edom.",
+  "lookfor": "Watch the order: each time, the side branches are listed first and the line that carries the story comes last.",
+  "names": [
+   {
+    "name": "Nimrod",
+    "kind": "person",
+    "gloss": "A descendant of Cush remembered in Genesis as a mighty hunter and founder of cities in Mesopotamia."
+   },
+   {
+    "name": "Peleg",
+    "kind": "person",
+    "gloss": "An ancestor of Abraham whose name means \"division.\""
+   },
+   {
+    "name": "Kittim",
+    "kind": "group",
+    "gloss": "A people named after a city on Cyprus. Later writers used the name for western sea peoples generally."
+   },
+   {
+    "name": "Keturah",
+    "kind": "person",
+    "gloss": "A wife of Abraham after Sarah's death, here called his concubine. Her sons include Midian, ancestor of the Midianites."
+   },
+   {
+    "name": "Seir",
+    "kind": "person",
+    "gloss": "Ancestor of the Horites, the people who lived in the hill country of Edom before Esau's descendants."
+   },
+   {
+    "name": "Edom",
+    "kind": "place",
+    "gloss": "The land south-east of the Dead Sea settled by Esau's descendants, Israel's neighbours and frequent rivals."
+   },
+   {
+    "name": "Bozrah",
+    "kind": "place",
+    "gloss": "A major Edomite city, often named by the prophets as standing for Edom itself."
+   }
+  ],
+  "skim": {
+   "advice": "This chapter is almost all names compressed from Genesis. Skim the lists of nations and Edomite chiefs, but notice the turning points where Abraham, Isaac and Israel appear.",
+   "key": [
+    1,
+    27,
+    28,
+    34
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Beginning with Adam",
+    "body": "For a small community back from exile, starting the story with Adam (1:1) sets Israel within the whole human family. The Chronicler draws almost entirely on Genesis, boiling its first thirty-six chapters down to names. Readers were expected to know the stories behind them.",
+    "refs": [
+     "Genesis 5:1-32",
+     "Genesis 11:10-26"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Side branches come first",
+    "body": "Japheth and Ham are listed before Shem; Ishmael and Keturah's sons before Isaac; Esau before Israel (1:28-34). The line that carries the story is always kept for last and picked up in the next section. Genesis itself works the same way, closing off Ishmael and Esau before following Isaac and Jacob.",
+    "refs": [
+     "Genesis 25:12-19",
+     "Genesis 36:1-9"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Luke runs the line back",
+    "body": "Matthew starts Jesus' genealogy with Abraham, but Luke traces it back through Seth to Adam, as this chapter does. Both evangelists inherited the idea that a family list could tell a theological story. Luke's reach back to Adam presents Jesus as belonging to all humanity, not Israel alone.",
+    "refs": [
+     "Luke 3:23-38",
+     "Matthew 1:1-2"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Peleg and the divided earth",
+    "body": "Peleg's name comes from the Hebrew palag, \"to divide,\" and the text explains that in his days the earth was divided (1:19). Interpreters link this with the scattering of peoples at Babel or with the parcelling out of lands among nations. A related noun can also mean a water channel, so some suggest early irrigation.",
+    "refs": [
+     "Genesis 10:25",
+     "Genesis 11:8-9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Kings before Israel's kings",
+    "body": "Edom had kings \"before any king reigned over the children of Israel\" (1:43), a line copied from Genesis. None of these kings is the son of the one before, and each comes from a different town, so this was not a dynasty. By the Chronicler's day Edomites had pushed into southern Judah; later, as Idumeans, they produced Herod the Great.",
+    "refs": [
+     "Genesis 36:31-39"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Letters that look alike",
+    "body": "Rodanim (1:7) appears as Dodanim in Genesis 10:4, and Diphath (1:6) as Riphath. The Hebrew letters for d and r are nearly identical, so copyists sometimes confused them. Rodanim may refer to people of the island of Rhodes.",
+    "refs": [
+     "Genesis 10:3-4"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "All nations before one",
+    "body": "The chapter reproduces most of the Table of Nations from Genesis 10, which Jewish tradition counted as seventy peoples. God's dealings with Israel begin inside his concern for every nation, and the promise to Abraham was that all the families of the earth would be blessed through him. Chronicles keeps that wide horizon in view before narrowing to Israel.",
+    "refs": [
+     "Genesis 10:1-32",
+     "Genesis 12:3"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Why start so far back?",
+    "body": "The returned exiles were a small, poor province of the Persian Empire. What might it have meant to them to read their story as starting with Adam and the nations rather than with their own tribe?",
+    "refs": []
+   }
+  ]
+ },
+ "2": {
+  "summary": "The sons of Israel are named, and the family of Judah is traced in detail, including the line from Perez to Jesse and his sons, among them David.",
+  "lookfor": "Look for the stories hiding behind single phrases, and notice which family line the chapter slows down to follow.",
+  "names": [
+   {
+    "name": "Tamar",
+    "kind": "person",
+    "gloss": "Judah's daughter-in-law, who bore him twin sons, Perez and Zerah, after he failed to give her his youngest son in marriage."
+   },
+   {
+    "name": "Achar",
+    "kind": "person",
+    "gloss": "The man called Achan in Joshua, who kept plunder devoted to God at Jericho and brought disaster on Israel."
+   },
+   {
+    "name": "Nahshon",
+    "kind": "person",
+    "gloss": "Leader of the tribe of Judah in the wilderness and brother-in-law of Aaron."
+   },
+   {
+    "name": "Boaz",
+    "kind": "person",
+    "gloss": "The landowner of Bethlehem who married Ruth; David's great-grandfather."
+   },
+   {
+    "name": "Zeruiah",
+    "kind": "person",
+    "gloss": "David's sister, mother of his three warrior nephews Joab, Abishai and Asahel."
+   },
+   {
+    "name": "Bezalel",
+    "kind": "person",
+    "gloss": "The craftsman whom God filled with skill to build the tabernacle in Moses' day."
+   },
+   {
+    "name": "Jarha",
+    "kind": "person",
+    "gloss": "An Egyptian servant who married his master Sheshan's daughter and so carried on the family line."
+   },
+   {
+    "name": "Rechab",
+    "kind": "person",
+    "gloss": "Founder of a Kenite clan, the Rechabites, known for living in tents and refusing wine."
+   }
+  ],
+  "skim": {
+   "advice": "After the first few verses this is a dense list of Judah's clans. Read verses 3 to 17 closely for the stories and the line to David, and skim the families of Jerahmeel and Caleb that follow.",
+   "key": [
+    3,
+    7,
+    15,
+    34
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Judah goes first",
+    "body": "Judah is not Israel's firstborn, yet its genealogy comes first and runs longest, filling chapters 2 to 4. The Chronicler wrote for a community made up mostly of Judah, Benjamin and Levi, and his interest is in the royal line of David. Chapter 5 explains why Judah took the lead.",
+    "refs": [
+     "1 Chronicles 5:1-2",
+     "Genesis 49:8-10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A troubled line",
+    "body": "Judah's family list opens with Er, killed for wickedness, and a son born of Tamar (2:3-4), then names Achar, \"the troubler of Israel\" (2:7). The royal tribe's record is not cleaned up. Matthew's genealogy of Jesus likewise names Tamar.",
+    "refs": [
+     "Genesis 38:6-30",
+     "Matthew 1:3"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Achar the troubler",
+    "body": "Joshua calls this man Achan, but here he is Achar, which plays on the Hebrew verb akar, \"to bring trouble.\" Joshua uses the same verb when he asks why Achan troubled Israel, and the place of his punishment was called the valley of Achor. The spelling turns his name into his legacy.",
+    "refs": [
+     "Joshua 7:24-26"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The line through Boaz",
+    "body": "Verses 10 to 15 repeat the line from Ram to David found at the end of Ruth. Ruth's story shows a Moabite woman entering this family, and Matthew's genealogy uses the same names on the way to Jesus.",
+    "refs": [
+     "Ruth 4:18-22",
+     "Matthew 1:3-6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "David the seventh",
+    "body": "Here David is the seventh son of Jesse (2:15), while 1 Samuel says Jesse had eight sons. One son may have died young or been left out, or seven may be chosen as a number of completeness. Interpreters have suggested both, and the text does not say.",
+    "refs": [
+     "1 Samuel 16:10-11",
+     "1 Samuel 17:12"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "An Egyptian heir",
+    "body": "Sheshan had only daughters, so he gave one to his Egyptian servant Jarha, and their son carried on the line (2:34-35). In the ancient world a master could secure an heir this way; Abraham once expected his servant Eliezer to inherit. The chapter also folds in clans such as the Kenites (2:55), showing that Judah absorbed outsiders.",
+    "refs": [
+     "Genesis 15:2-3",
+     "Jeremiah 35:1-10"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Builders in the family",
+    "body": "Bezalel, the craftsman of the tabernacle, appears in Judah's line (2:20), just as David and Solomon, who prepare and build the temple, will. Chronicles has a strong interest in God's house, and it tucks the first sanctuary builder into the royal tribe. The tabernacle and temple stand in one story of God dwelling with his people.",
+    "refs": [
+     "Exodus 31:1-5",
+     "2 Chronicles 1:5"
+    ]
+   }
+  ]
+ },
+ "3": {
+  "summary": "David's sons born in Hebron and Jerusalem are listed, followed by the kings of Judah from Solomon to Josiah and the royal family through the exile and beyond.",
+  "lookfor": "Notice how many generations the list carries past the fall of Jerusalem, and which familiar names from the return appear among them.",
+  "names": [
+   {
+    "name": "Amnon",
+    "kind": "person",
+    "gloss": "David's firstborn, later killed by his brother Absalom for raping their sister Tamar."
+   },
+   {
+    "name": "Adonijah",
+    "kind": "person",
+    "gloss": "David's fourth son, who tried to seize the throne before Solomon was crowned."
+   },
+   {
+    "name": "Bathshua",
+    "kind": "person",
+    "gloss": "Another spelling of Bathsheba, Solomon's mother."
+   },
+   {
+    "name": "Jeconiah",
+    "kind": "person",
+    "gloss": "Also called Jehoiachin, the young king taken captive to Babylon in 597 BC."
+   },
+   {
+    "name": "Shealtiel",
+    "kind": "person",
+    "gloss": "Jeconiah's son, born in exile, usually named as Zerubbabel's father."
+   },
+   {
+    "name": "Zerubbabel",
+    "kind": "person",
+    "gloss": "A descendant of David who led returned exiles and governed Judah when the second temple was built."
+   }
+  ],
+  "skim": {
+   "advice": "This is a family register. Skim the lists of sons, but read verses 10 to 17 slowly as a summary of Judah's kings, and note how the line continues after the exile in verses 17 to 24.",
+   "key": [
+    1,
+    5,
+    17,
+    19
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The royal line survives",
+    "body": "Kings ended with Jehoiachin a prisoner in Babylon. This chapter carries his family on for several generations after the exile (3:17-24), showing that the house of David had not died out. For readers living under Persian rule, that was a sign that God's promise to David still stood.",
+    "refs": [
+     "2 Kings 25:27-30",
+     "2 Samuel 7:16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Names left unspoken",
+    "body": "Solomon's mother appears as Bathshua (3:5), and Uriah is not mentioned. Chronicles never tells the story of David's adultery or the troubles in his family, though it names Amnon and Absalom here. Readers who knew Samuel would recognise what lies behind the list.",
+    "refs": [
+     "2 Samuel 11:1-27",
+     "2 Samuel 13:1-39"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Seven years and six months",
+    "body": "David reigned seven and a half years in Hebron and thirty-three in Jerusalem (3:4), which matches the figures in Samuel. Several of his wives in Hebron came from neighbouring peoples or regions, such as Maacah, daughter of the king of Geshur (3:2). Royal marriages often sealed alliances in the ancient Near East.",
+    "refs": [
+     "2 Samuel 3:2-5",
+     "2 Samuel 5:4-5"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "From Jeconiah to Jesus",
+    "body": "Matthew's genealogy runs through Jeconiah, Shealtiel and Zerubbabel, the same names as verses 17 to 19. Jeremiah had announced that no descendant of Jeconiah would sit on David's throne, a tension that Christian interpreters have discussed for centuries. Matthew still traces the royal line through him.",
+    "refs": [
+     "Matthew 1:11-13",
+     "Jeremiah 22:28-30"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Whose son was Zerubbabel?",
+    "body": "Here Zerubbabel is the son of Pedaiah (3:19), while Ezra, Haggai and Matthew call him the son of Shealtiel. Suggestions include a levirate marriage, in which Pedaiah fathered a son for his childless brother, or adoption, or a scribal difference. The Greek translation of this verse reads Shealtiel.",
+    "refs": [
+     "Ezra 3:2",
+     "Haggai 1:1"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Jeconiah the captive",
+    "body": "The Hebrew calls Jeconiah assir, \"the captive\" or \"the prisoner\" (3:17). Some older translations took assir as a personal name, making him the father of a son called Assir. Most modern translations read it as a description of the exiled king.",
+    "refs": [
+     "2 Kings 24:10-15"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Dating the book",
+    "body": "Counting the generations after Zerubbabel, who was active around 520 BC, takes the list to roughly 400 BC, though the Greek version adds more generations. This is one of the main reasons scholars date Chronicles to the late Persian period. The book was written for people living well after the return.",
+    "refs": [
+     "Ezra 2:1-2"
+    ]
+   }
+  ]
+ },
+ "4": {
+  "summary": "More clans of Judah are listed, including the brief prayer of Jabez, followed by the tribe of Simeon, its towns, and its later expansion into new pasture lands.",
+  "lookfor": "Watch for the short notes that break up the lists: a prayer, a royal marriage, a guild of craftsmen, and a search for pasture.",
+  "names": [
+   {
+    "name": "Jabez",
+    "kind": "person",
+    "gloss": "A man of Judah known only from this chapter, remembered for his name and his prayer."
+   },
+   {
+    "name": "Othniel",
+    "kind": "person",
+    "gloss": "Caleb's younger kinsman and the first judge of Israel."
+   },
+   {
+    "name": "Bithiah",
+    "kind": "person",
+    "gloss": "A daughter of Pharaoh who married Mered, a man of Judah. Her name means \"daughter of Yahweh.\""
+   },
+   {
+    "name": "Beersheba",
+    "kind": "place",
+    "gloss": "A town in the far south of Judah, often used as the southern limit of the land."
+   },
+   {
+    "name": "Ziklag",
+    "kind": "place",
+    "gloss": "A southern town given to David by the Philistine king of Gath while he was on the run from Saul."
+   },
+   {
+    "name": "Meunim",
+    "kind": "group",
+    "gloss": "A people of the southern desert near Edom, mentioned again in the days of Uzziah."
+   },
+   {
+    "name": "Amalekites",
+    "kind": "group",
+    "gloss": "A desert people who attacked Israel after the exodus and were Israel's long-standing enemies."
+   }
+  ],
+  "skim": {
+   "advice": "Skim the lists of Judah's clans and Simeon's towns, but stop at the prayer of Jabez and at the short stories of Simeon's expansion at the end.",
+   "key": [
+    9,
+    10,
+    23,
+    41
+   ]
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "A name of pain",
+    "body": "Jabez's mother named him because she bore him \"with sorrow\" (4:9). His name, Ya'bets, sounds like a scrambled form of the Hebrew otsev, \"pain.\" His prayer asks that he not \"cause pain\" (4:10), using the same root, as if asking God to undo the meaning of his name.",
+    "refs": [
+     "Genesis 3:16"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The prayer of Jabez",
+    "body": "Jabez asks for blessing, more land, God's hand with him and protection from harm, and \"God granted him that which he requested\" (4:10). A popular devotional book in 2000 made this prayer widely known. In Chronicles it is one of several short notes showing that those who call on God are heard, a theme the book returns to often.",
+    "refs": [
+     "1 Chronicles 5:20",
+     "2 Chronicles 7:14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Pharaoh's daughter",
+    "body": "Mered, a man of Judah, married Bithiah, a daughter of Pharaoh (4:17-18). Nothing more is told about her, and it is unclear which Pharaoh is meant. Her name, meaning daughter of Yahweh, may suggest that she came to worship Israel's God.",
+    "refs": [
+     "1 Kings 3:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Workers for the king",
+    "body": "Some clans were linen workers and potters who \"lived there with the king for his work\" (4:21-23). Crafts in the ancient world often ran in families and were organised as guilds. Archaeologists have found many jar handles in Judah stamped with a Hebrew phrase meaning belonging to the king, evidence of royal production and supply, though they cannot be tied directly to this verse.",
+    "refs": [
+     "1 Chronicles 2:55"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Simeon absorbed",
+    "body": "Simeon's towns lay inside Judah's territory (4:28-33), and its families \"did not multiply like the children of Judah\" (4:27). Joshua says Simeon's inheritance was within Judah's, and Jacob had foretold that Simeon would be scattered. Over time the tribe merged into its larger neighbour.",
+    "refs": [
+     "Joshua 19:1-9",
+     "Genesis 49:5-7"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Remnant of Amalek",
+    "body": "Five hundred Simeonites wiped out the remnant of the Amalekites at Mount Seir (4:42-43). Amalek had attacked Israel after the exodus, and Saul failed to destroy them. This brief note closes that long story in Chronicles; Esther's Haman, called an Agagite, may echo it in later Jewish tradition.",
+    "refs": [
+     "Exodus 17:8-16",
+     "1 Samuel 15:1-9"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "One prayer among the names",
+    "body": "In the middle of a long list, the Chronicler pauses for two verses on one man's prayer. What do you make of the decision to remember Jabez this way, and what might it say to readers who felt their own lives were small?",
+    "refs": []
+   }
+  ]
+ },
+ "5": {
+  "summary": "The tribes east of the Jordan, Reuben, Gad and half of Manasseh, are listed with their lands and wars, until their unfaithfulness leads to exile by the Assyrians.",
+  "lookfor": "Notice the explanation of why the firstborn's line is not listed first, and compare the two reasons the chapter gives for victory and for defeat.",
+  "names": [
+   {
+    "name": "Tilgath Pilneser",
+    "kind": "person",
+    "gloss": "Tiglath-pileser III, king of Assyria 745 to 727 BC, who deported Israelites from the north and east."
+   },
+   {
+    "name": "Pul",
+    "kind": "person",
+    "gloss": "Another name for Tiglath-pileser III, used in Babylonian records."
+   },
+   {
+    "name": "Hagrites",
+    "kind": "group",
+    "gloss": "A nomadic people of the desert east of Gilead, perhaps linked with Hagar."
+   },
+   {
+    "name": "Gilead",
+    "kind": "place",
+    "gloss": "The hilly, fertile region east of the Jordan, good for flocks and herds."
+   },
+   {
+    "name": "Bashan",
+    "kind": "place",
+    "gloss": "A rich upland east of the Sea of Galilee, famous for its cattle and oaks."
+   },
+   {
+    "name": "Nebo",
+    "kind": "place",
+    "gloss": "A town and mountain in Moab, near where Moses viewed the promised land."
+   },
+   {
+    "name": "Gozan",
+    "kind": "place",
+    "gloss": "A region on a tributary of the Euphrates in northern Mesopotamia where Assyria resettled Israelite captives."
+   }
+  ],
+  "skim": {
+   "advice": "Read verses 1 and 2 closely for why Reuben loses first place, then skim the family lists, and slow down again for the battle and exile in verses 18 to 26.",
+   "key": [
+    1,
+    2,
+    20,
+    25
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The lost birthright",
+    "body": "Reuben was the firstborn, but because he slept with his father's concubine his birthright passed to Joseph (5:1). Joseph's sons Ephraim and Manasseh each became a tribe, giving him a double share. Yet Judah \"prevailed above his brothers, and from him came the prince\" (5:2), which explains why Judah has led the genealogies.",
+    "refs": [
+     "Genesis 35:22",
+     "Genesis 48:5",
+     "Genesis 49:3-4"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Nagid, the prince",
+    "body": "The word translated \"prince\" in 5:2 is nagid, a leader designated by God. Samuel uses it when he anoints Saul and later of David, and Chronicles uses it often of David. It suggests a ruler appointed from above rather than simply a king who inherits power.",
+    "refs": [
+     "1 Samuel 9:16",
+     "1 Chronicles 11:2"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Gad in the Mesha Stele",
+    "body": "A Moabite inscription from about 840 BC, the Mesha Stele, says that the men of Gad had lived in the land of Ataroth from of old, and it names Nebo and Baal Meon (5:8). King Mesha boasts of taking these places from Israel. The stone, found in 1868, confirms that Israelite tribes held land east of the Dead Sea.",
+    "refs": [
+     "2 Kings 3:4-5",
+     "Numbers 32:34-38"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "They cried to God",
+    "body": "In the war with the Hagrites the eastern tribes \"cried to God in the battle, and he answered them, because they put their trust in him\" (5:20). A few verses later they are unfaithful and are carried away (5:25-26). The Chronicler sets trust and unfaithfulness side by side, a pattern he uses throughout his history.",
+    "refs": [
+     "2 Chronicles 14:11",
+     "2 Chronicles 20:20"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Ma'al: unfaithfulness",
+    "body": "\"They trespassed\" (5:25) translates the Hebrew ma'al, a breach of faith against God, often by taking what is holy or turning to other gods. It is a key word in Chronicles, used to explain why Saul fell and why Judah went into exile. Its use here sets up the same pattern for the eastern tribes.",
+    "refs": [
+     "1 Chronicles 9:1",
+     "1 Chronicles 10:13",
+     "Leviticus 5:15"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "One king or two?",
+    "body": "The text says God stirred up \"the spirit of Pul king of Assyria, and the spirit of Tilgath Pilneser king of Assyria\" (5:26), but the following verb is singular: he carried them away. Babylonian records show that Pul (Pulu) was Tiglath-pileser III's name as king of Babylon. The Chronicler is likely naming one king twice.",
+    "refs": [
+     "2 Kings 15:19",
+     "2 Kings 15:29"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The first tribes lost",
+    "body": "The tribes east of the Jordan were the first to settle and among the first to be exiled, around 733 BC. Their story is a small version of the whole history: land received, faithfulness tested, exile as the outcome. Yet the Chronicler still lists them as part of all Israel.",
+    "refs": [
+     "Numbers 32:1-5",
+     "2 Kings 17:6"
+    ]
+   }
+  ]
+ },
+ "6": {
+  "summary": "The tribe of Levi is traced: the high priests from Aaron to the exile, the Levite families, the musicians David appointed, and the towns given to priests and Levites.",
+  "lookfor": "Look for the difference between what the priests do and what the other Levites do, and notice which Old Testament figures turn out to be Levites.",
+  "names": [
+   {
+    "name": "Kohath",
+    "kind": "person",
+    "gloss": "One of Levi's three sons; Moses, Aaron and the priests came from his family."
+   },
+   {
+    "name": "Phinehas",
+    "kind": "person",
+    "gloss": "Aaron's grandson, remembered for his zeal against idolatry and given a covenant of lasting priesthood."
+   },
+   {
+    "name": "Zadok",
+    "kind": "person",
+    "gloss": "The priest who anointed Solomon and whose family led the Jerusalem priesthood."
+   },
+   {
+    "name": "Jehozadak",
+    "kind": "person",
+    "gloss": "The high priest's son taken into exile; his son Joshua (Jeshua) became high priest after the return."
+   },
+   {
+    "name": "Heman",
+    "kind": "person",
+    "gloss": "A leading singer appointed by David and grandson of Samuel. Psalm 88 is linked with his name."
+   },
+   {
+    "name": "Asaph",
+    "kind": "person",
+    "gloss": "A Levite singer whose name heads twelve psalms."
+   },
+   {
+    "name": "Ethan",
+    "kind": "person",
+    "gloss": "A Levite musician from the family of Merari; Psalm 89 is linked with his name."
+   }
+  ],
+  "skim": {
+   "advice": "Skim the long chains of fathers and sons and the list of towns, but read verses 31 and 32 on David's singers and verse 49 on the priests' work closely.",
+   "key": [
+    15,
+    31,
+    49,
+    64
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Levi at the centre",
+    "body": "Levi gets more space than any tribe except Judah, and it stands in the middle of the tribal lists. For the Chronicler, the temple and its staff were the heart of Israel's life after the exile. A secure family record mattered: returnees whose priestly descent could not be proved were excluded from serving.",
+    "refs": [
+     "Ezra 2:61-63"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Two numbering systems",
+    "body": "In Hebrew Bibles this chapter begins at what English Bibles call 6:1 only after fifteen extra verses at the end of chapter 5. So 6:1 in English is 5:27 in Hebrew, and English 6:16 is Hebrew 6:1. Commentaries based on the Hebrew text may give different verse numbers.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "From Aaron to the exile",
+    "body": "Verses 1 to 15 trace the high priestly line from Aaron through Zadok to Jehozadak, who went into exile (6:15). His son Joshua was high priest when the temple was rebuilt. The list is selective; well-known priests such as Eli and Jehoiada do not appear.",
+    "refs": [
+     "Haggai 1:1",
+     "Ezra 3:2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Samuel the Levite",
+    "body": "Samuel appears among the Kohathite Levites (6:28, 6:33), and Heman the singer is his grandson. In 1 Samuel his father Elkanah is called an Ephraimite. Many explain that he was a Levite living in Ephraim's hill country, as Levites lived scattered among the tribes.",
+    "refs": [
+     "1 Samuel 1:1",
+     "Joshua 21:20-22"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The temple choir",
+    "body": "David set three Levite families over \"the service of song\" (6:31): Heman in the centre, Asaph on his right, Ethan on his left. The names of Asaph, Heman and Ethan appear in the titles of several psalms. Many scholars think the Psalter was shaped in part by these guilds of temple singers.",
+    "refs": [
+     "Psalms 50:1",
+     "Psalms 88:1",
+     "Psalms 89:1"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Atonement by the priests",
+    "body": "Only Aaron and his sons offered on the altars \"to make atonement for Israel\" (6:49). The verb is kipper, the word behind Yom Kippur, the Day of Atonement. The other Levites served the tabernacle in supporting roles, a division of labour laid down in Numbers.",
+    "refs": [
+     "Leviticus 16:32-34",
+     "Numbers 18:1-7"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Levites spread through the land",
+    "body": "Levites received no tribal territory but forty-eight towns among the other tribes (6:54-81), including the cities of refuge. Their presence across Israel kept worship and teaching of the law within reach of every tribe. The list closely follows Joshua 21, with some differences in spelling.",
+    "refs": [
+     "Numbers 35:1-8",
+     "Joshua 21:1-42"
+    ]
+   }
+  ]
+ },
+ "7": {
+  "summary": "Brief genealogies of the northern tribes, Issachar, Benjamin, Naphtali, Manasseh, Ephraim and Asher, are given with the numbers of their fighting men.",
+  "lookfor": "Look for the few human stories in the lists, such as a grieving father and a woman who builds towns, and notice which tribes are missing.",
+  "names": [
+   {
+    "name": "Tola",
+    "kind": "person",
+    "gloss": "Issachar's firstborn. A later judge of Israel carried the same name."
+   },
+   {
+    "name": "Machir",
+    "kind": "person",
+    "gloss": "Manasseh's son and ancestor of the clans who settled Gilead east of the Jordan."
+   },
+   {
+    "name": "Zelophehad",
+    "kind": "person",
+    "gloss": "A man of Manasseh with only daughters, who successfully asked Moses for the right to inherit."
+   },
+   {
+    "name": "Beriah",
+    "kind": "person",
+    "gloss": "Ephraim's son born after a family tragedy; his name sounds like the Hebrew for \"in trouble.\""
+   },
+   {
+    "name": "Sheerah",
+    "kind": "person",
+    "gloss": "Ephraim's daughter, credited with building upper and lower Beth Horon."
+   },
+   {
+    "name": "Beth Horon",
+    "kind": "place",
+    "gloss": "Twin towns on a key pass between the coastal plain and the hill country north-west of Jerusalem."
+   },
+   {
+    "name": "Joshua",
+    "kind": "person",
+    "gloss": "Moses' successor, of the tribe of Ephraim, who led Israel into the land."
+   }
+  ],
+  "skim": {
+   "advice": "These are short tribal lists with military totals. Skim the names and numbers, but read the story of Ephraim's loss in verses 21 to 24 and the line leading to Joshua.",
+   "key": [
+    21,
+    23,
+    24,
+    27
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Remembering the north",
+    "body": "Most of the Chronicler's readers came from Judah and Benjamin, yet he includes the northern tribes, though briefly. For him Israel meant all twelve tribes, not just those who returned. Later in his history he invites northerners to Hezekiah's Passover.",
+    "refs": [
+     "2 Chronicles 30:1",
+     "Ezekiel 37:15-22"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Missing tribes",
+    "body": "Zebulun gets no genealogy here, and Dan seems to be missing, though some scholars find a trace of Dan in 7:12, since Genesis names Hushim as Dan's son. Both tribes appear in other lists in the book. Revelation 7 also leaves out Dan from its list of tribes.",
+    "refs": [
+     "Genesis 46:23",
+     "Revelation 7:5-8"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Military muster lists",
+    "body": "The repeated numbers of \"mighty men of valor\" read like army registers, and one is dated \"in the days of David\" (7:2). Tribal genealogies in the ancient world often served military and land purposes as well as family memory. The Chronicler seems to have drawn on such records.",
+    "refs": [
+     "Numbers 1:1-3",
+     "1 Chronicles 21:5"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Beriah: in trouble",
+    "body": "After his sons were killed, Ephraim named a new son Beriah, \"because there was trouble with his house\" (7:23). The name sounds like the Hebrew bera'ah, \"in evil\" or \"in disaster.\" As with Jabez, a child's name keeps a family's sorrow in memory.",
+    "refs": [
+     "1 Chronicles 4:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Sheerah the builder",
+    "body": "Ephraim's daughter Sheerah built upper and lower Beth Horon and a town named after her (7:24). It is unusual for an ancient genealogy to credit a woman with founding towns. Elsewhere in these lists women appear chiefly as mothers or daughters.",
+    "refs": [
+     "Joshua 16:3-5"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Joshua's family tree",
+    "body": "The chapter traces a line from Ephraim to \"Nun his son, and Joshua his son\" (7:27). This is the only place the Bible gives Joshua's ancestry beyond his father. It reminds readers that Moses' successor came from the north.",
+    "refs": [
+     "Numbers 13:8",
+     "Numbers 13:16"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Daughters who inherit",
+    "body": "The note that Zelophehad had daughters (7:15) recalls one of the Torah's test cases on inheritance. His daughters asked for their father's land, and God ruled in their favour, with a later rule that they marry within their tribe. The genealogy assumes readers know the story.",
+    "refs": [
+     "Numbers 27:1-11",
+     "Numbers 36:1-12"
+    ]
+   }
+  ]
+ },
+ "8": {
+  "summary": "A second, fuller genealogy of Benjamin traces its clans and settlements and ends with the family of Saul, carried on for many generations after him.",
+  "lookfor": "Notice where Benjamin's clans lived, and look for familiar names from Saul's family that appear here in an unfamiliar form.",
+  "names": [
+   {
+    "name": "Ehud",
+    "kind": "person",
+    "gloss": "A left-handed Benjaminite judge who killed Eglon, king of Moab."
+   },
+   {
+    "name": "Ono",
+    "kind": "place",
+    "gloss": "A town in the coastal lowlands near Lod, resettled after the exile."
+   },
+   {
+    "name": "Lod",
+    "kind": "place",
+    "gloss": "A town on the coastal plain, called Lydda in the New Testament."
+   },
+   {
+    "name": "Gibeon",
+    "kind": "place",
+    "gloss": "A town north-west of Jerusalem that held the tabernacle in David's and Solomon's day."
+   },
+   {
+    "name": "Eshbaal",
+    "kind": "person",
+    "gloss": "Saul's son who briefly ruled after him; Samuel calls him Ishbosheth."
+   },
+   {
+    "name": "Merib Baal",
+    "kind": "person",
+    "gloss": "Jonathan's son, called Mephibosheth in Samuel, whom David cared for at his table."
+   }
+  ],
+  "skim": {
+   "advice": "Skim the clans of Benjamin, but read verses 33 and 34 carefully for Saul's family, and the closing note about the archers of Ulam.",
+   "key": [
+    28,
+    33,
+    34,
+    40
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Benjamin again",
+    "body": "Benjamin already appeared in chapter 7, but now gets a longer list. Benjamin stayed with Judah when the kingdom split and formed the core of the returned community with Judah and Levi. Its clans lived in and around Jerusalem (8:28), which sat on the border between the two tribes.",
+    "refs": [
+     "1 Kings 12:21",
+     "Ezra 1:5"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Baal or bosheth",
+    "body": "Saul's son is Eshbaal and Jonathan's son Merib Baal here (8:33-34), but Samuel calls them Ishbosheth and Mephibosheth. Bosheth means \"shame,\" and later scribes seem to have replaced baal in these names to avoid the name of the Canaanite god. Baal also simply means \"lord\" or \"master,\" and early Israelites could use it of Yahweh.",
+    "refs": [
+     "2 Samuel 2:8",
+     "2 Samuel 4:4",
+     "Hosea 2:16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Saul's line goes on",
+    "body": "Saul's family is traced through Jonathan for about a dozen generations (8:33-40). Even though the kingdom passed to David, Saul's house was not erased, partly thanks to David's loyalty to Jonathan's son. The repeated list in chapter 9 forms a bridge to the account of Saul's death.",
+    "refs": [
+     "2 Samuel 9:1-13",
+     "1 Chronicles 9:39-44"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Archers of Benjamin",
+    "body": "The chapter ends with the sons of Ulam, \"mighty men of valor, archers\" (8:40). Benjamin was famous for skilled fighters, including slingers who could use the left hand. Some of them would later come over to David.",
+    "refs": [
+     "Judges 20:16",
+     "1 Chronicles 12:2"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Lod becomes Lydda",
+    "body": "Ono and Lod (8:12) were resettled by returnees after the exile. Lod, called Lydda in Greek, is where Peter healed a paralysed man named Aeneas. Today it is the site of Israel's main international airport.",
+    "refs": [
+     "Nehemiah 11:35",
+     "Acts 9:32-35"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Benjamin's later sons",
+    "body": "Paul twice describes himself as from the tribe of Benjamin, and his Hebrew name, Saul, recalls the tribe's most famous son. A genealogy like this shows how tribal identity stayed alive among Jews for centuries. Paul uses his ancestry to show he speaks as an Israelite.",
+    "refs": [
+     "Romans 11:1",
+     "Philippians 3:5"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Exile within Israel",
+    "body": "Verse 6 speaks of families of Geba \"carried captive to Manahath.\" The background is unknown; it may reflect a local conflict or forced move long before the Babylonian exile. The text is difficult in Hebrew, and translations vary.",
+    "refs": []
+   }
+  ]
+ },
+ "9": {
+  "summary": "After a summary of all Israel's genealogies and Judah's exile, the chapter lists the people who resettled Jerusalem, the priests, Levites and gatekeepers and their duties, then repeats Saul's family tree.",
+  "lookfor": "Notice how the chapter moves from the exile to the people who came back, and how much detail it gives about guarding doors, counting vessels and baking bread.",
+  "names": [
+   {
+    "name": "Perez",
+    "kind": "person",
+    "gloss": "Son of Judah and Tamar, and ancestor of David."
+   },
+   {
+    "name": "Shilonites",
+    "kind": "group",
+    "gloss": "Probably descendants of Judah's son Shelah."
+   },
+   {
+    "name": "Korahites",
+    "kind": "group",
+    "gloss": "A Levite family descended from Korah; several psalms are titled \"of the sons of Korah.\""
+   },
+   {
+    "name": "Phinehas",
+    "kind": "person",
+    "gloss": "Aaron's grandson, who once guarded the sanctuary with zeal."
+   },
+   {
+    "name": "Netophathites",
+    "kind": "group",
+    "gloss": "People of Netophah, a village near Bethlehem."
+   },
+   {
+    "name": "Jeduthun",
+    "kind": "person",
+    "gloss": "A leader of temple music in David's day, named in several psalm titles."
+   }
+  ],
+  "skim": {
+   "advice": "Read verses 1 and 2 closely, then skim the names of the returnees and priests. The duties of the gatekeepers and Levites in verses 22 to 33 are worth reading, while the repeated Saul genealogy at the end can be skimmed.",
+   "key": [
+    1,
+    2,
+    22,
+    33
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Exile and return in one breath",
+    "body": "\"Judah was carried away captive to Babylon for their disobedience\" (9:1) explains the exile with the key word ma'al, unfaithfulness. The next verse turns straight to the \"first inhabitants\" who returned to their cities (9:2). The genealogies end where the readers' own community begins.",
+    "refs": [
+     "1 Chronicles 5:25",
+     "Nehemiah 11:1-3"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Nehemiah's list",
+    "body": "The list of those living in Jerusalem (9:3-17) closely parallels Nehemiah 11, with many of the same names. Both describe the repopulating of the city after the exile. Scholars debate which list draws on which, or whether both use a common source.",
+    "refs": [
+     "Nehemiah 11:3-19"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Ephraim and Manasseh too",
+    "body": "Among Jerusalem's residents are people from Ephraim and Manasseh (9:3), northern tribes long since scattered by Assyria. Nehemiah's parallel list does not mention them. The Chronicler likes to show that the returned community was not just Judah but a cross-section of all Israel.",
+    "refs": [
+     "2 Chronicles 30:11",
+     "2 Chronicles 34:9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Keepers of the gates",
+    "body": "Temple gatekeepers guarded all four sides, opened the house each morning, and counted the sacred vessels in and out (9:24-28). Ancient temples held great wealth and had to be protected from theft and from people entering in a state of impurity. These Levites served in weekly rotations from their villages (9:25).",
+    "refs": [
+     "2 Chronicles 23:19",
+     "Psalms 84:10"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "An office of trust",
+    "body": "Gatekeepers and storekeepers held their posts as an \"office of trust\" (9:22, 9:26, 9:31). The Hebrew word, emunah, is related to amen and means faithfulness or reliability. The Chronicler treats counting cups and baking bread as faithful service to God.",
+    "refs": [
+     "1 Corinthians 4:2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Bread every Sabbath",
+    "body": "Some Kohathites prepared the show bread \"every Sabbath\" (9:32). Leviticus commands twelve loaves set before Yahweh each Sabbath as a lasting covenant. Jesus later referred to David eating this bread when he was hungry.",
+    "refs": [
+     "Leviticus 24:5-9",
+     "Mark 2:25-26"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Singers day and night",
+    "body": "The singers were \"free from other service; for they were employed in their work day and night\" (9:33). Psalms that call on those who serve in Yahweh's house by night may reflect such round-the-clock praise. Chronicles presents worship, not the palace, as the centre of the restored community.",
+    "refs": [
+     "Psalms 134:1-2",
+     "Revelation 4:8"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Faithfulness in small tasks",
+    "body": "This chapter honours people who opened doors, counted vessels and mixed spices. What does it suggest that the Chronicler thought these duties worth recording by name, and how might that shape the way we see ordinary service?",
+    "refs": []
+   }
+  ]
+ },
+ "10": {
+  "summary": "Saul and his sons die in battle with the Philistines on Mount Gilboa, and the Chronicler explains that Saul died for his unfaithfulness, so Yahweh turned the kingdom over to David.",
+  "lookfor": "Compare this short account with 1 Samuel 31, and pay attention to the verdict in the last two verses.",
+  "names": [
+   {
+    "name": "Mount Gilboa",
+    "kind": "place",
+    "gloss": "A ridge on the south-east edge of the Jezreel Valley, where Saul fought his last battle."
+   },
+   {
+    "name": "Malchishua",
+    "kind": "person",
+    "gloss": "One of Saul's sons who died with him on Gilboa."
+   },
+   {
+    "name": "Dagon",
+    "kind": "person",
+    "gloss": "A god worshipped by the Philistines, whose temple features in several stories in Judges and Samuel."
+   },
+   {
+    "name": "Jabesh Gilead",
+    "kind": "place",
+    "gloss": "A town east of the Jordan that Saul had rescued from the Ammonites at the start of his reign."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Saul's reign skipped",
+    "body": "Chronicles tells nothing of Saul's rise or reign, only his death. The story begins in earnest with David, and Saul serves as a warning of what unfaithfulness brings. This chapter is a short version of 1 Samuel 31 with a theological verdict added.",
+    "refs": [
+     "1 Samuel 31:1-13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "All his house died",
+    "body": "\"So Saul died with his three sons; and all his house died together\" (10:6). Samuel says only that his men died that day, and Saul's son Ishbosheth went on to rule for two years. The Chronicler compresses events to show that Saul's dynasty effectively ended on Gilboa; his descendants were just listed in chapter 9.",
+    "refs": [
+     "1 Samuel 31:6",
+     "2 Samuel 2:8-10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Trophies for the gods",
+    "body": "The Philistines sent news of their victory \"to their idols\" and fastened Saul's head in the house of Dagon (10:9-10). Victors in the ancient Near East often displayed enemy heads or armour in temples to credit their gods. Samuel adds that his body was fastened to the wall of Beth Shan.",
+    "refs": [
+     "1 Samuel 31:9-10",
+     "1 Samuel 5:1-5"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Jabesh repays a debt",
+    "body": "The men of Jabesh Gilead risked their lives to recover Saul's body (10:11-12). Saul's first act as king had been to rescue Jabesh from the Ammonites. David later blessed them for their loyalty.",
+    "refs": [
+     "1 Samuel 11:1-11",
+     "2 Samuel 2:4-7"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Darash: to seek",
+    "body": "Saul consulted a medium and \"didn't inquire of Yahweh\" (10:13-14). The verb, darash, means to seek or inquire, and it is one of the Chronicler's favourite words: kings who seek God prosper, those who do not fall. Samuel says Saul did ask and got no answer, so the Chronicler may mean he did not truly seek.",
+    "refs": [
+     "1 Samuel 28:6-7",
+     "2 Chronicles 15:2"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "God turned the kingdom",
+    "body": "Saul fell on his own sword, yet the text says Yahweh \"killed him, and turned the kingdom over to David the son of Jesse\" (10:14). Human choices and God's purposes are described as working together. The verse is a hinge from the genealogies to the story of David that fills the rest of the book.",
+    "refs": [
+     "1 Samuel 15:28",
+     "1 Samuel 16:1"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "A sober verdict",
+    "body": "Chronicles judges Saul in two verses and moves on, without the grief of David's lament in 2 Samuel 1. How do you hold together the Chronicler's verdict and David's mourning for the same man?",
+    "refs": [
+     "2 Samuel 1:17-27"
+    ]
+   }
+  ]
+ },
+ "11": {
+  "summary": "All Israel makes David king at Hebron, David captures Jerusalem, and the chapter lists his mighty men and some of their deeds.",
+  "lookfor": "Notice who comes to make David king and how quickly it happens, and look for the act of devotion in the middle of the war stories.",
+  "names": [
+   {
+    "name": "Hebron",
+    "kind": "place",
+    "gloss": "An ancient town in Judah's hills, linked with Abraham, where David first reigned."
+   },
+   {
+    "name": "Jebus",
+    "kind": "place",
+    "gloss": "The name for Jerusalem when it was held by the Jebusites."
+   },
+   {
+    "name": "Joab",
+    "kind": "person",
+    "gloss": "David's nephew, son of Zeruiah, and commander of his army."
+   },
+   {
+    "name": "Millo",
+    "kind": "place",
+    "gloss": "A structure in Jerusalem, perhaps an earth-filled terrace that supported buildings on the slope."
+   },
+   {
+    "name": "Adullam",
+    "kind": "place",
+    "gloss": "A cave and town in the Judean lowlands where David hid from Saul."
+   },
+   {
+    "name": "Benaiah",
+    "kind": "person",
+    "gloss": "A famous warrior who led David's bodyguard and later became Solomon's army commander."
+   },
+   {
+    "name": "Uriah the Hittite",
+    "kind": "person",
+    "gloss": "One of David's warriors, Bathsheba's husband, whose death David arranged."
+   }
+  ],
+  "skim": {
+   "advice": "Read the coronation and the capture of Jerusalem in verses 1 to 9 and the stories of the warriors in verses 10 to 25. The list of names from verse 26 onward can be skimmed.",
+   "key": [
+    3,
+    9,
+    18,
+    41
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "No civil war",
+    "body": "In Samuel, David is king of Judah for seven years while Saul's son rules the north, and civil war follows. Chronicles moves straight from Saul's death to all Israel gathering at Hebron (11:1). The Chronicler is not denying the earlier account, which he mentions later, but presenting David as the king of a united people.",
+    "refs": [
+     "2 Samuel 2:1-11",
+     "2 Samuel 5:1-5",
+     "1 Chronicles 29:27"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Shepherd and prince",
+    "body": "The people recall God's word, \"You shall be shepherd of my people Israel\" (11:2). Ancient Near Eastern kings were often called shepherds of their people, a picture of care as well as rule. The prophets later blamed Israel's leaders as bad shepherds and promised a shepherd from David's line.",
+    "refs": [
+     "Ezekiel 34:23-24",
+     "John 10:11"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Joab earns his rank",
+    "body": "Only Chronicles records that David offered command of the army to whoever struck the Jebusites first, and that Joab went up first (11:6). In Samuel, Joab is simply already commander. The story explains how David's sometimes troublesome nephew won his post.",
+    "refs": [
+     "2 Samuel 5:6-8",
+     "2 Samuel 8:16"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The stronghold of Zion",
+    "body": "Jerusalem lay between the tribes of Judah and Benjamin and belonged to neither, which made it a politically neutral capital. Archaeologists have uncovered a large stepped stone structure on the eastern slope of the City of David, which some link with the Millo (11:8). Its date and purpose are still debated.",
+    "refs": [
+     "Judges 1:21",
+     "2 Samuel 5:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Water poured out",
+    "body": "Three men broke through Philistine lines to bring David water from Bethlehem's well, but he poured it out to Yahweh: \"Shall I drink the blood of these men?\" (11:19). Blood, the life, belonged to God and was not to be consumed. David treats their courage as too costly to use for himself.",
+    "refs": [
+     "Leviticus 17:11",
+     "2 Samuel 23:13-17"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Uriah in the list",
+    "body": "Chronicles leaves out the story of David and Bathsheba, but \"Uriah the Hittite\" stands among the mighty men (11:41). Readers who knew Samuel would feel the weight of the name. Matthew's genealogy also recalls Solomon's mother as Uriah's wife.",
+    "refs": [
+     "2 Samuel 11:1-27",
+     "Matthew 1:6"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Warriors from outside",
+    "body": "The list runs beyond the one in Samuel with sixteen more names (11:41-47), including Zelek the Ammonite and Ithmah the Moabite. David's kingdom drew in foreigners as well as Israelites. Chronicles ties these warriors to God's purpose of making David king \"according to Yahweh's word\" (11:10).",
+    "refs": [
+     "2 Samuel 23:8-39"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Three hundred or eight hundred",
+    "body": "Jashobeam killed three hundred men at one time (11:11), but the parallel in Samuel says eight hundred and gives him a different name. Numbers in ancient manuscripts were easily miscopied. Such differences are common between Samuel and Chronicles.",
+    "refs": [
+     "2 Samuel 23:8"
+    ]
+   }
+  ]
+ },
+ "12": {
+  "summary": "The chapter looks back at the warriors who joined David while he was a fugitive at Ziklag and in the wilderness, then lists the vast numbers from every tribe who came to Hebron to make him king.",
+  "lookfor": "Watch how support for David grows from a few defectors to all the tribes, and notice the words spoken under the Spirit's influence.",
+  "names": [
+   {
+    "name": "Ziklag",
+    "kind": "place",
+    "gloss": "A town given to David by the Philistine king Achish, his base while he hid from Saul."
+   },
+   {
+    "name": "Gadites",
+    "kind": "group",
+    "gloss": "Members of the tribe of Gad, east of the Jordan."
+   },
+   {
+    "name": "Amasai",
+    "kind": "person",
+    "gloss": "A leader who speaks words of loyalty to David under the Spirit's influence; perhaps the same as Amasa."
+   },
+   {
+    "name": "Jehoiada",
+    "kind": "person",
+    "gloss": "A leader of Aaron's family, perhaps the father of Benaiah."
+   },
+   {
+    "name": "Zadok",
+    "kind": "person",
+    "gloss": "A young warrior-priest who later became David's and Solomon's chief priest."
+   },
+   {
+    "name": "Issachar",
+    "kind": "group",
+    "gloss": "A northern tribe living by the Jezreel Valley, here praised for its insight."
+   }
+  ],
+  "skim": {
+   "advice": "Read the stories of the early supporters in verses 1 to 22, then skim the tribal numbers in verses 23 to 37 before slowing down for the feast at the end.",
+   "key": [
+    18,
+    22,
+    32,
+    38
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Even Saul's relatives",
+    "body": "The first supporters listed are Benjaminites, \"of Saul's relatives\" (12:2). The Chronicler stresses that David did not seize power; men from every quarter, even Saul's tribe, came to him. Support grew \"from day to day\" until there was \"a great army, like God's army\" (12:22).",
+    "refs": [
+     "1 Samuel 22:1-2",
+     "1 Samuel 27:6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Two-handed fighters",
+    "body": "These Benjaminites could sling stones and shoot arrows with either hand (12:2). Benjamin's name means son of the right hand, yet the tribe was famous for left-handed fighters, including the judge Ehud. Slingers were deadly in ancient warfare, able to hit targets at long range.",
+    "refs": [
+     "Judges 3:15",
+     "Judges 20:16"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The Spirit clothed Amasai",
+    "body": "\"The Spirit came on Amasai\" (12:18) reads literally that the Spirit clothed him, using the verb labash, to put on a garment. The same picture is used of Gideon. Amasai's words, \"Peace, peace be to you,\" announce that God is on David's side.",
+    "refs": [
+     "Judges 6:34",
+     "2 Chronicles 24:20"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Understanding the times",
+    "body": "The men of Issachar \"had understanding of the times, to know what Israel ought to do\" (12:32). Some Jewish interpreters took this as skill in astronomy and setting the calendar. In context it praises political wisdom in recognising that David's hour had come.",
+    "refs": [
+     "Esther 1:13"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Very large numbers",
+    "body": "The tribal totals add up to more than three hundred thousand men (12:23-37). The Hebrew word for thousand, eleph, can also mean a clan or military unit, and some scholars think the lists originally counted units. Others take the figures as they stand or see them as stylised to stress unanimous support.",
+    "refs": [
+     "Numbers 1:46",
+     "Judges 6:15"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Of one heart",
+    "body": "All came \"with a perfect heart\" and the rest of Israel \"were of one heart to make David king\" (12:38). Chronicles often speaks of a whole or single heart toward God and his king. The early church in Acts is described as being of one heart and soul.",
+    "refs": [
+     "2 Chronicles 30:12",
+     "Acts 4:32"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "There was joy in Israel",
+    "body": "The chapter ends with a three-day feast, food carried in from as far as the northern tribes, \"for there was joy in Israel\" (12:40). Joy at gatherings of all Israel recurs in Chronicles, at the ark's arrival, the temple's dedication and Hezekiah's Passover. A united people around God's chosen king is the picture the Chronicler holds up.",
+    "refs": [
+     "1 Chronicles 15:25",
+     "2 Chronicles 30:26"
+    ]
+   }
+  ]
+ },
+ "13": {
+  "summary": "David and all Israel set out to bring God's ark from Kiriath Jearim to Jerusalem on a new cart, but when Uzza touches the ark he dies, and David leaves it at the house of Obed-Edom.",
+  "lookfor": "Notice how carefully David consults the people before the journey, and what goes wrong in the way the ark is carried.",
+  "names": [
+   {
+    "name": "Kiriath Jearim",
+    "kind": "place",
+    "gloss": "A town west of Jerusalem where the ark had stayed for about twenty years after the Philistines returned it."
+   },
+   {
+    "name": "Baalah",
+    "kind": "place",
+    "gloss": "An older name for Kiriath Jearim."
+   },
+   {
+    "name": "Hamath",
+    "kind": "place",
+    "gloss": "A city in Syria on the Orontes river; its entrance marked Israel's ideal northern limit."
+   },
+   {
+    "name": "Abinadab",
+    "kind": "person",
+    "gloss": "The man of Kiriath Jearim in whose house the ark was kept."
+   },
+   {
+    "name": "Uzza",
+    "kind": "person",
+    "gloss": "Probably a son or descendant of Abinadab, who drove the cart carrying the ark."
+   },
+   {
+    "name": "Perez Uzza",
+    "kind": "place",
+    "gloss": "A place name meaning \"breach of Uzza\" or \"Uzza's outburst.\""
+   },
+   {
+    "name": "Obed-Edom",
+    "kind": "person",
+    "gloss": "A man called a Gittite, in whose house the ark stayed for three months; later named among the Levites."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The ark comes first",
+    "body": "In 2 Samuel, David captures Jerusalem, builds a palace and fights the Philistines before moving the ark. Chronicles puts the ark immediately after his coronation and the capture of the city. The reordering shows that, for the Chronicler, David's first concern as king was worship.",
+    "refs": [
+     "2 Samuel 5:1-25",
+     "2 Samuel 6:1-11"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Neglected in Saul's day",
+    "body": "David says, \"we didn't seek it in the days of Saul\" (13:3). The verb is darash, the same word used of Saul's failure to seek Yahweh in chapter 10. David's reign begins by putting right what Saul had neglected.",
+    "refs": [
+     "1 Chronicles 10:13-14",
+     "1 Samuel 7:1-2"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A new cart",
+    "body": "Carrying a sacred object on a new cart that had never been put to ordinary use was a way to honour it. The Philistines had sent the ark back the same way. But the Law of Moses said the Kohathite Levites were to carry the ark on their shoulders with poles.",
+    "refs": [
+     "1 Samuel 6:7-8",
+     "Numbers 4:15",
+     "Numbers 7:9"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Perez: breaking out",
+    "body": "\"Yahweh had broken out against Uzza\" (13:11), and David named the place Perez Uzza. The Hebrew root parats, to break through, runs through these chapters: God breaks out against the Philistines at Baal Perazim and is said to have broken out against Israel for not seeking him properly. The same God who breaks out against enemies also breaks out against careless handling of what is holy.",
+    "refs": [
+     "1 Chronicles 14:11",
+     "1 Chronicles 15:13"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Enthroned on the cherubim",
+    "body": "The ark is described as the place of God \"that sits above the cherubim\" (13:6). Its lid was flanked by two golden cherubim, and Israel pictured the invisible God enthroned above them. Psalms and prophets use the same title in prayer.",
+    "refs": [
+     "Exodus 25:18-22",
+     "Psalms 80:1",
+     "Isaiah 37:16"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Blessing at Obed-Edom's house",
+    "body": "The ark that brought death to Uzza brought blessing to Obed-Edom's household for three months (13:14). The ark's power was not a weapon or a charm but the presence of the holy God. The same presence that blesses can also be dangerous when treated lightly.",
+    "refs": [
+     "1 Samuel 6:19-20",
+     "2 Samuel 6:11-12"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "A hand reaching out",
+    "body": "Uzza seems to have acted on instinct to keep the ark from falling (13:9). Readers in every tradition have found this story hard. What does it suggest about holiness, and about good intentions that ignore what God has said?",
+    "refs": []
+   }
+  ]
+ },
+ "14": {
+  "summary": "Hiram of Tyre helps David build a palace, David's family grows, and David twice asks God for guidance and defeats the Philistines.",
+  "lookfor": "Notice what David does before each battle, and compare the two different answers he receives.",
+  "names": [
+   {
+    "name": "Hiram",
+    "kind": "person",
+    "gloss": "King of Tyre, a Phoenician port city, who supplied cedar and craftsmen to David and later to Solomon."
+   },
+   {
+    "name": "Tyre",
+    "kind": "place",
+    "gloss": "A wealthy Phoenician trading city on the coast north of Israel."
+   },
+   {
+    "name": "valley of Rephaim",
+    "kind": "place",
+    "gloss": "A broad valley south-west of Jerusalem, a natural route for attackers from the coast."
+   },
+   {
+    "name": "Baal Perazim",
+    "kind": "place",
+    "gloss": "A place name meaning \"lord of breaking through,\" where David defeated the Philistines."
+   },
+   {
+    "name": "Gibeon",
+    "kind": "place",
+    "gloss": "A town north-west of Jerusalem in Benjamin."
+   },
+   {
+    "name": "Gezer",
+    "kind": "place",
+    "gloss": "A city on the edge of the coastal plain, guarding the route to the hill country."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Blessing during the wait",
+    "body": "This chapter sits in the three months the ark spent with Obed-Edom. While the ark blessed that household, God was also establishing David: a palace, a growing family and victories (14:2). Samuel places these events earlier, before any attempt to move the ark.",
+    "refs": [
+     "1 Chronicles 13:14",
+     "2 Samuel 5:11-25"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Cedar from Tyre",
+    "body": "Tyre controlled access to the cedar forests of Lebanon and had skilled masons and carpenters (14:1). Cedar was prized for royal and sacred buildings across the ancient Near East. A gift from Hiram signalled that a neighbouring king recognised David's new standing.",
+    "refs": [
+     "1 Kings 5:1-10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "David inquires",
+    "body": "Before each battle \"David inquired of God\" (14:10, 14:14). Saul died partly because he did not inquire of Yahweh, so the contrast is deliberate. The second time the answer is different: not a frontal attack but an ambush from behind.",
+    "refs": [
+     "1 Chronicles 10:13-14",
+     "1 Samuel 23:2-4"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The lord of breaking through",
+    "body": "David says God \"has broken my enemies by my hand, like waters breaking out\" (14:11), and names the place Baal Perazim. Baal here means lord or master, and perazim comes from the same root as Perez Uzza. Isaiah later recalls this battle when he warns that God may again rise up as at Mount Perazim, this time against his own people.",
+    "refs": [
+     "1 Chronicles 13:11",
+     "Isaiah 28:21"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Idols burned",
+    "body": "The Philistines abandoned their gods, and David ordered them burned (14:12). Samuel says David's men carried them away. Deuteronomy commanded that the images of other gods be burned, and the Chronicler makes David's obedience explicit.",
+    "refs": [
+     "2 Samuel 5:21",
+     "Deuteronomy 7:5",
+     "Deuteronomy 7:25"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Marching in the treetops",
+    "body": "God tells David to wait until he hears \"the sound of marching in the tops of the mulberry trees\" (14:15). The trees may be a kind of balsam or baca shrub; the exact plant is uncertain. The sound signalled that God himself had gone out ahead of Israel's army.",
+    "refs": [
+     "2 Samuel 5:23-24",
+     "2 Kings 7:6"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Fame among the nations",
+    "body": "\"Yahweh brought the fear of him on all nations\" (14:17). Chronicles often notes this fear of God falling on surrounding peoples when Judah's kings are faithful. David's kingdom is presented as a sign of God's rule before the watching world.",
+    "refs": [
+     "2 Chronicles 17:10",
+     "2 Chronicles 20:29"
+    ]
+   }
+  ]
+ },
+ "15": {
+  "summary": "David prepares a tent for the ark and this time has the Levites carry it on their shoulders, with priests, singers and musicians, while Michal watches from a window.",
+  "lookfor": "Compare how the ark is carried here with chapter 13, and notice the lists of musicians and their instruments.",
+  "names": [
+   {
+    "name": "Abiathar",
+    "kind": "person",
+    "gloss": "A priest who had escaped Saul's massacre at Nob and stayed with David."
+   },
+   {
+    "name": "Elizaphan",
+    "kind": "person",
+    "gloss": "A leader of the Kohathite Levites in Moses' day; his descendants formed their own family group."
+   },
+   {
+    "name": "Chenaniah",
+    "kind": "person",
+    "gloss": "The Levite chief who directed the singing because of his skill."
+   },
+   {
+    "name": "Alamoth",
+    "kind": "group",
+    "gloss": "A musical term of uncertain meaning, perhaps \"for young women's voices\" or a high register."
+   },
+   {
+    "name": "Michal",
+    "kind": "person",
+    "gloss": "Saul's daughter and David's first wife."
+   }
+  ],
+  "skim": {
+   "advice": "Read verses 1 to 3 and 11 to 16 closely, as well as the closing verses. The lists of Levite families and musicians in verses 4 to 10 and 17 to 24 can be skimmed.",
+   "key": [
+    2,
+    13,
+    15,
+    29
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Learning from failure",
+    "body": "David now says, \"No one ought to carry God's ark but the Levites\" (15:2). He explains that God broke out against them \"because we didn't seek him according to the ordinance\" (15:13). The failure of chapter 13 becomes the reason for careful obedience.",
+    "refs": [
+     "Numbers 4:15",
+     "Deuteronomy 10:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "On their shoulders",
+    "body": "The Levites carried the ark \"on their shoulders with its poles, as Moses commanded\" (15:15). The ark had rings for poles so that no one needed to touch it. The contrast with the new cart is the point of the chapter.",
+    "refs": [
+     "Exodus 25:12-15",
+     "Numbers 7:9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Cymbals, harps and lyres",
+    "body": "The singers used bronze cymbals to sound aloud, stringed instruments and harps (15:19-21). Cymbals probably signalled the start of a song or a pause, while lyres and harps carried the melody. Ancient Near Eastern temples also had trained musicians, and Israel's worship borrowed familiar instruments.",
+    "refs": [
+     "Psalms 150:3-5"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Psalm-title terms",
+    "body": "\"Set to Alamoth\" (15:20) and \"tuned to the eight-stringed lyre\" (15:21) translate terms also found in psalm titles: alamoth and sheminith. Their meaning is uncertain; alamoth may mean young women, perhaps a high pitch, and sheminith means \"the eighth,\" perhaps an octave or an eight-stringed instrument. Their appearance here links the Psalter with temple music.",
+    "refs": [
+     "Psalms 46:1",
+     "Psalms 6:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "David in linen",
+    "body": "David wore a robe of fine linen and a linen ephod (15:27), clothing like that of the Levites and priests. In Samuel he wears only the ephod as he dances. Chronicles presents David as leading worship alongside the Levites without taking on a priest's duties.",
+    "refs": [
+     "2 Samuel 6:14",
+     "1 Samuel 2:18"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Michal despised him",
+    "body": "Michal saw David dancing and \"despised him in her heart\" (15:29). Samuel tells the bitter conversation that followed; Chronicles keeps only the single verse. As Saul's daughter she stands for the old house that did not seek the ark.",
+    "refs": [
+     "2 Samuel 6:16-23"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Joy and order together",
+    "body": "The procession is both carefully ordered, with appointed singers, doorkeepers and trumpeters, and full of joy and shouting (15:25, 15:28). Chronicles does not set reverence and celebration against each other. Worship done according to God's ordinance becomes the setting for great gladness.",
+    "refs": [
+     "Psalms 24:7-10",
+     "Psalms 132:8-9"
+    ]
+   }
+  ]
+ },
+ "16": {
+  "summary": "The ark is set in David's tent with offerings and gifts for the people, David appoints Levites to give thanks continually, and Asaph and his brothers sing a psalm of praise.",
+  "lookfor": "Read the psalm in verses 8 to 36 for what it asks the people to remember, and notice where worship continues at Gibeon.",
+  "names": [
+   {
+    "name": "Asaph",
+    "kind": "person",
+    "gloss": "A Levite singer appointed leader of the musicians before the ark."
+   },
+   {
+    "name": "Obed-Edom",
+    "kind": "person",
+    "gloss": "The man whose house sheltered the ark, now appointed among the Levite doorkeepers and musicians."
+   },
+   {
+    "name": "Jeduthun",
+    "kind": "person",
+    "gloss": "A leader of temple music in David's day, named in the titles of several psalms."
+   },
+   {
+    "name": "Zadok",
+    "kind": "person",
+    "gloss": "A priest who served at the tabernacle at Gibeon and later became chief priest."
+   },
+   {
+    "name": "Gibeon",
+    "kind": "place",
+    "gloss": "A town north-west of Jerusalem where the tabernacle of Moses and its altar then stood."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Thanks becomes a ministry",
+    "body": "David appointed Levites \"to commemorate, to thank, and to praise Yahweh\" (16:4). Once the ark no longer needed carrying, the Levites who had borne it were given a new job: song. This chapter is the Chronicler's account of how the temple's ministry of praise began.",
+    "refs": [
+     "1 Chronicles 23:30",
+     "Deuteronomy 10:8"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A psalm of psalms",
+    "body": "The song in verses 8 to 36 is made from parts of three psalms: 105:1-15, 96, and 106:1 and 47-48. The Chronicler stitches them together for this moment. It shows that these psalms were already used in worship when Chronicles was written.",
+    "refs": [
+     "Psalms 105:1-15",
+     "Psalms 96:1-13",
+     "Psalms 106:47-48"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "When you were few",
+    "body": "The psalm recalls a time when Israel's ancestors were \"but a few men in number, yes, very few, and foreigners were in it\" (16:19). The words describe the patriarchs, but they fitted the Chronicler's own readers too. The closing prayer, \"Gather us together and deliver us from the nations\" (16:35), would also have spoken to a scattered people.",
+    "refs": [
+     "Genesis 34:30",
+     "Deuteronomy 26:5"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Hesed endures forever",
+    "body": "\"His loving kindness endures forever\" (16:34, 16:41) translates the Hebrew hesed, God's steadfast, covenant love. This refrain becomes a signature of worship in Chronicles, sung at the temple dedication and on the battlefield. It is also the repeated line of Psalm 136.",
+    "refs": [
+     "2 Chronicles 5:13",
+     "2 Chronicles 20:21",
+     "Psalms 136:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Bread, meat and raisins",
+    "body": "David gave every Israelite, \"both man and woman,\" bread, meat and a cake of raisins (16:3). Peace offerings were shared meals in which worshippers ate part of the sacrifice. A royal festival with gifts of food was a familiar way for ancient kings to celebrate with their people.",
+    "refs": [
+     "Leviticus 7:11-15",
+     "2 Chronicles 7:10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Two places of worship",
+    "body": "Asaph's singers ministered before the ark in Jerusalem, while Zadok and the priests offered sacrifices at the tabernacle in Gibeon (16:37-40). Worship was divided between the two until Solomon's temple brought ark and altar together. Solomon went to Gibeon to sacrifice at the start of his reign.",
+    "refs": [
+     "1 Kings 3:4",
+     "2 Chronicles 1:3-6"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "All the earth sings",
+    "body": "The psalm calls on \"all the earth\" and the nations to praise Yahweh (16:23-31). Israel's worship was meant to be a witness to every people. Paul and Revelation take up the same vision of the nations praising God.",
+    "refs": [
+     "Romans 15:9-11",
+     "Revelation 15:4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Remember his works",
+    "body": "The psalm keeps telling the people to remember what God has done (16:12, 16:15). How might remembering God's past faithfulness change the way a small, struggling community faces its present?",
+    "refs": []
+   }
+  ]
+ },
+ "17": {
+  "summary": "David wants to build a house for God, but through Nathan God promises instead to build David a house, a lasting dynasty, and David responds with a prayer of wonder and thanks.",
+  "lookfor": "Follow the different meanings of the word house through the chapter, and notice what God promises about David's son.",
+  "names": [
+   {
+    "name": "Nathan",
+    "kind": "person",
+    "gloss": "A prophet at David's court who later confronted him over Bathsheba and helped make Solomon king."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "A house of cedar",
+    "body": "David lives in a cedar palace while the ark sits in a tent (17:1), and he wants to put that right. Nathan first agrees, then God sends a different message the same night. The chapter turns David's plan to give God a house into God's promise to give David one.",
+    "refs": [
+     "2 Samuel 7:1-17"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Bayit: house",
+    "body": "The Hebrew bayit can mean a building, a household or a dynasty, and the chapter plays on all three. David will not build God a house, a temple, but \"Yahweh will build you a house\" (17:10), a royal line. David's son will then build God's house (17:12).",
+    "refs": [
+     "1 Chronicles 22:6-10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "My house and my kingdom",
+    "body": "In Samuel, God says David's house and kingdom will be made sure. Here God says, \"I will settle him in my house and in my kingdom forever\" (17:14). The Chronicler stresses that Israel's throne is really God's throne, and the Davidic king rules on God's behalf.",
+    "refs": [
+     "2 Samuel 7:16",
+     "1 Chronicles 28:5",
+     "1 Chronicles 29:23"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "No mention of punishment",
+    "body": "Samuel's version adds that if David's son does wrong, God will discipline him with the rod of men. Chronicles leaves this out, focusing on the promise of steadfast love that will not be taken away (17:13). The omission fits its picture of Solomon as a model king.",
+    "refs": [
+     "2 Samuel 7:14-15"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Father and son",
+    "body": "\"I will be his father, and he will be my son\" (17:13) describes the king's special relationship with God. Psalm 2 uses similar language of the anointed king. Hebrews quotes this promise to show the Son's superiority to angels.",
+    "refs": [
+     "Psalms 2:7",
+     "Hebrews 1:5"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A throne forever",
+    "body": "This promise of an everlasting throne (17:12, 17:14) is the root of Israel's hope for a messiah from David's line. After the exile, with no king on the throne, the promise still stood. In Luke the angel tells Mary that her son will receive the throne of his father David and reign forever.",
+    "refs": [
+     "Psalms 89:3-4",
+     "Isaiah 9:7",
+     "Luke 1:32-33"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Kings and temples",
+    "body": "In the ancient Near East, kings commonly built or restored temples to show that the gods supported their rule. David's wish was natural for a king. God's reply reverses the usual pattern: the deity, not the king, takes the initiative to build.",
+    "refs": [
+     "Ezra 6:3-5"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Who am I?",
+    "body": "David \"sat before Yahweh\" and asked, \"Who am I, Yahweh God, and what is my house, that you have brought me this far?\" (17:16). What does it look like to receive a great gift with that kind of humility rather than with pride or anxiety?",
+    "refs": []
+   }
+  ]
+ },
+ "18": {
+  "summary": "David defeats the Philistines, Moab, the Aramean kingdoms and Edom, dedicates their silver, gold and bronze to Yahweh, and organises his officials.",
+  "lookfor": "Watch the repeated summary line about victory, and notice where the plunder ends up.",
+  "names": [
+   {
+    "name": "Gath",
+    "kind": "place",
+    "gloss": "One of the five main Philistine cities, home of Goliath."
+   },
+   {
+    "name": "Hadadezer",
+    "kind": "person",
+    "gloss": "King of Zobah, an Aramean (Syrian) kingdom north of Damascus."
+   },
+   {
+    "name": "Zobah",
+    "kind": "place",
+    "gloss": "An Aramean kingdom in what is now Lebanon and Syria."
+   },
+   {
+    "name": "Tou",
+    "kind": "person",
+    "gloss": "King of Hamath in Syria, an enemy of Hadadezer, who sent gifts to David."
+   },
+   {
+    "name": "Valley of Salt",
+    "kind": "place",
+    "gloss": "A valley probably south of the Dead Sea, scene of battles with Edom."
+   },
+   {
+    "name": "Cherethites",
+    "kind": "group",
+    "gloss": "Probably soldiers of Cretan origin who served as David's bodyguard."
+   },
+   {
+    "name": "Pelethites",
+    "kind": "group",
+    "gloss": "Probably Philistine soldiers who served with the Cherethites in David's guard."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Victories after the promise",
+    "body": "Chapters 18 to 20 follow God's promise to subdue David's enemies (17:10). The refrain \"Yahweh gave victory to David wherever he went\" (18:6, 18:13) shows the promise being kept. The wars also explain why David himself would not build the temple.",
+    "refs": [
+     "1 Chronicles 22:8",
+     "2 Samuel 8:1-18"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Bronze for the temple",
+    "body": "Only Chronicles adds that the bronze taken from Hadadezer's cities was later used by Solomon for \"the bronze sea, the pillars, and the vessels of brass\" (18:8). Plunder from David's wars is turned into material for God's house. David dedicated silver and gold from every nation he defeated (18:11).",
+    "refs": [
+     "2 Chronicles 4:2-5",
+     "1 Chronicles 22:14"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Hamstrung horses",
+    "body": "David hamstrung most of the captured chariot horses, keeping enough for a hundred chariots (18:4). Joshua did the same at God's command, and Deuteronomy warned kings against multiplying horses. Israel's hill-country army did not rely on chariots, and the move kept the enemy from reusing them.",
+    "refs": [
+     "Joshua 11:6-9",
+     "Deuteronomy 17:16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "What Chronicles leaves out",
+    "body": "Samuel records that David measured out Moabite prisoners with a line and put two-thirds to death. Chronicles says only that Moab became tributary (18:2). The Chronicler often omits harsh or embarrassing details found in Samuel and Kings.",
+    "refs": [
+     "2 Samuel 8:2"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Justice and righteousness",
+    "body": "David \"executed justice and righteousness for all his people\" (18:14). The Hebrew pair, mishpat and tsedaqah, describes fair judgment and right relationships, especially for the weak. The prophets used this pair to measure every king, and they foresaw a coming son of David who would rule this way.",
+    "refs": [
+     "Jeremiah 22:15-16",
+     "Jeremiah 23:5",
+     "Psalms 72:1-4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Chief officials, not priests",
+    "body": "Samuel's list says David's sons were priests, using the Hebrew kohanim. Chronicles calls them \"chief officials serving the king\" (18:17). The Chronicler may be interpreting an unusual term, or avoiding the idea of non-Levite priests.",
+    "refs": [
+     "2 Samuel 8:18"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The promised borders",
+    "body": "David's power reached toward the Euphrates (18:3). God had promised Abraham land from the river of Egypt to the Euphrates. Under David and Solomon, Israel came closest to that ideal.",
+    "refs": [
+     "Genesis 15:18",
+     "1 Kings 4:21"
+    ]
+   }
+  ]
+ },
+ "19": {
+  "summary": "When the new Ammonite king humiliates David's envoys, the Ammonites hire Aramean armies, and Joab and Abishai defeat them, after which David crushes the Arameans.",
+  "lookfor": "Notice how an act of kindness is misread, and listen to Joab's words before the battle.",
+  "names": [
+   {
+    "name": "Nahash",
+    "kind": "person",
+    "gloss": "King of the Ammonites, once Saul's enemy, who had shown David kindness."
+   },
+   {
+    "name": "Hanun",
+    "kind": "person",
+    "gloss": "Nahash's son and successor as king of Ammon."
+   },
+   {
+    "name": "Aram-maacah",
+    "kind": "place",
+    "gloss": "A small Aramean kingdom north-east of the Sea of Galilee."
+   },
+   {
+    "name": "Medeba",
+    "kind": "place",
+    "gloss": "A town on the plateau east of the Dead Sea, north of the Arnon."
+   },
+   {
+    "name": "Abishai",
+    "kind": "person",
+    "gloss": "Joab's brother and one of David's leading commanders."
+   },
+   {
+    "name": "Shophach",
+    "kind": "person",
+    "gloss": "Commander of Hadadezer's army, killed in battle."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Kindness for kindness",
+    "body": "David wanted to \"show kindness\" to Hanun because his father had done so to him (19:2). The Hebrew is hesed, loyal covenant kindness. We are not told what Nahash did for David, though as Saul's enemy he may have helped David when Saul hunted him.",
+    "refs": [
+     "1 Samuel 11:1-2",
+     "2 Samuel 10:1-2"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Shaved and half-dressed",
+    "body": "Hanun shaved David's men and cut their garments off at the buttocks (19:4). Beards were a sign of honour and manhood, and exposure was a deep public shame. Insulting a king's envoys was an insult to the king himself and amounted to a declaration of war.",
+    "refs": [
+     "Isaiah 20:4",
+     "Isaiah 50:6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Until your beards grow",
+    "body": "David told the men, \"Stay at Jericho until your beards have grown, and then return\" (19:5). He spared them the shame of returning to the capital in disgrace. It is a small sign of the king's care for his servants.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Hired armies",
+    "body": "The Ammonites paid a thousand talents of silver, a vast sum, to hire chariots and soldiers from Aramean kingdoms (19:6). Mercenaries and alliances were common in ancient warfare. The figure of 32,000 chariots (19:7) is far larger than in Samuel, which counts foot soldiers, and copying errors with numbers are common.",
+    "refs": [
+     "2 Samuel 10:6"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Be strong",
+    "body": "Joab says, \"Be courageous, and let us be strong for our people and for the cities of our God\" (19:13). The Hebrew chazaq, be strong, is the word God spoke to Joshua and that David will speak to Solomon. Joab then leaves the outcome to God: \"May Yahweh do that which seems good to him.\"",
+    "refs": [
+     "Joshua 1:6-9",
+     "1 Chronicles 22:13"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Different numbers",
+    "body": "Verse 18 says David killed seven thousand charioteers and forty thousand foot soldiers; Samuel has seven hundred charioteers and forty thousand horsemen. Ancient scribes often confused numbers, so such differences are common between the two books. They do not change the outcome: the Arameans stopped helping Ammon.",
+    "refs": [
+     "2 Samuel 10:18"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Misread intentions",
+    "body": "The Ammonite princes assumed David's comforters were spies (19:3), and their suspicion led to war and defeat. The story sets up the siege of Rabbah in the next chapter. In Samuel, that siege is the setting for David's sin with Bathsheba.",
+    "refs": [
+     "2 Samuel 11:1"
+    ]
+   }
+  ]
+ },
+ "20": {
+  "summary": "Joab captures the Ammonite capital Rabbah, David takes its king's crown, and David's men kill several giant warriors of the Philistines.",
+  "lookfor": "Notice what happens in Jerusalem while the army is away, or rather what the Chronicler does not tell, and look for the family of the giant.",
+  "names": [
+   {
+    "name": "Rabbah",
+    "kind": "place",
+    "gloss": "The Ammonite capital, on the site of modern Amman in Jordan."
+   },
+   {
+    "name": "Sibbecai",
+    "kind": "person",
+    "gloss": "One of David's mighty men, from Hushah in Judah."
+   },
+   {
+    "name": "Elhanan",
+    "kind": "person",
+    "gloss": "A warrior of David from Bethlehem."
+   },
+   {
+    "name": "Lahmi",
+    "kind": "person",
+    "gloss": "A Philistine champion, here called Goliath's brother."
+   },
+   {
+    "name": "Goliath",
+    "kind": "person",
+    "gloss": "The giant from Gath whom David killed as a young man."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The missing story",
+    "body": "\"David stayed at Jerusalem\" (20:1), and the next verse has Rabbah fall. In Samuel, between these two events come David's adultery with Bathsheba, the murder of Uriah and Nathan's rebuke. The Chronicler leaves them out, not because he denies them, but because his focus is David as founder of the temple and its worship.",
+    "refs": [
+     "2 Samuel 11:1-27",
+     "2 Samuel 12:1-31"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "When kings go out",
+    "body": "\"The return of the year, at the time when kings go out\" (20:1) is spring, after the winter rains and before harvest. Roads were passable and there was food for armies in the fields. Ancient annals often date campaigns this way.",
+    "refs": [
+     "1 Kings 20:22",
+     "2 Samuel 11:1"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Their king or Milcom?",
+    "body": "David took \"the crown of their king\" (20:2), weighing a talent of gold, roughly thirty kilograms. The Hebrew malkam can mean \"their king\" or be read as Milcom, the Ammonite god, and the Greek translation took it that way. A crown that heavy may have adorned an idol's statue rather than a human head.",
+    "refs": [
+     "1 Kings 11:5",
+     "Jeremiah 49:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Saws, picks and axes",
+    "body": "Verse 3 says David \"had them cut with saws.\" The parallel in Samuel says he put them to work with saws, picks and axes, which many take as forced labour. The Hebrew words differ by one letter, and scholars disagree about whether the text describes cruelty or conscripted work.",
+    "refs": [
+     "2 Samuel 12:31"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Who killed Goliath?",
+    "body": "Here Elhanan kills \"Lahmi the brother of Goliath\" (20:5). The Hebrew of Samuel's parallel says Elhanan killed Goliath himself, which seems to clash with 1 Samuel 17. Some think Chronicles preserves the correct text or harmonised it; others think there was more than one giant by that name.",
+    "refs": [
+     "2 Samuel 21:19",
+     "1 Samuel 17:4-51"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Six fingers, six toes",
+    "body": "A giant at Gath had twenty-four fingers and toes (20:6). Polydactyly is a known human condition, and the detail marks him as extraordinary. These men are called born \"to the giant,\" probably referring to the Rephaim, a legendary race of tall people.",
+    "refs": [
+     "Deuteronomy 2:10-11",
+     "2 Samuel 21:20-22"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Giants fall to servants",
+    "body": "The giants \"fell by the hand of David, and by the hand of his servants\" (20:8). Victory over the giants began with the young David's faith and was finished by ordinary soldiers. The land the spies once feared because of giants is finally secured.",
+    "refs": [
+     "Numbers 13:32-33",
+     "1 Samuel 17:45-47"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Silence about sin",
+    "body": "Chronicles is silent about David's greatest sin. Is leaving it out a way of hiding it, or a way of keeping the focus on another purpose? What do you think a reader gains and loses by reading Samuel and Chronicles side by side?",
+    "refs": []
+   }
+  ]
+ },
+ "21": {
+  "summary": "Incited by Satan, David orders a census of Israel, God sends a plague, and David's repentance and sacrifice at the threshing floor of Ornan stop the destroying angel.",
+  "lookfor": "Compare the opening verse with 2 Samuel 24:1, and notice where the story ends up and why that place matters.",
+  "names": [
+   {
+    "name": "Satan",
+    "kind": "person",
+    "gloss": "The adversary who opposes God's people; here he stirs David to sin."
+   },
+   {
+    "name": "Joab",
+    "kind": "person",
+    "gloss": "David's army commander, who objects to the census."
+   },
+   {
+    "name": "Gad",
+    "kind": "person",
+    "gloss": "A prophet called David's seer, who brings God's word to him."
+   },
+   {
+    "name": "Ornan",
+    "kind": "person",
+    "gloss": "A Jebusite, called Araunah in Samuel, who owned the threshing floor bought by David."
+   },
+   {
+    "name": "Jebusite",
+    "kind": "group",
+    "gloss": "The people who held Jerusalem before David captured it."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Satan or Yahweh?",
+    "body": "Samuel says Yahweh's anger moved David to count Israel; Chronicles says \"Satan stood up against Israel, and moved David\" (21:1). The Hebrew satan, adversary, appears here without an article, so many read it as a proper name. Writing later, the Chronicler names the agent of temptation, while Samuel focuses on God's sovereignty over all things.",
+    "refs": [
+     "2 Samuel 24:1",
+     "Job 1:6-12",
+     "Zechariah 3:1-2"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Why was a census wrong?",
+    "body": "Joab warns it will be \"a cause of guilt to Israel\" (21:3). Counting fighting men may have expressed pride in military strength rather than trust in God. The Law also required a ransom payment at a census so that no plague would come.",
+    "refs": [
+     "Exodus 30:12",
+     "Psalms 20:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Levi and Benjamin not counted",
+    "body": "Joab did not count Levi and Benjamin \"for the king's word was abominable to Joab\" (21:6). Levi was exempt from military registers in the Law. Benjamin held the tabernacle at Gibeon and bordered Jerusalem, which may have made Joab reluctant.",
+    "refs": [
+     "Numbers 1:47-49"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The angel with a sword",
+    "body": "David saw Yahweh's angel \"having a drawn sword in his hand stretched out over Jerusalem\" (21:16). Balaam and Joshua each met a similar figure. Here the sword hangs over the city God had chosen.",
+    "refs": [
+     "Numbers 22:31",
+     "Joshua 5:13-15"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "These sheep",
+    "body": "David pleads, \"but these sheep, what have they done?\" (21:17), asking that the punishment fall on him and his family. The shepherd-king takes responsibility instead of shifting blame. Chronicles includes David's sin but also models his repentance.",
+    "refs": [
+     "2 Samuel 24:17",
+     "John 10:11"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Gold or silver",
+    "body": "David insists on paying full price: \"nor offer a burnt offering that costs me nothing\" (21:24). He pays six hundred shekels of gold, while Samuel says fifty shekels of silver. Many suggest Samuel's price was for the threshing floor and oxen, and Chronicles' for the whole site.",
+    "refs": [
+     "2 Samuel 24:24"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Fire on the altar",
+    "body": "God \"answered him from the sky by fire on the altar\" (21:26), a sign of acceptance. Fire also fell at the first sacrifices of the tabernacle and will fall again when Solomon dedicates the temple. This threshing floor becomes the temple site, which 2 Chronicles identifies with Mount Moriah, where Abraham was told to offer Isaac.",
+    "refs": [
+     "Leviticus 9:24",
+     "2 Chronicles 3:1",
+     "2 Chronicles 7:1",
+     "Genesis 22:2"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Judgment and mercy",
+    "body": "David chose to fall into God's hand \"for his mercies are very great\" (21:13), and God relented before the city was destroyed (21:15). What does it mean that the place where judgment stopped became the place of the temple?",
+    "refs": []
+   }
+  ]
+ },
+ "22": {
+  "summary": "David names Ornan's threshing floor as the site of God's house, gathers vast materials and workers, and charges Solomon and Israel's leaders to build the temple.",
+  "lookfor": "Listen for the reason David gives for not building the temple himself, and the meaning of Solomon's name.",
+  "names": [
+   {
+    "name": "Solomon",
+    "kind": "person",
+    "gloss": "David's son by Bathsheba, chosen to succeed him and build the temple."
+   },
+   {
+    "name": "Sidonians",
+    "kind": "group",
+    "gloss": "People of Sidon, a Phoenician port city famous for timber trade and craftsmanship."
+   },
+   {
+    "name": "Tyre",
+    "kind": "place",
+    "gloss": "A Phoenician port city whose king supplied cedar to David and Solomon."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "This is the house",
+    "body": "\"This is the house of Yahweh God, and this is the altar of burnt offering for Israel\" (22:1). After the fire fell at Ornan's threshing floor, David recognises it as the place for the temple. Chapters 22 to 29 have no parallel in Samuel or Kings and show David preparing everything for Solomon.",
+    "refs": [
+     "1 Chronicles 21:26-28",
+     "2 Chronicles 3:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A man of blood",
+    "body": "David says God told him, \"You have shed blood abundantly\" (22:8), so he could not build the temple. Kings gives a more practical reason: David was too busy with wars. The Chronicler draws a theological point: the house of God should be built in a time of peace.",
+    "refs": [
+     "1 Kings 5:3-5",
+     "1 Chronicles 28:3"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Solomon and shalom",
+    "body": "God promises a son \"who shall be a man of peace\" and adds, \"his name shall be Solomon, and I will give peace and quietness to Israel in his days\" (22:9). Shelomoh, Solomon, sounds like shalom, peace. The name itself carries the promise of a reign of rest.",
+    "refs": [
+     "2 Samuel 12:24-25"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Like Moses and Joshua",
+    "body": "David's charge, \"Be strong and courageous. Don't be afraid, and don't be dismayed\" (22:13), echoes Moses' words to Joshua. As Moses could not enter the land and Joshua finished the work, David cannot build and Solomon completes the task. The Chronicler models the handover on that earlier one.",
+    "refs": [
+     "Deuteronomy 31:7-8",
+     "Joshua 1:6-9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Staggering sums",
+    "body": "David says he has prepared a hundred thousand talents of gold and a million talents of silver (22:14), thousands of tonnes of metal. Such amounts far exceed what is known of ancient economies. Many interpreters take the numbers as deliberate exaggeration to express the temple's glory; others suspect inflation of figures in transmission.",
+    "refs": [
+     "1 Kings 10:14"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The gift of rest",
+    "body": "David asks, \"Hasn't he given you rest on every side?\" (22:18). Deuteronomy had said that when God gave Israel rest from its enemies, he would choose a place for his name. The temple marks the fulfilment of that long-awaited rest.",
+    "refs": [
+     "Deuteronomy 12:10-11",
+     "1 Kings 8:56"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Preparing for someone else",
+    "body": "David gathered materials for a building he would never see (22:5). What might it look like to prepare carefully for work that others will finish after us?",
+    "refs": []
+   }
+  ]
+ },
+ "23": {
+  "summary": "David, now old, makes Solomon king and organises the Levites by family, setting out their numbers and duties for the coming temple.",
+  "lookfor": "Notice the change in the age at which Levites begin service, and the reason given for it.",
+  "names": [
+   {
+    "name": "Gershon",
+    "kind": "person",
+    "gloss": "One of Levi's three sons, ancestor of one of the Levite clans."
+   },
+   {
+    "name": "Kohath",
+    "kind": "person",
+    "gloss": "One of Levi's sons; Moses and Aaron came from his family."
+   },
+   {
+    "name": "Merari",
+    "kind": "person",
+    "gloss": "One of Levi's sons, ancestor of a Levite clan."
+   },
+   {
+    "name": "Gershom",
+    "kind": "person",
+    "gloss": "Moses' elder son, born in Midian."
+   },
+   {
+    "name": "Eliezer",
+    "kind": "person",
+    "gloss": "Moses' younger son."
+   }
+  ],
+  "skim": {
+   "advice": "Read verses 1 to 6 and 24 to 32 for the purpose and duties of the Levites, and skim the family lists in between.",
+   "key": [
+    3,
+    13,
+    26,
+    30
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "A peaceful succession",
+    "body": "\"David was old and full of days; and he made Solomon his son king\" (23:1). Kings tells of a palace struggle in which Adonijah tried to seize the throne. Chronicles summarises the handover in one verse and turns to organising the people who will serve in the temple.",
+    "refs": [
+     "1 Kings 1:1-53",
+     "1 Chronicles 29:22"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Thirty or twenty",
+    "body": "The Levites were first counted from age thirty (23:3), as in Numbers, but later from twenty (23:24, 23:27). David explains that they would no longer need to carry the tabernacle (23:26), so the work changed and more hands were needed. Ezra also appointed Levites from age twenty to oversee the rebuilding of the temple.",
+    "refs": [
+     "Numbers 4:3",
+     "Numbers 8:24",
+     "Ezra 3:8"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A temple workforce",
+    "body": "Of thirty-eight thousand Levites, twenty-four thousand oversaw the work, six thousand served as officers and judges, four thousand as doorkeepers and four thousand as musicians (23:4-5). Large temples in the ancient Near East employed many staff for maintenance, supplies, security and music. The Chronicler presents Israel's temple as fully staffed from the start.",
+    "refs": [
+     "1 Chronicles 9:22-29"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Set apart",
+    "body": "Aaron \"was separated, that he should sanctify the most holy things\" (23:13). The verbs come from the Hebrew roots badal, to set apart, and qadash, to make holy. Aaron's line alone handled the most holy things, burned incense and blessed the people in God's name.",
+    "refs": [
+     "Numbers 6:22-27",
+     "Exodus 30:7-8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Moses' sons as Levites",
+    "body": "Moses' sons \"were named among the tribe of Levi\" (23:14), not among the priests. The greatest prophet in Israel's history did not found a priestly dynasty. His descendants served as ordinary Levites, and one of them later held charge of the temple treasuries.",
+    "refs": [
+     "1 Chronicles 26:24",
+     "Exodus 18:3-4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Daughters marry cousins",
+    "body": "Eleazar of Merari had only daughters, who married their cousins, the sons of Kish (23:22). This follows the rule given for Zelophehad's daughters, who inherited but were to marry within their tribe so that land stayed in the family.",
+    "refs": [
+     "Numbers 36:6-9"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Morning and evening praise",
+    "body": "The Levites were to \"stand every morning to thank and praise Yahweh, and likewise in the evening\" (23:30). The daily sacrifices were accompanied by song. Jewish daily prayer, with its morning and afternoon services, grew in part from this rhythm of temple worship.",
+    "refs": [
+     "Exodus 29:38-42",
+     "Psalms 92:1-2"
+    ]
+   }
+  ]
+ },
+ "24": {
+  "summary": "The descendants of Aaron are divided into twenty-four priestly divisions by lot, and the remaining Levite family heads are listed.",
+  "lookfor": "Notice how the order of service is decided, and look for a division whose name reappears in the New Testament.",
+  "names": [
+   {
+    "name": "Nadab",
+    "kind": "person",
+    "gloss": "Aaron's eldest son, who died for offering unauthorised fire."
+   },
+   {
+    "name": "Eleazar",
+    "kind": "person",
+    "gloss": "Aaron's son who succeeded him as high priest."
+   },
+   {
+    "name": "Ithamar",
+    "kind": "person",
+    "gloss": "Aaron's youngest son, ancestor of the priestly line of Eli."
+   },
+   {
+    "name": "Ahimelech",
+    "kind": "person",
+    "gloss": "A priest of Ithamar's line, son of Abiathar."
+   },
+   {
+    "name": "Jehoiarib",
+    "kind": "person",
+    "gloss": "Head of the first priestly division."
+   },
+   {
+    "name": "Abijah",
+    "kind": "person",
+    "gloss": "Head of the eighth priestly division."
+   }
+  ],
+  "skim": {
+   "advice": "The list of twenty-four lots in verses 7 to 18 can be skimmed. Read verses 1 to 6 and verse 19 for how and why the divisions were set up.",
+   "key": [
+    2,
+    5,
+    10,
+    19
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Two priestly families",
+    "body": "Nadab and Abihu died childless, so the priesthood passed through Eleazar and Ithamar (24:2). Zadok represented Eleazar's line and Ahimelech Ithamar's (24:3). Eli's family came from Ithamar's line, which lost prominence when Solomon removed Abiathar.",
+    "refs": [
+     "Leviticus 10:1-2",
+     "1 Kings 2:26-27"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Chosen by lot",
+    "body": "The divisions were \"divided impartially by drawing lots\" (24:5). Lots were used across the ancient world, and in Israel they were understood as leaving the decision to God. Using them prevented rivalry between the families of Eleazar and Ithamar.",
+    "refs": [
+     "Proverbs 16:33",
+     "Acts 1:26"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The division of Abijah",
+    "body": "The eighth lot fell to Abijah (24:10). Luke introduces Zechariah, father of John the Baptist, as a priest \"of the priestly division of Abijah\" serving in the temple when his division's turn came. The system set up here was still running in the first century.",
+    "refs": [
+     "Luke 1:5",
+     "Luke 1:8-9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Courses in stone",
+    "body": "Each division served in rotation, usually understood as a week at a time, twice a year, with all serving at major festivals. A fragmentary Hebrew inscription found at Caesarea in 1962 lists the priestly courses with the Galilean towns where they settled after AD 70. Jewish liturgical poems also preserved the list.",
+    "refs": [
+     "2 Chronicles 23:8"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Mishmarot: watches",
+    "body": "The \"ordering in their service\" (24:19) is related to the Hebrew mishmeret, a watch or duty, and later Jewish writings call the divisions mishmarot. The word suggests guard duty, keeping watch over the holy place. The first division, Jehoiarib, was the family from which the Maccabees later came.",
+    "refs": [
+     "Nehemiah 12:1-7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Eldest and youngest alike",
+    "body": "The Levite families also cast lots, \"the fathers' households of the chief even as those of his younger brother\" (24:31). Seniority did not decide who served when. The same principle is repeated for the singers in the next chapter.",
+    "refs": [
+     "1 Chronicles 25:8"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Order for worship",
+    "body": "The Chronicler presents this detailed organisation as David's work done according to the ordinance God gave through Aaron (24:19). For readers rebuilding temple life after the exile, it showed that their structures had deep roots. Faithful order served worship rather than replacing it.",
+    "refs": [
+     "1 Corinthians 14:40"
+    ]
+   }
+  ]
+ },
+ "25": {
+  "summary": "David and the army leaders appoint the families of Asaph, Heman and Jeduthun to prophesy with music, and the singers are divided into twenty-four groups of twelve by lot.",
+  "lookfor": "Notice the word used for what the musicians do, and read the names of Heman's sons in verse 4 slowly.",
+  "names": [
+   {
+    "name": "Asaph",
+    "kind": "person",
+    "gloss": "A Levite singer and leader of one of the three musical guilds."
+   },
+   {
+    "name": "Heman",
+    "kind": "person",
+    "gloss": "A Levite singer, called the king's seer, with fourteen sons."
+   },
+   {
+    "name": "Jeduthun",
+    "kind": "person",
+    "gloss": "A Levite musician whose sons prophesied with the harp."
+   }
+  ],
+  "skim": {
+   "advice": "Read verses 1 to 8 for the purpose of the singers, and skim the twenty-four lots in verses 9 to 31.",
+   "key": [
+    1,
+    5,
+    7,
+    8
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Music as prophecy",
+    "body": "The musicians were set apart \"to prophesy with harps, with stringed instruments, and with cymbals\" (25:1). Their songs were understood as inspired speech that declared God's word in praise. Elsewhere in Chronicles a Levite singer delivers an actual prophecy before a battle.",
+    "refs": [
+     "2 Chronicles 20:14-17",
+     "2 Kings 3:15"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The king's seer",
+    "body": "Heman is called \"the king's seer in the words of God\" (25:5). The title seer was used for prophets such as Samuel and Gad. It shows how closely the Chronicler links worship leaders and prophets.",
+    "refs": [
+     "1 Chronicles 21:9",
+     "1 Chronicles 29:29"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A prayer in names",
+    "body": "The last nine names of Heman's sons (25:4), from Hananiah to Mahazioth, can be read in Hebrew as a short poem, roughly: be gracious to me, Yahweh, be gracious to me; you are my God; I have magnified and exalted help; sitting in trouble I spoke; give visions abundantly. Many scholars think a psalm fragment has been turned into names or that these were names given to sing. It remains a striking feature of the text.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Guilds of musicians",
+    "body": "Music passed from father to sons \"under the hands of their father\" (25:6). Musical skill in the ancient world was often a family trade, trained from childhood. Two hundred eighty-eight skilled singers formed twenty-four groups of twelve (25:7).",
+    "refs": [
+     "1 Chronicles 15:16-22"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Teacher and student",
+    "body": "They cast lots \"the small as well as the great, the teacher as well as the student\" (25:8). Rank in skill or age did not give anyone a better place in the rota. The singers' divisions matched the twenty-four priestly divisions.",
+    "refs": [
+     "1 Chronicles 24:31"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Psalms and spiritual songs",
+    "body": "Paul urges believers to speak to one another in psalms, hymns and spiritual songs, singing to the Lord with the heart. Like the Levites here, he treats song as a way of teaching and building up God's people. The early church inherited the Psalms that these guilds had sung.",
+    "refs": [
+     "Ephesians 5:19",
+     "Colossians 3:16"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Fourteen sons and three daughters",
+    "body": "\"God gave to Heman fourteen sons and three daughters\" (25:5). The phrase \"to lift up the horn\" in the same verse probably refers to God's promise to exalt him, since a horn was a symbol of strength. Many children were seen as a blessing, and here a whole family was drawn into the temple's song.",
+    "refs": [
+     "Psalms 127:3-5",
+     "Job 42:13"
+    ]
+   }
+  ]
+ },
+ "26": {
+  "summary": "The divisions of gatekeepers are assigned to the temple's gates by lot, and Levites are appointed over the treasuries and as officials and judges in Israel.",
+  "lookfor": "Notice the family that keeps growing, and the wide range of Levite duties outside the temple building.",
+  "names": [
+   {
+    "name": "Korahites",
+    "kind": "group",
+    "gloss": "A Levite family descended from Korah, prominent as gatekeepers and singers."
+   },
+   {
+    "name": "Obed-Edom",
+    "kind": "person",
+    "gloss": "The man whose household was blessed while the ark stayed there; his family became gatekeepers."
+   },
+   {
+    "name": "Shallecheth",
+    "kind": "place",
+    "gloss": "A gate on the west side of the temple; its name may mean \"casting out.\""
+   },
+   {
+    "name": "Parbar",
+    "kind": "place",
+    "gloss": "A structure on the west side of the temple, perhaps a colonnade or annex; the meaning is uncertain."
+   },
+   {
+    "name": "Abner",
+    "kind": "person",
+    "gloss": "Saul's army commander, later killed by Joab."
+   },
+   {
+    "name": "Jazer",
+    "kind": "place",
+    "gloss": "A town in Gilead east of the Jordan."
+   }
+  ],
+  "skim": {
+   "advice": "Skim the family lists of gatekeepers and the gate assignments, but read verses 26 to 32 on the dedicated treasures and Levites serving across the land.",
+   "key": [
+    5,
+    13,
+    27,
+    32
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Blessed with sons",
+    "body": "Obed-Edom had eight sons, \"for God blessed him\" (26:5), and sixty-two descendants served as gatekeepers (26:8). The house that sheltered the ark had been blessed, and this is how the Chronicler shows that blessing working out. A generous act of hospitality became a family vocation.",
+    "refs": [
+     "1 Chronicles 13:14",
+     "1 Chronicles 15:24"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Not the firstborn",
+    "body": "Hosah made Shimri chief \"though he was not the firstborn\" (26:10). Fathers in Israel could pass over the eldest son, as Jacob did with Reuben and Joseph with Manasseh. The Bible often shows God and his people choosing the younger.",
+    "refs": [
+     "Genesis 48:13-20",
+     "1 Chronicles 5:1"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Parbar",
+    "body": "The word Parbar (26:18) appears only here and in a related form in Kings. Many scholars connect it with an old Persian word meaning a colonnade or open court. If so, it may reflect the vocabulary of the Chronicler's own Persian-period setting.",
+    "refs": [
+     "2 Kings 23:11"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Temple treasuries",
+    "body": "Levites guarded the treasuries of God's house and of the dedicated things (26:20). Ancient temples served as safe-deposit banks, holding offerings, plunder dedicated to the deity and sometimes private funds. Kings of Judah later raided these treasuries to pay off invaders.",
+    "refs": [
+     "1 Kings 15:18",
+     "2 Kings 12:18"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Spoils of many leaders",
+    "body": "Samuel, Saul, Abner and Joab all dedicated plunder to God's house (26:28). The list unites figures who were sometimes rivals, all contributing to one sanctuary. Dedicating spoils of war to God followed earlier practice.",
+    "refs": [
+     "Numbers 31:50-54",
+     "1 Chronicles 18:11"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "God's business and the king's",
+    "body": "Levites served as officers and judges over Israel \"for every matter pertaining to God, and for the affairs of the king\" (26:32). Their role reached beyond the temple to administration and justice throughout the land, east and west of the Jordan. Later, Jehoshaphat would appoint Levites as judges in his reforms.",
+    "refs": [
+     "Deuteronomy 17:8-9",
+     "2 Chronicles 19:8-11"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Gatekeeping as service",
+    "body": "The Chronicler lists by name those who guarded the gates and storerooms. Many psalms speak of the joy of standing at the threshold of God's house. Why might these unglamorous roles be given such a place in the story of Israel's worship?",
+    "refs": [
+     "Psalms 84:10"
+    ]
+   }
+  ]
+ },
+ "27": {
+  "summary": "The chapter lists the twelve army divisions that served the king month by month, the leaders of the tribes, the officials over the royal estates, and David's counsellors.",
+  "lookfor": "Look for familiar names from David's mighty men and court, and notice the brief note about the unfinished census.",
+  "names": [
+   {
+    "name": "Jashobeam",
+    "kind": "person",
+    "gloss": "Chief of David's mighty men, commander of the first monthly division."
+   },
+   {
+    "name": "Benaiah",
+    "kind": "person",
+    "gloss": "A famous warrior and captain of David's bodyguard."
+   },
+   {
+    "name": "Asahel",
+    "kind": "person",
+    "gloss": "Joab's swift brother, killed by Abner early in David's reign."
+   },
+   {
+    "name": "Obil",
+    "kind": "person",
+    "gloss": "An Ishmaelite in charge of David's camels."
+   },
+   {
+    "name": "Ahithophel",
+    "kind": "person",
+    "gloss": "David's trusted counsellor who later joined Absalom's revolt."
+   },
+   {
+    "name": "Hushai the Archite",
+    "kind": "person",
+    "gloss": "David's friend, who stayed loyal during Absalom's revolt and foiled Ahithophel's advice."
+   }
+  ],
+  "skim": {
+   "advice": "The monthly army divisions and tribal leaders form a list that can be skimmed. Read verses 23 and 24 on the census, and glance at the royal officials in verses 25 to 34.",
+   "key": [
+    1,
+    23,
+    24,
+    33
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The kingdom in order",
+    "body": "After the temple staff, the Chronicler turns to the army, the tribes and the royal estates. His point is that David left the whole kingdom organised for Solomon. Religious and civil life are presented side by side.",
+    "refs": [
+     "1 Chronicles 26:32"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A citizen army in rotation",
+    "body": "Each month a division of twenty-four thousand served the king (27:1). Rotating service let farmers return home while a standing force remained ready. Solomon later organised the provisions for his court on a similar monthly basis.",
+    "refs": [
+     "1 Kings 4:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Asahel and his son",
+    "body": "Asahel commands the fourth division, \"and Zebadiah his son after him\" (27:7). Asahel was killed by Abner early in David's reign, so the division may have kept his name under his son. The commanders are mostly drawn from the mighty men listed in chapter 11.",
+    "refs": [
+     "2 Samuel 2:18-23",
+     "1 Chronicles 11:26"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Like the stars of the sky",
+    "body": "David did not count those under twenty \"because Yahweh had said he would increase Israel like the stars of the sky\" (27:23). Counting everyone might seem to doubt that promise to Abraham. The note links back to the disastrous census of chapter 21, which was never entered in David's official records (27:24).",
+    "refs": [
+     "Genesis 15:5",
+     "1 Chronicles 21:1-7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Missing and doubled tribes",
+    "body": "The list of tribal leaders (27:16-22) has Levi and Aaron listed separately and Manasseh twice, but Gad and Asher are missing. The total still comes to twelve or thirteen depending on how one counts. Lists of Israel's tribes vary throughout the Bible.",
+    "refs": [
+     "Numbers 1:5-15",
+     "Revelation 7:5-8"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Royal estates",
+    "body": "Overseers managed David's fields, vineyards, olive and sycamore trees, oil stores and herds (27:25-31). Fittingly, an Ishmaelite looked after the camels and a Hagrite the flocks (27:30), skills associated with desert peoples. Ancient kings often owned large estates worked for the crown.",
+    "refs": [
+     "1 Samuel 8:14"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The king's friend",
+    "body": "\"Hushai the Archite was the king's friend\" (27:33). The phrase seems to be an official court title, known from Egypt and from Solomon's court, for a close confidant. Hushai lived up to it by staying loyal when Ahithophel, the king's counsellor, joined Absalom.",
+    "refs": [
+     "2 Samuel 15:32-37",
+     "1 Kings 4:5"
+    ]
+   }
+  ]
+ },
+ "28": {
+  "summary": "Before all Israel's leaders, David announces that God has chosen Solomon to build the temple, charges him to seek God, and hands him the plans for the temple given by the Spirit.",
+  "lookfor": "Listen for the conditions attached to the promise, and notice where the temple plans come from.",
+  "names": [
+   {
+    "name": "Solomon",
+    "kind": "person",
+    "gloss": "David's son and successor, chosen to build the temple."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "A public charge",
+    "body": "David gathers all Israel's leaders to Jerusalem (28:1) so that Solomon's call to build is announced before the whole assembly. In Kings, Solomon becomes king amid intrigue; here the transfer is solemn and public. The Chronicler stresses that the temple project belongs to all Israel.",
+    "refs": [
+     "1 Kings 1:28-40",
+     "1 Kings 2:1-4"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "God's footstool",
+    "body": "David wanted a \"house of rest for the ark of Yahweh's covenant, and for the footstool of our God\" (28:2). The ark was pictured as the footstool of God's heavenly throne. Psalms invite worshippers to bow at his footstool, and Isaiah says heaven is God's throne and the earth his footstool.",
+    "refs": [
+     "Psalms 132:7-8",
+     "Psalms 99:5",
+     "Isaiah 66:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Throne of Yahweh's kingdom",
+    "body": "Solomon is chosen \"to sit on the throne of Yahweh's kingdom over Israel\" (28:5). The Chronicler often speaks of the kingdom as God's own, held by David's line in trust. Yet the promise is conditional on obedience: \"if he continues to do my commandments\" (28:7).",
+    "refs": [
+     "1 Chronicles 17:14",
+     "1 Chronicles 29:23",
+     "2 Chronicles 13:8"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Seek and be found",
+    "body": "\"If you seek him, he will be found by you; but if you forsake him, he will cast you off forever\" (28:9). This sentence sums up the theology of Chronicles; later kings are measured by whether they seek or forsake God. Prophets and the books of Chronicles repeat the same promise.",
+    "refs": [
+     "2 Chronicles 15:2",
+     "Jeremiah 29:13"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A pattern from God",
+    "body": "David gave Solomon the plans \"that he had by the Spirit\" (28:12) and said he had been made to understand them \"in writing from Yahweh's hand\" (28:19). The word for pattern, tavnit, is the same used when God showed Moses the pattern of the tabernacle. Hebrews cites that pattern to describe earthly sanctuaries as copies of heavenly realities.",
+    "refs": [
+     "Exodus 25:9",
+     "Exodus 25:40",
+     "Hebrews 8:5"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The chariot of cherubim",
+    "body": "Gold was set aside \"for the plans for the chariot, and the cherubim that spread out and cover the ark\" (28:18). The cherubim were pictured as God's throne-chariot, an image Ezekiel develops in his visions. Later Jewish mysticism based on Ezekiel became known as merkavah, chariot, mysticism.",
+    "refs": [
+     "Ezekiel 1:4-28",
+     "Ezekiel 10:1-22",
+     "Psalms 18:10"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "He will not forsake you",
+    "body": "David assures Solomon that God \"will not fail you, nor forsake you, until all the work... is finished\" (28:20). This echoes Moses' promise to Joshua and God's own word to Joshua. Hebrews applies the same promise to every believer.",
+    "refs": [
+     "Deuteronomy 31:6-8",
+     "Joshua 1:5",
+     "Hebrews 13:5"
+    ]
+   }
+  ]
+ },
+ "29": {
+  "summary": "David and the leaders give lavishly for the temple, David blesses God in a great prayer, Solomon is anointed king again, and David dies full of days, riches and honour.",
+  "lookfor": "Notice the mood of the giving, read David's prayer in verses 10 to 19 closely, and see how the book sums up David's life.",
+  "names": [
+   {
+    "name": "Ophir",
+    "kind": "place",
+    "gloss": "A distant land famous for fine gold, perhaps in Arabia, East Africa or India."
+   },
+   {
+    "name": "Jehiel",
+    "kind": "person",
+    "gloss": "A Gershonite Levite in charge of the temple treasury."
+   },
+   {
+    "name": "Zadok",
+    "kind": "person",
+    "gloss": "The priest anointed alongside Solomon as chief priest."
+   },
+   {
+    "name": "Nathan",
+    "kind": "person",
+    "gloss": "The prophet who brought God's covenant promise to David."
+   },
+   {
+    "name": "Gad",
+    "kind": "person",
+    "gloss": "A prophet known as David's seer."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Offering willingly",
+    "body": "David gives his personal treasure and asks, \"Who then offers willingly to consecrate himself today to Yahweh?\" (29:5). The leaders respond, and \"the people rejoiced, because they offered willingly\" (29:9). The scene echoes the giving for the tabernacle and models the generosity the Chronicler hoped his readers would show for the second temple.",
+    "refs": [
+     "Exodus 35:20-29",
+     "Ezra 2:68-69"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Filling the hand",
+    "body": "\"To consecrate himself\" (29:5) translates a Hebrew idiom, to fill one's hand. Elsewhere it describes ordaining priests, whose hands were filled with offerings. David applies a priestly picture to every giver, as if each offering were an act of consecration.",
+    "refs": [
+     "Exodus 28:41",
+     "Exodus 29:9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Persian coins",
+    "body": "The leaders gave \"ten thousand darics\" of gold (29:7). The daric was a Persian gold coin first minted under Darius I, around 515 BC, centuries after David. The Chronicler is expressing the gift in a currency his readers knew, which is one clue to when the book was written.",
+    "refs": [
+     "Ezra 8:27",
+     "Nehemiah 7:70"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Yours is the kingdom",
+    "body": "David's prayer begins, \"Yours, Yahweh, is the greatness, the power, the glory, the victory, and the majesty\" (29:11). Many manuscripts of Matthew end the Lord's Prayer with a similar line: \"For yours is the Kingdom, the power, and the glory forever.\" That doxology, absent from the oldest manuscripts, appears to be modelled on this prayer.",
+    "refs": [
+     "Matthew 6:13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Of your own we give",
+    "body": "\"All things come from you, and of your own have we given you\" (29:14). David recognises that even the gifts for the temple were God's to begin with (29:16). The line is used in many churches, Anglican and others, at the offering.",
+    "refs": [
+     "Psalms 24:1",
+     "1 Corinthians 4:7"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Strangers and shadows",
+    "body": "\"We are strangers before you, and foreigners, as all our fathers were. Our days on the earth are as a shadow\" (29:15). At the height of Israel's power, David speaks of his people as sojourners. Hebrews describes the patriarchs as foreigners and pilgrims on the earth looking for a better country.",
+    "refs": [
+     "Psalms 39:12",
+     "Hebrews 11:13-16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "King a second time",
+    "body": "Solomon was made king \"the second time\" (29:22), recalling the brief note in 23:1. He \"sat on the throne of Yahweh\" (29:23), and all of David's sons submitted to him (29:24). Kings tells how Adonijah challenged Solomon; Chronicles shows a united succession.",
+    "refs": [
+     "1 Kings 1:5-53",
+     "1 Chronicles 23:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The prophets' histories",
+    "body": "David's acts are said to be written in the histories of Samuel, Nathan and Gad (29:29). The Chronicler often cites prophetic records as sources, presenting history as written by prophets. Jewish tradition later called Joshua to Kings the Former Prophets for the same reason.",
+    "refs": [
+     "2 Chronicles 9:29",
+     "2 Chronicles 12:15"
+    ]
+   }
+  ]
+ },
+ "intro": {
+  "who": "Jewish tradition in the Talmud credits Ezra with writing Chronicles. Most modern scholars speak of an anonymous \"Chronicler,\" probably from Levite or temple circles in Jerusalem, and they debate whether the same hand also shaped Ezra and Nehemiah.",
+  "when": "The story runs from Adam to David's death (about 970 BC), but it was written after the return from exile, since David's family line runs several generations past Zerubbabel. Most scholars date it to the Persian period, around 400 to 350 BC.",
+  "why": "It retells Israel's story for a small community rebuilt around the Jerusalem temple, presenting David as the founder of its worship and assuring the returned exiles that they are still all Israel, heirs of God's promises to David.",
+  "outline": [
+   {
+    "chapters": "1–9",
+    "title": "Genealogies from Adam"
+   },
+   {
+    "chapters": "10–12",
+    "title": "Saul falls, David rises"
+   },
+   {
+    "chapters": "13–16",
+    "title": "The ark comes home"
+   },
+   {
+    "chapters": "17–20",
+    "title": "Covenant and conquests"
+   },
+   {
+    "chapters": "21–22",
+    "title": "A site for the temple"
+   },
+   {
+    "chapters": "23–27",
+    "title": "Ordering priests and Levites"
+   },
+   {
+    "chapters": "28–29",
+    "title": "Solomon succeeds David"
+   }
+  ],
+  "verse": "1 Chronicles 17:14"
+ }
+}
