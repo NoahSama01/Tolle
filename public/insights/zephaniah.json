@@ -1,0 +1,341 @@
+{
+ "1": {
+  "summary": "Zephaniah announces that Yahweh will sweep away everything from the earth, especially the idolaters, officials and complacent rich of Jerusalem, on the great and bitter day of Yahweh.",
+  "lookfor": "Notice the order of the creatures to be swept away in 1:2-3, the different groups singled out in Jerusalem, and the string of day of descriptions in 1:15-16.",
+  "names": [
+   {
+    "name": "Zephaniah",
+    "kind": "person",
+    "gloss": "The prophet; his name means Yahweh has hidden or protected."
+   },
+   {
+    "name": "Cushi",
+    "kind": "person",
+    "gloss": "Zephaniah's father; the name can mean Cushite, from the land south of Egypt."
+   },
+   {
+    "name": "Hezekiah",
+    "kind": "person",
+    "gloss": "Probably the king of Judah from about 715 to 686 BC, Zephaniah's great-great-grandfather."
+   },
+   {
+    "name": "Josiah",
+    "kind": "person",
+    "gloss": "King of Judah from 640 to 609 BC, known for his religious reforms."
+   },
+   {
+    "name": "Malcam",
+    "kind": "person",
+    "gloss": "Probably Milcom, the god of the Ammonites, or a title meaning their king."
+   },
+   {
+    "name": "Maktesh",
+    "kind": "place",
+    "gloss": "A quarter of Jerusalem, probably a hollow; the name means mortar."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Creation undone",
+    "body": "God will sweep away man, animal, birds and fish (1:3), the creatures of Genesis 1 in reverse order. The language also recalls the flood. Zephaniah pictures judgment as the undoing of creation.",
+    "refs": [
+     "Genesis 1:20-26",
+     "Genesis 6:7"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Before Josiah's reform",
+    "body": "Zephaniah condemns Baal worship, priests of foreign gods, people who worship the stars on rooftops, and those who swear by both Yahweh and Malcam (1:4-5). Kings records that Josiah removed exactly these practices in his reform of 622 BC. Zephaniah's preaching may have helped prepare the way.",
+    "refs": [
+     "2 Kings 23:4-14",
+     "2 Chronicles 34:3-7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Worship on the rooftops",
+    "body": "People worshipped the army of the sky on the housetops (1:5), offering incense to the sun, moon and stars from flat roofs. Astral worship spread in Judah during Assyrian domination. Jeremiah describes the same practice.",
+    "refs": [
+     "Jeremiah 19:13",
+     "2 Kings 21:3-5"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Foreign clothes and leaping thresholds",
+    "body": "God will punish officials who wear foreign clothing (1:8), a sign of adopting foreign customs and loyalties, and those who leap over the threshold (1:9). The latter may be a superstition like that of Dagon's priests, who avoided stepping on the threshold of his temple.",
+    "refs": [
+     "1 Samuel 5:5"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Settled on their dregs",
+    "body": "God will search Jerusalem with lamps and punish those settled on their dregs (1:12). Wine left too long on its sediment becomes thick and syrupy. The image describes the complacent, who think God will do neither good nor evil. Jewish tradition cited this verse for searching the house by lamplight for leaven before Passover.",
+    "refs": [
+     "Jeremiah 48:11"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Dies irae",
+    "body": "That day is a day of wrath (1:15). In the Latin Vulgate this begins dies irae, dies illa, and the medieval hymn Dies Irae, long sung in the Latin requiem mass and set by composers such as Mozart and Verdi, takes its opening from here. The verse piles up six pairs of terms for distress and darkness.",
+    "refs": [
+     "Joel 2:2",
+     "Amos 5:18-20"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Silver and gold can't save",
+    "body": "Neither their silver nor their gold will be able to deliver them (1:18). The merchants of the Maktesh, loaded with silver (1:11), will find their wealth useless. Ezekiel repeats the line almost exactly.",
+    "refs": [
+     "Ezekiel 7:19",
+     "Proverbs 11:4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "He will do nothing",
+    "body": "The complacent say in their heart, Yahweh will not do good, neither will he do evil (1:12). They do not deny God exists; they assume he does not act. Which is more dangerous to faith, open unbelief or a belief that God is irrelevant?",
+    "refs": [
+     "Psalms 10:4",
+     "Psalms 14:1"
+    ]
+   }
+  ]
+ },
+ "2": {
+  "summary": "Zephaniah urges the humble to seek Yahweh before the day of anger, then announces judgment on Philistia, Moab, Ammon, Cush and Assyria, with Nineveh left as a desolate home for wild animals.",
+  "lookfor": "Notice the call in 2:3, the nations named in each direction around Judah, and Nineveh's boast in 2:15.",
+  "names": [
+   {
+    "name": "Gaza",
+    "kind": "place",
+    "gloss": "A Philistine city on the southern coast."
+   },
+   {
+    "name": "Ashkelon",
+    "kind": "place",
+    "gloss": "A Philistine port city."
+   },
+   {
+    "name": "Ashdod",
+    "kind": "place",
+    "gloss": "A Philistine city near the coast."
+   },
+   {
+    "name": "Ekron",
+    "kind": "place",
+    "gloss": "The northernmost Philistine city."
+   },
+   {
+    "name": "Cherethites",
+    "kind": "group",
+    "gloss": "A name for the Philistines or a related group, probably from Crete."
+   },
+   {
+    "name": "Cushites",
+    "kind": "group",
+    "gloss": "People of Cush, south of Egypt, whose kings had ruled Egypt."
+   },
+   {
+    "name": "Nineveh",
+    "kind": "place",
+    "gloss": "Capital of Assyria, destroyed in 612 BC."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Seek humility",
+    "body": "Seek Yahweh, all you humble of the land ... Seek righteousness. Seek humility (2:3). The humble here are the poor and lowly who have kept God's commands. The prophet's name means hidden, and he promises only that it may be that they will be hidden on the day of anger.",
+    "refs": [
+     "Amos 5:15",
+     "Psalms 27:5",
+     "Matthew 5:5"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Puns on Philistine cities",
+    "body": "In Hebrew, Gaza (azzah) will be forsaken (azubah), and Ekron (eqron) will be uprooted (te'aqer) (2:4). Zephaniah, like Micah, uses the sound of place names to announce their fate. The wordplay was easy for a Hebrew audience to remember.",
+    "refs": [
+     "Micah 1:10-15"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Nations around Judah",
+    "body": "The oracles move west to Philistia, east to Moab and Ammon, south to Cush, and north to Assyria (2:4-15). The pattern covers every direction around Judah. Amos used a similar circle of nations.",
+    "refs": [
+     "Amos 1:3-15"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Like Sodom and Gomorrah",
+    "body": "Moab and Ammon will become like Sodom and Gomorrah, a land of nettles and salt pits (2:9). Genesis traces Moab and Ammon back to Lot, who escaped Sodom. Their fate echoes their origins near the Dead Sea.",
+    "refs": [
+     "Genesis 19:24-38"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Worship from every shore",
+    "body": "Yahweh will famish all the gods of the land, and people will worship him, everyone from his place, even all the shores of the nations (2:11). Judgment on the nations is not the last word; they will come to worship. The thought returns in 3:9-10.",
+    "refs": [
+     "Malachi 1:11",
+     "Zephaniah 3:9-10"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Nineveh's end",
+    "body": "Zephaniah foresees Nineveh desolate, with herds and wild animals lying in its ruins (2:13-14). This came true in 612 BC, when the Babylonians and Medes destroyed it. When the Greek writer Xenophon passed by two centuries later, he did not even know its name.",
+    "refs": [
+     "Nahum 3:7",
+     "Jonah 3:3"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "I am, and no one besides me",
+    "body": "Nineveh says in her heart, \"I am, and there is no one besides me\" (2:15), claiming for herself words that belong to God. Isaiah puts the same boast in Babylon's mouth. Pride that puts itself in God's place is shown as the root of the empire's fall.",
+    "refs": [
+     "Isaiah 47:8",
+     "Isaiah 45:5-6"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Pelicans in the palaces",
+    "body": "The proud city will become a home for pelicans and porcupines, with animals lying in the doorways (2:14). The same image is used for Babylon and Edom. What does it mean that the places of human pride return to the wild?",
+    "refs": [
+     "Isaiah 34:11",
+     "Isaiah 13:19-22"
+    ]
+   }
+  ]
+ },
+ "3": {
+  "summary": "Jerusalem, the oppressing city, refuses correction, but after judging the nations God will purify the peoples' speech, leave a humble remnant, and rejoice over Zion with singing.",
+  "lookfor": "Notice the four groups of leaders condemned in 3:3-4, the turn at 3:9, and who is singing at the end.",
+  "names": [
+   {
+    "name": "Cush",
+    "kind": "place",
+    "gloss": "The land south of Egypt, standing for the farthest nations."
+   },
+   {
+    "name": "Zion",
+    "kind": "place",
+    "gloss": "Jerusalem, especially the temple hill."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Four failures",
+    "body": "Jerusalem did not obey, did not receive correction, did not trust Yahweh, and did not draw near to her God (3:2). Her princes are lions, her judges evening wolves, her prophets treacherous and her priests profane (3:3-4). Every level of leadership has failed.",
+    "refs": [
+     "Ezekiel 22:25-28",
+     "Micah 3:11"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Every morning",
+    "body": "In contrast, Yahweh within the city is righteous: every morning he brings his justice to light (3:5). Morning was when courts met and justice was done. God keeps faith even when the city's leaders do not.",
+    "refs": [
+     "Lamentations 3:22-23",
+     "Jeremiah 21:12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Every letter",
+    "body": "Jewish scribal tradition noted that 3:8 contains every letter of the Hebrew alphabet, including the special final forms. The verse speaks of God gathering all the nations for judgment. The completeness of the alphabet seems to match the completeness of the judgment.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Purified lips",
+    "body": "I will purify the lips of the peoples, that they may all call on Yahweh's name, to serve him shoulder to shoulder (3:9). The Hebrew for lip also means language, recalling Babel, where one language was confused. Many Christian readers have seen Pentecost as a fulfilment, when people of many languages heard of God's deeds.",
+    "refs": [
+     "Genesis 11:1-9",
+     "Acts 2:5-11",
+     "Isaiah 6:5-7"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A humble remnant",
+    "body": "God will remove the proud and leave an afflicted and poor people who take refuge in Yahweh's name (3:12). They will not lie or deceive (3:13). The remnant is defined not by power but by humility and honesty.",
+    "refs": [
+     "Isaiah 66:2",
+     "Revelation 14:5"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Sing, daughter of Zion",
+    "body": "Sing, daughter of Zion! Shout, Israel! (3:14) begins a song of joy because the King of Israel, Yahweh, is among you (3:15). Zechariah uses similar words to announce a king coming on a donkey, applied in the Gospels to Jesus's entry into Jerusalem.",
+    "refs": [
+     "Zechariah 9:9",
+     "Matthew 21:5",
+     "Zechariah 2:10"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "God sings",
+    "body": "Yahweh will rejoice over you with joy ... He will rejoice over you with singing (3:17). The book that began with God sweeping away everything ends with God singing over his people. It is one of the few places in the Bible where God himself is said to sing.",
+    "refs": [
+     "Isaiah 62:5",
+     "Luke 15:7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "He will calm you",
+    "body": "The Hebrew of 3:17 is literally he will be silent in his love, which the WEB renders he will calm you in his love. It may mean God's love is beyond words, or that he no longer speaks accusation. Which reading best fits the God of the rest of this chapter?",
+    "refs": []
+   }
+  ]
+ },
+ "intro": {
+  "who": "Zephaniah, whose family line is traced back four generations to a Hezekiah, probably King Hezekiah of Judah, which would make him a member of the royal family. Most scholars accept a core from the prophet, with some later additions.",
+  "when": "He prophesied in the reign of Josiah (640–609 BC), probably before Josiah's religious reform of 622 BC, since he condemns Baal worship and astral cults still openly practised in Jerusalem.",
+  "why": "It warns that the day of Yahweh will sweep away idolatry and complacency in Judah and judgment will fall on the nations, but promises that a humble remnant will be purified and that God will rejoice over his people with singing.",
+  "outline": [
+   {
+    "chapters": "1",
+    "title": "The great day of Yahweh"
+   },
+   {
+    "chapters": "2",
+    "title": "Seek Yahweh; the nations judged"
+   },
+   {
+    "chapters": "3",
+    "title": "Jerusalem purified and rejoicing"
+   }
+  ],
+  "verse": "Zephaniah 3:17"
+ }
+}
