@@ -2,7 +2,7 @@
 <html lang="en" class="app">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,interactive-widget=resizes-content">
 <meta name="theme-color" content="#df6a2e">
 <meta name="description" content="Read the whole Bible by a date you choose.">
 <link rel="manifest" href="manifest.webmanifest">
@@ -275,9 +275,23 @@ button.num{padding:0;border:0;background:none;color:inherit;cursor:pointer}
 .empty{margin:0;padding:.9rem 1rem;border:1.5px dashed var(--ink-2);border-radius:2px;color:var(--ink-2)}
 .actbar{position:fixed;inset:auto calc(var(--rail) + 2px) 0 0;z-index:6;display:flex;justify-content:center;gap:.5rem;padding:.75rem 1rem calc(.75rem + env(safe-area-inset-bottom));background:var(--board)}
 .actbar .go{flex:1;min-width:0;max-width:30rem}
-.actbar:has(.keep:not([hidden])) .nx{display:none} /* with Keep showing, Done keeps to one line */
+.actbar:has(>.keep:not([hidden])) .nx{display:none} /* with Keep showing, Done keeps to one line */
 /* keeping a verse: tap it, then Keep; a hole is punched beside it in the binding column */
+/* making a verse your own: a highlighter's colour over it, and a small mark where you've written a note */
+.vs[data-h]{background:color-mix(in srgb,var(--hc) 45%,transparent);box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.vs[data-h="1"]{--hc:var(--history)}.vs[data-h="2"]{--hc:var(--wisdom)}.vs[data-h="3"]{--hc:var(--prophets)}.vs[data-h="4"]{--hc:var(--law)}
+.vs.noted::after{content:'note';margin-right:.3em;padding:.05em .3em;border-radius:1px;background:var(--plate-ink);color:var(--plate);font:500 .6em var(--mono);text-transform:uppercase;vertical-align:.25em}
 .vs.sel{background:color-mix(in srgb,var(--hue) 30%,transparent);box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.vs.sel[data-h]{background:color-mix(in srgb,var(--hc) 45%,transparent);text-decoration:underline 2px;text-underline-offset:.22em} /* selected, its colour still showing */
+.actbar{flex-wrap:wrap}
+.vbar{flex:0 0 100%;display:flex;justify-content:center;align-items:center;gap:.35rem}
+.hl{display:grid;place-items:center;width:2.75rem;height:2.75rem;padding:0;border:0;background:none;cursor:pointer}
+.hl::before{content:'';width:1.6rem;height:1.6rem;border-radius:50%;background:var(--c);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.4)}
+.hl[aria-pressed=true]::before{outline:2.5px solid var(--on-board);outline-offset:3px}
+.vbar .keep{min-height:2.75rem;margin-left:.4rem}.vbar .keep::before{display:none}
+textarea{display:block;width:100%;margin:.2rem 0 0;padding:.7rem .8rem;border:1.5px solid var(--ink);border-radius:2px;background:var(--milk);color:var(--ink);font:400 1.0625rem/1.5 var(--sans);resize:vertical}
+.knote{margin:.7rem 0 0;padding:.55rem .8rem;border-left:3px solid var(--ink);background:color-mix(in srgb,var(--ink) 6%,transparent);max-width:34em;white-space:pre-wrap;overflow-wrap:anywhere}
+.knote::before{content:'My note';display:block;margin-bottom:.15rem;color:var(--ink-2);font:500 .6875rem var(--mono);text-transform:uppercase}
 .vs.kept::before{content:'';float:left;width:.75rem;height:.75rem;margin:.45em 0 0 calc(.75rem - var(--lane-l));border-radius:50%;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.35);animation:punch var(--hinge) both}
 .keep{flex:none;display:inline-flex;align-items:center;gap:.5rem;min-height:3.25rem;padding:0 1rem;border:1.5px solid var(--ink);border-radius:2px;background:var(--milk);color:var(--ink);font:500 .8125rem var(--mono);text-transform:uppercase;cursor:pointer}
 .keep::before{content:'';width:.7rem;height:.7rem;border:1.5px solid var(--ink);border-radius:50%}
@@ -376,6 +390,13 @@ body[data-view=reader] main{padding-bottom:6.5rem}
 </nav>
 <main id="app" tabindex="-1"></main>
 <ol class="rail" id="rail" aria-label="Thumb index of the whole Bible"></ol>
+<div popover id=mynote class=gloss role=dialog aria-labelledby=mn-ref>
+  <p class=gk>My note</p><p class=gname id=mn-ref></p>
+  <label class=sr for=mn-t>Your note on this verse</label>
+  <textarea id=mn-t rows=5 maxlength=4000 placeholder="What does this verse say to you?"></textarea>
+  <button class=go onclick=saveNote()>Save note<svg class=ic aria-hidden=true><use href="#i-check"/></svg></button>
+  <p><button class=link-btn id=mn-del onclick=saveNote(true)>Delete this note</button></p>
+</div>
 <script>
 const BOOKS=[["Genesis",50],["Exodus",40],["Leviticus",27],["Numbers",36],["Deuteronomy",34],["Joshua",24],["Judges",21],["Ruth",4],["1 Samuel",31],["2 Samuel",24],["1 Kings",22],["2 Kings",25],["1 Chronicles",29],["2 Chronicles",36],["Ezra",10],["Nehemiah",13],["Esther",10],["Job",42],["Psalms",150],["Proverbs",31],["Ecclesiastes",12],["Song of Solomon",8],["Isaiah",66],["Jeremiah",52],["Lamentations",5],["Ezekiel",48],["Daniel",12],["Hosea",14],["Joel",3],["Amos",9],["Obadiah",1],["Jonah",4],["Micah",7],["Nahum",3],["Habakkuk",3],["Zephaniah",3],["Haggai",2],["Zechariah",14],["Malachi",4],["Matthew",28],["Mark",16],["Luke",24],["John",21],["Acts",28],["Romans",16],["1 Corinthians",16],["2 Corinthians",13],["Galatians",6],["Ephesians",6],["Philippians",4],["Colossians",4],["1 Thessalonians",5],["2 Thessalonians",3],["1 Timothy",6],["2 Timothy",4],["Titus",3],["Philemon",1],["Hebrews",13],["James",5],["1 Peter",5],["2 Peter",3],["1 John",5],["2 John",1],["3 John",1],["Jude",1],["Revelation",22]];
 // the six divisions of the thumb index: [id, name, number of books, leaf alpha, ink that reads on it, short tab label]
@@ -400,6 +421,10 @@ let KEPT=JSON.parse(localStorage.getItem('tolle-kept')||'[]'); // [{b, c, v, t: 
 // a verse for today: hand-picked for hope and God's nearness, in canonical order; checked against the WEB text before shipping
 const HOPE=['Genesis 28:15','Genesis 50:20','Exodus 14:14','Exodus 15:2','Exodus 33:14','Leviticus 26:12','Numbers 6:24-26','Numbers 23:19','Deuteronomy 7:9','Deuteronomy 31:6','Deuteronomy 31:8','Joshua 1:9','Joshua 21:45','Ruth 2:12','1 Samuel 7:12','2 Samuel 22:31','1 Kings 8:56','1 Chronicles 16:34','2 Chronicles 20:15','Ezra 3:11','Nehemiah 8:10','Job 19:25','Psalms 23:1','Psalms 23:4','Psalms 27:1','Psalms 30:5','Psalms 34:18','Psalms 46:1','Psalms 55:22','Psalms 73:26','Psalms 91:1-2','Psalms 118:24','Psalms 121:1-2','Psalms 147:3','Proverbs 3:5-6','Proverbs 18:10','Ecclesiastes 3:11','Song of Solomon 8:7','Isaiah 26:3','Isaiah 40:31','Isaiah 41:10','Isaiah 43:2','Isaiah 54:10','Jeremiah 17:7','Jeremiah 29:11','Jeremiah 31:3','Lamentations 3:22-23','Ezekiel 36:26','Daniel 9:9','Hosea 14:4','Joel 2:25','Micah 7:18','Nahum 1:7','Habakkuk 3:19','Zephaniah 3:17','Zechariah 4:6','Malachi 4:2','Matthew 5:4','Matthew 11:28','Matthew 28:20','Mark 10:27','Luke 1:37','Luke 12:32','John 3:16','John 10:10','John 14:27','John 16:33','Acts 17:27','Romans 8:28','Romans 8:38-39','Romans 15:13','1 Corinthians 10:13','2 Corinthians 4:16','2 Corinthians 12:9','Galatians 6:9','Ephesians 3:20-21','Philippians 4:6-7','Philippians 4:13','1 Thessalonians 5:16-18','2 Thessalonians 3:3','2 Timothy 1:7','Hebrews 13:5','James 1:5','1 Peter 5:7','1 John 4:18','Revelation 21:4'];
 const saveKept=()=>{localStorage.setItem('tolle-kept',JSON.stringify(KEPT));touch()};
+let HL=JSON.parse(localStorage.getItem('tolle-hl')||'{}'); // highlights: {"book.chapter.verse": 1-4}, the highlighter's colour
+const saveHL=()=>{localStorage.setItem('tolle-hl',JSON.stringify(HL));touch()};
+const HUES=[['history','yellow'],['wisdom','green'],['prophets','teal'],['law','orange']]; // the four highlighters
+const keptAt=(bi,c,v)=>KEPT.findIndex(k=>k.b===bi&&k.c===c&&k.v===v);
 const kref=k=>k.r||`${BOOKS[k.b][0]} ${k.c}:${k.v}`; // a kept verse's reference, which is also its identity
 const KEY='bible-plan',$=document.getElementById('app'),reduce=matchMedia('(prefers-reduced-motion: reduce)');
 const iso=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; // local YYYY-MM-DD; plain arithmetic, since a locale formatter per call cost ~100ms a screen on slow phones
@@ -713,9 +738,9 @@ function keptView(){
   return `<h1 class=title>Kept verses</h1>
   ${gone?`<p class=gone role=status>Removed ${kref(gone.k)}.<button class=link-btn onclick=unremove()>Undo</button></p>`:''}
   ${KEPT.length?`<ol class=kept-list>${KEPT.map((k,i)=>[k,i]).reverse().map(([k,i])=>`<li class="leaf ${bed(k.b)[0]}"><span class=ktab>${kref(k)}</span>
-    <p class=ktext lang=${TR[k.tr][1]}>${esc(k.t)}</p>
-    <p class=kmeta><span>Kept ${fmtDate(k.d)} · ${k.tr.toUpperCase()}</span><button class=link-btn onclick=openCh(${FIRST[k.b]+k.c-1},${k.v})>Read ${BOOKS[k.b][0]} ${k.c}</button>${navigator.share?`<button class=link-btn onclick=share(${i})>Share</button>`:''}<button class=link-btn onclick=unkeep(${i},this)>Remove</button></p></li>`).join('')}</ol>`
-  :`<section class=leaf><p class=empty>Nothing kept yet. While you read, tap a verse, then tap Keep. It gets a punched hole in the margin and waits here for you.</p></section>`}`;
+    <p class=ktext lang=${TR[k.tr][1]}>${esc(k.t)}</p>${k.n?`<p class=knote>${esc(k.n)}</p>`:''}
+    <p class=kmeta><span>Kept ${fmtDate(k.d)} · ${k.tr.toUpperCase()}</span><button class=link-btn onclick=openCh(${FIRST[k.b]+k.c-1},${k.v})>Read ${BOOKS[k.b][0]} ${k.c}</button><button class=link-btn onclick="noteSheet(${k.b},${k.c},${k.v})">${k.n?'Edit note':'Add a note'}</button>${navigator.share?`<button class=link-btn onclick=share(${i})>Share</button>`:''}<button class=link-btn onclick=unkeep(${i},this)>Remove</button></p></li>`).join('')}</ol>`
+  :`<section class=leaf><p class=empty>Nothing kept yet. While you read, tap a verse, then tap Keep, or write a note on it. It gets a punched hole in the margin and waits here for you.</p></section>`}`;
 }
 function unkeep(i,btn){ // the leaf hinges shut at its bound edge, as Done shuts a chapter; then the list closes up
   const li=btn.closest('li');if(li.inert)return;li.inert=true; // one removal per leaf, even on a double tap
@@ -759,15 +784,16 @@ function undo(){const i=S.day.idx.pop();setRead(i,false);S.log[today()]--;save()
 function reset(){if(confirm('Erase all progress? This cannot be undone.')){localStorage.removeItem(KEY);S=null;seenT=null;touch();go('today')}}
 
 // backups: everything worth keeping (the plan and Kept) as one copy, stamped with when this phone last changed it
-const pack=()=>({app:'tolle',v:1,u:+localStorage.getItem('tolle-u')||0,plan:S,kept:KEPT});
-if((S||KEPT.length)&&!localStorage.getItem('tolle-u'))localStorage.setItem('tolle-u',1); // progress from before backups: older than any copy, but never empty
+const pack=()=>({app:'tolle',v:1,u:+localStorage.getItem('tolle-u')||0,plan:S,kept:KEPT,hl:HL});
+if((S||KEPT.length||Object.keys(HL).length)&&!localStorage.getItem('tolle-u'))localStorage.setItem('tolle-u',1); // progress from before backups: older than any copy, but never empty
 let pushT;
 function touch(){localStorage.setItem('tolle-u',Date.now());clearTimeout(pushT);pushT=setTimeout(sync,2000)}
 const DAY=/^\d{4}-\d\d-\d\d$/,ix=i=>Number.isInteger(i)&&i>=0&&i<CH.length;
 function clean(p){ // a copy from a file or from Drive is checked field by field before any of it is used or drawn
   const s=p?.plan,n=Number.isInteger;
   const ok=p?.app==='tolle'&&Number.isFinite(p.u)&&Array.isArray(p.kept)
-    &&p.kept.every(k=>BOOKS[k?.b]&&n(k.b)&&n(k.c)&&k.c>0&&n(k.v)&&k.v>0&&typeof k.t==='string'&&TR[k.tr]&&DAY.test(k.d)&&(k.r==null||HOPE.includes(k.r)))
+    &&p.kept.every(k=>BOOKS[k?.b]&&n(k.b)&&n(k.c)&&k.c>0&&n(k.v)&&k.v>0&&typeof k.t==='string'&&TR[k.tr]&&DAY.test(k.d)&&(k.r==null||HOPE.includes(k.r))&&(k.n==null||typeof k.n==='string'))
+    &&Object.entries(p.hl??{}).every(([k,v])=>/^\d+\.\d+\.\d+$/.test(k)&&v>=1&&v<=4&&n(v))
     &&(s===null||/^[01]{1189}$/.test(s?.read)&&DAY.test(s.deadline)&&DAY.test(s.start)&&TR[s.tr]&&s.rate>0&&Number.isFinite(s.startDone)
       &&Object.entries(s.log??0).every(([d,c])=>DAY.test(d)&&n(c))&&Object.values(s.at??0).every(ix)&&DAY.test(s.day?.d)&&s.day.idx?.every(ix));
   if(!ok)throw Error('not a Tolle backup');
@@ -781,13 +807,13 @@ function merge(a,b){ // two copies: a chapter read on either counts, the newer c
       day:p.day.d===q.day.d?{d:p.day.d,idx:[...new Set([...q.day.idx,...p.day.idx])]}:p.day.d>q.day.d?p.day:q.day};
   }
   const have=new Set(n.kept.map(kref));
-  return {...n,u:Date.now(),plan,kept:[...n.kept,...o.kept.filter(k=>!have.has(kref(k)))].sort((x,y)=>x.d.localeCompare(y.d))};
+  return {...n,u:Date.now(),plan,hl:{...o.hl,...n.hl},kept:[...n.kept,...o.kept.filter(k=>!have.has(kref(k)))].sort((x,y)=>x.d.localeCompare(y.d))};
 }
 let flash=null; // one line for Today, saying what a restore brought back
 let cheer=null; // {k: book|div|bible|run, ...}: what the last Done finished, marked once on Today
 const restored=()=>`Restored: ${plural(count(),'chapter')} read, ${plural(KEPT.length,'kept verse')}.`;
 function adopt(p){ // take a copy as this phone's own
-  const fresh=!S;S=p.plan;KEPT=p.kept;if(fresh&&S)flash=restored();
+  const fresh=!S;S=p.plan;KEPT=p.kept;HL=p.hl||{};localStorage.setItem('tolle-hl',JSON.stringify(HL));if(fresh&&S)flash=restored();
   S?localStorage.setItem(KEY,JSON.stringify(S)):localStorage.removeItem(KEY);
   localStorage.setItem('tolle-kept',JSON.stringify(KEPT));localStorage.setItem('tolle-u',p.u);
   if(view!=='reader')render(); // the reader keeps its place; the next page shows the new copy
@@ -848,7 +874,7 @@ addEventListener('visibilitychange',()=>{if(!document.hidden)sync()});
 // a sheet follows the thumb down 1:1; let go and it drops away or settles back, by where the flick was headed
 const rubber=(x,h)=>x*h*.55/(h+.55*x); // past the top it gives a little, slower the further it goes
 addEventListener('touchstart',e=>{ // (any touchstart listener also turns on :active press states in iOS Safari)
-  const g=e.target.closest?.('.gloss:popover-open');if(!g||e.touches.length>1||g.scrollTop>0&&!e.target.closest('.shead'))return; // the header always drags; the body only from the top
+  const g=e.target.closest?.('.gloss:popover-open');if(!g||e.touches.length>1||e.target.closest('textarea')||g.scrollTop>0&&!e.target.closest('.shead'))return; // the header always drags; the body only from the top
   const y0=e.touches[0].clientY,pts=[];let y=null;
   const move=ev=>{const d=ev.touches[0].clientY-y0;
     if(y===null){if(d<=0)return end();y=0;g.style.transition='none'} // a pull down from the top is the sheet's; anything else scrolls
@@ -891,7 +917,7 @@ function readerView(){
   <section class="leaf recall" aria-labelledby=rc-h hidden></section>
   ${first?'':intro}
   <section class="leaf why" hidden></section>
-  <div class=actbar><button class=keep aria-pressed=false hidden onclick=keep(this)></button><button class=go onclick=finish(this)><span>Done${more?`<span class=nx> · next: ${nx[0]} ${nx[1]}</span>`:''}</span>${icon('check')}</button></div>
+  <div class=actbar><div class=vbar hidden>${HUES.map(([id,name],k)=>`<button class=hl style="--c:var(--${id})" aria-label="Highlight ${name}" aria-pressed=false onclick=mark(${k+1})></button>`).join('')}<button class=keep id=notebtn onclick="noteSheet(selAt.bi,selAt.c,+sel.dataset.v,sel.dataset.t)">Note</button></div><button class=keep aria-pressed=false hidden onclick=keep(this)></button><button class=go onclick=finish(this)><span>Done${more?`<span class=nx> · next: ${nx[0]} ${nx[1]}</span>`:''}</span>${icon('check')}</button></div>
   ${chSheet(i)}`;
   const [txt,box,sum,vc,quiz,strip,look,about]=['.scripture','.why','.sum','.vc','.recall','.vstrip','.look','.intro'].map(q=>$.querySelector(q)); // grab now: the reader may leave before fetches return
   const textP=passage(`${b} ${c}`),noteP=insights(b);
@@ -906,7 +932,8 @@ function readerView(){
     const at=list.map(x=>{const v=verses&&anchor(x.body,c);return v&&v<=verses.length?v:0}); // the verse each note explains, when it names one
     txt.removeAttribute('aria-busy');
     if(verses){
-      txt.innerHTML=scriptureHTML(verses,list,at,x,new Set(KEPT.filter(k=>k.b===bi&&k.c===c).map(k=>k.v)));
+      const mine=KEPT.filter(k=>k.b===bi&&k.c===c);
+      txt.innerHTML=scriptureHTML(verses,list,at,x,new Set(mine.map(k=>k.v)),{noted:new Set(mine.filter(k=>k.n).map(k=>k.v)),hl:v=>HL[`${bi}.${c}.${v}`]});
       txt.onclick=e=>{if(e.target.closest('button'))return;const vs=e.target.closest('.vs');choose(vs===sel?null:vs,b,c,bi)};
       strip.ariaValueMax=verses.length;strip.innerHTML=verses.map(v=>`<i${at.includes(v.verse)?' class=t':''}></i>`).join('');
       const tabbed=at.filter(Boolean).length;
@@ -927,16 +954,37 @@ function readerView(){
 }
 let NOTES=[],tk=0,sel=null,selAt=null; // the selected verse, and the chapter it is in
 function choose(vs,b,c,bi){ // select a verse (or clear the selection); the Keep button follows it
-  sel?.classList.remove('sel');sel=vs;selAt={b,c,bi};const k=$.querySelector('.keep');
-  if(!vs)return k.hidden=true;
+  sel?.classList.remove('sel');sel=vs;selAt={b,c,bi};const k=$.querySelector('.actbar>.keep'),bar=$.querySelector('.vbar');
+  bar.hidden=!vs;if(!vs)return k.hidden=true;
+  bar.querySelectorAll('.hl').forEach((h,i)=>h.ariaPressed=vs.dataset.h==i+1);notebtn.textContent=vs.classList.contains('noted')?'My note':'Note';
   vs.classList.add('sel');const on=vs.classList.contains('kept');
   if(k.hidden){k.hidden=false;step([k],'perspective(900px) rotateY(-16deg)','0 50%')}k.ariaPressed=on;k.textContent=`${on?'Kept':'Keep'} ${c}:${vs.dataset.v}`;
 }
 function keep(btn){ // punch the selected verse into Kept, or take it back out
-  const v=+sel.dataset.v,{c,bi}=selAt,i=KEPT.findIndex(k=>k.b===bi&&k.c===c&&k.v===v);
-  if(i<0)KEPT.push({b:bi,c,v,t:sel.dataset.t,tr:S.tr,d:today()});else KEPT.splice(i,1);
+  const v=+sel.dataset.v,{c,bi}=selAt,i=keptAt(bi,c,v);
+  if(i>=0&&KEPT[i].n&&!confirm('This verse has your note. Remove the verse and the note?'))return;
+  if(i<0)KEPT.push({b:bi,c,v,t:sel.dataset.t,tr:S.tr,d:today()});else{KEPT.splice(i,1);sel.classList.remove('noted');notebtn.textContent='Note'}
   saveKept();navigator.vibrate?.(i<0?12:[8,40,8]);
   sel.classList.toggle('kept',i<0);btn.ariaPressed=i<0;btn.textContent=`${i<0?'Kept':'Keep'} ${c}:${v}`;
+}
+function mark(n){ // a highlighter over the selected verse; the same colour again lifts it off
+  const k=`${selAt.bi}.${selAt.c}.${sel.dataset.v}`;HL[k]===n?delete HL[k]:HL[k]=n;saveHL();
+  HL[k]?sel.dataset.h=n:delete sel.dataset.h;navigator.vibrate?.(8);
+  $.querySelectorAll('.vbar .hl').forEach((h,i)=>h.ariaPressed=HL[k]===i+1);
+}
+let noteAt=null; // the verse the note sheet is open on
+function noteSheet(bi,c,v,t){ // my note on a verse: writing one keeps the verse, so the note lives with it in Kept
+  const g=document.getElementById('mynote'),k=KEPT[keptAt(bi,c,v)];noteAt={bi,c,v,t};
+  g.querySelector('.gname').textContent=`${BOOKS[bi][0]} ${c}:${v}`;g.querySelector('textarea').value=k?.n||'';
+  document.getElementById('mn-del').hidden=!k?.n;g.showPopover();g.querySelector('textarea').focus();
+}
+function saveNote(del){
+  if(del&&!confirm('Delete this note? The verse stays kept.'))return;
+  const g=document.getElementById('mynote'),{bi,c,v,t}=noteAt,n=del?'':g.querySelector('textarea').value.trim(),i=keptAt(bi,c,v);
+  if(i>=0)n?KEPT[i].n=n:delete KEPT[i].n;else if(n)KEPT.push({b:bi,c,v,t,tr:S.tr,d:today(),n});
+  saveKept();g.hidePopover();
+  if(view==='kept'){const y=scrollY;render();return scrollTo(0,y)} // stay on the verse just edited
+  if(view==='reader'&&sel){sel.classList.toggle('noted',!!n);if(n)sel.classList.add('kept');choose(sel,selAt.b,selAt.c,selAt.bi)}
 }
 function introHTML(x,b,c){ // who wrote the book, when, why, and its shape, with the part this chapter sits in marked
   const here=r=>{const [a,z=a]=r.split(/[–-]/).map(Number);return c>=a&&c<=z},rb=bookOf(x.verse);
@@ -954,7 +1002,7 @@ function notesHTML(list){
   const k=days('2000-01-01',today())%list.length; // rotate daily so a revisit opens on a different note
   return `<h2>Why &amp; How</h2><ol class=notes>${[...list.slice(k),...list.slice(0,k)].map(x=>`<li>${noteHTML(x)}</li>`).join('')}</ol>`;
 }
-function scriptureHTML(verses,list,at,x,kept=new Set()){ // verses as paragraphs (a new one where a speech opens); notes ride the fore edge as tabs at their verse
+function scriptureHTML(verses,list,at,x,kept=new Set(),mk={noted:new Set(),hl:()=>0}){ // verses as paragraphs (a new one where a speech opens); notes ride the fore edge as tabs at their verse
   let h='',n=0;
   const key=x?.skim?.advice?x.skim.key:[],names=(x?.names||[]).map(m=>({...m,re:new RegExp(`\\b${m.name.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}\\b`)})),found=[];
   for(const v of verses){
@@ -966,7 +1014,7 @@ function scriptureHTML(verses,list,at,x,kept=new Set()){ // verses as paragraphs
     let text=esc(t);
     for(const m of names)if(!found.includes(m)&&m.re.test(text)){ // a name becomes tappable where it first appears
       text=text.replace(m.re,w=>`<button class=who popovertarget=who-${found.length}>${w}</button>`);found.push(m)}
-    h+=`<span class="vs${key.includes(v.verse)?' key':''}${kept.has(v.verse)?' kept':''}" data-v=${v.verse} data-t="${esc(t)}">${tabs}<sup>${v.verse}</sup>${text} </span>`;
+    h+=`<span class="vs${key.includes(v.verse)?' key':''}${kept.has(v.verse)?' kept':''}${mk.noted.has(v.verse)?' noted':''}" data-v=${v.verse}${mk.hl(v.verse)?` data-h=${mk.hl(v.verse)}`:''} data-t="${esc(t)}">${tabs}<sup>${v.verse}</sup>${text} </span>`;
   }
   const skim=key.length?`<p class=skim><span class=kind>${icon('bigpicture')}Skim guide</span>${esc(x.skim.advice)} Key verses: ${key.map(k=>`<span class=kv>${k}</span>`).join(' ')}.</p>`:'';
   return `${skim}<div class=para>${h}</div>${found.map((m,i)=>`<div popover id=who-${i} class=gloss role=dialog aria-label="${esc(m.name)}">
