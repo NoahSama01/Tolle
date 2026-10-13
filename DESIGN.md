@@ -351,6 +351,10 @@ Corners are barely softened: 2px on controls, 3px on leaves, and 1px on slips, l
   - **The punch card:** one hole a book, punched in its division's hue when the book is finished.
   - **The mark:** finishing a book, a division or a run of 7, 30, 100 or 365 days puts one leaf at the top of Today: a 3.4rem hole (`punch`) and the name printed in (`inkin`), with a longer vibration. It shows once and leaves with the page.
   - **The whole Bible:** the board steps through all six division hues, 220ms apart, and Today keeps the journey in figures with a Share button.
+- **Making a verse your own.**
+  - **The verse bar:** selecting a verse puts a row above Keep and Done with four highlighters (holes filled with the History, Wisdom, Prophets and Law hues) and a Note button.
+  - **Highlight:** the verse takes that hue at 45% over the plate. The same colour again lifts it off. A selected, highlighted verse keeps its colour and gains an underline.
+  - **My note:** a bottom sheet with a text box. Saving a note keeps the verse, and the note lives on that Kept verse. In the text a noted verse carries a small ink "note" tag; in Kept the note sits under its verse on a ruled slip.
 - **Small bridges, all in the hinge:** a removed Kept verse shuts like Done's leaves, and its Undo slip prints in (`inkin`). Undo hinges the verse back where it was. A book's intro and a pulled passage hinge down like book panels. Keep steps in from its edge the first time it appears. In setup, a ticked book's bar steps to its new fill.
 - **Under `prefers-reduced-motion: reduce`:**
   - `step()` and the band step return early, and the CSS removes animations and sheet transitions.

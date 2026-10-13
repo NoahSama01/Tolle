@@ -53,5 +53,7 @@ Everything deferred so far, grouped by when it matters. Tick items off as they l
 - [ ] Use high effort for the hardest books: Job, Psalms, Isaiah, Romans, Hebrews, Revelation.
 
 ## Smaller things
+- [ ] A list of highlighted verses (highlights show in the text only, for now).
+- [ ] A note for a whole chapter, if readers ask for it (notes attach to a verse).
 - [ ] Refresh `design.json` so it matches `DESIGN.md` (`/impeccable document`).
 - [ ] Church or group reading plans (deferred until asked for).
