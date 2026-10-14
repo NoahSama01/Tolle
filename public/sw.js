@@ -2,7 +2,7 @@
 // App files + insights: stale-while-revalidate, so weak signal never blocks the app
 // (an update shows on the next launch).
 // Scripture text: cache first, since it never changes.
-const APP = 'app-v31', TEXT = 'text';
+const APP = 'app-v32', TEXT = 'text';
 const SHELL = ['./', 'landing.html', 'tokens.css', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'board-grain.png',
   ...['archivo-400-800', 'eb-garamond', 'jetbrains-mono'].map(f => `fonts/${f}.woff2`)];
 const put = (name, req, res) => { if (res.ok) { const c = res.clone(); caches.open(name).then(x => x.put(req, c)) } return res };
@@ -14,6 +14,15 @@ self.addEventListener('install', e => {
 self.addEventListener('activate', e => e.waitUntil(
   caches.keys().then(ks => Promise.all(ks.filter(k => ![APP, TEXT].includes(k)).map(k => caches.delete(k)))).then(() => self.clients.claim())
 ));
+// Daily reminder: show it even with Tolle closed; a tap opens Tolle, or brings it forward if it's open
+self.addEventListener('push', e => {
+  const m = e.data ? e.data.json() : { title: 'Tolle', body: "Today's chapters are waiting." };
+  e.waitUntil(self.registration.showNotification(m.title, { body: m.body, icon: 'icon-192.png', badge: 'icon-192.png', tag: 'tolle-daily' }));
+});
+self.addEventListener('notificationclick', e => {
+  e.notification.close();
+  e.waitUntil(self.clients.matchAll({ type: 'window' }).then(ws => ws[0] ? ws[0].focus() : self.clients.openWindow('./')));
+});
 self.addEventListener('fetch', e => {
   const req = e.request, url = new URL(req.url);
   if (req.method !== 'GET') return;
