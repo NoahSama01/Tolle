@@ -43,7 +43,7 @@ Report each pull request URL, the checker's final output, and any judgement call
 
 ## Progress
 
-Done: Leviticus, Numbers, Deuteronomy, Joshua, Judges, Ruth, 1 Samuel, 2 Samuel, 1 Kings, 2 Kings, 1 Chronicles, 2 Chronicles, Ezra, Nehemiah, Esther, Job, Psalms.
-Next, in reading order: Proverbs, Ecclesiastes, Song of Solomon, then the Prophets (Isaiah to Malachi) and the New Testament. Genesis and Exodus are still to do as well.
+Done: Leviticus through Malachi (every Old Testament book except Genesis and Exodus).
+Next, in reading order: Matthew, Mark, Luke, John, Acts, then the letters and Revelation. Genesis and Exodus are still to do as well.
 
 Several sessions can run at once as long as no two are given the same book: each book is its own file and its own pull request.
