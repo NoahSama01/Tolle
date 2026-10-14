@@ -864,7 +864,7 @@ async function db(path,body,prefer,method=body?'POST':'GET'){ // the account's r
   const t=await token();if(!t)throw 'signed out';
   const r=await fetch(`${SB}/rest/v1/${path}`,{method,body:body&&JSON.stringify(body),
     headers:{apikey:SBK,Authorization:'Bearer '+t,'Content-Type':'application/json',...(prefer&&{Prefer:prefer})}});
-  if(!r.ok)throw r.status;
+  if(!r.ok){let m='';try{m=(await r.json()).message}catch{}throw m?`${r.status}: ${m}`:r.status} // the server's own reason, when it gives one
   return r.headers.get('content-type')?.includes('json')?r.json():null;
 }
 function synced(err){ // Settings redraws; elsewhere only the note changes, so a page never jumps under the reader
@@ -922,7 +922,7 @@ async function remindOn(){ // three steps, each with its own message when it fai
   try{
     if(await Notification.requestPermission()!=='granted')throw 'denied';
     step='subscribe';const reg=await navigator.serviceWorker.ready,sub=await reg.pushManager.getSubscription()||await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64u(VAPID)}),k=sub.toJSON().keys;
-    step='save';await db('push_subscriptions',{user_id:AU.id,endpoint:sub.endpoint,p256dh:k.p256dh,auth:k.auth},'resolution=ignore-duplicates,return=minimal');
+    step='save';await db('push_subscriptions?on_conflict=endpoint',{user_id:AU.id,endpoint:sub.endpoint,p256dh:k.p256dh,auth:k.auth},'resolution=ignore-duplicates,return=minimal');
     await db('profiles',{user_id:AU.id,tz:tz(),remind_at:at},'resolution=merge-duplicates,return=minimal');
     RM={at,endpoint:sub.endpoint};keepRM();render();
   }catch(e){note.textContent=e==='denied'?"Notifications are blocked for Tolle. Allow them in your phone's settings for this app, then try again."
