@@ -1,0 +1,491 @@
+{
+ "1": {
+  "summary": "Paul urges Timothy to stay in Ephesus to stop false teachers obsessed with myths and genealogies, explains the right use of the law, gives thanks that Christ showed mercy to him, the foremost of sinners, and charges Timothy to fight the good fight.",
+  "lookfor": "Notice Paul's own story as an example of grace, and the goal of the charge in verse 5.",
+  "names": [
+   {
+    "name": "Timothy",
+    "kind": "person",
+    "gloss": "Paul's young co-worker from Lystra, son of a Jewish mother and Greek father."
+   },
+   {
+    "name": "Ephesus",
+    "kind": "place",
+    "gloss": "The leading city of Asia, where Timothy oversaw the churches."
+   },
+   {
+    "name": "Macedonia",
+    "kind": "place",
+    "gloss": "Northern Greece, where Paul was heading."
+   },
+   {
+    "name": "Hymenaeus",
+    "kind": "person",
+    "gloss": "A teacher who shipwrecked his faith."
+   },
+   {
+    "name": "Alexander",
+    "kind": "person",
+    "gloss": "Another who rejected faith and conscience."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Myths and genealogies",
+    "body": "False teachers devoted themselves to myths and endless genealogies (1:4), probably speculative stories built on Old Testament family lines, a popular pastime in some Jewish circles.",
+    "refs": [
+     "Titus 3:9"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The goal is love",
+    "body": "The goal of the charge is love from a pure heart, a good conscience and sincere faith (1:5). Right teaching aims at changed lives, not winning arguments.",
+    "refs": [
+     "Romans 13:10"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The law used lawfully",
+    "body": "The law is good if used lawfully: it's made for the lawless and disobedient (1:8-9). The list follows the order of the Ten Commandments.",
+    "refs": [
+     "Romans 7:12",
+     "Exodus 20:12-16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Chief of sinners",
+    "body": "Christ Jesus came into the world to save sinners, of whom I am chief (1:15). Paul doesn't say was; he still sees himself as the clearest example of mercy.",
+    "refs": [
+     "1 Corinthians 15:9",
+     "Luke 19:10"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A faithful saying",
+    "body": "This is a faithful saying (1:15) introduces the first of five trustworthy sayings in the Pastoral Letters, probably short creeds the churches knew by heart.",
+    "refs": [
+     "1 Timothy 3:1",
+     "1 Timothy 4:9",
+     "2 Timothy 2:11",
+     "Titus 3:8"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Fight the good fight",
+    "body": "Paul charges Timothy to wage the good warfare, holding faith and a good conscience (1:18-19). Some made shipwreck of their faith, like Hymenaeus and Alexander.",
+    "refs": [
+     "1 Timothy 6:12",
+     "2 Timothy 4:7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "An example of patience",
+    "body": "Paul says God showed him mercy so he would be an example for those who would believe later (1:16). How could your story of grace encourage someone else?",
+    "refs": []
+   }
+  ]
+ },
+ "2": {
+  "summary": "Paul urges prayer for all people, including rulers, because God wants all to be saved through the one mediator Christ Jesus; he gives instructions for men to pray without anger and for women to adorn themselves with good works, and restricts women teaching with authority.",
+  "lookfor": "Notice how often \"all\" appears in verses 1 to 6, and why Paul says to pray for rulers.",
+  "names": [
+   {
+    "name": "Adam",
+    "kind": "person",
+    "gloss": "The first man."
+   },
+   {
+    "name": "Eve",
+    "kind": "person",
+    "gloss": "The first woman, deceived by the serpent."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Pray for kings",
+    "body": "Pray for kings and all in authority, so we may lead a quiet and peaceful life (2:1-2). Paul wrote this under Nero.",
+    "refs": [
+     "Jeremiah 29:7",
+     "Romans 13:1"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "God wants all saved",
+    "body": "God our Savior desires all people to be saved and come to the knowledge of the truth (2:4). The scope of prayer matches the scope of God's desire.",
+    "refs": [
+     "2 Peter 3:9",
+     "Ezekiel 18:23"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "One mediator",
+    "body": "There is one God and one mediator between God and people, the man Christ Jesus, who gave himself as a ransom for all (2:5-6). A mediator stands between two parties to reconcile them.",
+    "refs": [
+     "Mark 10:45",
+     "Hebrews 8:6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Braided hair and gold",
+    "body": "Women should adorn themselves not with braided hair, gold, pearls or costly clothing, but with good works (2:9-10). Elaborate hairstyles and jewelry signaled wealth and status in Roman society.",
+    "refs": [
+     "1 Peter 3:3-4"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A debated passage",
+    "body": "Paul doesn't permit a woman to teach or exercise authority over a man (2:12). Christians disagree on whether this is a universal rule or addressed a specific problem with false teaching in Ephesus; the reasons given from Adam and Eve are read in different ways.",
+    "refs": [
+     "Genesis 2:18-23",
+     "Genesis 3:13",
+     "Acts 18:26"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Lifting holy hands",
+    "body": "Men should pray everywhere, lifting up holy hands, without anger or arguing (2:8). Standing with raised hands was a common Jewish posture for prayer.",
+    "refs": [
+     "Psalms 134:2",
+     "Psalms 141:2"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Praying for leaders",
+    "body": "Paul asked believers to pray for rulers who were often hostile. Which leaders, local or national, could you pray for this week?",
+    "refs": []
+   }
+  ]
+ },
+ "3": {
+  "summary": "Paul lists the qualifications for overseers and deacons, focused on character, family life and reputation, explains that he writes so Timothy will know how to behave in God's household, the pillar of the truth, and quotes a hymn about Christ.",
+  "lookfor": "Notice how much of the list is about character rather than skill, and the hymn at the end.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Overseer",
+    "body": "If someone seeks the office of overseer, episkopē, he desires a good work (3:1). The word later became bishop; here it describes a local church leader, the same as an elder.",
+    "refs": [
+     "Titus 1:5-7",
+     "Acts 20:28"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Character first",
+    "body": "Above reproach, the husband of one wife, sober-minded, hospitable, able to teach, not a drunkard, not violent, not a lover of money (3:2-3). Only one item is a skill; the rest are character.",
+    "refs": [
+     "Titus 1:6-9"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Managing his household",
+    "body": "If a man doesn't know how to manage his own household, how will he care for God's church? (3:5). The church was a family; leadership at home was a test of leadership in God's household.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Deacons",
+    "body": "Deacons, diakonoi, meaning servants, should be dignified, not double-tongued, holding the faith with a clear conscience (3:8-9). Verse 11 addresses women, either deacons' wives or women deacons like Phoebe.",
+    "refs": [
+     "Romans 16:1",
+     "Acts 6:3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Pillar and buttress",
+    "body": "God's household is the church of the living God, a pillar and buttress of the truth (3:15). Ephesus had the famous temple of Artemis with its 127 columns; the church is the true temple holding up the truth.",
+    "refs": [
+     "Ephesians 2:20-22"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The mystery of godliness",
+    "body": "He was revealed in the flesh, justified in the spirit, seen by angels, preached among the nations, believed in the world, received up in glory (3:16). An early hymn summarizing Christ's story.",
+    "refs": [
+     "John 1:14",
+     "Colossians 1:23"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Above reproach",
+    "body": "These lists describe maturity every believer can aim for. Which quality would you most like God to grow in you?",
+    "refs": []
+   }
+  ]
+ },
+ "4": {
+  "summary": "Paul warns that in later times some will depart from the faith, forbidding marriage and certain foods, which God created to be received with thanks; he urges Timothy to train himself in godliness, set an example despite his youth, devote himself to Scripture, and not neglect his gift.",
+  "lookfor": "Notice the comparison between bodily and spiritual training, and the advice for a young leader.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Forbidding marriage and foods",
+    "body": "False teachers forbade marriage and demanded abstaining from foods (4:3). Paul answers that everything God created is good and nothing is to be rejected if received with thanksgiving (4:4).",
+    "refs": [
+     "Genesis 1:31",
+     "Colossians 2:20-23"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Sanctified by prayer",
+    "body": "Food is sanctified through the word of God and prayer (4:5). Jews blessed God before meals, and Jesus gave thanks before breaking bread.",
+    "refs": [
+     "Mark 8:6",
+     "Romans 14:6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Training",
+    "body": "Bodily exercise profits a little, but godliness is profitable for all things (4:8). Ephesus had large gymnasiums; Paul borrows their language, gymnazō, to train.",
+    "refs": [
+     "1 Corinthians 9:25-27"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Despite your youth",
+    "body": "Let no one despise your youth, but be an example in word, conduct, love, faith and purity (4:12). Timothy was probably in his thirties; young by ancient standards for leadership.",
+    "refs": [
+     "Titus 2:7"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Public reading",
+    "body": "Give attention to the public reading of Scripture, to exhortation, to teaching (4:13). In synagogue and church, Scripture was read aloud because few owned copies.",
+    "refs": [
+     "Luke 4:16",
+     "Colossians 4:16"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Watch yourself and your teaching",
+    "body": "Pay close attention to yourself and to the teaching; persevere, for in doing so you'll save yourself and your hearers (4:16). Life and doctrine go together.",
+    "refs": [
+     "Acts 20:28"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Training in godliness",
+    "body": "Paul compares godliness to athletic training. What spiritual habit could you practice regularly this month?",
+    "refs": []
+   }
+  ]
+ },
+ "5": {
+  "summary": "Paul gives guidance on treating different age groups as family, caring for widows who are truly in need while families support their own, honoring and paying elders, handling accusations against them fairly, and choosing leaders carefully.",
+  "lookfor": "Notice the family language for church relationships, and the balance of care and responsibility for widows.",
+  "names": [
+   {
+    "name": "Satan",
+    "kind": "person",
+    "gloss": "The adversary, after whom some young widows had turned."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Church as family",
+    "body": "Treat older men as fathers, younger men as brothers, older women as mothers, younger women as sisters, in all purity (5:1-2).",
+    "refs": [
+     "Mark 3:35"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Widows",
+    "body": "A widow without family had no income and little legal protection. The church kept a list of widows it supported, who in turn served through prayer and good works (5:5, 5:9-10).",
+    "refs": [
+     "Acts 6:1",
+     "James 1:27",
+     "Deuteronomy 10:18"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Family first",
+    "body": "If anyone doesn't provide for his own, especially his household, he has denied the faith and is worse than an unbeliever (5:8). Even pagans cared for their parents.",
+    "refs": [
+     "Mark 7:10-13"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The worker deserves his wages",
+    "body": "Elders who labor in teaching are worthy of double honor, for Scripture says don't muzzle the ox, and the worker is worthy of his wages (5:17-18). The second saying is Jesus' own words in Luke, quoted alongside the law.",
+    "refs": [
+     "Deuteronomy 25:4",
+     "Luke 10:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Two or three witnesses",
+    "body": "Don't accept an accusation against an elder except on the testimony of two or three witnesses (5:19). Leaders are protected from rumor but not from accountability.",
+    "refs": [
+     "Deuteronomy 19:15"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A little wine",
+    "body": "No longer drink only water, but use a little wine for your stomach's sake (5:23). Water was often unsafe; wine was a common remedy. A personal aside in the middle of church instructions.",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Sins become evident",
+    "body": "Some people's sins are obvious, others show up later; the same is true of good works (5:24-25). Time reveals character, so don't be hasty in appointing leaders.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Widows near you",
+    "body": "The church took responsibility for the vulnerable. Who in your community is alone and in need of practical care?",
+    "refs": []
+   }
+  ]
+ },
+ "6": {
+  "summary": "Paul instructs slaves to honor their masters, condemns false teachers who see godliness as a means of gain, teaches that godliness with contentment is great gain and the love of money is a root of evil, charges Timothy to fight the good fight, and tells the rich to be generous.",
+  "lookfor": "Notice the warnings about money, and the charge to the rich at the end.",
+  "names": [
+   {
+    "name": "Pontius Pilate",
+    "kind": "person",
+    "gloss": "The Roman governor before whom Jesus made his good confession."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Believing masters",
+    "body": "Slaves with believing masters shouldn't despise them because they're brothers, but serve them better (6:2). The gospel made master and slave brothers, an idea that would undermine slavery over time.",
+    "refs": [
+     "Philemon 1:16"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Godliness as gain",
+    "body": "False teachers supposed godliness was a way to get rich (6:5). Paul turns it around: godliness with contentment is great gain (6:6).",
+    "refs": [
+     "Philippians 4:11-12"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Nothing in, nothing out",
+    "body": "We brought nothing into the world, and we can't carry anything out (6:7), echoing Job and the Teacher of Ecclesiastes.",
+    "refs": [
+     "Job 1:21",
+     "Ecclesiastes 5:15"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A root of all kinds of evil",
+    "body": "The love of money is a root of all kinds of evil (6:10). Not money itself, but the love of it; and a root, not the only root.",
+    "refs": [
+     "Hebrews 13:5",
+     "Matthew 6:24"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The good confession",
+    "body": "Timothy made the good confession before many witnesses, as Christ Jesus did before Pontius Pilate (6:12-13). Pilate's name entered the creeds through lines like this.",
+    "refs": [
+     "John 18:36-37"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Charge the rich",
+    "body": "Command the rich not to be proud or trust in uncertain riches, but in God who richly gives us everything to enjoy; to be rich in good works and generous (6:17-18). Wealth isn't condemned; it's entrusted.",
+    "refs": [
+     "Luke 12:16-21",
+     "Matthew 6:19-21"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Contentment",
+    "body": "Paul says having food and clothing, let us be content (6:8). What would contentment look like in your life right now?",
+    "refs": []
+   }
+  ]
+ },
+ "intro": {
+  "who": "The letter names Paul as the author, writing to Timothy, his son in the faith, whom he had left in Ephesus (1:3). Many scholars think a later follower wrote 1 and 2 Timothy and Titus (the Pastoral Letters) in Paul's name, since their vocabulary and church setting differ; others hold that Paul wrote them late in life.",
+  "when": "If by Paul, about AD 62–64, after a release from his first Roman imprisonment; if by a follower, perhaps AD 80–100.",
+  "why": "False teachers were spreading speculative myths and strict rules in Ephesus. The letter equips Timothy to guard sound teaching, order the church's worship and leadership, care for widows, and model godliness himself.",
+  "outline": [
+   {
+    "chapters": "1",
+    "title": "Sound teaching and Paul's testimony"
+   },
+   {
+    "chapters": "2–3",
+    "title": "Prayer, worship and church leaders"
+   },
+   {
+    "chapters": "4",
+    "title": "False teaching and a good servant"
+   },
+   {
+    "chapters": "5–6",
+    "title": "Widows, elders, slaves, the rich, and Timothy himself"
+   }
+  ],
+  "verse": "1 Timothy 1:15"
+ }
+}
