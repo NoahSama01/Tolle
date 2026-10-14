@@ -43,7 +43,7 @@ Report each pull request URL, the checker's final output, and any judgement call
 
 ## Progress
 
-Done: Leviticus through Malachi (every Old Testament book except Genesis and Exodus).
-Next, in reading order: Matthew, Mark, Luke, John, Acts, then the letters and Revelation. Genesis and Exodus are still to do as well.
+Done: Leviticus through Malachi (every Old Testament book except Genesis and Exodus), Matthew, Mark.
+Next, in reading order: Luke, John, Acts, then the letters and Revelation. Genesis and Exodus are still to do as well.
 
 Several sessions can run at once as long as no two are given the same book: each book is its own file and its own pull request.
