@@ -1,0 +1,736 @@
+{
+ "1": {
+  "summary": "Yahweh comes down from his temple to judge Samaria for its idols, and Micah laments as the disaster sweeps on toward Jerusalem through the towns of his own home region.",
+  "lookfor": "Notice the picture of God's coming in 1:3-4, Micah's own grief, and the string of town names in 1:10-15.",
+  "names": [
+   {
+    "name": "Micah",
+    "kind": "person",
+    "gloss": "The prophet; his name is a short form of Micaiah, who is like Yahweh?"
+   },
+   {
+    "name": "Samaria",
+    "kind": "place",
+    "gloss": "Capital of the northern kingdom of Israel, taken by Assyria in 722 BC."
+   },
+   {
+    "name": "Gath",
+    "kind": "place",
+    "gloss": "A Philistine city near Micah's home."
+   },
+   {
+    "name": "Lachish",
+    "kind": "place",
+    "gloss": "Judah's second city, a fortress guarding the road to Jerusalem."
+   },
+   {
+    "name": "Moresheth Gath",
+    "kind": "place",
+    "gloss": "Micah's home town in the lowlands south-west of Jerusalem."
+   },
+   {
+    "name": "Achzib",
+    "kind": "place",
+    "gloss": "A town in the Judean lowlands."
+   },
+   {
+    "name": "Mareshah",
+    "kind": "place",
+    "gloss": "A lowland town near Moresheth."
+   },
+   {
+    "name": "Adullam",
+    "kind": "place",
+    "gloss": "A town with caves where David once hid from Saul."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "A country prophet",
+    "body": "Micah came from Moresheth, a farming town about 20 miles south-west of Jerusalem, near the Philistine border. Unlike Isaiah, who moved among the royal court, Micah speaks for country people whose land was being taken by the powerful. A century later, elders in Jerusalem still remembered his words.",
+    "refs": [
+     "Jeremiah 26:17-19"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "God comes down",
+    "body": "Yahweh comes out of his place and treads on the high places of the earth, and mountains melt like wax (1:3-4). This is the language of theophany, God's appearing, as at Sinai and in the Psalms. Here God comes not to rescue but to judge his own people.",
+    "refs": [
+     "Psalms 97:5",
+     "Judges 5:4-5",
+     "Amos 4:13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Capitals as sins",
+    "body": "What is the disobedience of Jacob? Isn't it Samaria? (1:5). Micah identifies the sin of each kingdom with its capital city. The centres of power are the centres of corruption.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "The hire of a prostitute",
+    "body": "Samaria's idols were paid for with the wages of a prostitute (1:7), and they will return to that use, carried off by conquerors to adorn other temples. Hosea uses the same imagery for idolatry. Temple prostitution may also lie in the background.",
+    "refs": [
+     "Hosea 2:12",
+     "Hosea 9:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The prophet weeps",
+    "body": "Micah does not announce judgment coldly: he laments, goes barefoot and naked like a captive, and howls like jackals (1:8). Isaiah also walked barefoot as a sign of coming exile. The prophet grieves for the people he condemns.",
+    "refs": [
+     "Isaiah 20:2-4"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Puns on place names",
+    "body": "Verses 10-15 are full of wordplays on town names. Beth Ophrah means house of dust, so its people roll in the dust (1:10); Lachish sounds like the word for steed (1:13); and Achzib sounds like deceitful (1:14). Most of these towns lay near Micah's home, on the route of an invader marching toward Jerusalem.",
+    "refs": [
+     "2 Samuel 1:20"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The siege of Lachish",
+    "body": "In 701 BC the Assyrian king Sennacherib besieged and captured Lachish. Huge stone reliefs of the siege from his palace at Nineveh, now in the British Museum, show the battering rams, the defenders, and families being led into exile. Excavations at Lachish have found the Assyrian siege ramp.",
+    "refs": [
+     "2 Kings 18:13-14",
+     "2 Chronicles 32:9"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Don't tell it in Gath",
+    "body": "Don't tell it in Gath (1:10) quotes David's lament for Saul and Jonathan. Micah echoes Israel's oldest songs of grief to mourn his own region. The glory of Israel will come to Adullam (1:15), the cave where David hid. What does it suggest to see Israel's story running backwards to its beginnings?",
+    "refs": [
+     "2 Samuel 1:20",
+     "1 Samuel 22:1"
+    ]
+   }
+  ]
+ },
+ "2": {
+  "summary": "Micah condemns those who lie awake planning to seize their neighbours' fields and houses, mocks the prophets who tell people only what they want to hear, and promises that God will gather a remnant like a flock.",
+  "lookfor": "Notice what the land-grabbers do at night and in the morning, what the people want from their prophets, and the change of tone at 2:12.",
+  "names": [
+   {
+    "name": "Jacob",
+    "kind": "group",
+    "gloss": "The people of Israel, named after their ancestor."
+   },
+   {
+    "name": "Bozrah",
+    "kind": "place",
+    "gloss": "A city of Edom; the Hebrew may instead mean a sheepfold."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Seizing land",
+    "body": "They covet fields and seize them, houses and take them (2:2). In Israel, land was a family inheritance from God that should not leave the family permanently. Wealthy creditors and officials were buying up or confiscating small farms, turning free farmers into tenants or slaves.",
+    "refs": [
+     "Leviticus 25:23",
+     "1 Kings 21:1-3",
+     "Isaiah 5:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Planning in bed",
+    "body": "They devise evil on their beds and carry it out at dawn because they can (2:1). The sin is premeditated and the only limit is power. A psalm describes the wicked plotting on their beds in the same way.",
+    "refs": [
+     "Psalms 36:4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The tenth commandment",
+    "body": "They covet fields (2:2) uses the same verb as the commandment You shall not covet your neighbour's house or field. Micah shows coveting turning into seizure. The punishment fits: their own fields will be divided among others (2:4).",
+    "refs": [
+     "Exodus 20:17",
+     "Deuteronomy 5:21"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "No lot in the assembly",
+    "body": "The land had originally been divided by lot among Israel's families. Micah says the land-grabbers will have no one to cast the line by lot in Yahweh's assembly (2:5): they will be cut out of any future redistribution of the land.",
+    "refs": [
+     "Joshua 18:8-10",
+     "Numbers 26:55"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Don't prophesy",
+    "body": "The people say: Don't prophesy about these things. Disgrace won't overtake us (2:6). The Hebrew verb for prophesy here means to drip, used of dripping speech. Micah's sarcastic answer: their ideal prophet would preach about wine and strong drink (2:11).",
+    "refs": [
+     "Amos 2:12",
+     "Isaiah 30:10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Women and children evicted",
+    "body": "The powerful drive women out of their homes and take God's blessing from their children forever (2:9). The victims are the most vulnerable: widows and orphans whom the law specially protected. Losing land meant losing a future.",
+    "refs": [
+     "Exodus 22:22-24",
+     "Deuteronomy 10:18"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The one who breaks open the way",
+    "body": "The chapter ends with a sudden promise: God will gather the remnant like sheep, and the breaker will go up before them with their king and Yahweh at their head (2:12-13). Some read this as a return from exile, others as God breaking them out of a besieged city. Some Jewish interpreters read the breaker as a messianic figure.",
+    "refs": [
+     "Isaiah 52:12",
+     "John 10:3-4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Do my words do good?",
+    "body": "God asks: Don't my words do good to him who walks blamelessly? (2:7). The message the people resented as harsh is good news for the upright. Why might the same word sound like a threat to some and a promise to others?",
+    "refs": [
+     "Hebrews 4:12"
+    ]
+   }
+  ]
+ },
+ "3": {
+  "summary": "Micah condemns Israel's rulers who devour their people, prophets who preach for pay, and leaders who trust that God is with them, announcing that Zion itself will be plowed like a field.",
+  "lookfor": "Notice the brutal image of 3:2-3, what Micah says fills him in 3:8, and the shocking conclusion in 3:12.",
+  "names": [
+   {
+    "name": "Zion",
+    "kind": "place",
+    "gloss": "The hill of Jerusalem where the temple stood."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Cannibal rulers",
+    "body": "Rulers who should know justice tear skin from bones and chop up their people like meat for the pot (3:2-3). The image is deliberately grotesque. Leaders were meant to be shepherds; instead they are butchers.",
+    "refs": [
+     "Ezekiel 34:2-4",
+     "Psalms 14:4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Peace for pay",
+    "body": "The false prophets cry Peace! when they are fed and declare war on those who do not pay (3:5). Their message depends on their income. Jeremiah and Ezekiel later attack prophets who cry peace when there is no peace.",
+    "refs": [
+     "Jeremiah 6:14",
+     "Ezekiel 13:10"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Full of power",
+    "body": "In contrast to them, Micah says he is full of power by Yahweh's Spirit, justice and might to declare Israel's sin (3:8). He claims his authority not from payment or office but from God's Spirit. It is one of the clearest statements of prophetic calling in the Old Testament.",
+    "refs": [
+     "Isaiah 61:1",
+     "Amos 7:14-15"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Judges, priests and prophets for money",
+    "body": "Judges take bribes, priests teach for a price, and prophets divine for money (3:11). Every institution meant to guide the people has been bought. Deuteronomy forbids judges to take bribes, for a bribe blinds the eyes of the wise.",
+    "refs": [
+     "Deuteronomy 16:19",
+     "1 Samuel 8:3"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Isn't Yahweh among us?",
+    "body": "Corrupt leaders still lean on God, saying, Isn't Yahweh among us? No disaster will come on us (3:11). They assume God's presence guarantees safety. How can confidence in God's presence become a false security?",
+    "refs": [
+     "Jeremiah 7:4",
+     "Matthew 3:9"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Zion plowed",
+    "body": "Zion will be plowed like a field and Jerusalem become a heap of ruins (3:12). A century later, when Jeremiah was on trial for predicting the temple's destruction, elders defended him by quoting this verse. They noted that Hezekiah repented and God relented.",
+    "refs": [
+     "Jeremiah 26:18-19"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Judgment, then hope",
+    "body": "Chapter 3 ends with the temple mount as a wooded hill (3:12); chapter 4 opens with the same mountain lifted above all mountains (4:1). The editor has placed the worst judgment and the brightest hope side by side. The book alternates this way throughout.",
+    "refs": [
+     "Micah 4:1"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Heads of Jacob",
+    "body": "Micah addresses the heads of Jacob and rulers of the house of Israel (3:1, 3:9). The word for rulers, qatsin, can mean military or judicial leaders. Isn't it for you to know justice? The leaders are expected to know and practise mishpat, justice.",
+    "refs": [
+     "Isaiah 1:10"
+    ]
+   }
+  ]
+ },
+ "4": {
+  "summary": "In days to come the nations will stream to Zion to learn God's ways and beat swords into plowshares, the lame and scattered will be gathered, and daughter Zion will go through labour pains and exile before rescue.",
+  "lookfor": "Compare 4:1-3 with Isaiah 2, notice the picture of peace in 4:4, and the image of a woman in labour.",
+  "names": [
+   {
+    "name": "Babylon",
+    "kind": "place",
+    "gloss": "The great city of Mesopotamia, which later took Judah into exile."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "The same vision as Isaiah",
+    "body": "Micah 4:1-3 is almost identical to Isaiah 2:2-4. Scholars debate whether one prophet borrowed from the other, whether both used an older song, or whether an editor added it to both books. Micah adds a verse of his own about every man under his vine and fig tree (4:4).",
+    "refs": [
+     "Isaiah 2:2-4"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Nations stream to Zion",
+    "body": "The nations will stream uphill to the mountain of Yahweh to be taught his ways (4:1-2). The picture reverses the usual image of armies marching against Jerusalem. It fulfils the promise to Abraham that all nations would be blessed through him.",
+    "refs": [
+     "Genesis 12:3",
+     "Zechariah 8:20-23"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Swords into plowshares",
+    "body": "They will beat their swords into plowshares (4:3). Joel later reverses the image as a call to war. A sculpture of a man beating a sword into a plowshare, given by the Soviet Union, stands at the United Nations in New York.",
+    "refs": [
+     "Joel 3:10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Under his vine and fig tree",
+    "body": "Every man will sit under his vine and fig tree and no one will make them afraid (4:4). Owning one's own vine and fig tree meant security and independence on family land, exactly what the land-grabbers of chapter 2 had taken away. The phrase described the peace of Solomon's reign.",
+    "refs": [
+     "1 Kings 4:25",
+     "Zechariah 3:10",
+     "Micah 2:2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "We will walk",
+    "body": "All the nations may walk in the name of their gods; but we will walk in the name of Yahweh (4:5). It sounds like the congregation's response to the vision, committing themselves now to live by the future they have heard. Hope becomes a reason to act.",
+    "refs": [
+     "Joshua 24:15"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The tower of the flock",
+    "body": "The tower of the flock (4:8), Migdal Eder in Hebrew, was a watchtower for shepherds. Genesis places one near Bethlehem, where Jacob camped after Rachel's death. Later Jewish tradition linked it with the coming of the Messiah, and the passage leads into the Bethlehem prophecy in chapter 5.",
+    "refs": [
+     "Genesis 35:19-21",
+     "Micah 5:2"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Even to Babylon",
+    "body": "Daughter Zion will go out of the city and come to Babylon, where she will be rescued (4:10). In Micah's day Assyria, not Babylon, was the threat. Some see this as a prophecy fulfilled a century later; many scholars think the verse was updated during the exile.",
+    "refs": [
+     "Isaiah 39:6-7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Labour pains",
+    "body": "Zion is told to writhe like a woman in labour (4:9-10). Labour is painful but leads to new life. How might suffering be understood as birth pangs rather than simply punishment? Paul uses a similar image for creation groaning.",
+    "refs": [
+     "Romans 8:22",
+     "John 16:21"
+    ]
+   }
+  ]
+ },
+ "5": {
+  "summary": "Though Jerusalem's ruler is humiliated, a ruler of ancient origin will come from little Bethlehem to shepherd God's people in Yahweh's strength, and God will purge Israel of its horses, fortresses and idols.",
+  "lookfor": "Notice how Bethlehem is described, what the coming ruler will do, and what God promises to cut off in 5:10-15.",
+  "names": [
+   {
+    "name": "Bethlehem Ephrathah",
+    "kind": "place",
+    "gloss": "A small town south of Jerusalem, David's birthplace; Ephrathah was its clan or district name."
+   },
+   {
+    "name": "Assyria",
+    "kind": "place",
+    "gloss": "The empire threatening Judah in Micah's day."
+   },
+   {
+    "name": "Nimrod",
+    "kind": "place",
+    "gloss": "The land of Nimrod, a name for Assyria and Babylonia after the legendary hunter and king."
+   },
+   {
+    "name": "Asherah",
+    "kind": "person",
+    "gloss": "A Canaanite mother goddess, worshipped through sacred wooden poles."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The judge struck on the cheek",
+    "body": "Jerusalem is under siege and its ruler, the judge of Israel, is struck on the cheek (5:1). It may refer to Hezekiah humiliated by Sennacherib in 701 BC or to a later king. In Hebrew Bibles this verse closes chapter 4, so the Bethlehem prophecy begins chapter 5.",
+    "refs": [
+     "2 Kings 18:13-16"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Small Bethlehem",
+    "body": "Bethlehem Ephrathah is small among the clans of Judah (5:2), yet from it comes a ruler. It was David's home town, so Micah expects a new David rather than another king from Jerusalem's corrupt court. Matthew quotes this verse when the magi ask where the Messiah will be born.",
+    "refs": [
+     "1 Samuel 17:12",
+     "Matthew 2:5-6",
+     "John 7:42"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "From ancient times",
+    "body": "The ruler's goings out are from of old, from ancient times (5:2). The phrase can point to the ancient line of David or to a figure whose origins lie in eternity. Jewish interpreters usually read it as the first, while many Christians have seen a reference to Christ's pre-existence.",
+    "refs": [
+     "Amos 9:11",
+     "John 1:1-2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "She who is in labour",
+    "body": "God will give them up until she who is in labour gives birth (5:3). The image continues from 4:10. Christian readers have often connected it with Mary; others see Zion giving birth to a new era, or recall Isaiah's young woman who will bear a son.",
+    "refs": [
+     "Isaiah 7:14",
+     "Revelation 12:1-5"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "He will be our peace",
+    "body": "The coming shepherd will stand in Yahweh's strength and will be great to the ends of the earth; he will be our peace (5:4-5). Ephesians uses the same phrase of Christ, he is our peace. In Micah the peace includes protection from Assyria.",
+    "refs": [
+     "Ephesians 2:14",
+     "Isaiah 9:6-7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Seven shepherds and eight",
+    "body": "Seven shepherds, and eight leaders (5:5) uses the same number pattern as Amos's three and four: more than enough. The land of Nimrod (5:6) is Assyria, after the legendary founder of Nineveh and other Mesopotamian cities.",
+    "refs": [
+     "Genesis 10:8-11",
+     "Amos 1:3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Dew and a lion",
+    "body": "The remnant of Jacob among the nations will be like dew from Yahweh (5:7) and like a lion among sheep (5:8). One image is gentle blessing, the other overwhelming strength. Both depend on God, not on human effort: the dew does not wait for man.",
+    "refs": [
+     "Hosea 14:5",
+     "Genesis 49:9"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Cutting off horses",
+    "body": "In that day God will cut off horses, chariots, fortresses, sorcery and idols (5:10-14). These were the things Judah trusted for security. Why would removing them be part of salvation? Isaiah makes a similar connection between horses, idols and trust.",
+    "refs": [
+     "Isaiah 31:1",
+     "Deuteronomy 17:16",
+     "Psalms 20:7"
+    ]
+   }
+  ]
+ },
+ "6": {
+  "summary": "Yahweh brings a lawsuit against his people before the mountains, recalling his saving acts; a worshipper asks what offering would please God, and is told to act justly, love mercy and walk humbly; then God condemns cheating and violence in the city.",
+  "lookfor": "Notice God's question in 6:3, the escalating offers in 6:6-7, and the answer in 6:8.",
+  "names": [
+   {
+    "name": "Miriam",
+    "kind": "person",
+    "gloss": "Sister of Moses and Aaron, a prophet who led Israel in song after the exodus."
+   },
+   {
+    "name": "Balak",
+    "kind": "person",
+    "gloss": "King of Moab who hired Balaam to curse Israel."
+   },
+   {
+    "name": "Balaam",
+    "kind": "person",
+    "gloss": "A foreign seer who was hired to curse Israel but blessed it instead."
+   },
+   {
+    "name": "Shittim",
+    "kind": "place",
+    "gloss": "Israel's last camp east of the Jordan before crossing into Canaan."
+   },
+   {
+    "name": "Gilgal",
+    "kind": "place",
+    "gloss": "Israel's first camp west of the Jordan, near Jericho."
+   },
+   {
+    "name": "Omri",
+    "kind": "person",
+    "gloss": "King of Israel in the 9th century BC, founder of Samaria and father of Ahab."
+   },
+   {
+    "name": "Ahab",
+    "kind": "person",
+    "gloss": "Omri's son, notorious for Baal worship and for seizing Naboth's vineyard."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "A covenant lawsuit",
+    "body": "God calls the mountains and the foundations of the earth as witnesses to his case against Israel (6:1-2). The setting resembles a treaty dispute, in which the gods or the natural world witnessed covenants. Deuteronomy called heaven and earth as witnesses to Israel's covenant.",
+    "refs": [
+     "Deuteronomy 32:1",
+     "Isaiah 1:2",
+     "Hosea 4:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "What have I done to you?",
+    "body": "God's complaint is surprisingly vulnerable: My people, what have I done to you? How have I burdened you? Answer me! (6:3). In Christian worship these words form the Reproaches, sung on Good Friday as if spoken from the cross.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Moses, Aaron and Miriam",
+    "body": "God reminds Israel of the exodus and that he sent Moses, Aaron and Miriam to lead them (6:4). Miriam's mention alongside her brothers is unusual and honours her role. From Shittim to Gilgal (6:5) covers the crossing of the Jordan into the land.",
+    "refs": [
+     "Exodus 15:20-21",
+     "Numbers 22:1-6",
+     "Joshua 3:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Rising offers",
+    "body": "The worshipper's questions escalate: calves, thousands of rams, rivers of oil, and finally his own firstborn child (6:6-7). Child sacrifice was practised in Judah in this period, including by King Ahaz. The list shows religion trying to buy God off.",
+    "refs": [
+     "2 Kings 16:3",
+     "2 Kings 21:6",
+     "Jeremiah 7:31"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Justice, mercy, humility",
+    "body": "To act justly, to love mercy, and to walk humbly with your God (6:8). Justice, mishpat, is fair treatment of others; mercy is hesed, loyal covenant love; and walking humbly may mean walking carefully or attentively with God. Rabbinic tradition said Micah summed up the commandments in these three.",
+    "refs": [
+     "Deuteronomy 10:12-13",
+     "Hosea 6:6",
+     "Matthew 23:23"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "He has shown you",
+    "body": "He has shown you, O man, what is good (6:8). The answer is not new; God had already made it known in the law and through the prophets. The problem was not ignorance but refusal.",
+    "refs": [
+     "Deuteronomy 30:11-14"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Dishonest weights",
+    "body": "The short ephah and deceitful weights (6:10-11) were ways merchants cheated the poor. Excavations in Judah have uncovered many stone weights inscribed with their value, and they do not always match. The law required honest scales.",
+    "refs": [
+     "Leviticus 19:35-36",
+     "Amos 8:5",
+     "Proverbs 20:23"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The statutes of Omri",
+    "body": "Judah keeps the statutes of Omri and the works of Ahab's house (6:16), the northern dynasty remembered for Baal worship and for seizing Naboth's vineyard. Judah is not just copying idolatry but injustice. What would it mean to follow God's commands while living by another set of rules?",
+    "refs": [
+     "1 Kings 16:25-33",
+     "1 Kings 21:1-16"
+    ]
+   }
+  ]
+ },
+ "7": {
+  "summary": "Micah laments a society where no one can be trusted, then turns to wait for God, confesses sin in Zion's name, and ends with praise of a God like no other, who delights in mercy and throws sins into the sea.",
+  "lookfor": "Notice the shift at 7:7 from lament to hope, Zion's confidence despite her sin, and the question that opens 7:18.",
+  "names": [
+   {
+    "name": "Bashan",
+    "kind": "place",
+    "gloss": "Rich grazing land east of the Sea of Galilee."
+   },
+   {
+    "name": "Gilead",
+    "kind": "place",
+    "gloss": "Hill country east of the Jordan, famed for pasture."
+   },
+   {
+    "name": "Abraham",
+    "kind": "person",
+    "gloss": "Israel's founding ancestor, to whom God made his promises."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "No grapes left",
+    "body": "Micah feels like someone searching a vineyard after harvest and finding no fruit (7:1). The fruit he wants is godly people, but the upright have vanished (7:2). The image recalls Isaiah's song of the vineyard, which produced wild grapes.",
+    "refs": [
+     "Isaiah 5:1-7",
+     "Psalms 12:1"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Enemies at home",
+    "body": "The son dishonors the father, the daughter rises up against her mother ... a man's enemies are the men of his own house (7:6). Jesus quotes this verse when warning that following him may divide families.",
+    "refs": [
+     "Matthew 10:35-36",
+     "Luke 12:53"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "But as for me",
+    "body": "But as for me, I will look to Yahweh (7:7) is the hinge of the chapter. Surrounded by betrayal, the prophet turns to wait for God. The rest of the book is hope and praise.",
+    "refs": [
+     "Psalms 130:5-6",
+     "Habakkuk 2:1"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "When I fall, I will arise",
+    "body": "Zion speaks to her enemy: When I fall, I will arise. When I sit in darkness, Yahweh will be a light to me (7:8). She accepts God's discipline because she has sinned (7:9) but trusts that God will plead her case. Confession and hope go together.",
+    "refs": [
+     "Psalms 27:1",
+     "Isaiah 9:2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Shepherd your people",
+    "body": "The prophet prays: Shepherd your people with your staff ... in Bashan and Gilead, as in the days of old (7:14). Bashan and Gilead were lost to Assyria in 732 BC. The prayer asks for the old pastures to be restored.",
+    "refs": [
+     "Psalms 23:1-4",
+     "2 Kings 15:29"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Who is a God like you?",
+    "body": "Who is a God like you, who pardons iniquity? (7:18) plays on Micah's own name, which means who is like Yahweh? The book ends by answering its prophet's name. The same question was sung by Moses after the Red Sea.",
+    "refs": [
+     "Exodus 15:11",
+     "Micah 1:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Tashlich",
+    "body": "You will cast all their sins into the depths of the sea (7:19). On Rosh Hashanah, the Jewish New Year, many Jews go to a river or sea and recite these verses while symbolically casting their sins into the water. The custom, called Tashlich, takes its name from the verb cast in this verse.",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "As you have sworn",
+    "body": "The book ends with God's faithfulness to Jacob and mercy to Abraham, as sworn to the fathers (7:20). Zechariah's song at John the Baptist's birth and Mary's song both recall God's mercy promised to Abraham. Micah's hope rests on God's oldest promises.",
+    "refs": [
+     "Genesis 22:16-18",
+     "Luke 1:54-55",
+     "Luke 1:72-73"
+    ]
+   }
+  ]
+ },
+ "intro": {
+  "who": "Micah of Moresheth, a country town in the Judean lowlands, a younger contemporary of Isaiah. Many scholars think chapters 1–3 come mainly from Micah himself and that the hopeful passages in 4–7 were shaped or added by later editors; others defend the unity of the book.",
+  "when": "He prophesied under Jotham, Ahaz and Hezekiah of Judah, roughly 740 to 700 BC, through the fall of Samaria in 722 BC and the Assyrian invasion of Judah in 701 BC.",
+  "why": "It condemns the powerful in Samaria and Jerusalem who seize land, take bribes and silence true prophets, announces judgment even on Zion, and holds out hope of a ruler from Bethlehem, peace among the nations, and a God who delights in forgiving.",
+  "outline": [
+   {
+    "chapters": "1–2",
+    "title": "Judgment on Samaria and Judah"
+   },
+   {
+    "chapters": "3",
+    "title": "Corrupt leaders, Zion plowed"
+   },
+   {
+    "chapters": "4–5",
+    "title": "Zion exalted, Bethlehem's ruler"
+   },
+   {
+    "chapters": "6",
+    "title": "Yahweh's case against Israel"
+   },
+   {
+    "chapters": "7",
+    "title": "Who is a God like you?"
+   }
+  ],
+  "verse": "Micah 6:8"
+ }
+}
