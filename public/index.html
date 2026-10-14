@@ -917,15 +917,17 @@ function reminderHTML(){
     ${RM.at?`<p><button class=link-btn onclick=remindOff()>Turn off reminders</button></p>`:''}`}</section>`;
 }
 const b64u=s=>Uint8Array.from(atob(s.replace(/-/g,'+').replace(/_/g,'/')),c=>c.charCodeAt(0));
-async function remindOn(){
-  const at=rmt.value||'08:00',note=document.getElementById('rm-note');note.textContent='Turning on…';
+async function remindOn(){ // three steps, each with its own message when it fails
+  const at=rmt.value||'08:00',note=document.getElementById('rm-note');let step='permission';note.textContent='Turning on…';
   try{
     if(await Notification.requestPermission()!=='granted')throw 'denied';
-    const reg=await navigator.serviceWorker.ready,sub=await reg.pushManager.getSubscription()||await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64u(VAPID)}),k=sub.toJSON().keys;
-    await db('push_subscriptions',{user_id:AU.id,endpoint:sub.endpoint,p256dh:k.p256dh,auth:k.auth},'resolution=ignore-duplicates,return=minimal');
+    step='subscribe';const reg=await navigator.serviceWorker.ready,sub=await reg.pushManager.getSubscription()||await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64u(VAPID)}),k=sub.toJSON().keys;
+    step='save';await db('push_subscriptions',{user_id:AU.id,endpoint:sub.endpoint,p256dh:k.p256dh,auth:k.auth},'resolution=ignore-duplicates,return=minimal');
     await db('profiles',{user_id:AU.id,tz:tz(),remind_at:at},'resolution=merge-duplicates,return=minimal');
     RM={at,endpoint:sub.endpoint};keepRM();render();
-  }catch(e){note.textContent=e==='denied'?"Notifications are blocked for Tolle. Allow them in your phone's settings for this app, then try again.":"Couldn't turn on reminders. Check your connection and try again."}
+  }catch(e){note.textContent=e==='denied'?"Notifications are blocked for Tolle. Allow them in your phone's settings for this app, then try again."
+    :step==='subscribe'?`This browser couldn't sign up for notifications (${e?.name||e}). In Brave, turn on Settings → Privacy and security → "Use Google services for push messaging", or open Tolle in Chrome.`
+    :`Couldn't save the reminder to your account (${e}). Check your connection and try again.`}
 }
 async function remindOff(){
   const note=document.getElementById('rm-note');
