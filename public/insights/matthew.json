@@ -1,0 +1,2793 @@
+{
+ "1": {
+  "summary": "Matthew opens with Jesus' family line from Abraham through David and the exile to Joseph, then tells how Joseph learns that Mary's child is from the Holy Spirit and takes her as his wife.",
+  "lookfor": "Notice the four women named in the family line besides Mary, the three groups of fourteen, and the two names given to the child.",
+  "names": [
+   {
+    "name": "Tamar",
+    "kind": "person",
+    "gloss": "Judah's daughter-in-law, mother of Perez and Zerah."
+   },
+   {
+    "name": "Rahab",
+    "kind": "person",
+    "gloss": "The woman of Jericho who sheltered Israel's spies."
+   },
+   {
+    "name": "Ruth",
+    "kind": "person",
+    "gloss": "A Moabite widow, great-grandmother of David."
+   },
+   {
+    "name": "Uriah",
+    "kind": "person",
+    "gloss": "Bathsheba's first husband, killed on David's orders."
+   },
+   {
+    "name": "Jechoniah",
+    "kind": "person",
+    "gloss": "The king of Judah taken into exile in Babylon."
+   },
+   {
+    "name": "Zerubbabel",
+    "kind": "person",
+    "gloss": "A descendant of David who led exiles home from Babylon."
+   },
+   {
+    "name": "Joseph",
+    "kind": "person",
+    "gloss": "A descendant of David, engaged to Mary."
+   }
+  ],
+  "skim": {
+   "advice": "Skim the names in verses 2 to 16, watching for the women and the turning points at David and the exile, then read the birth story closely.",
+   "key": [
+    1,
+    17,
+    21,
+    23
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "A family tree first",
+    "body": "Matthew begins with \"the son of David, the son of Abraham\" (1:1). For Jewish readers, descent from David mattered for any claim to be the Messiah. Abraham was the father of the nation, through whom all nations were promised blessing.",
+    "refs": [
+     "Genesis 12:3",
+     "2 Samuel 7:12-16"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Biblos geneseos",
+    "body": "The opening words, \"The book of the genealogy\" (1:1), translate the Greek biblos geneseos. The Greek Old Testament uses the same phrase in Genesis for the generations of heaven and earth and of Adam. Many readers hear Matthew announcing a new beginning.",
+    "refs": [
+     "Genesis 2:4",
+     "Genesis 5:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Four unexpected women",
+    "body": "Besides Mary, the list names Tamar, Rahab, Ruth, and \"her who had been Uriah's wife\" (1:3, 1:5, 1:6). Each has an irregular or scandal-touched story, and several were foreigners. Interpreters suggest Matthew is preparing readers for Mary's unusual pregnancy and for a Messiah who welcomes Gentiles.",
+    "refs": [
+     "Genesis 38:6-30",
+     "Joshua 2:1",
+     "Ruth 4:13",
+     "2 Samuel 11:3"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Three fourteens",
+    "body": "Matthew arranges the generations into three groups of fourteen (1:17), leaving out several kings of Judah, as ancient genealogies often did. Many note that the Hebrew letters of David's name add up to fourteen. The pattern presents history moving by design toward the Messiah.",
+    "refs": [
+     "1 Chronicles 3:10-12"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Engaged yet called husband",
+    "body": "Jewish betrothal was a binding agreement that only divorce could end, though the couple did not yet live together (1:18). That is why Joseph is called her husband and plans to \"put her away secretly\" (1:19). As a righteous man he chooses a quiet divorce instead of public shame.",
+    "refs": [
+     "Deuteronomy 22:23-24"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Immanuel",
+    "body": "Matthew cites Isaiah: \"Behold, the virgin shall be with child\" (1:23). Isaiah's Hebrew word almah means a young woman, while the Greek translation Matthew follows has parthenos, virgin. Jewish readers usually see the sign fulfilled in Isaiah's day; Christians see its full meaning in Jesus, God with us, and Matthew ends with Jesus promising to be with his people always.",
+    "refs": [
+     "Isaiah 7:14",
+     "Matthew 28:20"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The name Jesus",
+    "body": "Jesus is the Greek form of Yeshua, or Joshua, meaning Yahweh saves. The angel explains the name: \"for it is he who shall save his people from their sins\" (1:21). The first Joshua led Israel into the promised land.",
+    "refs": [
+     "Acts 4:12",
+     "Joshua 1:1-2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Until she gave birth",
+    "body": "Joseph \"didn't know her sexually until she had given birth to her firstborn son\" (1:25). Catholic and Orthodox Christians hold that Mary remained a virgin, and read until as saying nothing about afterwards. Many Protestants take it to mean that Joseph and Mary later had a normal marriage.",
+    "refs": [
+     "Luke 2:7"
+    ]
+   }
+  ]
+ },
+ "2": {
+  "summary": "Wise men from the east follow a star to worship the newborn king in Bethlehem; Herod tries to kill the child, Joseph takes his family to Egypt, and they later settle in Nazareth.",
+  "lookfor": "Notice the contrast between the wise men and Herod, the dreams that guide Joseph, and the Old Testament verses Matthew quotes.",
+  "names": [
+   {
+    "name": "Bethlehem",
+    "kind": "place",
+    "gloss": "David's home town, a few miles south of Jerusalem."
+   },
+   {
+    "name": "Herod",
+    "kind": "person",
+    "gloss": "Herod the Great, Rome's client king of Judea."
+   },
+   {
+    "name": "Egypt",
+    "kind": "place",
+    "gloss": "A common refuge for Jews fleeing danger."
+   },
+   {
+    "name": "Ramah",
+    "kind": "place",
+    "gloss": "A town north of Jerusalem linked with Rachel."
+   },
+   {
+    "name": "Rachel",
+    "kind": "person",
+    "gloss": "Jacob's wife, mother of Joseph and Benjamin."
+   },
+   {
+    "name": "Archelaus",
+    "kind": "person",
+    "gloss": "Herod's son, a harsh ruler of Judea."
+   },
+   {
+    "name": "Nazareth",
+    "kind": "place",
+    "gloss": "A small village in Galilee."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Wise men, or magi",
+    "body": "The wise men are magoi in Greek, a word for Persian priestly scholars known for reading dreams and the stars. Matthew never says there were three or that they were kings. Those traditions grew from the three gifts and from psalms about kings bringing tribute.",
+    "refs": [
+     "Psalms 72:10-11",
+     "Isaiah 60:3-6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Herod the Great",
+    "body": "Herod ruled Judea for Rome from 37 to 4 BC, so Jesus was born before 4 BC. He was a great builder, including the rebuilt Temple, and notorious for killing family members he suspected of plotting. The killing at Bethlehem (2:16) is not recorded elsewhere, but it fits his character, and Bethlehem was a small village.",
+    "refs": [
+     "Luke 1:5"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A troubled Jerusalem",
+    "body": "Herod \"was troubled, and all Jerusalem with him\" (2:3). The scholars know from Micah where the Messiah will be born (2:5-6) but do not go to see. Foreign seekers worship while the city's leaders stay away, a pattern the rest of the Gospel repeats.",
+    "refs": [
+     "Micah 5:2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The star",
+    "body": "The star goes before them and stops over the house (2:9). Proposals include a conjunction of Jupiter and Saturn in 7 BC, a comet, or a miraculous light. Matthew's interest is its meaning: Balaam had foreseen a star coming out of Jacob.",
+    "refs": [
+     "Numbers 24:17"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Out of Egypt",
+    "body": "Matthew quotes Hosea: \"Out of Egypt I called my son\" (2:15). Hosea was speaking of Israel's exodus. Matthew sees Jesus reliving Israel's story, going down to Egypt, coming out, and later being tested in the wilderness.",
+    "refs": [
+     "Hosea 11:1",
+     "Exodus 4:22"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Rachel weeping",
+    "body": "Jeremiah pictured Rachel weeping at Ramah as exiles were led away (2:18), and tradition placed her tomb near Bethlehem. Matthew applies the lament to Bethlehem's mothers. Jeremiah's next lines promise that her children will come back.",
+    "refs": [
+     "Jeremiah 31:15-17",
+     "Genesis 35:19"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Called a Nazarene",
+    "body": "\"He will be called a Nazarene\" (2:23) quotes no single prophet. Many suggest a wordplay on the Hebrew netzer, the branch from Jesse's root, or on the Nazirite vow. Nazareth was an obscure village, so the name also hints at a lowly Messiah.",
+    "refs": [
+     "Isaiah 11:1",
+     "John 1:46"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Three responses",
+    "body": "The wise men travel far and kneel, Herod plots, and the scholars do nothing. Which of these is closest to your own response to Jesus?",
+    "refs": []
+   }
+  ]
+ },
+ "3": {
+  "summary": "John the Baptizer preaches repentance in the wilderness and baptizes in the Jordan, warns the religious leaders, and baptizes Jesus, on whom the Spirit descends as a voice from heaven speaks.",
+  "lookfor": "Notice John's clothing and food, his warning to the Pharisees and Sadducees, and the three persons present at Jesus' baptism.",
+  "names": [
+   {
+    "name": "Judea",
+    "kind": "place",
+    "gloss": "The southern region around Jerusalem."
+   },
+   {
+    "name": "Pharisees",
+    "kind": "group",
+    "gloss": "A popular movement devoted to careful keeping of the law."
+   },
+   {
+    "name": "Sadducees",
+    "kind": "group",
+    "gloss": "A party linked with the priestly aristocracy."
+   },
+   {
+    "name": "Jordan",
+    "kind": "place",
+    "gloss": "The river running from Galilee to the Dead Sea."
+   },
+   {
+    "name": "Galilee",
+    "kind": "place",
+    "gloss": "The northern region where Jesus grew up."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Kingdom of Heaven",
+    "body": "Matthew usually writes Kingdom of Heaven where Mark and Luke have Kingdom of God (3:2). Many think he follows the Jewish custom of reverently avoiding God's name. It means God's reign breaking into the world, not only a place after death.",
+    "refs": [
+     "Mark 1:15",
+     "Daniel 2:44"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Camel's hair and locusts",
+    "body": "John's clothing and diet (3:4) are those of the desert poor. His leather belt recalls Elijah, who was expected to return before the day of the Lord. Locusts were a food the law allowed.",
+    "refs": [
+     "2 Kings 1:8",
+     "Leviticus 11:22",
+     "Malachi 4:5"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The voice in the wilderness",
+    "body": "Isaiah 40 announced a voice preparing the way for God's return to his people. Matthew applies it to John (3:3), so the Lord whose way is prepared is Jesus. The community of the Dead Sea Scrolls used the same verse to explain its own life in the desert.",
+    "refs": [
+     "Isaiah 40:3",
+     "John 1:23"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Pharisees and Sadducees",
+    "body": "The Pharisees were a lay movement devoted to the law and its oral traditions; the Sadducees were mostly priestly aristocrats who accepted only the written law and denied the resurrection. They usually disagreed, so John's warning to both together (3:7) is striking.",
+    "refs": [
+     "Acts 23:6-8"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Children from stones",
+    "body": "John warns against saying, \"We have Abraham for our father\" (3:9). Descent alone does not make someone God's people. There may be a wordplay in Hebrew or Aramaic between banim, children, and abanim, stones.",
+    "refs": [
+     "John 8:39",
+     "Romans 4:16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Why was Jesus baptized?",
+    "body": "John protests (3:14), and Jesus answers that this is \"the fitting way for us to fulfill all righteousness\" (3:15). Jesus has no sin to confess, but he stands with sinners and begins his work in obedience. Early church writers said his baptism made the waters holy for Christian baptism.",
+    "refs": [
+     "2 Corinthians 5:21",
+     "Hebrews 4:15"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Father, Son and Spirit",
+    "body": "The Son stands in the water, the Spirit descends like a dove, and the Father speaks (3:16-17). The voice echoes the royal son of Psalm 2 and Isaiah's servant in whom God delights. Christians have long seen here one of the clearest pictures of the Trinity.",
+    "refs": [
+     "Psalms 2:7",
+     "Isaiah 42:1",
+     "Matthew 28:19"
+    ]
+   }
+  ]
+ },
+ "4": {
+  "summary": "Jesus is tempted by the devil in the wilderness and answers with Scripture; he then moves to Capernaum, calls four fishermen, and begins teaching and healing throughout Galilee.",
+  "lookfor": "Notice how each temptation begins, where Jesus' answers come from, and how quickly the fishermen respond.",
+  "names": [
+   {
+    "name": "Capernaum",
+    "kind": "place",
+    "gloss": "A fishing town on the north shore of the Sea of Galilee."
+   },
+   {
+    "name": "Zebulun",
+    "kind": "place",
+    "gloss": "Tribal territory in Galilee."
+   },
+   {
+    "name": "Naphtali",
+    "kind": "place",
+    "gloss": "Tribal territory beside the Sea of Galilee."
+   },
+   {
+    "name": "Andrew",
+    "kind": "person",
+    "gloss": "A fisherman, Simon Peter's brother."
+   },
+   {
+    "name": "Zebedee",
+    "kind": "person",
+    "gloss": "A fisherman, father of James and John."
+   },
+   {
+    "name": "Decapolis",
+    "kind": "place",
+    "gloss": "Ten Greek-speaking cities, mostly east of the Jordan."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Forty days in the wilderness",
+    "body": "Israel was tested forty years in the wilderness and often failed; Jesus is tested forty days and stays faithful (4:2). All three of his answers come from Deuteronomy 6–8, Moses' sermon on those years. Jesus succeeds where Israel stumbled.",
+    "refs": [
+     "Deuteronomy 8:2-3",
+     "Deuteronomy 6:13",
+     "Deuteronomy 6:16"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "If you are the Son",
+    "body": "The first two temptations begin \"If you are the Son of God\" (4:3, 4:6), just after the Father called him his Son. The tests are about using his sonship for himself or forcing God's hand. The third offers the kingdoms without the cross (4:8-9).",
+    "refs": [
+     "Matthew 3:17",
+     "Matthew 27:40"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The devil quotes Scripture",
+    "body": "The devil quotes Psalm 91 (4:6), twisting a promise of protection into a dare. Jesus answers with Scripture again (4:7). Using the Bible is not the same as obeying it.",
+    "refs": [
+     "Psalms 91:11-12"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Satan and devil",
+    "body": "Satan is Hebrew for adversary or accuser, and the Greek diabolos, devil, means slanderer. Jesus says, \"Get behind me, Satan!\" (4:10), words he later speaks to Peter when Peter rejects the cross.",
+    "refs": [
+     "Matthew 16:23",
+     "Job 1:6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Galilee of the Gentiles",
+    "body": "Galilee had a mixed population and was looked down on by some in Judea. Isaiah promised light to this region, the first to fall to Assyria (4:15-16). In Capernaum, remains of a later synagogue and a house venerated as Peter's can still be seen.",
+    "refs": [
+     "Isaiah 9:1-2",
+     "2 Kings 15:29"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Fishers for men",
+    "body": "Jesus calls fishermen in the language of their trade (4:19), and they leave nets, boat and father \"immediately\" (4:20, 4:22). A rabbi's students usually chose their teacher; here the teacher chooses them.",
+    "refs": [
+     "Jeremiah 16:16",
+     "Mark 1:16-20"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Shortcuts",
+    "body": "Each temptation offered something good by a shortcut: bread, safety, a kingdom. Which shortcut tempts you most?",
+    "refs": [
+     "Hebrews 4:15"
+    ]
+   }
+  ]
+ },
+ "5": {
+  "summary": "On a mountain Jesus begins the Sermon on the Mount with the Beatitudes, calls his followers salt and light, and shows how his teaching fulfils the law by reaching the heart.",
+  "lookfor": "Notice who is called blessed, the six sayings that begin \"You have heard\", and what Jesus says about the law.",
+  "names": [
+   {
+    "name": "Gehenna",
+    "kind": "place",
+    "gloss": "The valley of Hinnom by Jerusalem, a picture of final judgment."
+   },
+   {
+    "name": "Jerusalem",
+    "kind": "place",
+    "gloss": "The city of the great King."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "A new Moses on the mountain",
+    "body": "Jesus goes \"up onto the mountain\" and sits to teach (5:1), as Moses received the law on Sinai. Matthew gathers Jesus' teaching into five long speeches, which many link with the five books of Moses. Jesus says, \"I didn't come to destroy, but to fulfill\" (5:17).",
+    "refs": [
+     "Exodus 19:3",
+     "Deuteronomy 18:15"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Blessed",
+    "body": "The Greek makarios means happy or fortunate in a deep sense, the word used at the start of Psalm 1. The Beatitudes do not command people to be poor or to mourn. They announce that God's kingdom reverses the fortunes of such people; Luke's shorter version adds woes.",
+    "refs": [
+     "Psalms 1:1",
+     "Luke 6:20-26"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Echoes of Isaiah",
+    "body": "\"Blessed are the poor in spirit\" (5:3) describes people who know their need before God. Isaiah spoke of good news for the poor and comfort for those who mourn, and the promise that the gentle \"shall inherit the earth\" (5:5) comes from Psalm 37.",
+    "refs": [
+     "Isaiah 61:1-3",
+     "Psalms 37:11"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Salt and light",
+    "body": "Salt preserved and flavoured food, and impure salt from the Dead Sea area could lose its taste (5:13). Homes were lit by small clay oil lamps set on a stand (5:15). Jesus' followers are meant to be useful and visible, not hidden.",
+    "refs": [
+     "Mark 9:50"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Raca and Gehenna",
+    "body": "Raca is an Aramaic insult meaning roughly empty-head (5:22). Gehenna, the valley of Hinnom where children had once been sacrificed, became a name for the place of final judgment. Contempt is treated as the seed of murder.",
+    "refs": [
+     "Jeremiah 7:31",
+     "2 Kings 23:10"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "An eye for an eye",
+    "body": "The law's \"eye for an eye\" limited revenge to fair penalties set by judges (5:38). Jesus calls his followers further, to give up retaliation (5:39-41). A Roman soldier could legally make a civilian carry his pack one mile; Jesus says go two.",
+    "refs": [
+     "Exodus 21:23-25",
+     "Romans 12:17-21"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "How to read the Sermon",
+    "body": "The six sayings of the form You have heard ... but I tell you (5:21-48) press the law to the heart rather than abolish it. Christians have read the Sermon as the standard for all believers, as a mirror showing our need of grace, a strong Lutheran emphasis, or, among Anabaptists such as the Mennonites, as a literal rule against violence and oaths. Most agree it describes the life of the kingdom, not a ladder for earning it.",
+    "refs": [
+     "Matthew 7:24-27"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Perfect as your Father",
+    "body": "\"Therefore you shall be perfect, just as your Father in heaven is perfect\" (5:48) comes straight after love for enemies, and the word teleios means whole or complete. What would it mean for your love to be complete in that way?",
+    "refs": [
+     "Leviticus 19:2",
+     "Luke 6:36"
+    ]
+   }
+  ]
+ },
+ "6": {
+  "summary": "Jesus warns against religion done for show in giving, prayer and fasting, teaches the Lord's Prayer, and calls his followers to store up treasure in heaven and stop worrying.",
+  "lookfor": "Notice the repeated phrase about being seen, the requests in the prayer, and the birds and lilies.",
+  "names": [
+   {
+    "name": "Gentiles",
+    "kind": "group",
+    "gloss": "Non-Jewish peoples."
+   },
+   {
+    "name": "Solomon",
+    "kind": "person",
+    "gloss": "David's son, Israel's richest king."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Seen by people",
+    "body": "Giving, prayer and fasting were the three great acts of Jewish devotion (6:1-18). Jesus does not criticise them but the wish to be seen. The repeated phrase \"your Father who sees in secret\" (6:4, 6:6, 6:18) points to a different audience.",
+    "refs": [
+     "Matthew 23:5"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Hypocrites",
+    "body": "The Greek hypokrites meant a stage actor who wore a mask. Jesus uses it for people performing their religion for an audience (6:2, 6:5, 6:16). Sounding a trumpet is probably a vivid picture, not a known practice.",
+    "refs": [
+     "Isaiah 29:13"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The Lord's Prayer",
+    "body": "The prayer (6:9-13) has close parallels in Jewish prayers such as the Kaddish, which also asks that God's name be made holy and his kingdom come. Luke gives a shorter form. Its first request, \"may your name be kept holy\" (6:9), echoes Ezekiel's promise that God will show his name holy.",
+    "refs": [
+     "Luke 11:2-4",
+     "Ezekiel 36:23"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Debts",
+    "body": "Matthew has \"Forgive us our debts\" (6:12), where Luke has sins. In Aramaic one word, hoba, could mean both a debt and a sin. Jesus at once stresses forgiving others (6:14-15).",
+    "refs": [
+     "Luke 11:4",
+     "Matthew 18:21-35"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The closing doxology",
+    "body": "The ending \"For yours is the Kingdom, the power, and the glory forever\" (6:13) is missing from the oldest manuscripts, and many translations put it in a footnote. A shorter form appears in the Didache, an early Christian manual. Catholics pray it separately in the Mass, while Protestants and the Orthodox usually join it to the prayer.",
+    "refs": [
+     "1 Chronicles 29:11"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Moth and rust",
+    "body": "Wealth was often kept as fine clothing, which moths eat, or as goods that could corrode or be stolen by burglars digging through mud-brick walls (6:19). Jesus names wealth as a rival master, using the Aramaic word Mammon (6:24).",
+    "refs": [
+     "James 5:2-3",
+     "Luke 16:13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Birds and lilies",
+    "body": "Anxiety about food and clothes is answered by pointing to the Father who feeds birds and clothes wildflowers (6:26-30). \"But seek first God's Kingdom, and his righteousness\" (6:33). The point is trust and priorities, not carelessness.",
+    "refs": [
+     "Philippians 4:6",
+     "Psalms 147:9"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Where your treasure is",
+    "body": "\"For where your treasure is, there your heart will be also\" (6:21). If someone looked at how you spend your time and money, where would they say your heart is?",
+    "refs": []
+   }
+  ]
+ },
+ "7": {
+  "summary": "Jesus ends the Sermon on the Mount with teaching on judging others, asking God, the narrow gate, false prophets, and the wise and foolish builders.",
+  "lookfor": "Notice the pairs of contrasts: speck and beam, narrow and wide, good and bad fruit, rock and sand.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Speck and beam",
+    "body": "The picture of someone with a beam in his eye removing a speck from another's (7:3-5) is deliberately comic. Jesus does not forbid all judgment, since he soon calls for discernment (7:6, 7:15-20). He forbids condemning others while ignoring oneself.",
+    "refs": [
+     "Romans 2:1",
+     "Luke 6:41-42"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Dogs and pigs",
+    "body": "Dogs were mostly scavengers, and pigs were unclean to Jews (7:6). The saying warns against pressing holy things on those who will only trample them. The Didache, an early Christian manual, applied it to keeping the Lord's Supper for the baptized.",
+    "refs": [
+     "Proverbs 9:7-8"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Keep asking",
+    "body": "The verbs ask, seek and knock (7:7) are present tense in Greek, suggesting ongoing action. The argument is from lesser to greater: if human parents give good gifts, \"how much more\" will the Father (7:11). Luke's version says God gives the Holy Spirit.",
+    "refs": [
+     "Luke 11:9-13"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The Golden Rule",
+    "body": "\"Whatever you desire for men to do to you, you shall also do to them\" (7:12). Rabbi Hillel, a generation earlier, taught a negative form: what is hateful to you, do not do to your neighbour, and that is the whole Torah. Jesus states it positively and calls it the law and the prophets.",
+    "refs": [
+     "Leviticus 19:18",
+     "Romans 13:8-10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Two ways",
+    "body": "City gates were wide for traffic, while a narrow gate was harder to find (7:13-14). Two ways, one to life and one to death, was a familiar Jewish teaching picture. Moses set the same choice before Israel.",
+    "refs": [
+     "Deuteronomy 30:15-19",
+     "Psalms 1:6",
+     "Jeremiah 21:8"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Lord, Lord",
+    "body": "Some who call Jesus Lord, and even prophesy and cast out demons in his name, will hear \"I never knew you\" (7:22-23). The test is doing the Father's will (7:21). Impressive religious works are not proof of faithfulness.",
+    "refs": [
+     "Luke 6:46",
+     "James 2:14"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Rock and sand",
+    "body": "Two houses look the same until the storm (7:24-27). The rock is hearing and doing Jesus' words. In the land of Israel, dry riverbeds could flood suddenly in the winter rains.",
+    "refs": [
+     "Luke 6:47-49",
+     "James 1:22-25"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "With authority",
+    "body": "The crowds were astonished, \"for he taught them with authority, and not like the scribes\" (7:29). Scribes usually supported their teaching by citing earlier teachers. Jesus simply says, I tell you.",
+    "refs": [
+     "Mark 1:22"
+    ]
+   }
+  ]
+ },
+ "8": {
+  "summary": "Coming down from the mountain, Jesus heals a leper, a centurion's servant and Peter's mother-in-law, calms a storm, and frees two demon-possessed men, whose town begs him to leave.",
+  "lookfor": "Notice how Jesus heals each person, who shows faith, and the question the disciples ask after the storm.",
+  "names": [
+   {
+    "name": "Capernaum",
+    "kind": "place",
+    "gloss": "Jesus' base on the Sea of Galilee."
+   },
+   {
+    "name": "Gergesenes",
+    "kind": "group",
+    "gloss": "People of a district on the east shore of the Sea of Galilee."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "He touched him",
+    "body": "Jesus could have healed with a word, but he \"stretched out his hand, and touched him\" (8:3). Touching a leper made a person unclean under the law; here cleanness flows the other way. He then sends the man to the priest as the law required (8:4).",
+    "refs": [
+     "Leviticus 13:45-46",
+     "Leviticus 14:2-4"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A Gentile officer",
+    "body": "A centurion commanded about a hundred soldiers, and this one was a Gentile, probably serving Herod Antipas. A Jew entering a Gentile's home could become ritually unclean, which may be why he says, \"I'm not worthy for you to come under my roof\" (8:8). Catholics echo his words before Communion.",
+    "refs": [
+     "Luke 7:1-10",
+     "Acts 10:28"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "From east and west",
+    "body": "Jesus says many will come \"from the east and the west\" to feast with Abraham, Isaac and Jacob (8:11). The prophets pictured a great banquet for all nations. A Gentile's faith anticipates the mission to all nations at the end of Matthew.",
+    "refs": [
+     "Isaiah 25:6",
+     "Isaiah 49:12",
+     "Matthew 28:19"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "He bore our diseases",
+    "body": "Matthew cites Isaiah 53 for Jesus' healings (8:17). Isaiah's suffering servant carried the griefs of others. Matthew sees this already in Jesus' healing work, not only at the cross.",
+    "refs": [
+     "Isaiah 53:4",
+     "1 Peter 2:24"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Son of Man",
+    "body": "Jesus' favourite title for himself appears here for the first time in Matthew (8:20). In Hebrew and Aramaic it can simply mean a human being, but Daniel saw one like a son of man receive an everlasting kingdom. Jesus holds both together: homeless now, glorious later.",
+    "refs": [
+     "Daniel 7:13-14",
+     "Psalms 8:4"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Let the dead bury their dead",
+    "body": "Burying a father was among the most sacred duties in Judaism. Some think the man's father was still alive and he meant to wait until he died. Either way, Jesus' call outranks the strongest family duty (8:22).",
+    "refs": [
+     "Luke 9:59-60",
+     "1 Kings 19:20"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Lord of wind and sea",
+    "body": "In the Old Testament, stilling the sea is what God does. The disciples ask, \"What kind of man is this, that even the wind and the sea obey him?\" (8:27). Matthew lets the question point toward Jesus' identity.",
+    "refs": [
+     "Psalms 107:28-29",
+     "Psalms 89:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Which shore?",
+    "body": "Manuscripts differ on the place name (8:28): Gadarenes, Gerasenes or Gergesenes, which the WEB follows. Matthew has two possessed men where Mark and Luke tell of one. Gentile pig-herders lived on this side of the lake.",
+    "refs": [
+     "Mark 5:1-20",
+     "Luke 8:26-39"
+    ]
+   }
+  ]
+ },
+ "9": {
+  "summary": "Jesus forgives and heals a paralysed man, calls Matthew the tax collector, answers a question about fasting, raises a ruler's daughter, heals a bleeding woman, two blind men and a mute man, and has compassion on the crowds.",
+  "lookfor": "Notice who objects to what Jesus does, the role of faith in each healing, and how Jesus sees the crowds.",
+  "names": [
+   {
+    "name": "Matthew",
+    "kind": "person",
+    "gloss": "A tax collector called to be a disciple."
+   },
+   {
+    "name": "Pharisees",
+    "kind": "group",
+    "gloss": "Teachers devoted to strict keeping of the law."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Your sins are forgiven",
+    "body": "Jesus tells the paralysed man his sins are forgiven before healing him (9:2). The scribes think, \"This man blasphemes\" (9:3), because only God forgives sins. The healing is given as proof of his authority to forgive (9:6).",
+    "refs": [
+     "Mark 2:7",
+     "Isaiah 43:25"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Tax collectors",
+    "body": "Tax collectors bought the right to collect tolls and often charged extra. Working for Herod Antipas or Rome, they were seen as collaborators and cheats. Calling Matthew, who is Levi in Mark and Luke, and eating with \"tax collectors and sinners\" (9:10-11) scandalised the Pharisees.",
+    "refs": [
+     "Mark 2:14",
+     "Luke 19:7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Mercy, not sacrifice",
+    "body": "Jesus quotes Hosea: \"I desire mercy, and not sacrifice\" (9:13), and he does so again in chapter 12. Hosea's word is hesed, faithful love. Rituals without mercy miss the point of the law.",
+    "refs": [
+     "Hosea 6:6",
+     "Matthew 12:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "New wine, old skins",
+    "body": "New wine still fermenting expands, and old leather skins that had already stretched would split (9:17). Jesus' new work cannot be squeezed into old forms. Fasting showed mourning, but with the bridegroom present it is a time for joy (9:15).",
+    "refs": [
+     "Isaiah 62:5"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The fringe of his garment",
+    "body": "The woman touches \"the fringe of his garment\" (9:20), the tassels the law told Israelites to wear. Her bleeding had made her ritually unclean for twelve years. Jesus calls her \"Daughter\" (9:22).",
+    "refs": [
+     "Numbers 15:38-40",
+     "Leviticus 15:25"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Flute players",
+    "body": "The Mishnah says even a poor man should hire at least two flute players and a wailing woman for his wife's funeral. Their presence (9:23) shows the girl was truly dead. They laugh at Jesus when he says she is sleeping (9:24).",
+    "refs": [
+     "Jeremiah 9:17-18"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Moved with compassion",
+    "body": "The Greek splanchnizomai comes from the word for the inner organs, felt as the seat of emotion (9:36). Jesus sees the crowds \"like sheep without a shepherd\", the words Moses and Ezekiel used of a leaderless people.",
+    "refs": [
+     "Numbers 27:17",
+     "Ezekiel 34:5"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Workers for the harvest",
+    "body": "Jesus tells his disciples to pray for workers (9:38), and in the next chapter he sends them. How might your own prayers be answered through you?",
+    "refs": [
+     "Matthew 10:1"
+    ]
+   }
+  ]
+ },
+ "10": {
+  "summary": "Jesus names the twelve apostles and sends them to the lost sheep of Israel with authority to heal, warning them of persecution and calling for loyalty to him above family.",
+  "lookfor": "Notice who is among the Twelve, what they are told to take and not take, and the reasons Jesus gives not to fear.",
+  "names": [
+   {
+    "name": "Bartholomew",
+    "kind": "person",
+    "gloss": "One of the Twelve, often identified with Nathanael."
+   },
+   {
+    "name": "Alphaeus",
+    "kind": "person",
+    "gloss": "Father of James, one of the Twelve."
+   },
+   {
+    "name": "Lebbaeus",
+    "kind": "person",
+    "gloss": "One of the Twelve, also called Thaddaeus."
+   },
+   {
+    "name": "Thaddaeus",
+    "kind": "person",
+    "gloss": "Another name for Lebbaeus."
+   },
+   {
+    "name": "Judas Iscariot",
+    "kind": "person",
+    "gloss": "The disciple who betrayed Jesus."
+   },
+   {
+    "name": "Samaritans",
+    "kind": "group",
+    "gloss": "People of Samaria, rivals of the Jews."
+   },
+   {
+    "name": "Beelzebul",
+    "kind": "person",
+    "gloss": "A name for the prince of demons."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "Twelve for Israel",
+    "body": "Choosing twelve recalls the twelve tribes and signals the renewal of Israel. The lists in Matthew, Mark, Luke and Acts mostly agree but differ on one name: Thaddaeus here (10:3), Judas son of James in Luke. Many identify them as the same man.",
+    "refs": [
+     "Luke 6:13-16",
+     "Acts 1:13",
+     "Matthew 19:28"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Apostle",
+    "body": "Apostolos means one who is sent, an envoy; Matthew uses the word only here (10:2). In Jewish thought a man's agent, the shaliach, was treated as the man himself. That idea lies behind Jesus' words that whoever receives them receives him (10:40).",
+    "refs": [
+     "John 13:16-20"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Simon the Canaanite",
+    "body": "This does not refer to Canaan: the word comes from the Aramaic qan'ana, zealous, and Luke calls him Simon the Zealot (10:4). Matthew the tax collector, who served the rulers, and a zealot, who may have opposed them, sit in the same band.",
+    "refs": [
+     "Luke 6:15"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Only to Israel?",
+    "body": "Jesus first sends them to \"the lost sheep of the house of Israel\" (10:6), not to Gentiles or Samaritans. This reflects God's order of priority, not a permanent limit. After the resurrection he sends them to all nations.",
+    "refs": [
+     "Matthew 28:19",
+     "Romans 1:16"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Shake off the dust",
+    "body": "Shaking the dust off one's feet (10:14) was a public sign of separation, treating a town as having rejected God's message. Paul and Barnabas did it at Pisidian Antioch. The judgment is left to God (10:15).",
+    "refs": [
+     "Acts 13:51",
+     "Luke 10:10-12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Sparrows for a penny",
+    "body": "The assarion was a small Roman copper coin (10:29). Luke has five sparrows sold for two, as if one were thrown in free. Yet not one falls without the Father, and the disciples are worth more (10:31).",
+    "refs": [
+     "Luke 12:6-7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Not peace but a sword",
+    "body": "Jesus quotes Micah's picture of families divided (10:35-36). He does not aim at division, but loyalty to him will cause it. The early Christians knew this from experience.",
+    "refs": [
+     "Micah 7:6",
+     "Luke 12:51-53"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "A cup of cold water",
+    "body": "The chapter ends with the smallest of acts: a cup of cold water given to a disciple will not lose its reward (10:42). Who near you is waiting for a small kindness?",
+    "refs": [
+     "Matthew 25:40"
+    ]
+   }
+  ]
+ },
+ "11": {
+  "summary": "John the Baptizer, in prison, sends to ask whether Jesus is the one to come; Jesus praises John, rebukes an unresponsive generation and the towns of Galilee, and invites the weary to find rest in him.",
+  "lookfor": "Notice Jesus' answer to John, what he says about John, and the invitation at the end.",
+  "names": [
+   {
+    "name": "Elijah",
+    "kind": "person",
+    "gloss": "The prophet whose return Malachi promised."
+   },
+   {
+    "name": "Chorazin",
+    "kind": "place",
+    "gloss": "A town in the hills above Capernaum."
+   },
+   {
+    "name": "Bethsaida",
+    "kind": "place",
+    "gloss": "A fishing town at the north end of the lake."
+   },
+   {
+    "name": "Tyre",
+    "kind": "place",
+    "gloss": "A Phoenician port city."
+   },
+   {
+    "name": "Sidon",
+    "kind": "place",
+    "gloss": "Another Phoenician port city."
+   },
+   {
+    "name": "Capernaum",
+    "kind": "place",
+    "gloss": "Jesus' base in Galilee."
+   },
+   {
+    "name": "Hades",
+    "kind": "place",
+    "gloss": "The realm of the dead."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "John's question",
+    "body": "John is in prison, put there by Herod Antipas (11:2). The fiery judge he announced has not appeared, so he asks, \"Are you he who comes, or should we look for another?\" (11:3). Jesus answers with the signs Isaiah promised for the age of salvation (11:5).",
+    "refs": [
+     "Matthew 14:3-4",
+     "Isaiah 35:5-6",
+     "Isaiah 61:1"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Elijah who is to come",
+    "body": "Malachi promised that Elijah would come before the great day of the Lord. Jesus says of John, \"this is Elijah, who is to come\" (11:14), meaning John fulfils that role. John himself denied being Elijah in person.",
+    "refs": [
+     "Malachi 4:5",
+     "John 1:21",
+     "Matthew 17:10-13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Greater than John",
+    "body": "No one born of women is greater than John, \"yet he who is least in the Kingdom of Heaven is greater than he\" (11:11). John stood at the threshold. Those who share in the kingdom's arrival see more than he could.",
+    "refs": [
+     "Luke 7:28"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Children in the marketplace",
+    "body": "Jesus compares his generation to children who refuse to join either wedding or funeral games (11:16-17). John's fasting was dismissed as madness and Jesus' feasting as gluttony (11:18-19). Nothing satisfies people determined not to listen.",
+    "refs": [
+     "Luke 7:31-35"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Towns that saw most",
+    "body": "Chorazin, Bethsaida and Capernaum were Jewish towns where Jesus did many miracles (11:21-23). Tyre and Sidon were pagan cities often condemned by the prophets. The ruins of Chorazin, with a later basalt synagogue, still stand in the hills above the lake.",
+    "refs": [
+     "Isaiah 23:1",
+     "Ezekiel 28:2"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "An easy yoke",
+    "body": "A yoke joined animals for work, and Jewish teachers spoke of taking on the yoke of the Torah. Jesus offers his own yoke and says, \"my yoke is easy\" (11:30), using chrestos, which means kind or well-fitting.",
+    "refs": [
+     "Acts 15:10",
+     "1 John 5:3"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Rest for your souls",
+    "body": "\"Come to me, all you who labor and are heavily burdened, and I will give you rest\" (11:28). The promise of rest for your souls echoes Jeremiah. Jesus speaks like Wisdom in Proverbs, who calls people to her table.",
+    "refs": [
+     "Jeremiah 6:16",
+     "Proverbs 9:1-6"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Revealed to infants",
+    "body": "Jesus thanks the Father for hiding these things from the clever and showing them to infants (11:25). What might you only understand by coming to God like a child?",
+    "refs": [
+     "Matthew 18:3"
+    ]
+   }
+  ]
+ },
+ "12": {
+  "summary": "Jesus defends his disciples for picking grain on the Sabbath and heals on the Sabbath; the Pharisees plot against him and accuse him of working by Beelzebul, and he speaks of the sign of Jonah and of his true family.",
+  "lookfor": "Notice the three things Jesus says he is greater than, his reply about Beelzebul, and who he calls his family.",
+  "names": [
+   {
+    "name": "Pharisees",
+    "kind": "group",
+    "gloss": "Teachers devoted to strict keeping of the law."
+   },
+   {
+    "name": "Beelzebul",
+    "kind": "person",
+    "gloss": "A name for the prince of demons."
+   },
+   {
+    "name": "Jonah",
+    "kind": "person",
+    "gloss": "The prophet who preached to Nineveh."
+   },
+   {
+    "name": "Nineveh",
+    "kind": "place",
+    "gloss": "The Assyrian capital that repented at Jonah's preaching."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Picking grain on the Sabbath",
+    "body": "The law let hungry travellers pick grain by hand from a neighbour's field (12:1). The Pharisees objected because plucking and rubbing grain counted as reaping, forbidden work on the Sabbath. Jesus answers from Scripture, citing David and the priests (12:3-5).",
+    "refs": [
+     "Deuteronomy 23:25",
+     "Exodus 20:8-10",
+     "1 Samuel 21:1-6"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Greater than the temple",
+    "body": "Jesus claims \"one greater than the temple is here\" (12:6), and later someone greater than Jonah and Solomon (12:41-42). Temple, prophet and king were Israel's great institutions. Jesus presents himself as the fulfilment of all three.",
+    "refs": [
+     "John 2:19-21"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Lord of the Sabbath",
+    "body": "Jesus does not abolish the Sabbath but claims authority over it (12:8). He argues from the ordinary practice of rescuing a sheep from a pit (12:11-12). Mark adds that the Sabbath was made for people.",
+    "refs": [
+     "Mark 2:27-28"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The gentle servant",
+    "body": "Matthew quotes Isaiah's servant song at length (12:18-21), including \"He won't break a bruised reed.\" It explains why Jesus withdraws and tells people not to publicise him. The servant brings justice to the nations quietly.",
+    "refs": [
+     "Isaiah 42:1-4"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Beelzebul",
+    "body": "Beelzebul, probably meaning lord of the house or prince, was a name for the ruler of demons (12:24). Jesus plays on it with the strong man's house (12:29): he has come to tie up the strong man and plunder his goods.",
+    "refs": [
+     "2 Kings 1:2",
+     "Isaiah 49:24-25"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The unforgivable sin",
+    "body": "Blasphemy against the Spirit (12:31-32) has troubled many readers. In context it means calling the Spirit's work in Jesus the work of Satan, a settled rejection of God's saving work. Pastors often note that those who fear they have committed it show by their concern that they have not.",
+    "refs": [
+     "Mark 3:28-30",
+     "Hebrews 6:4-6"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The sign of Jonah",
+    "body": "Jonah's three days in the fish point to Jesus' three days \"in the heart of the earth\" (12:40). Jewish reckoning counted part of a day as a day, so Friday afternoon to Sunday morning could be called three days.",
+    "refs": [
+     "Jonah 1:17",
+     "Matthew 16:4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "His mother and brothers",
+    "body": "Jesus' mother and brothers come looking for him (12:46). Catholic tradition understands the brothers as relatives such as cousins, Orthodox tradition as Joseph's sons by an earlier marriage, and most Protestants as later children of Mary and Joseph. Jesus' point is that whoever does the Father's will is his family (12:50).",
+    "refs": [
+     "Matthew 13:55",
+     "Mark 3:31-35"
+    ]
+   }
+  ]
+ },
+ "13": {
+  "summary": "Jesus teaches the crowds in parables from a boat, explains the sower and the weeds to his disciples, adds parables of the mustard seed, yeast, treasure, pearl and net, and is rejected in his home town.",
+  "lookfor": "Notice the different soils, why Jesus says he speaks in parables, and how small and hidden things grow great.",
+  "names": [
+   {
+    "name": "James",
+    "kind": "person",
+    "gloss": "One of Jesus' brothers, later leader of the church in Jerusalem."
+   },
+   {
+    "name": "Joses",
+    "kind": "person",
+    "gloss": "One of Jesus' brothers."
+   },
+   {
+    "name": "Simon",
+    "kind": "person",
+    "gloss": "One of Jesus' brothers."
+   },
+   {
+    "name": "Judas",
+    "kind": "person",
+    "gloss": "One of Jesus' brothers, traditionally linked with the letter of Jude."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Parable",
+    "body": "The Greek parabole stands for the Hebrew mashal, which covers proverbs, riddles and story comparisons. Jesus' parables take ordinary scenes of farming, baking and fishing and give them an unexpected twist. They invite hearers to think and decide.",
+    "refs": [
+     "Psalms 78:2",
+     "Ezekiel 17:2"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why parables?",
+    "body": "Jesus quotes Isaiah about people who see but do not perceive (13:13-15). Parables open the truth to those who want it and hide it from those who refuse. The disciples are blessed not because they are clever but because they come and ask (13:10, 13:36).",
+    "refs": [
+     "Isaiah 6:9-10",
+     "Mark 4:10-12"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Scattering seed",
+    "body": "Farmers scattered seed by hand, so some landed on paths, on thin soil over rock, or among thorns (13:4-7). A yield of thirty, sixty or a hundredfold would be an outstanding harvest. Isaac's hundredfold crop was a sign of God's blessing.",
+    "refs": [
+     "Genesis 26:12"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Darnel",
+    "body": "The weeds are zizania, darnel (13:25), a grass that looks like wheat until it ripens and whose grain can make people ill. Pulling it early would damage the wheat (13:29). Separating them is left to the harvest at the end of the age (13:39-40).",
+    "refs": [
+     "1 Corinthians 4:5"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Mustard seed and yeast",
+    "body": "The mustard seed was proverbially tiny, yet the plant grows taller than a man (13:31-32). A woman hides yeast in \"three measures of meal\" (13:33), a huge batch of flour, the amount Sarah used for her guests. Both parables show great results from small, hidden beginnings.",
+    "refs": [
+     "Genesis 18:6",
+     "Luke 13:18-21"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Hidden things uttered",
+    "body": "Matthew quotes Psalm 78 (13:35), a psalm of Asaph that retells Israel's history as a lesson. He calls the psalmist a prophet. Jesus' parables bring hidden purposes into the open.",
+    "refs": [
+     "Psalms 78:2",
+     "1 Corinthians 2:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The carpenter's son",
+    "body": "In Nazareth people ask, \"Isn't this the carpenter's son?\" (13:55). The word tekton can mean a builder or craftsman in wood or stone. Familiarity breeds offence, and Jesus does few mighty works there \"because of their unbelief\" (13:58).",
+    "refs": [
+     "Mark 6:3",
+     "John 4:44"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Worth everything",
+    "body": "The man who finds treasure sells everything \"In his joy\" (13:44). Is there anything you would hold back if God's kingdom asked for it?",
+    "refs": [
+     "Philippians 3:8"
+    ]
+   }
+  ]
+ },
+ "14": {
+  "summary": "Herod Antipas has John the Baptizer beheaded at a birthday feast; Jesus feeds five thousand men with five loaves and two fish, walks on the sea, and catches Peter when he begins to sink.",
+  "lookfor": "Notice the contrast between Herod's feast and Jesus' meal, the actions Jesus does with the bread, and what the disciples say at the end.",
+  "names": [
+   {
+    "name": "Herod",
+    "kind": "person",
+    "gloss": "Herod Antipas, ruler of Galilee and Perea."
+   },
+   {
+    "name": "Herodias",
+    "kind": "person",
+    "gloss": "Herod Antipas's wife, formerly married to his half-brother."
+   },
+   {
+    "name": "Philip",
+    "kind": "person",
+    "gloss": "Herodias's first husband, Herod's half-brother."
+   },
+   {
+    "name": "Gennesaret",
+    "kind": "place",
+    "gloss": "A fertile plain on the north-west shore of the Sea of Galilee."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Herod the tetrarch",
+    "body": "This is Herod Antipas, son of Herod the Great, who ruled Galilee and Perea from 4 BC to AD 39. Tetrarch was a minor title, though people called him king (14:9). The Jewish historian Josephus also records John's execution, at the fortress of Machaerus.",
+    "refs": [
+     "Luke 3:19-20",
+     "Mark 6:14-29"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Not lawful",
+    "body": "Herodias had left Antipas's half-brother to marry Antipas, and John said, \"It is not lawful for you to have her\" (14:4). The law forbade marrying a brother's wife while he lived. Matthew names the first husband Philip (14:3), while Josephus calls him simply Herod.",
+    "refs": [
+     "Leviticus 18:16",
+     "Leviticus 20:21"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Two feasts",
+    "body": "Herod's birthday banquet ends with a head on a platter (14:11). Matthew places it right beside Jesus' meal in a deserted place, where the hungry are fed. Two kings, two feasts.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Bread in the wilderness",
+    "body": "The feeding (14:19-20) recalls manna in the wilderness and Elisha feeding a hundred men. Jesus takes, blesses, breaks and gives the bread, the same actions as at the Last Supper. Twelve baskets left over may point to the twelve tribes.",
+    "refs": [
+     "Exodus 16:15",
+     "2 Kings 4:42-44",
+     "Matthew 26:26"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The fourth watch",
+    "body": "Romans divided the night into four watches, and the fourth ran from about 3 to 6 in the morning (14:25). The disciples had been rowing most of the night against the wind. Jesus comes to them at their lowest point.",
+    "refs": [
+     "Mark 6:48"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "It is I",
+    "body": "Jesus says, \"Cheer up! It is I! Don't be afraid\" (14:27). The Greek ego eimi, I am, can be ordinary but also echoes the name God revealed to Moses. Job says God alone treads on the waves of the sea.",
+    "refs": [
+     "Exodus 3:14",
+     "Job 9:8"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Truly the Son of God",
+    "body": "The disciples worship him, saying, \"You are truly the Son of God!\" (14:33). It is the first time a group of disciples says this in Matthew. In Mark's version they are simply amazed and do not understand.",
+    "refs": [
+     "Mark 6:51-52",
+     "Matthew 16:16"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Beginning to sink",
+    "body": "Peter walks on the water until he looks at the wind, then cries, \"Lord, save me!\" (14:30), and Jesus catches him at once. What makes you look at the wind instead of at Jesus?",
+    "refs": [
+     "Hebrews 12:2"
+    ]
+   }
+  ]
+ },
+ "15": {
+  "summary": "Jesus disputes with Pharisees over the tradition of hand-washing and teaches that defilement comes from the heart; he heals the daughter of a persistent Canaanite woman, cures many, and feeds four thousand.",
+  "lookfor": "Notice what Jesus says truly defiles a person, how the Canaanite woman answers him, and who glorifies the God of Israel.",
+  "names": [
+   {
+    "name": "Pharisees",
+    "kind": "group",
+    "gloss": "Teachers devoted to the law and its traditions."
+   },
+   {
+    "name": "Tyre",
+    "kind": "place",
+    "gloss": "A Gentile port city north of Galilee."
+   },
+   {
+    "name": "Sidon",
+    "kind": "place",
+    "gloss": "Another Gentile port city on the Phoenician coast."
+   },
+   {
+    "name": "Magdala",
+    "kind": "place",
+    "gloss": "A town on the west shore of the Sea of Galilee."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Washing hands",
+    "body": "The dispute (15:2) is about ritual purity, not hygiene. Pharisees extended priestly washing rules to everyday meals as a way of making all of life holy. Such traditions were later written down in the Mishnah.",
+    "refs": [
+     "Mark 7:3-4",
+     "Exodus 30:19-21"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Corban",
+    "body": "Jesus describes a vow declaring one's property \"a gift devoted to God\" (15:5); Mark gives the Hebrew word Corban. Such a vow could be used to avoid supporting one's parents. Jesus says this cancels the command to honour father and mother.",
+    "refs": [
+     "Mark 7:11",
+     "Exodus 20:12"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Lips and heart",
+    "body": "Jesus quotes Isaiah: \"These people draw near to me with their mouth, and honor me with their lips; but their heart is far from me\" (15:8). Isaiah condemned worship made of learned human rules. The problem is as old as the prophets.",
+    "refs": [
+     "Isaiah 29:13"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "What defiles",
+    "body": "Jesus says defilement comes from the heart, not from food (15:11, 15:18-19). Mark draws the conclusion that he declared all foods clean. The early church took years to work this out, as Peter's vision shows.",
+    "refs": [
+     "Mark 7:19",
+     "Acts 10:9-16"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A Canaanite woman",
+    "body": "Matthew calls her a Canaanite (15:22), the old name of Israel's enemies; Mark calls her a Greek. Jesus' silence and his words about dogs (15:26) sound harsh, and interpreters suggest he is testing her faith or exposing the disciples' attitude. Her persistence wins his praise: \"Woman, great is your faith!\" (15:28).",
+    "refs": [
+     "Mark 7:24-30"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Little dogs",
+    "body": "The word in 15:26 is kynarion, a diminutive often used of house dogs. The woman seizes on it: even house dogs eat the crumbs that fall from the table (15:27). She asks only for a crumb of his mercy.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Seven baskets",
+    "body": "Many think the feeding of four thousand (15:32-38) took place near the Gentile side of the lake, among people who \"glorified the God of Israel\" (15:31). Twelve baskets were left at the first feeding and seven here. Some see in the numbers Israel and the nations.",
+    "refs": [
+     "Matthew 14:20",
+     "Mark 8:1-9"
+    ]
+   }
+  ]
+ },
+ "16": {
+  "summary": "The Pharisees and Sadducees demand a sign; Jesus warns his disciples about their teaching, Peter confesses him as the Christ at Caesarea Philippi, and Jesus first foretells his death and calls his followers to take up their cross.",
+  "lookfor": "Notice the question Jesus asks, what he says to Peter, and how quickly the conversation turns to suffering.",
+  "names": [
+   {
+    "name": "Sadducees",
+    "kind": "group",
+    "gloss": "A party linked with the priestly aristocracy."
+   },
+   {
+    "name": "Caesarea Philippi",
+    "kind": "place",
+    "gloss": "A city at the foot of Mount Hermon, north of Galilee."
+   },
+   {
+    "name": "Jeremiah",
+    "kind": "person",
+    "gloss": "The prophet who suffered for preaching to Jerusalem."
+   },
+   {
+    "name": "Simon Bar Jonah",
+    "kind": "person",
+    "gloss": "Peter's full name: Simon son of Jonah."
+   },
+   {
+    "name": "Hades",
+    "kind": "place",
+    "gloss": "The realm of the dead."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Caesarea Philippi",
+    "body": "The city stood at the foot of Mount Hermon beside a spring and cave shrine of the god Pan. Philip the tetrarch rebuilt it and named it for Caesar (16:13). There, among pagan shrines and imperial power, Jesus asks who people say he is.",
+    "refs": [
+     "Mark 8:27"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "You are the Christ",
+    "body": "Peter's confession, \"You are the Christ, the Son of the living God\" (16:16), is the turning point of the Gospel. Christ is the Greek for Messiah, anointed one. From now on Jesus begins to speak of the cross (16:21).",
+    "refs": [
+     "Mark 8:29",
+     "John 6:68-69"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Peter and the rock",
+    "body": "Jesus says, \"you are Peter, and on this rock I will build my assembly\" (16:18). In Greek the words are Petros and petra; in Aramaic both would be kepha, Cephas. Catholics see Peter himself as the rock, with his authority continuing in the bishops of Rome; Orthodox and many Protestant readers see the rock as Peter's confession of faith, or Peter as spokesman for the apostles without a line of successors.",
+    "refs": [
+     "John 1:42",
+     "Ephesians 2:20"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Assembly",
+    "body": "The word translated \"assembly\" (16:18) is ekklesia, which the Greek Old Testament uses for the congregation of Israel. Matthew is the only Gospel to use it, here and in chapter 18. It became the usual word for the church.",
+    "refs": [
+     "Acts 7:38",
+     "Matthew 18:17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Keys, binding and loosing",
+    "body": "Keys were the sign of a steward's authority over a royal house, as with Eliakim in Isaiah. Binding and loosing were rabbinic terms for forbidding and permitting, or imposing and lifting discipline (16:19). Jesus gives the same power to the disciples together in chapter 18.",
+    "refs": [
+     "Isaiah 22:22",
+     "Matthew 18:18"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Get behind me, Satan",
+    "body": "Peter rebukes Jesus for speaking of suffering (16:22), and Jesus calls him Satan and a stumbling block (16:23). Moments after being called a rock, Peter becomes a stone to trip over. He offers the same shortcut the devil offered in the wilderness.",
+    "refs": [
+     "Matthew 4:8-10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Take up the cross",
+    "body": "Condemned prisoners carried the crossbeam to the place of execution, a sight Jesus' hearers knew from Roman punishments. To deny oneself (16:24) is to give up the claim to run one's own life. Losing life for Jesus is how it is found (16:25).",
+    "refs": [
+     "Matthew 10:38",
+     "Galatians 2:20"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Who do you say?",
+    "body": "\"But who do you say that I am?\" (16:15). How would you answer in your own words today?",
+    "refs": []
+   }
+  ]
+ },
+ "17": {
+  "summary": "Jesus is transfigured before Peter, James and John, heals a boy whom his disciples could not help, again foretells his death, and provides the temple tax from a fish's mouth.",
+  "lookfor": "Notice who appears with Jesus, what the voice says, and why the disciples failed to heal the boy.",
+  "names": [
+   {
+    "name": "Moses",
+    "kind": "person",
+    "gloss": "The lawgiver who met God on Sinai."
+   },
+   {
+    "name": "Elijah",
+    "kind": "person",
+    "gloss": "The prophet who met God on Horeb."
+   },
+   {
+    "name": "Capernaum",
+    "kind": "place",
+    "gloss": "Jesus' base in Galilee."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Moses and Elijah",
+    "body": "Moses and Elijah, representing the law and the prophets, talk with Jesus (17:3). Both had met God on a mountain, Sinai or Horeb. Luke says they spoke of his coming departure in Jerusalem.",
+    "refs": [
+     "Exodus 24:15-18",
+     "1 Kings 19:8-13",
+     "Luke 9:30-31"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Transfigured",
+    "body": "The Greek metamorphoo (17:2) gives the English word metamorphosis. Paul uses it for believers being transformed. The Transfiguration is a major feast in the Orthodox Church, tied to its teaching on the uncreated light of God, and it is kept in the West too.",
+    "refs": [
+     "2 Corinthians 3:18",
+     "Romans 12:2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Listen to him",
+    "body": "The voice repeats the words spoken at the baptism and adds, \"Listen to him\" (17:5), echoing Moses' promise of a prophet to whom Israel must listen. When the disciples look up, they see \"Jesus alone\" (17:8).",
+    "refs": [
+     "Deuteronomy 18:15",
+     "2 Peter 1:16-18"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Three tents",
+    "body": "Peter offers to make three tents (17:4). Some link this with the Feast of Tabernacles, when Israel lived in shelters. He wants to hold on to the glory, but the way lies through suffering (17:12).",
+    "refs": [
+     "Leviticus 23:42-43"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Faith like a mustard seed",
+    "body": "The disciples fail \"Because of your unbelief\" (17:20). The point is not the size of faith but its object: even tiny faith in a great God can move mountains. Moving mountains was a picture for doing the impossible.",
+    "refs": [
+     "Matthew 21:21",
+     "1 Corinthians 13:2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Prayer and fasting",
+    "body": "The line \"But this kind doesn't go out except by prayer and fasting\" (17:21) is missing from the oldest manuscripts and may have been borrowed from Mark. Many modern translations leave it out or put it in a note, while the WEB keeps it.",
+    "refs": [
+     "Mark 9:29"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The temple tax",
+    "body": "Every Jewish man paid half a shekel, a didrachma, each year for the Temple (17:24). The stater coin in the fish was worth four drachmas, exactly enough for two (17:27). Jesus, as the Son, is free, but he pays to avoid giving offence.",
+    "refs": [
+     "Exodus 30:13-16"
+    ]
+   }
+  ]
+ },
+ "18": {
+  "summary": "Jesus teaches his disciples to become humble like children, to avoid causing others to stumble, to seek the lost, to restore a brother who sins, and to forgive without limit, ending with the parable of the unforgiving servant.",
+  "lookfor": "Notice how often little ones are mentioned, the steps for dealing with a brother who sins, and the size of the two debts.",
+  "names": [
+   {
+    "name": "Gehenna",
+    "kind": "place",
+    "gloss": "A name for the place of final judgment."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Who is greatest?",
+    "body": "The disciples ask about rank (18:1), and Jesus sets a child in front of them. Children had little status in the ancient world. Greatness in the kingdom is humble dependence, not position (18:4).",
+    "refs": [
+     "Matthew 20:26-27"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A donkey's millstone",
+    "body": "The \"huge millstone\" (18:6) is literally a donkey's millstone, the large upper stone turned by an animal. Drowning was a punishment Jews found horrifying. Causing a vulnerable believer to fall is that serious.",
+    "refs": [
+     "Luke 17:1-2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Their angels",
+    "body": "Jesus says the little ones' angels \"always see the face of my Father\" (18:10). This is a main source for belief in guardian angels, taught in Catholic and Orthodox tradition and held by many Protestants. To see a king's face meant direct access to him.",
+    "refs": [
+     "Psalms 91:11",
+     "Acts 12:15"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The lost sheep",
+    "body": "In Matthew the shepherd seeks a straying member of the disciples' own community (18:12-14); in Luke the same parable answers critics of Jesus' welcome to sinners. Ezekiel pictured God as a shepherd who searches for the lost.",
+    "refs": [
+     "Luke 15:3-7",
+     "Ezekiel 34:11-16"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Steps to restore",
+    "body": "Jesus sets out steps: a private talk, then witnesses, then the assembly (18:15-17). The aim is that \"you have gained back your brother\". Treating someone as a Gentile or tax collector meant separation, though Jesus himself sought out such people.",
+    "refs": [
+     "Deuteronomy 19:15",
+     "Galatians 6:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Two or three gathered",
+    "body": "\"For where two or three are gathered together in my name, there I am in the middle of them\" (18:20). A Jewish saying in the Mishnah holds that when two sit together over the Torah, God's presence rests between them. Jesus puts himself in that place.",
+    "refs": [
+     "Matthew 28:20"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Ten thousand talents",
+    "body": "A talent was worth about six thousand denarii, and a denarius was a day's wage (18:24, 18:28). Ten thousand talents was a deliberately impossible sum, while a hundred denarii was about four months' pay. The gap shows the size of what God forgives.",
+    "refs": [
+     "Luke 7:41-43"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Seventy times seven",
+    "body": "The Greek can mean seventy-seven or seventy times seven (18:22). Either way it reverses Lamech's boast of seventy-sevenfold revenge. Forgiveness is to be as limitless as revenge once was.",
+    "refs": [
+     "Genesis 4:24",
+     "Luke 17:4"
+    ]
+   }
+  ]
+ },
+ "19": {
+  "summary": "Jesus teaches on marriage and divorce, welcomes little children, tells a rich young man to sell his possessions and follow him, and promises a reward to those who leave everything.",
+  "lookfor": "Notice how Jesus goes back to creation, how he treats the children, and why the young man goes away sad.",
+  "names": [
+   {
+    "name": "Judea",
+    "kind": "place",
+    "gloss": "The southern region around Jerusalem."
+   },
+   {
+    "name": "Jordan",
+    "kind": "place",
+    "gloss": "The river Jesus crosses on the way south."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "For any reason?",
+    "body": "The Pharisees' question (19:3) reflects a live debate. The school of Shammai allowed divorce only for serious sexual wrongdoing, while the school of Hillel allowed it for almost any cause. Deuteronomy 24 was the text in dispute.",
+    "refs": [
+     "Deuteronomy 24:1-4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "From the beginning",
+    "body": "Jesus goes behind Moses to creation: the two \"shall become one flesh\" (19:5). Moses allowed divorce \"because of the hardness of your hearts\" (19:8). God's original purpose is the standard.",
+    "refs": [
+     "Genesis 1:27",
+     "Genesis 2:24"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The exception clause",
+    "body": "Only Matthew includes \"except for sexual immorality\" (19:9). Catholics usually read it as referring to unions that were never valid, holding that a true sacramental marriage cannot be dissolved. The Orthodox allow divorce and remarriage in some cases with penitence, and most Protestants allow divorce for adultery and often for desertion.",
+    "refs": [
+     "Mark 10:11-12",
+     "1 Corinthians 7:10-15"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "For the Kingdom's sake",
+    "body": "Jesus speaks of some who give up marriage \"for the Kingdom of Heaven's sake\" (19:12). This saying lies behind the Christian tradition of celibate vocations. He adds that not everyone can receive it (19:11).",
+    "refs": [
+     "1 Corinthians 7:7-8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Let the children come",
+    "body": "Parents bring children for a blessing, and the disciples turn them away (19:13). Jesus says the kingdom belongs \"to ones like these\" (19:14). He has just taught that greatness looks like a child.",
+    "refs": [
+     "Matthew 18:3-4"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A camel through a needle",
+    "body": "The camel was the largest animal in the land and a needle's eye the smallest opening (19:24), so the saying is a vivid impossibility. The popular idea of a small gate called the Needle's Eye has no ancient evidence. The disciples are astonished because wealth was widely seen as a sign of God's favour.",
+    "refs": [
+     "Mark 10:23-27"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Twelve thrones",
+    "body": "Jesus promises the Twelve that they will sit on thrones \"judging the twelve tribes of Israel\" (19:28) in the regeneration, the renewal of all things. The Twelve stand for Israel restored around the Messiah.",
+    "refs": [
+     "Luke 22:28-30",
+     "Revelation 21:12-14"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "What do I still lack?",
+    "body": "The young man had kept the commandments yet asked, \"What do I still lack?\" (19:20). What might Jesus name as the one thing holding you back?",
+    "refs": []
+   }
+  ]
+ },
+ "20": {
+  "summary": "Jesus tells of a vineyard owner who pays every worker the same, foretells his death a third time, answers a request for places of honour by teaching that greatness is service, and heals two blind men at Jericho.",
+  "lookfor": "Notice why the first workers grumble, what Jesus says about the cup, and the question he asks the blind men.",
+  "names": [
+   {
+    "name": "Zebedee",
+    "kind": "person",
+    "gloss": "Father of James and John."
+   },
+   {
+    "name": "Jericho",
+    "kind": "place",
+    "gloss": "An oasis town near the Jordan, on the road to Jerusalem."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "A denarius a day",
+    "body": "A denarius was a normal day's wage for a labourer (20:2). Day labourers waited in the marketplace to be hired, and those still waiting at the eleventh hour, about five in the afternoon, faced going home with nothing (20:6-7). The owner gives them what a family needed for the day.",
+    "refs": [
+     "Deuteronomy 24:14-15"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Is your eye evil?",
+    "body": "The first workers are not cheated; they resent that the latecomers are made equal (20:12). The owner asks, \"is your eye evil, because I am good?\" (20:15), an idiom for envy. The parable answers Peter's question about reward at the end of chapter 19: grace is not a wage.",
+    "refs": [
+     "Matthew 19:27-30",
+     "Romans 4:4-5"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The third prediction",
+    "body": "This is the third and most detailed prediction of the passion (20:18-19): handed over to the Gentiles, mocked, scourged, crucified and raised. Only now does Jesus name crucifixion.",
+    "refs": [
+     "Matthew 16:21",
+     "Matthew 17:22-23"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Their mother asks",
+    "body": "In Matthew the mother of James and John makes the request (20:20); in Mark the brothers ask for themselves. Many identify her with Salome, who stood near the cross. Jesus answers the sons directly (20:22).",
+    "refs": [
+     "Mark 10:35-37",
+     "Matthew 27:56"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The cup",
+    "body": "Jesus asks if they can \"drink the cup that I am about to drink\" (20:22). In the prophets the cup often stands for God's judgment. James later became the first of the Twelve to be martyred.",
+    "refs": [
+     "Isaiah 51:17",
+     "Matthew 26:39",
+     "Acts 12:2"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A ransom for many",
+    "body": "The Son of Man came \"to give his life as a ransom for many\" (20:28). Lytron was the price paid to free a slave or a prisoner. The words for many echo the servant of Isaiah 53, who bore the sin of many.",
+    "refs": [
+     "Isaiah 53:11-12",
+     "1 Timothy 2:6"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Greatness as service",
+    "body": "Rulers of the nations lord it over people, but among Jesus' followers the great must be servants (20:25-27). Jesus grounds this in his own life (20:28). He will wash his disciples' feet and go to the cross.",
+    "refs": [
+     "John 13:12-15",
+     "Philippians 2:5-8"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "What do you want?",
+    "body": "Jesus asks the blind men, \"What do you want me to do for you?\" (20:32), as he had asked the mother (20:21). How would you answer him?",
+    "refs": []
+   }
+  ]
+ },
+ "21": {
+  "summary": "Jesus rides into Jerusalem on a donkey to shouts of Hosanna, drives the traders from the Temple, curses a fruitless fig tree, refuses to say where his authority comes from, and tells parables of two sons and of wicked tenants.",
+  "lookfor": "Notice the Scriptures fulfilled at the entry, what Jesus does in the Temple, and who the leaders realise the parables are about.",
+  "names": [
+   {
+    "name": "Bethsphage",
+    "kind": "place",
+    "gloss": "A village on the Mount of Olives (usually spelled Bethphage)."
+   },
+   {
+    "name": "Mount of Olives",
+    "kind": "place",
+    "gloss": "The ridge east of Jerusalem, across the Kidron valley."
+   },
+   {
+    "name": "Zion",
+    "kind": "place",
+    "gloss": "A poetic name for Jerusalem."
+   },
+   {
+    "name": "Bethany",
+    "kind": "place",
+    "gloss": "A village on the far side of the Mount of Olives."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Humble, on a donkey",
+    "body": "Matthew quotes Zechariah's humble king riding on a donkey (21:5). Kings rode donkeys in peace and horses in war, and Solomon rode David's mule to be crowned. Matthew mentions both a donkey and a colt, matching the two lines of Zechariah's poem.",
+    "refs": [
+     "Zechariah 9:9",
+     "1 Kings 1:33"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Hosanna",
+    "body": "Hosanna comes from the Hebrew hoshi'a na, save now, in Psalm 118 (21:9). By Jesus' day it was also a shout of praise. Psalm 118 was sung at the great festivals, including Passover.",
+    "refs": [
+     "Psalms 118:25-26"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Money changers",
+    "body": "Pilgrims needed to change coins into Tyrian shekels for the temple tax and to buy animals for sacrifice (21:12). The trade took place in the outer court, the only part open to Gentiles. Jesus joins Isaiah's \"house of prayer\" to Jeremiah's \"den of robbers\" (21:13).",
+    "refs": [
+     "Isaiah 56:7",
+     "Jeremiah 7:11"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The fig tree",
+    "body": "Jesus curses a fig tree that has leaves but no fruit (21:19). Like the prophets' acted signs, it pictures judgment on a showy Temple without the fruit of justice. Israel was often pictured as a fig tree or vine.",
+    "refs": [
+     "Jeremiah 8:13",
+     "Micah 7:1",
+     "Mark 11:13-14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A question for a question",
+    "body": "Asked where his authority comes from (21:23), Jesus asks about John's baptism. The leaders refuse to answer for fear of the crowd (21:25-27). Their silence shows they are not seeking the truth.",
+    "refs": [
+     "Matthew 3:7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The vineyard",
+    "body": "The parable of the tenants (21:33-41) builds on Isaiah's song of the vineyard, where Israel is God's vineyard that yields bad fruit. Jesus then quotes Psalm 118 about the rejected stone (21:42). The chief priests and Pharisees see that he means them (21:45).",
+    "refs": [
+     "Isaiah 5:1-7",
+     "Psalms 118:22-23"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Taken away and given",
+    "body": "\"God's Kingdom will be taken away from you, and will be given to a nation producing its fruit\" (21:43). This has sometimes been read as God rejecting the Jewish people, a reading that fed centuries of Christian contempt. In context it is spoken to the chief priests and Pharisees (21:45), and Paul insists that God has not rejected his people.",
+    "refs": [
+     "Romans 11:1-2",
+     "Romans 11:28-29"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Two sons",
+    "body": "One son says no and then goes; the other says yes and does not go (21:28-31). Which son are you more like?",
+    "refs": []
+   }
+  ]
+ },
+ "22": {
+  "summary": "Jesus tells of a wedding feast whose invited guests refuse to come, then answers trick questions about taxes to Caesar, the resurrection and the greatest commandment, and asks how the Messiah can be both David's son and David's Lord.",
+  "lookfor": "Notice who sets each trap, how Jesus turns each question back, and the two commandments he joins.",
+  "names": [
+   {
+    "name": "Herodians",
+    "kind": "group",
+    "gloss": "Supporters of Herod's dynasty and of Roman order."
+   },
+   {
+    "name": "Caesar",
+    "kind": "person",
+    "gloss": "The Roman emperor, then Tiberius."
+   },
+   {
+    "name": "Sadducees",
+    "kind": "group",
+    "gloss": "A priestly party that denied the resurrection."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The burned city",
+    "body": "The king sends troops to destroy the murderers and burn their city (22:7). Many see an allusion to Jerusalem's destruction in AD 70. The story then moves to people of every kind filling the hall (22:10).",
+    "refs": [
+     "Luke 14:16-24"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Wedding clothes",
+    "body": "The man without wedding clothing (22:11-12) is a puzzle, since the guests were gathered from the streets. Some suggest the host supplied garments; others that clean clothes were simply expected. Many Christian readers see it as the new life that must mark those who accept the invitation.",
+    "refs": [
+     "Isaiah 61:10",
+     "Revelation 19:8"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Strange allies",
+    "body": "Pharisees, who resented Roman rule, team up with Herodians, who supported it (22:16). The tax question is a trap: yes angers the crowd, and no is treason. Both groups want Jesus out of the way.",
+    "refs": [
+     "Mark 3:6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Whose image?",
+    "body": "The denarius bore Tiberius's head and an inscription calling him son of the divine Augustus (22:20). Jesus says, \"Give therefore to Caesar the things that are Caesar's, and to God the things that are God's\" (22:21). The coin bears Caesar's image; human beings bear God's.",
+    "refs": [
+     "Genesis 1:27",
+     "Romans 13:7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "God of the living",
+    "body": "The Sadducees build their puzzle on the law of a brother's widow and accept only the books of Moses, so Jesus answers from Exodus (22:32). God's words \"I am the God of Abraham\" imply that the patriarchs still live to him.",
+    "refs": [
+     "Exodus 3:6",
+     "Deuteronomy 25:5-6"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The greatest commandment",
+    "body": "Jesus joins the Shema's call to love God (22:37) with Leviticus' command to love one's neighbour (22:39). \"The whole law and the prophets depend on these two commandments\" (22:40).",
+    "refs": [
+     "Deuteronomy 6:5",
+     "Leviticus 19:18",
+     "Romans 13:10"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "David's Lord",
+    "body": "Psalm 110, \"The Lord said to my Lord\" (22:44), is the Old Testament verse most quoted in the New. In Hebrew the first Lord is Yahweh and the second is adoni, my lord. If David calls the Messiah lord, the Messiah is more than his son.",
+    "refs": [
+     "Psalms 110:1",
+     "Acts 2:34-36"
+    ]
+   }
+  ]
+ },
+ "23": {
+  "summary": "Jesus warns the crowds and his disciples about the scribes and Pharisees, pronounces a series of woes on their hypocrisy, and laments over Jerusalem.",
+  "lookfor": "Notice what Jesus tells people to do and not do, the vivid pictures in the woes, and the grief at the end.",
+  "names": [
+   {
+    "name": "Gehenna",
+    "kind": "place",
+    "gloss": "A name for the place of final judgment."
+   },
+   {
+    "name": "Abel",
+    "kind": "person",
+    "gloss": "Adam's son, the first murder victim."
+   },
+   {
+    "name": "Zachariah",
+    "kind": "person",
+    "gloss": "A priest stoned in the Temple court."
+   },
+   {
+    "name": "Barachiah",
+    "kind": "person",
+    "gloss": "Named as Zachariah's father."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Reading the woes rightly",
+    "body": "These woes (23:13-36) are prophetic speech within Judaism, like Amos attacking his own people's leaders. Christians have sometimes used this chapter to caricature all Pharisees and Jews, with terrible results. Many Pharisees were sincere, and the New Testament itself mentions Pharisees such as Nicodemus and Gamaliel.",
+    "refs": [
+     "Amos 5:21-24",
+     "John 3:1",
+     "Acts 5:34"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Moses' seat",
+    "body": "\"The scribes and the Pharisees sat on Moses' seat\" (23:2) means they taught with Moses' authority. Stone chairs found in ancient synagogues, such as at Chorazin, may be examples of such a seat. Jesus tells people to do what they teach but not to copy what they do (23:3).",
+    "refs": [
+     "Deuteronomy 17:9-11"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Phylacteries and fringes",
+    "body": "Phylacteries, or tefillin, are small leather boxes holding verses of Scripture, worn on the arm and forehead in obedience to Deuteronomy. Fringes are the tassels on a garment (23:5). Jesus objects to enlarging them for display.",
+    "refs": [
+     "Deuteronomy 6:8",
+     "Numbers 15:38-39"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Rabbi and father",
+    "body": "Rabbi means my great one, a respectful title for a teacher (23:7-8). Jesus warns against titles that feed status, since there is one Teacher and one Father (23:9). Catholics, Orthodox and others who call priests father read the saying as aimed at pride, noting that Paul calls himself a father to his converts.",
+    "refs": [
+     "1 Corinthians 4:15"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Gnat and camel",
+    "body": "Some strained wine through cloth to avoid swallowing an unclean insect. Jesus mocks those who \"strain out a gnat, and swallow a camel\" (23:24), both unclean animals. In Aramaic there may be a pun between galma, gnat, and gamla, camel.",
+    "refs": [
+     "Leviticus 11:4",
+     "Leviticus 11:41"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Whitened tombs",
+    "body": "Graves were marked with white lime so that pilgrims would not touch them by accident and become unclean. Jesus says the scribes and Pharisees look beautiful outside but are full of corruption (23:27). The Mishnah mentions this marking of graves before the festivals.",
+    "refs": [
+     "Numbers 19:16"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "From Abel to Zachariah",
+    "body": "Abel is the first murder in Genesis, and the Zechariah stoned in the Temple court is the last in 2 Chronicles, the final book of the Hebrew Bible (23:35). The span covers the whole of Scripture. Matthew calls him son of Barachiah, the father of the prophet Zechariah, and scholars discuss the difference.",
+    "refs": [
+     "Genesis 4:8",
+     "2 Chronicles 24:20-22",
+     "Zechariah 1:1"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Like a hen",
+    "body": "Jesus ends in grief: \"How often I would have gathered your children together, even as a hen gathers her chicks under her wings, and you would not!\" (23:37). Where might you be resisting being gathered?",
+    "refs": [
+     "Psalms 91:4",
+     "Luke 13:34"
+    ]
+   }
+  ]
+ },
+ "24": {
+  "summary": "Jesus predicts the destruction of the Temple and, on the Mount of Olives, tells his disciples about coming troubles, the abomination of desolation, the coming of the Son of Man, and the need to stay ready.",
+  "lookfor": "Notice the two questions the disciples ask, the warnings about false messiahs, and the repeated call to watch.",
+  "names": [
+   {
+    "name": "Mount of Olives",
+    "kind": "place",
+    "gloss": "The ridge facing the Temple across the Kidron valley."
+   },
+   {
+    "name": "Daniel",
+    "kind": "person",
+    "gloss": "The prophet whose visions spoke of the abomination of desolation."
+   },
+   {
+    "name": "Noah",
+    "kind": "person",
+    "gloss": "The man who built the ark before the flood."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Not one stone",
+    "body": "Herod's Temple was among the wonders of its age, built of stones weighing many tons (24:1-2). In AD 70 the Romans under Titus destroyed it. Huge stones thrown down from the Temple Mount still lie at the foot of its south-west corner.",
+    "refs": [
+     "Luke 19:43-44"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Two questions",
+    "body": "The disciples ask when the Temple will fall and what will signal his coming and the end of the age (24:3). Jesus' answer weaves the two together. Some interpreters see most of it fulfilled in AD 70, some see it all as future, and many see the near events as a picture of the final ones.",
+    "refs": [
+     "Mark 13:3-4",
+     "Luke 21:5-7"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Birth pains",
+    "body": "Wars and famines are \"the beginning of birth pains\" (24:8). Jewish writers spoke of the birth pangs of the Messiah, sufferings before the new age. Pain is not the end but the sign that something is being born.",
+    "refs": [
+     "Romans 8:22",
+     "Isaiah 26:17-19"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Abomination of desolation",
+    "body": "Daniel's phrase (24:15) first referred to the pagan altar Antiochus IV set up in the Temple in 167 BC. Jesus says something like it will happen again, and Luke explains it as Jerusalem surrounded by armies. The aside \"let the reader understand\" calls for careful thought.",
+    "refs": [
+     "Daniel 9:27",
+     "Daniel 11:31",
+     "Luke 21:20"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Coming on the clouds",
+    "body": "Jesus uses Daniel's vision of one like a son of man coming with the clouds (24:30). In Daniel the figure comes before God to receive a kingdom. A dark sun and falling stars are the prophets' language for the shaking of world powers (24:29).",
+    "refs": [
+     "Daniel 7:13-14",
+     "Isaiah 13:10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "This generation",
+    "body": "\"This generation will not pass away, until all these things are accomplished\" (24:34) is much debated. Some take it of the fall of Jerusalem about forty years later, others of the Jewish people or of those who see the signs. Jesus adds that no one knows the day or hour (24:36).",
+    "refs": [
+     "Mark 13:30-32"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "One taken, one left",
+    "body": "Two people side by side, one taken and one left (24:40-41). Some popular teaching reads this as a secret rapture of believers; many interpreters note that in the days of Noah those taken were swept away in judgment (24:39). Either way the point is readiness.",
+    "refs": [
+     "Luke 17:34-36",
+     "Genesis 7:23"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Found doing what?",
+    "body": "No one knows the hour (24:42-44), and the faithful servant is simply found doing his work (24:46). If he came today, what would he find you doing?",
+    "refs": []
+   }
+  ]
+ },
+ "25": {
+  "summary": "Jesus tells three stories of the end: ten virgins waiting for a bridegroom, servants entrusted with talents, and the Son of Man separating the nations as a shepherd separates sheep from goats.",
+  "lookfor": "Notice what each story says about readiness, why the third servant failed, and what surprises both groups at the judgment.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "A wedding at night",
+    "body": "The bridegroom fetched his bride and brought her to his home for the feast, often after dark (25:6). Young women waited to escort him with lamps. Running out of oil meant missing the procession.",
+    "refs": [
+     "Matthew 9:15"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why not share?",
+    "body": "The wise refuse to share their oil (25:9), which seems unkind. But the parable is about readiness, which cannot be borrowed at the last moment. The shut door (25:10) adds urgency.",
+    "refs": [
+     "Luke 13:25"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Talent",
+    "body": "A talent was a large weight of silver, worth many years of a labourer's wages (25:15). The English word talent, meaning ability, comes from this parable. Each servant receives according to his ability.",
+    "refs": [
+     "Luke 19:11-27"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Fear that buries",
+    "body": "The third servant buries his talent because he sees his master as \"a hard man\" (25:24) and is afraid (25:25). Burying money was a known way to keep it safe. His picture of the master shapes his failure.",
+    "refs": [
+     "1 John 4:18"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Sheep and goats",
+    "body": "Shepherds in the region grazed sheep and goats together by day and often separated them at night (25:32). The right hand was the place of honour. Ezekiel pictured God judging between sheep and goats.",
+    "refs": [
+     "Ezekiel 34:17"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The least of these",
+    "body": "\"Because you did it to one of the least of these my brothers, you did it to me\" (25:40). Some read the brothers as Jesus' disciples, as when he spoke of a cup of water given to his little ones; many apply it to everyone in need. Both the righteous and the condemned are surprised.",
+    "refs": [
+     "Matthew 10:40-42",
+     "Proverbs 19:17"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The judge who will be judged",
+    "body": "The Son of Man sits on his glorious throne to judge the nations (25:31-32), drawing on Daniel's vision. This is Jesus' last teaching before the passion. In two days the coming judge will himself be condemned and crucified.",
+    "refs": [
+     "Daniel 7:13-14",
+     "Matthew 26:2"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "When did we see you?",
+    "body": "Neither group recognised Jesus in the hungry, the stranger or the prisoner (25:37-39, 25:44). Where might you be meeting him without knowing it?",
+    "refs": []
+   }
+  ]
+ },
+ "26": {
+  "summary": "The leaders plot Jesus' death, a woman anoints him at Bethany, Judas agrees to betray him, Jesus shares the Passover with his disciples and prays in Gethsemane, and he is arrested and condemned by the high priest's council while Peter denies him three times.",
+  "lookfor": "Notice the words Jesus speaks over the bread and cup, his prayer in Gethsemane, and the contrast between Judas and Peter.",
+  "names": [
+   {
+    "name": "Caiaphas",
+    "kind": "person",
+    "gloss": "The high priest, about AD 18 to 36."
+   },
+   {
+    "name": "Bethany",
+    "kind": "place",
+    "gloss": "A village near Jerusalem where Jesus stayed."
+   },
+   {
+    "name": "Judas Iscariot",
+    "kind": "person",
+    "gloss": "The disciple who betrayed Jesus."
+   },
+   {
+    "name": "Mount of Olives",
+    "kind": "place",
+    "gloss": "The ridge east of Jerusalem."
+   },
+   {
+    "name": "Gethsemane",
+    "kind": "place",
+    "gloss": "An olive grove at the foot of the Mount of Olives."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Caiaphas",
+    "body": "Caiaphas was high priest from about AD 18 to 36 (26:3), an unusually long term that suggests he worked well with Rome. In 1990 a bone box inscribed Joseph son of Caiaphas was found in Jerusalem. Many scholars think it held his remains.",
+    "refs": [
+     "John 11:49-50"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Anointed for burial",
+    "body": "A woman pours costly ointment on Jesus' head (26:7), as kings were anointed. Jesus says she has prepared him for burial (26:12) and that she will be remembered wherever the good news is preached (26:13). John names her as Mary of Bethany.",
+    "refs": [
+     "John 12:1-8",
+     "1 Samuel 10:1"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Thirty pieces of silver",
+    "body": "Thirty shekels was the price the law set for a slave (26:15). Zechariah was paid thirty pieces of silver as a contemptuous wage and threw it to the potter. Matthew will return to this in the next chapter.",
+    "refs": [
+     "Exodus 21:32",
+     "Zechariah 11:12-13"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The Last Supper",
+    "body": "At Passover, which recalled the exodus, Jesus gives the bread and wine new meaning: \"this is my blood of the new covenant\" (26:28). It echoes the covenant blood at Sinai and Jeremiah's promised new covenant. Christians differ on how Christ is present in the Lord's Supper, from Catholic and Orthodox belief in a real change, to Lutheran real presence, to other Protestants' stress on spiritual presence or remembrance, but all trace it to this night.",
+    "refs": [
+     "Exodus 24:8",
+     "Jeremiah 31:31-34",
+     "1 Corinthians 11:23-26"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A hymn",
+    "body": "After the meal \"they had sung a hymn\" (26:30), probably the second part of the Hallel, Psalms 115–118, sung at the close of the Passover meal. Jesus walked out to Gethsemane singing psalms that speak of the rejected stone and of the day the Lord has made.",
+    "refs": [
+     "Psalms 118:22-24"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Gethsemane",
+    "body": "Gethsemane means oil press, an olive grove on the Mount of Olives (26:36). There Jesus prays, \"My Father, if it is possible, let this cup pass away from me; nevertheless, not what I desire, but what you desire\" (26:39). He feels the full weight of what is coming and still chooses obedience.",
+    "refs": [
+     "Hebrews 5:7-8",
+     "Luke 22:44"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why blasphemy?",
+    "body": "The high priest demands under oath whether Jesus is the Christ (26:63). Jesus answers by combining Psalm 110 and Daniel 7 (26:64), claiming to share God's throne. To the council this was blasphemy, and the high priest tears his clothes (26:65).",
+    "refs": [
+     "Psalms 110:1",
+     "Daniel 7:13",
+     "Leviticus 24:16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Your speech gives you away",
+    "body": "Peter is recognised by his Galilean accent (26:73). He denies Jesus three times, the last with curses, then remembers and weeps bitterly (26:75). Judas despairs in the next chapter, while Peter's tears lead to restoration.",
+    "refs": [
+     "John 21:15-17",
+     "Luke 22:61-62"
+    ]
+   }
+  ]
+ },
+ "27": {
+  "summary": "Jesus is handed over to Pilate; Judas hangs himself, the crowd chooses Barabbas, and Jesus is mocked, crucified between robbers and dies, after which Joseph of Arimathaea buries him in a tomb that is sealed and guarded.",
+  "lookfor": "Notice the people who declare Jesus innocent, the echoes of Psalm 22, and the signs at his death.",
+  "names": [
+   {
+    "name": "Pontius Pilate",
+    "kind": "person",
+    "gloss": "Roman governor of Judea, AD 26 to 36."
+   },
+   {
+    "name": "Barabbas",
+    "kind": "person",
+    "gloss": "A notorious prisoner released instead of Jesus."
+   },
+   {
+    "name": "Praetorium",
+    "kind": "place",
+    "gloss": "The governor's headquarters in Jerusalem."
+   },
+   {
+    "name": "Cyrene",
+    "kind": "place",
+    "gloss": "A city in North Africa, in modern Libya."
+   },
+   {
+    "name": "Golgotha",
+    "kind": "place",
+    "gloss": "The place of execution outside the city wall."
+   },
+   {
+    "name": "Mary Magdalene",
+    "kind": "person",
+    "gloss": "A follower of Jesus from Magdala in Galilee."
+   },
+   {
+    "name": "Arimathaea",
+    "kind": "place",
+    "gloss": "A Judean town, home of Joseph."
+   },
+   {
+    "name": "Joseph",
+    "kind": "person",
+    "gloss": "A rich disciple who gave his own tomb."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Pontius Pilate",
+    "body": "Pilate governed Judea from AD 26 to 36 (27:2). A stone found at Caesarea in 1961 bears his name and title, prefect of Judea. Philo and Josephus describe him as stubborn and harsh, while Matthew shows a governor who knows Jesus is innocent and gives way under pressure (27:24).",
+    "refs": [
+     "Luke 13:1",
+     "John 19:12"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Jeremiah or Zechariah?",
+    "body": "Matthew credits the potter's field prophecy to Jeremiah (27:9), though the wording is closest to Zechariah. Jeremiah also bought a field and went to a potter's house. Many think Matthew blends the two and names the more prominent prophet.",
+    "refs": [
+     "Zechariah 11:12-13",
+     "Jeremiah 32:6-9",
+     "Jeremiah 19:1-2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Pilate's wife",
+    "body": "Only Matthew tells of Pilate's wife and her dream (27:19). Dreams also guided Joseph and the wise men at the start of the Gospel. Orthodox tradition honours her as a saint under the name Procla.",
+    "refs": [
+     "Matthew 2:12"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "His blood on us",
+    "body": "The crowd cries, \"May his blood be on us, and on our children!\" (27:25). For centuries this verse was used to blame all Jews for Jesus' death, fuelling persecution. The Catholic Church at the Second Vatican Council, and many Protestant and Orthodox bodies, reject that reading; it was one crowd's cry, and Christian faith holds that Jesus died for the sins of all.",
+    "refs": [
+     "Acts 3:17",
+     "Luke 23:34"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Crucifixion",
+    "body": "Crucifixion was Rome's most shameful punishment, used mostly for slaves and rebels. The victim was flogged, made to carry the crossbeam, and displayed by a busy road with a notice of the charge (27:37). Death could take hours or days.",
+    "refs": [
+     "Deuteronomy 21:22-23",
+     "Galatians 3:13"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Psalm 22",
+    "body": "Jesus cries the opening words of Psalm 22 in his own tongue: \"My God, my God, why have you forsaken me?\" (27:46). The psalm moves from abandonment to praise and to the nations turning to God. The divided clothing and the wagging heads in this chapter echo the same psalm (27:35, 27:39).",
+    "refs": [
+     "Psalms 22:1",
+     "Psalms 22:7-8",
+     "Psalms 22:18"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The veil torn",
+    "body": "The Temple curtain is torn \"from the top to the bottom\" (27:51), as if by God's own hand. Hebrews sees in it the way into God's presence opened. Matthew alone adds an earthquake and saints raised from their tombs (27:52-53).",
+    "refs": [
+     "Hebrews 10:19-20",
+     "Exodus 26:31-33"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The women watching",
+    "body": "The male disciples have fled, but women who had followed from Galilee watch from a distance (27:55-56) and sit opposite the tomb (27:61). They witness his death and burial, and they will be first at the empty tomb.",
+    "refs": [
+     "Mark 15:40-41"
+    ]
+   }
+  ]
+ },
+ "28": {
+  "summary": "At dawn the women find the stone rolled away and an angel announces that Jesus is risen; Jesus meets them, the guards are bribed to spread a story, and the risen Jesus sends the eleven to make disciples of all nations.",
+  "lookfor": "Notice who first hears the news, how the guards' story begins, and the three parts of Jesus' final words.",
+  "names": [
+   {
+    "name": "Mary Magdalene",
+    "kind": "person",
+    "gloss": "A follower of Jesus, first at the empty tomb."
+   },
+   {
+    "name": "Galilee",
+    "kind": "place",
+    "gloss": "Where the risen Jesus meets his disciples."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Women first",
+    "body": "The first witnesses of the resurrection are women (28:1, 28:9). In that culture a woman's testimony often carried less weight, so this is not a detail anyone would invent to persuade. Mary Magdalene appears in every Gospel's account.",
+    "refs": [
+     "Luke 24:10-11",
+     "John 20:11-18"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The first day",
+    "body": "The women come \"as it began to dawn on the first day of the week\" (28:1), on Sunday. Christians soon gathered on this day and called it the Lord's Day. It became the weekly remembrance of the resurrection.",
+    "refs": [
+     "Acts 20:7",
+     "Revelation 1:10"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The stolen-body story",
+    "body": "Matthew reports a story spread by the authorities that the disciples stole the body (28:13-15). Its existence shows that both sides agreed the tomb was empty. Justin Martyr, in the second century, says the claim was still being repeated in his day.",
+    "refs": [
+     "Matthew 27:62-66"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Some doubted",
+    "body": "Even on the mountain, \"some doubted\" (28:17). The Greek word suggests hesitation rather than outright unbelief. Jesus still comes near and sends them all.",
+    "refs": [
+     "Matthew 14:31"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Make disciples",
+    "body": "The main command is \"make disciples\" (28:19), a single Greek verb, matheteusate. Going, baptizing and teaching describe how it is done. A disciple is a learner who obeys.",
+    "refs": [
+     "Acts 14:21"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "All nations",
+    "body": "The mission that began with \"the lost sheep of the house of Israel\" now reaches \"all nations\" (28:19). God's promise that all the families of the earth would be blessed through Abraham comes into view. The book that opened with the son of Abraham ends with his blessing going to the world.",
+    "refs": [
+     "Genesis 12:3",
+     "Matthew 10:6"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "One name, three persons",
+    "body": "Baptism is \"in the name of the Father and of the Son and of the Holy Spirit\" (28:19). The single name with three persons became the standard for Christian baptism in every tradition. The early manual called the Didache uses the same words.",
+    "refs": [
+     "Matthew 3:16-17",
+     "2 Corinthians 13:14"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "With you always",
+    "body": "The Gospel ends with \"I am with you always, even to the end of the age\" (28:20), echoing Immanuel, God with us, in chapter 1. What difference would it make to live today aware of that promise?",
+    "refs": [
+     "Matthew 1:23"
+    ]
+   }
+  ]
+ },
+ "intro": {
+  "who": "Early church tradition, from Papias in the second century onward, names Matthew the tax collector, one of the Twelve. Most modern scholars see the author as an unnamed Jewish Christian teacher who used Mark's Gospel and a collection of Jesus' sayings, though some still defend Matthew's authorship.",
+  "when": "Many scholars date it around AD 80–90, after the Temple's destruction in AD 70; others argue for the 60s. It was probably written for Jewish and Gentile believers, perhaps in Syria or Galilee.",
+  "why": "Matthew shows that Jesus is the Messiah promised to Israel, the son of David who fulfils the Scriptures. He gathers Jesus' teaching into five great speeches and ends with the risen Jesus sending his followers to make disciples of all nations.",
+  "outline": [
+   {
+    "chapters": "1–4",
+    "title": "Birth and beginnings"
+   },
+   {
+    "chapters": "5–7",
+    "title": "The Sermon on the Mount"
+   },
+   {
+    "chapters": "8–10",
+    "title": "Healing and sending"
+   },
+   {
+    "chapters": "11–13",
+    "title": "Opposition and parables"
+   },
+   {
+    "chapters": "14–18",
+    "title": "Training the disciples"
+   },
+   {
+    "chapters": "19–25",
+    "title": "To Jerusalem"
+   },
+   {
+    "chapters": "26–28",
+    "title": "Death and resurrection"
+   }
+  ],
+  "verse": "Matthew 16:16"
+ }
+}
