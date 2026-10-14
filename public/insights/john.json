@@ -1,0 +1,1678 @@
+{
+ "1": {
+  "summary": "The eternal Word who was with God and was God becomes flesh; John the Baptist points to Jesus as the Lamb of God, and the first disciples begin to follow him.",
+  "lookfor": "Notice how the opening echoes the first words of Genesis, and how each new disciple brings someone else to Jesus.",
+  "names": [
+   {
+    "name": "Levites",
+    "kind": "group",
+    "gloss": "Members of the priestly tribe who served in the temple, sent to question John."
+   },
+   {
+    "name": "Bethany",
+    "kind": "place",
+    "gloss": "A place across the Jordan where John baptized, not the village near Jerusalem."
+   },
+   {
+    "name": "Andrew",
+    "kind": "person",
+    "gloss": "Simon Peter's brother, first a disciple of John."
+   },
+   {
+    "name": "Cephas",
+    "kind": "person",
+    "gloss": "Aramaic for rock, the name Jesus gives Simon; Peter is the Greek form."
+   },
+   {
+    "name": "Philip",
+    "kind": "person",
+    "gloss": "A disciple from Bethsaida."
+   },
+   {
+    "name": "Nathanael",
+    "kind": "person",
+    "gloss": "A disciple from Cana, possibly the Bartholomew of the other Gospels."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "In the beginning",
+    "body": "\"In the beginning was the Word\" (1:1) deliberately echoes the first words of Genesis. John retells creation with Jesus present at the start: through him all things were made (1:3).",
+    "refs": [
+     "Genesis 1:1-3",
+     "Colossians 1:16"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Logos",
+    "body": "John calls Jesus the Logos, the Word (1:1). Greek thinkers used logos for the reason ordering the universe; Jewish writers spoke of God's word and wisdom creating the world. John meets both audiences and then says something neither expected: the Word became flesh (1:14).",
+    "refs": [
+     "Psalms 33:6",
+     "Proverbs 8:22-31"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "He pitched his tent",
+    "body": "\"The Word became flesh, and lived among us\" (1:14). The Greek verb means to pitch a tent, recalling the tabernacle where God's glory dwelt with Israel in the wilderness.",
+    "refs": [
+     "Exodus 40:34-35"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The Lamb of God",
+    "body": "John the Baptist calls Jesus the Lamb of God who takes away the sin of the world (1:29). The image gathers the Passover lamb, the daily temple lambs and Isaiah's servant led like a lamb to slaughter.",
+    "refs": [
+     "Exodus 12:3-7",
+     "Isaiah 53:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The tenth hour",
+    "body": "Two disciples follow Jesus and stay with him; it was about the tenth hour (1:39), about four in the afternoon. The time is the kind of remembered detail an eyewitness keeps.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Jacob's ladder",
+    "body": "Jesus tells Nathanael he will see heaven opened and angels ascending and descending on the Son of Man (1:51). In Jacob's dream the angels used a ladder; now Jesus himself is the meeting place of heaven and earth.",
+    "refs": [
+     "Genesis 28:12"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Come and see",
+    "body": "Philip doesn't argue with Nathanael's doubt; he says, \"Come and see\" (1:46). Who might you invite simply to come and see?",
+    "refs": []
+   }
+  ]
+ },
+ "2": {
+  "summary": "At a wedding in Cana Jesus turns water into wine, his first sign, and in Jerusalem he drives the traders from the temple and speaks of raising the temple of his body.",
+  "lookfor": "Notice what the water jars were for, and how the disciples understand Jesus' words about the temple only later.",
+  "names": [
+   {
+    "name": "Cana",
+    "kind": "place",
+    "gloss": "A village in Galilee a few kilometers from Nazareth."
+   },
+   {
+    "name": "Capernaum",
+    "kind": "place",
+    "gloss": "A fishing town on the Sea of Galilee."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Running out of wine",
+    "body": "Weddings lasted up to a week, and running out of wine would shame the family before the village. Mary notices and tells Jesus (2:3).",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Woman",
+    "body": "Jesus addresses his mother as \"Woman\" (2:4), which sounds cold in English but was a respectful form of address. He uses it again from the cross as he entrusts her to the beloved disciple.",
+    "refs": [
+     "John 19:26"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Six stone jars",
+    "body": "The water came from six stone jars used for Jewish purification, each holding two or three metretes, perhaps 80 to 120 liters (2:6). Jesus fills the vessels of the old rites with abundant new wine.",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The first of the signs",
+    "body": "John calls the miracle the first of his signs, revealing his glory (2:11). John records seven signs before the cross, each pointing beyond itself to who Jesus is.",
+    "refs": [
+     "Amos 9:13-14"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Forty-six years",
+    "body": "The leaders say the temple has been under construction for forty-six years (2:20). Herod began rebuilding about 20 BC, which places this scene around AD 27 or 28.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Early or late?",
+    "body": "Matthew, Mark and Luke place the temple clearing in Jesus' last week; John places it at the start. Some think there were two clearings; others think John placed it first for theological reasons. Either way, Jesus presents himself as the true temple.",
+    "refs": [
+     "Mark 11:15-17",
+     "Psalms 69:9"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Do whatever he tells you",
+    "body": "Mary tells the servants, \"Whatever he says to you, do it\" (2:5). What has Jesus told you that you haven't yet done?",
+    "refs": []
+   }
+  ]
+ },
+ "3": {
+  "summary": "Jesus tells the Pharisee Nicodemus that he must be born from above, speaks of God's love for the world, and John the Baptist says Jesus must increase while he decreases.",
+  "lookfor": "Notice when Nicodemus comes, how he misunderstands, and the contrast between light and darkness.",
+  "names": [
+   {
+    "name": "Nicodemus",
+    "kind": "person",
+    "gloss": "A Pharisee and member of the ruling council who comes to Jesus at night."
+   },
+   {
+    "name": "Enon",
+    "kind": "place",
+    "gloss": "A place with plentiful water where John baptized; its location is uncertain."
+   },
+   {
+    "name": "Salim",
+    "kind": "place",
+    "gloss": "A town near Enon; its exact site is unknown."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Born anew, born from above",
+    "body": "The Greek word anōthen means both again and from above (3:3). Nicodemus hears again and asks about re-entering the womb; Jesus means a birth from God. Translations differ, and John likely intends both senses.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Water and Spirit",
+    "body": "Jesus speaks of being born of water and Spirit (3:5). A teacher of Israel should have known Ezekiel's promise: clean water sprinkled, a new heart and God's Spirit within.",
+    "refs": [
+     "Ezekiel 36:25-27"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The lifted serpent",
+    "body": "As Moses lifted up the bronze serpent in the wilderness, so the Son of Man must be lifted up (3:14). In John, \"lifted up\" means both the cross and exaltation. Those who looked at the serpent lived.",
+    "refs": [
+     "Numbers 21:8-9",
+     "John 12:32"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "God so loved the world",
+    "body": "John 3:16 is perhaps the best-known verse in the Bible. The world here (kosmos) is often the rebellious world in John, which makes the love more startling: God gives his only Son to the world that rejects him.",
+    "refs": [
+     "1 John 4:9-10",
+     "Romans 5:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Night and light",
+    "body": "Nicodemus comes at night (3:2), and the chapter speaks of people loving darkness rather than light (3:19). He returns later, defending Jesus and finally helping bury him, moving into the light.",
+    "refs": [
+     "John 7:50-51",
+     "John 19:39"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The bridegroom's friend",
+    "body": "John the Baptist calls himself the friend of the bridegroom (3:29), who arranged the wedding and rejoiced to hear the groom's voice. His joy is to step aside: he must increase, but I must decrease (3:30).",
+    "refs": [
+     "Isaiah 62:5"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Coming at night",
+    "body": "Nicodemus was curious but careful, coming when no one would see. What questions about Jesus do you keep in the dark?",
+    "refs": []
+   }
+  ]
+ },
+ "4": {
+  "summary": "At Jacob's well Jesus offers living water to a Samaritan woman, reveals himself as the Messiah, and many Samaritans believe; then he heals an official's son from a distance.",
+  "lookfor": "Watch how the conversation moves from water to worship to the Messiah, and who the woman tells.",
+  "names": [
+   {
+    "name": "Sychar",
+    "kind": "place",
+    "gloss": "A Samaritan town near Jacob's well, by Mount Gerizim."
+   },
+   {
+    "name": "Jacob",
+    "kind": "person",
+    "gloss": "Israel's ancestor, who gave this land and well to his son Joseph."
+   },
+   {
+    "name": "Samaritans",
+    "kind": "group",
+    "gloss": "People of Samaria who worshiped at Mount Gerizim and kept only the five books of Moses."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Noon at the well",
+    "body": "The woman comes about the sixth hour, around noon (4:6), the hottest time, perhaps to avoid other women. A Jewish man speaking with a Samaritan woman and asking to drink from her jar broke several social rules at once (4:9).",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Living water",
+    "body": "Living water meant running water from a spring, better than a cistern (4:10). Jesus means a spring welling up to eternal life. Jeremiah called God the spring of living water his people had abandoned.",
+    "refs": [
+     "Jeremiah 2:13",
+     "Isaiah 55:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "This mountain",
+    "body": "The woman raises the old dispute: Samaritans worshiped on Mount Gerizim, Jews in Jerusalem (4:20). Jesus says the hour is coming when true worshipers will worship in spirit and truth, in neither place only.",
+    "refs": [
+     "Deuteronomy 11:29"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "I am he",
+    "body": "When the woman mentions the Messiah, Jesus says, \"I am he\" (4:26); the Greek is simply egō eimi, \"I am.\" It is the first of many \"I am\" sayings in John that echo God's name revealed to Moses.",
+    "refs": [
+     "Exodus 3:14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "She left her jar",
+    "body": "The woman leaves her water jar and goes back to tell the town (4:28). Many Samaritans believe because of her word, then because they hear Jesus themselves (4:39-42).",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Savior of the world",
+    "body": "The Samaritans call Jesus \"the Savior of the world\" (4:42). Outsiders, not his own people, give him this title, anticipating the mission to Samaria in Acts.",
+    "refs": [
+     "Acts 8:5-8"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Thirsty again",
+    "body": "Everyone who drinks this water will thirst again (4:13). What do you keep returning to that never quite satisfies?",
+    "refs": []
+   }
+  ]
+ },
+ "5": {
+  "summary": "Jesus heals a man who had been ill for thirty-eight years at the pool of Bethesda on the Sabbath, then defends his work as the Son doing what the Father does.",
+  "lookfor": "Notice why the leaders want to kill Jesus (5:18), and the list of witnesses he calls.",
+  "names": [
+   {
+    "name": "Bethesda",
+    "kind": "place",
+    "gloss": "A pool in Jerusalem near the Sheep Gate, surrounded by covered porches."
+   },
+   {
+    "name": "Moses",
+    "kind": "person",
+    "gloss": "Israel's lawgiver, whose writings Jesus says testify about him."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Five porches",
+    "body": "John describes a pool with five covered porches (5:2). Excavations near St Anne's Church in Jerusalem uncovered twin pools with colonnades, matching his description.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "The missing verse",
+    "body": "Verse 4, about an angel stirring the water, is absent from the earliest manuscripts, so many Bibles omit or bracket it. Verse 7 shows the popular belief that the first one in after the stirring was healed.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Do you want to be made well?",
+    "body": "Jesus asks a man ill for thirty-eight years if he wants to be well (5:6). The man answers with an excuse about having no one to help. Jesus heals him anyway with a word.",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "Equal with God",
+    "body": "Jesus defends healing on the Sabbath: my Father is still working, so I am working (5:17). The leaders understand him to be calling God his own Father and making himself equal with God (5:18).",
+    "refs": [
+     "Genesis 2:2-3"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Life and judgment",
+    "body": "The Father has given the Son authority to give life and to judge (5:21-27). Those who hear and believe already have eternal life and have passed from death to life (5:24).",
+    "refs": [
+     "Daniel 7:13-14",
+     "Daniel 12:2"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Moses wrote about me",
+    "body": "Jesus lists his witnesses: John, his works, the Father, the Scriptures, and finally Moses, who wrote about him (5:46). The leaders searched the Scriptures but missed the one they point to.",
+    "refs": [
+     "Deuteronomy 18:15"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Searching the Scriptures",
+    "body": "You search the Scriptures, Jesus says, yet you won't come to me (5:39-40). How can Bible reading become a way to meet Jesus rather than avoid him?",
+    "refs": []
+   }
+  ]
+ },
+ "6": {
+  "summary": "Jesus feeds five thousand, walks on the sea, and declares himself the bread of life; many disciples leave over his hard words, but Peter says they have nowhere else to go.",
+  "lookfor": "Watch how the crowd wants more bread, while Jesus offers himself as the bread from heaven.",
+  "names": [
+   {
+    "name": "Tiberias",
+    "kind": "place",
+    "gloss": "A city on the Sea of Galilee built by Herod Antipas; the lake was also named after it."
+   },
+   {
+    "name": "Simon",
+    "kind": "person",
+    "gloss": "Simon Peter; also the father of Judas Iscariot is named Simon."
+   },
+   {
+    "name": "Judas",
+    "kind": "person",
+    "gloss": "Judas Iscariot, one of the twelve, who would betray Jesus."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Barley loaves",
+    "body": "Only John says the boy's five loaves were barley (6:9), the bread of the poor. Elisha fed a hundred with twenty barley loaves; Jesus feeds thousands with five.",
+    "refs": [
+     "2 Kings 4:42-44"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Passover was near",
+    "body": "John notes that Passover was near (6:4). The feeding, the sea crossing and the talk of manna all echo the exodus.",
+    "refs": [
+     "Exodus 16:15"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "It is I",
+    "body": "Walking on the sea, Jesus says, \"It is I. Don't be afraid\" (6:20); the Greek is again egō eimi, \"I am.\" In the Old Testament, God alone treads on the waves.",
+    "refs": [
+     "Job 9:8",
+     "Exodus 3:14"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The true bread from heaven",
+    "body": "The crowd recalls the manna Moses gave; Jesus says the true bread from heaven is the one who comes down and gives life to the world (6:32-33). Then he says, \"I am the bread of life\" (6:35), the first of seven \"I am\" sayings with an image.",
+    "refs": [
+     "Exodus 16:4",
+     "Psalms 78:24"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Eat my flesh",
+    "body": "Jesus says that whoever eats his flesh and drinks his blood has eternal life (6:54). Catholic, Orthodox and many other traditions read this in the light of the Lord's Supper; others stress that it means believing in him. All agree it points to his self-giving death.",
+    "refs": [
+     "John 6:35",
+     "1 Corinthians 10:16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Many turned back",
+    "body": "Many disciples find the teaching too hard and leave (6:66). Jesus doesn't soften it; he asks the twelve whether they want to go too.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "To whom would we go?",
+    "body": "Peter answers, \"Lord, to whom would we go? You have the words of eternal life\" (6:68). When following Jesus is hard, what keeps you from leaving?",
+    "refs": []
+   }
+  ]
+ },
+ "7": {
+  "summary": "At the Feast of Tabernacles Jesus teaches in the temple amid argument about who he is, offers rivers of living water to the thirsty, and the leaders' attempt to arrest him fails.",
+  "lookfor": "Notice the crowd's arguments about where the Messiah comes from, and what Jesus cries out on the last day of the feast.",
+  "names": [
+   {
+    "name": "Nicodemus",
+    "kind": "person",
+    "gloss": "The Pharisee who visited Jesus at night, now defending fair hearing."
+   },
+   {
+    "name": "Bethlehem",
+    "kind": "place",
+    "gloss": "David's town, where the Messiah was expected to come from."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "The Feast of Tabernacles",
+    "body": "Tabernacles, or Booths, was an autumn harvest festival when people lived in shelters to remember the wilderness (7:2). It was one of the three pilgrim feasts, and Jerusalem filled with crowds.",
+    "refs": [
+     "Leviticus 23:34-43"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "His brothers didn't believe",
+    "body": "Jesus' brothers urge him to show himself publicly, for even they did not believe in him (7:5). After the resurrection his brother James became a leader of the Jerusalem church.",
+    "refs": [
+     "1 Corinthians 15:7",
+     "Acts 15:13"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Water poured out",
+    "body": "Each morning of the feast, priests carried water from the pool of Siloam and poured it at the altar, praying for rain. On the last great day Jesus stands and cries: if anyone is thirsty, come to me and drink (7:37).",
+    "refs": [
+     "Isaiah 12:3"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Rivers of living water",
+    "body": "Jesus promises rivers of living water flowing from within, and John explains he meant the Spirit (7:38-39). Ezekiel saw a river flowing from the temple bringing life wherever it went.",
+    "refs": [
+     "Ezekiel 47:1-9",
+     "Zechariah 14:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "No one ever spoke like this",
+    "body": "The officers sent to arrest Jesus come back empty-handed: no man ever spoke like this man (7:46). Nicodemus asks that Jesus get a fair hearing and is mocked (7:50-52).",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "A story in brackets",
+    "body": "The story of the woman caught in adultery (7:53–8:11) is missing from the earliest manuscripts and appears in different places in others. Many scholars consider it a genuine early tradition about Jesus added later; many Bibles bracket it.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "If anyone is thirsty",
+    "body": "Jesus' invitation is simple: come and drink. What are you thirsty for that only he can give?",
+    "refs": []
+   }
+  ]
+ },
+ "8": {
+  "summary": "Jesus forgives a woman caught in adultery, declares himself the light of the world, and in a sharp debate about Abraham claims, \"Before Abraham came into existence, I AM.\"",
+  "lookfor": "Watch how the argument about who are Abraham's true children builds to Jesus' final claim and the crowd picking up stones.",
+  "names": [
+   {
+    "name": "Abraham",
+    "kind": "person",
+    "gloss": "Father of the Jewish people, to whom God gave the covenant promises."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Writing in the dust",
+    "body": "Twice Jesus stoops and writes on the ground (8:6, 8:8). What he wrote is never told, and guesses are only guesses. His words turn the trap: let the one without sin throw the first stone (8:7).",
+    "refs": [
+     "Deuteronomy 17:6-7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Light of the world",
+    "body": "At the Feast of Tabernacles, great lamps were lit in the temple's Court of the Women and lit up the city. Jesus says, \"I am the light of the world\" (8:12), probably in the same court (8:20).",
+    "refs": [
+     "Isaiah 9:2",
+     "Exodus 13:21"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The truth will make you free",
+    "body": "Jesus says the truth will make them free (8:32). His hearers say they have never been slaves (8:33), forgetting Egypt and Rome. Jesus means slavery to sin, from which only the Son sets people free (8:36).",
+    "refs": [
+     "Romans 6:17-18"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Children of Abraham",
+    "body": "The crowd claims Abraham as father; Jesus says Abraham's true children would do what Abraham did (8:39). Paul makes a similar argument: Abraham's children are those who share his faith.",
+    "refs": [
+     "Galatians 3:7",
+     "Romans 4:16"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Before Abraham, I AM",
+    "body": "Jesus says, \"Before Abraham came into existence, I AM\" (8:58). He doesn't say \"I was,\" but uses the absolute \"I am,\" God's name from the burning bush. The crowd understands the claim and picks up stones (8:59).",
+    "refs": [
+     "Exodus 3:14",
+     "Isaiah 43:10"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Neither do I condemn you",
+    "body": "Jesus tells the woman, \"Neither do I condemn you. Go your way. From now on, sin no more\" (8:11). Mercy and a call to change come together. (The passage is bracketed in many Bibles; see chapter 7.)",
+    "refs": [
+     "John 3:17"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The first stone",
+    "body": "Everyone walks away, oldest first (8:9). When are you quick to judge someone for a sin you share in another form?",
+    "refs": []
+   }
+  ]
+ },
+ "9": {
+  "summary": "Jesus heals a man born blind; the Pharisees interrogate him and his parents, then throw him out, and the man comes to worship Jesus while the seeing leaders are called blind.",
+  "lookfor": "Follow the healed man's growing understanding of Jesus, and notice who ends up blind at the end.",
+  "names": [
+   {
+    "name": "Siloam",
+    "kind": "place",
+    "gloss": "A pool at the south end of Jerusalem fed by Hezekiah's tunnel."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Who sinned?",
+    "body": "The disciples assume the man's blindness is punishment for sin, his or his parents' (9:2). Jesus rejects that: it is so the works of God may be revealed in him (9:3).",
+    "refs": [
+     "Luke 13:2-5"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Mud and the potter",
+    "body": "Jesus makes mud and puts it on the man's eyes (9:6). Some early Christian writers recalled God forming Adam from the dust: the Creator is making a new creation. It may also simply mirror a common healing practice.",
+    "refs": [
+     "Genesis 2:7"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Siloam, Sent",
+    "body": "John translates Siloam as \"Sent\" (9:7). The man is sent to the pool named Sent, and John repeatedly calls Jesus the one sent by the Father.",
+    "refs": [
+     "John 5:36"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The pool found",
+    "body": "In 2004 workers in Jerusalem uncovered steps of a large pool from Jesus' time at the south end of the City of David, widely identified as the pool of Siloam.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "From a man to Lord",
+    "body": "Watch the man's titles for Jesus grow: \"a man called Jesus\" (9:11), \"a prophet\" (9:17), one from God (9:33), and finally \"Lord, I believe\" as he worships (9:38). His sight grows as the Pharisees' darkens.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Put out of the synagogue",
+    "body": "The parents fear being put out of the synagogue (9:22). Many scholars think this reflects tensions late in the first century, when followers of Jesus were excluded from some synagogues; others place it in Jesus' own time.",
+    "refs": [
+     "John 16:2"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "One thing I know",
+    "body": "The man can't win the theological debate, but he says, \"One thing I do know: that though I was blind, now I see\" (9:25). What has Jesus changed in you that you can simply tell?",
+    "refs": []
+   }
+  ]
+ },
+ "10": {
+  "summary": "Jesus describes himself as the gate for the sheep and the good shepherd who lays down his life, and at the Feast of Dedication says, \"I and the Father are one.\"",
+  "lookfor": "Notice the difference between the shepherd and the hired hand, and why the crowd again picks up stones.",
+  "names": [
+   {
+    "name": "Solomon",
+    "kind": "person",
+    "gloss": "Israel's king; a covered colonnade of the temple was named after him."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "The sheepfold",
+    "body": "Several flocks might share a walled fold at night, and each shepherd called his own sheep out by name (10:3). Sheep know their shepherd's voice and won't follow a stranger.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "The good shepherd",
+    "body": "\"I am the good shepherd\" (10:11) answers Ezekiel 34, where God condemns Israel's selfish shepherds and promises to shepherd his people himself, through a son of David.",
+    "refs": [
+     "Ezekiel 34:11-16",
+     "Ezekiel 34:23",
+     "Psalms 23:1"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Lays down his life",
+    "body": "The good shepherd lays down his life for the sheep (10:11), freely: no one takes it from him (10:18). The hired hand runs when the wolf comes because the sheep aren't his.",
+    "refs": [
+     "1 John 3:16"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Other sheep",
+    "body": "\"I have other sheep, which are not of this fold\" (10:16). Most readers take this as the Gentiles, who will join one flock under one shepherd.",
+    "refs": [
+     "Ephesians 2:14",
+     "Isaiah 56:8"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The Feast of Dedication",
+    "body": "The Feast of Dedication (10:22) is Hanukkah, celebrating the rededication of the temple in 164 BC after the Maccabees drove out the Seleucid king who had defiled it.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "I and the Father are one",
+    "body": "\"I and the Father are one\" (10:30). The word for one is neuter: one in nature or work, not one person. The crowd hears a claim to be God and reaches for stones (10:31-33).",
+    "refs": [
+     "Deuteronomy 6:4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Called by name",
+    "body": "The shepherd calls his own sheep by name (10:3). How does it change your faith to know Jesus calls you by name?",
+    "refs": []
+   }
+  ]
+ },
+ "11": {
+  "summary": "Jesus raises his friend Lazarus four days after death, telling Martha he is the resurrection and the life; the miracle leads the council to plot his death.",
+  "lookfor": "Notice why Jesus waits two days, what he says to Martha, and the high priest's unintended prophecy.",
+  "names": [
+   {
+    "name": "Lazarus",
+    "kind": "person",
+    "gloss": "Brother of Martha and Mary in Bethany, a close friend of Jesus."
+   },
+   {
+    "name": "Bethany",
+    "kind": "place",
+    "gloss": "A village on the Mount of Olives, about three kilometers from Jerusalem."
+   },
+   {
+    "name": "Thomas",
+    "kind": "person",
+    "gloss": "One of the twelve, also called Didymus, the Twin."
+   },
+   {
+    "name": "Caiaphas",
+    "kind": "person",
+    "gloss": "The high priest that year."
+   },
+   {
+    "name": "Ephraim",
+    "kind": "place",
+    "gloss": "A town near the wilderness, north of Jerusalem."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "He stayed two days",
+    "body": "Jesus loved Martha, Mary and Lazarus, so he stayed where he was two more days (11:5-6). John's \"so\" is startling: the delay is part of the love, leading to a greater sign.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Four days",
+    "body": "By the time Jesus arrives Lazarus has been dead four days (11:17). A later Jewish belief held that the soul lingered near the body for three days; after four, death was beyond doubt.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "The resurrection and the life",
+    "body": "Martha believes in the resurrection at the last day; Jesus says, \"I am the resurrection and the life\" (11:25). Resurrection isn't only a future event; it is a person standing in front of her.",
+    "refs": [
+     "Daniel 12:2"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Jesus wept",
+    "body": "\"Jesus wept\" (11:35), the shortest verse in most English Bibles. He knows he is about to raise Lazarus, yet he weeps with those who weep. The word for his deep anger and distress (11:33) suggests outrage at death itself.",
+    "refs": [
+     "Romans 12:15",
+     "Hebrews 4:15"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The sign that leads to the cross",
+    "body": "Raising Lazarus is the last and greatest sign, and it triggers the plot to kill Jesus (11:53). Giving life to his friend costs Jesus his own.",
+    "refs": [
+     "John 12:10-11"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "One man for the people",
+    "body": "Caiaphas argues it is better for one man to die than for the whole nation to perish (11:50). John says he unknowingly prophesied that Jesus would die for the nation, and to gather God's scattered children into one (11:51-52).",
+    "refs": [
+     "Isaiah 53:5-6"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Do you believe this?",
+    "body": "Jesus asks Martha, \"Do you believe this?\" (11:26). If he is the resurrection, what changes about the losses you face?",
+    "refs": []
+   }
+  ]
+ },
+ "12": {
+  "summary": "Mary anoints Jesus at Bethany, he rides into Jerusalem, Greeks ask to see him, and he speaks of his hour as a grain of wheat that must die; the chapter closes his public ministry.",
+  "lookfor": "Notice who asks to see Jesus, and how he responds by talking about his hour and a seed dying.",
+  "names": [
+   {
+    "name": "Mary",
+    "kind": "person",
+    "gloss": "Sister of Martha and Lazarus, who anoints Jesus."
+   },
+   {
+    "name": "Judas Iscariot",
+    "kind": "person",
+    "gloss": "The disciple who kept the money bag and would betray Jesus."
+   },
+   {
+    "name": "Greeks",
+    "kind": "group",
+    "gloss": "Gentiles who worshiped Israel's God and came up for the feast."
+   },
+   {
+    "name": "Isaiah",
+    "kind": "person",
+    "gloss": "The eighth-century BC prophet whose words John quotes."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "A pound of nard",
+    "body": "Mary pours a pound of pure nard, a perfume from the Himalayas, on Jesus' feet and wipes them with her hair (12:3). It was worth three hundred denarii, about a year's wages (12:5). Jesus says she kept it for his burial (12:7).",
+    "refs": [
+     "Mark 14:3-9"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Palm branches",
+    "body": "The crowd waves palm branches (12:13), a symbol of Jewish national victory since the Maccabees, and shouts from Psalm 118. Jesus answers by riding a young donkey, Zechariah's humble king.",
+    "refs": [
+     "Psalms 118:25-26",
+     "Zechariah 9:9"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The Greeks arrive",
+    "body": "Some Greeks ask Philip, \"Sir, we want to see Jesus\" (12:21). When Gentiles come seeking him, Jesus says the hour has come for the Son of Man to be glorified (12:23): the whole world is now in view.",
+    "refs": [
+     "John 10:16"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A grain of wheat",
+    "body": "Unless a grain of wheat falls into the earth and dies, it stays alone; if it dies, it bears much fruit (12:24). Jesus explains his death as a seed's death that produces a harvest.",
+    "refs": [
+     "1 Corinthians 15:36-37"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Lifted up, drawing all",
+    "body": "\"I, if I am lifted up from the earth, will draw all people to myself\" (12:32). John explains this means the kind of death he would die: lifted on a cross.",
+    "refs": [
+     "John 3:14"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Isaiah saw his glory",
+    "body": "John quotes Isaiah 53 and Isaiah 6 on unbelief, then says Isaiah said these things because he saw his glory (12:41), Jesus' glory. The vision of the Lord on the throne is read as a vision of Christ.",
+    "refs": [
+     "Isaiah 6:1-10",
+     "Isaiah 53:1"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Loving praise",
+    "body": "Some leaders believed but kept quiet, loving people's praise more than God's (12:42-43). Where does fear of others' opinion silence your faith?",
+    "refs": []
+   }
+  ]
+ },
+ "13": {
+  "summary": "At the last supper Jesus washes his disciples' feet, foretells his betrayal as Judas goes out into the night, gives the new commandment to love, and predicts Peter's denial.",
+  "lookfor": "Notice what Jesus knows before he picks up the towel (13:3), and the words \"it was night\" when Judas leaves.",
+  "names": [
+   {
+    "name": "Simon Peter",
+    "kind": "person",
+    "gloss": "Leader of the twelve, who resists having his feet washed."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "A slave's task",
+    "body": "Washing the feet of guests was a job for the lowest servant, and some Jewish teachers said even a Hebrew slave should not be made to do it. Jesus takes off his outer garment, wraps a towel around himself and washes his disciples' feet (13:4-5).",
+    "refs": [
+     "1 Samuel 25:41"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Knowing who he was",
+    "body": "John says Jesus knew the Father had given all things into his hands and that he came from God and was going to God, so he washed their feet (13:3-5). Knowing his greatness frees him to serve.",
+    "refs": [
+     "Philippians 2:5-8"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Unless I wash you",
+    "body": "Peter refuses, then asks for a full bath (13:8-9). Jesus says unless he washes him, Peter has no part with him: the washing pictures the cleansing only Jesus' death gives.",
+    "refs": [
+     "1 John 1:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "And it was night",
+    "body": "Judas takes the bread and goes out immediately, \"and it was night\" (13:30). In John, night is more than the time; Judas walks out of the light into darkness.",
+    "refs": [
+     "John 1:5",
+     "John 3:19"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A new commandment",
+    "body": "Love was commanded in the law (13:34); what is new is the measure: as I have loved you. The church's distinguishing mark is love for one another (13:35).",
+    "refs": [
+     "Leviticus 19:18",
+     "1 John 2:7-8"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The beloved disciple",
+    "body": "One disciple, \"whom Jesus loved,\" reclines next to him at the table (13:23). He is never named in John; tradition identifies him with John son of Zebedee, the source of this Gospel's witness.",
+    "refs": [
+     "John 21:20-24"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Washing feet today",
+    "body": "Jesus says, \"You also ought to wash one another's feet\" (13:14). What humble, unseen act of service is he asking of you?",
+    "refs": []
+   }
+  ]
+ },
+ "14": {
+  "summary": "Jesus comforts his troubled disciples: he goes to prepare a place, he is the way, the truth and the life, the Father is seen in him, and he will send the Holy Spirit and leave them his peace.",
+  "lookfor": "Notice the questions Thomas, Philip and Judas ask, and the name Jesus gives the Spirit.",
+  "names": [
+   {
+    "name": "Thomas",
+    "kind": "person",
+    "gloss": "One of the twelve, who asks how they can know the way."
+   },
+   {
+    "name": "Philip",
+    "kind": "person",
+    "gloss": "One of the twelve, who asks to be shown the Father."
+   },
+   {
+    "name": "Judas",
+    "kind": "person",
+    "gloss": "Not Iscariot: another disciple of that name, probably Thaddaeus in other lists."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Many rooms",
+    "body": "\"In my Father's house are many homes\" (14:2). Some see the picture of a family house where a groom added rooms for his bride; others recall the temple's many rooms. Either way, there is room for them with the Father.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "The way, the truth and the life",
+    "body": "Thomas asks how they can know the way; Jesus answers, \"I am the way, the truth, and the life. No one comes to the Father, except through me\" (14:6). The early church was simply called \"the Way.\"",
+    "refs": [
+     "Acts 9:2",
+     "Acts 24:14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Show us the Father",
+    "body": "Philip asks to see the Father; Jesus says whoever has seen him has seen the Father (14:9). Moses asked to see God's glory and was shown only his back; now God is seen in a face.",
+    "refs": [
+     "Exodus 33:18-23",
+     "John 1:18"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Another Counselor",
+    "body": "Jesus promises another Counselor (14:16), the Greek paraklētos: one called alongside, a helper, advocate or comforter. \"Another\" means one like Jesus himself, who will be with them forever.",
+    "refs": [
+     "1 John 2:1"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Father, Son and Spirit",
+    "body": "In this chapter the Father sends, the Son asks, and the Spirit comes and teaches (14:16, 14:26). Passages like this shaped the church's later teaching on the Trinity, worked out at Nicaea and Constantinople.",
+    "refs": [
+     "Matthew 28:19"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Peace I leave",
+    "body": "\"Peace I leave with you. My peace I give to you; not as the world gives\" (14:27). Shalom was the common greeting; Jesus gives it as a farewell gift, as his own peace.",
+    "refs": [
+     "Numbers 6:26",
+     "Philippians 4:7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Let not your heart be troubled",
+    "body": "Jesus says this on the night of his betrayal, when he had every reason to be troubled himself (14:1). What troubles your heart that you need to hand to him?",
+    "refs": []
+   }
+  ]
+ },
+ "15": {
+  "summary": "Jesus calls himself the true vine and his disciples the branches, calls them friends, commands them to love one another, and warns that the world will hate them as it hated him.",
+  "lookfor": "Count how often Jesus says \"remain,\" and notice what he now calls his disciples instead of servants.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "The true vine",
+    "body": "Israel was often pictured as God's vine or vineyard, frequently one that failed to bear fruit. \"I am the true vine\" (15:1): Jesus is the faithful Israel, and his followers bear fruit by being joined to him.",
+    "refs": [
+     "Isaiah 5:1-7",
+     "Psalms 80:8-16",
+     "Jeremiah 2:21"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Remain",
+    "body": "The Greek menō, remain or abide, appears about ten times in 15:4-10. Fruit doesn't come from effort alone but from staying connected: apart from me you can do nothing (15:5).",
+    "refs": [
+     "1 John 2:28"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Pruning",
+    "body": "Vinedressers cut away dead wood and also prune fruitful branches so they bear more (15:2). The pruning of fruitful branches is painful but purposeful.",
+    "refs": [
+     "Hebrews 12:11"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "No longer servants but friends",
+    "body": "Jesus calls his disciples friends, because he has told them everything he heard from the Father (15:15). Abraham was called God's friend; now all disciples are.",
+    "refs": [
+     "Isaiah 41:8",
+     "James 2:23"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Greater love",
+    "body": "\"Greater love has no one than this, that someone lay down his life for his friends\" (15:13). Jesus says this hours before doing it.",
+    "refs": [
+     "Romans 5:7-8"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Hated without a cause",
+    "body": "The world will hate the disciples as it hated Jesus (15:18). He quotes a psalm, \"They hated me without a cause\" (15:25), applying David's lament to himself.",
+    "refs": [
+     "Psalms 69:4",
+     "Psalms 35:19"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Fruit that remains",
+    "body": "Jesus chose them to bear fruit that remains (15:16). What in your life now will still matter in fifty years?",
+    "refs": []
+   }
+  ]
+ },
+ "16": {
+  "summary": "Jesus warns of coming persecution, explains that the Spirit will convict the world and guide them into truth, and promises that their grief will turn to joy like a mother after birth.",
+  "lookfor": "Notice why Jesus says it is good for them that he leaves, and the picture of the woman in labor.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Better that I go",
+    "body": "Jesus says it is to their advantage that he goes away, because then the Counselor will come (16:7). The Spirit's presence everywhere is better than Jesus' bodily presence in one place.",
+    "refs": [
+     "Acts 2:33"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Sin, righteousness, judgment",
+    "body": "The Spirit will convict the world about sin, righteousness and judgment (16:8-11): sin in not believing, righteousness shown by Jesus going to the Father, judgment because the ruler of this world is already condemned.",
+    "refs": [
+     "John 12:31"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Into all truth",
+    "body": "The Spirit will guide them into all the truth (16:13), not speaking on his own but taking what is Jesus' and declaring it. The apostles' teaching, later written, is seen as the fruit of this promise.",
+    "refs": [
+     "John 14:26",
+     "2 Timothy 3:16"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A woman in labor",
+    "body": "Jesus compares their coming grief to a woman in labor, whose pain gives way to joy at the birth (16:21). The prophets used labor pains for the trouble before God's new age.",
+    "refs": [
+     "Isaiah 26:17-19",
+     "Isaiah 66:7-9"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "In my name",
+    "body": "Jesus says the Father will give whatever they ask in his name (16:23-24). To ask in Jesus' name is to ask as his representative, for what he would want, not to add a magic formula.",
+    "refs": [
+     "1 John 5:14"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "I have overcome the world",
+    "body": "The farewell discourse ends: in the world you have trouble, but cheer up, I have overcome the world (16:33). He says this before the cross, as if it had already happened.",
+    "refs": [
+     "1 John 5:4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Joy no one can take",
+    "body": "Jesus promises a joy no one will take away (16:22). How is that different from the happiness circumstances give and take?",
+    "refs": []
+   }
+  ]
+ },
+ "17": {
+  "summary": "Jesus prays to the Father: for his own glorification, for his disciples to be kept and made holy in the truth, and for all who will believe through them to be one.",
+  "lookfor": "Notice the three groups Jesus prays for, and what he says eternal life is (17:3).",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "The high-priestly prayer",
+    "body": "Since the sixteenth century this chapter has been called Jesus' high-priestly prayer: like the high priest, he intercedes for his people before offering himself. It is the longest prayer of Jesus recorded.",
+    "refs": [
+     "Hebrews 7:25"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "What eternal life is",
+    "body": "Jesus defines eternal life as knowing the only true God and Jesus Christ whom he sent (17:3). It is a relationship that begins now, not only endless time later.",
+    "refs": [
+     "Jeremiah 9:23-24"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Sanctify them",
+    "body": "\"Sanctify them in your truth. Your word is truth\" (17:17). To sanctify is to set apart for God; Jesus sets himself apart (17:19) so that they may be set apart too.",
+    "refs": [
+     "Leviticus 20:7"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "In the world, not of it",
+    "body": "Jesus doesn't pray for his followers to be taken out of the world but to be kept from the evil one (17:15). They are sent into the world as he was sent (17:18).",
+    "refs": [
+     "John 20:21"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "That they may be one",
+    "body": "Jesus prays for all who will believe through the apostles' word, that they may be one as the Father and Son are one, so that the world may believe (17:20-21). This prayer has shaped Christian efforts at unity across traditions.",
+    "refs": [
+     "Ephesians 4:3-6"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The glory before the world",
+    "body": "Jesus asks to be glorified with the glory he had with the Father before the world existed (17:5), returning to the opening of the Gospel: the Word with God in the beginning.",
+    "refs": [
+     "John 1:1",
+     "Philippians 2:6-11"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Prayed for",
+    "body": "Jesus prayed for those who would believe through the disciples' message (17:20), and that includes you. How does it feel to know you were in his prayer that night?",
+    "refs": []
+   }
+  ]
+ },
+ "18": {
+  "summary": "Jesus is arrested in a garden, questioned by Annas while Peter denies him three times, and brought to Pilate, who asks whether he is a king and what truth is.",
+  "lookfor": "Notice what happens when Jesus says \"I am he\" to the soldiers, and Pilate's question about truth.",
+  "names": [
+   {
+    "name": "Kidron",
+    "kind": "place",
+    "gloss": "A valley east of Jerusalem between the city and the Mount of Olives."
+   },
+   {
+    "name": "Malchus",
+    "kind": "person",
+    "gloss": "The high priest's servant whose ear Peter cut off."
+   },
+   {
+    "name": "Annas",
+    "kind": "person",
+    "gloss": "A former high priest, father-in-law of Caiaphas, still powerful."
+   },
+   {
+    "name": "Caiaphas",
+    "kind": "person",
+    "gloss": "The serving high priest."
+   },
+   {
+    "name": "Pilate",
+    "kind": "person",
+    "gloss": "Pontius Pilate, Roman governor of Judea."
+   },
+   {
+    "name": "Barabbas",
+    "kind": "person",
+    "gloss": "A prisoner John calls a robber, released instead of Jesus."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "They fell to the ground",
+    "body": "When Jesus says \"I am he\" to the arresting party, they draw back and fall to the ground (18:6). The same words, egō eimi, carry divine weight. Jesus isn't captured; he gives himself up.",
+    "refs": [
+     "John 8:58",
+     "John 10:18"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A garden",
+    "body": "John alone calls the place of arrest a garden (18:1), and Jesus is buried in a garden too (19:41). Some readers see an echo of Eden: what was lost in a garden is won back in one.",
+    "refs": [
+     "Genesis 3:23-24"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A charcoal fire",
+    "body": "Peter warms himself at a charcoal fire as he denies Jesus (18:18). The only other charcoal fire in the New Testament is by the lake in chapter 21, where the risen Jesus restores him.",
+    "refs": [
+     "John 21:9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Not entering the governor's house",
+    "body": "The leaders won't enter Pilate's headquarters so they won't be defiled before eating the Passover (18:28). John notes the irony: careful about ritual purity while seeking an innocent man's death.",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "My kingdom is not of this world",
+    "body": "Jesus tells Pilate, \"My Kingdom is not of this world\" (18:36). He doesn't mean it is unreal or only spiritual, but that it doesn't come from or work by this world's power; otherwise his servants would fight.",
+    "refs": [
+     "Daniel 2:44"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "What is truth?",
+    "body": "Jesus says he came to testify to the truth; Pilate replies, \"What is truth?\" (18:38) and walks out without an answer. The reader knows the answer is standing before him.",
+    "refs": [
+     "John 14:6"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Standing by the fire",
+    "body": "Peter stays near Jesus but blends in with the crowd at the fire. Where are you tempted to stay close to Jesus without being known as his?",
+    "refs": []
+   }
+  ]
+ },
+ "19": {
+  "summary": "Pilate has Jesus flogged and mocked, then hands him over to be crucified; Jesus entrusts his mother to the beloved disciple, says \"It is finished,\" and is buried by Joseph and Nicodemus.",
+  "lookfor": "Notice the sign over the cross in three languages, and the words Jesus speaks before he dies.",
+  "names": [
+   {
+    "name": "Gabbatha",
+    "kind": "place",
+    "gloss": "Aramaic name for the stone pavement where Pilate judged."
+   },
+   {
+    "name": "Golgotha",
+    "kind": "place",
+    "gloss": "Aramaic for Place of a Skull, outside the city walls."
+   },
+   {
+    "name": "Clopas",
+    "kind": "person",
+    "gloss": "Husband of one of the Marys at the cross."
+   },
+   {
+    "name": "Magdalene",
+    "kind": "person",
+    "gloss": "Mary Magdalene, a follower of Jesus and first witness of the resurrection."
+   },
+   {
+    "name": "Arimathaea",
+    "kind": "place",
+    "gloss": "Hometown of Joseph, a secret disciple who buried Jesus."
+   },
+   {
+    "name": "Nicodemus",
+    "kind": "person",
+    "gloss": "The Pharisee who first came by night, now openly helping with the burial."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "The sixth hour",
+    "body": "John says it was about the sixth hour, noon, on the day of preparation for the Passover when Pilate handed Jesus over (19:14), the time when Passover lambs began to be slaughtered in the temple. Mark gives a different hour, and scholars discuss how the two timings relate.",
+    "refs": [
+     "Mark 15:25",
+     "Exodus 12:6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "We have no king but Caesar",
+    "body": "The chief priests say, \"We have no king but Caesar!\" (19:15). Leaders of the nation that confessed God as its king now confess Rome's emperor.",
+    "refs": [
+     "1 Samuel 8:7",
+     "Judges 8:23"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "In three languages",
+    "body": "Pilate's sign, Jesus of Nazareth, the King of the Jews, was written in Hebrew, Latin and Greek (19:20): the languages of worship, empire and culture. The whole world is told who he is.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Lots for his clothing",
+    "body": "The soldiers cast lots for Jesus' seamless tunic (19:23-24), fulfilling Psalm 22, the psalm that begins \"My God, my God, why have you forsaken me?\"",
+    "refs": [
+     "Psalms 22:18",
+     "Psalms 22:1"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "It is finished",
+    "body": "Jesus' last word is a single Greek word, tetelestai (19:30): it is finished, completed, accomplished. The work the Father gave him is done.",
+    "refs": [
+     "John 17:4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Not a bone broken",
+    "body": "The soldiers don't break Jesus' legs (19:33), and John sees fulfilled the rule that no bone of the Passover lamb be broken. Blood and water flow from his pierced side, fulfilling Zechariah: they will look on him whom they pierced (19:36-37).",
+    "refs": [
+     "Exodus 12:46",
+     "Zechariah 12:10"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Secret disciples",
+    "body": "Joseph had been a secret disciple out of fear, and Nicodemus came by night; at the cross both come into the open (19:38-39). What would make you step out of the shadows?",
+    "refs": []
+   }
+  ]
+ },
+ "20": {
+  "summary": "Mary Magdalene finds the tomb empty; Peter and the beloved disciple see the grave clothes; the risen Jesus meets Mary in the garden, appears to the disciples, and then to doubting Thomas.",
+  "lookfor": "Notice when Mary recognizes Jesus, and Thomas's confession, the climax of the Gospel.",
+  "names": [
+   {
+    "name": "Mary Magdalene",
+    "kind": "person",
+    "gloss": "The first person to see the risen Jesus."
+   },
+   {
+    "name": "Didymus",
+    "kind": "person",
+    "gloss": "Greek for the Twin, Thomas's other name."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "The grave clothes",
+    "body": "The linen cloths lie there, and the face cloth is rolled up in a place by itself (20:6-7). Grave robbers would hardly unwrap a body and leave the cloths neatly. The beloved disciple sees and believes (20:8).",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "She thought he was the gardener",
+    "body": "Mary mistakes Jesus for the gardener (20:15) and recognizes him only when he says her name (20:16), just as the good shepherd calls his sheep by name.",
+    "refs": [
+     "John 10:3"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Apostle to the apostles",
+    "body": "Jesus sends Mary to tell the disciples (20:17), and she goes and tells them that she has seen the Lord (20:18). Early church writers called her the apostle to the apostles.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "He breathed on them",
+    "body": "Jesus breathes on the disciples and says, \"Receive the Holy Spirit!\" (20:22). The same verb is used in the Greek Old Testament when God breathes life into Adam: a new creation begins.",
+    "refs": [
+     "Genesis 2:7",
+     "Ezekiel 37:9"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "My Lord and my God",
+    "body": "Thomas, who demanded proof, makes the fullest confession in the Gospels: \"My Lord and my God!\" (20:28). The Gospel that opened with the Word who was God ends its main story with a disciple saying so to Jesus' face.",
+    "refs": [
+     "John 1:1",
+     "Psalms 35:23"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why this book was written",
+    "body": "John says Jesus did many other signs, but these are written so that readers may believe and have life in his name (20:30-31). The purpose of the whole Gospel is stated here.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Blessed are those who haven't seen",
+    "body": "Jesus says to Thomas, \"Blessed are those who have not seen, and have believed\" (20:29). That includes every reader since. What helps you believe without seeing?",
+    "refs": [
+     "1 Peter 1:8"
+    ]
+   }
+  ]
+ },
+ "21": {
+  "summary": "By the Sea of Tiberias the risen Jesus gives the disciples a great catch, eats breakfast with them, restores Peter with three questions of love, and speaks of Peter's death and the beloved disciple.",
+  "lookfor": "Count Jesus' three questions to Peter and compare them with Peter's three denials.",
+  "names": [
+   {
+    "name": "Tiberias",
+    "kind": "place",
+    "gloss": "Another name for the Sea of Galilee."
+   },
+   {
+    "name": "Nathanael",
+    "kind": "person",
+    "gloss": "A disciple from Cana in Galilee."
+   },
+   {
+    "name": "Zebedee",
+    "kind": "person",
+    "gloss": "Father of the disciples James and John."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "One hundred fifty-three",
+    "body": "The net holds 153 large fish and doesn't tear (21:11). Readers since Jerome have suggested symbolic meanings, such as all the kinds of fish then known, picturing a mission to all nations; it may simply be an eyewitness's count.",
+    "refs": [
+     "Matthew 13:47"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Breakfast on a charcoal fire",
+    "body": "Jesus has a charcoal fire burning with fish and bread (21:9). The last charcoal fire was where Peter denied him (18:18). The scene of failure becomes the scene of restoration.",
+    "refs": [
+     "John 18:18"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Do you love me?",
+    "body": "Jesus asks Peter three times if he loves him (21:15-17). The Greek alternates two verbs for love, agapaō and phileō; some see a significant difference, while many scholars think John is simply varying his words. The threefold question matches the threefold denial.",
+    "refs": [
+     "John 13:38"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Feed my sheep",
+    "body": "Jesus answers each of Peter's replies with a task: feed my lambs, shepherd my sheep (21:15-17). The good shepherd entrusts his flock to the one who failed him. Peter later urges church leaders to shepherd God's flock.",
+    "refs": [
+     "1 Peter 5:2",
+     "John 10:11"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Stretch out your hands",
+    "body": "Jesus says that when Peter is old, others will stretch out his hands and lead him where he doesn't want to go (21:18-19), indicating the death by which he would glorify God. Early tradition says Peter was crucified in Rome under Nero.",
+    "refs": [
+     "2 Peter 1:14"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The beloved disciple's witness",
+    "body": "The Gospel ends by naming the beloved disciple as the one who testifies and wrote these things, and adds \"we know that his witness is true\" (21:24). The world itself could not contain all the books if everything were written (21:25).",
+    "refs": [
+     "John 19:35"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "What is that to you?",
+    "body": "When Peter asks about the other disciple's future, Jesus says, \"What is that to you? You follow me\" (21:22). Where do you compare your path with someone else's instead of following?",
+    "refs": []
+   }
+  ]
+ },
+ "intro": {
+  "who": "Church tradition from Irenaeus in the second century names John, son of Zebedee, the disciple whom Jesus loved (21:20-24). Many modern scholars see that beloved disciple as the source of the witness, with his followers shaping the final text.",
+  "when": "Most scholars date it to about AD 90–100, making it the last of the four Gospels; a minority argue for an earlier date. It covers Jesus' ministry over about three Passovers.",
+  "why": "John says he chose these signs so that readers would believe that Jesus is the Christ, the Son of God, and have life in his name (20:31).",
+  "outline": [
+   {
+    "chapters": "1",
+    "title": "The Word made flesh"
+   },
+   {
+    "chapters": "2–12",
+    "title": "Signs and conflict"
+   },
+   {
+    "chapters": "13–17",
+    "title": "The last evening"
+   },
+   {
+    "chapters": "18–19",
+    "title": "Trial and cross"
+   },
+   {
+    "chapters": "20–21",
+    "title": "Risen"
+   }
+  ],
+  "verse": "John 20:31"
+ }
+}
