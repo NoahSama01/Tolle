@@ -1,0 +1,1412 @@
+{
+ "1": {
+  "summary": "Yahweh tells Hosea to marry Gomer, an unfaithful woman, and to give their three children names announcing judgment on Israel, before promising that those names will one day be reversed.",
+  "lookfor": "Pay attention to the meaning of each child's name and to how the last two verses turn those names around.",
+  "names": [
+   {
+    "name": "Hosea",
+    "kind": "person",
+    "gloss": "The prophet; his name means salvation, the same root as Joshua and Jesus."
+   },
+   {
+    "name": "Jeroboam",
+    "kind": "person",
+    "gloss": "Jeroboam II, a powerful and prosperous king of Israel from about 786 to 746 BC."
+   },
+   {
+    "name": "Gomer",
+    "kind": "person",
+    "gloss": "Hosea's wife."
+   },
+   {
+    "name": "Diblaim",
+    "kind": "person",
+    "gloss": "Gomer's father, or possibly her home town."
+   },
+   {
+    "name": "Jezreel",
+    "kind": "place",
+    "gloss": "A royal city and fertile valley in northern Israel, also the name of Hosea's first son."
+   },
+   {
+    "name": "Jehu",
+    "kind": "person",
+    "gloss": "The army commander who seized Israel's throne in a bloody coup about 841 BC; Jeroboam II was his great-grandson."
+   },
+   {
+    "name": "Lo-Ruhamah",
+    "kind": "person",
+    "gloss": "Hosea's daughter, whose name means not pitied or no mercy."
+   },
+   {
+    "name": "Lo-Ammi",
+    "kind": "person",
+    "gloss": "Hosea's second son, whose name means not my people."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Prosperity before the fall",
+    "body": "Hosea began speaking under Jeroboam II (1:1), when Israel was wealthy and secure. Within a few years of Jeroboam's death, four of the next six kings were assassinated and Assyria began swallowing the kingdom. The kings of Judah listed in 1:1 show the book was framed for readers in the south after Samaria fell.",
+    "refs": [
+     "2 Kings 14:23-29",
+     "2 Kings 15:8-31"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "A wife of prostitution?",
+    "body": "Readers have long debated the command to take a wife of prostitution (1:2). Some take it literally; some, including the medieval Jewish scholars Ibn Ezra and Maimonides, read it as a vision or parable; many think Gomer became unfaithful later and Hosea describes her in hindsight. Each view tries to take seriously a God who asks the prophet to live out the message in his own household. How does the prophet's own pain change the way the message lands?",
+    "refs": [
+     "Hosea 3:1"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The blood of Jezreel",
+    "body": "Jezreel was where Jehu killed King Joram, Jezebel and the royal family, a coup the prophets had backed. Hosea now announces judgment on Jehu's dynasty for that bloodshed (1:4). Jeroboam II's son Zechariah, the last of Jehu's line, was assassinated after six months.",
+    "refs": [
+     "2 Kings 9:24-37",
+     "2 Kings 10:11",
+     "2 Kings 15:8-12"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Not my people",
+    "body": "The third child's name ends with a sharp reversal: I will not be yours (1:9), literally I will not be I AM to you. The Hebrew ehyeh echoes the name God revealed to Moses at the burning bush. The covenant formula, you are my people and I am your God, is being undone.",
+    "refs": [
+     "Exodus 3:14",
+     "Exodus 6:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Is he the father?",
+    "body": "The text says Gomer bore him a son (1:3), but for the next two children it says only that she conceived and bore (1:6, 1:8). Many readers take the silence as a hint that Hosea was not their father, which would fit the names. Others think too much is being read into it.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Mercy for Judah",
+    "body": "Judah is spared, and saved not by bow, sword or horses (1:7). Many scholars think this verse was added for Judean readers, perhaps recalling Jerusalem's deliverance from Sennacherib in 701 BC. Either way, it insists rescue comes from Yahweh, not military power.",
+    "refs": [
+     "2 Kings 19:35"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Sons of the living God",
+    "body": "The promise that those called not my people will be called sons of the living God (1:10) is quoted by Paul and echoed in 1 Peter. Both apply it to Gentiles brought into God's people as well as to Israel. It shows how early Christians read Hosea's hope as wider than the northern tribes.",
+    "refs": [
+     "Romans 9:25-26",
+     "1 Peter 2:10"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "As the sand of the sea",
+    "body": "The promise of descendants as countless as the sand (1:10) is the promise to Abraham and Jacob. Hosea's reunited Israel and Judah under one head (1:11) also looks back to the united kingdom of David. Judgment does not cancel God's oldest promises.",
+    "refs": [
+     "Genesis 22:17",
+     "Genesis 32:12",
+     "Ezekiel 37:22"
+    ]
+   }
+  ]
+ },
+ "2": {
+  "summary": "Yahweh speaks as a wronged husband who will strip his unfaithful wife Israel of the gifts she credited to Baal, then woo her back in the wilderness and betroth her to himself forever.",
+  "lookfor": "Trace the three therefores (2:6, 2:9, 2:14) and notice how the last one turns from punishment to courtship, and which gifts Israel thought came from her lovers.",
+  "names": [
+   {
+    "name": "Baal",
+    "kind": "person",
+    "gloss": "The Canaanite storm god, worshipped as giver of rain and fertility."
+   },
+   {
+    "name": "Achor",
+    "kind": "place",
+    "gloss": "A valley near Jericho, named trouble after Achan's sin in Joshua's day."
+   },
+   {
+    "name": "Jezreel",
+    "kind": "person",
+    "gloss": "Hosea's son, here a name for Israel; it means God sows."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Who gives the rain?",
+    "body": "In Canaanite religion Baal was the storm god whose rain made grain, wine and oil grow. Israel had credited Baal with gifts that Yahweh had given (2:8). Hosea's charge is not only that Israel worshipped other gods but that it misread where its harvests came from.",
+    "refs": [
+     "1 Kings 18:21-39",
+     "Deuteronomy 11:13-17"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A troubling image",
+    "body": "The threats to strip the wife naked and expose her (2:3, 2:10) draw on ancient punishments for adultery and are hard to read today. The wife stands for the nation and the stripping for the loss of harvests and land, but many readers, including some feminist scholars, have warned that the metaphor can be misused to excuse abuse. The chapter itself moves beyond punishment toward tenderness and a new covenant.",
+    "refs": [
+     "Ezekiel 16:37-39"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Hedged in with thorns",
+    "body": "Yahweh's first move is to block the way so that the wife cannot reach her lovers (2:6-7). Frustration becomes the means by which she remembers her first husband. The punishment aims at return, not destruction.",
+    "refs": [
+     "Lamentations 3:7-9"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Back to the wilderness",
+    "body": "God will lead Israel into the wilderness and speak tenderly to her (2:14), as in the days of her youth when she came out of Egypt (2:15). Jeremiah also remembers the wilderness as Israel's honeymoon. The valley of Achor, once a place of trouble, becomes a door of hope.",
+    "refs": [
+     "Jeremiah 2:2",
+     "Joshua 7:24-26",
+     "Isaiah 65:10"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "My husband, not my master",
+    "body": "In Hebrew, baal is an ordinary word for master or husband as well as the god's name. Israel will call Yahweh ishi, my husband, and no longer baali, my master (2:16), and the names of the Baals will be forgotten (2:17). The pun separates covenant love from ownership and from Baal alike.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "The bride price",
+    "body": "Betrothal involved a payment from the groom to the bride's family. Yahweh pays with righteousness, justice, loving kindness, compassion and faithfulness (2:19-20). Observant Jewish men recite these verses each weekday while winding the strap of the tefillin around the finger.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Jezreel answered",
+    "body": "The chapter ends by reversing the children's names from chapter 1. Jezreel means God sows, so the name of judgment becomes a promise of planting (2:22-23); she who had no mercy receives mercy, and not my people becomes my people. Heaven, earth and harvest answer one another in a chain (2:21-22).",
+    "refs": [
+     "Hosea 1:4-9"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "And you shall know Yahweh",
+    "body": "The betrothal ends with you shall know Yahweh (2:20). In Hebrew, knowing can mean personal, intimate relationship, not only information. What would it mean for a whole people to know God in the way a spouse is known?",
+    "refs": [
+     "Jeremiah 31:34"
+    ]
+   }
+  ]
+ },
+ "3": {
+  "summary": "Yahweh tells Hosea to love an adulterous woman again; he buys her back and places her under discipline, a picture of Israel living many days without king or sacrifice before returning to God.",
+  "lookfor": "Notice the word love in the opening command, the price Hosea pays, and the list of things Israel will live without.",
+  "names": [
+   {
+    "name": "David",
+    "kind": "person",
+    "gloss": "Israel's great king, here a figure for the future king from his line."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "In the first person",
+    "body": "Chapter 1 told Hosea's story in the third person; here Hosea speaks for himself (3:1). The woman is not named. Most readers assume she is Gomer, though some think this is a different woman or a retelling of the first marriage.",
+    "refs": [
+     "Hosea 1:2-3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Love her again",
+    "body": "The command is not merely to take her back but to love her, even as Yahweh loves Israel though they turn to other gods (3:1). The verse uses love four times. Hosea's love is meant to mirror God's own.",
+    "refs": [
+     "Hosea 11:1-4"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Fifteen pieces of silver and barley",
+    "body": "Hosea pays part in silver and part in barley (3:2), which may suggest he could not raise the sum in cash. Some estimate the total at about thirty shekels, the price of a slave in the law of Moses, though that is uncertain. We are not told whether he was paying a debt, a slave price or a bride price.",
+    "refs": [
+     "Exodus 21:32"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Cakes of raisins",
+    "body": "Raisin cakes (3:1) were a festive food, but here they seem tied to worship of other gods, perhaps offerings at harvest celebrations. Jeremiah describes cakes baked for the queen of heaven. The detail shows how idolatry was woven into ordinary feasting.",
+    "refs": [
+     "Jeremiah 7:18",
+     "2 Samuel 6:19"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Without king or sacrifice",
+    "body": "Israel will live many days without king, prince, sacrifice, sacred stone, ephod or idols (3:4). The list mixes legitimate and illegitimate things: both the state and its corrupted worship will be stripped away. This came true when Assyria ended the northern kingdom in 722 BC.",
+    "refs": [
+     "2 Kings 17:6",
+     "Judges 17:5"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "David their king",
+    "body": "Israel will return and seek Yahweh and David their king (3:5), long after David's death. The prophets used David's name for a future ruler from his line, and the ancient Aramaic Targum reads this verse as the Messiah son of David. Christians have read it as fulfilled in Jesus.",
+    "refs": [
+     "Jeremiah 30:9",
+     "Ezekiel 34:23-24",
+     "Ezekiel 37:24"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Discipline then return",
+    "body": "The woman must wait many days, and so must Israel (3:3-4). This short chapter compresses the book's pattern: unfaithfulness, a costly redemption, a time of discipline, and a return in the last days (3:5). It speaks to the whole later story of exile and hope.",
+    "refs": [
+     "Deuteronomy 4:29-31"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "With trembling",
+    "body": "Israel will come with trembling to Yahweh and to his goodness (3:5). Why might restored people approach God with fear and trembling rather than simple relief? The same note of awe at undeserved kindness appears in a psalm about forgiveness.",
+    "refs": [
+     "Psalms 130:4"
+    ]
+   }
+  ]
+ },
+ "4": {
+  "summary": "Yahweh brings a charge against Israel: there is no faithfulness or knowledge of God, the priests have failed, and the people seek guidance from wooden idols and hilltop shrines.",
+  "lookfor": "Listen for the legal language at the start, the commandments that echo in 4:2, and how much of the blame falls on the priests.",
+  "names": [
+   {
+    "name": "Gilgal",
+    "kind": "place",
+    "gloss": "An old sanctuary near Jericho, by Hosea's time a centre of corrupt worship."
+   },
+   {
+    "name": "Beth Aven",
+    "kind": "place",
+    "gloss": "House of wickedness, Hosea's mocking name for Bethel, house of God, the royal sanctuary of Israel."
+   },
+   {
+    "name": "Ephraim",
+    "kind": "group",
+    "gloss": "Israel's largest northern tribe, used by Hosea as a name for the whole northern kingdom."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "A lawsuit",
+    "body": "Yahweh has a charge, Hebrew riv, against the land (4:1), the word for a legal case. Prophets often present God as bringing a covenant lawsuit, with Israel as defendant and creation as witness. The charge is the absence of truth, goodness and knowledge of God.",
+    "refs": [
+     "Micah 6:1-2",
+     "Isaiah 1:2"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The commandments broken",
+    "body": "Cursing, lying, murder, stealing and adultery (4:2) closely follow the Ten Commandments. Jeremiah makes the same list against Jerusalem. Hosea is one of the earliest prophets to echo the Decalogue so directly.",
+    "refs": [
+     "Exodus 20:13-16",
+     "Jeremiah 7:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The land mourns",
+    "body": "Human sin causes the land, animals, birds and even fish to waste away (4:3). The list reverses the order of creation in Genesis 1. In the Bible, unfaithfulness to God damages the whole created order, not just human souls.",
+    "refs": [
+     "Genesis 1:20-26",
+     "Jeremiah 4:23-28"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Like people, like priest",
+    "body": "The priests were supposed to teach the law, but they have forgotten it and even profit from the people's sin, since sin offerings were their food (4:6-8). So the people perish for lack of knowledge. Like people, like priest (4:9) means neither will escape.",
+    "refs": [
+     "Malachi 2:7",
+     "Leviticus 6:26"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Under every green tree",
+    "body": "Hilltop shrines under oaks, poplars and terebinths (4:13) were favourite places of worship in Canaanite religion, linked to fertility. The wooden idol and stick (4:12) may refer to Asherah poles or to divination with rods. Deuteronomy commands such places to be destroyed.",
+    "refs": [
+     "Deuteronomy 12:2-3",
+     "Jeremiah 2:20"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Not punishing the daughters",
+    "body": "God says he will not punish the daughters and brides for sexual sin (4:14) because the men are the ones going to prostitutes and sacrificing with them. In a culture that usually blamed women, Hosea turns the charge onto the men. What does that suggest about where responsibility lies?",
+    "refs": [
+     "John 8:3-11"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Beth Aven",
+    "body": "Bethel means house of God; Hosea calls it Beth Aven, house of wickedness or emptiness (4:15). Amos makes a similar pun on Bethel. Turning a sacred name into an insult was a sharp way of saying the shrine had become the opposite of what it claimed.",
+    "refs": [
+     "Amos 5:5",
+     "Hosea 10:5"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A stubborn heifer",
+    "body": "Israel is like a stubborn heifer (4:16) that refuses to be led, and Ephraim is joined to idols, so leave him alone (4:17). Hosea's images are vivid and quick, often changing every verse. Animals, ovens, birds and plants crowd his sayings.",
+    "refs": [
+     "Hosea 10:11"
+    ]
+   }
+  ]
+ },
+ "5": {
+  "summary": "Judgment is announced against priests, people and king; alarms sound in Benjamin, Israel and Judah run to Assyria for help, and God withdraws until they seek him.",
+  "lookfor": "Notice the places named, the turn to Assyria in 5:13, and the images God uses for himself: moth, rot and lion.",
+  "names": [
+   {
+    "name": "Mizpah",
+    "kind": "place",
+    "gloss": "A town, perhaps in Gilead or Benjamin, with a sanctuary."
+   },
+   {
+    "name": "Tabor",
+    "kind": "place",
+    "gloss": "A prominent mountain in the north, apparently a cult site."
+   },
+   {
+    "name": "Gibeah",
+    "kind": "place",
+    "gloss": "A town in Benjamin north of Jerusalem, Saul's home."
+   },
+   {
+    "name": "Ramah",
+    "kind": "place",
+    "gloss": "A town in Benjamin near the border between Judah and Israel."
+   },
+   {
+    "name": "Beth Aven",
+    "kind": "place",
+    "gloss": "Hosea's insulting name for Bethel."
+   },
+   {
+    "name": "Jareb",
+    "kind": "person",
+    "gloss": "Possibly the great king, a title of the Assyrian ruler rather than a personal name."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "War between brothers",
+    "body": "The alarms sounding in Gibeah, Ramah and Bethel (5:8) are often linked to the Syro-Ephraimite war of about 734 BC. Israel and Syria attacked Judah, Judah appealed to Assyria, and Assyria then struck Israel. The border towns of Benjamin lay on the route of these campaigns.",
+    "refs": [
+     "2 Kings 16:5-9",
+     "Isaiah 7:1-9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Moving the landmark",
+    "body": "The princes of Judah are like those who remove a landmark (5:10). Boundary stones marked family land, and moving one was theft from a neighbour's inheritance. Judah's leaders may have used the war to grab territory.",
+    "refs": [
+     "Deuteronomy 19:14",
+     "Proverbs 22:28"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Sending to Assyria",
+    "body": "When Ephraim saw his sickness, he went to Assyria (5:13). King Menahem of Israel paid a huge tribute to Tiglath-pileser, and King Ahaz of Judah later did the same. Hosea sees these alliances as seeking healing from the wrong doctor.",
+    "refs": [
+     "2 Kings 15:19-20",
+     "2 Kings 16:7-8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Moth, rot and lion",
+    "body": "God compares himself to a moth and to rot (5:12), slow decay from within, and then to a lion that tears its prey (5:14). Judgment can be both gradual and sudden. Hosea is bold in his images for God.",
+    "refs": [
+     "Amos 3:8",
+     "Hosea 13:7-8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Flocks without finding",
+    "body": "The people go with flocks and herds to seek Yahweh but do not find him, because he has withdrawn (5:6). Their worship is busy but fails to reach God. Sacrifice without changed lives is a theme Hosea will sharpen in chapter 6.",
+    "refs": [
+     "Isaiah 1:11-15",
+     "Hosea 6:6"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A spirit of prostitution",
+    "body": "Hosea says a spirit of prostitution is within them (5:4), so their deeds will not let them return. The Hebrew zenunim recurs throughout the book for Israel's unfaithfulness. Hosea sees sin not just as single acts but as a disposition that holds people captive.",
+    "refs": [
+     "Hosea 4:12"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Until they seek my face",
+    "body": "God goes back to his place until they acknowledge their offense and seek him (5:15). Is God's withdrawal a punishment, a mercy, or both? The next chapter opens with the people's response.",
+    "refs": [
+     "Hosea 6:1-3"
+    ]
+   }
+  ]
+ },
+ "6": {
+  "summary": "The people sing a hopeful song of returning to Yahweh, but God answers that their love vanishes like morning dew, for he desires steadfast love and knowledge of God rather than sacrifice.",
+  "lookfor": "Compare the people's song in 6:1-3 with God's reply that follows, and notice the images of dew and cloud.",
+  "names": [
+   {
+    "name": "Adam",
+    "kind": "place",
+    "gloss": "Either the first man or a town in the Jordan valley named Adam, where Israel crossed the Jordan."
+   },
+   {
+    "name": "Gilead",
+    "kind": "place",
+    "gloss": "The hill country east of the Jordan."
+   },
+   {
+    "name": "Shechem",
+    "kind": "place",
+    "gloss": "An ancient city in the central hills, a city of refuge."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "A sincere song?",
+    "body": "The people's song (6:1-3) sounds like true repentance, yet God's reply (6:4) treats it as fleeting. Many scholars think the song is too confident, assuming God will return as automatically as the sunrise and the rain. Others take it as the model of the repentance Hosea calls for.",
+    "refs": [
+     "Hosea 14:1-3"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "On the third day",
+    "body": "After two days he will revive us; on the third day he will raise us up (6:2) originally pictured a quick national recovery. Some early Christian writers linked it with Jesus's resurrection, and many see it among the scriptures Paul had in mind when he said Christ was raised on the third day. The ancient Aramaic Targum also reads the verse as a promise of the resurrection of the dead.",
+    "refs": [
+     "1 Corinthians 15:4",
+     "Luke 24:46"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Hesed",
+    "body": "The word translated love in 6:4 and mercy in 6:6 is hesed, loyal covenant love. Israel's hesed is like a morning cloud that burns off. God wants hesed and knowledge of God more than burnt offerings.",
+    "refs": [
+     "Micah 6:8"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Mercy, not sacrifice",
+    "body": "Jesus twice quotes I desire mercy, and not sacrifice (6:6) in Matthew, defending his meals with sinners and his disciples' Sabbath grain picking. Rabbinic tradition also used this verse after the temple's destruction, teaching that acts of loving kindness could atone in place of sacrifice. Hosea is not rejecting worship but ranking it below covenant faithfulness.",
+    "refs": [
+     "Matthew 9:13",
+     "Matthew 12:7",
+     "1 Samuel 15:22"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Like Adam",
+    "body": "They, like Adam, have broken the covenant (6:7) can be read as a reference to the first man, a comparison with ordinary humanity, or a town named Adam, since the verse goes on to say there. Christian theology has sometimes cited it for a covenant with Adam. The following verses name other places, which supports the town reading.",
+    "refs": [
+     "Joshua 3:16",
+     "Genesis 2:16-17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Priests as bandits",
+    "body": "Priests murder on the road to Shechem (6:9), a city of refuge where the innocent should have been safe. We do not know the specific event. The image is of religious leaders acting like gangs who ambush travellers.",
+    "refs": [
+     "Joshua 20:7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "What shall I do with you?",
+    "body": "God's question, Ephraim, what shall I do to you? (6:4), sounds like a frustrated parent. The book presents God as torn between judgment and love. What does it mean for God to be portrayed as not knowing what to do?",
+    "refs": [
+     "Hosea 11:8"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Cut by the prophets",
+    "body": "God has cut Israel with the prophets and killed them with his words (6:5). Prophecy is pictured as a sword, not just a message. The New Testament uses the same idea of God's word as sharper than a two-edged sword.",
+    "refs": [
+     "Hebrews 4:12",
+     "Jeremiah 23:29"
+    ]
+   }
+  ]
+ },
+ "7": {
+  "summary": "Israel's court is consumed by intrigue, drunkenness and murder of kings, while the nation drifts between Egypt and Assyria like a silly dove without calling on God.",
+  "lookfor": "Notice the oven and baking images, the pancake not turned, the grey hairs, and the dove flying between powers.",
+  "names": [
+   {
+    "name": "Ephraim",
+    "kind": "group",
+    "gloss": "Hosea's name for the northern kingdom of Israel."
+   },
+   {
+    "name": "Samaria",
+    "kind": "place",
+    "gloss": "The capital of the northern kingdom."
+   },
+   {
+    "name": "Egypt",
+    "kind": "place",
+    "gloss": "The southern great power, courted as an ally against Assyria."
+   },
+   {
+    "name": "Assyria",
+    "kind": "place",
+    "gloss": "The great empire of northern Mesopotamia, expanding west in the 8th century BC."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "All their kings have fallen",
+    "body": "After Jeroboam II, Israel had six kings in about twenty-five years, and four were assassinated: Zechariah, Shallum, Pekahiah and Pekah. Hosea's picture of plotters heating up like an oven and devouring their judges (7:7) fits this chaos. No one in the scramble for power calls on God.",
+    "refs": [
+     "2 Kings 15:10-30"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The baker's oven",
+    "body": "A clay oven was kept smouldering overnight and stoked in the morning to bake the bread (7:4-6). The conspirators' passions smoulder while they wait, then burst into flame at the right moment. The image may describe a coup carried out at a royal feast (7:5).",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "A pancake not turned",
+    "body": "Ephraim is a cake not turned over (7:8), burned on one side and raw on the other. By mixing with the nations, Israel has become half-baked, neither one thing nor the other. The image is homely and unforgettable.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Grey hair unnoticed",
+    "body": "Foreigners have eaten his strength, and grey hairs are scattered on him, yet he does not know (7:9). Israel is aging and weakening without noticing, paying tribute to empires while thinking itself strong. The repeated he doesn't realize it underlines the blindness.",
+    "refs": [
+     "2 Kings 15:19-20"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A silly dove",
+    "body": "Ephraim flutters between Egypt and Assyria (7:11). The last king, Hoshea, was an Assyrian vassal who secretly sought help from So king of Egypt, and that betrayal brought Assyria's final siege of Samaria. Hosea sees the nation flitting from one patron to another instead of to God.",
+    "refs": [
+     "2 Kings 17:3-6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Howling on their beds",
+    "body": "They howl on their beds and gather for grain and new wine (7:14). Some scholars think this refers to rites, including self-cutting, meant to win rain and harvest from Baal. Their cries are for crops, not for God.",
+    "refs": [
+     "1 Kings 18:28"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A faulty bow",
+    "body": "Israel is like a faulty or slack bow (7:16), one that shoots wide of the target. The image of missing the mark is close to a common Hebrew idea of sin as missing. The mockery they will face in Egypt is the shame of a bow that fails its archer.",
+    "refs": [
+     "Psalms 78:57"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "When I would heal",
+    "body": "The chapter begins with God wanting to heal Israel (7:1) and his wish to redeem them (7:13). Yet every attempt only exposes more sin. What does Hosea suggest about the relationship between healing and honest exposure?",
+    "refs": [
+     "Hosea 6:1"
+    ]
+   }
+  ]
+ },
+ "8": {
+  "summary": "An alarm sounds because Israel has broken the covenant: it made kings without God, worshipped the calf of Samaria, and hired foreign lovers, so it will reap the whirlwind.",
+  "lookfor": "Notice the people's claim to know God in 8:2, the calf of Samaria, and the farming proverbs about sowing and reaping.",
+  "names": [
+   {
+    "name": "Samaria",
+    "kind": "place",
+    "gloss": "Capital of the northern kingdom, here standing for the nation and its official religion."
+   },
+   {
+    "name": "Ephraim",
+    "kind": "group",
+    "gloss": "Hosea's name for the northern kingdom."
+   },
+   {
+    "name": "Assyria",
+    "kind": "place",
+    "gloss": "The empire of northern Mesopotamia to which Israel paid tribute."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "We know you",
+    "body": "Israel cries My God, we Israel acknowledge you (8:2), yet has cast off the good (8:3). The claim to know God is the very thing the book says Israel lacks. Jesus warns about people who say Lord, Lord but do not do God's will.",
+    "refs": [
+     "Hosea 4:1",
+     "Matthew 7:21-23"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Kings not by me",
+    "body": "They have set up kings, but not by me (8:4). Israel's last kings came to power by assassination rather than by any prophetic word. Earlier, prophets had designated kings such as Jeroboam I and Jehu; now the throne was simply grabbed.",
+    "refs": [
+     "1 Kings 11:29-31",
+     "2 Kings 9:1-6",
+     "2 Kings 15:10-15"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The calf of Samaria",
+    "body": "Jeroboam I set up golden calves at Bethel and Dan to keep his people from going to Jerusalem. Many scholars think the calf was meant as a pedestal for the invisible God rather than an image of a god, but Hosea calls it simply something a workman made, and it is no God (8:6). It echoes Aaron's golden calf at Sinai.",
+    "refs": [
+     "1 Kings 12:28-30",
+     "Exodus 32:4"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Sow the wind",
+    "body": "They sow the wind, and they will reap the whirlwind (8:7) has become a common English saying. In Hebrew it is a farming proverb: what you plant returns to you, multiplied. Hosea follows it with a wordplay in which the grain has no head and yields no flour.",
+    "refs": [
+     "Galatians 6:7-8",
+     "Proverbs 22:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A wild donkey alone",
+    "body": "Ephraim has gone up to Assyria like a wild donkey wandering alone (8:9). In Hebrew there is a pun between Ephraim and pere, wild donkey. Even the wild donkey keeps to its herd, while Israel wanders off alone and pays lovers instead of being paid.",
+    "refs": [
+     "Genesis 16:12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Altars for sinning",
+    "body": "Ephraim multiplied altars to deal with sin, and they became altars for sinning (8:11). The more religious activity increased, the more it became part of the problem. God had written the many things of his law, but Israel treated it as foreign (8:12).",
+    "refs": [
+     "Amos 4:4-5"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Back to Egypt",
+    "body": "They will return to Egypt (8:13) reverses the exodus, Israel's founding story. Hosea does not necessarily mean a literal move but a return to slavery and loss of the land. The threat appears again in 9:3 and 11:5.",
+    "refs": [
+     "Deuteronomy 28:68",
+     "Hosea 9:3"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Forgotten his Maker",
+    "body": "Israel has forgotten his Maker and built palaces, while Judah built fortified cities (8:14). Both kingdoms put their trust in what they had built. What might forgetting one's Maker look like in a prosperous, well-defended society?",
+    "refs": [
+     "Deuteronomy 8:11-18"
+    ]
+   }
+  ]
+ },
+ "9": {
+  "summary": "Israel's harvest festivals will end in exile, its prophets are mocked, and its long history of unfaithfulness from Baal Peor to Gilgal will lead to childlessness and wandering among the nations.",
+  "lookfor": "Notice the festival setting at the start, how the prophet is treated (9:7-8), and the past places Hosea recalls.",
+  "names": [
+   {
+    "name": "Memphis",
+    "kind": "place",
+    "gloss": "An ancient capital of Egypt near modern Cairo, famous for its tombs."
+   },
+   {
+    "name": "Gibeah",
+    "kind": "place",
+    "gloss": "Town of Benjamin, scene of a notorious crime and civil war in the time of the judges."
+   },
+   {
+    "name": "Baal Peor",
+    "kind": "place",
+    "gloss": "Where Israel worshipped Baal of Peor in Moab just before entering the land."
+   },
+   {
+    "name": "Tyre",
+    "kind": "place",
+    "gloss": "A rich Phoenician port city on the coast north of Israel."
+   },
+   {
+    "name": "Gilgal",
+    "kind": "place",
+    "gloss": "An old sanctuary near Jericho where Saul was made king."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "At the harvest festival",
+    "body": "Many scholars think Hosea spoke these words at the autumn festival of Tabernacles, when threshing floors and wine presses were full (9:1-2). While the crowd celebrated, he announced that the feasts would cease. The day of solemn assembly (9:5) would come in exile, with no temple.",
+    "refs": [
+     "Deuteronomy 16:13-15"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Bread of mourners",
+    "body": "Food in a house of mourning was unclean because of contact with the dead (9:4). In exile, all food would be like that, unfit to offer to God. Eating unclean food in Assyria (9:3) meant losing the way of life that set Israel apart.",
+    "refs": [
+     "Numbers 19:14",
+     "Deuteronomy 26:14",
+     "Ezekiel 4:13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The prophet is a fool",
+    "body": "Israel calls the prophet a fool and the inspired man insane (9:7). The prophet is meant to be a watchman (9:8), but snares await him even in God's house. Amos and Jeremiah faced the same rejection.",
+    "refs": [
+     "Amos 7:10-13",
+     "Jeremiah 29:26-27",
+     "Ezekiel 3:17"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "As in the days of Gibeah",
+    "body": "The crime at Gibeah, where a Levite's concubine was raped and killed, led to a civil war that nearly wiped out Benjamin. Hosea uses it as shorthand for Israel's deepest corruption (9:9, 10:9). Israel's history is not a story of a golden past but of repeated failure.",
+    "refs": [
+     "Judges 19:22-30",
+     "Judges 20:46-48"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Grapes in the wilderness",
+    "body": "God found Israel like grapes in the wilderness and early figs (9:10), a delightful surprise. But at Baal Peor, just before entering the land, they joined the worship of Baal, and they became like what they loved. The idea that worshippers become like their idols appears also in the Psalms.",
+    "refs": [
+     "Numbers 25:1-3",
+     "Psalms 115:8"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "No birth, no conception",
+    "body": "Fertility cults promised children and harvests, so the judgment strikes exactly there (9:11-16). The punishment is described in painful terms, including the prophet's own prayer for miscarrying wombs (9:14). It is one of the bleakest passages in the prophets and reflects how war and exile devastated families.",
+    "refs": [
+     "Hosea 4:10"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "I will love them no more",
+    "body": "God says, I will love them no more (9:15), yet two chapters later says, How can I give you up? (11:8). How should a reader hold these together? Hosea seems to show the struggle within divine love rather than a settled formula.",
+    "refs": [
+     "Hosea 11:8-9"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Wanderers among the nations",
+    "body": "The chapter ends with Israel as wanderers among the nations (9:17). The Hebrew word, nodedim, is close in sound and sense to the word for Cain's sentence to be a restless wanderer. The people who were meant to rest in God's land will become homeless.",
+    "refs": [
+     "Genesis 4:12"
+    ]
+   }
+  ]
+ },
+ "10": {
+  "summary": "Israel, a fruitful vine, has multiplied altars and false oaths; its calf idol will be carried to Assyria, its king will vanish, and it is urged to break up its fallow ground and seek Yahweh.",
+  "lookfor": "Notice the farming images throughout, the people's cry to the mountains, and the call in 10:12.",
+  "names": [
+   {
+    "name": "Beth Aven",
+    "kind": "place",
+    "gloss": "Hosea's mocking name for Bethel, home of a royal calf idol."
+   },
+   {
+    "name": "Gibeah",
+    "kind": "place",
+    "gloss": "Town of Benjamin, remembered for a terrible crime in the days of the judges."
+   },
+   {
+    "name": "Shalman",
+    "kind": "person",
+    "gloss": "An unknown conqueror; possibly the Assyrian Shalmaneser or Salamanu, a king of Moab."
+   },
+   {
+    "name": "Beth Arbel",
+    "kind": "place",
+    "gloss": "A town whose destruction was evidently well known, perhaps Irbid in Gilead or Arbel near Galilee."
+   },
+   {
+    "name": "Bethel",
+    "kind": "place",
+    "gloss": "The royal sanctuary of the northern kingdom."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "The richer, the more altars",
+    "body": "As Israel's harvests increased, so did its altars and sacred stones (10:1). Prosperity did not lead to gratitude but to more elaborate false worship. Their heart is divided (10:2), literally smooth or slippery.",
+    "refs": [
+     "Deuteronomy 8:12-14",
+     "Hosea 13:6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The calf goes to Assyria",
+    "body": "The people and priests mourn the calf of Bethel because it will be carried to Assyria as a gift to the great king (10:5-6). Assyrian reliefs show soldiers carrying off the statues of conquered peoples' gods. The god who was supposed to protect Israel becomes plunder.",
+    "refs": [
+     "Isaiah 46:1-2",
+     "1 Kings 12:29"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Like a twig on the water",
+    "body": "Samaria's king floats away like a twig on the water (10:7). Israel's last king, Hoshea, was imprisoned by the Assyrians before Samaria fell. The image catches how quickly and helplessly the monarchy vanished.",
+    "refs": [
+     "2 Kings 17:4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Fall on us",
+    "body": "Facing judgment, people will tell the mountains, Cover us, and the hills, Fall on us (10:8). Jesus quoted these words to the women of Jerusalem on his way to the cross, and Revelation uses them for people hiding from the wrath of the Lamb.",
+    "refs": [
+     "Luke 23:30",
+     "Revelation 6:16"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A heifer that loves to thresh",
+    "body": "A heifer threshing grain walked freely over the stalks and could eat as it worked, since the law forbade muzzling it. Ephraim liked that easy work, but now it will be yoked to plough (10:11). The image moves from privilege to hard labour.",
+    "refs": [
+     "Deuteronomy 25:4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Break up your fallow ground",
+    "body": "Sow righteousness, reap kindness and break up your fallow ground (10:12) calls for deep repentance, like ploughing hard ground that has lain unused. Jeremiah repeats the image for Judah. The verse promises that God will come and rain righteousness on those who seek him.",
+    "refs": [
+     "Jeremiah 4:3",
+     "Isaiah 45:8"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Trust in warriors",
+    "body": "Israel trusted in its own way and in the number of its mighty men (10:13). Israel had strengthened its fortresses and armies, yet these fell before Assyria. The terrible image of mothers and children dashed in pieces (10:14) describes the brutal reality of ancient siege warfare.",
+    "refs": [
+     "Psalms 33:16-17"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "What can a king do?",
+    "body": "The people will say, We have no king; for we don't fear Yahweh; and the king, what can he do for us? (10:3). Their despair reveals that the root problem was not political but spiritual. When might people look to leaders for what only God can give?",
+    "refs": [
+     "Psalms 146:3"
+    ]
+   }
+  ]
+ },
+ "11": {
+  "summary": "Yahweh remembers how he loved Israel as a child, taught him to walk and fed him, and though Israel turned away, God's compassion will not let him destroy them but will call them home.",
+  "lookfor": "Notice the change from husband imagery to parent imagery, the questions of 11:8, and why God says he will not act in anger.",
+  "names": [
+   {
+    "name": "Ephraim",
+    "kind": "group",
+    "gloss": "The northern kingdom, pictured here as God's child."
+   },
+   {
+    "name": "Admah",
+    "kind": "place",
+    "gloss": "A city destroyed with Sodom and Gomorrah."
+   },
+   {
+    "name": "Zeboiim",
+    "kind": "place",
+    "gloss": "Another city destroyed with Sodom and Gomorrah."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Out of Egypt I called my son",
+    "body": "Matthew quotes this verse about the child Jesus returning from Egypt: \"Out of Egypt I called my son.\" Hosea was looking back at the exodus, not forward. Matthew reads Jesus as reliving Israel's story and doing faithfully what Israel failed to do.",
+    "refs": [
+     "Matthew 2:15",
+     "Exodus 4:22"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Teaching to walk",
+    "body": "God taught Ephraim to walk, held them by the arms and bent down to feed them (11:3-4). These are the actions of a parent with a toddler. The tenderness makes the rebellion all the more painful.",
+    "refs": [
+     "Deuteronomy 1:31"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Cords of a man",
+    "body": "God drew them with cords of a man, ties of love (11:4), probably meaning gentle human ties rather than the ropes used on animals. The next image is of someone easing the yoke off a working animal's neck so it can eat. The Hebrew is difficult, and some read it as a parent lifting a baby to the cheek.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Admah and Zeboiim",
+    "body": "Admah and Zeboiim (11:8) were destroyed along with Sodom and Gomorrah. Deuteronomy had warned that a faithless Israel would become like them. Here God refuses to carry out that complete destruction.",
+    "refs": [
+     "Deuteronomy 29:23",
+     "Genesis 19:24-25"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "My heart is turned",
+    "body": "My heart is turned within me (11:8) uses the same verb as the overthrow of Sodom. Instead of overturning Israel, God's own heart is overturned. What does it mean to say God feels compassion this strongly?",
+    "refs": [
+     "Jeremiah 31:20"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "God, and not man",
+    "body": "God will not destroy Ephraim, for I am God, and not man (11:9). We might expect a holy God to be stricter than humans; Hosea says God's holiness makes him more merciful than any wronged human would be. The verse is central to the book's picture of God.",
+    "refs": [
+     "Numbers 23:19",
+     "Isaiah 55:8-9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The lion roars to call",
+    "body": "Earlier God was a lion that tears (5:14); now Yahweh roars like a lion and his children come trembling home from west, Egypt and Assyria (11:10-11). The same image is turned from threat to summons.",
+    "refs": [
+     "Hosea 5:14",
+     "Amos 3:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Where the chapter ends",
+    "body": "In the Hebrew Bible 11:12 is counted as 12:1, so the hopeful promise of 11:11 ends the Hebrew chapter. The accusation of falsehood and deceit in 11:12 leads into the next chapter's indictment. Modern English versions differ on whether it speaks well or ill of Judah.",
+    "refs": [
+     "Hosea 12:1"
+    ]
+   }
+  ]
+ },
+ "12": {
+  "summary": "Hosea accuses Ephraim of lies and dishonest trade, then retells the story of their ancestor Jacob to call Israel to return, keep kindness and justice, and wait for God.",
+  "lookfor": "Follow the scenes from Jacob's life in 12:3-4 and 12:12, and compare them with what Israel is doing now.",
+  "names": [
+   {
+    "name": "Jacob",
+    "kind": "person",
+    "gloss": "The ancestor of Israel, a grandson of Abraham, renamed Israel after wrestling with God."
+   },
+   {
+    "name": "Bethel",
+    "kind": "place",
+    "gloss": "Where God appeared to Jacob, later a royal sanctuary of the northern kingdom."
+   },
+   {
+    "name": "Gilead",
+    "kind": "place",
+    "gloss": "The region east of the Jordan."
+   },
+   {
+    "name": "Gilgal",
+    "kind": "place",
+    "gloss": "An old sanctuary near Jericho."
+   },
+   {
+    "name": "Aram",
+    "kind": "place",
+    "gloss": "The land of the Arameans, in Syria and upper Mesopotamia, where Jacob served Laban."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Oil to Egypt",
+    "body": "Israel made a covenant with Assyria and sent olive oil to Egypt (12:1), apparently as a gift to win support. Olive oil was one of Israel's main exports. Playing the great powers against each other is like chasing the east wind, the hot desert wind that withers everything.",
+    "refs": [
+     "2 Kings 17:4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Jacob the heel-grabber",
+    "body": "Hosea reviews Jacob's story: grabbing his brother's heel at birth, wrestling with God, weeping and pleading, and meeting God at Bethel (12:3-4). Jacob's name means heel-grabber or supplanter. Hosea's version adds that Jacob wept, a detail not in Genesis.",
+    "refs": [
+     "Genesis 25:26",
+     "Genesis 32:24-30",
+     "Genesis 28:10-19"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The angel",
+    "body": "Genesis says Jacob wrestled with a man; Hosea calls him an angel (12:4) and then names him as Yahweh the God of Armies (12:5). The passage shows early interpretation of a mysterious story. Jacob's struggle ended not in victory by force but in tears and pleading.",
+    "refs": [
+     "Genesis 32:24-30"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A merchant",
+    "body": "The word for merchant in 12:7 is kena'an, the same as Canaan, because Canaanites were known as traders. Hosea's point is sharp: Israel has become a Canaanite, using false scales. Amos makes the same charge about cheating in the market.",
+    "refs": [
+     "Amos 8:5",
+     "Proverbs 11:1"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "No one will find sin",
+    "body": "Ephraim says, I have become rich ... they won't find in me any iniquity (12:8). Wealth is treated as proof of innocence. Why is prosperity so easily mistaken for God's approval?",
+    "refs": [
+     "Revelation 3:17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Back to tents",
+    "body": "God will again make Israel live in tents, as in the days of the solemn feast (12:9). At the feast of Tabernacles Israel lived in booths to remember the wilderness. Here it is both a threat of losing their houses and a hope of starting over with God.",
+    "refs": [
+     "Leviticus 23:42-43",
+     "Hosea 2:14"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "By a prophet",
+    "body": "Jacob tended flocks for a wife; by a prophet Yahweh brought Israel out of Egypt and by a prophet kept it (12:12-13). The prophet is Moses. The two halves set the self-reliant ancestor against the God who rescues through his messenger, and imply that Israel should listen to the prophets now.",
+    "refs": [
+     "Deuteronomy 18:15",
+     "Genesis 29:18-20"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Keep kindness and justice",
+    "body": "Hosea draws the lesson: return to God, keep kindness and justice, and wait continually for God (12:6). It is a compact summary of prophetic faith, like Micah's do justice, love kindness and walk humbly.",
+    "refs": [
+     "Micah 6:8"
+    ]
+   }
+  ]
+ },
+ "13": {
+  "summary": "Ephraim, once powerful, has died through Baal worship; the God who knew them in the wilderness will now be a lion and bear to them, and though he can ransom them from death, Samaria will fall.",
+  "lookfor": "Notice how God describes himself in 13:4-5, the animal images that follow, and the questions to death and Sheol.",
+  "names": [
+   {
+    "name": "Ephraim",
+    "kind": "group",
+    "gloss": "The northern kingdom, named after its leading tribe."
+   },
+   {
+    "name": "Sheol",
+    "kind": "place",
+    "gloss": "The Hebrew name for the realm of the dead."
+   },
+   {
+    "name": "Samaria",
+    "kind": "place",
+    "gloss": "Capital of the northern kingdom, besieged and taken by Assyria."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Kissing calves",
+    "body": "People say of the idol-makers, they offer human sacrifice and kiss the calves (13:2). Kissing an idol was an act of worship. The Hebrew may instead mean those who sacrifice people kiss calves, a mocking contrast; either way, it shows the absurdity of the cult.",
+    "refs": [
+     "1 Kings 19:18"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Mist, dew, chaff and smoke",
+    "body": "Ephraim will be like morning mist, dew, chaff and smoke (13:3), four images of things that vanish. Israel's love was like dew in 6:4; now Israel itself will vanish. In 14:5 God promises to be the dew.",
+    "refs": [
+     "Hosea 6:4",
+     "Hosea 14:5"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "No god but me",
+    "body": "I am Yahweh your God from the land of Egypt; you shall acknowledge no god but me (13:4) echoes the opening of the Ten Commandments. Besides me there is no savior is close to Isaiah's later words. God knew Israel in the wilderness (13:5), recalling the covenant at Sinai.",
+    "refs": [
+     "Exodus 20:2-3",
+     "Isaiah 43:11"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Full, then forgetful",
+    "body": "When they were fed, they were filled, their heart was exalted, and they forgot God (13:6). Deuteronomy warned of exactly this sequence. Prosperity, not hardship, is the danger point.",
+    "refs": [
+     "Deuteronomy 8:11-14",
+     "Deuteronomy 32:15"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A king in my anger",
+    "body": "Where is your king now? (13:10) Israel had demanded a king like the nations in Samuel's day, and God gave one in anger (13:11). Hosea may mean Saul, the northern kings in general, or Hoshea, Israel's last king.",
+    "refs": [
+     "1 Samuel 8:5-7",
+     "2 Kings 17:4"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Death, where are your plagues?",
+    "body": "The Hebrew of 13:14 can be read as promise or as threat: Shall I ransom them from Sheol? Shall I redeem them from death? Many scholars read the context as a summons to death to bring its plagues against Israel. Paul, following the Greek version, turns the words into a taunt against death defeated in the resurrection.",
+    "refs": [
+     "1 Corinthians 15:54-55"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "A brutal end",
+    "body": "The chapter ends with Samaria's fall, including the killing of infants and pregnant women (13:16), atrocities recorded in ancient warfare elsewhere in the Bible. Hosea does not soften the horror of the Assyrian conquest of 722 BC. In Hebrew this verse is 14:1.",
+    "refs": [
+     "2 Kings 15:16",
+     "Amos 1:13"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "An unwise son",
+    "body": "Ephraim is like an unborn child who will not come to the opening of the womb when it is time (13:13). The moment for new birth has come, but the child refuses to move. What keeps people from turning when a moment for change arrives?",
+    "refs": []
+   }
+  ]
+ },
+ "14": {
+  "summary": "Hosea calls Israel to return with words of repentance, and Yahweh promises to heal their waywardness, love them freely and make them flourish like a fragrant garden.",
+  "lookfor": "Notice the words the prophet gives Israel to say, the three things they renounce, and the plant images in God's reply.",
+  "names": [
+   {
+    "name": "Lebanon",
+    "kind": "place",
+    "gloss": "The mountains north of Israel, famed for cedars, fragrance and fruitfulness."
+   },
+   {
+    "name": "Assyria",
+    "kind": "place",
+    "gloss": "The empire Israel had looked to for protection."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Take words with you",
+    "body": "Israel is told to take words with you (14:2) and is given a prayer to say. Repentance here is not vague feeling but specific confession: asking forgiveness and renouncing Assyria, war horses and idols (14:3). The three were the false saviours Hosea attacked throughout the book.",
+    "refs": [
+     "Hosea 5:13",
+     "Hosea 8:6"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Lips like bulls",
+    "body": "So we offer our lips like bulls (14:2) means offering words of praise in place of sacrificial bulls. The Greek translation reads the fruit of our lips, which Hebrews borrows for the sacrifice of praise. Jewish tradition also cites this verse for prayer replacing sacrifice after the temple fell.",
+    "refs": [
+     "Hebrews 13:15",
+     "Psalms 51:16-17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Shabbat Shuvah",
+    "body": "Hosea 14 is read in synagogues on the Sabbath between Rosh Hashanah and Yom Kippur. It is called Shabbat Shuvah, from the first word, return. The chapter has long served as a model of repentance in Jewish worship.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Love freely",
+    "body": "God promises, I will heal their waywardness. I will love them freely (14:4). The word for freely means as a voluntary gift. After a book full of judgment, the final word is unconditional love.",
+    "refs": [
+     "Hosea 11:8-9",
+     "Jeremiah 3:22"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Like the dew",
+    "body": "Israel's love was like the dew that vanishes (6:4), and Israel itself was to vanish like dew (13:3). Now God himself will be like the dew to Israel (14:5). In the dry summer of the land, dew kept plants alive.",
+    "refs": [
+     "Hosea 6:4",
+     "Hosea 13:3",
+     "Genesis 27:28"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A green cypress",
+    "body": "God says, I am like a green cypress tree; from me your fruit is found (14:8). This is the only place in the Old Testament where God is compared to a tree. Israel had looked to sacred trees and Baal for fertility; the real source of life is Yahweh.",
+    "refs": [
+     "Hosea 4:13",
+     "John 15:5"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A wisdom postscript",
+    "body": "The last verse (14:9) sounds like wisdom literature, inviting the wise to understand and the righteous to walk in God's ways. Many scholars think it was added by the editor of the book. It turns Hosea's prophecies into teaching for later readers.",
+    "refs": [
+     "Psalms 1:6",
+     "Proverbs 10:29"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The fatherless finds mercy",
+    "body": "The prayer ends: in you the fatherless finds mercy (14:3). It recalls Lo-Ruhamah, no mercy, from chapter 1. After everything, Israel admits it is an orphan without God. What does it mean that mercy is found by those who admit they are helpless?",
+    "refs": [
+     "Hosea 1:6",
+     "Psalms 68:5"
+    ]
+   }
+  ]
+ },
+ "intro": {
+  "who": "Hosea son of Beeri, a prophet of the northern kingdom of Israel and the only writing prophet who came from there. Most scholars think his sayings were collected by followers and later edited in Judah, which may explain the occasional references to Judah.",
+  "when": "He prophesied from the last years of Jeroboam II, around 750 BC, through the chaotic decades of assassinations and Assyrian pressure that ended with the fall of Samaria in 722 BC.",
+  "why": "Through the image of a faithful husband and an unfaithful wife, and a loving parent and a wayward child, it accuses Israel of abandoning Yahweh for Baal and for foreign alliances, and promises that God's love will outlast judgment.",
+  "outline": [
+   {
+    "chapters": "1–3",
+    "title": "Hosea's marriage and Israel's"
+   },
+   {
+    "chapters": "4–5",
+    "title": "No knowledge of God"
+   },
+   {
+    "chapters": "6–7",
+    "title": "Shallow repentance, scheming kings"
+   },
+   {
+    "chapters": "8–10",
+    "title": "Reaping the whirlwind"
+   },
+   {
+    "chapters": "11–13",
+    "title": "Love that will not let go"
+   },
+   {
+    "chapters": "14",
+    "title": "Return and healing"
+   }
+  ],
+  "verse": "Hosea 11:8"
+ }
+}
