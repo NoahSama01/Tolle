@@ -615,7 +615,7 @@ function todayView(){
     <ol class=stops>${stops.map((s,i)=>stopRow(s,i,done.length,stops[i+1])).join('')}</ol></section>`:''}
   <section class=leaf aria-labelledby=log-h><h2 id=log-h>Reading log</h2>${runHTML()}${calendar()}
     <p class=facts><span>${num(count())} / 1,189 chapters</span><span>Finish ${fmtDate(S.deadline)}</span></p>
-    ${behind()?`<button class=link-btn id=bk-nudge onclick=connect()>Back up to Google Drive</button>`:''}</section>
+</section>
   ${cardHTML()}
   </div>${wide.matches?`<aside class=col-route aria-labelledby=route-h><h2 id=route-h class=sr>The whole Bible</h2>${routeBody()}</aside>`:''}</div>`;
 }
@@ -769,18 +769,18 @@ function settingsView(){
     ${todayIdx().length?(([b,c])=>`<button class="go ghost" onclick=undo()>Undo last chapter (${b} ${c})${icon('undo')}</button>`)(CH[todayIdx().at(-1)]):''}
   </div></section>
   <section class=leaf aria-labelledby=bk-h><h2 id=bk-h>Backup</h2>
-    <p class=about>Your plan, progress and kept verses are saved on this phone only. Keep a copy, so a new phone or a cleared browser can pick up where you left off.${GID?' Google Drive keeps it in a hidden folder that only Tolle can see.':''}</p>
+    <p class=about>Your plan, progress and kept verses are saved on this phone only. Keep a copy, so a new phone or a cleared browser can pick up where you left off. Sign in with Google and it is kept in your Tolle account too, on every phone you sign in to.</p>
     ${backupHTML()}</section>
   <section class=leaf aria-labelledby=about-h><h2 id=about-h>About Tolle</h2>
     <p class=about>The name comes from Augustine's "tolle lege": take up and read. Scripture text: English from public-domain translations via bible-api.com; Hindi, Tamil, Malayalam and Telugu via bible.helloao.org, credited under each chapter. The Why &amp; How notes are AI-written, so check them against your own study. <a href=privacy.html>Privacy: what Tolle keeps, and where</a>.</p></section>
   <div class=danger-zone><button class=danger onclick=reset()>Erase all progress</button></div>`;
 }
 function backupHTML(){ // Settings and the first screen share it: Drive when it's set up, then the file
-  return `${GID?`<p class=hint id=sync-note role=status>${SY.on?syncNote():''}</p>`:''}<div class=actions>
-    ${GID?`<button class=go onclick=connect()>${SY.on?'Back up now':S?'Back up to Google Drive':'Restore from Google Drive'}${icon('arrow')}</button>`:''}
+  return `<p class=hint id=sync-note role=status>${AU?`Signed in as ${esc(AU.email||'your Google account')}. ${syncNote()}`:SY.err?syncNote():''}</p><div class=actions>
+    ${AU?`<button class=go onclick=sync()>Sync now${icon('arrow')}</button>`:`<button class=go onclick=signIn()>${S?'Sign in with Google to sync':'Sign in with Google to restore'}${icon('arrow')}</button>`}
     ${S?`<button class="go ghost" onclick=saveBackup()>Save a backup file</button>`:''}
     <button class="go ghost" onclick=this.nextElementSibling.click()>Restore from a backup file</button><input type=file hidden accept=".txt,.json,text/plain,application/json" onchange=restoreFile(this)></div>
-    ${GID&&SY.on?`<p><button class=link-btn onclick=disconnect()>Disconnect Google Drive</button></p>`:''}`;
+    ${AU?`<p><button class=link-btn onclick=signOut()>Sign out</button></p>`:''}`;
 }
 function setDeadline(v){if(v){Object.assign(S,{deadline:v,start:today(),startDone:count()-todayN()});save()}}
 function undo(){const i=S.day.idx.pop();setRead(i,false);S.log[today()]--;save();render()} // only offered when something was read today
@@ -832,46 +832,66 @@ function restoreFile(inp){ // adds the file's progress to this phone's: nothing 
     .finally(()=>{inp.value=''});
 }
 
-// Google Drive: the same copy, kept in the Drive's hidden app folder (only Tolle can see it), synced while Google's one-hour pass is good
-const GID=''; // the OAuth client ID from Google Cloud: public by design; while empty, the Drive option stays hidden
-let SY=JSON.parse(localStorage.getItem('tolle-sync')||'{}'),syncing=false; // {on, k: pass, x: pass expiry, id: Drive file, base: copy's stamp at last sync, at: last sync, err}
+// The Tolle account: sign in with Google (through Supabase) and the same copy lives in one row of the account
+const SB='https://wvzfjqblglbtyjcnklym.supabase.co',SBK='sb_publishable_5e2eMODJEOTuvJmaWo70ZQ_IgQLb00L'; // the project's address and publishable key: public by design
+let AU=JSON.parse(localStorage.getItem('tolle-auth')||'null'); // {t: access token, r: refresh token, x: expiry, email, id}
+const keepAU=()=>AU?localStorage.setItem('tolle-auth',JSON.stringify(AU)):localStorage.removeItem('tolle-auth');
+let SY=JSON.parse(localStorage.getItem('tolle-sync')||'{}'),syncing=false; // {base: the account copy's stamp at last sync, at: last sync, err}
 const keepSY=()=>localStorage.setItem('tolle-sync',JSON.stringify(SY));
-const passOK=()=>SY.k&&SY.x>Date.now();
-const gis=()=>window.google?.accounts?Promise.resolve():new Promise((ok,no)=>{const s=document.createElement('script');s.src='https://accounts.google.com/gsi/client';s.onload=ok;s.onerror=no;document.head.append(s)});
-function connect(){ // needs a tap: Google's popup hands back a one-hour pass for the app folder only
-  if(passOK())return sync();
-  gis().then(()=>google.accounts.oauth2.initTokenClient({client_id:GID,scope:'https://www.googleapis.com/auth/drive.appdata',
-    callback:r=>{if(r.error)return synced(r.error);Object.assign(SY,{on:true,k:r.access_token,x:Date.now()+(r.expires_in-60)*1e3});sync()},
-    error_callback:e=>synced(e.type)}).requestAccessToken({prompt:SY.on?'':'consent'}),()=>synced('offline'));
+const b64=buf=>btoa(String.fromCharCode(...new Uint8Array(buf))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
+async function signIn(){ // off to Google; the code that comes back is useless without this phone's secret (PKCE)
+  const v=b64(crypto.getRandomValues(new Uint8Array(32))),c=b64(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(v)));
+  sessionStorage.setItem('tolle-pkce',v);
+  location.assign(`${SB}/auth/v1/authorize?provider=google&redirect_to=${encodeURIComponent(location.origin+location.pathname)}&code_challenge=${c}&code_challenge_method=s256`);
 }
-function disconnect(){const k=SY.k;if(k)gis().then(()=>google.accounts.oauth2.revoke(k),()=>{});SY={};keepSY();render()}
+const authed=j=>{AU={t:j.access_token,r:j.refresh_token,x:Date.now()+(j.expires_in-60)*1e3,email:j.user?.email??AU?.email,id:j.user?.id??AU?.id};keepAU()};
+const auth=(grant,body)=>fetch(`${SB}/auth/v1/token?grant_type=${grant}`,{method:'POST',headers:{apikey:SBK,'Content-Type':'application/json'},body:JSON.stringify(body)})
+  .then(r=>r.ok?r.json():Promise.reject(r.status));
+async function returning(){ // back from Google with ?code=: trade it for a session, then tidy the address bar
+  const code=new URLSearchParams(location.search).get('code'),v=sessionStorage.getItem('tolle-pkce');
+  if(!code)return;
+  history.replaceState(null,'',location.pathname);sessionStorage.removeItem('tolle-pkce');
+  if(!v)return; // a code without this phone's secret: ignore it
+  try{authed(await auth('pkce',{auth_code:code,code_verifier:v}));SY={};keepSY()}catch{SY.err='signin';keepSY()}
+}
+async function token(){ // the access token, refreshed when it's about to run out; a refused refresh signs out
+  if(!AU)return null;
+  if(AU.x<Date.now())try{authed(await auth('refresh_token',{refresh_token:AU.r}))}catch(e){if(typeof e==='number'){AU=null;keepAU();SY.err='expired';keepSY()}return null}
+  return AU.t;
+}
+async function db(path,body,prefer){ // the account's rows, through Supabase's REST API; row-level security keeps it to this person's own
+  const t=await token();if(!t)throw 'signed out';
+  const r=await fetch(`${SB}/rest/v1/${path}`,{method:body?'POST':'GET',body:body&&JSON.stringify(body),
+    headers:{apikey:SBK,Authorization:'Bearer '+t,'Content-Type':'application/json',...(prefer&&{Prefer:prefer})}});
+  if(!r.ok)throw r.status;
+  return r.headers.get('content-type')?.includes('json')?r.json():null;
+}
 function synced(err){ // Settings redraws; elsewhere only the note changes, so a page never jumps under the reader
   SY.err=err||null;if(!err)SY.at=Date.now();keepSY();
-  if(S&&view==='settings')return render();
+  if(view==='settings'||!S)return render();
   const n=document.getElementById('sync-note');if(n)n.textContent=syncNote();
-  if(!err)document.getElementById('bk-nudge')?.remove();
 }
-const drive=(path,o={})=>fetch('https://www.googleapis.com/'+path,{...o,headers:{Authorization:'Bearer '+SY.k,'Content-Type':'application/json'}})
-  .then(r=>{if(r.status===401)SY.k=null;if(!r.ok)throw r.status;return r});
 async function sync(){ // pull, combine if both sides changed since the last sync, push
-  if(!GID||!passOK()||syncing)return;
+  if(!AU||syncing)return;
   syncing=true;clearTimeout(pushT);
   try{
-    SY.id??=(await (await drive("drive/v3/files?spaces=appDataFolder&q=name%3D'tolle.json'&fields=files(id)")).json()).files[0]?.id;
-    const remote=SY.id?clean(await (await drive(`drive/v3/files/${SY.id}?alt=media`)).json()):null,base=SY.base||0;
+    const [row]=await db('copies?select=pack'),remote=row?clean(row.pack):null,base=SY.base||0;
     let out=pack();
-    if(remote&&remote.u!==base){if(out.u<=base){adopt(remote);out=null}else adopt(out=merge(out,remote))} // only Drive changed: take it; both: combine
+    if(remote&&remote.u!==base){if(out.u<=base){adopt(remote);out=null}else adopt(out=merge(out,remote))} // only the account changed: take it; both: combine
     else if(out.u<=base)out=null; // nothing new on either side
-    if(out){
-      SY.id??=(await (await drive('drive/v3/files?fields=id',{method:'POST',body:JSON.stringify({name:'tolle.json',parents:['appDataFolder']})})).json()).id;
-      await drive(`upload/drive/v3/files/${SY.id}?uploadType=media`,{method:'PATCH',body:JSON.stringify(out)});
-    }
-    if(out||remote){SY.base=(out||remote).u;synced()}else synced('none'); // 'none': a fresh phone and an empty Drive
-  }catch(e){if(e===404)SY.id=null;synced(e instanceof SyntaxError||e.message==='not a Tolle backup'?'bad copy':'offline')}
+    if(out){const [r]=await db('rpc/put_copy',{base:remote?.u??0,new_u:out.u,new_pack:out});if(!r.ok){pushT=setTimeout(sync,500);throw 'raced'}} // another phone wrote in between: go round again
+    SY.base=(out||remote)?.u??SY.base;
+    if(S){const nx=CH[nextIdx()];db('profiles',{user_id:AU.id,tz:Intl.DateTimeFormat().resolvedOptions().timeZone,last_read:Object.keys(S.log).filter(d=>S.log[d]).sort().at(-1)??null,next_up:nx?`${nx[0]} ${nx[1]}`:null},'resolution=merge-duplicates,return=minimal').catch(()=>{})} // only what a reminder needs
+    synced();
+  }catch(e){if(e!=='raced')synced(e instanceof SyntaxError||e?.message==='not a Tolle backup'?'bad copy':e==='signed out'?'expired':'offline')}
   finally{syncing=false}
 }
-const syncNote=()=>SY.err==='none'?'There’s no Tolle backup in this Google account yet.':SY.err==='bad copy'?"The copy in Drive couldn't be read, so Tolle left it alone.":SY.err?"Couldn't reach Google Drive. Your progress is safe on this phone; tap Back up now to try again.":SY.at?`Backed up ${new Date(SY.at).toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'})}.`:'Not backed up yet.';
-const behind=()=>GID&&SY.on&&!passOK()&&pack().u>(SY.base||0); // changes Drive hasn't seen, and no pass to send them
+function signOut(){ // this phone forgets the session; the account and this phone's progress both stay
+  const t=AU?.t;if(t)fetch(`${SB}/auth/v1/logout`,{method:'POST',headers:{apikey:SBK,Authorization:'Bearer '+t}}).catch(()=>{});
+  AU=null;keepAU();SY={};keepSY();render();
+}
+const syncNote=()=>({bad:"The copy in your account couldn't be read, so Tolle left it alone.",expired:"You've been signed out. Sign in again to keep syncing.",signin:"Sign-in didn't finish. Try again.",offline:"Couldn't reach your account. Your progress is safe on this phone and syncs when you're back online."})[SY.err==='bad copy'?'bad':SY.err]
+  ??(SY.at?`Synced ${new Date(SY.at).toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'})}.`:'Not synced yet.');
 addEventListener('visibilitychange',()=>{if(!document.hidden)sync()});
 
 // a sheet follows the thumb down 1:1; let go and it drops away or settles back, by where the flick was headed
@@ -1112,7 +1132,7 @@ navigator.serviceWorker?.addEventListener('controllerchange',()=>{
   document.body.append(p);
 });
 history.replaceState(null,''); // a reload starts on Today, so forget any page the browser remembered being on
-render();sync();
+render();returning().finally(sync);
 </script>
 </body>
 </html>

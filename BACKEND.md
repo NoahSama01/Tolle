@@ -1,6 +1,6 @@
 # Tolle backend
 
-Status: the database is set up (migration run; signed-out access refused everywhere, checked). Google sign-in is next.
+Status: database set up and locked down; Google sign-in and sync built. Next: a real sign-in check, the two-account test, account deletion, reminders.
 
 Project: `https://wvzfjqblglbtyjcnklym.supabase.co` (publishable key `sb_publishable_5e2eMODJEOTuvJmaWo70ZQ_IgQLb00L`; both are public by design and go into the app).
 
