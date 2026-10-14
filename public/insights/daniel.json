@@ -1,0 +1,1218 @@
+{
+ "1": {
+  "summary": "Taken to Babylon as young men and trained for the king's service, Daniel and his three friends refuse the king's food and prove wiser than all the court's experts.",
+  "lookfor": "Watch the three things God is said to give (1:2, 1:9, 1:17), the new names the friends receive, and the ten-day test Daniel proposes.",
+  "names": [
+   {
+    "name": "Jehoiakim",
+    "kind": "person",
+    "gloss": "King of Judah from about 609 to 598 BC, first a vassal of Egypt and then of Babylon."
+   },
+   {
+    "name": "Nebuchadnezzar",
+    "kind": "person",
+    "gloss": "King of Babylon from 605 to 562 BC, who later destroyed Jerusalem in 586 BC."
+   },
+   {
+    "name": "Shinar",
+    "kind": "place",
+    "gloss": "An old name for Babylonia, the land where the tower of Babel was built."
+   },
+   {
+    "name": "Ashpenaz",
+    "kind": "person",
+    "gloss": "The chief court official in charge of training the young captives."
+   },
+   {
+    "name": "Chaldeans",
+    "kind": "group",
+    "gloss": "The ruling people of Babylon; the word can also mean a class of learned diviners."
+   },
+   {
+    "name": "Belteshazzar",
+    "kind": "person",
+    "gloss": "Daniel's Babylonian name."
+   },
+   {
+    "name": "Abednego",
+    "kind": "person",
+    "gloss": "The Babylonian name given to Azariah."
+   },
+   {
+    "name": "Cyrus",
+    "kind": "person",
+    "gloss": "The Persian king who conquered Babylon in 539 BC."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The first deportation",
+    "body": "The third year of Jehoiakim (1:1) points to about 605 BC, when Nebuchadnezzar defeated Egypt at Carchemish and took hostages from the western kingdoms. Jeremiah calls the same year the fourth of Jehoiakim; the difference is usually explained by Babylonian and Judean ways of counting a king's first year. Taking young nobles to be trained at court was a common way of binding a conquered people to the empire.",
+    "refs": [
+     "Jeremiah 25:1",
+     "2 Kings 24:1"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Back to Babel",
+    "body": "The temple vessels go to the land of Shinar (1:2), the place where humanity built the tower of Babel. The word quietly frames Babylon as the old centre of human pride. The same vessels return in chapter 5, at Belshazzar's feast, and are finally sent home under Cyrus.",
+    "refs": [
+     "Genesis 11:2",
+     "Daniel 5:2-3",
+     "Ezra 1:7"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Names that point to God",
+    "body": "Each Hebrew name honours Israel's God: Daniel means God is my judge, Hananiah Yahweh is gracious, Mishael probably who is what God is, and Azariah Yahweh has helped. Their new names point instead to Babylonian gods; Abednego is probably a deliberately bent form of servant of Nabu. Daniel's later claim that Belteshazzar honours the king's god (4:8) shows the renaming was meant to reshape their identity.",
+    "refs": [
+     "Daniel 4:8"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Why refuse the food?",
+    "body": "The text does not say why Daniel thought the king's food would defile him (1:8). Suggestions include meat not prepared by the law of Moses, food and wine first offered to Babylonian gods, or a refusal to depend wholly on the king's table. Since wine was not forbidden by the law, many readers think the issue was loyalty and idolatry as much as diet.",
+    "refs": [
+     "Leviticus 11:1-8",
+     "Exodus 34:15"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "God gave, three times",
+    "body": "The chapter says God gave Jehoiakim into Nebuchadnezzar's hand (1:2), gave Daniel favour with the official (1:9), and gave the four young men knowledge and skill (1:17). The defeat, the kindness and the wisdom all come from the same source. The narrator is reframing exile: Babylon did not simply win.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Where to draw the line",
+    "body": "Daniel accepts a Babylonian education, a Babylonian name and a place in the king's service, yet refuses the king's food. Why might he draw the line there rather than elsewhere? Readers living as minorities in other cultures have often found this chapter a model for choosing carefully which battles matter.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Magicians and enchanters",
+    "body": "Babylon was famous for its learned classes who read omens, interpreted dreams and studied the stars, and vast libraries of such texts survive on clay tablets. The young Judeans would have learned cuneiform writing and the literature of the Chaldeans (1:4). The chapter claims that their God-given wisdom outstripped all of it ten times over (1:20).",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "From Nebuchadnezzar to Cyrus",
+    "body": "The closing note that Daniel lasted until the first year of Cyrus (1:21) spans the whole Babylonian exile. Daniel outlives the empire that captured him. The book's main claim is already hinted at: kingdoms rise and fall while God's servant remains.",
+    "refs": [
+     "Ezra 1:1"
+    ]
+   }
+  ]
+ },
+ "2": {
+  "summary": "Nebuchadnezzar demands that his wise men tell him both his dream and its meaning; Daniel, after prayer, reveals a statue of four metals destroyed by a stone that becomes a mountain.",
+  "lookfor": "Notice the king's impossible demand, Daniel's prayer before he speaks to the king, and how each part of the statue is explained.",
+  "names": [
+   {
+    "name": "Chaldeans",
+    "kind": "group",
+    "gloss": "Here the class of learned diviners and dream interpreters at the Babylonian court."
+   },
+   {
+    "name": "Arioch",
+    "kind": "person",
+    "gloss": "Captain of the king's guard, sent to execute the wise men."
+   },
+   {
+    "name": "Hananiah",
+    "kind": "person",
+    "gloss": "One of Daniel's three companions, renamed Shadrach."
+   },
+   {
+    "name": "Mishael",
+    "kind": "person",
+    "gloss": "One of Daniel's three companions, renamed Meshach."
+   },
+   {
+    "name": "Azariah",
+    "kind": "person",
+    "gloss": "One of Daniel's three companions, renamed Abednego."
+   },
+   {
+    "name": "Belteshazzar",
+    "kind": "person",
+    "gloss": "Daniel's Babylonian name."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "The switch to Aramaic",
+    "body": "When the Chaldeans answer the king (2:4), the original text changes from Hebrew to Aramaic, the international language of the empires, and stays in Aramaic until the end of chapter 7. Scholars debate why. One common view is that the Aramaic chapters, which speak to the nations, once formed a separate collection.",
+    "refs": [
+     "Ezra 4:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A test the experts could not fake",
+    "body": "Babylonian dream manuals listed dream images and their meanings, so an interpreter normally needed to hear the dream first. By demanding the dream itself (2:5), the king makes sure no one can invent an answer. The wise men admit that only the gods could do it (2:11), which sets up Daniel's claim about a God in heaven who reveals secrets (2:28).",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Prayer before the palace",
+    "body": "Daniel asks for time, gathers his friends to ask mercy from the God of heaven (2:18), and answers the revelation with a hymn (2:20-23) before going to the king. His praise that God removes kings and sets up kings (2:21) states the theme of the whole book.",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "Four kingdoms",
+    "body": "Babylon is named as the head of gold (2:38), but the other kingdoms are not. Many Jewish and Christian interpreters identify them as Media-Persia, Greece and Rome. Many modern scholars read them as Media, Persia and Alexander's Greek empire, which split into rival kingdoms joined by royal marriages (2:43). Both readings agree on the main point, that every human empire is temporary.",
+    "refs": [
+     "Daniel 7:17",
+     "Daniel 8:20-21"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Ages of metal",
+    "body": "The idea of world history as a series of declining ages of gold, silver, bronze and iron also appears in the Greek poet Hesiod and in later Persian writings. Daniel uses a pattern its readers may have recognised, but the new element is the stone not made by human hands that ends the whole sequence.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "The stone",
+    "body": "The stone cut out without hands (2:34) becomes a mountain that fills the earth (2:35), recalling the mountain of Yahweh's house in the prophets. Jesus's saying about a stone that crushes whoever it falls on seems to echo this chapter, and Christian interpreters have long read the stone as the kingdom of Christ. Jewish interpreters have usually read it as the kingdom of God or the Messiah.",
+    "refs": [
+     "Isaiah 2:2",
+     "Luke 20:17-18"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "A pagan king's confession",
+    "body": "Nebuchadnezzar falls before Daniel and calls his God the God of gods (2:46-47), yet in the next chapter he builds a golden statue. What does the book suggest about a conversion that begins with astonishment? The king's story is not over until chapter 4.",
+    "refs": [
+     "Daniel 4:34-37"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A kingdom that will never be destroyed",
+    "body": "The interpretation looks beyond Babylon to a kingdom the God of heaven will set up that will never be destroyed (2:44). Daniel 7 retells the same sequence through four beasts, and the New Testament's announcement that the kingdom of God has come near draws on this hope.",
+    "refs": [
+     "Daniel 7:13-14",
+     "Mark 1:15"
+    ]
+   }
+  ]
+ },
+ "3": {
+  "summary": "Shadrach, Meshach and Abednego refuse to worship Nebuchadnezzar's golden image, are thrown into a blazing furnace, and walk out unharmed with a fourth figure beside them.",
+  "lookfor": "Listen for the lists that repeat (officials, instruments, the three names), the friends' reply to the king, and the number of men the king sees in the fire.",
+  "names": [
+   {
+    "name": "Dura",
+    "kind": "place",
+    "gloss": "A plain in the province of Babylon; the name, meaning a walled place, was common in Mesopotamia."
+   },
+   {
+    "name": "Shadrach",
+    "kind": "person",
+    "gloss": "Babylonian name of Hananiah, one of Daniel's three friends."
+   },
+   {
+    "name": "Meshach",
+    "kind": "person",
+    "gloss": "Babylonian name of Mishael."
+   },
+   {
+    "name": "Abednego",
+    "kind": "person",
+    "gloss": "Babylonian name of Azariah."
+   },
+   {
+    "name": "Chaldeans",
+    "kind": "group",
+    "gloss": "Members of the Babylonian learned class, here acting as accusers."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "A statue sixty cubits high",
+    "body": "Sixty by six cubits (3:1) is about 27 by 2.7 metres, a tall, thin shape that may have been an obelisk or a statue on a high pedestal, probably overlaid rather than solid gold. Babylon counted in sixties, and the numbers fit that system. The text does not say whether it depicted the king or a god.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Lists that mock",
+    "body": "The officials are listed in full twice (3:2-3) and the orchestra four times (3:5, 3:7, 3:10, 3:15). The heavy repetition makes the empire's machinery sound impressive and a little absurd, as every official moves in unison at the sound of the music. Against it stand three men who will not move.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Instruments with Greek names",
+    "body": "Three of the instruments in 3:5 have names borrowed from Greek, including the word behind pipe, which comes from symphonia. Scholars who date Daniel late see these as evidence of the Hellenistic period. Others point out that Greek mercenaries and goods were already in the Near East by the 6th century BC.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "But if not",
+    "body": "The friends say their God is able to deliver them (3:17), then add that even if he does not, they still will not bow (3:18). Their faithfulness does not depend on a rescue. The two words but if not became a famous short phrase for resolute faith in English-speaking churches.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Through the fire",
+    "body": "Isaiah had promised Israel that when they walk through the fire they will not be burned, and this story acts that promise out. Jeremiah mentions two men whom the king of Babylon roasted in the fire, so burning was a real Babylonian punishment. Hebrews remembers those who quenched the power of fire through faith.",
+    "refs": [
+     "Isaiah 43:2",
+     "Jeremiah 29:22",
+     "Hebrews 11:34"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The fourth man",
+    "body": "The king sees four men walking in the fire, the fourth like a son of the gods (3:25), and later calls him God's angel (3:28). Jewish interpreters usually read him as an angel; many Christian interpreters have seen a pre-incarnate appearance of Christ. Either way, the friends are not rescued from the furnace but accompanied in it. What does that difference suggest?",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "Where is Daniel?",
+    "body": "Daniel does not appear in this chapter, and the text never explains his absence. The story keeps the focus on ordinary officials facing the empire's demand without the help of Daniel's gifts. Readers under persecution, especially in the 2nd century BC, would have heard it as their own test.",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "A king's decree reversed",
+    "body": "The chapter opens with a decree that everyone must worship the king's image and closes with a decree that no one may speak against the God of these three men (3:29). The king still threatens violence, so he has not changed his ways. The book shows God protecting his people without making the empire suddenly good.",
+    "refs": [
+     "Daniel 6:26-27"
+    ]
+   }
+  ]
+ },
+ "4": {
+  "summary": "In a letter to the nations, Nebuchadnezzar tells how a dream of a great tree cut down came true when he lost his mind and lived like an animal until he acknowledged the Most High.",
+  "lookfor": "Notice who is speaking in each section, the words of the holy watcher, Daniel's advice to the king, and what the king is doing when the sentence falls.",
+  "names": [
+   {
+    "name": "Belteshazzar",
+    "kind": "person",
+    "gloss": "Daniel's Babylonian name, which the king links to his own god."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Told by the king himself",
+    "body": "The chapter is written as a royal proclamation in Nebuchadnezzar's own voice (4:1), shifts to the third person while he is out of his mind (4:28-33), and returns to the first person when his understanding comes back (4:34). The form lets the proud king testify against himself. It opens and closes with praise of God's everlasting kingdom (4:3, 4:34).",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Watchers",
+    "body": "The Aramaic word translated watcher, ir, means one who is awake. It appears in the Bible only here (4:13, 4:17, 4:23), for heavenly beings who carry out God's decrees. Later Jewish writings such as 1 Enoch developed a large tradition about the watchers.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "The great tree",
+    "body": "Ezekiel pictured Assyria and Egypt as a towering cedar with birds in its branches, cut down for its pride. Daniel uses the same image for Babylon's king. Jesus's parable of the mustard seed, whose branches shelter the birds, borrows the picture for the kingdom of God, which starts tiny.",
+    "refs": [
+     "Ezekiel 31:3-14",
+     "Matthew 13:31-32"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Nabonidus and a scroll from Qumran",
+    "body": "No Babylonian record mentions Nebuchadnezzar going mad. A Dead Sea Scrolls fragment, the Prayer of Nabonidus, tells of the last Babylonian king being struck with illness for seven years in Arabia and healed when a Jewish exile urged him to honour God. Many scholars think a tradition about Nabonidus's long stay at Tema lies behind this chapter; others think the two stories are separate.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Is not this great Babylon?",
+    "body": "Nebuchadnezzar's boast (4:30) fits what is known of him. He rebuilt Babylon on a vast scale, with the Ishtar Gate, huge walls and palaces, and thousands of bricks stamped with his name survive. His own inscriptions praise his building works in terms close to this verse.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Righteousness and mercy",
+    "body": "Daniel urges the king to break off his sins by righteousness and mercy to the poor (4:27). The Aramaic word for righteousness, tsidqah, later came to mean giving alms in Jewish usage. Catholic tradition has cited this verse on almsgiving as a work of repentance; Protestant readers usually stress it as evidence of a changed life rather than a means of pardon.",
+    "refs": [
+     "Proverbs 16:6"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Seven times",
+    "body": "The sentence lasts seven times (4:16, 4:25), usually understood as seven years. The story never says how the kingdom was kept for him meanwhile. Why might the narrator care less about the mechanics than about the moment the king lifts his eyes to heaven (4:34)?",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The Most High rules",
+    "body": "The phrase that the Most High rules in the kingdom of men and gives it to whomever he will is repeated three times (4:17, 4:25, 4:32). It is the lesson of the book's first half. Mary's song, which says God has put down princes and exalted the lowly, sounds the same note.",
+    "refs": [
+     "Luke 1:52",
+     "Daniel 5:21"
+    ]
+   }
+  ]
+ },
+ "5": {
+  "summary": "At a drunken feast where he drinks from the temple vessels, Belshazzar sees a hand write on the wall; Daniel reads it as judgment, and that night the king is killed and Babylon falls.",
+  "lookfor": "Watch what the guests drink from and praise, who remembers Daniel, how Daniel answers the offer of rewards, and the four words on the wall.",
+  "names": [
+   {
+    "name": "Belshazzar",
+    "kind": "person",
+    "gloss": "Son of Nabonidus, the last Babylonian king, who ruled in Babylon while his father was away."
+   },
+   {
+    "name": "Nebuchadnezzar",
+    "kind": "person",
+    "gloss": "The great king of Babylon, called Belshazzar's father in the sense of predecessor."
+   },
+   {
+    "name": "Medes",
+    "kind": "group",
+    "gloss": "A people of north-west Iran, allied with and later absorbed into the Persian empire."
+   },
+   {
+    "name": "Persians",
+    "kind": "group",
+    "gloss": "The people of south-west Iran whose king Cyrus took Babylon in 539 BC."
+   },
+   {
+    "name": "Darius the Mede",
+    "kind": "person",
+    "gloss": "The ruler who takes over Babylon; he is not known from other ancient sources, and his identity is debated."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Belshazzar found",
+    "body": "Belshazzar was once dismissed as unknown outside the Bible, but Babylonian texts show him as the son of Nabonidus, ruling in Babylon for years while his father stayed in Arabia. That explains why Daniel is offered the post of third ruler in the kingdom (5:7, 5:16). Calling Nebuchadnezzar his father (5:2) follows the common ancient use of father for a royal predecessor or ancestor.",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "The night Babylon fell",
+    "body": "Babylon fell to Cyrus in October 539 BC, largely without a battle. The Greek historians Herodotus and Xenophon both say the city was taken during a festival while its people were celebrating. Isaiah and Jeremiah had pictured Babylon's rulers feasting and drinking when the end came.",
+    "refs": [
+     "Isaiah 21:5",
+     "Jeremiah 51:39"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The temple cups",
+    "body": "The vessels Nebuchadnezzar took from Jerusalem in chapter 1 reappear here (5:2-3), used to toast gods of gold, silver, bronze, iron, wood and stone (5:4). Using them this way was a deliberate insult to Israel's God. The list of materials echoes the metals of the statue in chapter 2.",
+    "refs": [
+     "Daniel 1:2"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Mene, tekel, parsin",
+    "body": "The words on the wall are Aramaic weights: a mina, a shekel and halves. Daniel reads them as verbs, numbered, weighed and divided (5:26-28). The last word also sounds like the Aramaic for Persia, so it carries a double meaning.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Let your gifts be to yourself",
+    "body": "Daniel, now old, refuses the rewards (5:17) yet accepts them after he has spoken (5:29). He also preaches to Belshazzar before reading the writing (5:18-23), recalling what happened to Nebuchadnezzar. Belshazzar's guilt is not ignorance but refusing to learn: he knew all this (5:22).",
+    "refs": [
+     "Daniel 4:31-33"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The queen",
+    "body": "The queen who enters the banquet hall (5:10) is not one of the king's wives, who are already there (5:2). She is probably the queen mother, who in ancient courts often held real influence and long memory. She is the one who remembers Daniel.",
+    "refs": [
+     "1 Kings 15:13"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Weighed and found wanting",
+    "body": "Weighed in the balances and found wanting (5:27) has become a common English saying. The image is of a scale, with Belshazzar's life too light to balance God's standard. What does this chapter suggest a person is weighed by: wealth, power, or something else?",
+    "refs": [
+     "Job 31:6",
+     "Proverbs 16:2"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Darius the Mede",
+    "body": "Darius the Mede (5:31) is unknown outside the book of Daniel. He has been identified with Cyrus himself, with Cyrus's governor Gubaru, or with Cyaxares, while many scholars see a figure shaped by the prophecy that the Medes would overthrow Babylon. The book's sequence of Babylon, Media and Persia shapes how its visions are read.",
+    "refs": [
+     "Isaiah 13:17",
+     "Jeremiah 51:11"
+    ]
+   }
+  ]
+ },
+ "6": {
+  "summary": "Jealous officials trick King Darius into banning prayer to anyone but himself; Daniel prays as usual, is thrown to the lions, and is found unharmed in the morning.",
+  "lookfor": "Notice why the officials target Daniel's religion, what Daniel does when he hears of the decree, and how the king spends the night.",
+  "names": [
+   {
+    "name": "Darius",
+    "kind": "person",
+    "gloss": "Called Darius the Mede in Daniel; his identity outside the book is debated."
+   },
+   {
+    "name": "Medes",
+    "kind": "group",
+    "gloss": "A people of north-west Iran, ruling with the Persians."
+   },
+   {
+    "name": "Persians",
+    "kind": "group",
+    "gloss": "The people of south-west Iran whose empire replaced Babylon."
+   },
+   {
+    "name": "Cyrus",
+    "kind": "person",
+    "gloss": "Cyrus the Great, founder of the Persian empire, who conquered Babylon in 539 BC."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Satraps",
+    "body": "Satrap (6:1) is a Persian word for a provincial governor; the Aramaic text keeps the foreign term. The Persian empire was divided into large provinces under satraps, with smaller districts beneath them, and the king relied on officials who reported to him. One hundred twenty may count these smaller units.",
+    "refs": [
+     "Esther 1:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A law that cannot change",
+    "body": "The idea that a sealed royal decree of the Medes and Persians could not be revoked (6:8, 6:15) also drives the plot of Esther. It reflects the authority of the king's word more than any known Persian legal rule. Here it traps the king himself, who wants to save Daniel but cannot undo his own signature.",
+    "refs": [
+     "Esther 1:19",
+     "Esther 8:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "As he did before",
+    "body": "Daniel neither protests nor hides; he prays three times a day toward Jerusalem with his windows open, as he did before (6:10). Facing Jerusalem echoes Solomon's prayer that exiles would pray toward the land, city and temple. A psalm speaks of praying evening, morning and noon.",
+    "refs": [
+     "1 Kings 8:48-49",
+     "Psalms 55:17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Kings and lions",
+    "body": "Assyrian and Persian kings kept lions and staged royal lion hunts; reliefs from Nineveh show lions released from cages for the king. A pit or den of lions as a place of execution is not otherwise attested, but it fits a court where lions were kept.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "The king who could not sleep",
+    "body": "The most anxious person in the story is the king, who fasts and cannot sleep (6:18) and hurries to the den at dawn (6:19). He even voices hope that Daniel's God will save him (6:16). The pagan ruler is shown with some sympathy, as caught in his own system.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "The accusers' families",
+    "body": "The accusers are thrown to the lions with their wives and children (6:24). Punishing whole families was a known practice in ancient empires, though the law of Moses forbade putting children to death for their parents' sins. The narrator reports it without comment. How should readers weigh a detail that the story records but does not approve?",
+    "refs": [
+     "Deuteronomy 24:16"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The mouths of lions",
+    "body": "Hebrews lists among the faithful those who stopped the mouths of lions, recalling Daniel's words that God's angel shut the lions' mouths (6:22). Paul's words that he was delivered out of the mouth of the lion use the same image. The sealing of the stone over the den (6:17) has reminded many Christian readers of the sealed tomb of Jesus.",
+    "refs": [
+     "Hebrews 11:33",
+     "2 Timothy 4:17",
+     "Matthew 27:66"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Mirror of chapter 3",
+    "body": "The Aramaic chapters 2–7 are arranged in matching pairs: four kingdoms (2 and 7), faithful Jews rescued from death (3 and 6), and proud kings judged (4 and 5). This chapter mirrors the furnace story, with a royal decree, accusers, rescue and the king's praise of God. It closes the stories of Daniel's life before the visions begin.",
+    "refs": [
+     "Daniel 3:28-29"
+    ]
+   }
+  ]
+ },
+ "7": {
+  "summary": "Daniel sees four beasts rise from a stormy sea, the last with ten horns and a boastful little horn, until the Ancient of Days sits in judgment and gives everlasting dominion to one like a son of man.",
+  "lookfor": "Watch the description of each beast, the throne scene in heaven, the figure who comes with the clouds, and who finally receives the kingdom.",
+  "names": [
+   {
+    "name": "Belshazzar",
+    "kind": "person",
+    "gloss": "Son of Nabonidus and regent in Babylon; his first year was around 553 BC."
+   },
+   {
+    "name": "ancient of days",
+    "kind": "person",
+    "gloss": "A title for God as the aged, eternal judge enthroned in heaven."
+   },
+   {
+    "name": "saints of the Most High",
+    "kind": "group",
+    "gloss": "The holy ones who receive the kingdom, read as God's faithful people, as angels, or as both."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Back in Belshazzar's reign",
+    "body": "The vision is dated to Belshazzar's first year (7:1), before the events of chapters 5 and 6, so the book's second half steps back in time. The stories showed God ruling over individual kings; the visions now survey the whole sweep of empires. This chapter retells the four kingdoms of chapter 2 as beasts.",
+    "refs": [
+     "Daniel 2:31-45"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Beasts from the sea",
+    "body": "In Israel's world the churning sea stood for chaos and the powers opposed to God, sometimes pictured as sea monsters. Winged lions and composite creatures were familiar in Babylonian and Persian art, as the glazed lions of Babylon's Ishtar Gate show. The vision turns the empires' own proud symbols into monsters rising out of chaos (7:3).",
+    "refs": [
+     "Isaiah 27:1",
+     "Psalms 74:13-14"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Who is the little horn?",
+    "body": "The angel identifies the beasts as kingdoms and the ten horns as kings (7:17, 7:24). Most modern scholars, and many earlier interpreters, see the fourth beast as the Greek kingdoms and the little horn as Antiochus IV, who tried to abolish Jewish worship (7:25). Traditional Christian readings take the fourth beast as Rome and the horn as a final antichrist, and some Jewish interpreters also read the fourth kingdom as Rome.",
+    "refs": [
+     "Daniel 8:9-12"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "One like a son of man",
+    "body": "In Aramaic bar enash simply means a human being, so the figure is one like a human (7:13), set against the beasts. Coming with the clouds is something only God does elsewhere in the Old Testament, so the figure has a heavenly status. The angel later says the kingdom is given to the saints of the Most High (7:18, 7:27), and interpreters debate how the figure and the saints relate.",
+    "refs": [
+     "Psalms 104:3"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Jesus and the Son of Man",
+    "body": "Son of Man was Jesus's favourite way of referring to himself in the Gospels. At his trial he answers the high priest by quoting this chapter: \"You will see the Son of Man sitting at the right hand of Power, and coming with the clouds of the sky.\" The high priest's reaction shows he heard it as a claim to divine authority.",
+    "refs": [
+     "Mark 14:62-63",
+     "Matthew 26:64"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Revelation's beast",
+    "body": "Revelation's beast from the sea combines features of the leopard, bear and lion (7:4-6), with ten horns and a mouth speaking great things. The Ancient of Days' white hair (7:9) is given to the risen Christ in Revelation 1. John's vision reuses Daniel's images throughout.",
+    "refs": [
+     "Revelation 13:1-5",
+     "Revelation 1:13-14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A time, times and half a time",
+    "body": "The little horn will oppress the saints for a time and times and half a time (7:25), usually understood as three and a half years. The number is half of seven, a broken period that does not reach completion. Antiochus's suppression of temple worship lasted about three years, from 167 to 164 BC, and Revelation uses the same span for its period of persecution.",
+    "refs": [
+     "Daniel 12:7",
+     "Revelation 12:14"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Why so troubled?",
+    "body": "The vision ends in victory for the saints, yet Daniel ends it pale and deeply troubled (7:28). Is it the violence of the beasts, the suffering of the saints before the end, or the sheer weight of the vision? The book seldom makes knowing the future a comfortable experience.",
+    "refs": []
+   }
+  ]
+ },
+ "8": {
+  "summary": "In a vision at Susa, Daniel sees a two-horned ram trampled by a goat whose great horn breaks into four, from which a little horn grows and defiles the sanctuary; Gabriel explains the vision.",
+  "lookfor": "Notice which kingdoms the angel actually names, what the little horn does to the temple, and the length of time before the sanctuary is restored.",
+  "names": [
+   {
+    "name": "Susa",
+    "kind": "place",
+    "gloss": "A royal city in Elam, south-west Iran, later a capital of the Persian kings."
+   },
+   {
+    "name": "Elam",
+    "kind": "place",
+    "gloss": "An ancient region of south-west Iran, east of Babylon."
+   },
+   {
+    "name": "Ulai",
+    "kind": "place",
+    "gloss": "A river or canal beside Susa."
+   },
+   {
+    "name": "Gabriel",
+    "kind": "person",
+    "gloss": "An angel sent to explain visions; one of only two angels named in the Hebrew Bible."
+   },
+   {
+    "name": "Media",
+    "kind": "place",
+    "gloss": "Homeland of the Medes in north-west Iran."
+   },
+   {
+    "name": "Greece",
+    "kind": "place",
+    "gloss": "In Hebrew Javan, the Greek world, here Alexander's empire."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Back to Hebrew",
+    "body": "With this chapter the original text returns from Aramaic to Hebrew (8:1) and stays in Hebrew to the end of the book. The visions of chapters 8 to 12 focus more narrowly on Israel, its temple and a coming crisis. The shift in language matches the narrowing of focus.",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "The ram and the goat",
+    "body": "Here the angel names the powers: the two-horned ram is the kings of Media and Persia, and the goat is the king of Greece (8:20-21). The goat's single horn fits Alexander the Great, whose lightning campaigns from 334 BC crushed Persia so fast that the goat seems not to touch the ground (8:5). When Alexander died young in 323 BC, his empire split among his generals, the four horns (8:8, 8:22).",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "The little horn and the temple",
+    "body": "Interpreters of every tradition widely identify the little horn from one of the four Greek kingdoms (8:9) as Antiochus IV Epiphanes, the Seleucid king of Syria. In 167 BC he stopped the daily offerings in Jerusalem and set up pagan worship in the temple (8:11). Some Christian readers also see in him a pattern of a later antichrist.",
+    "refs": [
+     "Daniel 11:31"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "2,300 evenings and mornings",
+    "body": "The sanctuary will be restored after two thousand three hundred evenings and mornings (8:14). This may mean 2,300 days or, counting one evening and one morning offering each day, 1,150 days, a little over three years. Judas Maccabeus rededicated the temple in December 164 BC, about three years after its desecration, an event remembered at Hanukkah.",
+    "refs": [
+     "John 10:22"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Horns as power",
+    "body": "In the Bible and the ancient Near East a horn stands for strength, especially royal power, from the way a wild ox or ram fights. A horn growing to the army of the sky and casting down stars (8:10) pictures a king who tries to make war on heaven itself. Antiochus took the title Epiphanes, God manifest, on his coins.",
+    "refs": [
+     "Psalms 75:10",
+     "Isaiah 14:13-14"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Gabriel",
+    "body": "Gabriel, whose name means God is my strength or man of God, is the first angel named in the Bible (8:16). He returns in chapter 9, and in Luke he announces the births of John the Baptist and Jesus. Each time he comes to explain God's purposes and to tell the hearer not to be afraid.",
+    "refs": [
+     "Daniel 9:21",
+     "Luke 1:19",
+     "Luke 1:26-27"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Broken without hand",
+    "body": "The fierce king will be broken without hand (8:25), with no human army bringing him down; Antiochus died of illness on campaign in 164 BC. The phrase recalls the stone cut without hands in chapter 2. Why does the book insist that the final defeat of oppressors is God's work rather than human resistance?",
+    "refs": [
+     "Daniel 2:34"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Sick for days",
+    "body": "Daniel faints, is ill for days, then goes back to the king's business, still not understanding (8:27). Visions of the end do not lift him out of ordinary duties. The book keeps holding together faithfulness at work and hope in God's final rule.",
+    "refs": []
+   }
+  ]
+ },
+ "9": {
+  "summary": "Reading Jeremiah's prophecy of seventy years, Daniel prays a long confession for his people; Gabriel answers with a prophecy of seventy weeks leading to an anointed one cut off and a desolation.",
+  "lookfor": "Notice what Daniel is reading, how often he says we rather than they, what he grounds his request on, and the stages into which Gabriel divides the seventy weeks.",
+  "names": [
+   {
+    "name": "Darius",
+    "kind": "person",
+    "gloss": "Darius the Mede, whose first year falls just after Babylon's fall in 539 BC."
+   },
+   {
+    "name": "Ahasuerus",
+    "kind": "person",
+    "gloss": "The Hebrew form of Xerxes; here the father of Darius the Mede, not the king of Esther's story."
+   },
+   {
+    "name": "Jeremiah",
+    "kind": "person",
+    "gloss": "The prophet who foretold seventy years of Babylonian rule."
+   },
+   {
+    "name": "Gabriel",
+    "kind": "person",
+    "gloss": "The angel who explained Daniel's previous vision."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Reading Jeremiah",
+    "body": "Daniel understands from the books that Jerusalem's desolation would last seventy years (9:2). Jeremiah had promised that after seventy years God would punish Babylon and bring the exiles home. Babylon had just fallen, so Daniel prays as the promised time nears, an early example of one biblical book interpreting another.",
+    "refs": [
+     "Jeremiah 25:11-12",
+     "Jeremiah 29:10"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A prayer of the exile",
+    "body": "Daniel's prayer (9:4-19) belongs with the great confessions of Ezra and Nehemiah, which also admit that God is righteous and the people are shamed. It follows the pattern Solomon foresaw for exiles who repent and pray toward the land. It leans on the curses of the law of Moses (9:11), which warned of exile for disobedience.",
+    "refs": [
+     "Ezra 9:6-15",
+     "Nehemiah 9:32-35",
+     "1 Kings 8:46-50",
+     "Leviticus 26:40-42"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "We have sinned",
+    "body": "Daniel is presented as faithful throughout the book, yet he prays we have sinned (9:5) and confesses his own sin with his people's (9:20). He bases his plea not on Israel's righteousness but on God's great mercies (9:18) and on God's name, city and people (9:19).",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "The evening offering",
+    "body": "Gabriel arrives about the time of the evening offering (9:21), though the temple has lain in ruins for decades. Daniel still keeps the temple's hours of prayer. A psalm likewise asks that prayer be counted as incense and the lifting of hands as the evening sacrifice.",
+    "refs": [
+     "Psalms 141:2",
+     "Exodus 29:38-41"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Seventy weeks",
+    "body": "The Hebrew shavu'im means units of seven, so seventy sevens is generally taken as 490 years (9:24). The number reworks Jeremiah's seventy years in sabbatical terms: Leviticus counts years in sevens, and Chronicles links the exile with the land keeping its sabbaths. The prophecy divides the period into seven weeks, sixty-two weeks and a final week (9:25-27).",
+    "refs": [
+     "Leviticus 25:8",
+     "2 Chronicles 36:21"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Readings of the seventy weeks",
+    "body": "This passage is one of the most debated in the Bible. Many Christian interpreters count from a Persian decree to rebuild Jerusalem to the ministry and death of Jesus as the Anointed One cut off (9:26); some dispensational readers place the last week in the future. Many modern scholars count toward the 2nd century BC, seeing the anointed one as the high priest Onias III, murdered in 171 BC, while classic Jewish interpreters such as Rashi linked it with Rome's destruction of the temple in AD 70.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Abominations",
+    "body": "The one who makes desolate on the wing of abominations (9:27) appears again in chapters 11 and 12. Jesus speaks of the abomination of desolation spoken of through Daniel standing in the holy place, applying it to a coming crisis in Jerusalem. That shows how early Daniel's prophecies were read as still open.",
+    "refs": [
+     "Daniel 11:31",
+     "Daniel 12:11",
+     "Matthew 24:15"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Seventy becomes 490",
+    "body": "Daniel prays for the end of seventy years and is told of seventy sevens. The return from exile happens, but full restoration lies much further off. What does that suggest about how biblical hope works when a promise is partly fulfilled?",
+    "refs": [
+     "Ezra 1:1-4"
+    ]
+   }
+  ]
+ },
+ "10": {
+  "summary": "After three weeks of mourning, Daniel sees a glorious man in linen who explains that he has been fighting the prince of Persia with Michael's help and has come to show what will happen to Daniel's people.",
+  "lookfor": "Watch Daniel's fast, the description of the heavenly figure, the repeated touches that strengthen Daniel, and the unseen conflict between princes.",
+  "names": [
+   {
+    "name": "Cyrus",
+    "kind": "person",
+    "gloss": "Cyrus king of Persia; his third year is about 536 BC."
+   },
+   {
+    "name": "Hiddekel",
+    "kind": "place",
+    "gloss": "The Hebrew name of the Tigris river."
+   },
+   {
+    "name": "Uphaz",
+    "kind": "place",
+    "gloss": "An unknown place famous for gold, also named in Jeremiah."
+   },
+   {
+    "name": "Michael",
+    "kind": "person",
+    "gloss": "A chief angel, described as the prince who stands for Daniel's people."
+   },
+   {
+    "name": "Persia",
+    "kind": "place",
+    "gloss": "The empire ruling the Near East after 539 BC."
+   },
+   {
+    "name": "Greece",
+    "kind": "place",
+    "gloss": "The Greek power that would follow Persia."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The third year of Cyrus",
+    "body": "By this date (10:1) the first exiles had been allowed to return to Jerusalem, yet Daniel is still in the east, mourning for three weeks (10:2). Ezra records that rebuilding the temple soon stalled under local opposition. Chapters 10 to 12 form one long final vision, with this chapter as its introduction.",
+    "refs": [
+     "Ezra 1:1-4",
+     "Ezra 4:4-5"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A partial fast",
+    "body": "Daniel does not stop eating but gives up pleasant bread, meat and wine and skips anointing himself with oil (10:3), which people did for comfort and grooming. Mourning practices in Israel often included leaving off oil and fine food. Today some Christians call a vegetable-and-water fast a Daniel fast, drawing on this verse and chapter 1.",
+    "refs": [
+     "2 Samuel 14:2",
+     "Daniel 1:12"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A man clothed in linen",
+    "body": "The figure in linen with gold, a face like lightning, eyes like torches and a voice like a multitude (10:5-6) resembles Ezekiel's visions of glory and the linen-clad angel there. Revelation describes the risen Christ in very similar terms. Interpreters debate whether this is an angel such as Gabriel or a manifestation of God.",
+    "refs": [
+     "Ezekiel 1:26-28",
+     "Ezekiel 9:2",
+     "Revelation 1:13-16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Touched three times",
+    "body": "Daniel is overwhelmed and must be strengthened three times: a hand sets him on his knees (10:10), someone touches his lips so he can speak (10:16), and he is touched again and told to be strong (10:18-19). The heavenly messenger does not simply deliver information but restores the one who receives it.",
+    "refs": [
+     "Isaiah 6:6-7"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Princes of the nations",
+    "body": "The prince of the kingdom of Persia who resists the messenger for twenty-one days (10:13) is generally understood as a spiritual power linked with that nation, and Michael is the prince of Israel (10:21). Some ancient texts of Deuteronomy speak of the nations divided according to the sons of God. Daniel pictures earthly politics bound up with a conflict in heaven.",
+    "refs": [
+     "Deuteronomy 32:8",
+     "Ephesians 6:12"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Michael",
+    "body": "Michael means who is like God, a question that expects the answer no one. He is called one of the chief princes (10:13) and later the great prince who stands for Daniel's people (12:1). In the New Testament he is the archangel who contends with the devil and leads the angels in war against the dragon.",
+    "refs": [
+     "Daniel 12:1",
+     "Jude 1:9",
+     "Revelation 12:7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Heard from the first day",
+    "body": "Daniel's words were heard from the first day he humbled himself (10:12), yet the answer took three weeks to arrive. The book offers a glimpse of unseen reasons for delay, though not a general rule. How might this chapter shape the way someone waits for an answer to prayer?",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The writing of truth",
+    "body": "The messenger will reveal what is inscribed in the writing of truth (10:21), the image of history already known to God. The following chapter will lay out the coming centuries in detail. The point is not idle forecasting but assurance that nothing in history escapes God's knowledge.",
+    "refs": [
+     "Psalms 139:16"
+    ]
+   }
+  ]
+ },
+ "11": {
+  "summary": "The messenger traces the wars of Persian and Greek kings, the long struggle between the kings of the south and north, and the career of a contemptible king who profanes the temple, until his end comes.",
+  "lookfor": "Follow the changes between the king of the south and the king of the north, the contemptible person from verse 21, and what the wise among the people do.",
+  "names": [
+   {
+    "name": "Darius the Mede",
+    "kind": "person",
+    "gloss": "The ruler of Babylon after its fall, in whose first year the messenger strengthened him."
+   },
+   {
+    "name": "Kittim",
+    "kind": "place",
+    "gloss": "Originally Cyprus, later a name for western sea powers; here usually taken as Rome."
+   },
+   {
+    "name": "Edom",
+    "kind": "place",
+    "gloss": "A land south-east of the Dead Sea."
+   },
+   {
+    "name": "Moab",
+    "kind": "place",
+    "gloss": "A land east of the Dead Sea."
+   },
+   {
+    "name": "Ammon",
+    "kind": "group",
+    "gloss": "A people living east of the Jordan, around modern Amman."
+   },
+   {
+    "name": "Libyans",
+    "kind": "group",
+    "gloss": "Peoples west of Egypt."
+   },
+   {
+    "name": "Ethiopians",
+    "kind": "group",
+    "gloss": "In the Bible, Cush, the land south of Egypt along the Nile."
+   }
+  ],
+  "skim": {
+   "advice": "Verses 5–20 compress more than a century of wars and royal marriages between two dynasties, so read them for the pattern rather than every detail; read 21–35 closely for the persecuting king and the faithful, and note how 36–45 shifts.",
+   "key": [
+    2,
+    31,
+    32,
+    35
+   ]
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Kings of the south and north",
+    "body": "After Alexander, here the mighty king (11:3), his empire split. The king of the south is the Ptolemaic dynasty in Egypt, and the king of the north is the Seleucid dynasty in Syria and Mesopotamia. Judea lay between them, and the two powers fought over it for more than a century.",
+    "refs": [
+     "Daniel 8:8",
+     "Daniel 8:21-22"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "History in code",
+    "body": "The details match known events closely. The daughter of the king of the south (11:6) fits Berenice, an Egyptian princess married to the Seleucid Antiochus II and then murdered; the daughter of women (11:17) fits Cleopatra I, married to Ptolemy V; and the prince who checks the northern king's campaign among the islands (11:18) fits the Roman victory at Magnesia in 190 BC. The one who sends a tax collector (11:20) fits Seleucus IV, whose minister Heliodorus tried to seize the temple treasury.",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "A contemptible person",
+    "body": "Most interpreters agree that the contemptible person (11:21) is Antiochus IV Epiphanes, who took the throne in 175 BC ahead of the rightful heir. The prince of the covenant broken before him (11:22) is often identified as the high priest Onias III. His second Egyptian campaign was stopped by the ships of Kittim (11:30), when a Roman envoy reportedly drew a circle round him in the sand and ordered him to decide before stepping out of it.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "The abomination that makes desolate",
+    "body": "In 167 BC Antiochus banned Jewish practice and set up an altar to Olympian Zeus on the temple's altar of burnt offering (11:31). The Hebrew phrase shiqquts meshomem, the abomination that desolates, may be a mocking pun on the Semitic name Baal Shamem, lord of heaven. Jewish histories of the period use the same phrase for this event.",
+    "refs": [
+     "Daniel 9:27",
+     "Daniel 12:11",
+     "Matthew 24:15"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Those who are wise",
+    "body": "The wise, maskilim in Hebrew (11:33), instruct the many and some of them fall by sword and flame, which purifies and makes them white (11:35). The same word returns in 12:3, where they shine like the stars. Many scholars think the book came from circles who identified themselves as these teachers.",
+    "refs": [
+     "Daniel 12:3",
+     "Isaiah 52:13"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A little help",
+    "body": "When the faithful fall, they are helped with a little help (11:34). Many interpreters see a reference to the Maccabean revolt that began in 167 BC. If so, the book treats armed resistance as minor compared with God's deliverance and the endurance of martyrs.",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "The final verses",
+    "body": "Verses 36–45 describe the king's self-exaltation, then a last war and his death between the sea and the holy mountain. Antiochus actually died in Persia in 164 BC, not in Judea. Many scholars therefore see these verses as a real prediction that did not happen as written; traditional Jewish and Christian readers often see a shift here to a final antichrist figure, and some see both meanings at once.",
+    "refs": [
+     "2 Thessalonians 2:3-4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Strong and active",
+    "body": "Against the flatteries of the king stands the people who know their God, who will be strong and take action (11:32). In this chapter, faithfulness means teaching, enduring and sometimes dying rather than winning. What would it look like to know God in that way?",
+    "refs": []
+   }
+  ]
+ },
+ "12": {
+  "summary": "Michael arises in a time of unparalleled trouble, the dead awake to life or shame, and Daniel is told to seal the book and go his way until he rises at the end of the days.",
+  "lookfor": "Notice the promise of resurrection, the question how long and its answer, the different numbers of days, and the final word to Daniel himself.",
+  "names": [
+   {
+    "name": "Michael",
+    "kind": "person",
+    "gloss": "The great prince, the angel who protects Daniel's people."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The time of trouble",
+    "body": "The chapter continues the final vision; at that time (12:1) links it to the crisis just described. A time of trouble such as never was is followed by deliverance for everyone written in the book. Jesus uses similar words for a coming tribulation, and Jeremiah speaks of a day of Jacob's trouble from which he will be saved.",
+    "refs": [
+     "Jeremiah 30:7",
+     "Matthew 24:21"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Many will awake",
+    "body": "Many who sleep in the dust will awake, some to everlasting life, some to everlasting contempt (12:2). This is the clearest statement of bodily resurrection and final judgment in the Hebrew Bible. Isaiah had already spoken of the dead rising, and Jesus speaks of all in the tombs coming out, to life or to judgment.",
+    "refs": [
+     "Isaiah 26:19",
+     "John 5:28-29"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Sleep in the dust",
+    "body": "Sleeping in the dust (12:2) recalls the curse that humans return to the dust from which they were taken. The word for contempt, dera'on, appears elsewhere only in Isaiah's final verse, where it describes the bodies of those who rebelled against God. The book ends the old story of dust with a new awakening.",
+    "refs": [
+     "Genesis 3:19",
+     "Isaiah 66:24"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Shine like the stars",
+    "body": "The wise will shine like the brightness of the sky, and those who turn many to righteousness like the stars (12:3). Jesus says the righteous will shine like the sun in their Father's kingdom. The wise here are the teachers of chapter 11 who suffered for instructing others.",
+    "refs": [
+     "Daniel 11:33-35",
+     "Matthew 13:43"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Sealed until the end",
+    "body": "Daniel is told to shut up the words and seal the book until the time of the end (12:4, 12:9). In ancient practice a document was sealed to preserve and authenticate it. Revelation reverses the instruction: John is told not to seal up his prophecy because the time is near.",
+    "refs": [
+     "Revelation 22:10",
+     "Isaiah 8:16"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "1,290 and 1,335 days",
+    "body": "Two numbers follow the time, times and a half (12:7): 1,290 days (12:11) and 1,335 days (12:12). They are a little longer than three and a half years and longer than the 1,150 days that 8:14 may imply. Some scholars think they are successive updates as the expected end delayed; others read them as symbolic or as referring to future events.",
+    "refs": [
+     "Daniel 7:25",
+     "Daniel 8:14"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "I heard, but I didn't understand",
+    "body": "Even Daniel does not understand what the end will be (12:8), and he is simply told to go his way. After so many visions, the book ends without a timetable the reader can master. Why might that be a fitting end for a book that has insisted God alone knows times and seasons?",
+    "refs": [
+     "Daniel 2:21",
+     "Acts 1:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Rest, and rise",
+    "body": "The last word is personal: Daniel will rest and stand in his inheritance at the end of the days (12:13). The vision of empires closes with one faithful man promised death and resurrection. The word inheritance recalls each Israelite family's allotted portion of land, now extended beyond death.",
+    "refs": [
+     "Joshua 14:9"
+    ]
+   }
+  ]
+ },
+ "intro": {
+  "who": "Jewish and Christian tradition takes Daniel, a Judean exile at the Babylonian and Persian courts, as the author, and the visions are told in his voice. Most modern scholars think the court stories circulated earlier and that the book reached its final form around 165 BC, during the persecution under the Greek king Antiochus IV.",
+  "when": "The stories are set from about 605 BC, when Nebuchadnezzar first took Jerusalem, to the early reign of Cyrus of Persia around 536 BC. The book is written partly in Hebrew and partly in Aramaic (2:4–7:28), and the Hebrew Bible places it among the Writings rather than the Prophets.",
+  "why": "It encourages God's people living under foreign empires to stay faithful, insisting that the Most High rules over the kingdoms of the world and will finally give the kingdom to his holy ones.",
+  "outline": [
+   {
+    "chapters": "1",
+    "title": "Exiles at Babylon's court"
+   },
+   {
+    "chapters": "2–4",
+    "title": "Nebuchadnezzar learns who rules"
+   },
+   {
+    "chapters": "5–6",
+    "title": "Belshazzar's feast, Darius's lions"
+   },
+   {
+    "chapters": "7–8",
+    "title": "Beasts, ram and goat"
+   },
+   {
+    "chapters": "9",
+    "title": "Prayer and seventy weeks"
+   },
+   {
+    "chapters": "10–12",
+    "title": "The final vision"
+   }
+  ],
+  "verse": "Daniel 2:44"
+ }
+}
