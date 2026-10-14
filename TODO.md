@@ -33,8 +33,8 @@ Everything deferred so far, grouped by when it matters. Tick items off as they l
 - [ ] Google sign-in: a Web OAuth client with Supabase's redirect URL, basic scopes only; client ID and secret go into Supabase, not chat.
 - [x] Run `supabase/migrations/0001_init.sql` (signed-out access refused on every table and function, checked).
 - [ ] Two-account access test, once sign-in works.
-- [x] Sign-in and sync in the app, replacing Drive sync (tested against a stand-in; real sign-in check pending).
-- [ ] Account deletion in Settings and on the web (Play requirement).
+- [x] Sign-in and sync in the app, replacing Drive sync (real Google sign-in confirmed on the phone).
+- [x] Account deletion in Settings and on the web (Play requirement); function deployed, refuses unsigned and fake callers (checked).
 - [ ] Daily reminders: VAPID keys, the `remind` function, the 15-minute schedule, a time picker in Settings.
 - [ ] Privacy page and Play data-safety answers updated for accounts.
 - [ ] Move to Supabase's paid plan before public launch (daily backups, no pausing).
