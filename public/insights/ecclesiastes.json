@@ -1,0 +1,983 @@
+{
+ "1": {
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Vanity, or breath",
+    "body": "The key word hevel (1:2) means breath, vapour or mist, something real but fleeting and impossible to grasp. It appears 38 times in the book. Translators render it vanity, meaningless, futility or breath; vanity of vanities is a Hebrew superlative, like Song of Songs. It is also the name Abel, the brother whose life was cut short.",
+    "refs": [
+     "Genesis 4:2",
+     "Psalms 144:4",
+     "James 4:14"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Qoheleth, the Preacher",
+    "body": "The author's title Qoheleth (1:1) comes from qahal, an assembly. It may mean one who gathers people or one who gathers sayings. The Greek translation rendered it Ekklesiastes, a member or speaker of the assembly, and the book's English name comes from that.",
+    "refs": [
+     "Ecclesiastes 12:9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Under the sun",
+    "body": "The phrase under the sun (1:3) appears about 29 times in this book and nowhere else in the Bible. It also occurs in Phoenician royal inscriptions from Sidon. It marks the book's vantage point: life as it can be observed in this world.",
+    "refs": [
+     "Ecclesiastes 2:11"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Round and round",
+    "body": "Sun, wind and rivers all move constantly without arriving anywhere (1:5-7). The rivers keep flowing into the sea and the sea is never full. Nature is pictured not as progress but as an endless loop, and human life seems to follow the same pattern (1:4).",
+    "refs": [
+     "Psalms 104:19-23"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Nothing new",
+    "body": "\"There is no new thing under the sun\" (1:9). The Preacher's point is not that nothing is ever invented, but that the basic human situation repeats. What seems new has happened before and been forgotten (1:10-11).",
+    "refs": [
+     "Ecclesiastes 3:15"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Chasing after wind",
+    "body": "The second refrain, a chasing after wind (1:14), translates a phrase that may mean shepherding the wind or feeding on wind. Either way it describes effort that can never take hold of its object.",
+    "refs": [
+     "Hosea 12:1"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Subjected to vanity",
+    "body": "Paul writes that creation was subjected to vanity in hope of being set free (Romans 8:20). The Greek word he uses is the same one the Greek translation of Ecclesiastes uses for hevel. Christians have often read Ecclesiastes alongside the curse of Genesis 3.",
+    "refs": [
+     "Romans 8:20-21",
+     "Genesis 3:17-19"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Wisdom and grief",
+    "body": "\"In much wisdom is much grief; and he who increases knowledge increases sorrow\" (1:18). Is the Preacher rejecting wisdom, or describing the pain that comes from seeing clearly? |",
+    "refs": []
+   }
+  ],
+  "summary": "The Preacher declares that all is vanity, describes the endless cycles of nature and history, and recounts how his search for wisdom brought only grief.",
+  "lookfor": "Watch for the refrain vanity of vanities, the phrase under the sun, and the images of sun, wind and rivers going round and round."
+ },
+ "2": {
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "The royal experiment",
+    "body": "The Preacher builds houses, plants vineyards, makes gardens and pools, gathers servants, silver and gold, and singers (2:4-8). The list matches what 1 Kings says of Solomon's wealth. Nothing is withheld from the experiment (2:10).",
+    "refs": [
+     "1 Kings 10:21-23",
+     "1 Kings 3:12"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Paradise",
+    "body": "The word for parks in 2:5, pardes, is a Persian loanword for an enclosed garden or royal park. Through Greek it became the English word paradise. Many scholars see it as one sign of the book's late Hebrew, since Persian words entered Hebrew after the 6th century BC.",
+    "refs": [
+     "Song of Solomon 4:13",
+     "Nehemiah 2:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "So many I's",
+    "body": "Hebrew does not need personal pronouns, yet the passage keeps stressing I and for myself: I made myself, I built myself, I planted myself (2:4-8). The grammar exposes the self-centred project at the heart of the experiment.",
+    "refs": [
+     "Luke 12:16-21"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Wisdom and death",
+    "body": "Wisdom is better than folly as light is better than darkness (2:13), yet the wise man dies just like the fool (2:16). The Preacher does not deny wisdom's value; he only refuses to pretend it can beat death.",
+    "refs": [
+     "Psalms 49:10",
+     "Hebrews 9:27"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Leaving it to a fool",
+    "body": "The Preacher hates his labour because he must leave it to someone who may be a fool (2:18-19). Readers who take the speaker as Solomon have heard a painful irony: his son Rehoboam's foolishness split the kingdom.",
+    "refs": [
+     "1 Kings 12:13-16"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "From the hand of God",
+    "body": "\"There is nothing better for a man than that he should eat and drink, and make his soul enjoy good in his labor\" (2:24). This is the first of several such refrains in the book. Enjoyment is not grasped as a reward but received from the hand of God.",
+    "refs": [
+     "Ecclesiastes 3:12-13",
+     "Ecclesiastes 9:7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Eat, drink",
+    "body": "The refrain is different from the rich fool of Jesus' parable, who says take your ease, eat, drink, be merry while trusting in his barns. In Ecclesiastes eating and drinking are gratitude for a gift, not security against death.",
+    "refs": [
+     "Luke 12:19-20",
+     "1 Corinthians 15:32"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "I hated life",
+    "body": "\"So I hated life\" (2:17). The Bible includes this honest despair without correcting it at once. What does it suggest that such words are part of Scripture?",
+    "refs": [
+     "Job 3:11-13"
+    ]
+   }
+  ],
+  "summary": "The Preacher tries pleasure, great building projects, wealth and wisdom, and finds that all are vanity because death comes to the wise and the fool alike, yet he concludes that enjoying food and work is a gift from God.",
+  "lookfor": "Notice how many times the word I and myself appear in the building list, the sudden turn to hating life, and the different note struck in the last verses."
+ },
+ "3": {
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Fourteen pairs",
+    "body": "The poem (3:2-8) lists fourteen pairs of opposites, twenty-eight times in all, from birth and death to war and peace. Seven, and multiples of seven, suggest completeness. Every part of life has its time, and no one controls when the times come.",
+    "refs": [
+     "Ecclesiastes 8:6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Casting away stones",
+    "body": "A time to cast away stones, and a time to gather stones together (3:5) is debated. It may refer to clearing fields or building, or to throwing stones into an enemy's field to ruin it. An old rabbinic reading took it as a reserved way of speaking about marital intimacy, matching the next line about embracing.",
+    "refs": [
+     "2 Kings 3:19"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A famous song",
+    "body": "The poem became widely known in the 1960s through the song Turn! Turn! Turn!, which sets these verses almost word for word. It is also read often at funerals. Few readers notice that it sits in a book that questions whether all this activity gains anything (3:9).",
+    "refs": [
+     "Ecclesiastes 3:9"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Eternity in their hearts",
+    "body": "God has set eternity in human hearts (3:11). The Hebrew olam usually means a long time or forever, though some scholars suggest it here means the world, or something hidden. The common reading is that humans long to see the whole of time, yet cannot find out what God has done from beginning to end.",
+    "refs": [
+     "Psalms 90:2",
+     "Romans 1:20"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "That men should fear",
+    "body": "Whatever God does lasts forever; nothing can be added or taken away, and God has done it that people should fear him (3:14). For the Preacher, the limits of human knowledge are meant to lead to reverence, not despair.",
+    "refs": [
+     "Ecclesiastes 12:13",
+     "Proverbs 1:7"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Injustice in the courts",
+    "body": "In the very place of justice there was wickedness (3:16). The Preacher's first answer is that God will judge in his time (3:17). He does not explain how, but holds on to the conviction that there is a time for judgment.",
+    "refs": [
+     "Ecclesiastes 12:14",
+     "Psalms 73:16-17"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "One breath for all",
+    "body": "Humans and animals have one breath, ruach, and all return to dust (3:19-20), echoing the curse in Genesis. The question who knows whether the human spirit goes upward (3:21) is left open here; at the end the Preacher says the spirit returns to God who gave it.",
+    "refs": [
+     "Genesis 3:19",
+     "Psalms 49:12",
+     "Ecclesiastes 12:7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Who can bring him to see",
+    "body": "\"Who can bring him to see what will be after him?\" (3:22). How does uncertainty about the future change what it means to rejoice in one's work today?",
+    "refs": [
+     "Matthew 6:34"
+    ]
+   }
+  ],
+  "summary": "The Preacher describes a time for everything, says God has made all things beautiful in their time and set eternity in human hearts, and wrestles with injustice and the fact that humans and animals both die.",
+  "lookfor": "Notice the fourteen pairs of opposites in the poem, what God has put in human hearts, and the question about where the spirit goes."
+ },
+ "4": {
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "No comforter",
+    "body": "The oppressed have tears and no comforter, and the oppressors have power, and still no comforter (4:1). The repetition is deliberate. The Preacher is so moved that he says the dead, and better still the unborn, are better off (4:2-3).",
+    "refs": [
+     "Job 3:11-13",
+     "Lamentations 1:16"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Work driven by envy",
+    "body": "All labour and achievement, he says, come from envy of one's neighbour (4:4). Ambition is often fuelled by comparison. Yet the opposite, the fool who folds his hands, also ruins himself (4:5).",
+    "refs": [
+     "Proverbs 6:10-11",
+     "Proverbs 14:30"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "One handful",
+    "body": "\"Better is a handful, with quietness, than two handfuls with labor and chasing after wind\" (4:6). The saying finds a middle path between laziness and obsessive work. Enough, enjoyed in peace, beats more gained with strain.",
+    "refs": [
+     "Proverbs 15:16",
+     "Philippians 4:11-12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "For whom do I labor?",
+    "body": "The man with no son or brother never stops working, yet never asks for whom he labours (4:8). The Preacher puts the question in his mouth. It is one of the book's sharpest pictures of a life spent getting with no one to share it.",
+    "refs": [
+     "Luke 12:20"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A threefold cord",
+    "body": "Two are better than one: they help each other up, keep each other warm and defend each other (4:9-12). On cold nights in unheated houses, shared warmth mattered. \"A threefold cord is not quickly broken\" (4:12) is often read at weddings, and many Christians take the third strand as God.",
+    "refs": [
+     "Genesis 2:18"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Out of prison to be king",
+    "body": "A poor but wise youth is better than an old foolish king; the youth came out of prison to reign (4:13-14). Readers have thought of Joseph or David, but no exact historical case is certain. The point is that even his popularity will fade with the next generation (4:16).",
+    "refs": [
+     "Genesis 41:14",
+     "1 Samuel 16:11-13"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Life together",
+    "body": "After chapters focused on a single self, this chapter turns to other people: the oppressed, the neighbour, the companion and the crowd. The Preacher's observations show that a life lived alone is one of the clearest forms of vanity.",
+    "refs": [
+     "Genesis 2:18",
+     "Hebrews 10:24-25"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Better never born?",
+    "body": "The Preacher praises the unborn more than the living (4:3). Should this be read as his final view, or as an honest cry within a book that later tells readers to enjoy life?",
+    "refs": [
+     "Ecclesiastes 9:4"
+    ]
+   }
+  ],
+  "summary": "The Preacher observes the tears of the oppressed, the envy that drives work, the loneliness of the workaholic, the strength of companionship, and the fickleness of popular favour toward kings.",
+  "lookfor": "Look for the repeated words no comforter, the many better than sayings, and the picture of two and three standing together."
+ },
+ "5": {
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Guard your steps",
+    "body": "Coming to God's house to listen is better than offering the sacrifice of fools (5:1). The advice echoes Samuel and the prophets, who valued obedience over ritual. Worship begins with listening.",
+    "refs": [
+     "1 Samuel 15:22",
+     "James 1:19"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Let your words be few",
+    "body": "\"God is in heaven, and you on earth. Therefore let your words be few\" (5:2). The distance between God and humans calls for humility in speech. Jesus also warns against heaping up empty words in prayer.",
+    "refs": [
+     "Matthew 6:7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Pay your vows",
+    "body": "When you vow a vow to God, don't delay paying it (5:4). The wording is close to Deuteronomy. It is better not to vow than to vow and not pay (5:5), and the Preacher warns against excusing it later as a mistake before the messenger (5:6).",
+    "refs": [
+     "Deuteronomy 23:21",
+     "Proverbs 20:25"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The messenger",
+    "body": "The messenger of 5:6 is malak, the word also used for angels. Here it probably means a priest or temple official who came to collect what was vowed, though the Greek translation took it as God's angel.",
+    "refs": [
+     "Malachi 2:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Officials over officials",
+    "body": "Don't be surprised at the oppression of the poor, for one official is watched by a higher one, and there are officials over them (5:8). This describes a layered bureaucracy like the Persian or Ptolemaic administrations, where each level took its cut. The meaning of the next verse about the king and the field is uncertain.",
+    "refs": [
+     "Nehemiah 5:15"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Love of silver",
+    "body": "He who loves silver will not be satisfied with silver (5:10). Increased goods bring more people to eat them (5:11), and the rich man lies awake worrying while the labourer sleeps well (5:12). Paul later calls the love of money a root of all kinds of evil.",
+    "refs": [
+     "1 Timothy 6:10",
+     "Luke 12:15"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Naked we go",
+    "body": "As he came naked from his mother's womb, so he will go (5:15). Job says almost the same in his first grief, and Paul repeats the thought to Timothy. Nothing earned can be carried through death.",
+    "refs": [
+     "Job 1:21",
+     "1 Timothy 6:7"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Occupied with joy",
+    "body": "The ability to enjoy wealth and work is itself the gift of God (5:19). God occupies such a person with the joy of his heart, so that he does not brood over the brevity of life (5:20). The Preacher's realism about death sits beside a strong sense of God's generosity.",
+    "refs": [
+     "Ecclesiastes 2:24",
+     "Ecclesiastes 9:7"
+    ]
+   }
+  ],
+  "summary": "The Preacher urges reverence and few words in God's house, warns against rash vows, observes layers of corrupt officials, and reflects that wealth never satisfies, while enjoyment of one's portion is God's gift.",
+  "lookfor": "Notice the shift from observation to direct advice, the warning about vows, and the contrast between the labourer's sleep and the rich man's."
+ },
+ "6": {
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Wealth without enjoyment",
+    "body": "God gives a man riches and honour but no power to enjoy them, and a stranger eats it (6:2). The Preacher calls this an evil disease. Having good things and enjoying them are two different gifts.",
+    "refs": [
+     "Ecclesiastes 5:19",
+     "Luke 12:20"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "No burial",
+    "body": "A man may have a hundred children and long life, but if his soul is not satisfied and he has no burial, a stillborn child is better off (6:3). To lack a proper burial was a great disgrace in Israel, as Jeremiah's word against King Jehoiakim shows.",
+    "refs": [
+     "Jeremiah 22:19",
+     "2 Kings 9:34-35"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A thousand years twice",
+    "body": "Even if a man lived two thousand years without enjoying good, all go to one place (6:6). Methuselah, the longest-lived man in Genesis, did not reach a thousand. Length of life alone does not make it good.",
+    "refs": [
+     "Genesis 5:27",
+     "Psalms 90:10"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "An appetite never filled",
+    "body": "All the labour of man is for his mouth, and yet the appetite is not filled (6:7). The word for appetite is nefesh, soul or life. People work to feed themselves, but the deeper hunger is never satisfied.",
+    "refs": [
+     "Isaiah 55:2",
+     "Proverbs 27:20"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Named long ago",
+    "body": "Whatever has been, its name was given long ago, and it is known what man is (6:10). In Hebrew thought naming expresses knowing and authority, as when Adam named the animals. Man is adam, made from the ground, and cannot contend with his Maker.",
+    "refs": [
+     "Genesis 2:19",
+     "Isaiah 45:9"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Two questions",
+    "body": "Who knows what is good for man in life, and who can tell a man what will come after him (6:12)? Many scholars see these two questions as the hinge of the book: chapters 7 and 8 explore what is good, and chapters 9 to 11 what comes after.",
+    "refs": [
+     "Ecclesiastes 7:1",
+     "Ecclesiastes 9:1"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Like a shadow",
+    "body": "Man spends the days of his vain life like a shadow (6:12). The image of life as a passing shadow is common in the Psalms and in Job. It joins the book's other image of life as breath.",
+    "refs": [
+     "Psalms 144:4",
+     "Job 14:2"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The wandering of desire",
+    "body": "Better the sight of the eyes than the wandering of the desire (6:9). What is the difference between enjoying what is in front of us and always wanting what is not?",
+    "refs": [
+     "Philippians 4:11-12"
+    ]
+   }
+  ],
+  "summary": "The Preacher describes a man who has wealth, children and long life but cannot enjoy them, judges a stillborn child better off, and asks who knows what is good for man or what will come after him.",
+  "lookfor": "Watch for the comparison with the stillborn child, the unsatisfied appetite, and the two questions that close the chapter."
+ },
+ "7": {
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Name and perfume",
+    "body": "\"A good name is better than fine perfume\" (7:1). In Hebrew the words are shem, name, and shemen, oil or perfume, a pun that makes the saying memorable. The same verse adds that the day of death is better than the day of birth.",
+    "refs": [
+     "Proverbs 22:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The house of mourning",
+    "body": "It is better to go to the house of mourning than the house of feasting, for death is the end of everyone (7:2). The Preacher does not glorify sadness, but says facing death clarifies how to live.",
+    "refs": [
+     "Psalms 90:12"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Thorns under a pot",
+    "body": "The laughter of fools is like the crackling of thorns under a pot (7:6). In Hebrew this is another pun: thorns are sirim and pot is sir. Thorn branches burn fast and noisily but give little lasting heat.",
+    "refs": [
+     "Psalms 118:12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The good old days",
+    "body": "Don't say, \"Why were the former days better than these?\" (7:10). Nostalgia can distort the past and blind us to the present. The Preacher calls such questions unwise.",
+    "refs": [
+     "Ecclesiastes 1:11"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Not overly righteous",
+    "body": "\"Don't be overly righteous, neither make yourself overly wise\" (7:16) follows the observation that the righteous sometimes perish while the wicked live long (7:15). Interpreters differ: some think he warns against self-righteousness or obsessive scrupulosity, others against trusting righteousness to guarantee success. He ends by saying the one who fears God avoids both extremes (7:18).",
+    "refs": [
+     "Matthew 6:1",
+     "Luke 18:11-12"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Not one righteous",
+    "body": "\"Surely there is not a righteous man on earth, who does good and doesn't sin\" (7:20). This echoes Solomon's prayer at the temple's dedication, and Paul strings similar verses together to show that all have sinned.",
+    "refs": [
+     "1 Kings 8:46",
+     "Romans 3:10",
+     "Romans 3:23"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A hard saying about women",
+    "body": "The Preacher finds one man in a thousand but not one woman (7:28), after describing a woman whose heart is snares (7:26). The verses are difficult and have been read in different ways: as a personal bitter experience, as a reference to Folly personified, or as a cynical saying quoted and then corrected by the next verse, which speaks of all humanity (7:29).",
+    "refs": [
+     "Proverbs 7:10-12",
+     "Proverbs 9:13"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Made upright",
+    "body": "\"God made man upright; but they search for many schemes\" (7:29). The word for man is adam, humanity as a whole. It sums up the Bible's story of creation and fall in a single sentence.",
+    "refs": [
+     "Genesis 1:27",
+     "Genesis 3:6"
+    ]
+   }
+  ],
+  "summary": "Through a string of better-than sayings the Preacher commends sober reflection on death, patience and wisdom, warns against being overly righteous or wicked, and admits that wisdom remains far beyond him.",
+  "lookfor": "Watch for the surprising comparisons of mourning and feasting, the advice about extremes, and the Preacher's admission that he could not find what he sought."
+ },
+ "8": {
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "An oath to God",
+    "body": "Keep the king's command because of the oath to God (8:2). Subjects of Persian and Hellenistic kings swore loyalty oaths, often in the gods' names. The Preacher grounds obedience in faithfulness to God, much as Paul later does.",
+    "refs": [
+     "Romans 13:1",
+     "1 Peter 2:13-14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Who can say to him?",
+    "body": "The king's word is supreme, and no one can ask him, What are you doing (8:4)? The same question is asked of God in Job and Daniel. The Preacher counsels prudence and good timing with those in power (8:5-6).",
+    "refs": [
+     "Job 9:12",
+     "Daniel 4:35"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "No discharge in war",
+    "body": "No one has power over the spirit, or over the day of death; there is no discharge in that war (8:8). Ruach means both wind and spirit, so the first line may mean no one can hold back the wind or keep the life breath in. Israel's law allowed some exemptions from military service, but none from death.",
+    "refs": [
+     "Deuteronomy 20:5-8",
+     "Ecclesiastes 3:19"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Delayed justice",
+    "body": "Because sentence against evil is not executed speedily, people's hearts are set on doing evil (8:11). The word for sentence, pitgam, is a Persian loanword, also found in Esther and Daniel. Slow justice encourages wrongdoing.",
+    "refs": [
+     "Esther 1:20",
+     "2 Peter 3:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "I see, yet I know",
+    "body": "The Preacher has seen sinners live long (8:12), and yet he says, I know that it will be better with those who fear God (8:12-13). He holds observation and faith side by side without resolving them. Many readers find this tension is the heart of the book.",
+    "refs": [
+     "Psalms 73:16-17",
+     "Ecclesiastes 3:17"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Joy commended",
+    "body": "\"Then I commended mirth\" (8:15). Eating, drinking and being joyful are not distractions from the hard questions but the Preacher's answer to them: they are what will accompany a person in his labour all the days God gives.",
+    "refs": [
+     "Ecclesiastes 2:24",
+     "Ecclesiastes 9:7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "God's work beyond finding out",
+    "body": "However hard a wise man labours, he cannot find out the work of God (8:17). Isaiah says God's ways are higher than ours, and Paul ends his long argument in Romans by praising the depth of God's wisdom.",
+    "refs": [
+     "Isaiah 55:8-9",
+     "Romans 11:33"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Wisdom on the face",
+    "body": "A man's wisdom makes his face shine, and the hardness of his face is changed (8:1). What might it look like for wisdom to show on someone's face?",
+    "refs": [
+     "Exodus 34:29"
+    ]
+   }
+  ],
+  "summary": "The Preacher counsels careful obedience to the king, reflects on death and the delayed punishment of evil, holds on to the conviction that it will go well with those who fear God, and again commends enjoying life since God's work cannot be fully understood.",
+  "lookfor": "Notice the advice about dealing with a powerful king, the problem of delayed justice, and the tension between what the Preacher sees and what he says he knows."
+ },
+ "9": {
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "One event for all",
+    "body": "The same fate comes to righteous and wicked, clean and unclean, those who sacrifice and those who don't (9:2). The Preacher is not denying that God sees the difference; he is noting that death treats everyone alike.",
+    "refs": [
+     "Ecclesiastes 2:16",
+     "Psalms 49:10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A living dog",
+    "body": "\"A living dog is better than a dead lion\" (9:4). In Israel dogs were scavengers and dog was an insult, while the lion was the noblest of animals. The point is sharp: even the lowest life has hope, while the most glorious death has none in this world.",
+    "refs": [
+     "1 Samuel 17:43",
+     "2 Samuel 9:8"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The dead know nothing",
+    "body": "The dead don't know anything, and their memory is forgotten (9:5). Much of the Old Testament pictures Sheol as a place of silence. The New Testament's hope of resurrection answers this darkness, but the Preacher speaks honestly from what can be seen under the sun.",
+    "refs": [
+     "Psalms 115:17",
+     "1 Corinthians 15:54-55"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "An echo of Gilgamesh",
+    "body": "The advice in 9:7-9, to eat bread with joy, wear white garments, anoint the head and enjoy life with one's wife, closely resembles the words of the ale-wife Siduri to Gilgamesh in an Old Babylonian version of that epic. The Preacher adds what the epic lacks: God has already accepted your works (9:7).",
+    "refs": [
+     "Ecclesiastes 2:24"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "White garments and oil",
+    "body": "White garments and oil on the head (9:8) were signs of festivity. In a hot, dusty land, clean clothes and fragrant oil marked days of celebration rather than mourning.",
+    "refs": [
+     "Psalms 23:5",
+     "Psalms 104:15"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "With your might",
+    "body": "\"Whatever your hand finds to do, do it with your might\" (9:10), for there is no work in Sheol. Paul gives a similar instruction to work heartily as for the Lord. The Preacher's motive is that this life is the time for action.",
+    "refs": [
+     "Colossians 3:23",
+     "John 9:4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Time and chance",
+    "body": "The race is not to the swift nor the battle to the strong, but time and chance happen to them all (9:11). People are caught like fish in a net when an evil time falls suddenly (9:12). Skill and strength cannot guarantee outcomes.",
+    "refs": [
+     "Proverbs 21:31",
+     "James 4:14"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The forgotten wise man",
+    "body": "A poor wise man saved his city, yet no one remembered him (9:15). Wisdom is better than strength, but the poor man's wisdom is despised (9:16). What does this story suggest about how wisdom is valued, and who receives credit? |",
+    "refs": []
+   }
+  ],
+  "summary": "The Preacher reflects that the same fate comes to all, that the living have hope while the dead know nothing, and urges his readers to eat, drink, love and work with all their might, since time and chance happen to everyone.",
+  "lookfor": "Look for the living dog and the dead lion, the call to enjoy life with the one you love, and the story of the poor wise man."
+ },
+ "10": {
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "A fly in the ointment",
+    "body": "Dead flies make the perfumer's oil stink (10:1). Perfumers prepared costly oils and ointments, and a few dead flies could ruin a whole batch. The English expression a fly in the ointment comes from this verse.",
+    "refs": [
+     "Exodus 30:25"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Right hand and left",
+    "body": "A wise man's heart is at his right hand, a fool's at his left (10:2). In the ancient world the right hand stood for strength, skill and favour, while the left suggested weakness or misfortune. The saying means the wise heart leads in the right direction.",
+    "refs": [
+     "Matthew 25:33"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The world upside down",
+    "body": "The Preacher has seen folly in high places and princes walking like servants while servants ride horses (10:6-7). Poor leadership and reversals of fortune were familiar in ancient courts. Proverbs also notes that a servant ruling is something the earth cannot bear.",
+    "refs": [
+     "Proverbs 30:21-22",
+     "Proverbs 19:10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Everyday hazards",
+    "body": "He who digs a pit may fall into it, whoever breaks through a wall may be bitten by a snake, and quarrying and splitting wood carry danger (10:8-9). Snakes lived in the cracks of old stone walls. The law of Moses even considered the case of an axe head flying off and killing someone.",
+    "refs": [
+     "Deuteronomy 19:5",
+     "Amos 5:19"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Sharpen the axe",
+    "body": "If the axe is blunt, one must use more strength, but skill brings success (10:10). Wisdom is pictured as practical know-how that makes work easier. Where might stopping to sharpen the blade do more good than simply working harder?",
+    "refs": [
+     "Proverbs 24:5"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The snake charmer",
+    "body": "If the snake bites before it is charmed, the charmer's skill is useless (10:11). Snake charming was practised in Egypt and the Near East, and the Psalms and Jeremiah mention it. Knowledge must be used at the right moment.",
+    "refs": [
+     "Psalms 58:4-5",
+     "Jeremiah 8:17"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "When the king is a child",
+    "body": "Woe to the land whose king is a child and whose princes feast in the morning (10:16). Isaiah describes judgment as boys and children ruling over the people. Feasting at dawn, instead of attending to justice, was a sign of irresponsible rulers.",
+    "refs": [
+     "Isaiah 3:4",
+     "Isaiah 5:11"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A little bird",
+    "body": "Don't curse the king even in your thoughts, for a bird of the sky may carry your voice (10:20). The English saying a little bird told me is often traced to this verse. In royal courts, spies and informers were everywhere.",
+    "refs": [
+     "Luke 12:3"
+    ]
+   }
+  ],
+  "summary": "The Preacher strings together sayings on how a little folly spoils wisdom, the dangers of rulers and ordinary work, the fool's endless talk, and the importance of a wise king and careful speech.",
+  "lookfor": "Notice the dead flies in the perfume, the everyday hazards of digging, quarrying and chopping, and the little bird at the end."
+ },
+ "11": {
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Bread on the waters",
+    "body": "\"Cast your bread on the waters; for you shall find it after many days\" (11:1). Some scholars think of sea trade, sending grain by ship and waiting for the return; Jewish tradition has long read it as a call to generous charity that will one day be repaid. Both readings stress acting without seeing the outcome.",
+    "refs": [
+     "Proverbs 19:17",
+     "Galatians 6:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Seven, even eight",
+    "body": "Give a portion to seven, even eight, for you don't know what evil may come (11:2). The numerical pattern means give widely. Read as generosity, it builds friends for hard times; read as business, it spreads risk.",
+    "refs": [
+     "Luke 16:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Watching the wind",
+    "body": "He who observes the wind won't sow, and he who watches the clouds won't reap (11:4). Waiting for perfect conditions means never acting. The farmer must sow in the morning and evening, not knowing which will prosper (11:6).",
+    "refs": [
+     "2 Corinthians 9:6",
+     "Proverbs 20:4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The way of the wind",
+    "body": "You don't know the way of the wind, or how bones grow in a pregnant woman's womb, so you don't know the work of God (11:5). The Hebrew ruach can mean wind or spirit. Jesus uses the same comparison of the wind and the Spirit when he speaks to Nicodemus.",
+    "refs": [
+     "John 3:8",
+     "Psalms 139:13-15"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The light is sweet",
+    "body": "\"Truly the light is sweet, and a pleasant thing it is for the eyes to see the sun\" (11:7). The Preacher's realism about death never cancels his delight in being alive. To see the sun is a Hebrew way of saying to be alive.",
+    "refs": [
+     "Psalms 36:9",
+     "Ecclesiastes 6:5"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Joy and judgment",
+    "body": "Rejoice, young man, and follow your heart, but know that God will bring you into judgment for all these things (11:9). The two halves belong together. Judgment does not cancel joy; it means life is to be enjoyed as a trust from God.",
+    "refs": [
+     "Ecclesiastes 12:14",
+     "2 Corinthians 5:10"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The dawn of life",
+    "body": "Youth and the dawn of life are vanity (11:10), using the book's word hevel again. The word for dawn, shacharut, suggests dark hair as well as early morning. Youth is not worthless but brief, like a breath.",
+    "refs": [
+     "Ecclesiastes 1:2",
+     "Psalms 90:5-6"
+    ]
+   }
+  ],
+  "summary": "The Preacher urges bold and generous action in a world one cannot predict, tells the young to rejoice in their youth while remembering that God will judge, and reminds them that youth is fleeting.",
+  "lookfor": "Watch for the images of bread on water, clouds and wind, and the balance between joy and judgment in the advice to the young man."
+ },
+ "12": {
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Remember your Creator",
+    "body": "\"Remember also your Creator in the days of your youth\" (12:1). This is the only place the book calls God Creator. Remembering means more than recalling; it means living in relationship with him while one still has strength.",
+    "refs": [
+     "Ecclesiastes 11:9",
+     "Deuteronomy 8:18"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A picture of old age",
+    "body": "Many interpreters read 12:3-5 as an allegory of the ageing body: the keepers of the house are the arms, the strong men the legs, the grinders the teeth, those looking out the windows the eyes, and the almond blossom white hair. Others read it as a household falling silent before a death or a storm. Both readings point to the end of life.",
+    "refs": [
+     "Psalms 90:10",
+     "2 Samuel 19:35"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Desire shall fail",
+    "body": "Desire shall fail (12:5) translates a word that refers to the caperberry, which was used to stimulate appetite. Even this will no longer help. Man goes to his everlasting home, literally house of eternity, a phrase used for the grave.",
+    "refs": [
+     "Psalms 49:11"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Cord, bowl, pitcher and wheel",
+    "body": "The silver cord, golden bowl, broken pitcher and broken wheel at the cistern (12:6) are images of a life ending. A precious lamp hanging from a cord crashes, and the means of drawing water breaks. Without light and water, there is no life.",
+    "refs": [
+     "Ecclesiastes 11:7",
+     "Proverbs 20:27"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Dust and spirit",
+    "body": "The dust returns to the earth, and the spirit returns to God who gave it (12:7). This reverses Genesis 2, where God formed man from dust and breathed life into him. Earlier the Preacher had asked who knows where the spirit goes.",
+    "refs": [
+     "Genesis 2:7",
+     "Genesis 3:19",
+     "Ecclesiastes 3:21"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Back to the beginning",
+    "body": "\"Vanity of vanities,\" says the Preacher. \"All is vanity!\" (12:8). The book closes its poem where it began in 1:2. A narrator then speaks about the Preacher in the third person (12:9-10), suggesting the book has a frame around Qoheleth's own words.",
+    "refs": [
+     "Ecclesiastes 1:2"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Goads and nails",
+    "body": "The words of the wise are like goads and like nails well fastened (12:11). An ox goad was a pointed stick to prod animals forward; nails or tent pegs held firm. Wise words both prick and steady. They are given from one shepherd, which may mean God.",
+    "refs": [
+     "Acts 26:14",
+     "Psalms 23:1"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Not ending on judgment",
+    "body": "The book ends with fear God and keep his commandments, and with God judging every hidden thing (12:13-14). In synagogue reading, verse 13 is repeated after verse 14 so that the book does not end on judgment, a custom also followed for Isaiah, Malachi and Lamentations.",
+    "refs": [
+     "2 Corinthians 5:10",
+     "Malachi 4:6"
+    ]
+   }
+  ],
+  "summary": "The Preacher calls the young to remember their Creator before old age and death, pictured in a vivid poem of decline, and a final narrator commends his teaching and sums it up: fear God and keep his commandments.",
+  "lookfor": "Look for the images of a house falling quiet, the almond tree and the broken bowl, and the way the book ends where it began."
+ },
+ "intro": {
+  "outline": [
+   {
+    "chapters": "1–2",
+    "title": "Everything is a breath"
+   },
+   {
+    "chapters": "3–5",
+    "title": "Times, toil and worship"
+   },
+   {
+    "chapters": "6–8",
+    "title": "What is good for man?"
+   },
+   {
+    "chapters": "9–10",
+    "title": "One fate, so live well"
+   },
+   {
+    "chapters": "11–12",
+    "title": "Youth, old age, the end"
+   }
+  ],
+  "who": "The author calls himself the Preacher (Hebrew Qoheleth), son of David and king in Jerusalem, and Jewish and Christian tradition long identified him with Solomon in old age. Many modern scholars, pointing to late Hebrew, Persian loanwords and the way the royal voice fades after chapter 2, think a later sage wrote in Solomon's persona, with a narrator adding the closing words about him (12:9-14).",
+  "when": "On the traditional view it dates to the 10th century BC. Most modern scholars place it in the Persian or early Greek period, between the 5th and 3rd centuries BC; fragments among the Dead Sea Scrolls show it was being copied by the 2nd century BC.",
+  "why": "It tests pleasure, work, wisdom and wealth against the certainty of death and finds that none gives lasting gain, yet it repeatedly tells readers to enjoy God's gifts and ends by calling them to fear God. Rabbis once debated whether it belonged in Scripture; Jews read it at the Feast of Tabernacles.",
+  "verse": "Ecclesiastes 12:13"
+ }
+}
