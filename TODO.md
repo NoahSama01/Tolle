@@ -28,7 +28,18 @@ Everything deferred so far, grouped by when it matters. Tick items off as they l
 - [ ] Privacy policy link: `https://noahsama01.github.io/Tolle/privacy.html`.
 - [ ] Data safety form and content rating questionnaire.
 
-## Google Drive sync (built, waiting on you)
+## Backend: accounts, sync, reminders (designed, see BACKEND.md)
+- [ ] Create a free Supabase project (Mumbai region) and send the Project URL and anon public key (never the service_role key).
+- [ ] Google sign-in: a Web OAuth client with Supabase's redirect URL, basic scopes only; client ID and secret go into Supabase, not chat.
+- [ ] Run `supabase/migrations/0001_init.sql` and the two-account access test.
+- [ ] Sign-in and sync in the app, replacing Drive sync.
+- [ ] Account deletion in Settings and on the web (Play requirement).
+- [ ] Daily reminders: VAPID keys, the `remind` function, the 15-minute schedule, a time picker in Settings.
+- [ ] Privacy page and Play data-safety answers updated for accounts.
+- [ ] Move to Supabase's paid plan before public launch (daily backups, no pausing).
+- [ ] Email sign-in once there's a domain and an email service (Resend or Postmark).
+
+## Google Drive sync (built, waiting on you; to be replaced by the backend)
 - [ ] Create the Google Cloud project, turn on the Drive API, set up the OAuth consent screen (scope `drive.appdata`, yourself as a test user).
 - [ ] Create a Web OAuth client with origins `https://noahsama01.github.io` and `http://localhost:5174`, and send the Client ID (never the client secret).
 - [ ] Put the Client ID into `GID` in `public/index.html`, then test the real Google sign-in end to end.
