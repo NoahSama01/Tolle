@@ -8,6 +8,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 html = open(os.path.join(ROOT, "public", "index.html"), encoding="utf-8").read()
 BOOKS = dict(json.loads(re.search(r"const BOOKS=(\[.*?\]\]);", html).group(1)))
+ONE = {"Obadiah": 21, "Philemon": 25, "2 John": 13, "3 John": 14, "Jude": 25}  # bible-api reads "Jude 1" as verse 1
 KINDS = {"why", "connection", "word", "culture", "detail", "bigpicture", "ponder"}
 book, parts = sys.argv[1], sys.argv[2:]
 slug = book.lower().replace(" ", "-")
@@ -18,7 +19,7 @@ def text(c):  # the WEB chapter, cached
         os.makedirs(os.path.dirname(f), exist_ok=True)
         for _ in range(6):
             try:
-                d = urllib.request.urlopen(f"https://bible-api.com/{urllib.parse.quote(f'{book} {c}')}?translation=web", timeout=30).read()
+                d = urllib.request.urlopen(f"https://bible-api.com/{urllib.parse.quote(f'{book} {c}' + (f':1-{ONE[book]}' if book in ONE else ''))}?translation=web", timeout=30).read()
                 open(f, "wb").write(d); break
             except Exception:
                 time.sleep(8)
