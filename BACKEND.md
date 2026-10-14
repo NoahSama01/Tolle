@@ -1,6 +1,8 @@
 # Tolle backend
 
-Status: designed, not built. Nothing here runs until you create the Supabase project (step 1 of the build order).
+Status: designed. The Supabase project exists; the migration is next.
+
+Project: `https://wvzfjqblglbtyjcnklym.supabase.co` (publishable key `sb_publishable_5e2eMODJEOTuvJmaWo70ZQ_IgQLb00L`; both are public by design and go into the app).
 
 ## What the backend is for
 

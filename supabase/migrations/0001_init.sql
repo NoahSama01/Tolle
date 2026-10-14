@@ -17,6 +17,7 @@ create table public.profiles (
   tz         text not null default 'UTC',          -- IANA zone from the phone, e.g. Asia/Kolkata
   remind_at  time,                                 -- local time of the daily reminder; null means off
   last_read  date,                                 -- local date of the last chapter read, sent on sync
+  next_up    text,                                 -- the next chapter's name for the reminder, e.g. 'Leviticus 4'
   created_at timestamptz not null default now()
 );
 -- an unknown zone would break the reminder query for everyone, so it is refused on write
@@ -84,13 +85,13 @@ grant execute on function public.put_copy(bigint, bigint, jsonb) to authenticate
 -- 15 minutes, matching the schedule), they haven't read today in their own zone, and today's
 -- reminder hasn't gone out. Called by the remind function with the service role.
 create function public.due_reminders()
-returns table (user_id uuid, local_day date)
+returns table (user_id uuid, local_day date, next_up text)
 language sql stable security definer set search_path = '' as $$
-  select p.user_id, (now() at time zone p.tz)::date
+  select p.user_id, (now() at time zone p.tz)::date, p.next_up
   from public.profiles p
   where p.remind_at is not null
-    and (now() at time zone p.tz)::time >= p.remind_at
-    and (now() at time zone p.tz)::time <  p.remind_at + interval '15 minutes'
+    -- within 15 minutes after remind_at, counting across midnight (23:55 then 00:05 is 10 minutes)
+    and (extract(epoch from (now() at time zone p.tz)::time)::int - extract(epoch from p.remind_at)::int + 86400) % 86400 < 900
     and (p.last_read is null or p.last_read < (now() at time zone p.tz)::date)
     and not exists (select 1 from public.reminder_log l
                     where l.user_id = p.user_id and l.sent_on = (now() at time zone p.tz)::date)
