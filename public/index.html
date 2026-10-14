@@ -304,6 +304,7 @@ textarea{display:block;width:100%;margin:.2rem 0 0;padding:.7rem .8rem;border:1.
 .kmeta{display:flex;flex-wrap:wrap;align-items:center;gap:.25rem 1.25rem;margin:.6rem 0 0;color:var(--ink-2);font:500 .75rem var(--mono);text-transform:uppercase}
 .kmeta>span{flex-basis:100%} /* the date on its own line, the actions in a row below */
 .kmeta .link-btn{font:500 .75rem var(--mono);text-transform:uppercase;color:var(--ink)}
+.gone.update{position:fixed;inset:auto 1rem calc(5rem + env(safe-area-inset-bottom)) 1rem;z-index:9;max-width:30rem;margin:0 auto} /* above the tabs and the Done bar */
 .gone{animation:inkin var(--hinge) both;display:flex;align-items:center;justify-content:space-between;gap:1rem;margin:0 0 1rem;padding:.5rem .5rem .5rem 1rem;border-radius:2px;background:var(--ink);color:var(--milk)}
 .gone .link-btn{color:var(--milk)}
 body[data-view=reader] main{padding-bottom:6.5rem}
@@ -1101,7 +1102,13 @@ function finish(btn){
 let installEvt; // Android Chrome: offer our own install button in Settings
 addEventListener('beforeinstallprompt',e=>{e.preventDefault();installEvt=e;if(view==='settings')render()});
 function install(){installEvt.prompt();installEvt=null;document.getElementById('inst')?.remove()}
-navigator.serviceWorker?.register('sw.js');
+navigator.serviceWorker?.register('sw.js').then(r=>{r.update().catch(()=>{});addEventListener('visibilitychange',()=>{if(!document.hidden)r.update().catch(()=>{})})}); // look for a new version on every open and every return: browsers alone can wait days
+let installed=!navigator.serviceWorker?.controller; // the very first install takes over silently; later ones are announced
+navigator.serviceWorker?.addEventListener('controllerchange',()=>{
+  if(installed)return;installed=true;
+  const p=document.createElement('p');p.className='gone update';p.role='status';p.innerHTML='A new version of Tolle is ready.<button class=link-btn onclick=location.reload()>Reload</button>';
+  document.body.append(p);
+});
 history.replaceState(null,''); // a reload starts on Today, so forget any page the browser remembered being on
 render();sync();
 </script>
