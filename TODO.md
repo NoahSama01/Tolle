@@ -35,7 +35,7 @@ Everything deferred so far, grouped by when it matters. Tick items off as they l
 - [ ] Two-account access test, once sign-in works.
 - [x] Sign-in and sync in the app, replacing Drive sync (real Google sign-in confirmed on the phone).
 - [x] Account deletion in Settings and on the web (Play requirement); function deployed, refuses unsigned and fake callers (checked).
-- [x] Daily reminders: VAPID keys, the `remind` function (refuses outsiders, checked), the 15-minute schedule, a time picker in Settings. First real reminder still to confirm.
+- [x] Daily reminders: VAPID keys, the `remind` function (refuses outsiders, checked), the 15-minute schedule, a time picker in Settings. A real reminder arrived on the phone (confirmed).
 - [ ] Privacy page and Play data-safety answers updated for accounts.
 - [ ] Move to Supabase's paid plan before public launch (daily backups, no pausing).
 - [ ] Email sign-in once there's a domain and an email service (Resend or Postmark).

@@ -1,6 +1,6 @@
 # Tolle backend
 
-Status: live. Database locked down; Google sign-in, sync, account deletion and daily reminders deployed. Still to confirm: a real reminder arriving, and the two-account test.
+Status: live. Database locked down; Google sign-in, sync, account deletion and daily reminders deployed. A real reminder has arrived on the phone. Still to confirm: the two-account test.
 
 Project: `https://wvzfjqblglbtyjcnklym.supabase.co` (publishable key `sb_publishable_5e2eMODJEOTuvJmaWo70ZQ_IgQLb00L`; both are public by design and go into the app).
 
