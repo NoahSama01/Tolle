@@ -901,7 +901,7 @@ async function deleteAccount(){ // the account and its copy are erased for good;
   catch{SY.err='delete';keepSY();render()}
 }
 // Daily reminder: a push at the chosen time on days with nothing read yet; the server decides who is due
-const VAPID=''; // the notification key's public half (base64url): public by design; while empty, reminders stay hidden
+const VAPID='BGi7G23e8j7YmWQpEZGD5vyYRqkwA6at0QPhA45l0Q8hIiHTVcv7fSQCjG3icgig9NefD2mcKPsYMUEHKxqO5-0'; // the notification key's public half: public by design
 let RM=JSON.parse(localStorage.getItem('tolle-remind')||'{}'); // {at: 'HH:MM', endpoint}
 const keepRM=()=>localStorage.setItem('tolle-remind',JSON.stringify(RM));
 const tz=()=>Intl.DateTimeFormat().resolvedOptions().timeZone;
