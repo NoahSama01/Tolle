@@ -29,9 +29,10 @@ Everything deferred so far, grouped by when it matters. Tick items off as they l
 - [ ] Data safety form and content rating questionnaire.
 
 ## Backend: accounts, sync, reminders (designed, see BACKEND.md)
-- [ ] Create a free Supabase project (Mumbai region) and send the Project URL and anon public key (never the service_role key).
+- [x] Create a free Supabase project and send the Project URL and publishable key.
 - [ ] Google sign-in: a Web OAuth client with Supabase's redirect URL, basic scopes only; client ID and secret go into Supabase, not chat.
-- [ ] Run `supabase/migrations/0001_init.sql` and the two-account access test.
+- [x] Run `supabase/migrations/0001_init.sql` (signed-out access refused on every table and function, checked).
+- [ ] Two-account access test, once sign-in works.
 - [ ] Sign-in and sync in the app, replacing Drive sync.
 - [ ] Account deletion in Settings and on the web (Play requirement).
 - [ ] Daily reminders: VAPID keys, the `remind` function, the 15-minute schedule, a time picker in Settings.
