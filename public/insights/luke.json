@@ -1,0 +1,2009 @@
+{
+ "1": {
+  "summary": "Luke explains his purpose, then the angel Gabriel announces the births of John to the old priest Zacharias and of Jesus to Mary, who sings praise, and John is born.",
+  "lookfor": "Compare the two announcements: who receives each, how each answers the angel, and what happens to Zacharias's voice.",
+  "names": [
+   {
+    "name": "Theophilus",
+    "kind": "person",
+    "gloss": "The person Luke writes for; the name means friend of God, and \"most excellent\" suggests someone of rank."
+   },
+   {
+    "name": "Zacharias",
+    "kind": "person",
+    "gloss": "An elderly priest, father of John the Baptist."
+   },
+   {
+    "name": "Elizabeth",
+    "kind": "person",
+    "gloss": "Zacharias's wife, a relative of Mary, who conceives in old age."
+   },
+   {
+    "name": "Abijah",
+    "kind": "group",
+    "gloss": "One of the twenty-four divisions of priests that took turns serving in the temple."
+   },
+   {
+    "name": "Gabriel",
+    "kind": "person",
+    "gloss": "The angel who also appears to Daniel; his name means God is my strength."
+   },
+   {
+    "name": "Nazareth",
+    "kind": "place",
+    "gloss": "A small village in Galilee, never mentioned in the Old Testament."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "An orderly account",
+    "body": "Luke opens like a Greek historian: others have written, he has investigated everything carefully, and he writes so Theophilus may be certain (1:1-4). The Gospel presents itself as checked history, not legend, while openly drawing on eyewitnesses.",
+    "refs": [
+     "Acts 1:1-3"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Abraham and Sarah again",
+    "body": "An old, childless, righteous couple receive a promise of a son, just as Abraham and Sarah did (1:7). Zacharias even asks how he can know this, echoing Abraham's question. Israel's story is starting over in the same key.",
+    "refs": [
+     "Genesis 18:11-14",
+     "Genesis 15:8"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Chosen by lot",
+    "body": "Priests were divided into twenty-four groups, and Abijah's was one (1:5). With thousands of priests, the honor of burning incense in the holy place was decided by lot (1:9) and might come once in a lifetime. The most important moment of Zacharias's career is where the story begins.",
+    "refs": [
+     "1 Chronicles 24:10"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Highly favored",
+    "body": "Gabriel greets Mary with the Greek kecharitōmenē (1:28), from charis, grace: one who has been graced. The Latin Vulgate rendered it \"full of grace,\" a phrase central to Catholic devotion; Protestant translations usually say \"highly favored.\" All agree the favor is God's gift, not Mary's achievement.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Mary's song and Hannah's",
+    "body": "Mary's song, the Magnificat (1:46-55), closely echoes the song of Hannah, who also received a son as a gift. Both praise a God who brings down the mighty, lifts up the lowly and fills the hungry.",
+    "refs": [
+     "1 Samuel 2:1-10"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The prophet who prepares",
+    "body": "John will go before the Lord \"in the spirit and power of Elijah\" to turn the hearts of fathers to their children (1:17). Those words pick up the last promise of the Old Testament, in Malachi. After centuries of silence, prophecy is beginning again.",
+    "refs": [
+     "Malachi 4:5-6"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Two answers to an angel",
+    "body": "Zacharias asks for proof and is left silent; Mary asks how it can be, then says yes (1:38). What is the difference between honest questions and unbelief?",
+    "refs": []
+   }
+  ]
+ },
+ "2": {
+  "summary": "Jesus is born in Bethlehem during a Roman census, angels announce him to shepherds, Simeon and Anna recognize him in the temple, and at twelve he stays behind in his Father's house.",
+  "lookfor": "Notice who hears the news first, where the baby is laid, and what Mary does with everything she sees and hears.",
+  "names": [
+   {
+    "name": "Augustus",
+    "kind": "person",
+    "gloss": "The first Roman emperor, who ruled from 27 BC to AD 14 and called himself bringer of peace."
+   },
+   {
+    "name": "Quirinius",
+    "kind": "person",
+    "gloss": "Roman governor of Syria, linked with a census of Judea."
+   },
+   {
+    "name": "Bethlehem",
+    "kind": "place",
+    "gloss": "A village south of Jerusalem, King David's hometown."
+   },
+   {
+    "name": "Simeon",
+    "kind": "person",
+    "gloss": "A devout man in Jerusalem promised he would see the Messiah before he died."
+   },
+   {
+    "name": "Anna",
+    "kind": "person",
+    "gloss": "An elderly prophetess of the tribe of Asher who lived in the temple courts."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "The census and Quirinius",
+    "body": "Luke ties the birth to a census under Quirinius (2:2). Roman records place Quirinius's well-known census of Judea in AD 6, after Herod's death, which creates a dating problem. Scholars propose an earlier census, a different translation of the verse, or an error; the question remains open.",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Two kinds of king",
+    "body": "The story opens with Augustus, whom inscriptions hailed as savior and bringer of peace and whose birthday was called good news. Luke's angels announce good news of a Savior and peace on earth (2:10-14), born to a working family in David's town. The contrast is deliberate.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "A feeding trough",
+    "body": "Jesus is laid in a manger, an animal's feeding trough (2:7), because there was no room in the guest room. Many homes kept animals on a lower level at night, so the scene may be a crowded family house rather than a barn.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Shepherds first",
+    "body": "The first to hear are shepherds working the night shift (2:8), people of low standing whose testimony counted for little. David, too, was a shepherd from Bethlehem. Luke keeps showing good news reaching the lowly first.",
+    "refs": [
+     "1 Samuel 16:11"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A light for the nations",
+    "body": "Simeon calls the child a light for revelation to the Gentiles (2:32), echoing Isaiah's servant who is a light to the nations. He also warns Mary that a sword will pierce her soul (2:35).",
+    "refs": [
+     "Isaiah 49:6",
+     "Isaiah 42:6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "My Father's house",
+    "body": "Jesus' first recorded words, at twelve, are a question: didn't you know I must be in my Father's house? (2:49). Mary had said \"your father and I\"; Jesus quietly points to another Father.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Treasuring and pondering",
+    "body": "Mary keeps all these things and ponders them in her heart (2:19, 2:51), even what she does not understand (2:50). How do you hold onto things about God that you can't yet explain?",
+    "refs": []
+   }
+  ]
+ },
+ "3": {
+  "summary": "John the Baptist preaches repentance in the wilderness, is imprisoned by Herod, baptizes Jesus as the Spirit descends, and Luke traces Jesus' family line back to Adam.",
+  "lookfor": "Notice the long list of rulers at the start, what John tells each group to do, and how far back the genealogy goes.",
+  "names": [
+   {
+    "name": "Tiberius",
+    "kind": "person",
+    "gloss": "Roman emperor after Augustus, from AD 14 to 37."
+   },
+   {
+    "name": "Pontius Pilate",
+    "kind": "person",
+    "gloss": "Roman governor of Judea from about AD 26 to 36."
+   },
+   {
+    "name": "Herod",
+    "kind": "person",
+    "gloss": "Herod Antipas, son of Herod the Great, ruler of Galilee."
+   },
+   {
+    "name": "Annas",
+    "kind": "person",
+    "gloss": "A former high priest who kept great influence; his son-in-law Caiaphas held the office."
+   },
+   {
+    "name": "Caiaphas",
+    "kind": "person",
+    "gloss": "High priest from about AD 18 to 36."
+   },
+   {
+    "name": "Herodias",
+    "kind": "person",
+    "gloss": "Wife of Herod's brother, whom Herod married; John condemned the marriage."
+   }
+  ],
+  "skim": {
+   "advice": "Verses 23 to 38 are a genealogy; skim the names and notice where the list ends.",
+   "key": [
+    3,
+    16,
+    22,
+    38
+   ]
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Dated like history",
+    "body": "Luke dates John's preaching by seven rulers, from the emperor down to the high priests (3:1-2). The fifteenth year of Tiberius is about AD 28 or 29. The word of God comes not to any of these powerful men but to John in the wilderness.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "A voice in the wilderness",
+    "body": "Luke quotes Isaiah's voice preparing the way of the Lord and, unlike Matthew and Mark, continues the quotation to \"all flesh will see God's salvation\" (3:6). Salvation for everyone is Luke's theme.",
+    "refs": [
+     "Isaiah 40:3-5"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Repentance in practice",
+    "body": "When crowds, tax collectors and soldiers ask what to do, John gives concrete answers: share your second coat, collect no more than required, don't extort (3:10-14). Repentance shows in how people handle money and power.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Baptized while praying",
+    "body": "Only Luke notes that the Spirit came while Jesus was praying (3:21). Prayer marks every turning point in Luke's Gospel, from the choosing of the twelve to the cross.",
+    "refs": [
+     "Luke 6:12",
+     "Luke 9:28-29"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Son of Adam, son of God",
+    "body": "Matthew traces Jesus from Abraham forward; Luke traces him backward all the way to Adam, \"the son of God\" (3:38). Jesus belongs to the whole human race, not only Israel. The two genealogies differ after David, and readers have long offered explanations, such as one following Mary's line.",
+    "refs": [
+     "Matthew 1:1-16"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Beloved Son",
+    "body": "The voice from heaven joins words from Psalm 2, about the king as God's Son, and Isaiah 42, about the servant in whom God delights (3:22). Jesus is introduced as both royal Son and suffering Servant.",
+    "refs": [
+     "Psalms 2:7",
+     "Isaiah 42:1"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "What should we do?",
+    "body": "Three different groups ask John the same question and get answers fitted to their lives (3:10-14). If you asked him, what would he say to you?",
+    "refs": []
+   }
+  ]
+ },
+ "4": {
+  "summary": "Jesus is tested in the wilderness, announces his mission in the Nazareth synagogue and is nearly thrown off a cliff, then heals and casts out demons in Capernaum.",
+  "lookfor": "Watch how Jesus answers each temptation, which passage he reads in Nazareth, and why the hometown crowd turns on him.",
+  "names": [
+   {
+    "name": "Capernaum",
+    "kind": "place",
+    "gloss": "A fishing town on the Sea of Galilee that became Jesus' base."
+   },
+   {
+    "name": "Elijah",
+    "kind": "person",
+    "gloss": "A ninth-century BC prophet of Israel."
+   },
+   {
+    "name": "Sidon",
+    "kind": "place",
+    "gloss": "A Phoenician city on the Mediterranean coast, outside Israel."
+   },
+   {
+    "name": "Elisha",
+    "kind": "person",
+    "gloss": "Elijah's successor as prophet."
+   },
+   {
+    "name": "Naaman",
+    "kind": "person",
+    "gloss": "A Syrian army commander healed of skin disease by Elisha."
+   },
+   {
+    "name": "Simon",
+    "kind": "person",
+    "gloss": "Simon Peter, whose mother-in-law Jesus heals."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Forty days, three answers",
+    "body": "Jesus answers each temptation with a verse from Deuteronomy, from Israel's forty years in the wilderness (4:4, 4:8, 4:12). Where Israel failed its testing, the Son of God stays faithful.",
+    "refs": [
+     "Deuteronomy 8:3",
+     "Deuteronomy 6:13",
+     "Deuteronomy 6:16"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Until an opportune time",
+    "body": "The devil leaves Jesus \"until another time\" (4:13). He returns at the end, when Satan enters Judas (22:3). The wilderness is round one.",
+    "refs": [
+     "Luke 22:3"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The manifesto at Nazareth",
+    "body": "Jesus reads from Isaiah 61: good news to the poor, release for captives, sight for the blind, the year of the Lord's favor (4:18-19). He stops before \"the day of vengeance of our God.\" Luke places this scene first as the summary of Jesus' mission.",
+    "refs": [
+     "Isaiah 61:1-2"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why the crowd turned",
+    "body": "The town is proud until Jesus recalls Elijah sent to a widow in Sidon and Elisha healing Naaman the Syrian (4:25-27). God's grace reaching foreigners before Israelites enrages them. Luke foreshadows the gospel going to the Gentiles in Acts.",
+    "refs": [
+     "1 Kings 17:8-16",
+     "2 Kings 5:1-14"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The synagogue service",
+    "body": "A synagogue service included readings from the Law and the Prophets, and a visiting man could be invited to read and teach (4:16-20). Jesus stands to read and sits to teach, the custom for a teacher.",
+    "refs": [
+     "Acts 13:15"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The demons know",
+    "body": "A demon cries out that Jesus is the Holy One of God (4:34), and demons call him the Son of God (4:41). He silences them. The spirits recognize him before the people do.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Good news for whom?",
+    "body": "The Nazareth crowd loved the promise until it included outsiders. Who would you find it hardest to see included in God's welcome?",
+    "refs": []
+   }
+  ]
+ },
+ "5": {
+  "summary": "After a miraculous catch Peter, James and John leave everything to follow Jesus; he heals a leper and a paralyzed man, calls the tax collector Levi, and answers questions about fasting.",
+  "lookfor": "Watch Peter's reaction to the catch, how the paralyzed man reaches Jesus, and who sits at Levi's table.",
+  "names": [
+   {
+    "name": "Gennesaret",
+    "kind": "place",
+    "gloss": "Another name for the Sea of Galilee, from a plain on its shore."
+   },
+   {
+    "name": "James",
+    "kind": "person",
+    "gloss": "Son of Zebedee, one of the first disciples."
+   },
+   {
+    "name": "John",
+    "kind": "person",
+    "gloss": "James's brother, son of Zebedee, later an apostle."
+   },
+   {
+    "name": "Zebedee",
+    "kind": "person",
+    "gloss": "Father of James and John, a fishing partner of Simon."
+   },
+   {
+    "name": "Levi",
+    "kind": "person",
+    "gloss": "A tax collector Jesus calls; Matthew's Gospel calls him Matthew."
+   },
+   {
+    "name": "Pharisees",
+    "kind": "group",
+    "gloss": "A popular Jewish movement devoted to careful keeping of the law and its traditions."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Depart from me",
+    "body": "When the nets overflow, Peter falls at Jesus' knees: depart from me, I am a sinful man (5:8). The miracle shows him holiness first, then his own sin. Jesus answers with a calling: from now on you will catch people (5:10).",
+    "refs": [
+     "Isaiah 6:5"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Fishing at night",
+    "body": "Fishermen on the lake worked at night with nets, when fish come to the surface. Jesus, a carpenter's son, tells experienced fishermen to let down nets in daylight (5:4-5). Peter obeys anyway.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "He touched him",
+    "body": "Jesus touches the man full of leprosy before healing him (5:13), then sends him to the priest as the law commanded. The law kept the unclean at a distance; Jesus' touch makes him clean.",
+    "refs": [
+     "Leviticus 14:2-32",
+     "Leviticus 13:45-46"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Who can forgive sins?",
+    "body": "Jesus tells the paralyzed man his sins are forgiven (5:20). The teachers rightly reason that only God forgives sins; Jesus heals the man to show the Son of Man has that authority (5:24). The healing is the visible sign of the invisible forgiveness.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Through the roof",
+    "body": "The friends lower the man through the tiles of the roof (5:19). Many houses had flat roofs reached by outside stairs. The friends' faith (5:20) is what Jesus sees.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "New wine, old wineskins",
+    "body": "Wineskins were goat skins; new wine still fermenting would split an old, brittle skin (5:37-38). Jesus' coming brings something new that old forms cannot simply contain.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "A banquet of sinners",
+    "body": "Levi throws a great feast and invites his tax-collector friends to meet Jesus (5:29). What would it look like to bring your own circle to the table with Jesus?",
+    "refs": []
+   }
+  ]
+ },
+ "6": {
+  "summary": "Jesus faces conflict over the Sabbath, prays all night and chooses the twelve apostles, then teaches the crowds: blessings and woes, love for enemies, and building on rock.",
+  "lookfor": "Compare the blessings and the woes line by line, and notice what Jesus asks people to do for their enemies.",
+  "names": [
+   {
+    "name": "Bartholomew",
+    "kind": "person",
+    "gloss": "One of the twelve, often identified with Nathanael."
+   },
+   {
+    "name": "Thomas",
+    "kind": "person",
+    "gloss": "One of the twelve, later known for doubting the resurrection."
+   },
+   {
+    "name": "Alphaeus",
+    "kind": "person",
+    "gloss": "Father of the apostle James, called James the son of Alphaeus."
+   },
+   {
+    "name": "Zealot",
+    "kind": "group",
+    "gloss": "A label for Simon, perhaps meaning zealous for God or linked with resistance to Rome."
+   },
+   {
+    "name": "Iscariot",
+    "kind": "person",
+    "gloss": "Surname of Judas who betrayed Jesus, perhaps meaning man of Kerioth."
+   },
+   {
+    "name": "Tyre",
+    "kind": "place",
+    "gloss": "A Phoenician port city north of Galilee."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "David and the bread",
+    "body": "When the disciples pick grain on the Sabbath, Jesus cites David eating the holy bread (6:3-4) and claims to be lord of the Sabbath (6:5). He reads the law through its purpose: mercy and life.",
+    "refs": [
+     "1 Samuel 21:1-6",
+     "Leviticus 24:5-9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A night of prayer",
+    "body": "Before choosing the twelve, Jesus prays all night on a mountain (6:12). Luke shows every decisive step coming from prayer.",
+    "refs": [
+     "Luke 3:21"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Twelve, like the tribes",
+    "body": "Choosing twelve apostles (6:13) signals the renewal of Israel's twelve tribes. The list includes a tax collector who served Rome and a Zealot, people from opposite sides of politics.",
+    "refs": [
+     "Luke 22:30"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Blessings and woes",
+    "body": "Luke's sermon on a level place has four blessings and four matching woes (6:20-26), while Matthew's longer Sermon on the Mount has nine beatitudes. Luke speaks bluntly of the poor and the rich, the hungry and the full.",
+    "refs": [
+     "Matthew 5:3-12",
+     "Deuteronomy 28:1-68"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Love your enemies",
+    "body": "Jesus asks his followers to love enemies, do good to those who hate them and lend expecting nothing back, because God is kind to the ungrateful (6:35-36). The standard is God's own mercy, not human fairness.",
+    "refs": [
+     "Matthew 5:43-48"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Pressed down, running over",
+    "body": "A generous measure is pressed down, shaken together and running over, poured into the fold of a garment used as a pocket (6:38). Grain sellers could cheat with loosely filled measures; God's giving is the opposite.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Rock or sand",
+    "body": "Both builders hear Jesus' words; only one does them (6:47-49). Which of his words here are you hearing without yet doing?",
+    "refs": [
+     "James 1:22"
+    ]
+   }
+  ]
+ },
+ "7": {
+  "summary": "Jesus heals a centurion's servant and raises a widow's son, answers John's doubting question, and is anointed by a sinful woman at a Pharisee's dinner.",
+  "lookfor": "Notice who shows the greatest faith and love in this chapter, and who expected to.",
+  "names": [
+   {
+    "name": "Nain",
+    "kind": "place",
+    "gloss": "A village in Galilee south of Nazareth."
+   },
+   {
+    "name": "Simon",
+    "kind": "person",
+    "gloss": "A Pharisee who invites Jesus to dinner; not Simon Peter."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Faith from a Roman",
+    "body": "A Roman centurion, an officer of the occupying army, trusts Jesus to heal from a distance with a word (7:7). Jesus says he has not found such faith in Israel (7:9). The first great faith in Luke comes from an outsider.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "A widow's only son",
+    "body": "At Nain Jesus raises a widow's only son and gives him back to his mother (7:15), echoing Elijah, who raised a widow's son at Zarephath. The crowd says a great prophet has risen. A widow without a son had no one to support her.",
+    "refs": [
+     "1 Kings 17:17-24"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Are you the one?",
+    "body": "John, in prison, sends to ask if Jesus is the one to come (7:19). Jesus answers with what is happening: the blind see, the dead are raised, the poor hear good news (7:22), the signs Isaiah promised.",
+    "refs": [
+     "Isaiah 35:5-6",
+     "Isaiah 61:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Reclining at table",
+    "body": "Guests reclined on couches with their feet away from the table, so the woman could stand behind Jesus at his feet (7:38). Basic hospitality, water for feet and a kiss of greeting, was what Simon omitted (7:44-46).",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Forgiven much, loves much",
+    "body": "Jesus' parable of two debtors (7:41-43) teaches that love flows from forgiveness. The woman's love is the evidence that she has been forgiven, not the price of it (7:47).",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Friend of sinners",
+    "body": "Jesus' critics call him \"a friend of tax collectors and sinners\" (7:34). Luke's Gospel embraces the insult: the woman at the table is exactly who Jesus came for.",
+    "refs": [
+     "Luke 15:1-2",
+     "Luke 19:10"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Do you see this woman?",
+    "body": "Jesus asks Simon, \"Do you see this woman?\" (7:44). Who in your world do you look at without really seeing?",
+    "refs": []
+   }
+  ]
+ },
+ "8": {
+  "summary": "Women support Jesus' mission; he tells the parable of the sower, calms a storm, frees a man possessed by many demons, heals a bleeding woman and raises Jairus's daughter.",
+  "lookfor": "Watch the different responses of fear and faith, and notice how each healing happens with a touch or a word.",
+  "names": [
+   {
+    "name": "Mary",
+    "kind": "person",
+    "gloss": "Mary Magdalene, from Magdala on the lake, freed from seven demons and later witness of the resurrection."
+   },
+   {
+    "name": "Joanna",
+    "kind": "person",
+    "gloss": "Wife of a steward in Herod's household, one of the women who supported Jesus."
+   },
+   {
+    "name": "Chuzas",
+    "kind": "person",
+    "gloss": "Herod's steward, Joanna's husband."
+   },
+   {
+    "name": "Susanna",
+    "kind": "person",
+    "gloss": "One of the women who supported Jesus from their own means."
+   },
+   {
+    "name": "Gadarenes",
+    "kind": "group",
+    "gloss": "People of a region across the lake, mostly Gentile."
+   },
+   {
+    "name": "Legion",
+    "kind": "person",
+    "gloss": "The name the demons give, after a Roman army unit of thousands."
+   },
+   {
+    "name": "Jairus",
+    "kind": "person",
+    "gloss": "A ruler of the synagogue whose daughter is dying."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Women who funded the mission",
+    "body": "Several women, including a wealthy court official's wife, supported Jesus and the twelve from their own resources (8:3). It was unusual for women to travel with a teacher; Luke names them and later makes them the first witnesses of the empty tomb.",
+    "refs": [
+     "Luke 24:10"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Four kinds of soil",
+    "body": "The parable of the sower explains why the same word produces such different results (8:11-15): stolen, shallow, choked or fruitful. Jesus ends with a warning to take care how you hear (8:18).",
+    "refs": [
+     "Isaiah 6:9-10"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Lord of wind and sea",
+    "body": "Jesus rebukes the wind and waves and they obey (8:24). In the Psalms, it is God who stills the roaring seas. The disciples ask the right question: who is this?",
+    "refs": [
+     "Psalms 107:28-29",
+     "Psalms 89:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Pigs, tombs and a Legion",
+    "body": "The possessed man lives among tombs, near pigs, in Gentile land, every detail unclean to a Jew (8:27-33). Jesus restores him to his right mind and sends him home as the first messenger to his own town (8:39).",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Twelve years unclean",
+    "body": "The woman's bleeding made her ritually unclean for twelve years (8:43), cut off from worship and touch. Instead of becoming unclean by her touch, Jesus heals her and calls her daughter.",
+    "refs": [
+     "Leviticus 15:25-27"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Two twelves",
+    "body": "The woman has suffered twelve years; Jairus's daughter is twelve years old (8:42-43). Luke weaves the two stories together: the delay for one seems to cost the other, until Jesus raises the girl.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Where is your faith?",
+    "body": "In the storm Jesus asks his disciples, \"Where is your faith?\" (8:25). What storms make your faith hardest to find?",
+    "refs": []
+   }
+  ]
+ },
+ "9": {
+  "summary": "The twelve are sent out, five thousand are fed, Peter confesses Jesus as the Christ, Jesus foretells his death and is transfigured, and he sets his face toward Jerusalem.",
+  "lookfor": "Watch the turn at verse 51, and notice what Moses and Elijah talk with Jesus about on the mountain.",
+  "names": [
+   {
+    "name": "Bethsaida",
+    "kind": "place",
+    "gloss": "A fishing town at the north end of the Sea of Galilee."
+   },
+   {
+    "name": "Moses",
+    "kind": "person",
+    "gloss": "Israel's lawgiver, representing the Law."
+   },
+   {
+    "name": "Samaritans",
+    "kind": "group",
+    "gloss": "People of Samaria, between Galilee and Judea, long hostile to Jews over worship and ancestry."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Bread in the wilderness",
+    "body": "Feeding five thousand in a deserted place (9:12-17) recalls God feeding Israel with manna and Elisha feeding a hundred with twenty loaves. Twelve baskets are left over, one for each apostle.",
+    "refs": [
+     "Exodus 16:4",
+     "2 Kings 4:42-44"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Who do you say I am?",
+    "body": "Peter answers, \"The Christ of God\" (9:20), while praying with Jesus. At once Jesus explains that the Son of Man must suffer, be rejected, be killed and rise (9:22). The title comes with the cross.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "His exodus",
+    "body": "On the mountain Moses and Elijah speak with Jesus about his departure (9:31); the Greek word is exodos. His death and resurrection in Jerusalem will be a new exodus, a rescue like the one from Egypt.",
+    "refs": [
+     "Exodus 14:13"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Listen to him",
+    "body": "The voice from the cloud says, \"This is my beloved Son. Listen to him!\" (9:35). Moses promised that God would raise up a prophet like him and that Israel must listen to him.",
+    "refs": [
+     "Deuteronomy 18:15"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "He set his face",
+    "body": "In 9:51 Jesus \"intently set his face to go to Jerusalem.\" A long journey section begins, ten chapters of teaching on the road to the cross.",
+    "refs": [
+     "Isaiah 50:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Fire from heaven?",
+    "body": "When a Samaritan village refuses them, James and John want to call down fire, as Elijah once did (9:54). Jesus rebukes them. His way is not vengeance on enemies.",
+    "refs": [
+     "2 Kings 1:10-12"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Take up your cross daily",
+    "body": "Only Luke adds \"daily\" to taking up the cross (9:23). What would following Jesus look like in the ordinary choices of today?",
+    "refs": []
+   }
+  ]
+ },
+ "10": {
+  "summary": "Jesus sends seventy-two ahead of him, rejoices at their return, tells the parable of the Good Samaritan, and visits Martha and Mary.",
+  "lookfor": "Notice the question that starts the parable and the different question Jesus asks at its end.",
+  "names": [
+   {
+    "name": "Chorazin",
+    "kind": "place",
+    "gloss": "A town near Capernaum that saw many of Jesus' miracles."
+   },
+   {
+    "name": "Martha",
+    "kind": "person",
+    "gloss": "A woman who welcomes Jesus into her home; sister of Mary."
+   },
+   {
+    "name": "Levite",
+    "kind": "group",
+    "gloss": "A member of Levi's tribe who assisted the priests in the temple."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "Seventy or seventy-two",
+    "body": "Jesus sends out seventy-two (10:1); some ancient manuscripts say seventy. Genesis 10 lists seventy nations in the Hebrew and seventy-two in the Greek, so the number may point to a mission meant for every nation.",
+    "refs": [
+     "Genesis 10:1-32"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Names written in heaven",
+    "body": "The disciples return thrilled that demons obeyed them; Jesus tells them to rejoice more that their names are written in heaven (10:20). Belonging to God matters more than spiritual success.",
+    "refs": [
+     "Philippians 4:3"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The two great commands",
+    "body": "The lawyer sums up the law with Deuteronomy's love for God and Leviticus's love for neighbor (10:27). Jesus agrees, and the lawyer asks who counts as a neighbor.",
+    "refs": [
+     "Deuteronomy 6:5",
+     "Leviticus 19:18"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The road to Jericho",
+    "body": "The road from Jerusalem to Jericho drops about a thousand meters through desert hills and was known for robbers (10:30). The priest and Levite may have feared contact with a corpse, which would have made them unclean.",
+    "refs": [
+     "Numbers 19:11"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The shock of a Samaritan",
+    "body": "Jews and Samaritans despised each other; a Samaritan village had just refused Jesus (9:53). Making the despised Samaritan the hero turns the question around: not who is my neighbor, but who acted as one (10:36).",
+    "refs": [
+     "John 4:9"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Sitting at his feet",
+    "body": "Mary sits at the Lord's feet listening (10:39), the posture of a disciple with a rabbi. That a woman takes this place, and Jesus defends her, is striking.",
+    "refs": [
+     "Acts 22:3"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "One thing needed",
+    "body": "Martha is busy serving Jesus while Mary listens to him (10:40-42). When does serving God crowd out listening to him in your life?",
+    "refs": []
+   }
+  ]
+ },
+ "11": {
+  "summary": "Jesus teaches the disciples to pray and to persist, answers the charge that he works by Beelzebul, warns about seeking signs, and denounces Pharisees and lawyers.",
+  "lookfor": "Notice what the Father is said to give those who ask (11:13), and what Jesus says about a clean outside and a dirty inside.",
+  "names": [
+   {
+    "name": "Beelzebul",
+    "kind": "person",
+    "gloss": "A name for the prince of demons, perhaps from a Canaanite god's title."
+   },
+   {
+    "name": "Jonah",
+    "kind": "person",
+    "gloss": "The prophet whose preaching led Nineveh to repent."
+   },
+   {
+    "name": "Nineveh",
+    "kind": "place",
+    "gloss": "The capital of Assyria, whose people repented at Jonah's message."
+   },
+   {
+    "name": "Abel",
+    "kind": "person",
+    "gloss": "Adam's son, the first person killed, at the start of the Hebrew Bible."
+   },
+   {
+    "name": "Zachariah",
+    "kind": "person",
+    "gloss": "A priest killed in the temple court, near the end of the Hebrew Bible's order."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Luke's Lord's Prayer",
+    "body": "Luke's version of the Lord's Prayer (11:2-4) is shorter than Matthew's. It begins simply with \"Father,\" the intimate address Jesus himself used.",
+    "refs": [
+     "Matthew 6:9-13"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A friend at midnight",
+    "body": "Hospitality was a village duty; an unexpected guest had to be fed, and bread was baked daily. The sleeping friend gets up because of the asker's boldness (11:8). If a reluctant friend gives, how much more will the Father?",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "The Holy Spirit as the gift",
+    "body": "Matthew says the Father gives \"good things\"; Luke says he gives \"the Holy Spirit\" to those who ask (11:13). For Luke, the Spirit is God's greatest gift, poured out at Pentecost.",
+    "refs": [
+     "Matthew 7:11",
+     "Acts 2:4"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The finger of God",
+    "body": "Jesus casts out demons \"by God's finger\" (11:20). Pharaoh's magicians said the same of the plagues in Egypt. God's kingdom has arrived where the strong man is being overpowered.",
+    "refs": [
+     "Exodus 8:19"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The sign of Jonah",
+    "body": "Jesus says the only sign will be Jonah (11:29-30). Nineveh repented at Jonah's preaching, and the queen of the south came to hear Solomon; something greater is here, yet his own generation won't listen.",
+    "refs": [
+     "Jonah 3:5",
+     "1 Kings 10:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "From Abel to Zechariah",
+    "body": "Jesus speaks of the blood of prophets from Abel to Zachariah (11:51). In the Hebrew order Chronicles comes last, so these are the first and last murders in its Scriptures, A to Z.",
+    "refs": [
+     "Genesis 4:8",
+     "2 Chronicles 24:20-22"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Clean on the outside",
+    "body": "Jesus rebukes those who clean the outside of the cup but are full of greed inside (11:39). Where is it easiest for you to tend appearances instead of the heart?",
+    "refs": []
+   }
+  ]
+ },
+ "12": {
+  "summary": "Jesus warns against hypocrisy and greed with the parable of the rich fool, tells his disciples not to worry, urges readiness for the master's return, and says he brings division.",
+  "lookfor": "Watch the rich man's plans (count his \"I\" and \"my\"), and what God calls him.",
+  "names": [
+   {
+    "name": "Solomon",
+    "kind": "person",
+    "gloss": "King of Israel famous for his wealth and splendor."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Sparrows and hairs",
+    "body": "Five sparrows sold for two small coins, yet God forgets none, and every hair is counted (12:6-7). The cheapest thing in the market is not beneath God's notice.",
+    "refs": [
+     "Matthew 10:29-31"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The rich fool",
+    "body": "A man asks Jesus to settle an inheritance; Jesus warns against every kind of greed (12:15). In the parable the man talks only to himself about my crops, my barns, my soul (12:17-19), and God calls him a fool. Life does not consist in possessions.",
+    "refs": [
+     "Ecclesiastes 2:18-21",
+     "Psalms 49:16-17"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Consider the ravens",
+    "body": "Matthew says birds; Luke says ravens (12:24), unclean birds in the law, yet God feeds them. If God cares for ravens and lilies, his people can stop worrying and seek his kingdom.",
+    "refs": [
+     "Leviticus 11:15",
+     "Psalms 147:9"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Little flock",
+    "body": "\"Don't be afraid, little flock, for it is your Father's good pleasure to give you the Kingdom\" (12:32). The kingdom is a gift the Father is glad to give, not a reward to anxiously earn.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Dressed and lamps burning",
+    "body": "Servants waiting for a master returning from a wedding feast stay dressed with lamps lit, ready to open at once (12:35-36). In a surprise reversal, the master serves them (12:37).",
+    "refs": [
+     "Exodus 12:11"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Not peace but division",
+    "body": "Jesus says he came to bring fire and division, even within families (12:49-53), echoing Micah. His coming forces a choice, and choices divide.",
+    "refs": [
+     "Micah 7:6"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Rich toward God",
+    "body": "The man stored up treasure for himself but was not rich toward God (12:21). What would being rich toward God look like with what you have?",
+    "refs": []
+   }
+  ]
+ },
+ "13": {
+  "summary": "Jesus calls for repentance after two disasters, heals a bent woman on the Sabbath, tells parables of the mustard seed and yeast, speaks of the narrow door and laments over Jerusalem.",
+  "lookfor": "Notice how Jesus answers the question about the victims of disaster, and what he calls the woman he heals.",
+  "names": [
+   {
+    "name": "Galileans",
+    "kind": "group",
+    "gloss": "People from Galilee in the north, Jesus' home region."
+   },
+   {
+    "name": "Siloam",
+    "kind": "place",
+    "gloss": "An area in Jerusalem with a pool, where a tower collapsed."
+   },
+   {
+    "name": "Herod",
+    "kind": "person",
+    "gloss": "Herod Antipas, ruler of Galilee, who had killed John the Baptist."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Were they worse sinners?",
+    "body": "People tell Jesus of Galileans killed by Pilate, and he adds eighteen killed when a tower fell in Siloam (13:1-4). He rejects the idea that disaster proves the victims were worse sinners. Instead it is a warning to everyone to repent.",
+    "refs": [
+     "John 9:2-3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "One more year",
+    "body": "In the parable, the vineyard owner wants to cut down a barren fig tree, but the gardener asks for one more year to dig and fertilize (13:8). Judgment is real, but God's patience gives time to bear fruit.",
+    "refs": [
+     "2 Peter 3:9"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A daughter of Abraham",
+    "body": "Jesus calls the woman bent over for eighteen years \"a daughter of Abraham\" (13:16), a phrase found nowhere else in the Bible. He restores both her body and her standing in God's people.",
+    "refs": [
+     "Luke 19:9"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Birds in its branches",
+    "body": "The mustard seed grows into a tree where birds nest (13:19). Ezekiel and Daniel used a great tree sheltering birds as a picture of a kingdom covering the nations.",
+    "refs": [
+     "Ezekiel 17:23",
+     "Daniel 4:12"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "That fox",
+    "body": "Jesus calls Herod \"that fox\" (13:32). In Jewish idiom the fox was sly and destructive and also a lesser animal compared with the lion. Jesus will not be hurried by a threat from Herod.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "A hen and her chicks",
+    "body": "Jesus longs to gather Jerusalem as a hen gathers her chicks under her wings (13:34). The Psalms use the image of shelter under God's wings; Jesus applies it to himself.",
+    "refs": [
+     "Psalms 91:4",
+     "Ruth 2:12"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The narrow door",
+    "body": "Asked whether few will be saved, Jesus answers: strive to enter through the narrow door (13:23-24). Why might he turn a question about others into a challenge to the asker?",
+    "refs": []
+   }
+  ]
+ },
+ "14": {
+  "summary": "At a Pharisee's dinner Jesus heals on the Sabbath, teaches humility in choosing seats and in inviting guests, tells the parable of the great banquet, and counts the cost of discipleship.",
+  "lookfor": "Watch who gets invited to the great banquet after the first guests refuse, and the two short stories about counting the cost.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Places of honor",
+    "body": "At formal meals, seating showed rank, and guests jostled for the best places (14:7). Jesus' advice to take the lowest seat echoes Proverbs, but he turns table manners into a picture of God's kingdom, where the humble are raised.",
+    "refs": [
+     "Proverbs 25:6-7"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Invite those who can't repay",
+    "body": "In a world where meals built networks of obligation, Jesus tells his host to invite the poor, crippled, lame and blind, who cannot repay (14:13-14). Repayment comes at the resurrection of the righteous.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Excuses",
+    "body": "The invited guests offer excuses: a field, oxen, a new wife (14:18-20). Each sounds reasonable, but turning down a confirmed invitation insulted the host. The master fills his house with the poor and then those from the roads outside.",
+    "refs": [
+     "Deuteronomy 24:5"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The banquet of the kingdom",
+    "body": "A guest says, blessed is the one who eats bread in God's kingdom (14:15), and Jesus answers with the banquet parable. Isaiah pictured God's feast for all peoples; those who assume their place may miss it.",
+    "refs": [
+     "Isaiah 25:6"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Hate father and mother",
+    "body": "Jesus says a disciple must \"hate\" family and even his own life (14:26). In Semitic idiom, hate can mean to love less; Matthew's parallel says love more. The point is a loyalty to Jesus above every other.",
+    "refs": [
+     "Matthew 10:37",
+     "Genesis 29:30-31"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Salt that loses its saltiness",
+    "body": "Jesus ends with salt that has lost its flavor (14:34-35). Salt in the ancient world was often impure and could leach away. A disciple who won't pay the cost becomes useless.",
+    "refs": [
+     "Matthew 5:13"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Counting the cost",
+    "body": "A builder and a king both sit down first to count the cost (14:28-32). What has following Jesus cost you, or what might it?",
+    "refs": []
+   }
+  ]
+ },
+ "15": {
+  "summary": "Answering complaints that he welcomes sinners, Jesus tells three parables of things lost and found: a sheep, a coin and a son, ending with an elder brother who won't come in.",
+  "lookfor": "Notice the complaint that sets up the parables (15:2), and what the father does that a dignified father would not.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Why these three stories",
+    "body": "Pharisees and scribes grumble that Jesus welcomes sinners and eats with them (15:2). All three parables answer that grumble: heaven rejoices over one sinner who repents. The elder brother is the grumblers' portrait.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "The searching shepherd",
+    "body": "The shepherd leaves ninety-nine to find one lost sheep (15:4). Ezekiel condemned Israel's shepherds for not seeking the lost and promised that God himself would search for his sheep.",
+    "refs": [
+     "Ezekiel 34:11-16",
+     "Psalms 23:1"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The silver coin",
+    "body": "The woman's ten silver coins may have been her savings or part of a dowry worn on a headdress (15:8). Houses had small windows, so she lights a lamp and sweeps every corner.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Asking for the inheritance",
+    "body": "A son asking for his share while his father lived was almost like wishing him dead (15:12). Feeding pigs for a Gentile and wanting their food shows how far the son has fallen.",
+    "refs": [
+     "Leviticus 11:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The father runs",
+    "body": "The father sees him a long way off and runs (15:20). Dignified older men in that culture did not run. He embraces his son before any speech, then gives a robe, a ring and sandals, signs of a son, not a servant.",
+    "refs": [
+     "Genesis 41:42"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The unfinished ending",
+    "body": "The story ends with the father pleading outside with his older son, who refuses to celebrate (15:28-32). We never learn whether he goes in. The listening Pharisees must finish the story themselves.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Which son are you?",
+    "body": "One son wandered far; the other stayed home but was just as far from his father's heart. Which one is closer to your own way with God?",
+    "refs": []
+   }
+  ]
+ },
+ "16": {
+  "summary": "Jesus tells of a shrewd manager, teaches about faithfulness with money, rebukes the money-loving Pharisees, and tells of the rich man and Lazarus.",
+  "lookfor": "Notice what the master praises in the dishonest manager, and what the rich man asks for after death.",
+  "names": [
+   {
+    "name": "Lazarus",
+    "kind": "person",
+    "gloss": "A poor beggar in Jesus' story; the only character in a parable given a name, meaning God helps."
+   },
+   {
+    "name": "Abraham",
+    "kind": "person",
+    "gloss": "Father of Israel, pictured welcoming the faithful dead."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "Praise for a dishonest manager?",
+    "body": "The master praises the manager not for dishonesty but for shrewdness: facing ruin, he uses money to secure his future (16:8). Jesus' disciples should be as wise in using wealth for eternal purposes.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "Mammon",
+    "body": "\"You aren't able to serve God and Mammon\" (16:13). Mammon is an Aramaic word for wealth, here pictured as a rival master demanding service.",
+    "refs": [
+     "Matthew 6:24"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Purple and fine linen",
+    "body": "Purple dye from murex shells was extremely expensive, and fine linen was the clothing of the rich (16:19). The rich man feasted every day while Lazarus lay at his gate, covered in sores, with dogs licking them.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Abraham's bosom",
+    "body": "Lazarus is carried to Abraham's side (16:22), the place of honor at a banquet beside the host. The beggar no one would invite now reclines next to Israel's father.",
+    "refs": [
+     "Luke 13:28-29"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Moses and the prophets",
+    "body": "The rich man asks that Lazarus warn his brothers; Abraham says they have Moses and the prophets, and won't be persuaded even if someone rises from the dead (16:29-31). The law already commanded care for the poor.",
+    "refs": [
+     "Deuteronomy 15:7-11",
+     "Isaiah 58:7"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Someone did rise",
+    "body": "The final line, about someone rising from the dead, points ahead to Jesus' resurrection (16:31). In John's Gospel, a man named Lazarus is raised, and some still refuse to believe.",
+    "refs": [
+     "John 12:9-11"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Who is at your gate?",
+    "body": "The rich man's sin is not cruelty but not seeing the man at his gate every day. Who is at your gate?",
+    "refs": []
+   }
+  ]
+ },
+ "17": {
+  "summary": "Jesus warns against causing others to stumble, teaches forgiveness and faith, heals ten lepers of whom one Samaritan returns, and speaks of the coming of the kingdom.",
+  "lookfor": "Count how many lepers are healed and how many come back, and notice who the one is.",
+  "names": [
+   {
+    "name": "Samaria",
+    "kind": "place",
+    "gloss": "The region between Galilee and Judea, home of the Samaritans."
+   },
+   {
+    "name": "Noah",
+    "kind": "person",
+    "gloss": "The man God saved from the flood."
+   },
+   {
+    "name": "Lot",
+    "kind": "person",
+    "gloss": "Abraham's nephew, rescued from Sodom."
+   },
+   {
+    "name": "Sodom",
+    "kind": "place",
+    "gloss": "A city destroyed by fire and sulfur in Genesis."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Seven times a day",
+    "body": "If someone sins against you seven times in a day and repents, forgive (17:4). The disciples' response is to ask for more faith (17:5); forgiving like that feels impossible.",
+    "refs": [
+     "Matthew 18:21-22"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Unworthy servants",
+    "body": "A servant who plows all day doesn't expect his master to serve him supper (17:7-10). Obedience earns no special credit; it is simply duty. Elsewhere Jesus surprises by serving his servants himself.",
+    "refs": [
+     "Luke 12:37"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Show yourselves to the priests",
+    "body": "Jesus sends the ten to the priests, as the law required for a healed leper (17:14), and they are healed on the way. Their obedience begins before they see results.",
+    "refs": [
+     "Leviticus 14:2-3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The foreigner who returned",
+    "body": "Only one of the ten returns to thank Jesus, and he is a Samaritan (17:16). Jesus calls him \"this foreigner\" (17:18). Luke again shows the outsider responding best.",
+    "refs": [
+     "2 Kings 5:15"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The kingdom among you",
+    "body": "Jesus says the kingdom of God is \"within you\" or \"among you\" (17:21); the Greek entos can mean either. Most modern scholars favor \"in your midst,\" since Jesus is speaking to Pharisees: the kingdom is present in him.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Remember Lot's wife",
+    "body": "Jesus compares his coming to the days of Noah and Lot, when life went on as usual until sudden judgment (17:26-29). \"Remember Lot's wife\" (17:32): she looked back at what she was leaving.",
+    "refs": [
+     "Genesis 7:7",
+     "Genesis 19:26"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Where are the nine?",
+    "body": "Nine were healed and went on their way. What blessings have you received without turning back to thank God?",
+    "refs": []
+   }
+  ]
+ },
+ "18": {
+  "summary": "Jesus teaches persistent prayer and humility through two parables, welcomes children, meets a rich ruler who turns away, predicts his death again and heals a blind beggar near Jericho.",
+  "lookfor": "Compare the prayers of the Pharisee and the tax collector, and what the rich ruler lacks.",
+  "names": [
+   {
+    "name": "Jericho",
+    "kind": "place",
+    "gloss": "An ancient oasis city near the Jordan, on the road up to Jerusalem."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "The widow and the judge",
+    "body": "A widow keeps pestering an unjust judge until he gives her justice (18:1-5). If even he gives in, how much more will God bring justice to his chosen? Luke says the point is to always pray and not give up.",
+    "refs": [
+     "Exodus 22:22-23"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Two prayers",
+    "body": "The Pharisee prays about himself and his virtues; the tax collector stands far off, won't lift his eyes, and beats his chest asking for mercy (18:11-13). The one who knows his need goes home justified.",
+    "refs": [
+     "Psalms 51:17"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Be merciful to me",
+    "body": "The tax collector's prayer uses a Greek verb, hilasthēti, related to atonement and the mercy seat (18:13). He asks God to deal with his sin as the sacrifices did. Later Christians built the Jesus Prayer on these words.",
+    "refs": [
+     "Hebrews 2:17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Little children",
+    "body": "People bring infants for Jesus to touch, and the disciples rebuke them (18:15). Children had little status, yet Jesus says the kingdom belongs to such as these.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "A camel and a needle",
+    "body": "It is easier for a camel to go through a needle's eye than for a rich person to enter God's kingdom (18:25). The image is a deliberate impossibility; what is impossible with people is possible with God (18:27).",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Son of David, have mercy",
+    "body": "The blind beggar calls Jesus \"Son of David\" (18:38), a royal title, as Jesus nears Jerusalem. He can't see, yet he sees who Jesus is, while the disciples don't grasp the passion prediction just before (18:34).",
+    "refs": [
+     "Isaiah 35:5"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "One thing you lack",
+    "body": "The ruler kept the commandments but could not let go of his wealth (18:22-23). What is the one thing you would find hardest to leave for Jesus?",
+    "refs": []
+   }
+  ]
+ },
+ "19": {
+  "summary": "Jesus brings salvation to the tax collector Zacchaeus, tells a parable of servants entrusted with money, rides into Jerusalem to praise, weeps over the city and clears the temple.",
+  "lookfor": "Watch what Zacchaeus does without being asked, and why Jesus weeps as the crowd celebrates.",
+  "names": [
+   {
+    "name": "Zacchaeus",
+    "kind": "person",
+    "gloss": "A rich chief tax collector in Jericho."
+   },
+   {
+    "name": "Bethsphage",
+    "kind": "place",
+    "gloss": "A village on the Mount of Olives near Jerusalem."
+   },
+   {
+    "name": "Bethany",
+    "kind": "place",
+    "gloss": "A village on the Mount of Olives, home of Martha, Mary and Lazarus."
+   },
+   {
+    "name": "Olives",
+    "kind": "place",
+    "gloss": "The Mount of Olives, the ridge east of Jerusalem."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "A chief tax collector",
+    "body": "Tax collectors bought the right to collect for Rome and kept what they could squeeze above it, so they were seen as traitors and thieves (19:2, 19:7). Zacchaeus was a chief one, and rich.",
+    "refs": [
+     "Luke 3:12-13"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Fourfold",
+    "body": "Zacchaeus promises half his goods to the poor and fourfold repayment to anyone he cheated (19:8). The law required a fifth extra for fraud and fourfold only for stolen sheep. Grace has made him generous beyond the law.",
+    "refs": [
+     "Leviticus 6:5",
+     "Exodus 22:1"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "To seek and to save",
+    "body": "\"For the Son of Man came to seek and to save that which was lost\" (19:10). This verse sums up Luke's whole Gospel and echoes God the shepherd who seeks the lost in Ezekiel.",
+    "refs": [
+     "Ezekiel 34:16",
+     "Luke 15:4"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A nobleman who went to get a kingdom",
+    "body": "The parable's nobleman travels to a far country to receive a kingdom, and citizens send a delegation against him (19:12-14). Archelaus, a son of Herod, did exactly this in Rome in 4 BC, so hearers would recognize the scene.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "On a colt",
+    "body": "Jesus rides into Jerusalem on a young donkey, as Zechariah foretold of a humble king (19:35). The disciples shout words from Psalm 118, adding \"the King\" and \"peace in heaven,\" which echoes the angels at his birth.",
+    "refs": [
+     "Zechariah 9:9",
+     "Psalms 118:26",
+     "Luke 2:14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "He wept over the city",
+    "body": "As the crowd celebrates, Jesus weeps over Jerusalem, foreseeing enemies building siege works and leaving no stone on another (19:41-44). Rome destroyed the city and temple in AD 70.",
+    "refs": [
+     "Luke 21:20"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Come down quickly",
+    "body": "Zacchaeus climbed a tree to see Jesus, and Jesus invited himself to his house (19:5). When has God come looking for you before you looked for him?",
+    "refs": []
+   }
+  ]
+ },
+ "20": {
+  "summary": "In the temple, leaders challenge Jesus' authority; he tells the parable of the wicked tenants, answers questions about taxes and resurrection, and asks how the Christ can be David's son.",
+  "lookfor": "Notice the traps set by each group of questioners, and how each answer leaves them silent.",
+  "names": [
+   {
+    "name": "Sadducees",
+    "kind": "group",
+    "gloss": "A priestly party who accepted only the five books of Moses and denied the resurrection."
+   },
+   {
+    "name": "Caesar",
+    "kind": "person",
+    "gloss": "The Roman emperor's title; here Tiberius."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "why",
+    "title": "By what authority?",
+    "body": "The leaders ask who gave Jesus authority to clear the temple and teach (20:2). He asks about John's baptism, a question they can't answer without losing either the crowd or their position (20:5-7).",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "The vineyard",
+    "body": "The parable of tenants who kill the owner's son (20:9-16) builds on Isaiah's song of the vineyard, a picture of Israel. The leaders understand it is aimed at them (20:19).",
+    "refs": [
+     "Isaiah 5:1-7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The rejected stone",
+    "body": "Jesus quotes Psalm 118: the stone the builders rejected has become the cornerstone (20:17). Peter later applies the same verse to Jesus before the same council.",
+    "refs": [
+     "Psalms 118:22",
+     "Acts 4:11"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Whose image?",
+    "body": "The denarius bore the emperor's image and an inscription calling him son of the divine Augustus (20:24). Give Caesar what bears his image, and God what bears God's, which is the person, made in his image.",
+    "refs": [
+     "Genesis 1:27"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Seven brothers",
+    "body": "The Sadducees' riddle relies on levirate marriage, where a man married his dead brother's widow to continue his line (20:28). Jesus says resurrection life is different, and quotes Moses at the burning bush, the books the Sadducees accepted.",
+    "refs": [
+     "Deuteronomy 25:5-6",
+     "Exodus 3:6"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "David's Lord",
+    "body": "Jesus asks how the Messiah can be David's son when David calls him Lord in Psalm 110 (20:41-44). The Psalm is the most quoted Old Testament text in the New Testament, applied to Jesus seated at God's right hand.",
+    "refs": [
+     "Psalms 110:1",
+     "Acts 2:34-35"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "What belongs to God",
+    "body": "Coins bear Caesar's image; you bear God's. What would it look like to give God what belongs to him?",
+    "refs": []
+   }
+  ]
+ },
+ "21": {
+  "summary": "Jesus praises a poor widow's offering, foretells the temple's destruction and the troubles to come, and urges his followers to stay alert and endure.",
+  "lookfor": "Notice how much the widow gives compared with the rich, and the signs Jesus gives for Jerusalem's fall.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Two small coins",
+    "body": "The widow puts in two lepta, the smallest coins in circulation (21:2). Jesus says she gave more than all the rich, because she gave all she had to live on (21:4). The scene follows his warning about scribes who devour widows' houses (20:47).",
+    "refs": [
+     "Luke 20:47"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Beautiful stones",
+    "body": "Herod's temple was famous for its white stones and gold, some stones many meters long (21:5). Jesus says not one will be left on another. In AD 70 Roman soldiers burned and dismantled it.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Jerusalem surrounded by armies",
+    "body": "Where Matthew and Mark speak of the abomination of desolation, Luke says plainly: when you see Jerusalem surrounded by armies, flee (21:20-21). Early Christian tradition says Jerusalem's believers fled to Pella before the siege.",
+    "refs": [
+     "Matthew 24:15-16",
+     "Daniel 9:26"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Not a hair will perish",
+    "body": "Jesus warns of betrayal, prison and even death, yet says not a hair of your head will perish (21:16-18). The promise is not escape from suffering but security beyond it.",
+    "refs": [
+     "Luke 12:7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The Son of Man in a cloud",
+    "body": "Jesus speaks of the Son of Man coming in a cloud with power and great glory (21:27), the vision of Daniel 7. Christians read this as his return; some scholars see parts as fulfilled in AD 70.",
+    "refs": [
+     "Daniel 7:13-14"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The times of the Gentiles",
+    "body": "Jerusalem will be trampled until the times of the Gentiles are fulfilled (21:24). The phrase points to a period of history between the city's fall and the end, a time Luke's Acts describes as the gospel spreading to the nations.",
+    "refs": [
+     "Romans 11:25"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Weighed down",
+    "body": "Jesus warns that hearts can be weighed down by dissipation and the worries of life (21:34). What weighs on your heart enough to make you stop watching for God?",
+    "refs": []
+   }
+  ]
+ },
+ "22": {
+  "summary": "Judas agrees to betray Jesus; Jesus shares the Passover with his disciples and gives the bread and cup, prays in anguish on the Mount of Olives, is arrested, and Peter denies him three times.",
+  "lookfor": "Notice what the disciples argue about at the table, and the moment Jesus turns and looks at Peter.",
+  "names": [
+   {
+    "name": "Satan",
+    "kind": "person",
+    "gloss": "The adversary, who returns here after the wilderness testing."
+   },
+   {
+    "name": "Judas",
+    "kind": "person",
+    "gloss": "Judas Iscariot, one of the twelve, who betrays Jesus."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Satan returns",
+    "body": "\"Satan entered into Judas\" (22:3). The devil had left Jesus in the wilderness until another time (4:13); now that time has come.",
+    "refs": [
+     "Luke 4:13"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The new covenant",
+    "body": "At the meal Jesus calls the cup \"the new covenant in my blood\" (22:20). Jeremiah promised a new covenant written on hearts; Moses sealed the first one with blood at Sinai.",
+    "refs": [
+     "Jeremiah 31:31-34",
+     "Exodus 24:8"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The Passover meal",
+    "body": "Passover remembered the exodus, with lamb, unleavened bread and cups of wine. Luke mentions a cup before the bread and one after (22:17, 22:20), matching the several cups of the meal.",
+    "refs": [
+     "Exodus 12:14",
+     "1 Corinthians 11:23-26"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Who is the greatest?",
+    "body": "Right after the bread and cup, the disciples argue about who is greatest (22:24). Jesus says the greatest is the one who serves, and \"I am among you as one who serves\" (22:27).",
+    "refs": [
+     "John 13:12-15"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Drops of blood",
+    "body": "In his anguish Jesus' sweat became like great drops of blood (22:44). Verses 43 and 44 are missing from some early manuscripts, so many Bibles mark them; others regard them as original.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Counted with transgressors",
+    "body": "Jesus quotes Isaiah 53: \"He was counted with transgressors\" (22:37). He knowingly takes the path of the suffering servant.",
+    "refs": [
+     "Isaiah 53:12"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The look",
+    "body": "After the third denial the Lord turns and looks at Peter, and Peter weeps bitterly (22:61-62). What do you imagine was in that look?",
+    "refs": [
+     "John 21:15-17"
+    ]
+   }
+  ]
+ },
+ "23": {
+  "summary": "Jesus is tried before Pilate and Herod, declared innocent yet handed over, crucified between two criminals, promises paradise to one, dies with a prayer of trust and is buried by Joseph of Arimathea.",
+  "lookfor": "Count how many times someone says Jesus is innocent, and notice his three sayings from the cross in Luke.",
+  "names": [
+   {
+    "name": "Barabbas",
+    "kind": "person",
+    "gloss": "A prisoner held for rebellion and murder, released instead of Jesus."
+   },
+   {
+    "name": "Simon",
+    "kind": "person",
+    "gloss": "Simon of Cyrene in North Africa, made to carry Jesus' cross."
+   },
+   {
+    "name": "Cyrene",
+    "kind": "place",
+    "gloss": "A city in North Africa, in modern Libya, with a large Jewish community."
+   },
+   {
+    "name": "Joseph",
+    "kind": "person",
+    "gloss": "Joseph of Arimathea, a council member who buried Jesus."
+   },
+   {
+    "name": "Arimathaea",
+    "kind": "place",
+    "gloss": "Joseph's hometown in Judea."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Innocent, again and again",
+    "body": "Pilate says three times he finds no basis for a charge (23:4, 23:14, 23:22); Herod finds nothing (23:15); the criminal says Jesus has done nothing wrong (23:41); the centurion calls him righteous (23:47). Luke stresses that an innocent man dies.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "Herod's turn",
+    "body": "Only Luke records Jesus sent to Herod Antipas, who had wanted to see a miracle (23:8). Jesus says nothing. Pilate and Herod, former enemies, become friends that day (23:12).",
+    "refs": [
+     "Luke 9:9",
+     "Acts 4:27"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Father, forgive them",
+    "body": "\"Father, forgive them, for they don't know what they are doing\" (23:34). These words are missing from some early manuscripts, but most scholars accept them as genuine tradition; Stephen echoes them as he dies.",
+    "refs": [
+     "Acts 7:60",
+     "Isaiah 53:12"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Paradise",
+    "body": "To the criminal who asks to be remembered, Jesus promises, today you will be with me in Paradise (23:43). Paradise is a Persian word for an enclosed garden, used in the Greek Old Testament for Eden.",
+    "refs": [
+     "Genesis 2:8",
+     "2 Corinthians 12:4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Into your hands",
+    "body": "Jesus' last words in Luke are from Psalm 31: \"Father, into your hands I commit my spirit\" (23:46), a psalm of trust that devout Jews prayed at evening. He dies trusting.",
+    "refs": [
+     "Psalms 31:5"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The curtain torn",
+    "body": "The temple curtain is torn in two (23:45). That curtain separated the holy place from the most holy place, entered once a year. Hebrews sees Jesus' death opening the way into God's presence.",
+    "refs": [
+     "Hebrews 10:19-20",
+     "Leviticus 16:2"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Remember me",
+    "body": "A dying criminal makes the simplest prayer, \"remember me,\" and receives everything (23:42-43). What does that say about what God asks of you?",
+    "refs": []
+   }
+  ]
+ },
+ "24": {
+  "summary": "Women find the tomb empty and are told he is risen; the risen Jesus walks unrecognized with two disciples to Emmaus, appears to the eleven, opens the Scriptures and ascends.",
+  "lookfor": "Notice when the two disciples recognize Jesus, and what he says the whole of Scripture was about.",
+  "names": [
+   {
+    "name": "Emmaus",
+    "kind": "place",
+    "gloss": "A village about eleven kilometers from Jerusalem; its exact site is uncertain."
+   },
+   {
+    "name": "Cleopas",
+    "kind": "person",
+    "gloss": "One of the two disciples walking to Emmaus."
+   },
+   {
+    "name": "Joanna",
+    "kind": "person",
+    "gloss": "One of the women who found the tomb empty."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Women as first witnesses",
+    "body": "The first to hear of the resurrection are women (24:1-10), whose testimony carried little legal weight then, and the apostles think it nonsense (24:11). Many scholars note that an invented story would hardly have chosen them.",
+    "refs": [
+     "Luke 8:2-3"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why seek the living among the dead?",
+    "body": "The angels ask why they look for the living among the dead (24:5) and remind them of Jesus' own words in Galilee. Everything that happened was what he had said.",
+    "refs": [
+     "Luke 9:22"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Known in the breaking of bread",
+    "body": "The two recognize Jesus when he takes bread, blesses, breaks and gives it (24:30-31), the same actions as the feeding of the five thousand and the Last Supper. Luke uses \"breaking of bread\" for early Christian gatherings in Acts.",
+    "refs": [
+     "Luke 9:16",
+     "Luke 22:19",
+     "Acts 2:42"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "All the Scriptures",
+    "body": "Jesus explains, beginning from Moses and all the prophets, the things about himself (24:27), and later the Law, the Prophets and the Psalms (24:44). The whole Old Testament points to him.",
+    "refs": [
+     "John 5:39"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Flesh and bones",
+    "body": "Jesus shows his hands and feet and eats broiled fish (24:39-43). Luke insists the risen Jesus is not a ghost but bodily, though changed.",
+    "refs": [
+     "1 Corinthians 15:42-44"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Blessing as he goes",
+    "body": "Jesus lifts his hands and blesses them as he is carried up (24:50-51), like Aaron's priestly blessing. The Gospel that began with a priest in the temple ends with the disciples praising God in the temple (24:53).",
+    "refs": [
+     "Leviticus 9:22",
+     "Acts 1:9"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Hearts burning",
+    "body": "The two say their hearts burned as he opened the Scriptures (24:32). When has a passage of Scripture made your heart burn like that?",
+    "refs": []
+   }
+  ]
+ },
+ "intro": {
+  "who": "Early church writers from the second century onward name Luke, the physician and travel companion of Paul, who also wrote Acts. Most scholars agree that one author wrote Luke and Acts; whether he was Paul's companion is debated, though many accept it.",
+  "when": "It covers the years from the births of John and Jesus to the resurrection. Many scholars date the writing to about AD 80–90; some argue for the early 60s, before the events where Acts ends.",
+  "why": "Luke writes an orderly account so that Theophilus may know the certainty of what he was taught (1:3-4), presenting Jesus as Savior for all people, with special care for the poor, women and outsiders.",
+  "outline": [
+   {
+    "chapters": "1–2",
+    "title": "Two births foretold"
+   },
+   {
+    "chapters": "3–4",
+    "title": "Baptism, testing, Nazareth"
+   },
+   {
+    "chapters": "5–9",
+    "title": "Ministry in Galilee"
+   },
+   {
+    "chapters": "10–19",
+    "title": "The road to Jerusalem"
+   },
+   {
+    "chapters": "20–21",
+    "title": "Teaching in the temple"
+   },
+   {
+    "chapters": "22–23",
+    "title": "Arrest and the cross"
+   },
+   {
+    "chapters": "24",
+    "title": "Risen and ascended"
+   }
+  ],
+  "verse": "Luke 19:10"
+ }
+}
