@@ -780,7 +780,7 @@ function backupHTML(){ // Settings and the first screen share it: Drive when it'
     ${AU?`<button class=go onclick=sync()>Sync now${icon('arrow')}</button>`:`<button class=go onclick=signIn()>${S?'Sign in with Google to sync':'Sign in with Google to restore'}${icon('arrow')}</button>`}
     ${S?`<button class="go ghost" onclick=saveBackup()>Save a backup file</button>`:''}
     <button class="go ghost" onclick=this.nextElementSibling.click()>Restore from a backup file</button><input type=file hidden accept=".txt,.json,text/plain,application/json" onchange=restoreFile(this)></div>
-    ${AU?`<p><button class=link-btn onclick=signOut()>Sign out</button></p>`:''}`;
+    ${AU?`<p class=kmeta><button class=link-btn onclick=signOut()>Sign out</button><button class=link-btn onclick=deleteAccount()>Delete my account</button></p>`:''}`;
 }
 function setDeadline(v){if(v){Object.assign(S,{deadline:v,start:today(),startDone:count()-todayN()});save()}}
 function undo(){const i=S.day.idx.pop();setRead(i,false);S.log[today()]--;save();render()} // only offered when something was read today
@@ -890,7 +890,14 @@ function signOut(){ // this phone forgets the session; the account and this phon
   const t=AU?.t;if(t)fetch(`${SB}/auth/v1/logout`,{method:'POST',headers:{apikey:SBK,Authorization:'Bearer '+t}}).catch(()=>{});
   AU=null;keepAU();SY={};keepSY();render();
 }
-const syncNote=()=>({bad:"The copy in your account couldn't be read, so Tolle left it alone.",expired:"You've been signed out. Sign in again to keep syncing.",signin:"Sign-in didn't finish. Try again.",offline:"Couldn't reach your account. Your progress is safe on this phone and syncs when you're back online."})[SY.err==='bad copy'?'bad':SY.err]
+async function deleteAccount(){ // the account and its copy are erased for good; this phone's own progress stays
+  if(!confirm('Delete your Tolle account? The copy of your plan, progress, kept verses, notes and highlights in it will be erased for good. What is on this phone stays.'))return;
+  const t=await token();if(!t)return synced('expired');
+  try{const r=await fetch(`${SB}/functions/v1/delete-account`,{method:'POST',headers:{apikey:SBK,Authorization:'Bearer '+t}});if(!r.ok)throw r.status;
+    AU=null;keepAU();SY={err:'deleted'};keepSY();render()}
+  catch{SY.err='delete';keepSY();render()}
+}
+const syncNote=()=>({deleted:'Your Tolle account was deleted.',delete:"Couldn't delete your account. Check your connection and try again.",bad:"The copy in your account couldn't be read, so Tolle left it alone.",expired:"You've been signed out. Sign in again to keep syncing.",signin:"Sign-in didn't finish. Try again.",offline:"Couldn't reach your account. Your progress is safe on this phone and syncs when you're back online."})[SY.err==='bad copy'?'bad':SY.err]
   ??(SY.at?`Synced ${new Date(SY.at).toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'})}.`:'Not synced yet.');
 addEventListener('visibilitychange',()=>{if(!document.hidden)sync()});
 
