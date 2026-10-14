@@ -53,7 +53,7 @@ Everything deferred so far, grouped by when it matters. Tick items off as they l
 - [ ] Notes in these languages (largest job; after the English notes are finished).
 
 ## Why & How notes
-- [x] Every book from Leviticus to Malachi, plus Matthew through Galatians (46 books, 1,007 of 1,189 chapters).
+- [x] Every book from Leviticus to Malachi, plus Matthew through Ephesians (47 books, 1,013 of 1,189 chapters).
 - [ ] Every other book. Instructions and the progress list are in `scripts/NOTES-PROMPT.md`; cloud credit expires 5 November 2026.
 - [ ] Use high effort for the hardest books: Job, Psalms, Isaiah, Romans, Hebrews, Revelation.
 
