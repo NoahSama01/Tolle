@@ -1,0 +1,1926 @@
+{
+ "1": {
+  "summary": "John introduces the revelation of Jesus Christ, greets the seven churches, and describes how on Patmos he saw the risen Christ standing among seven lampstands, glorious and terrifying, who told him not to fear and to write what he sees.",
+  "lookfor": "Notice how Christ is described, and how many Old Testament images are combined in the vision.",
+  "names": [
+   {
+    "name": "John",
+    "kind": "person",
+    "gloss": "The prophet who received the visions, exiled for his witness."
+   },
+   {
+    "name": "Asia",
+    "kind": "place",
+    "gloss": "The Roman province in western Asia Minor (modern Turkey)."
+   },
+   {
+    "name": "Patmos",
+    "kind": "place",
+    "gloss": "A small rocky island in the Aegean Sea, about 60 miles from Ephesus."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Revelation, not Revelations",
+    "body": "The book's first word is apokalypsis, an unveiling (1:1). It's one revelation, of Jesus Christ: about him and from him.",
+    "refs": [
+     "Galatians 1:12"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Apocalyptic writing",
+    "body": "Revelation uses a Jewish style full of symbols, numbers and visions, like parts of Daniel and Ezekiel. Its first readers understood its images as pictures of real powers, not as a coded timetable.",
+    "refs": [
+     "Daniel 7:1-14",
+     "Ezekiel 1:4-28"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A blessing for readers",
+    "body": "Blessed is he who reads and those who hear the words of this prophecy and keep them (1:3). It was meant to be read aloud in church and obeyed. It has seven such blessings.",
+    "refs": [
+     "Revelation 22:7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Coming with the clouds",
+    "body": "He is coming with the clouds, and every eye will see him, even those who pierced him (1:7), joining Daniel's Son of Man with Zechariah's pierced one.",
+    "refs": [
+     "Daniel 7:13",
+     "Zechariah 12:10"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Alpha and Omega",
+    "body": "I am the Alpha and the Omega (1:8), the first and last letters of the Greek alphabet. God is the beginning and end of everything, and later Jesus says the same of himself.",
+    "refs": [
+     "Isaiah 44:6",
+     "Revelation 22:13"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Exiled on Patmos",
+    "body": "John was on Patmos because of God's word and the testimony of Jesus (1:9). Rome banished troublesome people to small islands.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "One like a son of man",
+    "body": "Hair white as wool, eyes like fire, feet like bronze, voice like many waters, a sharp sword from his mouth (1:13-16). Daniel's Ancient of Days and his glorious angel are combined in the risen Jesus.",
+    "refs": [
+     "Daniel 7:9",
+     "Daniel 10:5-6",
+     "Ezekiel 43:2"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Don't be afraid",
+    "body": "John falls as though dead, but Jesus lays his right hand on him: don't be afraid; I am the first and the last, the living one; I was dead, and I am alive forever, and I have the keys of death and Hades (1:17-18).",
+    "refs": [
+     "Matthew 17:6-7"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Among the lampstands",
+    "body": "The lampstands are the churches, and Christ walks among them (1:20). How does it change things to know he is present in your church, flaws and all?",
+    "refs": []
+   }
+  ]
+ },
+ "2": {
+  "summary": "Christ sends messages to four churches: Ephesus, faithful but having left its first love; Smyrna, poor and persecuted but rich; Pergamum, faithful where Satan's throne is but tolerating false teaching; and Thyatira, growing in love but tolerating a false prophetess called Jezebel.",
+  "lookfor": "Notice the pattern of each message: a title of Christ, praise, rebuke, a call and a promise to the one who overcomes.",
+  "names": [
+   {
+    "name": "Ephesus",
+    "kind": "place",
+    "gloss": "The largest city of Asia, home of the temple of Artemis."
+   },
+   {
+    "name": "Nicolaitans",
+    "kind": "group",
+    "gloss": "A group whose teaching or practice Christ hates, probably compromise with pagan worship."
+   },
+   {
+    "name": "Smyrna",
+    "kind": "place",
+    "gloss": "A wealthy port city, a center of emperor worship."
+   },
+   {
+    "name": "Pergamum",
+    "kind": "place",
+    "gloss": "The former capital of Asia, with a great altar of Zeus and an imperial temple."
+   },
+   {
+    "name": "Antipas",
+    "kind": "person",
+    "gloss": "A faithful witness killed in Pergamum."
+   },
+   {
+    "name": "Thyatira",
+    "kind": "place",
+    "gloss": "A town known for its trade guilds."
+   },
+   {
+    "name": "Jezebel",
+    "kind": "person",
+    "gloss": "A nickname for a false prophetess, after Ahab's queen."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Your first love",
+    "body": "Ephesus works hard, endures and tests false apostles, but has left its first love (2:4). Correct teaching without love isn't enough.",
+    "refs": [
+     "1 Corinthians 13:2",
+     "Jeremiah 2:2"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Smyrna's crown",
+    "body": "Be faithful to death, and I will give you the crown of life (2:10). Smyrna was famous for its hilltop buildings called the crown of Smyrna, and its games awarded wreaths.",
+    "refs": [
+     "James 1:12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Poor but rich",
+    "body": "I know your affliction and your poverty, but you are rich (2:9). Smyrna and Philadelphia are the only churches that receive no rebuke.",
+    "refs": [
+     "2 Corinthians 6:10"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Where Satan's throne is",
+    "body": "Pergamum is where Satan's throne is (2:13), perhaps its huge altar to Zeus or its leading role in emperor worship.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Balaam and Jezebel",
+    "body": "Some hold the teaching of Balaam, who taught Balak to entice Israel to eat idol sacrifices and commit immorality (2:14), and Thyatira tolerates a Jezebel (2:20). Both Old Testament figures led God's people into compromise.",
+    "refs": [
+     "Numbers 31:16",
+     "1 Kings 16:31"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Trade guilds",
+    "body": "In cities like Thyatira, guilds of potters, dyers and smiths held feasts honoring patron gods. Refusing to attend could mean losing your livelihood; the pressure to compromise was economic.",
+    "refs": [
+     "Acts 16:14"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A white stone",
+    "body": "To the overcomer: hidden manna and a white stone with a new name written on it (2:17). White stones served as tickets to feasts or votes of acquittal; this one admits to the Lamb's banquet.",
+    "refs": [
+     "Exodus 16:33",
+     "Isaiah 62:2"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "To the one who overcomes",
+    "body": "Each message ends with a promise to the one who overcomes, and the promises are fulfilled in the new creation of chapters 21 and 22: the tree of life, the crown of life, the morning star.",
+    "refs": [
+     "Revelation 21:7",
+     "Revelation 22:2"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "First love",
+    "body": "Christ tells Ephesus to remember, repent and do the first works. What did your love for Christ look like when it was fresh?",
+    "refs": []
+   }
+  ]
+ },
+ "3": {
+  "summary": "Christ addresses Sardis, which has a reputation for being alive but is dead; Philadelphia, weak but faithful, before whom he sets an open door; and Laodicea, lukewarm and self-satisfied, whom he counsels to buy true riches and invites to open the door to him.",
+  "lookfor": "Notice how each message plays on local details, and the famous invitation at the end.",
+  "names": [
+   {
+    "name": "Sardis",
+    "kind": "place",
+    "gloss": "A once-great capital, twice captured because its guards were careless."
+   },
+   {
+    "name": "Philadelphia",
+    "kind": "place",
+    "gloss": "A small city often shaken by earthquakes."
+   },
+   {
+    "name": "David",
+    "kind": "person",
+    "gloss": "Israel's king; the key of David means royal authority."
+   },
+   {
+    "name": "Laodicea",
+    "kind": "place",
+    "gloss": "A wealthy banking, textile and medical center."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Wake up, Sardis",
+    "body": "Wake up! If you won't watch, I will come like a thief (3:2-3). Sardis's acropolis had twice fallen to surprise attack because no one was watching.",
+    "refs": [
+     "Matthew 24:42-43"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The key of David",
+    "body": "He who has the key of David, who opens and no one can shut (3:7), from Isaiah, where the key gave authority over the royal household.",
+    "refs": [
+     "Isaiah 22:22"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A pillar in the temple",
+    "body": "The overcomer will be a pillar in God's temple and will never go out (3:12). Philadelphia's people often fled the city during aftershocks; God's pillar will never have to leave.",
+    "refs": [
+     "Galatians 2:9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Lukewarm",
+    "body": "Because you are lukewarm, neither cold nor hot, I will spit you out (3:16). Laodicea piped water from hot springs that arrived tepid and full of minerals, good for nothing. Hot water heals; cold water refreshes; lukewarm does neither.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Gold, clothes and eye salve",
+    "body": "You say you're rich, but you're poor, blind and naked. Buy gold refined by fire, white clothes, and eye salve (3:17-18). Laodicea boasted of its banks, black wool and a famous eye ointment.",
+    "refs": [
+     "Hosea 12:8"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "I stand at the door",
+    "body": "Behold, I stand at the door and knock; if anyone hears my voice and opens the door, I will come in and eat with him (3:20). Said to a church, not just individuals: Christ outside his own church, asking to be let in.",
+    "refs": [
+     "Song of Solomon 5:2",
+     "Luke 12:36-37"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The Amen",
+    "body": "Christ calls himself the Amen, the faithful and true witness (3:14). Amen means firm, reliable: the one in whom God's promises are yes.",
+    "refs": [
+     "2 Corinthians 1:20",
+     "Isaiah 65:16"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Self-sufficient",
+    "body": "Laodicea thought it needed nothing. Where does comfort make you feel you don't need Christ?",
+    "refs": []
+   }
+  ]
+ },
+ "4": {
+  "summary": "John is taken up through an open door into heaven and sees God on his throne, surrounded by a rainbow, twenty-four elders, seven torches and four living creatures who never stop singing Holy, holy, holy, while the elders cast their crowns before him.",
+  "lookfor": "Notice that this vision of the throne comes before any judgments, and what all of heaven is doing.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "bigpicture",
+    "title": "The throne first",
+    "body": "Before the chaos of seals and trumpets, John sees the throne (4:2). Whatever happens on earth, God is still seated and in control. Throne appears fourteen times in this chapter.",
+    "refs": [
+     "Psalms 103:19",
+     "Isaiah 6:1"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "A rainbow round the throne",
+    "body": "A rainbow encircles the throne (4:3), like Ezekiel's vision, and recalling God's covenant promise to Noah. Mercy surrounds his power.",
+    "refs": [
+     "Ezekiel 1:28",
+     "Genesis 9:13"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Twenty-four elders",
+    "body": "Twenty-four elders sit on thrones in white with golden crowns (4:4). Many see the twelve tribes and twelve apostles: God's whole people from both covenants.",
+    "refs": [
+     "Revelation 21:12-14"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Four living creatures",
+    "body": "Four living creatures like a lion, an ox, a man and an eagle, full of eyes, with six wings, sing Holy, holy, holy (4:6-8). They combine Ezekiel's cherubim and Isaiah's seraphim.",
+    "refs": [
+     "Ezekiel 1:5-10",
+     "Isaiah 6:2-3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Casting crowns",
+    "body": "The elders cast their crowns before the throne (4:10). Conquered kings laid crowns before an emperor; whatever honor God's people have, they give back to him.",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "Worthy because Creator",
+    "body": "You are worthy, our Lord and God, to receive glory, for you created all things (4:11). Domitian liked to be called our Lord and God; Revelation gives that title to the true God.",
+    "refs": [
+     "Nehemiah 9:6"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Worship first",
+    "body": "John sees worship before he sees any trouble. How would seeing God's throne first change the way you face this week's problems?",
+    "refs": []
+   }
+  ]
+ },
+ "5": {
+  "summary": "God holds a scroll sealed with seven seals; no one is worthy to open it until John is told the Lion of Judah has conquered, and he sees a Lamb standing as though slain, who takes the scroll; heaven and all creation break into new songs of praise.",
+  "lookfor": "Notice what John hears, and then what he sees when he turns to look.",
+  "names": [
+   {
+    "name": "Judah",
+    "kind": "group",
+    "gloss": "The royal tribe of Israel, from which the Messiah came."
+   },
+   {
+    "name": "David",
+    "kind": "person",
+    "gloss": "Israel's king; the Root of David means the Messiah from his line."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "A sealed scroll",
+    "body": "A scroll written inside and on the back, sealed with seven seals (5:1). Roman wills were sealed by seven witnesses. The scroll holds God's plan for history, which no one can open.",
+    "refs": [
+     "Ezekiel 2:9-10",
+     "Daniel 12:4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "John weeps",
+    "body": "John weeps much because no one is worthy to open the scroll (5:4). If no one can, God's purposes would remain sealed.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "Lion and Lamb",
+    "body": "John hears of the Lion of the tribe of Judah, then turns and sees a Lamb standing, as though it had been slain (5:5-6). The conquering Lion is the sacrificed Lamb: Jesus wins by dying.",
+    "refs": [
+     "Genesis 49:9-10",
+     "Isaiah 53:7",
+     "John 1:29"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Seven horns and seven eyes",
+    "body": "The Lamb has seven horns and seven eyes, the seven Spirits of God sent into all the earth (5:6). Horns symbolize power, eyes knowledge; seven means complete.",
+    "refs": [
+     "Zechariah 4:10"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Every tribe and tongue",
+    "body": "You were slain and bought us for God with your blood out of every tribe, language, people and nation (5:9). The church is multinational from the start.",
+    "refs": [
+     "Revelation 7:9",
+     "Genesis 12:3"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Golden bowls of incense",
+    "body": "The elders hold golden bowls full of incense, which are the prayers of the saints (5:8). The prayers of believers on earth rise to the throne and matter in God's plan.",
+    "refs": [
+     "Psalms 141:2",
+     "Revelation 8:3-4"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Every creature",
+    "body": "The song spreads from the living creatures and elders, to myriads of angels, to every creature in heaven, on earth, under the earth and in the sea (5:11-13). Worship ripples out to the whole universe.",
+    "refs": [
+     "Philippians 2:10-11"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Strength in weakness",
+    "body": "God's victory came through a slain Lamb, not a roaring lion. Where might God be working through weakness in your life?",
+    "refs": []
+   }
+  ]
+ },
+ "6": {
+  "summary": "The Lamb opens six seals: four horsemen bring conquest, war, famine and death; martyrs under the altar cry out how long; and a great earthquake and cosmic upheaval send people of every rank fleeing from the wrath of the Lamb.",
+  "lookfor": "Notice who controls the opening of the seals, and the question the martyrs ask.",
+  "names": [
+   {
+    "name": "Hades",
+    "kind": "place",
+    "gloss": "The realm of the dead, following the rider called Death."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Four horsemen",
+    "body": "White, red, black and pale horses bring conquest, bloodshed, famine and death (6:1-8). Zechariah saw colored horses patrolling the earth, and Jesus spoke of wars, famines and earthquakes as the beginning of birth pains.",
+    "refs": [
+     "Zechariah 1:8",
+     "Zechariah 6:1-8",
+     "Mark 13:7-8"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A day's wages for wheat",
+    "body": "A choenix of wheat for a denarius (6:6): a day's wages for a day's bread, famine prices. But don't harm the oil and wine, luxuries that still flowed for the wealthy.",
+    "refs": [
+     "Matthew 20:2"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Who holds the scroll",
+    "body": "Each horseman comes only when the Lamb opens a seal, and each is given limited power (6:4, 6:8). Evil is real but not out of control.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "How long?",
+    "body": "Souls of martyrs under the altar cry, how long, O Lord, before you judge and avenge our blood? (6:10). They are given white robes and told to rest a little longer.",
+    "refs": [
+     "Psalms 79:5-10",
+     "Zechariah 1:12"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The sky rolled up",
+    "body": "The sun turns black, the moon like blood, stars fall, the sky rolls up like a scroll (6:12-14), language from Isaiah and Joel for God's judgment day.",
+    "refs": [
+     "Isaiah 34:4",
+     "Joel 2:31"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The wrath of the Lamb",
+    "body": "Kings, generals, the rich and slaves hide in caves, calling the mountains to fall on them and hide them from the wrath of the Lamb (6:16). The gentle Lamb is also the judge; no rank escapes.",
+    "refs": [
+     "Hosea 10:8",
+     "Luke 23:30"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Who can stand?",
+    "body": "The great day of their wrath has come, and who is able to stand? (6:17). The question hangs in the air; chapter 7 answers it.",
+    "refs": [
+     "Malachi 3:2",
+     "Nahum 1:6"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "How long?",
+    "body": "The martyrs ask the question many sufferers ask. What how long prayer would you bring to God, trusting his timing?",
+    "refs": []
+   }
+  ]
+ },
+ "7": {
+  "summary": "Before further judgment, an angel seals 144,000 servants of God from the twelve tribes of Israel; then John sees a countless multitude from every nation, clothed in white, praising God and the Lamb, who have come out of the great tribulation and whom the Lamb will shepherd.",
+  "lookfor": "Notice what John hears (a number) and what he sees (a countless crowd), and the comfort at the end.",
+  "names": [
+   {
+    "name": "Israel",
+    "kind": "group",
+    "gloss": "God's covenant people, here counted by tribes."
+   },
+   {
+    "name": "Judah",
+    "kind": "group",
+    "gloss": "The first tribe listed, the tribe of the Messiah."
+   },
+   {
+    "name": "Levi",
+    "kind": "group",
+    "gloss": "The priestly tribe, here counted among the twelve."
+   },
+   {
+    "name": "Joseph",
+    "kind": "group",
+    "gloss": "Listed as a tribe in place of Ephraim."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Sealed on the forehead",
+    "body": "God's servants are sealed on their foreheads before harm comes (7:3), as Ezekiel saw a mark put on those who grieved over Jerusalem's sins before judgment fell.",
+    "refs": [
+     "Ezekiel 9:4",
+     "Exodus 12:13"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "An unusual tribe list",
+    "body": "The list starts with Judah, not Reuben, and leaves out Dan and Ephraim (7:5-8). Putting Judah first highlights the Messiah's tribe; why Dan is missing is debated, perhaps because of its idolatry.",
+    "refs": [
+     "Judges 18:30"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "144,000",
+    "body": "144,000 is 12 times 12 times 1,000: completeness multiplied. Many read it as the whole people of God pictured as an army, not a literal headcount.",
+    "refs": [
+     "Numbers 1:2-3"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Heard and seen",
+    "body": "John hears a number (7:4), then sees a great multitude no one could count, from every nation (7:9). As with the Lion and the Lamb, what he hears is reinterpreted by what he sees: the same people, viewed two ways.",
+    "refs": [
+     "Revelation 5:5-6",
+     "Genesis 15:5"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Palm branches",
+    "body": "The crowd holds palm branches (7:9), used at the Feast of Tabernacles and when crowds welcomed Jesus into Jerusalem. It is a victory celebration.",
+    "refs": [
+     "Leviticus 23:40",
+     "John 12:13"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Washed white in blood",
+    "body": "They washed their robes and made them white in the Lamb's blood (7:14). A paradox: blood whitens, because the Lamb's sacrifice cleanses.",
+    "refs": [
+     "Isaiah 1:18",
+     "1 John 1:7"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Every tear wiped away",
+    "body": "They will hunger no more, nor thirst; the Lamb will be their shepherd and guide them to springs of living water, and God will wipe away every tear (7:16-17), from Isaiah and Psalm 23.",
+    "refs": [
+     "Isaiah 49:10",
+     "Isaiah 25:8",
+     "Psalms 23:1-2"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Who can stand",
+    "body": "The answer to who can stand is this washed, countless crowd. How does it feel to know you belong to that multitude?",
+    "refs": []
+   }
+  ]
+ },
+ "8": {
+  "summary": "The seventh seal brings silence in heaven for half an hour; the saints' prayers rise with incense and fire is thrown to earth; four angels blow trumpets, striking a third of the land, sea, rivers and lights, and an eagle cries woe for the three trumpets still to come.",
+  "lookfor": "Notice the silence, the link between prayer and judgment, and the repeated fraction of a third.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Silence in heaven",
+    "body": "When the Lamb opens the seventh seal, there is silence in heaven for about half an hour (8:1). After all the songs, a hush, the awe before God acts.",
+    "refs": [
+     "Habakkuk 2:20",
+     "Zephaniah 1:7"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Prayers and fire",
+    "body": "An angel offers incense with the prayers of all the saints, then fills the censer with fire from the altar and throws it to the earth (8:3-5). The martyrs' cry how long is being answered.",
+    "refs": [
+     "Revelation 6:10",
+     "Ezekiel 10:2"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Echoes of Egypt",
+    "body": "Hail and fire mixed with blood, water turned to blood, darkness (8:7-12): the trumpets echo the plagues of Egypt. God judges oppressors to free his people again.",
+    "refs": [
+     "Exodus 9:23-24",
+     "Exodus 7:20",
+     "Exodus 10:21-22"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "A third",
+    "body": "Each trumpet strikes a third of the earth, trees, sea, ships, rivers and lights (8:7-12). The judgments are severe but partial, warnings meant to lead to repentance.",
+    "refs": [
+     "Revelation 9:20-21"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Wormwood",
+    "body": "A star called Wormwood makes a third of the waters bitter (8:11). Jeremiah used wormwood as a picture of the bitterness God gives to idolaters.",
+    "refs": [
+     "Jeremiah 9:15",
+     "Jeremiah 23:15"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Woe, woe, woe",
+    "body": "An eagle flying in mid-heaven cries woe three times for the remaining trumpets (8:13). The intensity is building.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Silence before God",
+    "body": "Heaven fell silent before God acted. When did you last spend time in silence before him?",
+    "refs": []
+   }
+  ]
+ },
+ "9": {
+  "summary": "The fifth trumpet opens the abyss, releasing locusts that torment for five months those without God's seal, led by the angel called Abaddon or Apollyon; the sixth releases four angels at the Euphrates and a vast cavalry that kills a third of humanity, yet the survivors still don't repent of idols and wickedness.",
+  "lookfor": "Notice who is protected, and the sad ending of the chapter.",
+  "names": [
+   {
+    "name": "Abaddon",
+    "kind": "person",
+    "gloss": "Hebrew for destruction, the name of the angel of the abyss."
+   },
+   {
+    "name": "Apollyon",
+    "kind": "person",
+    "gloss": "Greek for destroyer, the same angel's name."
+   },
+   {
+    "name": "Euphrates",
+    "kind": "place",
+    "gloss": "The great river, the eastern frontier of the Roman world."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Locusts",
+    "body": "Locusts with faces like men, hair like women, teeth like lions, and breastplates of iron (9:7-9). Joel described an invading locust army as God's judgment.",
+    "refs": [
+     "Joel 1:4-6",
+     "Joel 2:4-5",
+     "Exodus 10:12-15"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Only those without the seal",
+    "body": "The locusts may harm only people who don't have God's seal on their foreheads (9:4). God's people are protected from this judgment.",
+    "refs": [
+     "Revelation 7:3"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Abaddon and Apollyon",
+    "body": "The king of the locusts is named Abaddon in Hebrew and Apollyon in Greek (9:11), both meaning destroyer. Some note that the emperor Domitian liked to be associated with the god Apollo.",
+    "refs": [
+     "Job 26:6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Beyond the Euphrates",
+    "body": "Four angels bound at the great river Euphrates are released, with an army of two hundred million horsemen (9:14-16). Rome feared the Parthian cavalry beyond the Euphrates, its eastern frontier.",
+    "refs": [
+     "Genesis 15:18"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "They didn't repent",
+    "body": "The rest didn't repent of worshiping demons and idols of gold, silver and stone, nor of murders, sorceries, immorality and thefts (9:20-21). Judgment alone doesn't change hearts.",
+    "refs": [
+     "Psalms 115:4-7",
+     "Romans 2:4-5"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Limits",
+    "body": "The locusts may torment but not kill, and only for five months (9:5); the angels are prepared for the hour, day, month and year (9:15). Even destruction runs on God's schedule.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Hardened hearts",
+    "body": "People suffered terribly and still refused to turn to God. What would it take for you to change something you know God wants changed?",
+    "refs": []
+   }
+  ]
+ },
+ "10": {
+  "summary": "A mighty angel stands on sea and land with a little scroll, swears there will be no more delay, and tells John to eat the scroll, sweet in his mouth but bitter in his stomach, because he must prophesy again about many peoples and kings.",
+  "lookfor": "Notice the pause before the seventh trumpet, and the sweet and bitter scroll.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "A pause",
+    "body": "As between the sixth and seventh seals, there is an interlude between the sixth and seventh trumpets (10:1 to 11:14). Before the end, John is recommissioned.",
+    "refs": [
+     "Revelation 7:1-17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Seal up what the thunders said",
+    "body": "Seven thunders speak, but John is told not to write it (10:4). Some things remain undisclosed; Revelation doesn't answer every question.",
+    "refs": [
+     "Daniel 12:9",
+     "Deuteronomy 29:29"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "No more delay",
+    "body": "The angel raises his hand to heaven and swears there will be no more delay (10:6), like the angel in Daniel who swore by him who lives forever.",
+    "refs": [
+     "Daniel 12:7"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The mystery of God",
+    "body": "In the days of the seventh trumpet, the mystery of God will be finished, as he announced to his servants the prophets (10:7). Mystery means God's plan, now to be completed.",
+    "refs": [
+     "Amos 3:7",
+     "Ephesians 3:3-6"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Eat the scroll",
+    "body": "John eats the little scroll, sweet as honey in his mouth but bitter in his stomach (10:9-10), as Ezekiel did. God's word is sweet to receive but can be bitter to carry, especially messages of judgment.",
+    "refs": [
+     "Ezekiel 3:1-3",
+     "Jeremiah 15:16"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Prophesy again",
+    "body": "You must prophesy again about many peoples, nations, languages and kings (10:11). John's message is for the whole world.",
+    "refs": []
+   },
+   {
+    "kind": "why",
+    "title": "On sea and land",
+    "body": "The angel plants one foot on the sea and one on the land (10:2), claiming all of creation for God, the same realms the beasts of chapter 13 will rise from.",
+    "refs": [
+     "Revelation 13:1",
+     "Revelation 13:11"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Sweet and bitter",
+    "body": "John found God's word both sweet and hard to digest. What part of Scripture is sweet to you, and what part is hard?",
+    "refs": []
+   }
+  ]
+ },
+ "11": {
+  "summary": "John measures God's temple while the outer court is trampled for forty-two months; two witnesses prophesy with power, are killed by the beast and left in the street, then raised and taken to heaven; the seventh trumpet sounds, and loud voices declare that the kingdom of the world has become the kingdom of our Lord and his Christ.",
+  "lookfor": "Notice the parallels between the witnesses and Jesus, Moses and Elijah, and the great announcement at the end.",
+  "names": [
+   {
+    "name": "Sodom",
+    "kind": "place",
+    "gloss": "A symbolic name for the great city that kills God's witnesses."
+   },
+   {
+    "name": "Egypt",
+    "kind": "place",
+    "gloss": "Another symbolic name for the same city of oppression."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Measuring the temple",
+    "body": "John is told to measure the temple and those who worship there (11:1), as in Ezekiel and Zechariah, marking what God protects.",
+    "refs": [
+     "Ezekiel 40:3",
+     "Zechariah 2:1-5"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "42 months",
+    "body": "The holy city is trampled for 42 months (11:2), the same as 1,260 days (11:3) and a time, times and half a time (12:14): three and a half years, a limited period of trouble, from Daniel.",
+    "refs": [
+     "Daniel 7:25",
+     "Daniel 12:7"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Two witnesses",
+    "body": "They are the two olive trees and two lampstands (11:4), from Zechariah; they shut the sky like Elijah and turn water to blood like Moses (11:6). Many see them as picturing the church's prophetic witness.",
+    "refs": [
+     "Zechariah 4:3",
+     "Zechariah 4:14",
+     "1 Kings 17:1",
+     "Exodus 7:19"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Where their Lord was crucified",
+    "body": "Their bodies lie in the street of the great city, spiritually called Sodom and Egypt, where also their Lord was crucified (11:8). Not a single city on a map, but every place that rejects God, Jerusalem and Rome alike.",
+    "refs": [
+     "Isaiah 1:10"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Like their Lord",
+    "body": "After three and a half days they are raised and taken up in a cloud while their enemies watch (11:11-12). The witnesses share Jesus' death, resurrection and ascension.",
+    "refs": [
+     "Acts 1:9",
+     "Ezekiel 37:10"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The kingdom of the world",
+    "body": "The kingdom of the world has become the kingdom of our Lord and of his Christ, and he will reign forever and ever (11:15). Handel used these words in the Hallelujah Chorus.",
+    "refs": [
+     "Daniel 2:44",
+     "Psalms 2:2",
+     "Daniel 7:14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The ark seen",
+    "body": "God's temple in heaven is opened and the ark of his covenant is seen (11:19). The ark, lost since Babylon's invasion, appears in heaven: God's covenant presence never vanished.",
+    "refs": [
+     "Jeremiah 3:16",
+     "Hebrews 9:4"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Faithful witness",
+    "body": "The witnesses kept testifying until their work was finished. What does faithful witness look like in your daily life?",
+    "refs": []
+   }
+  ]
+ },
+ "12": {
+  "summary": "A sign appears in heaven: a woman clothed with the sun gives birth to a son who will rule the nations, and a great red dragon tries to devour him; the child is caught up to God, Michael's angels throw the dragon out of heaven, and the dragon, enraged, pursues the woman and makes war on her offspring.",
+  "lookfor": "Notice the cosmic retelling of Christ's birth, and how the believers overcome.",
+  "names": [
+   {
+    "name": "Michael",
+    "kind": "person",
+    "gloss": "The archangel who leads heaven's armies."
+   },
+   {
+    "name": "Satan",
+    "kind": "person",
+    "gloss": "The great dragon, the old serpent, the devil and accuser."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "The woman",
+    "body": "A woman clothed with the sun, the moon under her feet, and a crown of twelve stars (12:1). Joseph's dream used sun, moon and stars for Israel. She stands for God's people, from whom the Messiah comes; many also see Mary.",
+    "refs": [
+     "Genesis 37:9",
+     "Isaiah 66:7-8"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The old serpent",
+    "body": "The dragon is called that old serpent, the devil and Satan (12:9). Genesis promised enmity between the serpent and the woman's offspring; here that war comes to a head.",
+    "refs": [
+     "Genesis 3:15"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Rule with an iron rod",
+    "body": "She bears a son who will rule all nations with a rod of iron (12:5), from Psalm 2. The child is caught up to God's throne: Jesus' whole earthly life, from birth to ascension, in one verse.",
+    "refs": [
+     "Psalms 2:9"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A familiar myth",
+    "body": "Ancient myths told of a goddess pursued by a dragon while giving birth to a divine son; one version was used to glorify emperors. Revelation retells the story with Christ as the true son and the emperor's power on the dragon's side.",
+    "refs": []
+   },
+   {
+    "kind": "word",
+    "title": "The accuser",
+    "body": "The accuser of our brothers, who accuses them before God day and night, has been thrown down (12:10). Satan means adversary or accuser, as in Job.",
+    "refs": [
+     "Job 1:6-11",
+     "Zechariah 3:1"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "How they overcame",
+    "body": "They overcame him by the blood of the Lamb and the word of their testimony, and they didn't love their lives to the death (12:11). Victory comes through the cross and faithful witness, not force.",
+    "refs": [
+     "Romans 8:33-34"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why so angry",
+    "body": "The devil has come down in great wrath, knowing his time is short (12:12). The rage believers face is the fury of a defeated enemy.",
+    "refs": [
+     "John 12:31",
+     "Colossians 2:15"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The word of your testimony",
+    "body": "Believers overcome by Christ's blood and their own testimony. What is your testimony of what Christ has done?",
+    "refs": []
+   }
+  ]
+ },
+ "13": {
+  "summary": "The dragon gives power to a beast from the sea, which blasphemes, makes war on the saints and is worshiped by the world; a second beast from the land performs signs, makes people worship the first beast, and forces everyone to bear its mark to buy or sell; its number is 666.",
+  "lookfor": "Notice how the beast imitates the Lamb, and the call for wisdom and endurance.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "A beast from the sea",
+    "body": "The beast has features of a leopard, bear and lion, with ten horns and seven heads (13:1-2), combining Daniel's four beasts, the empires that oppressed God's people.",
+    "refs": [
+     "Daniel 7:2-8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "A counterfeit lamb",
+    "body": "One head seems mortally wounded but healed (13:3), mimicking the slain and risen Lamb. Evil imitates Christ to win worship.",
+    "refs": [
+     "Revelation 5:6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Who is like the beast?",
+    "body": "The world worships, saying, who is like the beast, and who can make war with him? (13:4). Rome seemed invincible, and emperor worship was civic duty. The cry parodies Israel's song, who is like you, O Lord?",
+    "refs": [
+     "Exodus 15:11"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The land beast",
+    "body": "A second beast, with horns like a lamb but speaking like a dragon (13:11), promotes worship of the first. In Asia, local elites and priests of the imperial cult enforced emperor worship.",
+    "refs": [
+     "Matthew 7:15"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Buying and selling",
+    "body": "No one can buy or sell without the mark (13:17). In Asia's cities, trade guilds and markets were tied to honoring the emperor and patron gods; refusing could cut you off economically.",
+    "refs": [
+     "Revelation 2:20"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "666",
+    "body": "Its number is the number of a man: 666 (13:18). In Hebrew letters, Nero Caesar adds up to 666, and some manuscripts read 616, which matches the Latin spelling. Many think John meant Nero, a type of every tyrant.",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Endurance and faith",
+    "body": "Here is the endurance and faith of the saints (13:10). The point isn't to calculate the beast's identity but to stay faithful when worship of power is demanded.",
+    "refs": [
+     "Revelation 14:12"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "What's demanded",
+    "body": "The beast demanded loyalty in exchange for the right to trade. Where does pressure to compromise show up in your work or daily life?",
+    "refs": []
+   }
+  ]
+ },
+ "14": {
+  "summary": "The Lamb stands on Mount Zion with the 144,000 who follow him wherever he goes; three angels proclaim the eternal gospel, the fall of Babylon and judgment on beast-worshipers; a voice blesses those who die in the Lord, and the earth is harvested with sickles.",
+  "lookfor": "Notice the contrast with chapter 13, and the blessing in verse 13.",
+  "names": [
+   {
+    "name": "Zion",
+    "kind": "place",
+    "gloss": "The mountain of God's city, where the Lamb stands."
+   },
+   {
+    "name": "Babylon",
+    "kind": "place",
+    "gloss": "The great city, a symbol for Rome and every proud empire."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "detail",
+    "title": "Two marks",
+    "body": "The 144,000 have the Lamb's name and his Father's name on their foreheads (14:1). Everyone bears a mark; the question is whose.",
+    "refs": [
+     "Revelation 13:16",
+     "Revelation 22:4"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Mount Zion",
+    "body": "The Lamb stands on Mount Zion (14:1), where Psalm 2 says God installed his King. The beast rose from the chaotic sea; the Lamb stands on God's mountain.",
+    "refs": [
+     "Psalms 2:6",
+     "Hebrews 12:22"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The eternal gospel",
+    "body": "An angel proclaims an eternal gospel to every nation: fear God, give him glory, worship the Creator (14:6-7). Even in judgment, God's call to turn goes out.",
+    "refs": [
+     "Matthew 24:14"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Babylon is fallen",
+    "body": "Fallen, fallen is Babylon the great (14:8), from Isaiah. After AD 70, Jews and Christians used Babylon as a name for Rome, which like Babylon had destroyed Jerusalem's temple.",
+    "refs": [
+     "Isaiah 21:9",
+     "1 Peter 5:13"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Blessed are the dead",
+    "body": "Blessed are the dead who die in the Lord from now on; they rest from their labors, for their works follow them (14:13). Comfort for a church facing martyrdom.",
+    "refs": [
+     "Hebrews 4:9-10"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Harvest",
+    "body": "One like a son of man reaps the earth with a sickle, and the grapes are thrown into the winepress of God's wrath (14:14-20), images from Joel and Isaiah.",
+    "refs": [
+     "Joel 3:13",
+     "Isaiah 63:1-6"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "They follow the Lamb",
+    "body": "These follow the Lamb wherever he goes; no lie was found in their mouths (14:4-5). Following the Lamb, even into suffering, defines them.",
+    "refs": [
+     "John 10:27",
+     "Zephaniah 3:13"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Your works follow you",
+    "body": "Those who die in the Lord rest, and their works follow them. What work are you doing now that will last?",
+    "refs": []
+   }
+  ]
+ },
+ "15": {
+  "summary": "John sees seven angels with the last seven plagues and the victors over the beast standing by a sea of glass mixed with fire, singing the song of Moses and the Lamb; then the heavenly temple opens and the angels receive seven golden bowls full of God's wrath.",
+  "lookfor": "Notice the echo of Israel at the Red Sea, and the content of the song.",
+  "names": [
+   {
+    "name": "Moses",
+    "kind": "person",
+    "gloss": "Who led Israel's song after crossing the sea."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Beside the sea",
+    "body": "The victors stand beside a sea of glass mixed with fire, holding harps (15:2), like Israel on the shore after crossing the Red Sea.",
+    "refs": [
+     "Exodus 14:29-31",
+     "Revelation 4:6"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "The song of Moses and the Lamb",
+    "body": "They sing the song of Moses and the song of the Lamb (15:3). The exodus and the cross are one story of rescue.",
+    "refs": [
+     "Exodus 15:1-18",
+     "Deuteronomy 32:4"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "All nations will come",
+    "body": "Who won't fear you, Lord, and glorify your name? All the nations will come and worship before you (15:4). Even amid judgment, the song looks to the nations turning to God.",
+    "refs": [
+     "Psalms 86:9",
+     "Jeremiah 10:7"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Just and true",
+    "body": "Just and true are your ways, King of the nations (15:3). God's judgments aren't arbitrary rage; they are right.",
+    "refs": [
+     "Psalms 145:17",
+     "Revelation 16:7"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Smoke fills the temple",
+    "body": "The temple fills with smoke from God's glory, and no one can enter until the plagues are finished (15:8), as at the dedication of the tabernacle and Solomon's temple.",
+    "refs": [
+     "Exodus 40:34-35",
+     "1 Kings 8:10-11",
+     "Isaiah 6:4"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "The last plagues",
+    "body": "These are the last plagues, for with them God's wrath is finished (15:1). Judgment has an end; it's not forever escalating.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Singing after rescue",
+    "body": "The rescued sing about God, not about themselves. What has God rescued you from that you could thank him for in song?",
+    "refs": []
+   }
+  ]
+ },
+ "16": {
+  "summary": "Seven angels pour out the bowls of God's wrath on the earth, sea, rivers, sun, the beast's throne and the Euphrates; demonic spirits gather the kings of the world for battle at the place called Megiddo, better known as Armageddon; the seventh bowl brings a great earthquake that splits the great city, while people still curse God.",
+  "lookfor": "Notice how the bowls mirror the trumpets but are now total, and the warning dropped into verse 15.",
+  "names": [
+   {
+    "name": "Euphrates",
+    "kind": "place",
+    "gloss": "The great river, dried up to make way for kings from the east."
+   },
+   {
+    "name": "Babylon",
+    "kind": "place",
+    "gloss": "The great city, symbol of proud human power."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Plagues again",
+    "body": "Sores, water turned to blood, darkness, frogs (16:2-13): the bowls echo the Egyptian plagues more fully than the trumpets did. What was partial before is now complete.",
+    "refs": [
+     "Exodus 9:10-11",
+     "Exodus 8:6",
+     "Revelation 8:7-12"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "You are righteous",
+    "body": "The angel of the waters says, you are righteous, for they poured out the blood of saints and prophets, and you have given them blood to drink (16:5-6). Judgment fits the crime.",
+    "refs": [
+     "Psalms 119:137"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "They didn't repent",
+    "body": "Scorched by the sun, people blasphemed God and didn't repent to give him glory (16:9, 16:11). Suffering doesn't automatically soften hearts.",
+    "refs": [
+     "Revelation 9:20-21",
+     "Exodus 9:34-35"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Kings from the east",
+    "body": "The Euphrates dries up to prepare the way for kings from the east (16:12). Rome feared invasion from Parthia, and a legend said Nero would return leading eastern armies.",
+    "refs": [
+     "Isaiah 11:15",
+     "Jeremiah 50:38"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Like a thief",
+    "body": "In the middle of the gathering for battle, Jesus speaks: behold, I come like a thief; blessed is the one who watches (16:15). The point isn't predicting the battle but being ready.",
+    "refs": [
+     "Matthew 24:43",
+     "1 Thessalonians 5:2"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Armageddon",
+    "body": "The kings are gathered at the place called in Hebrew Megiddo (16:16). The Greek reads Harmagedon, mountain of Megiddo, which gave us the word Armageddon. Megiddo overlooked a valley where many famous battles were fought.",
+    "refs": [
+     "Judges 5:19",
+     "2 Kings 23:29",
+     "Zechariah 12:11"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "It is done",
+    "body": "A loud voice from the throne says, it is done (16:17). The judgments are complete, echoing Jesus' cry from the cross, it is finished.",
+    "refs": [
+     "John 19:30",
+     "Revelation 21:6"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Watching",
+    "body": "Jesus' warning comes in the middle of the chaos: stay awake. What helps you stay spiritually alert?",
+    "refs": []
+   }
+  ]
+ },
+ "17": {
+  "summary": "An angel shows John the great prostitute, Babylon, sitting on a scarlet beast with seven heads and ten horns, drunk with the blood of the saints; the angel explains the heads and horns as kings who will make war on the Lamb, but the Lamb will overcome them, and the beast and kings will turn on the prostitute.",
+  "lookfor": "Notice the luxurious description of the woman, and who wins the war.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "Seven hills",
+    "body": "The seven heads are seven mountains on which the woman sits (17:9). Rome was famously the city on seven hills, a description its readers couldn't miss.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "The prostitute",
+    "body": "The prophets called cities like Tyre and Nineveh prostitutes for their seductive trade and idolatry. Babylon offers the nations a golden cup full of abominations (17:4).",
+    "refs": [
+     "Isaiah 23:15-17",
+     "Nahum 3:4",
+     "Jeremiah 51:7"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Purple and scarlet",
+    "body": "She is dressed in purple and scarlet, adorned with gold, jewels and pearls (17:4), the colors of wealth and imperial power. Compare the Lamb's bride, dressed in fine linen, the righteous acts of saints.",
+    "refs": [
+     "Revelation 19:8"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Was, and is not, and is to come",
+    "body": "The beast was, and is not, and is about to come up (17:8), a parody of God, who is, who was and who is to come.",
+    "refs": [
+     "Revelation 1:8",
+     "Revelation 4:8"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The Lamb will overcome",
+    "body": "They will war against the Lamb, and the Lamb will overcome them, for he is Lord of lords and King of kings (17:14). The outcome is never in doubt.",
+    "refs": [
+     "Revelation 19:16",
+     "1 Timothy 6:15"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Evil turns on itself",
+    "body": "The beast and ten horns will hate the prostitute and destroy her (17:16). Evil alliances are unstable; God uses even the beast's hatred to bring down Babylon.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Seductive power",
+    "body": "Babylon lures with wealth and luxury. What forms of glamour or wealth tempt you to forget God?",
+    "refs": []
+   }
+  ]
+ },
+ "18": {
+  "summary": "An angel announces Babylon's fall; a voice calls God's people to come out of her; kings, merchants and sailors weep for the city's sudden ruin and the end of its trade, while heaven is called to rejoice; an angel throws a millstone into the sea as a sign of Babylon's final fall.",
+  "lookfor": "Notice the long list of cargoes, and who mourns and who rejoices.",
+  "names": [
+   {
+    "name": "Babylon",
+    "kind": "place",
+    "gloss": "The great trading city, suddenly destroyed."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "Come out of her",
+    "body": "Come out of her, my people, so you don't share in her sins (18:4), as the prophets called exiles to leave Babylon. The call is to separate from the city's values, not just its location.",
+    "refs": [
+     "Jeremiah 51:45",
+     "Isaiah 48:20",
+     "2 Corinthians 6:17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The cargo list",
+    "body": "Gold, silver, jewels, fine linen, purple, silk, ivory, cinnamon, spices, wine, wheat, horses, chariots, and bodies and souls of people (18:12-13). The list ends with slaves; Rome's luxury was built on human trafficking.",
+    "refs": [
+     "Ezekiel 27:12-24"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "In one hour",
+    "body": "The kings, merchants and sailors cry, woe, woe, the great city, for in one hour your judgment has come (18:10, 18:17, 18:19). Each mourns what they personally lost.",
+    "refs": [
+     "Ezekiel 26:16-18"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "I sit as a queen",
+    "body": "She says in her heart, I sit a queen, I am no widow, I'll never see mourning (18:7). Pride and false security precede the fall, as Isaiah said of ancient Babylon.",
+    "refs": [
+     "Isaiah 47:7-9",
+     "Proverbs 16:18"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The millstone",
+    "body": "A mighty angel throws a great millstone into the sea: so Babylon will be thrown down and found no more (18:21). Jeremiah ordered a scroll tied to a stone and sunk in the Euphrates as a sign of Babylon's fall.",
+    "refs": [
+     "Jeremiah 51:63-64"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Rejoice, heaven",
+    "body": "While the world's traders weep, heaven is called to rejoice, because God has judged her for the blood of prophets and saints (18:20, 18:24).",
+    "refs": [
+     "Revelation 19:1-2"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Silence",
+    "body": "The sounds of music, craftsmen, the millstone, the lamp, the bridegroom and bride will be heard no more in her (18:22-23). The city of noise ends in silence.",
+    "refs": [
+     "Jeremiah 25:10"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "What you'd mourn",
+    "body": "The merchants mourned their lost profits. If the world's systems fell tomorrow, what would you grieve most?",
+    "refs": []
+   }
+  ]
+ },
+ "19": {
+  "summary": "Heaven shouts Hallelujah for God's judgment of the prostitute and announces the marriage supper of the Lamb; then heaven opens and the Rider on a white horse, Faithful and True, the Word of God, comes with the armies of heaven, and the beast and false prophet are captured and thrown into the lake of fire.",
+  "lookfor": "Notice the two suppers in this chapter, and the Rider's names and robe.",
+  "names": [],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "Hallelujah",
+    "body": "Hallelujah, Hebrew for praise the Lord, appears four times here (19:1-6) and nowhere else in the New Testament. It comes from the Hallel psalms.",
+    "refs": [
+     "Psalms 113:1",
+     "Psalms 146:1"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The marriage supper",
+    "body": "The marriage of the Lamb has come, and his bride has made herself ready (19:7). Blessed are those invited to the marriage supper of the Lamb (19:9). The story ends in a wedding.",
+    "refs": [
+     "Isaiah 25:6-8",
+     "Matthew 22:2",
+     "Ephesians 5:25-27"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Fine linen",
+    "body": "The bride is given fine linen, bright and pure; the fine linen is the righteous acts of the saints (19:8). Given to her, and also worn through her faithful deeds.",
+    "refs": [
+     "Isaiah 61:10"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Don't worship me",
+    "body": "John falls at the angel's feet to worship, and the angel says, don't; I'm a fellow servant; worship God (19:10). Even glorious angels aren't to be worshiped.",
+    "refs": [
+     "Revelation 22:8-9",
+     "Colossians 2:18"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The Rider",
+    "body": "The Rider is called Faithful and True, his eyes like fire, many crowns on his head, a robe dipped in blood, and his name is the Word of God (19:11-13). The blood is likely his own, the Lamb's.",
+    "refs": [
+     "John 1:1",
+     "Isaiah 63:1-3",
+     "Revelation 1:14"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The sword from his mouth",
+    "body": "A sharp sword comes from his mouth, to strike the nations (19:15). He wins not by military weapons but by his word, as Isaiah foretold.",
+    "refs": [
+     "Isaiah 11:4",
+     "Hebrews 4:12"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Two suppers",
+    "body": "The marriage supper of the Lamb (19:9) is contrasted with the great supper of God, where birds eat the flesh of the defeated (19:17-18), an image from Ezekiel's vision of Gog.",
+    "refs": [
+     "Ezekiel 39:17-20"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Invited",
+    "body": "Blessed are those invited to the Lamb's wedding supper. How does it feel to be among the invited?",
+    "refs": []
+   }
+  ]
+ },
+ "20": {
+  "summary": "An angel binds Satan for a thousand years; martyrs and faithful believers reign with Christ; afterward Satan is released, gathers Gog and Magog, and is defeated and thrown into the lake of fire; the dead are judged before a great white throne, and death and Hades are thrown into the lake of fire.",
+  "lookfor": "Notice the books that are opened, and the final fate of death itself.",
+  "names": [
+   {
+    "name": "Satan",
+    "kind": "person",
+    "gloss": "The dragon, the old serpent, bound and finally defeated."
+   },
+   {
+    "name": "Gog",
+    "kind": "person",
+    "gloss": "A name from Ezekiel for the leader of the nations' final assault."
+   },
+   {
+    "name": "Magog",
+    "kind": "place",
+    "gloss": "Gog's land in Ezekiel, here a name for hostile nations."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "word",
+    "title": "The thousand years",
+    "body": "Satan is bound for a thousand years (20:2), the millennium. Christians interpret it differently: a future earthly reign of Christ, the present age of the church, or a symbolic period. All agree Christ wins.",
+    "refs": [
+     "2 Peter 3:8"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "They reigned with Christ",
+    "body": "Those beheaded for their testimony, who didn't worship the beast, came to life and reigned with Christ (20:4). Those whom Rome executed are the real rulers.",
+    "refs": [
+     "2 Timothy 2:12",
+     "Daniel 7:22"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Gog and Magog",
+    "body": "Satan gathers the nations, Gog and Magog, against the camp of the saints, but fire comes down from heaven and consumes them (20:8-9). Ezekiel foresaw this last assault and its defeat.",
+    "refs": [
+     "Ezekiel 38:2",
+     "Ezekiel 39:6"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "The great white throne",
+    "body": "John sees a great white throne, and the dead, great and small, are judged by what was written in the books, according to their works (20:11-12). Every life matters before God.",
+    "refs": [
+     "Daniel 7:9-10",
+     "Romans 2:6"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "The book of life",
+    "body": "Another book is opened, the book of life (20:12). Cities kept registers of citizens; names could be erased for crimes. Those in the Lamb's book are secure.",
+    "refs": [
+     "Exodus 32:32",
+     "Philippians 4:3",
+     "Revelation 3:5"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Death thrown away",
+    "body": "Death and Hades are thrown into the lake of fire (20:14). The last enemy, death itself, is destroyed.",
+    "refs": [
+     "1 Corinthians 15:26",
+     "Isaiah 25:8"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Your name written",
+    "body": "Revelation's hope rests on names written in the Lamb's book of life. How does knowing your name is written there affect how you live today?",
+    "refs": [
+     "Luke 10:20"
+    ]
+   }
+  ]
+ },
+ "21": {
+  "summary": "John sees a new heaven and a new earth, and the holy city, new Jerusalem, coming down from God as a bride; God will live with his people, wipe away every tear and end death, mourning and pain; the city is described as a perfect cube of gold and jewels, with no temple, for God and the Lamb are its temple and light.",
+  "lookfor": "Notice what is absent from the new creation, and the many echoes of Eden and the prophets.",
+  "names": [
+   {
+    "name": "Jerusalem",
+    "kind": "place",
+    "gloss": "The holy city, here the new Jerusalem coming down from heaven."
+   },
+   {
+    "name": "Israel",
+    "kind": "group",
+    "gloss": "Whose twelve tribes' names are on the city's gates."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "All things new",
+    "body": "I saw a new heaven and a new earth (21:1), as Isaiah promised. He who sits on the throne says, behold, I make all things new (21:5).",
+    "refs": [
+     "Isaiah 65:17",
+     "Isaiah 43:19",
+     "2 Corinthians 5:17"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "No more sea",
+    "body": "The sea was no more (21:1). For ancient readers the sea meant chaos and danger, where the beast rose up, and for John it was what kept him exiled on Patmos.",
+    "refs": [
+     "Revelation 13:1",
+     "Isaiah 57:20"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "God with us",
+    "body": "The tabernacle of God is with people; he will dwell with them, and they will be his peoples (21:3). The whole Bible's hope: God living among his people, as in Eden and the tabernacle.",
+    "refs": [
+     "Leviticus 26:11-12",
+     "Ezekiel 37:27",
+     "John 1:14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Every tear",
+    "body": "He will wipe away every tear; death will be no more, nor mourning, crying or pain (21:4). The former things have passed away.",
+    "refs": [
+     "Isaiah 25:8",
+     "Revelation 7:17"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "A perfect cube",
+    "body": "The city is 12,000 stadia in length, width and height (21:16), a cube like the Most Holy Place in Solomon's temple. The whole city is God's holy of holies.",
+    "refs": [
+     "1 Kings 6:20"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "No temple",
+    "body": "I saw no temple in it, for the Lord God Almighty and the Lamb are its temple (21:22). No special place is needed when God is present everywhere.",
+    "refs": [
+     "John 4:21-24"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "The nations' glory",
+    "body": "The nations walk by its light, and kings bring their glory into it; its gates are never shut (21:24-26), as Isaiah saw nations streaming to Zion.",
+    "refs": [
+     "Isaiah 60:3",
+     "Isaiah 60:11"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Gates of pearl",
+    "body": "Each of the twelve gates is a single pearl (21:21), and the street is pure gold, like transparent glass. Pearls were among the most valuable things in the ancient world, worth more than gold.",
+    "refs": [
+     "Matthew 13:45-46",
+     "Isaiah 54:11-12"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "No more tears",
+    "body": "God promises to wipe away every tear himself. What sorrow are you longing for God to wipe away?",
+    "refs": []
+   }
+  ]
+ },
+ "22": {
+  "summary": "John sees the river of the water of life flowing from God's throne and the tree of life with leaves for healing the nations; God's servants will see his face; Jesus says three times I am coming soon; the Spirit and the bride say come; the book ends with a warning, a promise and a prayer: Come, Lord Jesus.",
+  "lookfor": "Notice the return of Eden, and how often the word come appears at the end.",
+  "names": [
+   {
+    "name": "Jesus",
+    "kind": "person",
+    "gloss": "Who calls himself the root and offspring of David, the bright morning star."
+   },
+   {
+    "name": "David",
+    "kind": "person",
+    "gloss": "Israel's king, whose root and offspring Jesus is."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "connection",
+    "title": "The river of life",
+    "body": "A river of the water of life, bright as crystal, flows from the throne (22:1), like the river Ezekiel saw flowing from the temple and bringing life wherever it went.",
+    "refs": [
+     "Ezekiel 47:1-12",
+     "Zechariah 14:8",
+     "John 7:37-38"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Eden restored",
+    "body": "The tree of life grows beside the river, bearing fruit every month, its leaves for the healing of the nations; there will be no more curse (22:2-3). The Bible begins in a garden and ends in a garden city.",
+    "refs": [
+     "Genesis 2:9-10",
+     "Genesis 3:22-24"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "They will see his face",
+    "body": "They will see his face, and his name will be on their foreheads (22:4). Moses couldn't see God's face and live; now his people will.",
+    "refs": [
+     "Exodus 33:20",
+     "Matthew 5:8",
+     "1 John 3:2"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "The bright morning star",
+    "body": "I am the root and offspring of David, the bright morning star (22:16). The morning star announces the dawn after the long night.",
+    "refs": [
+     "Numbers 24:17",
+     "2 Peter 1:19",
+     "Isaiah 11:1"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Come",
+    "body": "The Spirit and the bride say, come; let the one who is thirsty come; whoever wishes, take the water of life freely (22:17). The book ends with an open invitation.",
+    "refs": [
+     "Isaiah 55:1",
+     "John 4:14"
+    ]
+   },
+   {
+    "kind": "culture",
+    "title": "Don't add or take away",
+    "body": "John warns against adding to or taking away from the words of this prophecy (22:18-19). Ancient writers sometimes added such curses to protect their books from being altered by copyists.",
+    "refs": [
+     "Deuteronomy 4:2",
+     "Deuteronomy 12:32"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Come, Lord Jesus",
+    "body": "He who testifies says, yes, I am coming soon. Amen. Come, Lord Jesus (22:20). The Bible's last prayer is the church's longing for its Lord, the Maranatha of the early believers.",
+    "refs": [
+     "1 Corinthians 16:22"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "The last word",
+    "body": "The Bible ends with grace and an invitation to come. Having read the whole story, what is your response to the One who says, I am coming soon?",
+    "refs": []
+   }
+  ]
+ },
+ "intro": {
+  "who": "John (1:1, 1:9), a prophet exiled on the island of Patmos. Tradition identifies him as the apostle John; some early and modern scholars think he was a different John, since the Greek style differs from the Gospel.",
+  "when": "Most date it about AD 95, under the emperor Domitian; some prefer the late 60s, after Nero's persecution.",
+  "why": "To seven churches in Asia facing pressure to compromise with emperor worship and pagan society. Through symbolic visions, written in the style called apocalyptic, it pulls back the curtain to show that the slain Lamb, not Caesar, rules history, that evil will be judged, and that God will make all things new. It calls believers to faithful witness and endurance.",
+  "outline": [
+   {
+    "chapters": "1–3",
+    "title": "The risen Christ and the seven churches"
+   },
+   {
+    "chapters": "4–5",
+    "title": "The throne and the Lamb"
+   },
+   {
+    "chapters": "6–11",
+    "title": "Seven seals and seven trumpets"
+   },
+   {
+    "chapters": "12–14",
+    "title": "The woman, the dragon and the beasts"
+   },
+   {
+    "chapters": "15–16",
+    "title": "Seven bowls"
+   },
+   {
+    "chapters": "17–19",
+    "title": "The fall of Babylon; the Rider on the white horse"
+   },
+   {
+    "chapters": "20–22",
+    "title": "Final judgment and the new creation"
+   }
+  ],
+  "verse": "Revelation 21:5"
+ }
+}
