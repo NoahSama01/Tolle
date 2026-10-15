@@ -1,0 +1,103 @@
+{
+ "1": {
+  "summary": "The elder prays for Gaius's health, rejoices that he walks in the truth and faithfully hosts travelling believers, criticizes Diotrephes who loves to be first and turns people away, commends Demetrius, and hopes to see Gaius soon.",
+  "lookfor": "Notice the contrast between Gaius and Diotrephes, and the call to imitate good.",
+  "names": [
+   {
+    "name": "Gaius",
+    "kind": "person",
+    "gloss": "A beloved friend of the elder, known for hospitality."
+   },
+   {
+    "name": "Diotrephes",
+    "kind": "person",
+    "gloss": "A church leader who loved to be first and refused visiting believers."
+   },
+   {
+    "name": "Demetrius",
+    "kind": "person",
+    "gloss": "A believer with a good report from everyone, probably carrying the letter."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "A personal letter",
+    "body": "3 John is the shortest book in the Bible by word count in Greek, about the length of a single papyrus sheet. It follows the shape of ordinary letters of its time: greeting, health wish, body, farewell.",
+    "refs": []
+   },
+   {
+    "kind": "detail",
+    "title": "Health of body and soul",
+    "body": "I pray that you may prosper and be in health, even as your soul prospers (1:2). A common letter greeting, given a Christian turn: the soul's health comes first.",
+    "refs": []
+   },
+   {
+    "kind": "connection",
+    "title": "No greater joy",
+    "body": "I have no greater joy than to hear that my children walk in the truth (1:4), the joy of a spiritual father.",
+    "refs": [
+     "2 John 1:4",
+     "1 Thessalonians 2:19-20"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Fellow workers for the truth",
+    "body": "Gaius welcomed travelling believers, even strangers, who went out for the Name taking nothing from Gentiles (1:5-7). Supporting them makes us fellow workers with the truth (1:8).",
+    "refs": [
+     "Matthew 10:40-42",
+     "Titus 3:13"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Loves to be first",
+    "body": "Diotrephes loves to have the preeminence (1:9). The word philoprōteuō means loving first place, the opposite of Jesus' teaching that the first must be servant of all.",
+    "refs": [
+     "Mark 10:43-44",
+     "Matthew 23:6"
+    ]
+   },
+   {
+    "kind": "bigpicture",
+    "title": "Imitate good",
+    "body": "Beloved, don't imitate what is evil, but what is good; whoever does good is of God (1:11). Gaius and Demetrius are set beside Diotrephes as examples to choose between.",
+    "refs": [
+     "1 John 3:10",
+     "Psalms 34:14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Face to face",
+    "body": "The elder has much to write but would rather not use ink and pen; he hopes to see Gaius soon and talk face to face (1:13-14).",
+    "refs": [
+     "2 John 1:12"
+    ]
+   },
+   {
+    "kind": "ponder",
+    "title": "Gaius or Diotrephes",
+    "body": "One man opened his home; the other guarded his position. Where could you be more open-handed toward other believers?",
+    "refs": []
+   }
+  ]
+ },
+ "intro": {
+  "who": "The elder (1:1), traditionally the apostle John, writing to his dear friend Gaius.",
+  "when": "About AD 85–100, probably from Ephesus, around the time of 1 and 2 John.",
+  "why": "A personal note praising Gaius for welcoming travelling teachers sent out for Christ's name, rebuking Diotrephes, a church leader who refused them and the elder's authority, and commending Demetrius, likely the letter's bearer. It shows hospitality as partnership in the truth.",
+  "outline": [
+   {
+    "chapters": "1",
+    "title": "Gaius, Diotrephes and Demetrius"
+   }
+  ],
+  "verse": "3 John 1:11"
+ }
+}
