@@ -53,9 +53,7 @@ Everything deferred so far, grouped by when it matters. Tick items off as they l
 - [ ] Notes in these languages (largest job; after the English notes are finished).
 
 ## Why & How notes
-- [x] Every book except Exodus (65 books, 1,149 of 1,189 chapters).
-- [ ] Every other book. Instructions and the progress list are in `scripts/NOTES-PROMPT.md`; cloud credit expires 5 November 2026.
-- [ ] Use high effort for the hardest books: Job, Psalms, Isaiah, Romans, Hebrews, Revelation.
+- [x] Every book, Genesis to Revelation (66 books, all 1,189 chapters). Each passes `scripts/notes.py` and `scripts/quotes.py`.
 
 ## Smaller things
 - [ ] A list of highlighted verses (highlights show in the text only, for now).

@@ -43,7 +43,7 @@ Report each pull request URL, the checker's final output, and any judgement call
 
 ## Progress
 
-Done: Genesis, and Leviticus through Malachi (every Old Testament book except Exodus), Matthew, Mark, Luke, John, Acts, Romans, 1 Corinthians, 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy, 2 Timothy, Titus, Philemon, Hebrews, James, 1 Peter, 2 Peter, 1 John, 2 John, 3 John, Jude, Revelation.
-Next: Exodus, the only book left.
+Done: every book, Genesis to Revelation (66 books, all 1,189 chapters).
+Next: nothing left to write. To revise a book, edit its file and rerun both checkers.
 
 Several sessions can run at once as long as no two are given the same book: each book is its own file and its own pull request.
