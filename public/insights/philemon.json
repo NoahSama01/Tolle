@@ -1,0 +1,120 @@
+{
+ "1": {
+  "summary": "Paul thanks God for Philemon's love and faith, then appeals to him, out of love rather than command, to receive back Onesimus, whom Paul calls his own heart, as a beloved brother; he offers to repay anything owed and is confident Philemon will do even more.",
+  "lookfor": "Notice how carefully Paul makes his request, the pun on Onesimus's name, and the shift from slave to brother.",
+  "names": [
+   {
+    "name": "Philemon",
+    "kind": "person",
+    "gloss": "A believer in Colossae who hosted a house church and owned Onesimus."
+   },
+   {
+    "name": "Apphia",
+    "kind": "person",
+    "gloss": "A sister in the faith, probably Philemon's wife."
+   },
+   {
+    "name": "Archippus",
+    "kind": "person",
+    "gloss": "A fellow soldier of Paul, perhaps Philemon's son."
+   },
+   {
+    "name": "Onesimus",
+    "kind": "person",
+    "gloss": "Philemon's slave, converted through Paul in prison."
+   },
+   {
+    "name": "Epaphras",
+    "kind": "person",
+    "gloss": "The founder of the Colossian church, now Paul's fellow prisoner."
+   },
+   {
+    "name": "Mark",
+    "kind": "person",
+    "gloss": "Paul's restored co-worker."
+   },
+   {
+    "name": "Luke",
+    "kind": "person",
+    "gloss": "Paul's companion and physician."
+   }
+  ],
+  "skim": {
+   "advice": "",
+   "key": []
+  },
+  "insights": [
+   {
+    "kind": "culture",
+    "title": "A house church",
+    "body": "The letter is to Philemon and the church in your house (1:2). Early believers met in homes; Philemon's household would hear how he responded, which put gentle pressure on him.",
+    "refs": [
+     "Romans 16:5",
+     "Colossians 4:15"
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Appeal, not command",
+    "body": "Though Paul could command him, for love's sake he appeals instead (1:8-9). Paul wants Philemon's goodness to be voluntary, not forced (1:14).",
+    "refs": [
+     "2 Corinthians 8:8"
+    ]
+   },
+   {
+    "kind": "word",
+    "title": "Useful",
+    "body": "Onesimus means useful. Paul writes that he was once useless to Philemon but now is useful to both of them (1:11). A wordplay with a serious point: grace changed him.",
+    "refs": []
+   },
+   {
+    "kind": "culture",
+    "title": "A runaway slave",
+    "body": "A runaway slave in Roman law could be beaten, branded or even killed. Paul sends Onesimus back with this letter as protection, calling him my very heart (1:12).",
+    "refs": []
+   },
+   {
+    "kind": "bigpicture",
+    "title": "More than a slave",
+    "body": "Receive him no longer as a slave, but more than a slave, a beloved brother (1:16). Paul doesn't attack slavery head-on, but the gospel makes master and slave brothers, and that truth eventually undermined slavery itself.",
+    "refs": [
+     "Galatians 3:28",
+     "Colossians 3:11"
+    ]
+   },
+   {
+    "kind": "connection",
+    "title": "Charge it to me",
+    "body": "If he has wronged you or owes you anything, put that on my account; I will repay it (1:18-19). Many readers see a picture of Christ, who takes our debt on himself.",
+    "refs": [
+     "2 Corinthians 5:21",
+     "Colossians 2:14"
+    ]
+   },
+   {
+    "kind": "detail",
+    "title": "Even more",
+    "body": "Paul is confident Philemon will do even more than he asks (1:21), perhaps freeing Onesimus. A bishop of Ephesus named Onesimus around AD 110 may have been the same man.",
+    "refs": []
+   },
+   {
+    "kind": "ponder",
+    "title": "Welcoming back",
+    "body": "Philemon was asked to welcome someone who had wronged him, as a brother. Is there someone you need to receive back in that way?",
+    "refs": []
+   }
+  ]
+ },
+ "intro": {
+  "who": "Paul, with Timothy (1:1), writing from prison to Philemon, a believer in Colossae, and the church that met in his house. Almost all scholars accept it as Paul's.",
+  "when": "About AD 60–62, carried by Onesimus along with the letter to the Colossians.",
+  "why": "Onesimus, Philemon's slave, had run away or left under a cloud, met Paul in prison and become a believer. Paul sends him back, asking Philemon to welcome him no longer as a slave but as a beloved brother, and offering to pay any debt himself.",
+  "outline": [
+   {
+    "chapters": "1",
+    "title": "Greeting, thanks, and the appeal for Onesimus"
+   }
+  ],
+  "verse": "Philemon 1:16"
+ }
+}
