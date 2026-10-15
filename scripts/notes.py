@@ -34,6 +34,8 @@ problems = []
 for p in parts:
     for c, x in json.load(open(p, encoding="utf-8")).items():
         if c == "intro":
+            # the app's "you are here" marker parses outline ranges as whole chapter numbers
+            problems += [f"{book} intro: outline range '{o['chapters']}' must be N or N–M" for o in x.get("outline", []) if not re.fullmatch(r"\d+(–\d+)?", o["chapters"])]
             data[c] = x; continue
         vs = text(int(c)); n = len(vs); full = " ".join(v["text"] for v in vs); nfull = norm(full)
         where = f"{book} {c}"
