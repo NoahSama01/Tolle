@@ -43,7 +43,7 @@ Report each pull request URL, the checker's final output, and any judgement call
 
 ## Progress
 
-Done: Leviticus through Malachi (every Old Testament book except Genesis and Exodus), Matthew, Mark, Luke, John, Acts, Romans, 1 Corinthians, 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy, 2 Timothy, Titus.
-Next, in reading order: the rest of the letters, from Philemon to Jude, then Revelation. Genesis and Exodus are still to do as well.
+Done: Leviticus through Malachi (every Old Testament book except Genesis and Exodus), Matthew, Mark, Luke, John, Acts, Romans, 1 Corinthians, 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy, 2 Timothy, Titus, Philemon.
+Next, in reading order: Hebrews, James, 1–2 Peter, 1–3 John, Jude, then Revelation. Genesis and Exodus are still to do as well.
 
 Several sessions can run at once as long as no two are given the same book: each book is its own file and its own pull request.
