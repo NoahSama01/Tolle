@@ -17,9 +17,9 @@ Everything deferred so far, grouped by when it matters. Tick items off as they l
 - [ ] Install the build on a real phone from the file and test before uploading.
 
 ### Daily reminders (the strongest reason to come back)
-- [ ] A daily "you haven't read today" notification at a time the reader chooses, using Android's own scheduled notifications (no server needed).
+- [x] A daily "you haven't read today" reminder at a time the reader chooses (done with web push from the backend; works in the installed app too).
 - [ ] An evening "keep your run" nudge when a streak is about to break.
-- [ ] A setting to turn reminders off and pick the time.
+- [x] A setting to turn reminders off and pick the time.
 
 ### Play Console (your part)
 - [ ] Developer account: $25 one-time, plus ID verification.
@@ -30,13 +30,14 @@ Everything deferred so far, grouped by when it matters. Tick items off as they l
 
 ## Backend: accounts, sync, reminders (designed, see BACKEND.md)
 - [x] Create a free Supabase project and send the Project URL and publishable key.
-- [ ] Google sign-in: a Web OAuth client with Supabase's redirect URL, basic scopes only; client ID and secret go into Supabase, not chat.
+- [x] Google sign-in: a Web OAuth client with Supabase's redirect URL, basic scopes only; client ID and secret go into Supabase, not chat.
 - [x] Run `supabase/migrations/0001_init.sql` (signed-out access refused on every table and function, checked).
 - [ ] Two-account access test, once sign-in works.
 - [x] Sign-in and sync in the app, replacing Drive sync (real Google sign-in confirmed on the phone).
 - [x] Account deletion in Settings and on the web (Play requirement); function deployed, refuses unsigned and fake callers (checked).
 - [x] Daily reminders: VAPID keys, the `remind` function (refuses outsiders, checked), the 15-minute schedule, a time picker in Settings. A real reminder arrived on the phone (confirmed).
-- [ ] Privacy page and Play data-safety answers updated for accounts.
+- [x] Privacy page updated for accounts.
+- [ ] Play data-safety answers for accounts (filled in on Play Console).
 - [ ] Move to Supabase's paid plan before public launch (daily backups, no pausing).
 - [ ] Email sign-in once there's a domain and an email service (Resend or Postmark).
 
