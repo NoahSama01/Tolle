@@ -1,5 +1,6 @@
 // Every 15 minutes (pg_cron): send today's reminder to each person whose time has just passed
-// in their own zone and who hasn't read today. Logged once sent, so a rerun never sends twice;
+// in their own zone and who hasn't read today, and the verse of the day to each person whose
+// verse time has just passed (read or not). Logged once sent, so a rerun never sends twice;
 // subscriptions the push service reports gone (404, 410) are removed.
 // Only the schedule may call it: it presents CRON_SECRET, a random string kept in the function's secrets and in Vault.
 import webpush from "npm:web-push@3.6.7";
@@ -22,27 +23,31 @@ Deno.serve(async (req) => {
   );
   const db = createClient(Deno.env.get("SUPABASE_URL")!, keys[0], { auth: { persistSession: false } });
 
-  const { data: due, error } = await db.rpc("due_reminders");
-  if (error) return new Response(error.message, { status: 500 });
+  const [reminders, verses] = await Promise.all([db.rpc("due_reminders"), db.rpc("due_verses")]);
+  if (reminders.error) return new Response(reminders.error.message, { status: 500 }); // a verse failure alone never stops the reminders
 
   let sent = 0, gone = 0;
-  for (const d of due ?? []) {
-    const { data: subs } = await db.from("push_subscriptions").select("id, endpoint, p256dh, auth").eq("user_id", d.user_id);
-    const payload = JSON.stringify({
-      title: "Tolle",
-      body: d.next_up ? `Today's chapters are waiting: ${d.next_up} is next.` : "Today's chapters are waiting.",
-    });
+  // one push to every phone of one person, logged once any phone takes it
+  const push = async (userId: string, day: string, payload: object, log: string) => {
+    const { data: subs } = await db.from("push_subscriptions").select("id, endpoint, p256dh, auth").eq("user_id", userId);
     let reached = false;
     for (const s of subs ?? []) {
       try {
-        await webpush.sendNotification({ endpoint: s.endpoint, keys: { p256dh: s.p256dh, auth: s.auth } }, payload, { TTL: 3600 });
+        await webpush.sendNotification({ endpoint: s.endpoint, keys: { p256dh: s.p256dh, auth: s.auth } }, JSON.stringify(payload), { TTL: 3600 });
         reached = true; sent++;
       } catch (e) {
         const status = (e as { statusCode?: number }).statusCode;
         if (status === 404 || status === 410) { await db.from("push_subscriptions").delete().eq("id", s.id); gone++; }
       }
     }
-    if (reached) await db.from("reminder_log").insert({ user_id: d.user_id, sent_on: d.local_day });
-  }
-  return Response.json({ due: due?.length ?? 0, sent, gone });
+    if (reached) await db.from(log).insert({ user_id: userId, sent_on: day });
+  };
+  for (const d of reminders.data ?? []) await push(d.user_id, d.local_day, {
+    title: "Tolle",
+    body: d.next_up ? `Today's chapters are waiting: ${d.next_up} is next.` : "Today's chapters are waiting.",
+  }, "reminder_log");
+  // the phone fills in its own verse for today; title and body stand in on phones without the newer Tolle
+  for (const d of verses.data ?? []) await push(d.user_id, d.local_day,
+    { kind: "verse", title: "A verse for today", body: "Today's verse is waiting in Tolle." }, "verse_log");
+  return Response.json({ reminders: reminders.data?.length ?? 0, verses: verses.data?.length ?? 0, versesError: verses.error?.message, sent, gone });
 });

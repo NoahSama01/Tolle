@@ -34,6 +34,7 @@ The app already has a tested sync engine for the Drive copy: `pack()` builds one
 - **`profiles`**: the few facts the server itself needs: time zone, reminder time, and the local date of the last chapter read (sent by the phone on each sync, so the reminder job never has to read anyone's copy).
 - **`push_subscriptions`**: one row per device that allowed notifications.
 - **`reminder_log`**: one row per person per day a reminder was sent, so a retried job never sends twice. Only the server can see it.
+- **Verse of the day** (`0004_verse_of_the_day.sql`): `profiles.verse_at`, a `verse_log` like `reminder_log`, and `due_verses()`. The same `remind` run sends it, every day whether read or not. The push carries no verse: each phone keeps the next week's verses with their text (`tolle-dv` in localStorage, mirrored to the `votd` cache) and the service worker shows today's. A phone not opened for over a week gets "Today's verse is waiting in Tolle" instead.
 
 Migration: [`supabase/migrations/0001_init.sql`](supabase/migrations/0001_init.sql).
 

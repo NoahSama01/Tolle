@@ -645,18 +645,33 @@ function journeyHTML(){ // the finished Bible: the journey in figures, and a way
   return `<p class=facts><span>${fmtDate(from)} to ${fmtDate(to)}</span><span>${plural(ds.length,'day')} of reading</span><span>Best run ${plural(bestRun(),'day')}</span><span>${plural(KEPT.length,'verse')} kept</span></p>
     ${navigator.share?`<button class="go ghost" style="margin-top:1rem" onclick="navigator.share({text:'I have read the whole Bible: 1,189 chapters, 66 books.'}).catch(()=>{})">Share this</button>`:''}`;
 }
-function daily(){ // today's verse: from the book you're reading if the list has one, else its part of the Bible, else the next in the list; none repeats until all have come round
-  let dv=JSON.parse(localStorage.getItem('tolle-dv')||'{"seen":[]}');
-  if(dv.d===today())return dv;
+function pickVerse(dv){ // from the book you're reading if the list has one, else its part of the Bible, else the next in the list; none repeats until all have come round
   const bi=CH[nextIdx()]?.[2]??0,fresh=HOPE.filter(r=>!dv.seen.includes(r)),pool=fresh.length?fresh:HOPE;
   const r=pool.find(r=>bookOf(r)===bi)||pool.find(r=>BED_OF[bookOf(r)]===BED_OF[bi])||pool[0];
-  dv={d:today(),r,seen:[...(fresh.length?dv.seen:[]),r]};localStorage.setItem('tolle-dv',JSON.stringify(dv));return dv;
+  dv.seen=[...(fresh.length?dv.seen:[]),r];return r;
+}
+function saveDV(dv){ // this phone's copy, and one the service worker reads for the morning verse notification
+  localStorage.setItem('tolle-dv',JSON.stringify(dv));
+  self.caches?.open('votd').then(c=>c.put('votd.json',new Response(JSON.stringify([dv,...(dv.q||[])].map(({d,r,t})=>({d,r,t})))))).catch(()=>{});
+}
+function daily(){ // today's verse: the one set aside for today (see readyVerses), else picked now
+  let dv=JSON.parse(localStorage.getItem('tolle-dv')||'{"seen":[]}');
+  if(dv.d===today())return dv;
+  const q=(dv.q||[]).filter(x=>x.d>=today()),next=q[0]?.d===today()?q.shift():{r:pickVerse(dv)};
+  dv={...next,d:today(),seen:dv.seen,q};saveDV(dv);return dv;
+}
+const plusDays=n=>{const d=new Date();d.setDate(d.getDate()+n);return iso(d)};
+async function readyVerses(){ // the next week's verses picked and their text fetched, so the morning notification has one even on days Tolle isn't opened
+  const dv=daily();dv.q??=[];
+  for(let i=1;i<=7;i++){const d=plusDays(i);if(!dv.q.some(x=>x.d===d))dv.q.push({d,r:pickVerse(dv)})}
+  dv.q.sort((a,b)=>a.d<b.d?-1:1);saveDV(dv);
+  for(const x of [dv,...dv.q])if(!x.t||x.tr!==S.tr)try{const j=await passage(x.r);Object.assign(x,{t:j.text.replace(/\s+/g,' ').trim(),tr:S.tr});saveDV(dv)}catch{break} // offline or rate-limited: the rest wait for the next open
 }
 const refParts=r=>{const [,bk,c,v]=r.match(/^(.+) (\d+):(\d+)/);return {bi:BOOKS.findIndex(([b])=>b===bk),c:+c,v:+v}};
 const keptRef=r=>KEPT.some(k=>kref(k)===r);
 function dailyHTML(){
   const dv=daily(),{bi,c}=refParts(dv.r),have=dv.t&&dv.tr===S.tr;
-  if(!have)passage(dv.r).then(j=>{Object.assign(dv,{t:j.text.replace(/\s+/g,' ').trim(),tr:S.tr});localStorage.setItem('tolle-dv',JSON.stringify(dv));
+  if(!have)passage(dv.r).then(j=>{Object.assign(dv,{t:j.text.replace(/\s+/g,' ').trim(),tr:S.tr});const cur=daily();cur.t=dv.t;cur.tr=dv.tr;saveDV(cur); // re-read, so the week readyVerses set aside isn't overwritten
       const p=document.getElementById('dvt');if(p){p.textContent=dv.t;p.removeAttribute('aria-busy');document.getElementById('dvk').hidden=false}})
     .catch(()=>{const p=document.getElementById('dvt');if(p)p.textContent="Today's verse needs a connection the first time. It will be here when you're back online."});
   return `<section class="leaf daily" aria-labelledby=dv-h><h2 id=dv-h>A verse for today</h2>
@@ -900,47 +915,51 @@ async function deleteAccount(){ // the account and its copy are erased for good;
     AU=null;keepAU();SY={err:'deleted'};keepSY();render()}
   catch{SY.err='delete';keepSY();render()}
 }
-// Daily reminder: a push at the chosen time on days with nothing read yet; the server decides who is due
+// Two daily pushes, each at its own time; the server decides who is due:
+// the reminder (only on days with nothing read yet) and the verse of the day (every day)
 const VAPID='BGi7G23e8j7YmWQpEZGD5vyYRqkwA6at0QPhA45l0Q8hIiHTVcv7fSQCjG3icgig9NefD2mcKPsYMUEHKxqO5-0'; // the notification key's public half: public by design
-let RM=JSON.parse(localStorage.getItem('tolle-remind')||'{}'); // {at: 'HH:MM', endpoint}
+let RM=JSON.parse(localStorage.getItem('tolle-remind')||'{}'); // {at: 'HH:MM' reminder, verse: 'HH:MM' verse of the day, endpoint}
 const keepRM=()=>localStorage.setItem('tolle-remind',JSON.stringify(RM));
 const tz=()=>Intl.DateTimeFormat().resolvedOptions().timeZone;
 const at12=t=>new Date(`2000-01-01T${t}`).toLocaleTimeString(undefined,{hour:'numeric',minute:'2-digit'});
 function reminderHTML(){
   if(!VAPID||!('PushManager' in window))return '';
-  return `<section class=leaf aria-labelledby=rm-h><h2 id=rm-h>Daily reminder</h2>
-    ${!AU?`<p class=about>Sign in with Google (under Backup) and Tolle can remind you on days you haven't read yet.</p>`:`
-    <p class=about>${RM.at?`On: every day at ${at12(RM.at)}, only on days you haven't read yet.`:"A gentle nudge on days you haven't read yet, never on days you have."}</p>
-    <label for=rmt>Remind me at</label><input type=time id=rmt value="${RM.at||'08:00'}">
-    <p class=hint id=rm-note role=status></p>
-    <div class=actions><button class=go onclick=remindOn()>${RM.at?'Save time':'Turn on reminders'}${icon('arrow')}</button></div>
-    ${RM.at?`<p><button class=link-btn onclick=remindOff()>Turn off reminders</button></p>`:''}`}</section>`;
+  if(!AU)return `<section class=leaf aria-labelledby=rm-h><h2 id=rm-h>Daily reminder</h2>
+    <p class=about>Sign in with Google (under Backup) and Tolle can remind you on days you haven't read yet, and send you the verse of the day.</p></section>`;
+  const row=(id,h,col,on,def,about,label)=>`<section class=leaf aria-labelledby=${id}-h><h2 id=${id}-h>${h}</h2>
+    <p class=about>${about}</p>
+    <label for=${id}t>${label}</label><input type=time id=${id}t value="${on||def}">
+    <p class=hint id=${id}-note role=status></p>
+    <div class=actions><button class=go onclick="pushSet('${col}',${id}t.value||'${def}','${id}-note')">${on?'Save time':'Turn on'}${icon('arrow')}</button></div>
+    ${on?`<p><button class=link-btn onclick="pushSet('${col}',null,'${id}-note')">Turn off</button></p>`:''}</section>`;
+  return row('rm','Daily reminder','remind_at',RM.at,'08:00',RM.at?`On: every day at ${at12(RM.at)}, only on days you haven't read yet.`:"A gentle nudge on days you haven't read yet, never on days you have.",'Remind me at')
+    +row('vd','Verse of the day','verse_at',RM.verse,'07:00',RM.verse?`On: today's verse arrives every day at ${at12(RM.verse)}, read or not.`:"Today's verse in a notification, so you see it each day without opening Tolle.",'Send it at');
 }
 const b64u=s=>Uint8Array.from(atob(s.replace(/-/g,'+').replace(/_/g,'/')),c=>c.charCodeAt(0));
-async function remindOn(){ // three steps, each with its own message when it fails
-  const at=rmt.value||'08:00',note=document.getElementById('rm-note');let step='permission';note.textContent='Turning on…';
+async function pushSet(col,at,noteId){ // on (or a new time): permission, this phone's push address, then the time on the account; off: clear the time, and the address once nothing is left to send
+  const note=document.getElementById(noteId);let step=at?'permission':'off';note.textContent=at?'Turning on…':'Turning off…';
   try{
-    if(await Notification.requestPermission()!=='granted')throw 'denied';
-    step='subscribe';const reg=await navigator.serviceWorker.ready,sub=await reg.pushManager.getSubscription()||await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64u(VAPID)}),k=sub.toJSON().keys;
-    step='save';await db('push_subscriptions?on_conflict=endpoint',{user_id:AU.id,endpoint:sub.endpoint,p256dh:k.p256dh,auth:k.auth},'resolution=ignore-duplicates,return=minimal');
-    await db('profiles',{user_id:AU.id,tz:tz(),remind_at:at},'resolution=merge-duplicates,return=minimal');
-    RM={at,endpoint:sub.endpoint};keepRM();render();
+    if(at){
+      if(await Notification.requestPermission()!=='granted')throw 'denied';
+      step='subscribe';const reg=await navigator.serviceWorker.ready,sub=await reg.pushManager.getSubscription()||await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64u(VAPID)}),k=sub.toJSON().keys;
+      step='save';await db('push_subscriptions?on_conflict=endpoint',{user_id:AU.id,endpoint:sub.endpoint,p256dh:k.p256dh,auth:k.auth},'resolution=ignore-duplicates,return=minimal');
+      RM.endpoint=sub.endpoint;
+    }
+    await db('profiles',{user_id:AU.id,tz:tz(),[col]:at},'resolution=merge-duplicates,return=minimal');
+    RM[col==='remind_at'?'at':'verse']=at||undefined;
+    if(!RM.at&&!RM.verse){
+      if(RM.endpoint)await db(`push_subscriptions?endpoint=eq.${encodeURIComponent(RM.endpoint)}`,null,'return=minimal','DELETE');
+      (await (await navigator.serviceWorker.ready).pushManager.getSubscription())?.unsubscribe();RM={};
+    }
+    keepRM();render();if(RM.verse&&S)readyVerses();
   }catch(e){note.textContent=e==='denied'?"Notifications are blocked for Tolle. Allow them in your phone's settings for this app, then try again."
     :step==='subscribe'?`This browser couldn't sign up for notifications (${e?.name||e}). In Brave, turn on Settings → Privacy and security → "Use Google services for push messaging", or open Tolle in Chrome.`
-    :`Couldn't save the reminder to your account (${e}). Check your connection and try again.`}
-}
-async function remindOff(){
-  const note=document.getElementById('rm-note');
-  try{
-    await db('profiles',{user_id:AU.id,tz:tz(),remind_at:null},'resolution=merge-duplicates,return=minimal');
-    if(RM.endpoint)await db(`push_subscriptions?endpoint=eq.${encodeURIComponent(RM.endpoint)}`,null,'return=minimal','DELETE');
-    (await (await navigator.serviceWorker.ready).pushManager.getSubscription())?.unsubscribe();
-    RM={};keepRM();render();
-  }catch{note.textContent="Couldn't turn off reminders. Check your connection and try again."}
+    :step==='off'?"Couldn't turn this off. Check your connection and try again."
+    :`Couldn't save this to your account (${e}). Check your connection and try again.`}
 }
 const syncNote=()=>({deleted:'Your Tolle account was deleted.',delete:"Couldn't delete your account. Check your connection and try again.",bad:"The copy in your account couldn't be read, so Tolle left it alone.",expired:"You've been signed out. Sign in again to keep syncing.",signin:"Sign-in didn't finish. Try again.",offline:"Couldn't reach your account. Your progress is safe on this phone and syncs when you're back online."})[SY.err==='bad copy'?'bad':SY.err]
   ??(SY.at?`Synced ${new Date(SY.at).toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'})}.`:'Not synced yet.');
-addEventListener('visibilitychange',()=>{if(!document.hidden)sync()});
+addEventListener('visibilitychange',()=>{if(!document.hidden){sync();if(RM.verse&&S)readyVerses()}});
 
 // a sheet follows the thumb down 1:1; let go and it drops away or settles back, by where the flick was headed
 const rubber=(x,h)=>x*h*.55/(h+.55*x); // past the top it gives a little, slower the further it goes
@@ -1180,7 +1199,7 @@ navigator.serviceWorker?.addEventListener('controllerchange',()=>{
   document.body.append(p);
 });
 history.replaceState(null,''); // a reload starts on Today, so forget any page the browser remembered being on
-render();returning().finally(sync);
+render();returning().finally(sync);if(RM.verse&&S)readyVerses();
 </script>
 </body>
 </html>
