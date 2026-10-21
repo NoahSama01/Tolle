@@ -15,6 +15,7 @@ Everything deferred so far, grouped by when it matters. Tick items off as they l
 - [ ] Back up the signing key and its passwords somewhere safe, permanently.
 - [ ] Publish `assetlinks.json` with the app's signing fingerprint (from Play Console → App integrity), so the app opens full-screen with no browser bar.
 - [ ] Install the build on a real phone from the file and test before uploading.
+- [ ] Home-screen widget showing the verse of the day (needs the Android app; a website can't place widgets). Until then, the verse-of-the-day notification covers it.
 
 ### Daily reminders (the strongest reason to come back)
 - [x] A daily "you haven't read today" reminder at a time the reader chooses (done with web push from the backend; works in the installed app too).
