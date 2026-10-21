@@ -42,12 +42,16 @@ Deno.serve(async (req) => {
     }
     if (reached) await db.from(log).insert({ user_id: userId, sent_on: day });
   };
-  for (const d of reminders.data ?? []) await push(d.user_id, d.local_day, {
-    title: "Tolle",
-    body: d.next_up ? `Today's chapters are waiting: ${d.next_up} is next.` : "Today's chapters are waiting.",
-  }, "reminder_log");
-  // the phone fills in its own verse for today; title and body stand in on phones without the newer Tolle
-  for (const d of verses.data ?? []) await push(d.user_id, d.local_day,
-    { kind: "verse", title: "A verse for today", body: "Today's verse is waiting in Tolle." }, "verse_log");
+  const jobs = [
+    ...(reminders.data ?? []).map((d) => () => push(d.user_id, d.local_day, {
+      title: "Tolle",
+      body: d.next_up ? `Today's chapters are waiting: ${d.next_up} is next.` : "Today's chapters are waiting.",
+    }, "reminder_log")),
+    // the phone fills in its own verse for today; title and body stand in on phones without the newer Tolle
+    ...(verses.data ?? []).map((d) => () => push(d.user_id, d.local_day,
+      { kind: "verse", title: "A verse for today", body: "Today's verse is waiting in Tolle." }, "verse_log")),
+  ];
+  // ponytail: 50 people at a time keeps a run of a few thousand to about a minute; well beyond that, queue the sends across runs
+  for (let i = 0; i < jobs.length; i += 50) await Promise.all(jobs.slice(i, i + 50).map((j) => j()));
   return Response.json({ reminders: reminders.data?.length ?? 0, verses: verses.data?.length ?? 0, versesError: verses.error?.message, sent, gone });
 });
