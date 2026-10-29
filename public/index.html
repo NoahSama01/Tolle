@@ -489,7 +489,7 @@ function goalParts(){
   return {share,catchup};
 }
 const goal=()=>{const g=goalParts();return g.share+g.catchup};
-const extraToday=()=>Math.max(0,todayN()-goal());
+const extraToday=()=>pace().cls==='late'?0:Math.max(0,todayN()-goal()); // past the goal but still behind is catching up, not extra
 function streak(){let n=0,d=new Date();if(!S.log[iso(d)])d.setDate(d.getDate()-1);for(;S.log[iso(d)];d.setDate(d.getDate()-1))n++;return n}
 function bestRun(){let best=0,run=0,prev;for(const d of Object.keys(S.log).filter(d=>S.log[d]).sort()){run=prev&&days(prev,d)===1?run+1:1;best=Math.max(best,run);prev=d}return best} // the longest unbroken run of reading days
 const bookDone=bi=>readIn(bi)===BOOKS[bi][1],booksDone=()=>BOOKS.filter((_,bi)=>bookDone(bi)).length;
@@ -497,7 +497,7 @@ const toFinish=bi=>BOOKS[bi][1]-readIn(bi); // chapters left in a book: three or
 const divDone=li=>BOOKS.every((_,bi)=>BED_OF[bi]!==li||bookDone(bi));
 const perDay=()=>(CH.length-S.startDone)/Math.max(1,days(S.start,S.deadline)+1);
 function paceLine(){ // the straight line from plan start to deadline: where you should be at the start and the end of today
-  const el=Math.min(days(S.start,today()),days(S.start,S.deadline)+1),p=perDay();
+  const el=Math.max(0,Math.min(days(S.start,today()),days(S.start,S.deadline)+1)),p=perDay(); // never before the start, even if the deadline is
   return {by:Math.floor(S.startDone+p*el),through:Math.ceil(S.startDone+p*(el+1)),share:Math.ceil(p)};
 }
 function pace(){ // vs that line; today's portion counts as on track
@@ -622,7 +622,7 @@ function todayView(){
   <section class="leaf clear" aria-label="Next chapter">${nx?`
     <h1 class=station style=--w:${ww(nx[0])}>${nx[0]} ${nx[1]}</h1>
     <p class="meta mono">${bed(nx[2])[1]} · ${met?"today's reading done":`${t+1} of ${g} today`}</p>
-    <p class=lede>${met?`You've read ${plural(t,'chapter')} today. Keep going if you like.`:`${g-t} left today, about ${mins(g-t)} minutes${catchup?`: ${plural(share,'chapter')} for today and ${num(catchup)} to catch up`:''}.`}${(lf=>lf>=1&&lf<=3?` ${plural(lf,'chapter')} to finish ${BOOKS[nx[2]][0]}.`:'')(toFinish(nx[2]))}</p>
+    <p class=lede>${met?`You've read ${plural(t,'chapter')} today. Keep going if you like.`:`${g-t} left ${catchup&&t?`of today's ${g}`:'today'}, about ${mins(g-t)} minutes${catchup?`: ${plural(share,'chapter')} for today and ${num(catchup)} to catch up`:''}.`}${(lf=>lf>=1&&lf<=3?` ${plural(lf,'chapter')} to finish ${BOOKS[nx[2]][0]}.`:'')(toFinish(nx[2]))}</p>
     <button class="go${met?' ghost':''}" onclick="go('reader')">${met?'Keep reading:':'Read'} ${nx[0]} ${nx[1]}${icon('arrow')}</button>`:`
     <h1 class=station>The whole Bible, read</h1>
     <p class=lede>You've read all 1,189 chapters. Every band on the index is full.</p>${journeyHTML()}`}
@@ -815,7 +815,7 @@ function backupHTML(){ // Settings and the first screen share it: Drive when it'
     <button class="go ghost" onclick=this.nextElementSibling.click()>Restore from a backup file</button><input type=file hidden accept=".txt,.json,text/plain,application/json" onchange=restoreFile(this)></div>
     ${AU?`<p class=kmeta><button class=link-btn onclick=signOut()>Sign out</button><button class=link-btn onclick=deleteAccount()>Delete my account</button></p>`:''}`;
 }
-function setDeadline(v){if(v){Object.assign(S,{deadline:v,start:today(),startDone:count()-todayN()});save()}}
+function setDeadline(v){if(v&&v>=today()){Object.assign(S,{deadline:v,start:today(),startDone:count()-todayN()});save()}}
 function undo(){const i=S.day.idx.pop();setRead(i,false);S.log[today()]--;save();render()} // only offered when something was read today
 function reset(){if(confirm('Erase all progress? This cannot be undone.')){localStorage.removeItem(KEY);S=null;seenT=null;touch();go('today')}}
 
@@ -1013,7 +1013,7 @@ function readerView(){
   const tail=again?'':left===1?` · finishes ${b}`:left-1>=1&&left-1<=3?` · ${num(left-1)} more to finish ${b}`:nx?` · next: ${nx[0]} ${nx[1]}`:''; // near a book's end, the pull to finish it
   const first=!readIn(bi),intro=`<section class="leaf intro" hidden><details${first?' open':''}></details></section>`; // starting a book: its introduction comes before the text
   $.innerHTML=`${metLine?`<p class=gone role=status>${metLine}</p>`:''}<div class=rbar><div class=rrow><button class=icon-btn onclick="go('today')" aria-label="Back to Today">${icon('back')}</button>
-    <span class=pos>${again?'Read before':t<g?`${t+1} of ${g} today`:'Extra chapter'}</span>
+    <span class=pos>${again?'Read before':t<g?`${t+1} of ${g} today`:pace().cls==='late'?'Catching up':'Extra chapter'}</span>
     <span class=rtools>${moon()}${window.speechSynthesis?`<button class=icon-btn aria-pressed=false aria-label="Listen to this chapter" onclick=listen(this)>${icon('listen')}</button>`:''}</span></div>
     <div class=vstrip role=slider tabindex=0 aria-label="Verses. Tap or drag along the bars, or use the arrow keys, to jump to a verse" aria-valuemin=0 aria-valuenow=0></div></div>
   <header class="leaf clear opener"><h1 class=station style=--w:${ww(b)}>${b}<span class=sr> ${c}</span></h1>
@@ -1193,11 +1193,11 @@ function finish(btn){
   if(turning)return;
   metLine=null;
   const d=today(),i=cur(),bi=CH[i][2];
-  if(isRead(i)){const n=nextIn(S.read,i+1);if(n>=CH.length)return go('today');at=n;return go('reader')} // read before: nothing new to record, carry on to the next unread
+  if(isRead(i)){const n=(n=>n<CH.length?n:nextIdx())(nextIn(S.read,i+1));if(n>=CH.length)return go('today');at=n;return go('reader')} // read before: nothing new to record, carry on to the next unread
   stepped={bi,from:readIn(bi)/BOOKS[bi][1]};
   setRead(i,true);S.log[d]=(S.log[d]||0)+1;S.at[d]=i;
   if(S.day?.d!==d)S.day={d,idx:[]};S.day.idx.push(i);save();
-  const n=nextIn(S.read,i+1);at=n<CH.length?n:null; // carry on from here: the next unread chapter after this one
+  const n=nextIn(S.read,i+1);at=n<CH.length?n:nextIdx()<CH.length?nextIdx():null; // carry on from here, or wrap back to the plan's first unread
   const li=BED_OF[bi],run=streak(); // something worth marking: the whole Bible, a division, a book, or a run reaching a milestone
   cheer=count()===CH.length?{k:'bible'}:bookDone(bi)?{k:divDone(li)?'div':'book',bi,li}:S.log[d]===1&&[7,30,100,365].includes(run)?{k:'run',n:run}:null;
   const next=!cheer&&at!=null?'reader':'today'; // carry on to the next chapter, unless there's something to mark on Today

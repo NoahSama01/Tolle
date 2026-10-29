@@ -49,7 +49,7 @@ async function seed(o) {
     const plus=n=>{const d=new Date();d.setDate(d.getDate()+n);return iso(d)};
     const elapsed=${o.elapsed ?? 10},n=${before + todayN},t=iso(new Date());
     const S={read:'1'.repeat(n)+'0'.repeat(1189-n),day:{d:t,idx:Array.from({length:${todayN}},(_,k)=>${before}+k)},
-      deadline:plus(-elapsed+99),log:${todayN} ? {[t]:${todayN}} : {},at:{},start:plus(-elapsed),startDone:189,tr:'web',rate:1};
+      deadline:plus(-elapsed+${o.deadlineFromStart ?? 99}),log:${todayN} ? {[t]:${todayN}} : {},at:{},start:plus(-elapsed),startDone:189,tr:'web',rate:1};
     localStorage.clear();localStorage.setItem('tolle-theme','light');localStorage.setItem('bible-plan',JSON.stringify(S));
   })()`);
   await load(`${ORIGIN}/`);
@@ -106,6 +106,18 @@ test("finish_last_chapter", { before: 1188, ...done }, async () => { await expec
 test("reader_finish_pull", { joshuaLeft: 2, act: "go('reader')" }, async () => { await expectText(".actbar .go", /1 more to finish Joshua/); });
 test("reader_finishes_book", { joshuaLeft: 1, act: "go('reader')" }, async () => { await expectText(".actbar .go", /finishes Joshua/); });
 test("today_finish_pull", { joshuaLeft: 3, act: "go('today')" }, async () => { await expectText(".lede", /3 chapters to finish Joshua\.$/); });
+
+// ---- Final review fixes
+// 30 behind at the start of today (goal 20, capped catch-up), then 25 read: still 5 behind, so nothing is "extra"
+test("behind_no_extra", { before: 259, todayN: 25, act: "go('today')" }, async () => { await expect("pace().text", "5 behind"); await expect("extraToday()", 0); await expect("document.querySelector('#stops-h .extra')", null); });
+test("behind_reader_label", { before: 259, todayN: 25, act: "go('reader')" }, async () => { await expectText(".pos", "Catching up"); });
+// Done on the Bible's last chapter, opened out of order, carries on to the plan's next unread chapter
+test("done_wraps_to_plan", { before: 289, act: "openCh(1188);finish()", wait: 700 }, async () => { await expect("view", "reader"); await expect("cur()", 289); });
+// partway through a catch-up day the line still adds up
+test("lede_partly_read", { before: 279, todayN: 8, act: "go('today')" }, async () => { await expectText(".lede", "12 left of today's 20, about 42 minutes: 10 chapters for today and 10 to catch up."); });
+// a deadline before the plan's start gives sane numbers, and a past date can't be set
+test("deadline_before_start", { before: 289, deadlineFromStart: -5 }, async () => { await expect("pace()", { cls: "ok", text: "On track" }); await expect("goal()<=900", true); });
+test("set_past_deadline_ignored", { before: 289, act: "window._d=S.deadline;setDeadline('2000-01-01')" }, async () => { await expect("S.deadline===window._d", true); });
 
 try {
   await send("Page.enable");
