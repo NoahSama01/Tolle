@@ -536,6 +536,7 @@ function stepBand(){ // the moment's second half: that book's band on the rail (
 }
 
 let view='today',seenT=null,entering=true,turning=false;
+let metLine=null; // the line at the top of the reader on the Done that met today's goal; gone on the next Done or on leaving
 const wide=matchMedia('(min-width:1200px)');wide.onchange=()=>{if(view==='today')render()}; // the Index column on Today exists only where it shows
 matchMedia('(prefers-color-scheme: dark)').onchange=()=>{theme();if(S)render()}; // the phone switched: follow it unless the reader chose
 const moon=()=>{const dark=document.documentElement.dataset.theme==='dark';return `<button class=icon-btn aria-label="${dark?'Switch to day':'Switch to night'}" onclick=flipNight(this)>${icon(dark?'sun':'moon')}</button>`};
@@ -548,7 +549,7 @@ let at=null,jv=null; // a chapter opened from the Index, Kept or a verse (and th
 const cur=()=>at??nextIdx();
 function openCh(i,v){at=i;jv=v||null;go('reader')}
 function go(v,popped){
-  sel=null;if(v!=='kept')gone=null;if(v!=='reader')at=jv=null;if(v!=='today')flash=cheer=null;
+  sel=null;if(v!=='kept')gone=null;if(v!=='reader')at=jv=metLine=null;if(v!=='today')flash=cheer=null;
   if(!popped&&S){if(view==='today'&&v!=='today')history.pushState({v},'');else if(v==='today'&&history.state?.v)return history.back();else if(v!==view)history.replaceState({v},'')}
   hush();onscroll=null;view=v;entering=true;render();
 }
@@ -1007,9 +1008,9 @@ async function prefetch(){
 }
 
 function readerView(){
-  const i=cur(),[b,c,bi]=CH[i],again=isRead(i),t=todayN(),g=goal(),nx=again?null:CH[nextIn(S.read,i+1)],more=nx&&t+1<g;
+  const i=cur(),[b,c,bi]=CH[i],again=isRead(i),t=todayN(),g=goal(),nx=again?null:CH[nextIn(S.read,i+1)];
   const first=!readIn(bi),intro=`<section class="leaf intro" hidden><details${first?' open':''}></details></section>`; // starting a book: its introduction comes before the text
-  $.innerHTML=`<div class=rbar><div class=rrow><button class=icon-btn onclick="go('today')" aria-label="Back to Today">${icon('back')}</button>
+  $.innerHTML=`${metLine?`<p class=gone role=status>${metLine}</p>`:''}<div class=rbar><div class=rrow><button class=icon-btn onclick="go('today')" aria-label="Back to Today">${icon('back')}</button>
     <span class=pos>${again?'Read before':t<g?`${t+1} of ${g} today`:'Extra chapter'}</span>
     <span class=rtools>${moon()}${window.speechSynthesis?`<button class=icon-btn aria-pressed=false aria-label="Listen to this chapter" onclick=listen(this)>${icon('listen')}</button>`:''}</span></div>
     <div class=vstrip role=slider tabindex=0 aria-label="Verses. Tap or drag along the bars, or use the arrow keys, to jump to a verse" aria-valuemin=0 aria-valuenow=0></div></div>
@@ -1022,7 +1023,7 @@ function readerView(){
   <section class="leaf recall" aria-labelledby=rc-h hidden></section>
   ${first?'':intro}
   <section class="leaf why" hidden></section>
-  <div class=actbar><div class=vbar hidden>${HUES.map(([id,name],k)=>`<button class=hl style="--c:var(--${id})" aria-label="Highlight ${name}" aria-pressed=false onclick=mark(${k+1})></button>`).join('')}<button class=keep id=notebtn onclick="noteSheet(selAt.bi,selAt.c,+sel.dataset.v,sel.dataset.t)">Note</button></div><button class=keep aria-pressed=false hidden onclick=keep(this)></button><button class=go onclick=finish(this)><span>Done${more?`<span class=nx> · next: ${nx[0]} ${nx[1]}</span>`:''}</span>${icon('check')}</button></div>
+  <div class=actbar><div class=vbar hidden>${HUES.map(([id,name],k)=>`<button class=hl style="--c:var(--${id})" aria-label="Highlight ${name}" aria-pressed=false onclick=mark(${k+1})></button>`).join('')}<button class=keep id=notebtn onclick="noteSheet(selAt.bi,selAt.c,+sel.dataset.v,sel.dataset.t)">Note</button></div><button class=keep aria-pressed=false hidden onclick=keep(this)></button><button class=go onclick=finish(this)><span>Done${nx?`<span class=nx> · next: ${nx[0]} ${nx[1]}</span>`:''}</span>${icon('check')}</button></div>
   ${chSheet(i)}`;
   const [txt,box,sum,vc,quiz,strip,look,about]=['.scripture','.why','.sum','.vc','.recall','.vstrip','.look','.intro'].map(q=>$.querySelector(q)); // grab now: the reader may leave before fetches return
   const textP=passage(`${b} ${c}`),noteP=insights(b);
@@ -1188,15 +1189,17 @@ function listen(btn){ // one utterance per verse, so the current verse can be hi
 }
 function finish(btn){
   if(turning)return;
+  metLine=null;
   const d=today(),i=cur(),bi=CH[i][2];
-  if(isRead(i))return go('today'); // a chapter read before: nothing new to record
+  if(isRead(i)){const n=nextIn(S.read,i+1);if(n>=CH.length)return go('today');at=n;return go('reader')} // read before: nothing new to record, carry on to the next unread
   stepped={bi,from:readIn(bi)/BOOKS[bi][1]};
   setRead(i,true);S.log[d]=(S.log[d]||0)+1;S.at[d]=i;
   if(S.day?.d!==d)S.day={d,idx:[]};S.day.idx.push(i);save();
   const n=nextIn(S.read,i+1);at=n<CH.length?n:null; // carry on from here: the next unread chapter after this one
   const li=BED_OF[bi],run=streak(); // something worth marking: the whole Bible, a division, a book, or a run reaching a milestone
   cheer=count()===CH.length?{k:'bible'}:bookDone(bi)?{k:divDone(li)?'div':'book',bi,li}:S.log[d]===1&&[7,30,100,365].includes(run)?{k:'run',n:run}:null;
-  const next=!cheer&&at!=null&&S.log[d]<goal()?'reader':'today'; // keep reading until today's goal is met, unless there's something to mark
+  const next=!cheer&&at!=null?'reader':'today'; // carry on to the next chapter, unless there's something to mark on Today
+  if(next==='reader'&&S.log[d]===goal()){const r=streak();metLine=`Today's reading is done. ${num(r)} ${r==1?'day':'days'} in a row. Keep going?`}
   navigator.vibrate?.(cheer?[12,70,12,70,40]:12);btn?.classList.add('punched');$.querySelectorAll('.vstrip i').forEach(c=>c.classList.add('on'));
   const shut=step($.querySelectorAll('.opener,.scripture'),'perspective(900px) rotateY(-75deg)','0 50%',true); // the leaves hinge shut at the punched edge
   if(!shut.length)return go(next);

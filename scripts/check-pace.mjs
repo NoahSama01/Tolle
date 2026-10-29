@@ -94,6 +94,14 @@ test("today_ahead_slip", { before: 289, todayN: 13, ...today }, async () => { aw
 test("today_extra_tag", { before: 289, todayN: 13, ...today }, async () => { await expectText("#stops-h .extra", "+3 extra"); });
 test("today_no_extra_when_short", { before: 289, todayN: 4, ...today }, async () => { await expect("document.querySelector('#stops-h .extra')", null); });
 
+// ---- Task 3: Done carries on to the next chapter, and marks the day's goal there
+const done = { act: "go('reader');finish()", wait: 700 };
+test("done_after_goal_goes_next", { before: 289, todayN: 10, ...done }, async () => { await expect("view", "reader"); await expect("cur()", 300); }); // 0–298 read; Done on 299 lands on 300
+test("done_reaching_goal_marks_it", { before: 289, todayN: 9, ...done }, async () => { await expect("view", "reader"); await expectText(".gone", /^Today's reading is done\. \d+ days? in a row\. Keep going\?$/); });
+test("done_before_goal_no_mark", { before: 289, todayN: 2, ...done }, async () => { await expect("view", "reader"); await expect("document.querySelector('.gone')", null); });
+test("done_on_read_before", { before: 289, act: "openCh(5);finish()", wait: 700 }, async () => { await expect("todayN()", 0); await expect("view", "reader"); await expect("cur()", 289); });
+test("finish_last_chapter", { before: 1188, ...done }, async () => { await expect("view", "today"); await expectText(".status", "Complete"); });
+
 try {
   await send("Page.enable");
   for (const t of tests) {
