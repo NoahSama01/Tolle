@@ -102,6 +102,11 @@ test("done_before_goal_no_mark", { before: 289, todayN: 2, ...done }, async () =
 test("done_on_read_before", { before: 289, act: "openCh(5);finish()", wait: 700 }, async () => { await expect("todayN()", 0); await expect("view", "reader"); await expect("cur()", 289); });
 test("finish_last_chapter", { before: 1188, ...done }, async () => { await expect("view", "today"); await expectText(".status", "Complete"); });
 
+// ---- Task 4: the pull to finish a book (Joshua: chapters 187–210)
+test("reader_finish_pull", { joshuaLeft: 2, act: "go('reader')" }, async () => { await expectText(".actbar .go", /1 more to finish Joshua/); });
+test("reader_finishes_book", { joshuaLeft: 1, act: "go('reader')" }, async () => { await expectText(".actbar .go", /finishes Joshua/); });
+test("today_finish_pull", { joshuaLeft: 3, act: "go('today')" }, async () => { await expectText(".lede", /3 chapters to finish Joshua\.$/); });
+
 try {
   await send("Page.enable");
   for (const t of tests) {
