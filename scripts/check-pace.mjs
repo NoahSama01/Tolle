@@ -18,11 +18,15 @@ const server = http.createServer((req, res) => {
 }).listen(0);
 const ORIGIN = `http://127.0.0.1:${server.address().port}`;
 
-const DBG = 9361, profile = fs.mkdtempSync(path.join(os.tmpdir(), "tolle-check-"));
+// a fresh port and profile every run, and the whole Chrome process tree killed at the end
+// (on Windows, killing the launcher alone can leave its children holding the profile)
+const DBG = 9400 + Math.floor(Math.random() * 500), profile = fs.mkdtempSync(path.join(os.tmpdir(), "tolle-check-"));
 const chrome = spawn("C:/Program Files/Google/Chrome/Application/chrome.exe",
   ["--headless=new", `--remote-debugging-port=${DBG}`, `--user-data-dir=${profile}`, "--no-first-run", "about:blank"], { stdio: "ignore" });
+const killChrome = () => { try { spawn("taskkill", ["/pid", String(chrome.pid), "/T", "/F"], { stdio: "ignore" }); } catch { chrome.kill(); } };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 let ver; for (let i = 0; i < 150 && !ver; i++) { try { ver = await (await fetch(`http://127.0.0.1:${DBG}/json/version`)).json(); } catch { await sleep(200); } }
+if (!ver) { console.log(`FAIL setup: Chrome did not open its debugging port ${DBG}`); killChrome(); server.close(); process.exit(1); }
 const tgt = await (await fetch(`http://127.0.0.1:${DBG}/json/new?about:blank`, { method: "PUT" })).json();
 const ws = new WebSocket(tgt.webSocketDebuggerUrl); await new Promise((r) => ws.addEventListener("open", r));
 let id = 0; const wait = {};
@@ -91,5 +95,5 @@ try {
     if (ok) console.log(`PASS ${t.name}`); else failed++;
   }
   console.log(`${tests.length - failed}/${tests.length} passed`);
-} finally { ws.close(); chrome.kill(); server.close(); }
+} finally { ws.close(); killChrome(); server.close(); }
 process.exit(failed ? 1 : 0);
