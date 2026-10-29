@@ -476,17 +476,30 @@ const save=()=>{localStorage.setItem(KEY,JSON.stringify(S));touch()};
 const todayN=()=>S.log[today()]||0;
 const todayIdx=()=>S.day?.d===today()?S.day.idx:[]; // chapters read in the app today, in the order read
 const daysLeft=()=>Math.max(1,days(today(),S.deadline)+1);
-// recomputed daily from what's left, so a missed day raises tomorrow's goal; stable within a day
-const goal=()=>Math.ceil((CH.length-count()+todayN())/daysLeft());
+// today's goal: the day's share plus a catch-up for chapters missed so far (at most the share again, so a long gap is
+// made up over several days); everything is measured from the start of today, so the goal holds steady while you read
+const behindToday=()=>Math.max(0,paceLine().by-(count()-todayN()));
+function goalParts(){
+  const left=CH.length-(count()-todayN()),base=Math.ceil(left/daysLeft()),b=behindToday();
+  if(!b)return {share:Math.min(base,left),catchup:0};
+  let share=paceLine().share,catchup=Math.max(Math.min(b,share),base-share);
+  catchup=Math.max(0,Math.min(catchup,left-share));share=Math.min(share,left); // never more than what's left
+  return {share,catchup};
+}
+const goal=()=>{const g=goalParts();return g.share+g.catchup};
+const extraToday=()=>Math.max(0,todayN()-goal());
 function streak(){let n=0,d=new Date();if(!S.log[iso(d)])d.setDate(d.getDate()-1);for(;S.log[iso(d)];d.setDate(d.getDate()-1))n++;return n}
 function bestRun(){let best=0,run=0,prev;for(const d of Object.keys(S.log).filter(d=>S.log[d]).sort()){run=prev&&days(prev,d)===1?run+1:1;best=Math.max(best,run);prev=d}return best} // the longest unbroken run of reading days
 const bookDone=bi=>readIn(bi)===BOOKS[bi][1],booksDone=()=>BOOKS.filter((_,bi)=>bookDone(bi)).length;
 const divDone=li=>BOOKS.every((_,bi)=>BED_OF[bi]!==li||bookDone(bi));
-const perDay=()=>(CH.length-S.startDone)/(days(S.start,S.deadline)+1);
-function pace(){ // vs a straight line from plan start to deadline; today's portion counts as on track
-  const el=Math.min(days(S.start,today()),days(S.start,S.deadline)+1);
-  const by=Math.floor(S.startDone+perDay()*el),through=Math.ceil(S.startDone+perDay()*(el+1));
-  const n=count();return n<by?{cls:'late',text:`${by-n} behind`}:n>through?{cls:'ahead',text:`${n-through} ahead`}:{cls:'ok',text:'On track'};
+const perDay=()=>(CH.length-S.startDone)/Math.max(1,days(S.start,S.deadline)+1);
+function paceLine(){ // the straight line from plan start to deadline: where you should be at the start and the end of today
+  const el=Math.min(days(S.start,today()),days(S.start,S.deadline)+1),p=perDay();
+  return {by:Math.floor(S.startDone+p*el),through:Math.ceil(S.startDone+p*(el+1)),share:Math.ceil(p)};
+}
+function pace(){ // vs that line; today's portion counts as on track
+  const {by,through}=paceLine(),n=count();
+  return n<by?{cls:'late',text:`${by-n} behind`}:n>through?{cls:'ahead',text:`${n-through} ahead`}:{cls:'ok',text:'On track'};
 }
 
 // the board takes the current division's hue; the leaf over it is milk at the alpha solved for that hue
