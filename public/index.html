@@ -56,6 +56,8 @@ body[data-view=setup] .rail{display:none}
 @media(hover:hover){.mark:hover{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px}}
 .status{margin:0;padding:.35rem .6rem;border:1.5px solid currentColor;border-radius:2px;font:500 .75rem var(--mono);letter-spacing:.04em;text-transform:uppercase;white-space:nowrap}
 .status.late{border-color:var(--errata);background:var(--errata);color:var(--errata-ink)} /* an errata slip */
+.status.ahead{border-color:var(--ink);background:var(--ink);color:var(--milk)} /* its counterpart: an ink slip, readable on every board */
+.extra{margin-left:.5rem;padding:.15rem .45rem;border-radius:2px 2px 0 0;background:var(--ink);color:var(--milk);font:500 .6875rem var(--mono);letter-spacing:0;text-transform:uppercase;vertical-align:.1em} /* extra chapters today: a tab on the heading, like a note's kind */
 
 /* the next chapter, set like a section head on the top ply */
 .station{margin:0 0 .6rem;font:800 min(2.6rem,calc(100cqi / (var(--w,7) * .6)))/.95 var(--head);font-stretch:72%;letter-spacing:-.005em;text-transform:uppercase;text-wrap:balance}
@@ -611,20 +613,20 @@ function start(){
 }
 
 function todayView(){
-  const g=goal(),t=todayN(),nx=CH[nextIdx()],p=nx?pace():{cls:'ahead',text:'Complete'},done=todayIdx();
+  const g=goal(),t=todayN(),nx=CH[nextIdx()],p=nx?pace():{cls:'ahead',text:'Complete'},done=todayIdx(),{share,catchup}=goalParts(),extra=extraToday();
   const stops=[...done,...upcoming(Math.max(g-done.length,1))].map(i=>CH[i]),met=t>=g; // today's chapters, plus the next one once the goal is met
   return `<header class=top><a class=mark href=landing.html>Tolle</a><p class="status ${p.cls}">${p.text}</p></header>${flash?`<p class=gone role=status>${flash}</p>`:''}
   <div class=split><div>${cheerHTML()}
   <section class="leaf clear" aria-label="Next chapter">${nx?`
     <h1 class=station style=--w:${ww(nx[0])}>${nx[0]} ${nx[1]}</h1>
     <p class="meta mono">${bed(nx[2])[1]} · ${met?"today's reading done":`${t+1} of ${g} today`}</p>
-    <p class=lede>${met?`You've read ${plural(t,'chapter')} today. Keep going if you like.`:`${g-t} left today, about ${mins(g-t)} minutes.`}</p>
+    <p class=lede>${met?`You've read ${plural(t,'chapter')} today. Keep going if you like.`:`${g-t} left today, about ${mins(g-t)} minutes${catchup?`: ${plural(share,'chapter')} for today and ${num(catchup)} to catch up`:''}.`}</p>
     <button class="go${met?' ghost':''}" onclick="go('reader')">${met?'Keep reading:':'Read'} ${nx[0]} ${nx[1]}${icon('arrow')}</button>`:`
     <h1 class=station>The whole Bible, read</h1>
     <p class=lede>You've read all 1,189 chapters. Every band on the index is full.</p>${journeyHTML()}`}
   </section>
   ${dailyHTML()}
-  ${nx?`<section class=leaf aria-labelledby=stops-h><h2 id=stops-h>Today's chapters</h2>
+  ${nx?`<section class=leaf aria-labelledby=stops-h><h2 id=stops-h>Today's chapters${extra?`<span class=extra>+${num(extra)} extra</span>`:''}</h2>
     <ol class=stops>${stops.map((s,i)=>stopRow(s,i,done.length,stops[i+1])).join('')}</ol></section>`:''}
   <section class=leaf aria-labelledby=log-h><h2 id=log-h>Reading log</h2>${runHTML()}${calendar()}
     <p class=facts><span>${num(count())} / 1,189 chapters</span><span>Finish ${fmtDate(S.deadline)}</span></p>

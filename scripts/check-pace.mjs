@@ -50,7 +50,7 @@ async function seed(o) {
     const elapsed=${o.elapsed ?? 10},n=${before + todayN},t=iso(new Date());
     const S={read:'1'.repeat(n)+'0'.repeat(1189-n),day:{d:t,idx:Array.from({length:${todayN}},(_,k)=>${before}+k)},
       deadline:plus(-elapsed+99),log:${todayN} ? {[t]:${todayN}} : {},at:{},start:plus(-elapsed),startDone:189,tr:'web',rate:1};
-    localStorage.clear();localStorage.setItem('bible-plan',JSON.stringify(S));
+    localStorage.clear();localStorage.setItem('tolle-theme','light');localStorage.setItem('bible-plan',JSON.stringify(S));
   })()`);
   await load(`${ORIGIN}/`);
   if (o.act) { await js(o.act); await sleep(o.wait ?? 0); }
@@ -86,6 +86,13 @@ test("ahead_extra", { before: 289, todayN: 13 }, async () => { await expect("goa
 test("goal_stable_within_day", { before: 279, todayN: 3 }, async () => { await expect("goal()", 20); });
 test("deadline_today", { before: 1100, elapsed: 99 }, async () => { await expect("goal()", 89); await expect("Number.isFinite(goal())", true); });
 test("deadline_past", { before: 1180, elapsed: 120 }, async () => { await expect("goal()", 9); await expect("goal()<=1189-1180", true); });
+
+// ---- Task 2: Today shows the catch-up, an ahead slip, and extra chapters
+const today = { act: "go('today')" };
+test("today_shows_catchup", { before: 279, ...today }, async () => { await expectText(".lede", "20 left today, about 70 minutes: 10 chapters for today and 10 to catch up."); });
+test("today_ahead_slip", { before: 289, todayN: 13, ...today }, async () => { await expectText(".status.ahead", "3 ahead"); await expectCss(".status.ahead", "background-color", "rgb(21, 21, 21)"); });
+test("today_extra_tag", { before: 289, todayN: 13, ...today }, async () => { await expectText("#stops-h .extra", "+3 extra"); });
+test("today_no_extra_when_short", { before: 289, todayN: 4, ...today }, async () => { await expect("document.querySelector('#stops-h .extra')", null); });
 
 try {
   await send("Page.enable");
