@@ -128,6 +128,15 @@ test("web_text_builtin", {}, async () => { await expect(noApi("Genesis 1:2-3"), 
 test("web_text_one_chapter_book", {}, async () => { await expect(noApi("Jude 1").replace("[j.verses.map(v=>v.verse).join(),", "[j.verses.length,"), [25, "Jude, a servant of Jesus Christ, and bro"]); });
 test("web_text_single_verse", {}, async () => { await expect(noApi("Psalms 23:1"), ["1", "Yahweh is my shepherd: I shall lack noth"]); });
 
+// ---- The landing page shows everyone's totals from the backend, and nothing below the privacy floor
+async function landingWith(reply) {
+  const { result } = await send("Page.addScriptToEvaluateOnNewDocument", { source: `window.fetch=async u=>String(u).includes('reader_totals')?{ok:true,json:async()=>(${JSON.stringify(reply)})}:Promise.reject()` });
+  await load(`${ORIGIN}/landing.html`); await sleep(200);
+  await send("Page.removeScriptToEvaluateOnNewDocument", { identifier: result.identifier });
+}
+test("landing_totals", {}, async () => { await landingWith({ readers: 56, chapters: 12345, week: 1234, finished: 2 }); await expectText("#all", "Together · 12,345 chapters read · 1,234 this week · 56 readers · 2 finished the whole Bible"); });
+test("landing_totals_floor", {}, async () => { await landingWith({ readers: 3, chapters: null, week: null, finished: null }); await expect("document.getElementById('all')?.hidden", true); });
+
 try {
   await send("Page.enable");
   for (const t of tests) {

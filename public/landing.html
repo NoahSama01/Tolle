@@ -123,6 +123,7 @@ footer p+p{margin-top:.4rem}
     <h1>The whole Bible, by your date.</h1>
     <p class="lede">Pick the day you want to finish. Tolle divides what's left into a few chapters a day, in whatever order you've read so far.</p>
     <p class="mono mine" id="mine" hidden></p>
+    <p class="mono mine" id="all" hidden></p>
     <div class="ctas">
       <a class="go" id="start" href="./">Plan your reading<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
       <a class="ghost" href="#how">See how it works</a>
@@ -214,6 +215,7 @@ footer p+p{margin-top:.4rem}
 <footer class="wrap">
   <p>Scripture text: the World English Bible, built in, and other public-domain translations via bible-api.com and bible.helloao.org.</p>
   <p>Why &amp; How notes are AI-written. Check them against your own study.</p>
+  <p>Reader totals count readers who sign in to sync, and appear once there are at least five.</p>
   <p><a href="privacy.html">Privacy</a></p>
 </footer>
 
@@ -233,6 +235,14 @@ if(read){
   every.ariaLabel=`All 1,189 chapters of the Bible, coloured by division; the ${done.toLocaleString()} you've read are filled`;
   key.textContent=`Your index: the ${done.toLocaleString()} filled chapters are the ones you've read`;key.hidden=false;
 }
+
+// everyone's reading, added up by the backend; no totals at all until 5 readers have synced
+fetch('https://wvzfjqblglbtyjcnklym.supabase.co/rest/v1/rpc/reader_totals',{method:'POST',headers:{apikey:'sb_publishable_5e2eMODJEOTuvJmaWo70ZQ_IgQLb00L','Content-Type':'application/json'},body:'{}'})
+  .then(r=>r.ok?r.json():null).then(t=>{
+    if(!t?.chapters)return;
+    const f=n=>n.toLocaleString('en-US');
+    all.textContent=`Together · ${f(t.chapters)} chapters read · ${f(t.week)} this week · ${f(t.readers)} readers${t.finished?` · ${f(t.finished)} finished the whole Bible`:''}`;all.hidden=false;
+  }).catch(()=>{}); // offline or not set up yet: the page simply goes without
 
 // try it: ticked books fill the flat index
 function drawStrip(){
