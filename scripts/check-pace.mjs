@@ -122,6 +122,12 @@ test("extra_tag_spaced", { before: 289, todayN: 13, ...today }, async () => { aw
 test("met_line_announced", { before: 289, todayN: 9, ...done }, async () => { await expect("document.querySelector('#app #told')", null); await expectText("#told", /^Today's reading is done\./); await expect("document.querySelector('.gone[role]')", null); });
 test("set_past_deadline_ignored", { before: 289, act: "window._d=S.deadline;setDeadline('2000-01-01')" }, async () => { await expect("S.deadline===window._d", true); });
 
+// ---- The WEB text ships with the app: no call to bible-api.com
+const noApi = (ref) => `(async()=>{const f=window.fetch;window.fetch=u=>String(u).includes('bible-api')?Promise.reject(new Error('api')):f(u);try{const j=await passage(${JSON.stringify(ref)});return [j.verses.map(v=>v.verse).join(),j.text.replace(/\\s+/g,' ').trim().slice(0,40)]}finally{window.fetch=f}})()`;
+test("web_text_builtin", {}, async () => { await expect(noApi("Genesis 1:2-3"), ["2,3", "The earth was formless and empty. Darkne"]); });
+test("web_text_one_chapter_book", {}, async () => { await expect(noApi("Jude 1").replace("[j.verses.map(v=>v.verse).join(),", "[j.verses.length,"), [25, "Jude, a servant of Jesus Christ, and bro"]); });
+test("web_text_single_verse", {}, async () => { await expect(noApi("Psalms 23:1"), ["1", "Yahweh is my shepherd: I shall lack noth"]); });
+
 try {
   await send("Page.enable");
   for (const t of tests) {

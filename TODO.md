@@ -43,7 +43,7 @@ Everything deferred so far, grouped by when it matters. Tick items off as they l
 - [ ] Email sign-in once there's a domain and an email service (Resend or Postmark).
 
 ## Bible text
-- [ ] Build the English text into the app, so chapters open offline from the first read and never depend on bible-api.com (which limits requests per internet connection).
+- [x] Build the World English Bible into the app (`public/text/web/`, built by `scripts/webtext.py`): it opens offline once a book is read and never depends on bible-api.com. Other English translations still come from bible-api.com.
 - [ ] If English ever moves to bible.helloao.org: its WEB says "the LORD" where ours says "Yahweh" (the notes are checked against "Yahweh"), and its Douay-Rheims uses old Latin psalm numbers.
 
 ## Languages (Hindi, Tamil, Malayalam, Telugu)

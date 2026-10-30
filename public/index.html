@@ -438,11 +438,15 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 const slug=b=>b.toLowerCase().replaceAll(' ','-');
 const ok=r=>{if(!r.ok)throw 0;return r.json()};
 const ONE={Obadiah:21,Philemon:25,'2 John':13,'3 John':14,Jude:25}; // the one-chapter books and their verse counts
-function passage(ref){ // {text, verses:[{verse, text}]} for "Book C", "Book C:V" or "Book C:V-V", from either text service
-  const h=TR[S.tr][2];
+const WEB={}; // book -> promise of its built-in WEB text: one list of verse texts per chapter
+function passage(ref){ // {text, verses:[{verse, text}]} for "Book C", "Book C:V" or "Book C:V-V", built in or from either text service
+  const h=TR[S.tr][2],[,b,c,v1,v2]=ref.match(/^(.+) (\d+)(?::(\d+)(?:-(\d+))?)?$/),lo=+v1||0,hi=+(v2||v1)||1e3;
+  if(S.tr==='web')return (WEB[b]??=fetch(`text/web/${slug(b)}.json`).then(ok).catch(e=>{delete WEB[b];throw e})).then(bk=>{
+    const verses=bk[c-1].map((text,k)=>({verse:k+1,text})).filter(v=>v.verse>=lo&&v.verse<=hi);
+    return {verses,text:verses.map(v=>v.text).join('')};
+  });
   const one=ONE[ref.replace(/ 1$/,'')]; // bible-api reads "Jude 1" as verse 1, so a one-chapter book asks for every verse
   if(!h)return fetch(`https://bible-api.com/${encodeURIComponent(one?`${ref}:1-${one}`:ref)}?translation=${S.tr}`).then(ok);
-  const [,b,c,v1,v2]=ref.match(/^(.+) (\d+)(?::(\d+)(?:-(\d+))?)?$/),lo=+v1||0,hi=+(v2||v1)||1e3;
   return fetch(`https://bible.helloao.org/api/${h}/${USFM[BOOKS.findIndex(([n])=>n===b)]}/${c}.json`).then(ok).then(j=>{
     const verses=j.chapter.content.filter(x=>x.type==='verse'&&x.number>=lo&&x.number<=hi) // pieces: text, poetry lines, line breaks, footnote marks
       .map(x=>({verse:x.number,text:x.content.map(p=>typeof p==='string'?p:p.text!=null?p.text+(p.poem?' ':''):p.lineBreak?' ':'').join('').replace(/\s+/g,' ').trim()}));
@@ -806,7 +810,7 @@ function settingsView(){
     ${backupHTML()}</section>
   ${reminderHTML()}
   <section class=leaf aria-labelledby=about-h><h2 id=about-h>About Tolle</h2>
-    <p class=about>The name comes from Augustine's "tolle lege": take up and read. Scripture text: English from public-domain translations via bible-api.com; Hindi, Tamil, Malayalam and Telugu via bible.helloao.org, credited under each chapter. The Why &amp; How notes are AI-written, so check them against your own study. <a href=privacy.html>Privacy: what Tolle keeps, and where</a>.</p></section>
+    <p class=about>The name comes from Augustine's "tolle lege": take up and read. Scripture text: the World English Bible, built in, and other public-domain English translations via bible-api.com; Hindi, Tamil, Malayalam and Telugu via bible.helloao.org, credited under each chapter. The Why &amp; How notes are AI-written, so check them against your own study. <a href=privacy.html>Privacy: what Tolle keeps, and where</a>.</p></section>
   <div class=danger-zone><button class=danger onclick=reset()>Erase all progress</button></div>`;
 }
 function backupHTML(){ // Settings and the first screen share it: Drive when it's set up, then the file
@@ -1005,7 +1009,7 @@ async function prefetch(){
   for(const [b,c] of upcoming(goal()-todayN()).map(i=>CH[i])){
     insights(b);
     await passage(`${b} ${c}`).catch(()=>{});
-    await new Promise(r=>setTimeout(r,2500)); // bible-api.com allows ~15 requests per 30s
+    if(S.tr!=='web')await new Promise(r=>setTimeout(r,2500)); // bible-api.com allows ~15 requests per 30s; the WEB is built in
   }
 }
 
