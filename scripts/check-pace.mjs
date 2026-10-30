@@ -117,6 +117,9 @@ test("done_wraps_to_plan", { before: 289, act: "openCh(1188);finish()", wait: 70
 test("lede_partly_read", { before: 279, todayN: 8, act: "go('today')" }, async () => { await expectText(".lede", "12 left of today's 20, about 42 minutes: 10 chapters for today and 10 to catch up."); });
 // a deadline before the plan's start gives sane numbers, and a past date can't be set
 test("deadline_before_start", { before: 289, deadlineFromStart: -5 }, async () => { await expect("pace()", { cls: "ok", text: "On track" }); await expect("goal()<=900", true); });
+// screen readers: a space before the extra tag, and the goal line said by a live region that outlives the view
+test("extra_tag_spaced", { before: 289, todayN: 13, ...today }, async () => { await expectText("#stops-h", "Today's chapters +3 extra"); });
+test("met_line_announced", { before: 289, todayN: 9, ...done }, async () => { await expect("document.querySelector('#app #told')", null); await expectText("#told", /^Today's reading is done\./); await expect("document.querySelector('.gone[role]')", null); });
 test("set_past_deadline_ignored", { before: 289, act: "window._d=S.deadline;setDeadline('2000-01-01')" }, async () => { await expect("S.deadline===window._d", true); });
 
 try {

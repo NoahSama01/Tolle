@@ -57,7 +57,7 @@ body[data-view=setup] .rail{display:none}
 .status{margin:0;padding:.35rem .6rem;border:1.5px solid currentColor;border-radius:2px;font:500 .75rem var(--mono);letter-spacing:.04em;text-transform:uppercase;white-space:nowrap}
 .status.late{border-color:var(--errata);background:var(--errata);color:var(--errata-ink)} /* an errata slip */
 .status.ahead{border-color:var(--ink);background:var(--ink);color:var(--milk)} /* its counterpart: an ink slip, readable on every board */
-.extra{margin-left:.5rem;padding:.15rem .45rem;border-radius:2px 2px 0 0;background:var(--ink);color:var(--milk);font:500 .6875rem var(--mono);letter-spacing:0;text-transform:uppercase;vertical-align:.1em} /* extra chapters today: a tab on the heading, like a note's kind */
+.extra{margin-left:.25rem;white-space:nowrap;padding:.15rem .45rem;border-radius:2px 2px 0 0;background:var(--ink);color:var(--milk);font:500 .6875rem var(--mono);letter-spacing:0;text-transform:uppercase;vertical-align:.1em} /* extra chapters today: a tab on the heading, like a note's kind */
 
 /* the next chapter, set like a section head on the top ply */
 .station{margin:0 0 .6rem;font:800 min(2.6rem,calc(100cqi / (var(--w,7) * .6)))/.95 var(--head);font-stretch:72%;letter-spacing:-.005em;text-transform:uppercase;text-wrap:balance}
@@ -392,6 +392,7 @@ body[data-view=reader] main{padding-bottom:6.5rem}
   <button data-v="settings" onclick="go('settings')"><svg class="ic" aria-hidden="true"><use href="#i-settings"/></svg>Settings</button>
 </nav>
 <main id="app" tabindex="-1"></main>
+<p id="told" class="sr" role="status"></p>
 <ol class="rail" id="rail" aria-label="Thumb index of the whole Bible"></ol>
 <div popover id=mynote class=gloss role=dialog aria-labelledby=mn-ref>
   <p class=gk>My note</p><p class=gname id=mn-ref></p>
@@ -562,7 +563,7 @@ function render(){
   if(!S)$.innerHTML=setupView();
   else if(view==='reader')readerView();
   else $.innerHTML=view==='route'?`<h1 class=title>The whole Bible</h1>${routeBody()}`:view==='settings'?settingsView():view==='kept'?keptView():todayView();
-  rail.innerHTML=S?railHTML():'';
+  rail.innerHTML=S?railHTML():'';told.textContent=metLine||''; // outside the view, so it's still read out after focus moves to the title
   for(const b of document.querySelectorAll('.tabs button'))b.dataset.v===view?b.setAttribute('aria-current','page'):b.removeAttribute('aria-current');
   const h=$.querySelector('h1');if(h){h.tabIndex=-1;h.focus({preventScroll:true})}
   document.title=h&&view!=='today'?`${h.textContent} · Tolle`:'Tolle';
@@ -628,7 +629,7 @@ function todayView(){
     <p class=lede>You've read all 1,189 chapters. Every band on the index is full.</p>${journeyHTML()}`}
   </section>
   ${dailyHTML()}
-  ${nx?`<section class=leaf aria-labelledby=stops-h><h2 id=stops-h>Today's chapters${extra?`<span class=extra>+${num(extra)} extra</span>`:''}</h2>
+  ${nx?`<section class=leaf aria-labelledby=stops-h><h2 id=stops-h>Today's chapters${extra?` <span class=extra>+${num(extra)} extra</span>`:''}</h2>
     <ol class=stops>${stops.map((s,i)=>stopRow(s,i,done.length,stops[i+1])).join('')}</ol></section>`:''}
   <section class=leaf aria-labelledby=log-h><h2 id=log-h>Reading log</h2>${runHTML()}${calendar()}
     <p class=facts><span>${num(count())} / 1,189 chapters</span><span>Finish ${fmtDate(S.deadline)}</span></p>
@@ -1012,7 +1013,7 @@ function readerView(){
   const i=cur(),[b,c,bi]=CH[i],again=isRead(i),t=todayN(),g=goal(),nx=again?null:CH[nextIn(S.read,i+1)],left=toFinish(bi);
   const tail=again?'':left===1?` · finishes ${b}`:left-1>=1&&left-1<=3?` · ${num(left-1)} more to finish ${b}`:nx?` · next: ${nx[0]} ${nx[1]}`:''; // near a book's end, the pull to finish it
   const first=!readIn(bi),intro=`<section class="leaf intro" hidden><details${first?' open':''}></details></section>`; // starting a book: its introduction comes before the text
-  $.innerHTML=`${metLine?`<p class=gone role=status>${metLine}</p>`:''}<div class=rbar><div class=rrow><button class=icon-btn onclick="go('today')" aria-label="Back to Today">${icon('back')}</button>
+  $.innerHTML=`${metLine?`<p class=gone>${metLine}</p>`:''}<div class=rbar><div class=rrow><button class=icon-btn onclick="go('today')" aria-label="Back to Today">${icon('back')}</button>
     <span class=pos>${again?'Read before':t<g?`${t+1} of ${g} today`:pace().cls==='late'?'Catching up':'Extra chapter'}</span>
     <span class=rtools>${moon()}${window.speechSynthesis?`<button class=icon-btn aria-pressed=false aria-label="Listen to this chapter" onclick=listen(this)>${icon('listen')}</button>`:''}</span></div>
     <div class=vstrip role=slider tabindex=0 aria-label="Verses. Tap or drag along the bars, or use the arrow keys, to jump to a verse" aria-valuemin=0 aria-valuenow=0></div></div>
