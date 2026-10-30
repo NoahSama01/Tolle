@@ -61,6 +61,8 @@ form.leaf select,form.leaf input{width:100%;min-height:3rem;padding:0 .8rem;bord
 
 .every{display:flex;flex-wrap:wrap;gap:2px;margin-top:1rem}
 .every i{width:4px;height:12px;background:var(--c);box-shadow:inset 0 -2px 0 rgba(21,21,21,.25)}
+.every i.u{opacity:.25}
+.mine{margin-top:1rem}
 .facts{display:grid;gap:0 2.5rem;margin-top:1rem}
 .facts div{padding:1rem 0;border-top:1px solid var(--rule)}
 .facts h3{margin:0 0 .25rem;font:700 1.0625rem var(--sans)}
@@ -120,8 +122,9 @@ footer p+p{margin-top:.4rem}
   <div class="leaf clear">
     <h1>The whole Bible, by your date.</h1>
     <p class="lede">Pick the day you want to finish. Tolle divides what's left into a few chapters a day, in whatever order you've read so far.</p>
+    <p class="mono mine" id="mine" hidden></p>
     <div class="ctas">
-      <a class="go" href="./">Plan your reading<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="go" id="start" href="./">Plan your reading<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
       <a class="ghost" href="#how">See how it works</a>
     </div>
   </div>
@@ -189,6 +192,7 @@ footer p+p{margin-top:.4rem}
   <div class="leaf">
     <h2>1,189 chapters. One index.</h2>
     <div class="every" id="every" role="img" aria-label="All 1,189 chapters of the Bible, coloured by division"></div>
+    <p class="mono mine" id="key" aria-hidden="true" hidden></p>
     <div class="facts">
       <div><h3>Reads aloud</h3><p>Listen on the way to work. The verse being read stays highlighted.</p></div>
       <div><h3>Works offline</h3><p>Today's chapters are saved to your phone each morning.</p></div>
@@ -218,7 +222,17 @@ footer p+p{margin-top:.4rem}
 const N=[50,40,27,36,34,24,21,4,31,24,22,25,29,36,10,13,10,42,150,31,12,8,66,52,5,48,12,14,3,9,1,4,7,3,3,3,2,14,4,28,16,24,21,28,16,16,13,6,6,4,4,5,3,6,4,3,1,13,5,5,3,5,1,1,1,22];
 const DIV=['law','history','wisdom','prophets','gospels','letters'],SPLIT=[5,12,5,17,5,22];
 const divOf=N.map((_,i)=>{let k=i,d=0;while(k>=SPLIT[d])k-=SPLIT[d++];return DIV[d]});
-every.innerHTML=N.map((n,i)=>`<i class=${divOf[i]}></i>`.repeat(n)).join('');
+// a reader with a plan on this device sees their own progress; nothing leaves the phone
+let plan=null;try{plan=JSON.parse(localStorage.getItem('bible-plan'))}catch{}
+const read=plan?.read||'',done=[...read].filter(f=>f==='1').length;
+let k=0;every.innerHTML=N.map((n,i)=>Array.from({length:n},()=>`<i class="${divOf[i]}${read&&read[k++]!=='1'?' u':''}"></i>`).join('')).join('');
+if(read){
+  const fin=plan.deadline?` · finish by ${new Date(plan.deadline+'T00:00').toLocaleDateString(undefined,{day:'numeric',month:'short',year:'numeric'})}`:'';
+  mine.textContent=`Welcome back · ${done.toLocaleString()} of 1,189 chapters · ${Math.floor(done/1189*100)}%${fin}`;mine.hidden=false;
+  start.firstChild.textContent='Continue reading';
+  every.ariaLabel=`All 1,189 chapters of the Bible, coloured by division; the ${done.toLocaleString()} you've read are filled`;
+  key.textContent=`Your index: the ${done.toLocaleString()} filled chapters are the ones you've read`;key.hidden=false;
+}
 
 // try it: ticked books fill the flat index
 function drawStrip(){
