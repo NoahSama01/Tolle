@@ -33,7 +33,7 @@ Everything deferred so far, grouped by when it matters. Tick items off as they l
 - [x] Create a free Supabase project and send the Project URL and publishable key.
 - [x] Google sign-in: a Web OAuth client with Supabase's redirect URL, basic scopes only; client ID and secret go into Supabase, not chat.
 - [x] Run `supabase/migrations/0001_init.sql` (signed-out access refused on every table and function, checked).
-- [ ] Two-account access test, once sign-in works.
+- [x] Two-account access test: signed in, an account sees only its own copy, profile and devices (1 of 2 copies), and is refused the server logs, reminder functions and writes as anyone else (checked).
 - [x] Sign-in and sync in the app, replacing Drive sync (real Google sign-in confirmed on the phone).
 - [x] Account deletion in Settings and on the web (Play requirement); function deployed, refuses unsigned and fake callers (checked).
 - [x] Daily reminders: VAPID keys, the `remind` function (refuses outsiders, checked), the 15-minute schedule, a time picker in Settings. A real reminder arrived on the phone (confirmed).
