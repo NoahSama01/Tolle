@@ -128,6 +128,11 @@ test("web_text_builtin", {}, async () => { await expect(noApi("Genesis 1:2-3"), 
 test("web_text_one_chapter_book", {}, async () => { await expect(noApi("Jude 1").replace("[j.verses.map(v=>v.verse).join(),", "[j.verses.length,"), [25, "Jude, a servant of Jesus Christ, and bro"]); });
 test("web_text_single_verse", {}, async () => { await expect(noApi("Psalms 23:1"), ["1", "Yahweh is my shepherd: I shall lack noth"]); });
 
+// ---- The evening "keep your run" nudge: the account learns the run, and Settings offers the nudge
+const days2 = "(()=>{const d=n=>{const x=new Date();x.setDate(x.getDate()-n);return iso(x)};S.log={[d(1)]:2,[d(2)]:1,[d(4)]:3};S.day=null;window._y=d(1)})()";
+test("facts_carry_run", { before: 289, act: days2 }, async () => { await expect("facts().run_days", 2); await expect("facts().last_read===window._y", true); });
+test("settings_offer_run_nudge", { before: 289, act: "AU={id:'x'};go('settings')" }, async () => { await expectText("#kr-h", "Keep your run"); });
+
 // ---- The landing page shows everyone's totals from the backend, and nothing below the privacy floor
 async function landingWith(reply) {
   const { result } = await send("Page.addScriptToEvaluateOnNewDocument", { source: `window.fetch=async u=>String(u).includes('reader_totals')?{ok:true,json:async()=>(${JSON.stringify(reply)})}:Promise.reject()` });

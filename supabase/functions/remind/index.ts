@@ -1,6 +1,7 @@
 // Every 15 minutes (pg_cron): send today's reminder to each person whose time has just passed
-// in their own zone and who hasn't read today, and the verse of the day to each person whose
-// verse time has just passed (read or not). Logged once sent, so a rerun never sends twice;
+// in their own zone and who hasn't read today, the verse of the day to each person whose
+// verse time has just passed (read or not), and the evening nudge to each person whose run of
+// days in a row would break at midnight. Logged once sent, so a rerun never sends twice;
 // subscriptions the push service reports gone (404, 410) are removed.
 // Only the schedule may call it: it presents CRON_SECRET, a random string kept in the function's secrets and in Vault.
 import webpush from "npm:web-push@3.6.7";
@@ -23,8 +24,8 @@ Deno.serve(async (req) => {
   );
   const db = createClient(Deno.env.get("SUPABASE_URL")!, keys[0], { auth: { persistSession: false } });
 
-  const [reminders, verses] = await Promise.all([db.rpc("due_reminders"), db.rpc("due_verses")]);
-  if (reminders.error) return new Response(reminders.error.message, { status: 500 }); // a verse failure alone never stops the reminders
+  const [reminders, verses, runs] = await Promise.all([db.rpc("due_reminders"), db.rpc("due_verses"), db.rpc("due_runs")]);
+  if (reminders.error) return new Response(reminders.error.message, { status: 500 }); // a verse or run failure alone never stops the reminders
 
   let sent = 0, gone = 0;
   // one push to every phone of one person, logged once any phone takes it
@@ -50,8 +51,12 @@ Deno.serve(async (req) => {
     // the phone fills in its own verse for today; title and body stand in on phones without the newer Tolle
     ...(verses.data ?? []).map((d) => () => push(d.user_id, d.local_day,
       { kind: "verse", title: "A verse for today", body: "Today's verse is waiting in Tolle." }, "verse_log")),
+    ...(runs.data ?? []).map((d) => () => push(d.user_id, d.local_day, {
+      title: "Keep your run",
+      body: `Keep your ${d.run_days}-day run going${d.next_up ? `: ${d.next_up} is next.` : ". One chapter before midnight keeps it."}`,
+    }, "run_log")),
   ];
   // ponytail: 50 people at a time keeps a run of a few thousand to about a minute; well beyond that, queue the sends across runs
   for (let i = 0; i < jobs.length; i += 50) await Promise.all(jobs.slice(i, i + 50).map((j) => j()));
-  return Response.json({ reminders: reminders.data?.length ?? 0, verses: verses.data?.length ?? 0, versesError: verses.error?.message, sent, gone });
+  return Response.json({ reminders: reminders.data?.length ?? 0, verses: verses.data?.length ?? 0, versesError: verses.error?.message, runs: runs.data?.length ?? 0, runsError: runs.error?.message, sent, gone });
 });
