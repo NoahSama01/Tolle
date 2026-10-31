@@ -58,7 +58,7 @@ Everything deferred so far, grouped by when it matters. Tick items off as they l
 - [x] Every book, Genesis to Revelation (66 books, all 1,189 chapters). Each passes `scripts/notes.py` and `scripts/quotes.py`.
 
 ## Smaller things
-- [ ] A list of highlighted verses (highlights show in the text only, for now).
+- [x] A list of highlighted verses, on the Kept page.
 - [ ] A note for a whole chapter, if readers ask for it (notes attach to a verse).
 - [ ] Refresh `design.json` so it matches `DESIGN.md` (`/impeccable document`).
 - [ ] Church or group reading plans (deferred until asked for).

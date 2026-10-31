@@ -280,8 +280,9 @@ button.num{padding:0;border:0;background:none;color:inherit;cursor:pointer}
 .actbar:has(>.keep:not([hidden])) .nx{display:none} /* with Keep showing, Done keeps to one line */
 /* keeping a verse: tap it, then Keep; a hole is punched beside it in the binding column */
 /* making a verse your own: a highlighter's colour over it, and a small mark where you've written a note */
-.vs[data-h]{background:color-mix(in srgb,var(--hc) 45%,transparent);box-decoration-break:clone;-webkit-box-decoration-break:clone}
-.vs[data-h="1"]{--hc:var(--history)}.vs[data-h="2"]{--hc:var(--wisdom)}.vs[data-h="3"]{--hc:var(--prophets)}.vs[data-h="4"]{--hc:var(--law)}
+.vs[data-h],.htext{background:color-mix(in srgb,var(--hc) 45%,transparent);box-decoration-break:clone;-webkit-box-decoration-break:clone}
+[data-h="1"]{--hc:var(--history)}[data-h="2"]{--hc:var(--wisdom)}[data-h="3"]{--hc:var(--prophets)}[data-h="4"]{--hc:var(--law)}
+.hl-h{margin:1.75rem 0 .75rem;color:var(--on-board)}
 .vs.noted::after{content:'note';margin-right:.3em;padding:.05em .3em;border-radius:1px;background:var(--plate-ink);color:var(--plate);font:500 .6em var(--mono);text-transform:uppercase;vertical-align:.25em}
 .vs.sel{background:color-mix(in srgb,var(--hue) 30%,transparent);box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .vs.sel[data-h]{background:color-mix(in srgb,var(--hc) 45%,transparent);text-decoration:underline 2px;text-underline-offset:.22em} /* selected, its colour still showing */
@@ -576,6 +577,7 @@ function render(){
   stepBand();
   if(!S)return preview();
   if(view==='today')ride();
+  if(view==='kept')hlText();
   if(cheer?.k==='bible'&&!cheer.shown){cheer.shown=true;if(!reduce.matches)BEDS.forEach((_,li)=>setTimeout(()=>setBoard(li),li*220))} // every division's colour in turn, ending on the last
   if(view!=='reader')prefetch();
 }
@@ -780,8 +782,17 @@ function keptView(){
   ${KEPT.length?`<ol class=kept-list>${KEPT.map((k,i)=>[k,i]).reverse().map(([k,i])=>`<li class="leaf ${bed(k.b)[0]}"><span class=ktab>${kref(k)}</span>
     <p class=ktext lang=${TR[k.tr][1]}>${esc(k.t)}</p>${k.n?`<p class=knote>${esc(k.n)}</p>`:''}
     <p class=kmeta><span>Kept ${fmtDate(k.d)} · ${k.tr.toUpperCase()}</span><button class=link-btn onclick=openCh(${FIRST[k.b]+k.c-1},${k.v})>Read ${BOOKS[k.b][0]} ${k.c}</button><button class=link-btn onclick="noteSheet(${k.b},${k.c},${k.v})">${k.n?'Edit note':'Add a note'}</button>${navigator.share?`<button class=link-btn onclick=share(${i})>Share</button>`:''}<button class=link-btn onclick=unkeep(${i},this)>Remove</button></p></li>`).join('')}</ol>`
-  :`<section class=leaf><p class=empty>Nothing kept yet. While you read, tap a verse, then tap Keep, or write a note on it. It gets a punched hole in the margin and waits here for you.</p></section>`}`;
+  :`<section class=leaf><p class=empty>Nothing kept yet. While you read, tap a verse, then tap Keep, or write a note on it. It gets a punched hole in the margin and waits here for you.</p></section>`}
+  ${Object.keys(HL).length?`<h2 class=hl-h>Highlights</h2><ol class="kept-list hl-list">${Object.keys(HL).map(k=>k.split('.').map(Number)).sort((x,y)=>x[0]-y[0]||x[1]-y[1]||x[2]-y[2]).map(([b,c,v])=>`<li class="leaf ${bed(b)[0]}"><span class=ktab>${BOOKS[b][0]} ${c}:${v}</span>
+    <p class=ktext lang=${TR[S.tr][1]}><span class=htext data-h=${HL[`${b}.${c}.${v}`]} data-k=${b}.${c}.${v}></span></p>
+    <p class=kmeta><button class=link-btn onclick=openCh(${FIRST[b]+c-1},${v})>Read ${BOOKS[b][0]} ${c}</button><button class=link-btn onclick="unmark('${b}.${c}.${v}')">Remove</button></p></li>`).join('')}</ol>`:''}`;
 }
+function hlText(){ // each highlighted verse's words in the current translation, one fetch per chapter
+  const by={};for(const e of $.querySelectorAll('.htext')){const [b,c]=e.dataset.k.split('.');(by[`${BOOKS[b][0]} ${c}`]??=[]).push(e)}
+  for(const [ref,es] of Object.entries(by))passage(ref).then(j=>es.forEach(e=>e.textContent=j.verses.find(x=>x.verse==e.dataset.k.split('.')[2])?.text??''))
+    .catch(()=>{}); // offline: the reference and its Read link still stand
+}
+function unmark(k){delete HL[k];saveHL();const y=scrollY;render();scrollTo(0,y)}
 function unkeep(i,btn){ // the leaf hinges shut at its bound edge, as Done shuts a chapter; then the list closes up
   const li=btn.closest('li');if(li.inert)return;li.inert=true; // one removal per leaf, even on a double tap
   const out=()=>{gone={i,k:KEPT.splice(i,1)[0]};saveKept();render()},[a]=step([li],'perspective(900px) rotateY(-75deg)','0 50%',true);

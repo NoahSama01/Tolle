@@ -132,6 +132,11 @@ test("web_text_single_verse", {}, async () => { await expect(noApi("Psalms 23:1"
 const days2 = "(()=>{const d=n=>{const x=new Date();x.setDate(x.getDate()-n);return iso(x)};S.log={[d(1)]:2,[d(2)]:1,[d(4)]:3};S.day=null;window._y=d(1)})()";
 test("facts_carry_run", { before: 289, act: days2 }, async () => { await expect("facts().run_days", 2); await expect("facts().last_read===window._y", true); });
 test("settings_offer_run_nudge", { before: 289, act: "AU={id:'x'};go('settings')" }, async () => { await expectText("#kr-h", "Keep your run"); });
+const hls = { before: 289, act: "HL={'18.23.1':2,'0.1.3':1};saveHL();go('kept')", wait: 600 };
+test("highlights_listed_in_bible_order", hls, async () => { await expect("[...document.querySelectorAll('.hl-list .ktab')].map(e=>e.textContent)", ["Genesis 1:3", "Psalms 23:1"]); await expectText(".hl-list li:nth-child(2) .htext", /^Yahweh is my shepherd/); });
+test("highlight_opens_its_chapter", { ...hls, act: hls.act + ";document.querySelector('.hl-list .link-btn').click()" }, async () => { await expect("[view,cur()]", ["reader", 0]); });
+test("highlight_removed_from_list", { ...hls, act: hls.act + ";document.querySelector('.hl-list li:first-child .link-btn:last-child').click()" }, async () => { await expect("Object.keys(HL)", ["18.23.1"]); await expect("document.querySelectorAll('.hl-list li').length", 1); });
+test("no_highlights_no_list", { before: 289, act: "go('kept')" }, async () => { await expect("document.querySelector('.hl-list')", null); });
 
 // ---- The landing page shows everyone's totals from the backend, and nothing below the privacy floor
 async function landingWith(reply) {
