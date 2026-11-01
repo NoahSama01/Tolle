@@ -50,7 +50,7 @@ async function seed(o) {
     const elapsed=${o.elapsed ?? 10},n=${before + todayN},t=iso(new Date());
     const S={read:'1'.repeat(n)+'0'.repeat(1189-n),day:{d:t,idx:Array.from({length:${todayN}},(_,k)=>${before}+k)},
       deadline:plus(-elapsed+${o.deadlineFromStart ?? 99}),log:${todayN} ? {[t]:${todayN}} : {},at:{},start:plus(-elapsed),startDone:189,tr:'web',rate:1};
-    localStorage.clear();localStorage.setItem('tolle-theme','light');localStorage.setItem('bible-plan',JSON.stringify(S));
+    localStorage.clear();localStorage.setItem('tolle-theme','light');localStorage.setItem('tolle-lang','${o.lang || 'en'}');localStorage.setItem('bible-plan',JSON.stringify(S));
   })()`);
   await load(`${ORIGIN}/`);
   if (o.act) { await js(o.act); await sleep(o.wait ?? 0); }
@@ -137,6 +137,16 @@ test("highlights_listed_in_bible_order", hls, async () => { await expect("[...do
 test("highlight_opens_its_chapter", { ...hls, act: hls.act + ";document.querySelector('.hl-list .link-btn').click()" }, async () => { await expect("[view,cur()]", ["reader", 0]); });
 test("highlight_removed_from_list", { ...hls, act: hls.act + ";document.querySelector('.hl-list li:first-child .link-btn:last-child').click()" }, async () => { await expect("Object.keys(HL)", ["18.23.1"]); await expect("document.querySelectorAll('.hl-list li').length", 1); });
 test("no_highlights_no_list", { before: 289, act: "go('kept')" }, async () => { await expect("document.querySelector('.hl-list')", null); });
+const hi = { before: 289, lang: "hi" }, ta = { before: 289, lang: "ta" };
+test("lang_page_marked", hi, async () => { await expect("document.documentElement.lang", "hi"); });
+test("lang_tabs_translated", hi, async () => { await expectText(".tabs button[data-v=today]", "आज"); });
+test("lang_book_names", hi, async () => { await expect("bn(0)", "उत्पत्ति"); await expectText("h1.station", /^2 शमुएल 23$/); });
+test("lang_plural", ta, async () => { await expect("[plural(1,'chapter'),plural(2,'chapter')]", ["1 அதிகாரம்", "2 அதிகாரங்கள்"]); });
+test("lang_dates", hi, async () => { await expect("fmtDate('2026-03-05').includes('मार्च')", true); });
+test("lang_goto_local_name", { ...hi, act: "go('route');q.value='निर्गमन 3';gotoRef(q.form)" }, async () => { await expect("[view,cur()]", ["reader", 52]); });
+test("lang_goto_rejects_junk", { ...hi, act: "go('route');q.value='###';gotoRef(q.form)" }, async () => { await expect("view", "route"); });
+test("lang_new_plan_bible", { lang: "te", before: 0, act: "localStorage.removeItem('bible-plan');S=null;render();by.value='2027-12-31';start()" }, async () => { await expect("S.tr", "irv-te"); });
+test("lang_english_default", { before: 289 }, async () => { await expectText(".tabs button[data-v=today]", "Today"); await expect("document.documentElement.lang", "en"); });
 
 // ---- The landing page shows everyone's totals from the backend, and nothing below the privacy floor
 async function landingWith(reply) {

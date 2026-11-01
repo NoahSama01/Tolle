@@ -36,7 +36,7 @@ h2{margin:0 0 .75rem;font:700 .85rem/1.2 var(--head);font-stretch:100%;letter-sp
 
 /* navigation: bottom tabs on phones, a rail on the left on wide screens */
 .tabs{position:fixed;inset:auto 0 0;z-index:6;display:flex;background:var(--bar);padding-bottom:env(safe-area-inset-bottom)}
-.tabs button{flex:1;min-height:var(--tab);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.3rem;background:none;border:0;color:var(--bar-dim);font:700 .75rem var(--head);letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
+.tabs button{flex:1 1 0;min-width:0;min-height:var(--tab);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.3rem;background:none;border:0;color:var(--bar-dim);font:700 .75rem var(--head);letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
 @media(hover:hover){.tabs button:hover{color:var(--bar-ink)}}
 .tabs button[aria-current=page]{color:var(--bar-ink)}
 .tabs :focus-visible{outline-color:var(--bar-ink);outline-offset:-5px}
@@ -134,6 +134,8 @@ body[data-view=setup] .rail{display:none}
 .dvt{margin:.15rem 0 0;max-width:30em;font:400 1.3125rem/1.5 var(--serif);text-wrap:pretty}
 /* Indian scripts: taller lines for their marks above and below, and no tracking, which pulls apart joined letters; the phone's own fonts fill in where Garamond has no glyphs */
 :is(:lang(hi),:lang(ta),:lang(ml),:lang(te)){--read-lh:1.85;letter-spacing:0}
+:is(:lang(hi),:lang(ta),:lang(ml),:lang(te)) :is(.tabs button,.mono,h2,.title,.station){letter-spacing:0} /* the app's own tracked labels too */
+:is(:lang(hi),:lang(ta),:lang(ml),:lang(te)) .tabs button{font-size:min(.6875rem,3vw)} /* the longest tab word still fits a 320px phone */
 .dvt:is(:lang(hi),:lang(ta),:lang(ml),:lang(te)){line-height:1.8}
 .dvt[aria-busy=true]{color:var(--ink-2)}
 .mark-row{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem;margin:0}
@@ -363,7 +365,7 @@ body[data-view=reader] main{padding-bottom:6.5rem}
 </style>
 </head>
 <body>
-<a class="skip" href="#app">Skip to content</a>
+<a class="skip" href="#app" data-t>Skip to content</a>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
 <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
 <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
@@ -387,20 +389,20 @@ body[data-view=reader] main{padding-bottom:6.5rem}
 <symbol id="i-ponder" viewBox="0 0 24 24"><path d="M5 5h14v10h-9l-4 4v-4H5z"/></symbol>
 </defs></svg>
 <nav class="tabs" aria-label="Main">
-  <button data-v="today" onclick="go('today')"><svg class="ic" aria-hidden="true"><use href="#i-today"/></svg>Today</button>
-  <button data-v="route" onclick="go('route')"><svg class="ic" aria-hidden="true"><use href="#i-index"/></svg>Index</button>
-  <button data-v="kept" onclick="go('kept')"><svg class="ic" aria-hidden="true"><use href="#i-kept"/></svg>Kept</button>
-  <button data-v="settings" onclick="go('settings')"><svg class="ic" aria-hidden="true"><use href="#i-settings"/></svg>Settings</button>
+  <button data-v="today" onclick="go('today')"><svg class="ic" aria-hidden="true"><use href="#i-today"/></svg><span data-t>Today</span></button>
+  <button data-v="route" onclick="go('route')"><svg class="ic" aria-hidden="true"><use href="#i-index"/></svg><span data-t>Index</span></button>
+  <button data-v="kept" onclick="go('kept')"><svg class="ic" aria-hidden="true"><use href="#i-kept"/></svg><span data-t>Kept</span></button>
+  <button data-v="settings" onclick="go('settings')"><svg class="ic" aria-hidden="true"><use href="#i-settings"/></svg><span data-t>Settings</span></button>
 </nav>
 <main id="app" tabindex="-1"></main>
 <p id="told" class="sr" role="status"></p>
 <ol class="rail" id="rail" aria-label="Thumb index of the whole Bible"></ol>
 <div popover id=mynote class=gloss role=dialog aria-labelledby=mn-ref>
-  <p class=gk>My note</p><p class=gname id=mn-ref></p>
-  <label class=sr for=mn-t>Your note on this verse</label>
+  <p class=gk data-t>My note</p><p class=gname id=mn-ref></p>
+  <label class=sr for=mn-t data-t>Your note on this verse</label>
   <textarea id=mn-t rows=5 maxlength=4000 placeholder="What does this verse say to you?"></textarea>
-  <button class=go onclick=saveNote()>Save note<svg class=ic aria-hidden=true><use href="#i-check"/></svg></button>
-  <p><button class=link-btn id=mn-del onclick=saveNote(true)>Delete this note</button></p>
+  <button class=go onclick=saveNote()><span data-t>Save note</span><svg class=ic aria-hidden=true><use href="#i-check"/></svg></button>
+  <p><button class=link-btn id=mn-del onclick=saveNote(true) data-t>Delete this note</button></p>
 </div>
 <script>
 const BOOKS=[["Genesis",50],["Exodus",40],["Leviticus",27],["Numbers",36],["Deuteronomy",34],["Joshua",24],["Judges",21],["Ruth",4],["1 Samuel",31],["2 Samuel",24],["1 Kings",22],["2 Kings",25],["1 Chronicles",29],["2 Chronicles",36],["Ezra",10],["Nehemiah",13],["Esther",10],["Job",42],["Psalms",150],["Proverbs",31],["Ecclesiastes",12],["Song of Solomon",8],["Isaiah",66],["Jeremiah",52],["Lamentations",5],["Ezekiel",48],["Daniel",12],["Hosea",14],["Joel",3],["Amos",9],["Obadiah",1],["Jonah",4],["Micah",7],["Nahum",3],["Habakkuk",3],["Zephaniah",3],["Haggai",2],["Zechariah",14],["Malachi",4],["Matthew",28],["Mark",16],["Luke",24],["John",21],["Acts",28],["Romans",16],["1 Corinthians",16],["2 Corinthians",13],["Galatians",6],["Ephesians",6],["Philippians",4],["Colossians",4],["1 Thessalonians",5],["2 Thessalonians",3],["1 Timothy",6],["2 Timothy",4],["Titus",3],["Philemon",1],["Hebrews",13],["James",5],["1 Peter",5],["2 Peter",3],["1 John",5],["2 John",1],["3 John",1],["Jude",1],["Revelation",22]];
@@ -420,6 +422,15 @@ const TR={web:['World English Bible','en-US'],kjv:['King James Version','en-GB']
   'irv-ml':['മലയാളം ഇന്ത്യൻ റിവൈസ്ഡ് വേർഷൻ','ml-IN','mal_irv','Bridge Connectivity Solutions · CC BY-SA 4.0'],
   'irv-te':['తెలుగు ఇండియన్ రివైజ్డ్ వెర్షన్','te-IN','tel_irv','Bridge Connectivity Solutions · CC BY-SA 4.0']};
 const LANGS={en:'English',hi:'हिंदी · Hindi',ta:'தமிழ் · Tamil',ml:'മലയാളം · Malayalam',te:'తెలుగు · Telugu'};
+// the app's own words: English as written here; Hindi, Tamil, Malayalam and Telugu from i18n/<lang>.json, keyed by the English
+const UI={en:'English',hi:'हिंदी',ta:'தமிழ்',ml:'മലയാളം',te:'తెలుగు'};
+const LG=(l=>UI[l]?l:'en')(localStorage.getItem('tolle-lang')||navigator.language.slice(0,2)),LOC=LG==='en'?undefined:LG+'-IN';
+let D={s:{},books:[]}; // the chosen language's phrases and book names; none for English
+const tr=(k,a=[])=>(D.s[k]??k).replace(/\{(\d)\}/g,(_,i)=>a[i]);
+const L=(s,...a)=>tr(s.reduce((k,x,i)=>k+`{${i-1}}`+x),a); // L`${n} behind`: looked up as "{0} behind"
+const bn=bi=>D.books[bi]||BOOKS[bi][0]; // a book's name as shown; BOOKS keeps the English, which is every reference's identity
+const lref=r=>{const bi=bookOf(r);return bi<0?r:bn(bi)+r.slice(BOOKS[bi][0].length)};
+function setLang(l){localStorage.setItem('tolle-lang',l);sessionStorage.setItem('tolle-go',S?view:'');location.reload()}
 const USFM='GEN EXO LEV NUM DEU JOS JDG RUT 1SA 2SA 1KI 2KI 1CH 2CH EZR NEH EST JOB PSA PRO ECC SNG ISA JER LAM EZK DAN HOS JOL AMO OBA JON MIC NAM HAB ZEP HAG ZEC MAL MAT MRK LUK JHN ACT ROM 1CO 2CO GAL EPH PHP COL 1TH 2TH 1TI 2TI TIT PHM HEB JAS 1PE 2PE 1JN 2JN 3JN JUD REV'.split(' ');
 const KINDS={why:['Why here','why'],connection:['Connection','connection'],word:['Original language','word'],culture:['History & culture','culture'],detail:['Easy to miss','detail'],bigpicture:['Big picture','bigpicture'],ponder:['Ponder','ponder']};
 let KEPT=JSON.parse(localStorage.getItem('tolle-kept')||'[]'); // [{b, c, v, t: text, tr, d: date kept}], oldest first
@@ -458,10 +469,10 @@ let wake=null; // screen wake lock while reading aloud
 const hush=()=>{window.speechSynthesis?.cancel();wake?.release();wake=null};
 const icon=n=>`<svg class=ic aria-hidden=true><use href="#i-${n}"/></svg>`;
 const mins=n=>Math.round(n*3.5); // ponytail: flat 3.5 min/chapter; use verse counts if estimates matter
-const DF=new Intl.DateTimeFormat(undefined,{day:'numeric',month:'short',year:'numeric'}),NF=new Intl.NumberFormat(); // built once, used everywhere
+const DF=new Intl.DateTimeFormat(LOC,{day:'numeric',month:'short',year:'numeric'}),NF=new Intl.NumberFormat(LOC); // built once, used everywhere
 const fmtDate=d=>DF.format(new Date(d+'T00:00')),num=n=>NF.format(n);
 const ww=s=>Math.max(...s.split(' ').map(w=>w.length)); // longest word, for fitting a head
-const plural=(n,w)=>`${num(n)} ${w}${n==1?'':'s'}`;
+const plural=(n,w)=>tr(n==1?`{0} ${w}`:`{0} ${w}s`,[num(n)]);
 const bookOf=ref=>BOOKS.findIndex(([b])=>ref.startsWith(b+' '));
 // progress is a string of 1,189 flags, one per chapter in canonical order: people read in any order
 const UNREAD='0'.repeat(CH.length);
@@ -508,7 +519,7 @@ function paceLine(){ // the straight line from plan start to deadline: where you
 }
 function pace(){ // vs that line; today's portion counts as on track
   const {by,through}=paceLine(),n=count();
-  return n<by?{cls:'late',text:`${by-n} behind`}:n>through?{cls:'ahead',text:`${n-through} ahead`}:{cls:'ok',text:'On track'};
+  return n<by?{cls:'late',text:L`${by-n} behind`}:n>through?{cls:'ahead',text:L`${n-through} ahead`}:{cls:'ok',text:L`On track`};
 }
 
 // the board takes the current division's hue; the leaf over it is milk at the alpha solved for that hue
@@ -527,12 +538,12 @@ const curBed=()=>BED_OF[CH[Math.min(S?nextIdx():0,CH.length-1)][2]];
 function railHTML(){
   const nx=nextIdx(),cur=curBed();
   return BEDS.map(([id,name,n,,on,short],li)=>{const b0=BED_OF.indexOf(li),read=BOOKS.slice(b0,b0+n).reduce((a,_,k)=>a+readIn(b0+k),0);
-    return `<li class="${id}${li===cur?' cur':''}" style="flex:${EXTENT[li]} 1 0;--o:${on}"><a href="#" onclick="return openDiv(${li})" aria-label="${name}: ${read} of ${EXTENT[li]} chapters read">
+    return `<li class="${id}${li===cur?' cur':''}" style="flex:${EXTENT[li]} 1 0;--o:${on}"><a href="#" onclick="return openDiv(${li})" aria-label="${L`${name}: ${read} of ${EXTENT[li]} chapters read`}">
       ${BOOKS.slice(b0,b0+n).map(([,c],k)=>`<i class="bk${CH[nx]?.[2]===b0+k?' next':''}" data-b=${b0+k} style="--n:${c};--f:${(readIn(b0+k)/c).toFixed(3)}"></i>`).join('')}<span class=tl aria-hidden=true><span class=f>${name}</span><span class=s>${short}</span></span></a></li>`}).join('');
 }
 function openDiv(li){go('route');requestAnimationFrame(()=>jumpTo(li));return false}
 function jumpTo(li){const d=document.getElementById('div-'+li);if(!d)return;d.scrollIntoView({block:'start'});step([d,d.nextElementSibling],'perspective(900px) rotateX(-20deg)','50% 0')}
-const strip=r=>`<div class=strip role=img aria-label="${count(r)} of 1,189 chapters">${BOOKS.map(([,c],bi)=>`<i class=${bed(bi)[0]} style="--n:${c};--f:${(readInStr(r,bi)/c).toFixed(3)}"></i>`).join('')}</div>`;
+const strip=r=>`<div class=strip role=img aria-label="${L`${num(count(r))} of 1,189 chapters`}">${BOOKS.map(([,c],bi)=>`<i class=${bed(bi)[0]} style="--n:${c};--f:${(readInStr(r,bi)/c).toFixed(3)}"></i>`).join('')}</div>`;
 const step=(els,pose,origin='0 50%',out=false)=>reduce.matches?[]:[...els].filter(Boolean).map(e=>{e.style.transformOrigin=origin; // every change is two hard frames hinged at an edge: in from a pose, or out to one
   const k=[{transform:pose},{transform:'none'}];return e.animate(out?k.reverse():k,{duration:90,easing:'steps(2,jump-end)',fill:out?'forwards':'none'})});
 let stepped=null; // {bi, from}: the book whose band should step forward on the next render
@@ -546,10 +557,10 @@ let view='today',seenT=null,entering=true,turning=false;
 let metLine=null; // the line at the top of the reader on the Done that met today's goal; gone on the next Done or on leaving
 const wide=matchMedia('(min-width:1200px)');wide.onchange=()=>{if(view==='today')render()}; // the Index column on Today exists only where it shows
 matchMedia('(prefers-color-scheme: dark)').onchange=()=>{theme();if(S)render()}; // the phone switched: follow it unless the reader chose
-const moon=()=>{const dark=document.documentElement.dataset.theme==='dark';return `<button class=icon-btn aria-label="${dark?'Switch to day':'Switch to night'}" onclick=flipNight(this)>${icon(dark?'sun':'moon')}</button>`};
+const moon=()=>{const dark=document.documentElement.dataset.theme==='dark';return `<button class=icon-btn aria-label="${dark?L`Switch to day`:L`Switch to night`}" onclick=flipNight(this)>${icon(dark?'sun':'moon')}</button>`};
 const fade=f=>document.startViewTransition?document.startViewTransition(f):f(); // day and night cross-fade instead of jumping
 function flipNight(btn){fade(()=>{ // the reader's moon: day or night at once, without redrawing the chapter, so place, selection and open notes stay
-  localStorage.setItem('tolle-theme',document.documentElement.dataset.theme==='dark'?'light':'dark');theme();paintBar();const dark=document.documentElement.dataset.theme==='dark';btn.ariaLabel=dark?'Switch to day':'Switch to night';btn.innerHTML=icon(dark?'sun':'moon'); // updated in place, so focus stays on it
+  localStorage.setItem('tolle-theme',document.documentElement.dataset.theme==='dark'?'light':'dark');theme();paintBar();const dark=document.documentElement.dataset.theme==='dark';btn.ariaLabel=dark?L`Switch to day`:L`Switch to night`;btn.innerHTML=icon(dark?'sun':'moon'); // updated in place, so focus stays on it
 })}
 function setTheme(v){fade(()=>{v==='auto'?localStorage.removeItem('tolle-theme'):localStorage.setItem('tolle-theme',v);theme();render()})}
 let at=null,jv=null; // a chapter opened from the Index, Kept or a verse (and the verse to land on); null is the plan's next chapter
@@ -567,7 +578,7 @@ function render(){
   scrollTo(0,0);
   if(!S)$.innerHTML=setupView();
   else if(view==='reader')readerView();
-  else $.innerHTML=view==='route'?`<h1 class=title>The whole Bible</h1>${routeBody()}`:view==='settings'?settingsView():view==='kept'?keptView():todayView();
+  else $.innerHTML=view==='route'?`<h1 class=title>${L`The whole Bible`}</h1>${routeBody()}`:view==='settings'?settingsView():view==='kept'?keptView():todayView();
   rail.innerHTML=S?railHTML():'';told.textContent=metLine||''; // outside the view, so it's still read out after focus moves to the title
   for(const b of document.querySelectorAll('.tabs button'))b.dataset.v===view?b.setAttribute('aria-current','page'):b.removeAttribute('aria-current');
   const h=$.querySelector('h1');if(h){h.tabIndex=-1;h.focus({preventScroll:true})}
@@ -584,22 +595,25 @@ function render(){
 
 function setupView(){
   return `<header class=top><a class=mark href=landing.html>Tolle</a></header>
-  <section class="leaf clear"><h1 class=station>Plan your reading</h1>
-  <p class=lede>Read the whole Bible by a date you choose. Tolle sets each day's chapters from what's left, in any order you've read so far.</p>
-  <p class=hint>Coming from another phone? <button class=link-btn onclick="document.getElementById('restore-h').scrollIntoView()">Restore your backup</button></p></section>
-  <section class=leaf><fieldset class=picker aria-describedby=pkh><legend><h2 style="margin:0">Books you've already read</h2></legend>
-    <p class=hint id=pkh>Tap every book you've finished, in any order. Read straight through? <label class=inline for=thru>Fill in up to</label>
-      <select id=thru class=inline onchange=fillThrough(+this.value)><option value=0>choose a book</option>${BOOKS.map(([b],i)=>`<option value=${i+1}>${b}</option>`).join('')}</select></p>
+  <section class="leaf clear">${langPick()}<h1 class=station>${L`Plan your reading`}</h1>
+  <p class=lede>${L`Read the whole Bible by a date you choose. Tolle sets each day's chapters from what's left, in any order you've read so far.`}</p>
+  <p class=hint>${L`Coming from another phone?`} <button class=link-btn onclick="document.getElementById('restore-h').scrollIntoView()">${L`Restore your backup`}</button></p></section>
+  <section class=leaf><fieldset class=picker aria-describedby=pkh><legend><h2 style="margin:0">${L`Books you've already read`}</h2></legend>
+    <p class=hint id=pkh>${L`Tap every book you've finished, in any order. Read straight through?`} <label class=inline for=thru>${L`Fill in up to`}</label>
+      <select id=thru class=inline onchange=fillThrough(+this.value)><option value=0>${L`choose a book`}</option>${BOOKS.map((_,i)=>`<option value=${i+1}>${bn(i)}</option>`).join('')}</select></p>
     ${BEDS.map(([id,name,n,,on],li)=>{const b0=BED_OF.indexOf(li);return `<div class=bedset style="--c:var(--${id});--o:${on}"><p class=bedname><b></b>${name}</p>
-      ${BOOKS.slice(b0,b0+n).map(([b],k)=>`<label class=bk-pick><input type=checkbox value=${b0+k} onchange=preview()><span>${b}</span></label>`).join('')}</div>`}).join('')}
+      ${BOOKS.slice(b0,b0+n).map((_,k)=>`<label class=bk-pick><input type=checkbox value=${b0+k} onchange=preview()><span>${bn(b0+k)}</span></label>`).join('')}</div>`}).join('')}
   </fieldset></section>
-  <section class=leaf><label for=by style="margin-top:0">Finish by</label>
+  <section class=leaf><label for=by style="margin-top:0">${L`Finish by`}</label>
   <input type=date id=by min="${today()}" value="${new Date().getFullYear()}-12-31" onchange=preview() aria-describedby=byh>
-  <p class=hint id=byh>Tolle plans backwards from this date.</p></section>
+  <p class=hint id=byh>${L`Tolle plans backwards from this date.`}</p></section>
   <section class=leaf><p class=preview id=pv aria-live=polite></p><div id=stripbox></div></section>
-  <button class=go onclick=start()>Plan my reading${icon('arrow')}</button>
-  <section class=leaf aria-labelledby=restore-h style="margin-top:3rem"><h2 id=restore-h>Coming from another phone?</h2>
-    <p class=hint>Pick up your plan, progress and kept verses from a backup.</p>${backupHTML()}</section>`;
+  <button class=go onclick=start()>${L`Plan my reading`}${icon('arrow')}</button>
+  <section class=leaf aria-labelledby=restore-h style="margin-top:3rem"><h2 id=restore-h>${L`Coming from another phone?`}</h2>
+    <p class=hint>${L`Pick up your plan, progress and kept verses from a backup.`}</p>${backupHTML()}</section>`;
+}
+function langPick(){ // each language named in its own script, so it can be found without reading the current one
+  return `<p class=hint style="margin-top:0"><label class=inline for=lg>${L`App language`}</label> <select id=lg class=inline onchange=setLang(this.value)>${Object.entries(UI).map(([l,n])=>`<option value=${l}${l===LG?' selected':''} lang=${l}>${n}</option>`).join('')}</select></p>`;
 }
 const picked=()=>{let r=UNREAD;for(const c of $.querySelectorAll('.bk-pick input:checked')){const bi=+c.value;r=r.slice(0,FIRST[bi])+'1'.repeat(BOOKS[bi][1])+r.slice(FIRST[bi]+BOOKS[bi][1])}return r};
 function fillThrough(k){ // shortcut for straight-through readers: tick every book up to the one chosen
@@ -607,9 +621,10 @@ function fillThrough(k){ // shortcut for straight-through readers: tick every bo
 }
 function preview(){ // live: what's left, the daily load, and the thumb index laid flat with the books you picked
   const r=picked(),done=count(r),books=$.querySelectorAll('.bk-pick input:checked').length,d=Math.max(1,days(today(),by.value||today())+1),n=Math.ceil((CH.length-done)/d);
-  pv.innerHTML=(books?`You've read ${plural(books,'book')} (${plural(done,'chapter')}). `:'')+(by.value?`That's <b>${num(n)}</b> chapter${n==1?'':'s'} a day, about ${mins(n)} minutes, for ${plural(d,'day')}.`:'Your daily chapters appear once you pick a date.');
+  pv.innerHTML=(books?L`You've read ${plural(books,'book')} (${plural(done,'chapter')}).`+' ':'')+(!by.value?L`Your daily chapters appear once you pick a date.`
+    :n==1?L`That's <b>${num(n)}</b> chapter a day, about ${mins(n)} minutes, for ${plural(d,'day')}.`:L`That's <b>${num(n)}</b> chapters a day, about ${mins(n)} minutes, for ${plural(d,'day')}.`);
   by.setAttribute('aria-invalid',!by.value);byh.classList.toggle('err',!by.value); // inline error under the field
-  byh.textContent=by.value?'Tolle plans backwards from this date.':'Pick the date you want to finish by.';
+  byh.textContent=by.value?L`Tolle plans backwards from this date.`:L`Pick the date you want to finish by.`;
   const was=[...stripbox.querySelectorAll('i')].map(i=>i.style.getPropertyValue('--f'));
   stripbox.innerHTML=strip(r);
   if(!reduce.matches)stripbox.querySelectorAll('i').forEach((i,k)=>{const f=i.style.getPropertyValue('--f');if(was[k]!=null&&was[k]!==f)i.animate([{'--f':was[k]},{'--f':f}],{duration:90,easing:'steps(2,jump-end)'})}); // only the bars that changed
@@ -617,57 +632,57 @@ function preview(){ // live: what's left, the daily load, and the thumb index la
 function start(){
   if(!by.value){preview();return by.focus()}
   const read=picked();
-  S={read,day:{d:today(),idx:[]},deadline:by.value,log:{},at:{},start:today(),startDone:count(read),tr:'web',rate:1};
+  S={read,day:{d:today(),idx:[]},deadline:by.value,log:{},at:{},start:today(),startDone:count(read),tr:{hi:'hcv',ta:'irv-ta',ml:'irv-ml',te:'irv-te'}[LG]||'web',rate:1}; // the Bible in the app's language
   save();go('today');
 }
 
 function todayView(){
-  const g=goal(),t=todayN(),nx=CH[nextIdx()],p=nx?pace():{cls:'ahead',text:'Complete'},done=todayIdx(),{share,catchup}=goalParts(),extra=extraToday();
+  const g=goal(),t=todayN(),nx=CH[nextIdx()],p=nx?pace():{cls:'ahead',text:L`Complete`},done=todayIdx(),{share,catchup}=goalParts(),extra=extraToday();
   const stops=[...done,...upcoming(Math.max(g-done.length,1))].map(i=>CH[i]),met=t>=g; // today's chapters, plus the next one once the goal is met
   return `<header class=top><a class=mark href=landing.html>Tolle</a><p class="status ${p.cls}">${p.text}</p></header>${flash?`<p class=gone role=status>${flash}</p>`:''}
   <div class=split><div>${cheerHTML()}
-  <section class="leaf clear" aria-label="Next chapter">${nx?`
-    <h1 class=station style=--w:${ww(nx[0])}>${nx[0]} ${nx[1]}</h1>
-    <p class="meta mono">${bed(nx[2])[1]} · ${met?"today's reading done":`${t+1} of ${g} today`}</p>
-    <p class=lede>${met?`You've read ${plural(t,'chapter')} today. Keep going if you like.`:`${g-t} left ${catchup&&t?`of today's ${g}`:'today'}, about ${mins(g-t)} minutes${catchup?`: ${plural(share,'chapter')} for today and ${num(catchup)} to catch up`:''}.`}${(lf=>lf>=1&&lf<=3?` ${plural(lf,'chapter')} to finish ${BOOKS[nx[2]][0]}.`:'')(toFinish(nx[2]))}</p>
-    <button class="go${met?' ghost':''}" onclick="go('reader')">${met?'Keep reading:':'Read'} ${nx[0]} ${nx[1]}${icon('arrow')}</button>`:`
-    <h1 class=station>The whole Bible, read</h1>
-    <p class=lede>You've read all 1,189 chapters. Every band on the index is full.</p>${journeyHTML()}`}
+  <section class="leaf clear" aria-label="${L`Next chapter`}">${nx?`
+    <h1 class=station style=--w:${ww(bn(nx[2]))}>${bn(nx[2])} ${nx[1]}</h1>
+    <p class="meta mono">${bed(nx[2])[1]} · ${met?L`today's reading done`:L`${t+1} of ${g} today`}</p>
+    <p class=lede>${met?L`You've read ${plural(t,'chapter')} today. Keep going if you like.`:L`${g-t} left ${catchup&&t?L`of today's ${g}`:L`today`}, about ${mins(g-t)} minutes${catchup?L`: ${plural(share,'chapter')} for today and ${num(catchup)} to catch up`:''}.`}${(lf=>lf>=1&&lf<=3?' '+L`${plural(lf,'chapter')} to finish ${bn(nx[2])}.`:'')(toFinish(nx[2]))}</p>
+    <button class="go${met?' ghost':''}" onclick="go('reader')">${met?L`Keep reading: ${bn(nx[2])} ${nx[1]}`:L`Read ${bn(nx[2])} ${nx[1]}`}${icon('arrow')}</button>`:`
+    <h1 class=station>${L`The whole Bible, read`}</h1>
+    <p class=lede>${L`You've read all 1,189 chapters. Every band on the index is full.`}</p>${journeyHTML()}`}
   </section>
   ${dailyHTML()}
-  ${nx?`<section class=leaf aria-labelledby=stops-h><h2 id=stops-h>Today's chapters${extra?` <span class=extra>+${num(extra)} extra</span>`:''}</h2>
+  ${nx?`<section class=leaf aria-labelledby=stops-h><h2 id=stops-h>${L`Today's chapters`}${extra?` <span class=extra>${L`+${num(extra)} extra`}</span>`:''}</h2>
     <ol class=stops>${stops.map((s,i)=>stopRow(s,i,done.length,stops[i+1])).join('')}</ol></section>`:''}
-  <section class=leaf aria-labelledby=log-h><h2 id=log-h>Reading log</h2>${runHTML()}${calendar()}
-    <p class=facts><span>${num(count())} / 1,189 chapters</span><span>Finish ${fmtDate(S.deadline)}</span></p>
+  <section class=leaf aria-labelledby=log-h><h2 id=log-h>${L`Reading log`}</h2>${runHTML()}${calendar()}
+    <p class=facts><span>${L`${num(count())} / 1,189 chapters`}</span><span>${L`Finish ${fmtDate(S.deadline)}`}</span></p>
 </section>
   ${cardHTML()}
-  </div>${wide.matches?`<aside class=col-route aria-labelledby=route-h><h2 id=route-h class=sr>The whole Bible</h2>${routeBody()}</aside>`:''}</div>`;
+  </div>${wide.matches?`<aside class=col-route aria-labelledby=route-h><h2 id=route-h class=sr>${L`The whole Bible`}</h2>${routeBody()}</aside>`:''}</div>`;
 }
 function runHTML(){ // the run of days: its count, the best so far, and this week as seven holes, punched on the days read
-  const n=streak(),d=new Date(),wd=new Intl.DateTimeFormat(undefined,{weekday:'narrow'});d.setDate(d.getDate()-d.getDay());
+  const n=streak(),d=new Date(),wd=new Intl.DateTimeFormat(LOC,{weekday:'narrow'});d.setDate(d.getDate()-d.getDay());
   let on=0;const week=Array.from({length:7},()=>{const k=iso(d),r=!!S.log[k],h=`<li class="${r?'on':''}${k===today()?' now':''}"><i></i>${wd.format(d)}</li>`;on+=r;d.setDate(d.getDate()+1);return h}).join('');
-  return `<div class=run><b>${num(n)}</b><span>${n==1?'day':'days'} in a row<br>Best ${num(Math.max(bestRun(),n))}</span></div>
-    <ol class=week aria-label="This week: read on ${plural(on,'day')}">${week}</ol>
-    <p class=hint style="margin:0 0 1.1rem">${todayN()?"Today's hole is punched.":n?`Read a chapter today to make it ${num(n+1)}.`:'Read a chapter today to start a run.'}</p>`;
+  return `<div class=run><b>${num(n)}</b><span>${n==1?L`day in a row`:L`days in a row`}<br>${L`Best ${num(Math.max(bestRun(),n))}`}</span></div>
+    <ol class=week aria-label="${L`This week: read on ${plural(on,'day')}`}">${week}</ol>
+    <p class=hint style="margin:0 0 1.1rem">${todayN()?L`Today's hole is punched.`:n?L`Read a chapter today to make it ${num(n+1)}.`:L`Read a chapter today to start a run.`}</p>`;
 }
 function cardHTML(){ // the punch card: one hole a book, punched in its division's colour when the book is finished
   const n=booksDone();
-  return `<section class=leaf aria-labelledby=pc-h><h2 id=pc-h>Punch card</h2>
-    <div class=pc role=img aria-label="${n} of 66 books finished">${BEDS.map(([id,name,k,,,short],li)=>{const b0=BED_OF.indexOf(li);
-      return `<div style="--c:var(--${id})"><span>${short||name}</span><p>${BOOKS.slice(b0,b0+k).map(([b],j)=>`<i${bookDone(b0+j)?' class=on':''} title="${b}"></i>`).join('')}</p></div>`}).join('')}</div>
-    <p class=facts><span>${n} of 66 books finished</span></p></section>`;
+  return `<section class=leaf aria-labelledby=pc-h><h2 id=pc-h>${L`Punch card`}</h2>
+    <div class=pc role=img aria-label="${L`${n} of 66 books finished`}">${BEDS.map(([id,name,k,,,short],li)=>{const b0=BED_OF.indexOf(li);
+      return `<div style="--c:var(--${id})"><span>${short||name}</span><p>${BOOKS.slice(b0,b0+k).map((_,j)=>`<i${bookDone(b0+j)?' class=on':''} title="${bn(b0+j)}"></i>`).join('')}</p></div>`}).join('')}</div>
+    <p class=facts><span>${L`${n} of 66 books finished`}</span></p></section>`;
 }
 function cheerHTML(){ // the mark for what Done just finished: a large hole punched, and the name printed in
   if(!cheer||cheer.k==='bible')return '';
-  const [kick,head,line]=cheer.k==='run'?['A run of days',`${num(cheer.n)} days in a row`,'A chapter or more, every day. Keep the holes coming.']
-    :cheer.k==='div'?['Division finished',BEDS[cheer.li][1],`${BOOKS[cheer.bi][0]} was its last book. ${booksDone()} of 66 books finished.`]
-    :['Book finished',BOOKS[cheer.bi][0],`${plural(BOOKS[cheer.bi][1],'chapter')} read. ${booksDone()} of 66 books finished.`];
+  const [kick,head,line]=cheer.k==='run'?[L`A run of days`,L`${num(cheer.n)} days in a row`,L`A chapter or more, every day. Keep the holes coming.`]
+    :cheer.k==='div'?[L`Division finished`,BEDS[cheer.li][1],L`${bn(cheer.bi)} was its last book. ${booksDone()} of 66 books finished.`]
+    :[L`Book finished`,bn(cheer.bi),L`${plural(BOOKS[cheer.bi][1],'chapter')} read. ${booksDone()} of 66 books finished.`];
   return `<section class="leaf cheer" role=status><i class=hole aria-hidden=true></i><p class="meta mono">${kick}</p><h2 class=station style=--w:${ww(head)}>${head}</h2><p class=lede>${line}</p></section>`;
 }
 function journeyHTML(){ // the finished Bible: the journey in figures, and a way to tell someone
   const ds=Object.keys(S.log).filter(d=>S.log[d]).sort(),from=ds[0]||S.start,to=ds.at(-1)||today();
-  return `<p class=facts><span>${fmtDate(from)} to ${fmtDate(to)}</span><span>${plural(ds.length,'day')} of reading</span><span>Best run ${plural(bestRun(),'day')}</span><span>${plural(KEPT.length,'verse')} kept</span></p>
-    ${navigator.share?`<button class="go ghost" style="margin-top:1rem" onclick="navigator.share({text:'I have read the whole Bible: 1,189 chapters, 66 books.'}).catch(()=>{})">Share this</button>`:''}`;
+  return `<p class=facts><span>${L`${fmtDate(from)} to ${fmtDate(to)}`}</span><span>${L`${plural(ds.length,'day')} of reading`}</span><span>${L`Best run ${plural(bestRun(),'day')}`}</span><span>${L`${plural(KEPT.length,'verse')} kept`}</span></p>
+    ${navigator.share?`<button class="go ghost" style="margin-top:1rem" onclick="navigator.share({text:L\`I have read the whole Bible: 1,189 chapters, 66 books.\`}).catch(()=>{})">${L`Share this`}</button>`:''}`;
 }
 function pickVerse(dv){ // from the book you're reading if the list has one, else its part of the Bible, else the next in the list; none repeats until all have come round
   const bi=CH[nextIdx()]?.[2]??0,fresh=HOPE.filter(r=>!dv.seen.includes(r)),pool=fresh.length?fresh:HOPE;
@@ -697,19 +712,19 @@ function dailyHTML(){
   const dv=daily(),{bi,c}=refParts(dv.r),have=dv.t&&dv.tr===S.tr;
   if(!have)passage(dv.r).then(j=>{Object.assign(dv,{t:j.text.replace(/\s+/g,' ').trim(),tr:S.tr});const cur=daily();cur.t=dv.t;cur.tr=dv.tr;saveDV(cur); // re-read, so the week readyVerses set aside isn't overwritten
       const p=document.getElementById('dvt');if(p){p.textContent=dv.t;p.removeAttribute('aria-busy');document.getElementById('dvk').hidden=false}})
-    .catch(()=>{const p=document.getElementById('dvt');if(p)p.textContent="Today's verse needs a connection the first time. It will be here when you're back online."});
-  return `<section class="leaf daily" aria-labelledby=dv-h><h2 id=dv-h>A verse for today</h2>
-    <p class=dvt id=dvt lang=${TR[dv.tr||S.tr][1]}${have?'':' aria-busy=true'}>${have?esc(dv.t):'Opening today’s verse…'}</p>
-    <p class=kmeta><span>${dv.r} · ${S.tr.toUpperCase()}</span><button class=link-btn id=dvk${have?'':' hidden'} onclick=keepDaily(this)>${keptRef(dv.r)?'Kept':'Keep'}</button><button class=link-btn onclick="openCh(${FIRST[bi]+c-1},${refParts(dv.r).v})">Read ${BOOKS[bi][0]} ${c}</button></p></section>`;
+    .catch(()=>{const p=document.getElementById('dvt');if(p)p.textContent=L`Today's verse needs a connection the first time. It will be here when you're back online.`});
+  return `<section class="leaf daily" aria-labelledby=dv-h><h2 id=dv-h>${L`A verse for today`}</h2>
+    <p class=dvt id=dvt lang=${TR[dv.tr||S.tr][1]}${have?'':' aria-busy=true'}>${have?esc(dv.t):L`Opening today’s verse…`}</p>
+    <p class=kmeta><span>${lref(dv.r)} · ${S.tr.toUpperCase()}</span><button class=link-btn id=dvk${have?'':' hidden'} onclick=keepDaily(this)>${keptRef(dv.r)?L`Kept`:L`Keep`}</button><button class=link-btn onclick="openCh(${FIRST[bi]+c-1},${refParts(dv.r).v})">${L`Read ${bn(bi)} ${c}`}</button></p></section>`;
 }
 function keepDaily(btn){ // the day's verse into Kept, or back out
   const dv=daily(),{bi,c,v}=refParts(dv.r),i=KEPT.findIndex(k=>kref(k)===dv.r);
   if(i<0)KEPT.push({b:bi,c,v,r:dv.r,t:dv.t,tr:dv.tr,d:today()});else KEPT.splice(i,1);
-  saveKept();navigator.vibrate?.(i<0?12:[8,40,8]);btn.textContent=i<0?'Kept':'Keep';
+  saveKept();navigator.vibrate?.(i<0?12:[8,40,8]);btn.textContent=i<0?L`Kept`:L`Keep`;
 }
-function stopRow([b,c,bi],i,t,nx){
+function stopRow([,c,bi],i,t,nx){
   const st=i<t?'passed':i===t?'next':'ahead',change=st!=='passed'&&nx&&BED_OF[nx[2]]!==BED_OF[bi]; // read rows may sit out of order; only rows ahead announce a new division
-  return `<li class=${st}><span class=mk aria-hidden=true></span><span class=stn>${b} ${c}</span><span class=tag>${change?`${bed(nx[2])[1]} next · `:''}${st==='passed'?'Read':st==='next'?'Now':`<span class=sr>in about </span>${mins(i-t)} min`}</span></li>`;
+  return `<li class=${st}><span class=mk aria-hidden=true></span><span class=stn>${bn(bi)} ${c}</span><span class=tag>${change?L`${bed(nx[2])[1]} next · `:''}${st==='passed'?L`Read`:st==='next'?L`Now`:L`<span class=sr>in about </span>${mins(i-t)} min`}</span></li>`;
 }
 function ride(){ // the moment: rows just read punch through, and their books' bands on the rail step forward
   const t=todayN(),from=seenT;seenT=t;
@@ -724,48 +739,49 @@ function calendar(){ // last 12 weeks, one column per week; each day takes the h
     const k=iso(d),n=S.log[k]||0,at=S.at[k];on+=!!n;
     h+=`<i class="${n?'on':''}" style="${n?`--c:var(--${at==null?'wisdom':bed(CH[at][2])[0]});opacity:${Math.min(1,.4+.6*n/per)}`:''}" title="${fmtDate(k)}: ${plural(n,'chapter')}"></i>`;
   }
-  return `<div class=log><div class=wd aria-hidden=true><span></span><span>Mon</span><span></span><span>Wed</span><span></span><span>Fri</span><span></span></div>
-    <div class=cal role=img aria-label="Reading log: read on ${plural(on,'day')} of the last 12 weeks">${h}</div>
-    <div class=axis aria-hidden=true><span>12 weeks ago</span><span>This week</span></div></div>`;
+  const wk=k=>new Intl.DateTimeFormat(LOC,{weekday:'short'}).format(new Date(2024,0,k)); // 1 January 2024 was a Monday
+  return `<div class=log><div class=wd aria-hidden=true><span></span><span>${wk(1)}</span><span></span><span>${wk(3)}</span><span></span><span>${wk(5)}</span><span></span></div>
+    <div class=cal role=img aria-label="${L`Reading log: read on ${plural(on,'day')} of the last 12 weeks`}">${h}</div>
+    <div class=axis aria-hidden=true><span>${L`12 weeks ago`}</span><span>${L`This week`}</span></div></div>`;
 }
 
 function routeBody(){
   const n=count(),every=CH.map(([, ,bi],i)=>`<i class="${bed(bi)[0]}${isRead(i)?' r':''}"></i>`).join('');
-  return `<section class=leaf><div class=every role=img aria-label="Every chapter: ${n} of 1,189 read">${every}</div>
-    <p class="facts" style="margin:0"><span>${num(n)} / 1,189 read</span><span>${num(CH.length-n)} to go</span></p>
-    <form class=goto onsubmit="return gotoRef(this)"><label for=q class=sr>Go to a passage</label><input id=q name=q list=booklist placeholder="John 3:16" autocomplete=off enterkeyhint=go><button class="go slim">Go${icon('arrow')}</button></form>
-    <p class=hint id=qh>Open a book below to read any chapter, or to mark a book you read elsewhere.</p>
-    <datalist id=booklist>${BOOKS.map(([b])=>`<option value="${b} ">`).join('')}</datalist>
-    <div class=jump role=group aria-label="Go to a division">${BEDS.map(([id,name],li)=>`<button class=jchip style="--c:var(--${id})" onclick=jumpTo(${li})><b></b>${name}</button>`).join('')}</div></section>
+  return `<section class=leaf><div class=every role=img aria-label="${L`Every chapter: ${num(n)} of 1,189 read`}">${every}</div>
+    <p class="facts" style="margin:0"><span>${L`${num(n)} / 1,189 read`}</span><span>${L`${num(CH.length-n)} to go`}</span></p>
+    <form class=goto onsubmit="return gotoRef(this)"><label for=q class=sr>${L`Go to a passage`}</label><input id=q name=q list=booklist placeholder="${bn(42)} 3:16" autocomplete=off enterkeyhint=go><button class="go slim">${L`Go`}${icon('arrow')}</button></form>
+    <p class=hint id=qh>${L`Open a book below to read any chapter, or to mark a book you read elsewhere.`}</p>
+    <datalist id=booklist>${BOOKS.map((_,i)=>`<option value="${bn(i)} ">`).join('')}</datalist>
+    <div class=jump role=group aria-label="${L`Go to a division`}">${BEDS.map(([id,name],li)=>`<button class=jchip style="--c:var(--${id})" onclick=jumpTo(${li})><b></b>${name}</button>`).join('')}</div></section>
   <ol class=route>${BEDS.map(([id,name,n,,on],li)=>{const b0=BED_OF.indexOf(li);return `<li style="--c:var(--${id});--o:${on}">
     <h3 class=divider id=div-${li}>${name}</h3><div class=leaf><ol>${BOOKS.slice(b0,b0+n).map((_,k)=>stationRow(b0+k)).join('')}</ol></div></li>`}).join('')}</ol>`;
 }
 function stationRow(bi){
-  const [b,n]=BOOKS[bi],read=readIn(bi),cur=CH[nextIdx()]?.[2]===bi;
+  const n=BOOKS[bi][1],read=readIn(bi),cur=CH[nextIdx()]?.[2]===bi;
   return `<li class="stn-row${cur?' cur':''}"><button aria-expanded=false onclick="chapters(this,${bi})">
-    <span class=bar data-bar=${bi} style="--f:${(read/n).toFixed(3)}" aria-hidden=true></span><span class=name>${b}${cur?'<small>Next</small>':''}</span><span class=count>${read}/${n}</span></button></li>`;
+    <span class=bar data-bar=${bi} style="--f:${(read/n).toFixed(3)}" aria-hidden=true></span><span class=name>${bn(bi)}${cur?`<small>${L`Next`}</small>`:''}</span><span class=count>${read}/${n}</span></button></li>`;
 }
 function chapters(btn,bi){ // every chapter of a book, with marking for books read elsewhere
   const open=btn.getAttribute('aria-expanded')==='true';btn.setAttribute('aria-expanded',!open);
   if(open)return btn.nextElementSibling.remove();
-  const [b,n]=BOOKS[bi],read=readIn(bi);
-  btn.insertAdjacentHTML('afterend',`<div class=book-panel><div class=chgrid role=group aria-label="${b}: ${read} of ${n} chapters read. Choose one to read">${chKeys(bi)}</div>
-    <p class=mark-row>${read<n?`<button class="go ghost slim" onclick="markBook(${bi},true)">Mark ${b} read${icon('check')}</button>`:''}${read?`<button class="link-btn" onclick="markBook(${bi},false)">Mark as unread</button>`:''}</p></div>`);
+  const n=BOOKS[bi][1],b=bn(bi),read=readIn(bi);
+  btn.insertAdjacentHTML('afterend',`<div class=book-panel><div class=chgrid role=group aria-label="${L`${b}: ${read} of ${n} chapters read. Choose one to read`}">${chKeys(bi)}</div>
+    <p class=mark-row>${read<n?`<button class="go ghost slim" onclick="markBook(${bi},true)">${L`Mark ${b} read`}${icon('check')}</button>`:''}${read?`<button class="link-btn" onclick="markBook(${bi},false)">${L`Mark as unread`}</button>`:''}</p></div>`);
   step([btn.nextElementSibling],'perspective(900px) rotateX(-20deg)','0 0');
 }
 const chKeys=(bi,now)=>Array.from({length:BOOKS[bi][1]},(_,k)=>{const i=FIRST[bi]+k,r=isRead(i); // every chapter of a book as a key: read ones filled, the plan's next in ink, the open one ringed
-  return `<button class="chn${r?' r':''}${i===nextIdx()?' nx':''}${i===now?' here':''}" onclick=openCh(${i}) aria-label="${BOOKS[bi][0]} ${k+1}${r?', read':''}"${i===now?' aria-current=true autofocus':''}>${k+1}</button>`}).join('');
+  return `<button class="chn${r?' r':''}${i===nextIdx()?' nx':''}${i===now?' here':''}" onclick=openCh(${i}) aria-label="${bn(bi)} ${k+1}${r?L`, read`:''}"${i===now?' aria-current=true autofocus':''}>${k+1}</button>`}).join('');
 function chSheet(i){ // the switcher: any book from the list, every chapter as a key, and the chapters either side
-  const [b,c,bi]=CH[i],side=(j,dir)=>CH[j]?`<button class="go ghost slim" onclick=openCh(${j})>${dir<0?icon('back'):''}${CH[j][0]} ${CH[j][1]}${dir>0?icon('arrow'):''}</button>`:'<span></span>';
-  return `<div popover id=chsheet class="gloss sheet" role=dialog aria-label="Choose a chapter"><div class=shead><p class=gk>Choose a chapter</p><p class=gname>${b}</p>
-    <label class=sr for=chbook>Book</label><select id=chbook onchange="const k=+this.value;chkeys.className='chgrid '+bed(k)[0];chkeys.innerHTML=chKeys(k,${i})">${BOOKS.map(([n],k)=>`<option value=${k}${k===bi?' selected':''}>${n}</option>`).join('')}</select>
+  const bi=CH[i][2],side=(j,dir)=>CH[j]?`<button class="go ghost slim" onclick=openCh(${j})>${dir<0?icon('back'):''}${bn(CH[j][2])} ${CH[j][1]}${dir>0?icon('arrow'):''}</button>`:'<span></span>';
+  return `<div popover id=chsheet class="gloss sheet" role=dialog aria-label="${L`Choose a chapter`}"><div class=shead><p class=gk>${L`Choose a chapter`}</p><p class=gname>${bn(bi)}</p>
+    <label class=sr for=chbook>${L`Book`}</label><select id=chbook onchange="const k=+this.value;chkeys.className='chgrid '+bed(k)[0];chkeys.innerHTML=chKeys(k,${i})">${BOOKS.map((_,k)=>`<option value=${k}${k===bi?' selected':''}>${bn(k)}</option>`).join('')}</select>
     <p class=chnav>${side(i-1,-1)}${side(i+1,1)}</p></div>
-    <div class="chgrid ${bed(bi)[0]}" id=chkeys role=group aria-label="Chapters">${chKeys(bi,i)}</div></div>`;
+    <div class="chgrid ${bed(bi)[0]}" id=chkeys role=group aria-label="${L`Chapters`}">${chKeys(bi,i)}</div></div>`;
 }
 function gotoRef(f){ // "John 3:16", "ps 23", "1 cor 13" → that chapter, landing on that verse
-  const q=f.q.value.trim(),m=q.match(/^(.+?)\s*(?:(\d+)(?:\s*[:.]\s*(\d+))?)?$/),key=s=>s.toLowerCase().replace(/[^a-z0-9]/g,'');
-  const bi=m?BOOKS.findIndex(([b])=>key(b).startsWith(key(m[1]))):-1,c=+(m?.[2]||1),qh=document.getElementById('qh');
-  if(bi<0||c>BOOKS[bi][1]){qh.textContent=q?`Couldn't find "${q}". Try a book and chapter, like Psalm 23 or John 3:16.`:'Type a book and chapter, like Psalm 23 or John 3:16.';qh.classList.add('err');f.q.focus();return false}
+  const q=f.q.value.trim(),m=q.match(/^(.+?)\s*(?:(\d+)(?:\s*[:.]\s*(\d+))?)?$/),key=s=>s.toLowerCase().replace(/[^\p{L}\p{M}\p{N}]/gu,''),k=key(m?.[1]||'');
+  const bi=k?BOOKS.findIndex(([b],i)=>key(b).startsWith(k)||key(bn(i)).startsWith(k)):-1,c=+(m?.[2]||1),qh=document.getElementById('qh'); // the English name or the app language's
+  if(bi<0||c>BOOKS[bi][1]){qh.textContent=q?L`Couldn't find "${q}". Try a book and chapter, like ${bn(18)} 23 or ${bn(42)} 3:16.`:L`Type a book and chapter, like ${bn(18)} 23 or ${bn(42)} 3:16.`;qh.classList.add('err');f.q.focus();return false}
   openCh(FIRST[bi]+c-1,+m[3]||null);return false;
 }
 function markBook(bi,v){ // for books read outside the app: doesn't count toward today's reading or the streak
@@ -777,15 +793,15 @@ function markBook(bi,v){ // for books read outside the app: doesn't count toward
 
 let gone=null; // the last verse removed from Kept, so it can come back
 function keptView(){
-  return `<h1 class=title>Kept verses</h1>
-  ${gone?`<p class=gone role=status>Removed ${kref(gone.k)}.<button class=link-btn onclick=unremove()>Undo</button></p>`:''}
-  ${KEPT.length?`<ol class=kept-list>${KEPT.map((k,i)=>[k,i]).reverse().map(([k,i])=>`<li class="leaf ${bed(k.b)[0]}"><span class=ktab>${kref(k)}</span>
+  return `<h1 class=title>${L`Kept verses`}</h1>
+  ${gone?`<p class=gone role=status>${L`Removed ${lref(kref(gone.k))}.`}<button class=link-btn onclick=unremove()>${L`Undo`}</button></p>`:''}
+  ${KEPT.length?`<ol class=kept-list>${KEPT.map((k,i)=>[k,i]).reverse().map(([k,i])=>`<li class="leaf ${bed(k.b)[0]}"><span class=ktab>${lref(kref(k))}</span>
     <p class=ktext lang=${TR[k.tr][1]}>${esc(k.t)}</p>${k.n?`<p class=knote>${esc(k.n)}</p>`:''}
-    <p class=kmeta><span>Kept ${fmtDate(k.d)} · ${k.tr.toUpperCase()}</span><button class=link-btn onclick=openCh(${FIRST[k.b]+k.c-1},${k.v})>Read ${BOOKS[k.b][0]} ${k.c}</button><button class=link-btn onclick="noteSheet(${k.b},${k.c},${k.v})">${k.n?'Edit note':'Add a note'}</button>${navigator.share?`<button class=link-btn onclick=share(${i})>Share</button>`:''}<button class=link-btn onclick=unkeep(${i},this)>Remove</button></p></li>`).join('')}</ol>`
-  :`<section class=leaf><p class=empty>Nothing kept yet. While you read, tap a verse, then tap Keep, or write a note on it. It gets a punched hole in the margin and waits here for you.</p></section>`}
-  ${Object.keys(HL).length?`<h2 class=hl-h>Highlights</h2><ol class="kept-list hl-list">${Object.keys(HL).map(k=>k.split('.').map(Number)).sort((x,y)=>x[0]-y[0]||x[1]-y[1]||x[2]-y[2]).map(([b,c,v])=>`<li class="leaf ${bed(b)[0]}"><span class=ktab>${BOOKS[b][0]} ${c}:${v}</span>
+    <p class=kmeta><span>${L`Kept ${fmtDate(k.d)}`} · ${k.tr.toUpperCase()}</span><button class=link-btn onclick=openCh(${FIRST[k.b]+k.c-1},${k.v})>${L`Read ${bn(k.b)} ${k.c}`}</button><button class=link-btn onclick="noteSheet(${k.b},${k.c},${k.v})">${k.n?L`Edit note`:L`Add a note`}</button>${navigator.share?`<button class=link-btn onclick=share(${i})>${L`Share`}</button>`:''}<button class=link-btn onclick=unkeep(${i},this)>${L`Remove`}</button></p></li>`).join('')}</ol>`
+  :`<section class=leaf><p class=empty>${L`Nothing kept yet. While you read, tap a verse, then tap Keep, or write a note on it. It gets a punched hole in the margin and waits here for you.`}</p></section>`}
+  ${Object.keys(HL).length?`<h2 class=hl-h>${L`Highlights`}</h2><ol class="kept-list hl-list">${Object.keys(HL).map(k=>k.split('.').map(Number)).sort((x,y)=>x[0]-y[0]||x[1]-y[1]||x[2]-y[2]).map(([b,c,v])=>`<li class="leaf ${bed(b)[0]}"><span class=ktab>${bn(b)} ${c}:${v}</span>
     <p class=ktext lang=${TR[S.tr][1]}><span class=htext data-h=${HL[`${b}.${c}.${v}`]} data-k=${b}.${c}.${v}></span></p>
-    <p class=kmeta><button class=link-btn onclick=openCh(${FIRST[b]+c-1},${v})>Read ${BOOKS[b][0]} ${c}</button><button class=link-btn onclick="unmark('${b}.${c}.${v}')">Remove</button></p></li>`).join('')}</ol>`:''}`;
+    <p class=kmeta><button class=link-btn onclick=openCh(${FIRST[b]+c-1},${v})>${L`Read ${bn(b)} ${c}`}</button><button class=link-btn onclick="unmark('${b}.${c}.${v}')">${L`Remove`}</button></p></li>`).join('')}</ol>`:''}`;
 }
 function hlText(){ // each highlighted verse's words in the current translation, one fetch per chapter
   const by={};for(const e of $.querySelectorAll('.htext')){const [b,c]=e.dataset.k.split('.');(by[`${BOOKS[b][0]} ${c}`]??=[]).push(e)}
@@ -799,41 +815,43 @@ function unkeep(i,btn){ // the leaf hinges shut at its bound edge, as Done shuts
   a?Promise.race([a.finished,new Promise(r=>setTimeout(r,150))]).then(out):out(); // never waits on a paused clock
 }
 function unremove(){const i=gone.i;KEPT.splice(i,0,gone.k);gone=null;saveKept();render();step([$.querySelectorAll('.kept-list>li')[KEPT.length-1-i]],'perspective(900px) rotateY(-16deg)')} // it hinges back in where it was
-function share(i){const k=KEPT[i];navigator.share({text:`"${k.t}" ${kref(k)} (${TR[k.tr][0]})`}).catch(()=>{})}
+function share(i){const k=KEPT[i];navigator.share({text:`"${k.t}" ${lref(kref(k))} (${TR[k.tr][0]})`}).catch(()=>{})}
 function settingsView(){
-  return `<h1 class=title>Settings</h1>
-  <section class=leaf><label for=dl style="margin-top:0">Finish by</label>
+  return `<h1 class=title>${L`Settings`}</h1>
+  <section class=leaf><label for=dl style="margin-top:0">${L`Finish by`}</label>
   <input type=date id=dl min="${today()}" value="${S.deadline}" onchange=setDeadline(this.value)>
-  <p class=hint>Changing the date re-plans your reading from today.</p>
-  <label for=tr>Translation</label>
+  <p class=hint>${L`Changing the date re-plans your reading from today.`}</p>
+  <label for=lg>${L`App language`}</label>
+  <select id=lg onchange=setLang(this.value)>${Object.entries(UI).map(([l,n])=>`<option value=${l}${l===LG?' selected':''} lang=${l}>${n}</option>`).join('')}</select>
+  <label for=tr>${L`Bible translation`}</label>
   <select id=tr onchange="S.tr=this.value;save()">${Object.entries(LANGS).map(([l,ln])=>`<optgroup label="${ln}">${Object.entries(TR).filter(([,t])=>t[1].startsWith(l)).map(([k,[n]])=>`<option value=${k}${k==S.tr?' selected':''}>${n}</option>`).join('')}</optgroup>`).join('')}</select>
-  <fieldset class="picker setting"><legend class=lab>Night mode</legend>
-    ${[['light','Off'],['dark','On'],['auto','Follow phone']].map(([v,n])=>`<label class=bk-pick style="--c:var(--hue);--o:var(--on-day)"><input type=radio name=theme value=${v}${(localStorage.getItem('tolle-theme')||'auto')===v?' checked':''} onchange=setTheme(this.value)><span>${n}</span></label>`).join('')}
-    <p class=hint style="margin:0">Follow phone switches with your phone's dark mode.</p></fieldset>
-  <label for=rate>Read-aloud speed</label>
+  <fieldset class="picker setting"><legend class=lab>${L`Night mode`}</legend>
+    ${[['light',L`Off`],['dark',L`On`],['auto',L`Follow phone`]].map(([v,n])=>`<label class=bk-pick style="--c:var(--hue);--o:var(--on-day)"><input type=radio name=theme value=${v}${(localStorage.getItem('tolle-theme')||'auto')===v?' checked':''} onchange=setTheme(this.value)><span>${n}</span></label>`).join('')}
+    <p class=hint style="margin:0">${L`Follow phone switches with your phone's dark mode.`}</p></fieldset>
+  <label for=rate>${L`Read-aloud speed`}</label>
   <select id=rate onchange="S.rate=+this.value;save()">${[.75,1,1.25,1.5,2].map(r=>`<option value=${r}${r==S.rate?' selected':''}>${r}×</option>`).join('')}</select>
   <div class=actions>
-    ${installEvt?`<button class="go ghost" id=inst onclick=install()>Install Tolle${icon('install')}</button>`:''}
-    ${todayIdx().length?(([b,c])=>`<button class="go ghost" onclick=undo()>Undo last chapter (${b} ${c})${icon('undo')}</button>`)(CH[todayIdx().at(-1)]):''}
+    ${installEvt?`<button class="go ghost" id=inst onclick=install()>${L`Install Tolle`}${icon('install')}</button>`:''}
+    ${todayIdx().length?(([,c,bi])=>`<button class="go ghost" onclick=undo()>${L`Undo last chapter (${bn(bi)} ${c})`}${icon('undo')}</button>`)(CH[todayIdx().at(-1)]):''}
   </div></section>
-  <section class=leaf aria-labelledby=bk-h><h2 id=bk-h>Backup</h2>
-    <p class=about>Your plan, progress and kept verses are saved on this phone only. Keep a copy, so a new phone or a cleared browser can pick up where you left off. Sign in with Google and it is kept in your Tolle account too, on every phone you sign in to.</p>
+  <section class=leaf aria-labelledby=bk-h><h2 id=bk-h>${L`Backup`}</h2>
+    <p class=about>${L`Your plan, progress and kept verses are saved on this phone only. Keep a copy, so a new phone or a cleared browser can pick up where you left off. Sign in with Google and it is kept in your Tolle account too, on every phone you sign in to.`}</p>
     ${backupHTML()}</section>
   ${reminderHTML()}
-  <section class=leaf aria-labelledby=about-h><h2 id=about-h>About Tolle</h2>
-    <p class=about>The name comes from Augustine's "tolle lege": take up and read. Scripture text: the World English Bible, built in, and other public-domain English translations via bible-api.com; Hindi, Tamil, Malayalam and Telugu via bible.helloao.org, credited under each chapter. The Why &amp; How notes are AI-written, so check them against your own study. <a href=privacy.html>Privacy: what Tolle keeps, and where</a>.</p></section>
-  <div class=danger-zone><button class=danger onclick=reset()>Erase all progress</button></div>`;
+  <section class=leaf aria-labelledby=about-h><h2 id=about-h>${L`About Tolle`}</h2>
+    <p class=about>${L`The name comes from Augustine's "tolle lege": take up and read. Scripture text: the World English Bible, built in, and other public-domain English translations via bible-api.com; Hindi, Tamil, Malayalam and Telugu via bible.helloao.org, credited under each chapter. The Why &amp; How notes are AI-written, so check them against your own study.`} <a href=privacy.html>${L`Privacy: what Tolle keeps, and where`}</a>.</p></section>
+  <div class=danger-zone><button class=danger onclick=reset()>${L`Erase all progress`}</button></div>`;
 }
 function backupHTML(){ // Settings and the first screen share it: Drive when it's set up, then the file
-  return `<p class=hint id=sync-note role=status>${AU?`Signed in as ${esc(AU.email||'your Google account')}. ${syncNote()}`:SY.err?syncNote():''}</p><div class=actions>
-    ${AU?`<button class=go onclick=sync()>Sync now${icon('arrow')}</button>`:`<button class=go onclick=signIn()>${S?'Sign in with Google to sync':'Sign in with Google to restore'}${icon('arrow')}</button>`}
-    ${S?`<button class="go ghost" onclick=saveBackup()>Save a backup file</button>`:''}
-    <button class="go ghost" onclick=this.nextElementSibling.click()>Restore from a backup file</button><input type=file hidden accept=".txt,.json,text/plain,application/json" onchange=restoreFile(this)></div>
-    ${AU?`<p class=kmeta><button class=link-btn onclick=signOut()>Sign out</button><button class=link-btn onclick=deleteAccount()>Delete my account</button></p>`:''}`;
+  return `<p class=hint id=sync-note role=status>${AU?`${L`Signed in as ${esc(AU.email||L`your Google account`)}.`} ${syncNote()}`:SY.err?syncNote():''}</p><div class=actions>
+    ${AU?`<button class=go onclick=sync()>${L`Sync now`}${icon('arrow')}</button>`:`<button class=go onclick=signIn()>${S?L`Sign in with Google to sync`:L`Sign in with Google to restore`}${icon('arrow')}</button>`}
+    ${S?`<button class="go ghost" onclick=saveBackup()>${L`Save a backup file`}</button>`:''}
+    <button class="go ghost" onclick=this.nextElementSibling.click()>${L`Restore from a backup file`}</button><input type=file hidden accept=".txt,.json,text/plain,application/json" onchange=restoreFile(this)></div>
+    ${AU?`<p class=kmeta><button class=link-btn onclick=signOut()>${L`Sign out`}</button><button class=link-btn onclick=deleteAccount()>${L`Delete my account`}</button></p>`:''}`;
 }
 function setDeadline(v){if(v&&v>=today()){Object.assign(S,{deadline:v,start:today(),startDone:count()-todayN()});save()}}
 function undo(){const i=S.day.idx.pop();setRead(i,false);S.log[today()]--;save();render()} // only offered when something was read today
-function reset(){if(confirm('Erase all progress? This cannot be undone.')){localStorage.removeItem(KEY);S=null;seenT=null;touch();go('today')}}
+function reset(){if(confirm(L`Erase all progress? This cannot be undone.`)){localStorage.removeItem(KEY);S=null;seenT=null;touch();go('today')}}
 
 // backups: everything worth keeping (the plan and Kept) as one copy, stamped with when this phone last changed it
 const pack=()=>({app:'tolle',v:1,u:+localStorage.getItem('tolle-u')||0,plan:S,kept:KEPT,hl:HL});
@@ -863,7 +881,7 @@ function merge(a,b){ // two copies: a chapter read on either counts, the newer c
 }
 let flash=null; // one line for Today, saying what a restore brought back
 let cheer=null; // {k: book|div|bible|run, ...}: what the last Done finished, marked once on Today
-const restored=()=>`Restored: ${plural(count(),'chapter')} read, ${plural(KEPT.length,'kept verse')}.`;
+const restored=()=>L`Restored: ${plural(count(),'chapter')} read, ${plural(KEPT.length,'kept verse')}.`;
 function adopt(p){ // take a copy as this phone's own
   const fresh=!S;S=p.plan;KEPT=p.kept;HL=p.hl||{};localStorage.setItem('tolle-hl',JSON.stringify(HL));if(fresh&&S)flash=restored();
   S?localStorage.setItem(KEY,JSON.stringify(S)):localStorage.removeItem(KEY);
@@ -877,7 +895,7 @@ function saveBackup(){ // one file, handed to the share sheet (Save to Drive, em
 }
 function restoreFile(inp){ // adds the file's progress to this phone's: nothing here is lost
   inp.files[0]?.text().then(t=>{adopt(merge(pack(),clean(JSON.parse(t))));touch();flash=S?restored():null;go('today')})
-    .catch(()=>alert("That file isn't a Tolle backup. Pick the file Tolle saved, named like “Tolle backup 2026-01-31”."))
+    .catch(()=>alert(L`That file isn't a Tolle backup. Pick the file Tolle saved, named like “Tolle backup 2026-01-31”.`))
     .finally(()=>{inp.value=''});
 }
 
@@ -942,7 +960,7 @@ function signOut(){ // this phone forgets the session and stops getting reminder
   RM={};keepRM();AU=null;keepAU();SY={};keepSY();render();
 }
 async function deleteAccount(){ // the account and its copy are erased for good; this phone's own progress stays
-  if(!confirm('Delete your Tolle account? The copy of your plan, progress, kept verses, notes and highlights in it will be erased for good. What is on this phone stays.'))return;
+  if(!confirm(L`Delete your Tolle account? The copy of your plan, progress, kept verses, notes and highlights in it will be erased for good. What is on this phone stays.`))return;
   const t=await token();if(!t)return synced('expired');
   try{const r=await fetch(`${SB}/functions/v1/delete-account`,{method:'POST',headers:{apikey:SBK,Authorization:'Bearer '+t}});if(!r.ok)throw r.status;
     AU=null;keepAU();SY={err:'deleted'};keepSY();render()}
@@ -957,24 +975,24 @@ const keepRM=()=>localStorage.setItem('tolle-remind',JSON.stringify(RM));
 const tz=()=>Intl.DateTimeFormat().resolvedOptions().timeZone;
 const facts=()=>{const nx=CH[nextIdx()]; // only what the reminders need: the last day read, the run up to it, and what's next
   return {tz:tz(),last_read:Object.keys(S.log).filter(d=>S.log[d]).sort().at(-1)??null,run_days:streak(),next_up:nx?`${nx[0]} ${nx[1]}`:null}};
-const at12=t=>new Date(`2000-01-01T${t}`).toLocaleTimeString(undefined,{hour:'numeric',minute:'2-digit'});
+const at12=t=>new Date(`2000-01-01T${t}`).toLocaleTimeString(LOC,{hour:'numeric',minute:'2-digit'});
 function reminderHTML(){
   if(!VAPID||!('PushManager' in window))return '';
-  if(!AU)return `<section class=leaf aria-labelledby=rm-h><h2 id=rm-h>Daily reminder</h2>
-    <p class=about>Sign in with Google (under Backup) and Tolle can remind you on days you haven't read yet, and send you the verse of the day.</p></section>`;
+  if(!AU)return `<section class=leaf aria-labelledby=rm-h><h2 id=rm-h>${L`Daily reminder`}</h2>
+    <p class=about>${L`Sign in with Google (under Backup) and Tolle can remind you on days you haven't read yet, and send you the verse of the day.`}</p></section>`;
   const row=(id,h,col,on,def,about,label)=>`<section class=leaf aria-labelledby=${id}-h><h2 id=${id}-h>${h}</h2>
     <p class=about>${about}</p>
     <label for=${id}t>${label}</label><input type=time id=${id}t value="${on||def}">
     <p class=hint id=${id}-note role=status></p>
-    <div class=actions><button class=go onclick="pushSet('${col}',${id}t.value||'${def}','${id}-note')">${on?'Save time':'Turn on'}${icon('arrow')}</button></div>
-    ${on?`<p><button class=link-btn onclick="pushSet('${col}',null,'${id}-note')">Turn off</button></p>`:''}</section>`;
-  return row('rm','Daily reminder','remind_at',RM.at,'08:00',RM.at?`On: every day at ${at12(RM.at)}, only on days you haven't read yet.`:"A gentle nudge on days you haven't read yet, never on days you have.",'Remind me at')
-    +row('vd','Verse of the day','verse_at',RM.verse,'07:00',RM.verse?`On: today's verse arrives every day at ${at12(RM.verse)}, read or not.`:"Today's verse in a notification, so you see it each day without opening Tolle.",'Send it at')
-    +row('kr','Keep your run','run_at',RM.run,'20:00',RM.run?`On: at ${at12(RM.run)}, only when you have a run going and haven't read yet that day.`:"An evening nudge when your run of days in a row would break at midnight, never once you've read.",'Nudge me at');
+    <div class=actions><button class=go onclick="pushSet('${col}',${id}t.value||'${def}','${id}-note')">${on?L`Save time`:L`Turn on`}${icon('arrow')}</button></div>
+    ${on?`<p><button class=link-btn onclick="pushSet('${col}',null,'${id}-note')">${L`Turn off`}</button></p>`:''}</section>`;
+  return row('rm',L`Daily reminder`,'remind_at',RM.at,'08:00',RM.at?L`On: every day at ${at12(RM.at)}, only on days you haven't read yet.`:L`A gentle nudge on days you haven't read yet, never on days you have.`,L`Remind me at`)
+    +row('vd',L`Verse of the day`,'verse_at',RM.verse,'07:00',RM.verse?L`On: today's verse arrives every day at ${at12(RM.verse)}, read or not.`:L`Today's verse in a notification, so you see it each day without opening Tolle.`,L`Send it at`)
+    +row('kr',L`Keep your run`,'run_at',RM.run,'20:00',RM.run?L`On: at ${at12(RM.run)}, only when you have a run going and haven't read yet that day.`:L`An evening nudge when your run of days in a row would break at midnight, never once you've read.`,L`Nudge me at`);
 }
 const b64u=s=>Uint8Array.from(atob(s.replace(/-/g,'+').replace(/_/g,'/')),c=>c.charCodeAt(0));
 async function pushSet(col,at,noteId){ // on (or a new time): permission, this phone's push address, then the time on the account; off: clear the time, and the address once nothing is left to send
-  const note=document.getElementById(noteId);let step=at?'permission':'off';note.textContent=at?'Turning on…':'Turning off…';
+  const note=document.getElementById(noteId);let step=at?'permission':'off';note.textContent=at?L`Turning on…`:L`Turning off…`;
   try{
     if(at){
       if(await Notification.requestPermission()!=='granted')throw 'denied';
@@ -989,13 +1007,13 @@ async function pushSet(col,at,noteId){ // on (or a new time): permission, this p
       (await (await navigator.serviceWorker.ready).pushManager.getSubscription())?.unsubscribe();RM={};
     }
     keepRM();render();if(RM.verse&&S)readyVerses();
-  }catch(e){note.textContent=e==='denied'?"Notifications are blocked for Tolle. Allow them in your phone's settings for this app, then try again."
-    :step==='subscribe'?`This browser couldn't sign up for notifications (${e?.name||e}). In Brave, turn on Settings → Privacy and security → "Use Google services for push messaging", or open Tolle in Chrome.`
-    :step==='off'?"Couldn't turn this off. Check your connection and try again."
-    :`Couldn't save this to your account (${e}). Check your connection and try again.`}
+  }catch(e){note.textContent=e==='denied'?L`Notifications are blocked for Tolle. Allow them in your phone's settings for this app, then try again.`
+    :step==='subscribe'?L`This browser couldn't sign up for notifications (${e?.name||e}). In Brave, turn on Settings → Privacy and security → "Use Google services for push messaging", or open Tolle in Chrome.`
+    :step==='off'?L`Couldn't turn this off. Check your connection and try again.`
+    :L`Couldn't save this to your account (${e}). Check your connection and try again.`}
 }
-const syncNote=()=>({deleted:'Your Tolle account was deleted.',delete:"Couldn't delete your account. Check your connection and try again.",bad:"The copy in your account couldn't be read, so Tolle left it alone.",expired:"You've been signed out. Sign in again to keep syncing.",signin:"Sign-in didn't finish. Try again.",offline:"Couldn't reach your account. Your progress is safe on this phone and syncs when you're back online."})[SY.err==='bad copy'?'bad':SY.err]
-  ??(SY.at?`Synced ${new Date(SY.at).toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'})}.`:'Not synced yet.');
+const syncNote=()=>({deleted:L`Your Tolle account was deleted.`,delete:L`Couldn't delete your account. Check your connection and try again.`,bad:L`The copy in your account couldn't be read, so Tolle left it alone.`,expired:L`You've been signed out. Sign in again to keep syncing.`,signin:L`Sign-in didn't finish. Try again.`,offline:L`Couldn't reach your account. Your progress is safe on this phone and syncs when you're back online.`})[SY.err==='bad copy'?'bad':SY.err]
+  ??(SY.at?L`Synced ${new Date(SY.at).toLocaleString(LOC,{dateStyle:'medium',timeStyle:'short'})}.`:L`Not synced yet.`);
 addEventListener('visibilitychange',()=>{if(!document.hidden){sync();if(RM.verse&&S)readyVerses()}});
 
 // a sheet follows the thumb down 1:1; let go and it drops away or settles back, by where the flick was headed
@@ -1029,30 +1047,30 @@ async function prefetch(){
 }
 
 function readerView(){
-  const i=cur(),[b,c,bi]=CH[i],again=isRead(i),t=todayN(),g=goal(),nx=again?null:CH[nextIn(S.read,i+1)],left=toFinish(bi);
-  const tail=again?'':left===1?` · finishes ${b}`:left-1>=1&&left-1<=3?` · ${num(left-1)} more to finish ${b}`:nx?` · next: ${nx[0]} ${nx[1]}`:''; // near a book's end, the pull to finish it
+  const i=cur(),[b,c,bi]=CH[i],nm=bn(bi),again=isRead(i),t=todayN(),g=goal(),nx=again?null:CH[nextIn(S.read,i+1)],left=toFinish(bi);
+  const tail=again?'':left===1?L` · finishes ${nm}`:left-1>=1&&left-1<=3?L` · ${num(left-1)} more to finish ${nm}`:nx?L` · next: ${bn(nx[2])} ${nx[1]}`:''; // near a book's end, the pull to finish it
   const first=!readIn(bi),intro=`<section class="leaf intro" hidden><details${first?' open':''}></details></section>`; // starting a book: its introduction comes before the text
-  $.innerHTML=`${metLine?`<p class=gone>${metLine}</p>`:''}<div class=rbar><div class=rrow><button class=icon-btn onclick="go('today')" aria-label="Back to Today">${icon('back')}</button>
-    <span class=pos>${again?'Read before':t<g?`${t+1} of ${g} today`:pace().cls==='late'?'Catching up':'Extra chapter'}</span>
-    <span class=rtools>${moon()}${window.speechSynthesis?`<button class=icon-btn aria-pressed=false aria-label="Listen to this chapter" onclick=listen(this)>${icon('listen')}</button>`:''}</span></div>
-    <div class=vstrip role=slider tabindex=0 aria-label="Verses. Tap or drag along the bars, or use the arrow keys, to jump to a verse" aria-valuemin=0 aria-valuenow=0></div></div>
-  <header class="leaf clear opener"><h1 class=station style=--w:${ww(b)}>${b}<span class=sr> ${c}</span></h1>
-    <div class=sec><button class=num popovertarget=chsheet aria-label="Chapter ${c} of ${BOOKS[bi][1]}. Choose another chapter">${c}</button><p class="meta mono">${bed(bi)[1]} · <button class=chpick popovertarget=chsheet>chapter ${c} of ${BOOKS[bi][1]}</button><br><span class=vc>&nbsp;</span></p></div>
-    <p class=sum hidden></p><p class=look hidden></p></header>
+  $.innerHTML=`${metLine?`<p class=gone>${metLine}</p>`:''}<div class=rbar><div class=rrow><button class=icon-btn onclick="go('today')" aria-label="${L`Back to Today`}">${icon('back')}</button>
+    <span class=pos>${again?L`Read before`:t<g?L`${t+1} of ${g} today`:pace().cls==='late'?L`Catching up`:L`Extra chapter`}</span>
+    <span class=rtools>${moon()}${window.speechSynthesis?`<button class=icon-btn aria-pressed=false aria-label="${L`Listen to this chapter`}" onclick=listen(this)>${icon('listen')}</button>`:''}</span></div>
+    <div class=vstrip role=slider tabindex=0 aria-label="${L`Verses. Tap or drag along the bars, or use the arrow keys, to jump to a verse`}" aria-valuemin=0 aria-valuenow=0></div></div>
+  <header class="leaf clear opener"><h1 class=station style=--w:${ww(nm)}>${nm}<span class=sr> ${c}</span></h1>
+    <div class=sec><button class=num popovertarget=chsheet aria-label="${L`Chapter ${c} of ${BOOKS[bi][1]}. Choose another chapter`}">${c}</button><p class="meta mono">${bed(bi)[1]} · <button class=chpick popovertarget=chsheet>${L`chapter ${c} of ${BOOKS[bi][1]}`}</button><br><span class=vc>&nbsp;</span></p></div>
+    <p class=sum lang=en hidden></p><p class=look hidden></p></header>
   ${first?intro:''}
-  <article class="leaf scripture" lang=${TR[S.tr][1]} aria-busy=true><div class=skel aria-label="Loading ${b} ${c}">${'<i></i>'.repeat(8)}</div></article>
-  <p class=credit>${TR[S.tr][0]} · ${TR[S.tr][3]||'public domain'}</p>
+  <article class="leaf scripture" lang=${TR[S.tr][1]} aria-busy=true><div class=skel aria-label="${L`Loading ${nm} ${c}`}">${'<i></i>'.repeat(8)}</div></article>
+  <p class=credit>${TR[S.tr][0]} · ${TR[S.tr][3]||L`public domain`}</p>
   <section class="leaf recall" aria-labelledby=rc-h hidden></section>
   ${first?'':intro}
   <section class="leaf why" hidden></section>
-  <div class=actbar><div class=vbar hidden>${HUES.map(([id,name],k)=>`<button class=hl style="--c:var(--${id})" aria-label="Highlight ${name}" aria-pressed=false onclick=mark(${k+1})></button>`).join('')}<button class=keep id=notebtn onclick="noteSheet(selAt.bi,selAt.c,+sel.dataset.v,sel.dataset.t)">Note</button></div><button class=keep aria-pressed=false hidden onclick=keep(this)></button><button class=go onclick=finish(this)><span>Done${tail?`<span class=nx>${tail}</span>`:''}</span>${icon('check')}</button></div>
+  <div class=actbar><div class=vbar hidden>${HUES.map(([id,name],k)=>`<button class=hl style="--c:var(--${id})" aria-label="${L`Highlight ${name}`}" aria-pressed=false onclick=mark(${k+1})></button>`).join('')}<button class=keep id=notebtn onclick="noteSheet(selAt.bi,selAt.c,+sel.dataset.v,sel.dataset.t)">${L`Note`}</button></div><button class=keep aria-pressed=false hidden onclick=keep(this)></button><button class=go onclick=finish(this)><span>${L`Done`}${tail?`<span class=nx>${tail}</span>`:''}</span>${icon('check')}</button></div>
   ${chSheet(i)}`;
   const [txt,box,sum,vc,quiz,strip,look,about]=['.scripture','.why','.sum','.vc','.recall','.vstrip','.look','.intro'].map(q=>$.querySelector(q)); // grab now: the reader may leave before fetches return
   const textP=passage(`${b} ${c}`),noteP=insights(b);
   noteP.then(all=>{const x=all[c];
     if(x?.summary){sum.textContent=x.summary;sum.hidden=false}
-    if(x?.lookfor){look.innerHTML=`<span class=kind>${icon('detail')}Look for</span>${esc(x.lookfor)}`;look.hidden=false}
-    if(all.intro){const d=about.firstChild;d.innerHTML=introHTML(all.intro,b,c);about.hidden=false;let tapped=false;
+    if(x?.lookfor){look.innerHTML=`<span class=kind>${icon('detail')}${L`Look for`}</span><span lang=en>${esc(x.lookfor)}</span>`;look.hidden=false} // the notes are English, for now
+    if(all.intro){const d=about.firstChild;d.innerHTML=introHTML(all.intro,nm,c);about.hidden=false;let tapped=false;
       d.onclick=e=>{tapped=e.target.closest('summary')!=null};d.ontoggle=()=>{if(tapped&&d.open)step([...d.children].slice(1),'perspective(900px) rotateX(-20deg)','50% 0');tapped=false}}}); // opens like a book panel
   Promise.allSettled([textP,noteP]).then(([tx,nt])=>{
     if(!txt.isConnected)return;
@@ -1074,26 +1092,26 @@ function readerView(){
       strip.onpointermove=e=>{if(strip.hasPointerCapture(e.pointerId))jump(under(e))};
       strip.onkeydown=e=>{const n=+strip.ariaValueNow,k={ArrowRight:n,ArrowDown:n,ArrowLeft:n-2,ArrowUp:n-2,Home:0,End:verses.length-1}[e.key];if(k!=null){e.preventDefault();jump(k)}};
       const to=jv&&txt.querySelector(`.vs[data-v="${jv}"]`);jv=null;if(to){to.scrollIntoView({block:'center'});choose(to,b,c,bi)} // landing on a chosen verse
-    }else txt.innerHTML=`<p style="margin:0">Couldn't load ${b} ${c}. You may be offline, or the text service is busy. <button class=link onclick="go('reader')">Try again</button>, or read it in your own Bible and tap Done.</p>`;
+    }else txt.innerHTML=`<p style="margin:0">${L`Couldn't load ${nm} ${c}. You may be offline, or the text service is busy. <button class=link onclick="go('reader')">Try again</button>, or read it in your own Bible and tap Done.`}</p>`;
     const rest=list.filter((_,k)=>!at[k]);box.hidden=false;
-    box.innerHTML=!list.length?`<h2>Why &amp; How</h2><p class=empty>Notes for ${b} ${c} aren't written yet. They'll appear here, with links to related passages, once this book's notes are generated.</p>`
-      :rest.length?notesHTML(rest):`<h2>Why &amp; How</h2><p class=hint style="margin:0">Every note for this chapter is tabbed into the text. Pull a tab on the page edge to read it.</p>`;
+    box.innerHTML=!list.length?`<h2>${L`Why &amp; How`}</h2><p class=empty>${L`Notes for ${nm} ${c} aren't written yet. They'll appear here, with links to related passages, once this book's notes are generated.`}</p>`
+      :rest.length?notesHTML(rest):`<h2>${L`Why &amp; How`}</h2><p class=hint style="margin:0">${L`Every note for this chapter is tabbed into the text. Pull a tab on the page edge to read it.`}</p>`;
   });
 }
 let NOTES=[],tk=0,sel=null,selAt=null; // the selected verse, and the chapter it is in
 function choose(vs,b,c,bi){ // select a verse (or clear the selection); the Keep button follows it
   sel?.classList.remove('sel');sel=vs;selAt={b,c,bi};const k=$.querySelector('.actbar>.keep'),bar=$.querySelector('.vbar');
   bar.hidden=!vs;if(!vs)return k.hidden=true;
-  bar.querySelectorAll('.hl').forEach((h,i)=>h.ariaPressed=vs.dataset.h==i+1);notebtn.textContent=vs.classList.contains('noted')?'My note':'Note';
+  bar.querySelectorAll('.hl').forEach((h,i)=>h.ariaPressed=vs.dataset.h==i+1);notebtn.textContent=vs.classList.contains('noted')?L`My note`:L`Note`;
   vs.classList.add('sel');const on=vs.classList.contains('kept');
-  if(k.hidden){k.hidden=false;step([k],'perspective(900px) rotateY(-16deg)','0 50%')}k.ariaPressed=on;k.textContent=`${on?'Kept':'Keep'} ${c}:${vs.dataset.v}`;
+  if(k.hidden){k.hidden=false;step([k],'perspective(900px) rotateY(-16deg)','0 50%')}k.ariaPressed=on;k.textContent=on?L`Kept ${c}:${vs.dataset.v}`:L`Keep ${c}:${vs.dataset.v}`;
 }
 function keep(btn){ // punch the selected verse into Kept, or take it back out
   const v=+sel.dataset.v,{c,bi}=selAt,i=keptAt(bi,c,v);
-  if(i>=0&&KEPT[i].n&&!confirm('This verse has your note. Remove the verse and the note?'))return;
-  if(i<0)KEPT.push({b:bi,c,v,t:sel.dataset.t,tr:S.tr,d:today()});else{KEPT.splice(i,1);sel.classList.remove('noted');notebtn.textContent='Note'}
+  if(i>=0&&KEPT[i].n&&!confirm(L`This verse has your note. Remove the verse and the note?`))return;
+  if(i<0)KEPT.push({b:bi,c,v,t:sel.dataset.t,tr:S.tr,d:today()});else{KEPT.splice(i,1);sel.classList.remove('noted');notebtn.textContent=L`Note`}
   saveKept();navigator.vibrate?.(i<0?12:[8,40,8]);
-  sel.classList.toggle('kept',i<0);btn.ariaPressed=i<0;btn.textContent=`${i<0?'Kept':'Keep'} ${c}:${v}`;
+  sel.classList.toggle('kept',i<0);btn.ariaPressed=i<0;btn.textContent=i<0?L`Kept ${c}:${v}`:L`Keep ${c}:${v}`;
 }
 function mark(n){ // a highlighter over the selected verse; the same colour again lifts it off
   const k=`${selAt.bi}.${selAt.c}.${sel.dataset.v}`;HL[k]===n?delete HL[k]:HL[k]=n;saveHL();
@@ -1103,11 +1121,11 @@ function mark(n){ // a highlighter over the selected verse; the same colour agai
 let noteAt=null; // the verse the note sheet is open on
 function noteSheet(bi,c,v,t){ // my note on a verse: writing one keeps the verse, so the note lives with it in Kept
   const g=document.getElementById('mynote'),k=KEPT[keptAt(bi,c,v)];noteAt={bi,c,v,t};
-  g.querySelector('.gname').textContent=`${BOOKS[bi][0]} ${c}:${v}`;g.querySelector('textarea').value=k?.n||'';
+  g.querySelector('.gname').textContent=`${bn(bi)} ${c}:${v}`;g.querySelector('textarea').value=k?.n||'';
   document.getElementById('mn-del').hidden=!k?.n;g.showPopover();g.querySelector('textarea').focus();
 }
 function saveNote(del){
-  if(del&&!confirm('Delete this note? The verse stays kept.'))return;
+  if(del&&!confirm(L`Delete this note? The verse stays kept.`))return;
   const g=document.getElementById('mynote'),{bi,c,v,t}=noteAt,n=del?'':g.querySelector('textarea').value.trim(),i=keptAt(bi,c,v);
   if(i>=0)n?KEPT[i].n=n:delete KEPT[i].n;else if(n)KEPT.push({b:bi,c,v,t,tr:S.tr,d:today(),n});
   saveKept();g.hidePopover();
@@ -1116,19 +1134,19 @@ function saveNote(del){
 }
 function introHTML(x,b,c){ // who wrote the book, when, why, and its shape, with the part this chapter sits in marked
   const here=r=>{const [a,z=a]=r.split(/[–-]/).map(Number);return c>=a&&c<=z},rb=bookOf(x.verse);
-  return `<summary>About ${b}</summary>
-    <dl><dt>Who wrote it</dt><dd>${esc(x.who)}</dd><dt>When</dt><dd>${esc(x.when)}</dd><dt>Why it was written</dt><dd>${esc(x.why)}</dd></dl>
-    <h3>The shape of ${b}</h3><ol class=stops>${x.outline.map(p=>`<li${here(p.chapters)?' class=next':''}><span class=mk aria-hidden=true></span><span class=stn>${esc(p.title)}</span><span class=tag>${here(p.chapters)?'You are here · ':''}${esc(p.chapters)}</span></li>`).join('')}</ol>
-    ${x.verse?`<p class=refs><span>Key verse</span><i><button class=ref aria-expanded=false data-r="${esc(x.verse)}" onclick=ref(this) style="--c:var(--${rb<0?'edge':bed(rb)[0]})"><b aria-hidden=true></b>${esc(x.verse)}</button></i></p>`:''}`;
+  return `<summary>${L`About ${b}`}</summary>
+    <dl><dt>${L`Who wrote it`}</dt><dd lang=en>${esc(x.who)}</dd><dt>${L`When`}</dt><dd lang=en>${esc(x.when)}</dd><dt>${L`Why it was written`}</dt><dd lang=en>${esc(x.why)}</dd></dl>
+    <h3>${L`The shape of ${b}`}</h3><ol class=stops>${x.outline.map(p=>`<li${here(p.chapters)?' class=next':''}><span class=mk aria-hidden=true></span><span class=stn lang=en>${esc(p.title)}</span><span class=tag>${here(p.chapters)?L`You are here · `:''}${esc(p.chapters)}</span></li>`).join('')}</ol>
+    ${x.verse?`<p class=refs><span>${L`Key verse`}</span><i><button class=ref aria-expanded=false data-r="${esc(x.verse)}" onclick=ref(this) style="--c:var(--${rb<0?'edge':bed(rb)[0]})"><b aria-hidden=true></b>${esc(x.verse)}</button></i></p>`:''}`;
 }
 const anchor=(body,c)=>+(body.match(new RegExp(`\\(${c}:(\\d+)`))||body.match(/\b[Vv]erse (\d+)/)||[])[1]||0;
-const noteHTML=x=>{const [name,ic]=KINDS[x.kind]||['Note','why'];
-  return `<div class=nhead><h3>${esc(x.title)}</h3><span class=kind>${icon(ic)}${name}</span></div><p>${esc(x.body)}</p>
-    ${x.refs.length?`<p class=refs><span>See also</span><i>${x.refs.map(r=>{const rb=bookOf(r);
+const noteHTML=x=>{const [name,ic]=KINDS[x.kind]||[L`Note`,'why'];
+  return `<div class=nhead><h3 lang=en>${esc(x.title)}</h3><span class=kind>${icon(ic)}${name}</span></div><p lang=en>${esc(x.body)}</p>
+    ${x.refs.length?`<p class=refs><span>${L`See also`}</span><i>${x.refs.map(r=>{const rb=bookOf(r);
       return `<button class=ref aria-expanded=false data-r="${esc(r)}" onclick=ref(this) style="--c:var(--${rb<0?'edge':bed(rb)[0]})"><b aria-hidden=true></b>${esc(r)}</button>`}).join('')}</i></p>`:''}`};
 function notesHTML(list){
   const k=days('2000-01-01',today())%list.length; // rotate daily so a revisit opens on a different note
-  return `<h2>Why &amp; How</h2><ol class=notes>${[...list.slice(k),...list.slice(0,k)].map(x=>`<li>${noteHTML(x)}</li>`).join('')}</ol>`;
+  return `<h2>${L`Why &amp; How`}</h2><ol class=notes>${[...list.slice(k),...list.slice(0,k)].map(x=>`<li>${noteHTML(x)}</li>`).join('')}</ol>`;
 }
 function scriptureHTML(verses,list,at,x,kept=new Set(),mk={noted:new Set(),hl:()=>0}){ // verses as paragraphs (a new one where a speech opens); notes ride the fore edge as tabs at their verse
   let h='',n=0;
@@ -1137,17 +1155,17 @@ function scriptureHTML(verses,list,at,x,kept=new Set(),mk={noted:new Set(),hl:()
     const t=v.text.replace(/\s+/g,' ').trim();
     if(n>1&&/^[“‘"]/.test(t)){h+='</div><div class=para>';n=0}
     n++;
-    const tabs=list.map((x,j)=>{if(at[j]!==v.verse)return '';const [name,ic]=KINDS[x.kind]||['Note','why'];
-      return `<button class=tab aria-expanded=false aria-label="${name} note on verse ${v.verse}: ${esc(x.title)}" onclick="pull(this,${j})">${icon(ic)}</button>`}).join('');
+    const tabs=list.map((x,j)=>{if(at[j]!==v.verse)return '';const [name,ic]=KINDS[x.kind]||[L`Note`,'why'];
+      return `<button class=tab aria-expanded=false aria-label="${L`${name} note on verse ${v.verse}: ${esc(x.title)}`}" onclick="pull(this,${j})">${icon(ic)}</button>`}).join('');
     let text=esc(t);
     for(const m of names)if(!found.includes(m)&&m.re.test(text)){ // a name becomes tappable where it first appears
       text=text.replace(m.re,w=>`<button class=who popovertarget=who-${found.length}>${w}</button>`);found.push(m)}
     h+=`<span class="vs${key.includes(v.verse)?' key':''}${kept.has(v.verse)?' kept':''}${mk.noted.has(v.verse)?' noted':''}" data-v=${v.verse}${mk.hl(v.verse)?` data-h=${mk.hl(v.verse)}`:''} data-t="${esc(t)}">${tabs}<sup>${v.verse}</sup>${text} </span>`;
   }
-  const skim=key.length?`<p class=skim><span class=kind>${icon('bigpicture')}Skim guide</span>${esc(x.skim.advice)} Key verses: ${key.map(k=>`<span class=kv>${k}</span>`).join(' ')}.</p>`:'';
+  const skim=key.length?`<p class=skim><span class=kind>${icon('bigpicture')}${L`Skim guide`}</span><span lang=en>${esc(x.skim.advice)}</span> ${L`Key verses: ${key.map(k=>`<span class=kv>${k}</span>`).join(' ')}.`}</p>`:'';
   return `${skim}<div class=para>${h}</div>${found.map((m,i)=>`<div popover id=who-${i} class=gloss role=dialog aria-label="${esc(m.name)}">
-    <p class=gk>${esc(m.kind)}</p><p class=gname>${esc(m.name)}</p><p>${esc(m.gloss)}</p>
-    <button class="go ghost slim" popovertarget=who-${i} popovertargetaction=hide autofocus>Back to the text</button></div>`).join('')}`;
+    <p class=gk lang=en>${esc(m.kind)}</p><p class=gname>${esc(m.name)}</p><p lang=en>${esc(m.gloss)}</p>
+    <button class="go ghost slim" popovertarget=who-${i} popovertargetaction=hide autofocus>${L`Back to the text`}</button></div>`).join('')}`;
 }
 function pull(btn,j){ // pulling a tab brings its note out under the verse it explains; pull again to put it back
   const vs=btn.closest('.vs'),open=btn.ariaExpanded==='true';
@@ -1162,7 +1180,7 @@ function track(){ // the verse strip fills, one hard step per verse, as each ver
   const vs=$.querySelectorAll('.vs'),cells=$.querySelectorAll('.vstrip i'),st=$.querySelector('.vstrip');if(!vs.length)return;
   const above=y=>{let lo=0,hi=vs.length;while(lo<hi){const m=lo+hi>>1;vs[m].getBoundingClientRect().top<y?lo=m+1:hi=m}return lo}; // verses starting above y
   const n=scrollY+innerHeight>=document.documentElement.scrollHeight-8?vs.length:above(innerHeight*.4),top=Math.max(above($.querySelector('.rbar').getBoundingClientRect().bottom+16),1);
-  cells.forEach((c,k)=>c.classList.toggle('on',k<n));st.ariaValueNow=top;st.ariaValueText=`Verse ${top} of ${vs.length}`;
+  cells.forEach((c,k)=>c.classList.toggle('on',k<n));st.ariaValueNow=top;st.ariaValueText=L`Verse ${top} of ${vs.length}`;
 }
 // fill the gap: the rarest long word of one verse, against two others from the same chapter
 const STOP=new Set('should before therefore against because people children himself themselves through without another according whosoever whatever whether either neither between within around behold thereof wherefore unless toward towards became become always nothing something anyone everyone things saying answered'.split(' '));
@@ -1177,9 +1195,9 @@ function recallHTML(verses,key){
     .sort((a,b)=>(cap(a)!==cap(ans))-(cap(b)!==cap(ans))||Math.abs(a.length-ans.length)-Math.abs(b.length-ans.length));
   if(others.length<2)return '';
   const opts=[ans,others[0],others[1]].sort((a,b)=>hsh(a+key)-hsh(b+key)),t=esc(q.v.text.replace(/\s+/g,' ').trim());
-  const gap=t.replace(new RegExp(`\\b${ans}\\b`),'<span class=blank><span class=sr>blank</span></span>');
-  return `<h2 id=rc-h>Fill the gap</h2><p class=gap>${gap}</p>
-    <div class=opts role=group aria-label="Choose the missing word" data-a="${ans}" data-r="${key}:${q.v.verse}">${opts.map(w=>`<button class=opt onclick=pick(this)>${w}</button>`).join('')}</div>
+  const gap=t.replace(new RegExp(`\\b${ans}\\b`),`<span class=blank><span class=sr>${L`blank`}</span></span>`);
+  return `<h2 id=rc-h>${L`Fill the gap`}</h2><p class=gap>${gap}</p>
+    <div class=opts role=group aria-label="${L`Choose the missing word`}" data-a="${ans}" data-r="${key}:${q.v.verse}">${opts.map(w=>`<button class=opt onclick=pick(this)>${w}</button>`).join('')}</div>
     <p class="said mono" aria-live=polite tabindex=-1></p>`;
 }
 function pick(btn){
@@ -1188,16 +1206,16 @@ function pick(btn){
   if(!ok)btn.classList.add('wrong'); // a wrong pick is an erratum
   navigator.vibrate?.(ok?12:[30,50,30]);
   blank.textContent=ans;blank.classList.add('filled');
-  said.textContent=ok?`Right. ${box.dataset.r}`:`It's "${ans}". ${box.dataset.r}`;said.focus();
+  said.textContent=ok?L`Right. ${lref(box.dataset.r)}`:L`It's "${ans}". ${lref(box.dataset.r)}`;said.focus();
 }
 async function ref(btn){ // tap a reference to show that passage under the note; tap again to hide
   if(btn.q){btn.q.remove();btn.q=null;btn.setAttribute('aria-expanded',false);return}
-  const q=btn.q=document.createElement('blockquote');q.textContent='Loading…';btn.closest('.refs').after(q);btn.setAttribute('aria-expanded',true);step([q],'perspective(900px) rotateX(-20deg)','50% 0');
+  const q=btn.q=document.createElement('blockquote');q.textContent=L`Loading…`;btn.closest('.refs').after(q);btn.setAttribute('aria-expanded',true);step([q],'perspective(900px) rotateX(-20deg)','50% 0');
   try{q.textContent=`${btn.dataset.r}: ${(await passage(btn.dataset.r)).text.replace(/\s+/g,' ').trim()}`}
-  catch{q.textContent=`Couldn't load ${btn.dataset.r}. Check your connection and tap the reference again.`}
+  catch{q.textContent=L`Couldn't load ${btn.dataset.r}. Check your connection and tap the reference again.`}
 }
 function listen(btn){ // one utterance per verse, so the current verse can be highlighted
-  const stopped=()=>{wake?.release();wake=null;$.querySelector('.now')?.classList.remove('now');btn.setAttribute('aria-pressed',false);btn.innerHTML=icon('listen');btn.ariaLabel='Listen to this chapter'};
+  const stopped=()=>{wake?.release();wake=null;$.querySelector('.now')?.classList.remove('now');btn.setAttribute('aria-pressed',false);btn.innerHTML=icon('listen');btn.ariaLabel=L`Listen to this chapter`};
   if(speechSynthesis.speaking){hush();return stopped()}
   const vs=[...$.querySelectorAll('.vs')];
   if(!vs.length)return;
@@ -1207,7 +1225,7 @@ function listen(btn){ // one utterance per verse, so the current verse can be hi
     if(i==vs.length-1)u.onend=stopped;
     speechSynthesis.speak(u)});
   navigator.wakeLock?.request('screen').then(l=>wake=l,()=>{});
-  btn.setAttribute('aria-pressed',true);btn.innerHTML=icon('stop');btn.ariaLabel='Stop listening';
+  btn.setAttribute('aria-pressed',true);btn.innerHTML=icon('stop');btn.ariaLabel=L`Stop listening`;
 }
 function finish(btn){
   if(turning)return;
@@ -1221,7 +1239,7 @@ function finish(btn){
   const li=BED_OF[bi],run=streak(); // something worth marking: the whole Bible, a division, a book, or a run reaching a milestone
   cheer=count()===CH.length?{k:'bible'}:bookDone(bi)?{k:divDone(li)?'div':'book',bi,li}:S.log[d]===1&&[7,30,100,365].includes(run)?{k:'run',n:run}:null;
   const next=!cheer&&at!=null?'reader':'today'; // carry on to the next chapter, unless there's something to mark on Today
-  if(next==='reader'&&S.log[d]===goal()){const r=streak();metLine=`Today's reading is done. ${num(r)} ${r==1?'day':'days'} in a row. Keep going?`}
+  if(next==='reader'&&S.log[d]===goal()){const r=streak();metLine=r==1?L`Today's reading is done. ${num(r)} day in a row. Keep going?`:L`Today's reading is done. ${num(r)} days in a row. Keep going?`}
   navigator.vibrate?.(cheer?[12,70,12,70,40]:12);btn?.classList.add('punched');$.querySelectorAll('.vstrip i').forEach(c=>c.classList.add('on'));
   const shut=step($.querySelectorAll('.opener,.scripture'),'perspective(900px) rotateY(-75deg)','0 50%',true); // the leaves hinge shut at the punched edge
   if(!shut.length)return go(next);
@@ -1235,11 +1253,19 @@ navigator.serviceWorker?.register('sw.js').then(r=>{r.update().catch(()=>{});add
 let installed=!navigator.serviceWorker?.controller; // the very first install takes over silently; later ones are announced
 navigator.serviceWorker?.addEventListener('controllerchange',()=>{
   if(installed)return;installed=true;
-  const p=document.createElement('p');p.className='gone update';p.role='status';p.innerHTML='A new version of Tolle is ready.<button class=link-btn onclick=location.reload()>Reload</button>';
+  const p=document.createElement('p');p.className='gone update';p.role='status';p.innerHTML=`${L`A new version of Tolle is ready.`}<button class=link-btn onclick=location.reload()>${L`Reload`}</button>`;
   document.body.append(p);
 });
 history.replaceState(null,''); // a reload starts on Today, so forget any page the browser remembered being on
-render();returning().finally(sync);if(RM.verse&&S)readyVerses();
+(LG==='en'?Promise.resolve():fetch(`i18n/${LG}.json`).then(ok).then(j=>{D=j}).catch(()=>{})).then(()=>{ // offline before it was ever fetched: English this once
+  document.documentElement.lang=D.books.length?LG:'en';
+  for(const e of document.querySelectorAll('[data-t]'))e.textContent=tr(e.textContent);
+  for(const e of document.querySelectorAll('[aria-label]'))e.ariaLabel=tr(e.ariaLabel);
+  document.getElementById('mn-t').placeholder=tr(document.getElementById('mn-t').placeholder);
+  for(const b of BEDS){b[1]=tr(b[1]);b[5]=tr(b[5])}for(const k of Object.values(KINDS))k[0]=tr(k[0]);for(const h of HUES)h[1]=tr(h[1]); // names only ever shown
+  const back=sessionStorage.getItem('tolle-go');sessionStorage.removeItem('tolle-go');if(back)view=back; // a language change comes back to where it was made
+  render();returning().finally(sync);if(RM.verse&&S)readyVerses();
+});
 </script>
 </body>
 </html>
