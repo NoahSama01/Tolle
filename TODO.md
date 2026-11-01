@@ -49,7 +49,7 @@ Everything deferred so far, grouped by when it matters. Tick items off as they l
 ## Languages (Hindi, Tamil, Malayalam, Telugu)
 - [x] Bible text in all four.
 - [x] Translate the app itself: 257 phrases, book names (from each Bible), dates. `python scripts/i18n.py check` keeps every language complete.
-- [ ] The server's push notifications, and the landing and privacy pages, in these languages (still English).
+- [x] Notifications, and the landing and privacy pages, in these languages: the phone words each notification from the app's own phrases.
 - [ ] Have a native speaker review each language's wording before release.
 - [x] "Fill the gap" quiz for these languages: it works in any script now.
 - [ ] Hindi IRV as a second Hindi option, once its footnote text can be stripped out of verses.

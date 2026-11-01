@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f0bf2c">
 <meta name="description" content="What Tolle keeps, where it keeps it, and who else sees it.">
 <link rel="icon" href="icon-192.png">
-<title>Privacy · Tolle</title>
+<title data-t>Privacy · Tolle</title>
 <link rel="stylesheet" href="tokens.css">
 <style>
 :root{--board:var(--history);--on-board:var(--ink);--leaf-a:.661}
@@ -18,46 +18,54 @@ a{color:inherit;text-underline-offset:3px}
 h1,h2{margin:0;font-family:var(--head);font-weight:800;font-stretch:72%;line-height:.95;text-transform:uppercase;text-wrap:balance}
 h1{font-size:clamp(2.75rem,9vw,4.5rem)}
 h2{margin-top:2.25rem;font-size:1.6rem}
+/* Indian scripts: the condensed heading face has none of their letters, so headings run wider and need room for marks above and below */
+body{overflow-wrap:break-word}
+:is(:lang(hi),:lang(ta),:lang(ml),:lang(te)) :is(h1,h2){line-height:1.15}
+:is(:lang(ta),:lang(ml)) h1{font-size:clamp(2rem,7vw,3.5rem)}
 .leaf{margin-top:1rem;padding:1.4rem 1.4rem 1.8rem 2.6rem} /* clear of the punch hole, as on the landing page */
 p,ul{margin:.75rem 0 0;max-width:62ch}
 li+li{margin-top:.4rem}
+.tnote{display:none;font-style:italic}
+:root:not([lang=en]) .tnote{display:block}
 .date{font:500 .78rem var(--mono);letter-spacing:.02em;text-transform:uppercase}
 </style>
 </head>
 <body>
 <main>
-<a class="back" href="./">← Back to Tolle</a>
+<a class="back" href="./" data-t>← Back to Tolle</a>
 <article class="leaf">
-<h1>Privacy</h1>
-<p class="date">Updated 21 October 2026</p>
-<p>Tolle has no ads and no analytics. What you do in Tolle stays on your phone unless you sign in to a Tolle account or save a backup. Signing in is optional; the app works fully without it.</p>
+<h1 data-t>Privacy</h1>
+<p class="date" data-t>Updated 21 October 2026</p>
+<p class="tnote" data-t>This page is translated from English. If the two differ, the English applies.</p>
+<p data-t>Tolle has no ads and no analytics. What you do in Tolle stays on your phone unless you sign in to a Tolle account or save a backup. Signing in is optional; the app works fully without it.</p>
 
-<h2>On your phone</h2>
-<p>Tolle saves your reading plan (your finish date, the chapters you've read and your reading log), your kept verses, your own notes and highlights, the verse of the day, and your night-mode and read-aloud settings. They live in your browser's storage for this site, on this phone only.</p>
-<p>To delete them, use Settings → Erase all progress, or clear this site's data in your browser.</p>
+<h2 data-t>On your phone</h2>
+<p data-t>Tolle saves your reading plan (your finish date, the chapters you've read and your reading log), your kept verses, your own notes and highlights, the verse of the day, and your night-mode and read-aloud settings. They live in your browser's storage for this site, on this phone only.</p>
+<p data-t>To delete them, use Settings → Erase all progress, or clear this site's data in your browser.</p>
 
-<h2>Scripture text</h2>
-<p>The World English Bible is built into Tolle, so reading it asks no other service for anything. Other English translations come from <a href="https://bible-api.com">bible-api.com</a>, and Hindi, Tamil, Malayalam and Telugu chapters from <a href="https://bible.helloao.org">bible.helloao.org</a>, both free public services. Those two receive the passage you open and, like any website, your IP address. Neither receives your plan or progress. Chapters you've opened are kept on your phone so they work offline.</p>
-<p>Read aloud uses your phone's own speech voices. Tolle sends nothing anywhere for it.</p>
+<h2 data-t>Scripture text</h2>
+<p data-t>The World English Bible is built into Tolle, so reading it asks no other service for anything. Other English translations come from <a href="https://bible-api.com">bible-api.com</a>, and Hindi, Tamil, Malayalam and Telugu chapters from <a href="https://bible.helloao.org">bible.helloao.org</a>, both free public services. Those two receive the passage you open and, like any website, your IP address. Neither receives your plan or progress. Chapters you've opened are kept on your phone so they work offline.</p>
+<p data-t>Read aloud uses your phone's own speech voices. Tolle sends nothing anywhere for it.</p>
 
-<h2>Your Tolle account, if you sign in</h2>
-<p>You sign in with Google. Tolle receives your name, email address and a Google account ID, and nothing else from your Google account: no contacts, files or other data.</p>
-<p>When you're signed in, Tolle keeps a copy of your plan, progress, kept verses, notes and highlights in your account, so they follow you to any phone you sign in on. Alongside it are the few facts reminders need: your time zone, the date you last read, the name of your next chapter, and the reminder and verse-of-the-day times if you set them. The verse itself is never sent to the account: your phone keeps the week's verses and shows today's when the notification arrives. The account is stored by <a href="https://supabase.com/privacy">Supabase</a>, in its Mumbai region, and each person's data can be read only by their own signed-in account.</p>
-<p>Your progress is also counted in the reader totals on Tolle's home page: chapters read, chapters read this week, number of readers, and how many have finished the whole Bible. Only these totals are shown, never anything about one person, and none at all until there are at least five readers.</p>
-<p>Signing out removes the account from that phone; your progress on the phone stays. To delete your account and everything in it, sign in and tap Settings → Backup → Delete my account, in the app or at <a href="https://noahsama01.github.io/Tolle/">noahsama01.github.io/Tolle</a> in any browser. The account and its copy are erased at once.</p>
+<h2 data-t>Your Tolle account, if you sign in</h2>
+<p data-t>You sign in with Google. Tolle receives your name, email address and a Google account ID, and nothing else from your Google account: no contacts, files or other data.</p>
+<p data-t>When you're signed in, Tolle keeps a copy of your plan, progress, kept verses, notes and highlights in your account, so they follow you to any phone you sign in on. Alongside it are the few facts reminders need: your time zone, the date you last read, the name of your next chapter, and the reminder and verse-of-the-day times if you set them. The verse itself is never sent to the account: your phone keeps the week's verses and shows today's when the notification arrives. The account is stored by <a href="https://supabase.com/privacy">Supabase</a>, in its Mumbai region, and each person's data can be read only by their own signed-in account.</p>
+<p data-t>Your progress is also counted in the reader totals on Tolle's home page: chapters read, chapters read this week, number of readers, and how many have finished the whole Bible. Only these totals are shown, never anything about one person, and none at all until there are at least five readers.</p>
+<p data-t>Signing out removes the account from that phone; your progress on the phone stays. To delete your account and everything in it, sign in and tap Settings → Backup → Delete my account, in the app or at <a href="https://noahsama01.github.io/Tolle/">noahsama01.github.io/Tolle</a> in any browser. The account and its copy are erased at once.</p>
 
-<h2>Backup files</h2>
-<p>A backup file goes wherever you choose to save or send it. Tolle doesn't see where.</p>
+<h2 data-t>Backup files</h2>
+<p data-t>A backup file goes wherever you choose to save or send it. Tolle doesn't see where.</p>
 
-<h2>Hosting</h2>
-<p>Tolle's files are served by GitHub Pages. Nobody's data is sold or shared for advertising. GitHub may log visits, such as IP addresses, for security; see <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</p>
+<h2 data-t>Hosting</h2>
+<p data-t>Tolle's files are served by GitHub Pages. Nobody's data is sold or shared for advertising. GitHub may log visits, such as IP addresses, for security; see <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</p>
 
-<h2>Children</h2>
-<p>Tolle is not directed at children under 13 and doesn't knowingly create accounts for them. Without an account, Tolle collects no personal information from anyone.</p>
+<h2 data-t>Children</h2>
+<p data-t>Tolle is not directed at children under 13 and doesn't knowingly create accounts for them. Without an account, Tolle collects no personal information from anyone.</p>
 
-<h2>Changes and questions</h2>
-<p>Any change will appear on this page with a new date. Questions: <a href="https://github.com/NoahSama01/Tolle/issues">open an issue on GitHub</a>.</p>
+<h2 data-t>Changes and questions</h2>
+<p data-t>Any change will appear on this page with a new date. Questions: <a href="https://github.com/NoahSama01/Tolle/issues">open an issue on GitHub</a>.</p>
 </article>
 </main>
+<script src="words.js"></script>
 </body>
 </html>

@@ -5,14 +5,15 @@
                                  {0} placeholders and HTML tags as the English, and all 66 book names
   python scripts/i18n.py books   fill in each file's book names from its Bible on bible.helloao.org
 
-A phrase is marked in index.html as L`...` (a tagged template: `${x}` becomes {0}, {1}...), a word given to
-plural(n,'word'), a division, note kind or highlighter name, or static markup carrying data-t or aria-label.
+A phrase is marked in index.html, landing.html or privacy.html as L`...` (a tagged template: `${x}` becomes {0}, {1}...),
+a word given to plural(n,'word'), a division, note kind or highlighter name, or static markup carrying data-t or aria-label.
 """
-import json, re, sys, urllib.request
+import html, json, re, sys, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 HTML = (ROOT / 'public' / 'index.html').read_text(encoding='utf-8')
+PAGES = ['index.html', 'landing.html', 'privacy.html']  # the app, then the two pages words.js translates
 LANGS = {'hi': 'hin_cvb', 'ta': 'tam_irv', 'ml': 'mal_irv', 'te': 'tel_irv'}  # the Bible each language's book names come from
 
 
@@ -51,16 +52,22 @@ def template(s, i):  # i just after the opening backtick; returns (key, index af
 
 
 def keys():
+    out = []
+    for name in PAGES:
+        page = (ROOT / 'public' / name).read_text(encoding='utf-8')
+        cut = page.index('<script>\nconst BOOKS') if name == 'index.html' else page.index('<script')
+        script, markup = page[cut:], page[page.index('<body>') if name == 'index.html' else 0:cut]
+        out += [template(script, m.end())[0] for m in re.finditer(r'(?<![\w$\\])L`', script)]
+        out += [m[1] for m in re.finditer(r'L\\`(.*?)\\`', script)]  # inside an onclick: L\`...\`
+        for w in set(re.findall(r"plural\([^;]*?,'([^']+)'\)", script)):
+            out += ['{0} ' + w, '{0} ' + w + 's']
+        # data-t: the element's text, or its HTML when it holds a link or other markup (as words.js looks it up)
+        out += [c if '<' in c else html.unescape(c) for _, c in re.findall(r'<(\w+)\b[^>]*\bdata-t\b[^>]*>(.*?)</\1>', markup, re.S)]
+        out += [html.unescape(a) for a in re.findall(r'aria-label="([^"]+)"', markup) + re.findall(r'placeholder="([^"]+)"', markup)]
     script = HTML[HTML.index('<script>\nconst BOOKS'):]
-    out = [template(script, m.end())[0] for m in re.finditer(r'(?<![\w$\\])L`', script)]
-    out += [m[1] for m in re.finditer(r'L\\`(.*?)\\`', script)]  # inside an onclick: L\`...\`
-    for w in set(re.findall(r"plural\([^;]*?,'([^']+)'\)", script)):
-        out += ['{0} ' + w, '{0} ' + w + 's']
     out += [x for b in re.findall(r"\['\w+','([^']+)',\d+,[.\d]+,'#\w+','([^']+)'\]", re.search(r'const BEDS=.*?;', script)[0]) for x in b]
     out += re.findall(r"\w+:\['([^']+)','\w+'\]", re.search(r'const KINDS=\{.*?\};', script)[0])
     out += re.findall(r"\['\w+','(\w+)'\]", re.search(r'const HUES=.*?;', script)[0])
-    markup = HTML[HTML.index('<body>'):HTML.index('<script>\nconst BOOKS')]
-    out += re.findall(r'data-t>([^<]+)<', markup) + re.findall(r'aria-label="([^"]+)"', markup) + re.findall(r'placeholder="([^"]+)"', markup)
     return sorted(set(out))
 
 

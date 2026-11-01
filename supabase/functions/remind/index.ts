@@ -44,7 +44,9 @@ Deno.serve(async (req) => {
     if (reached) await db.from(log).insert({ user_id: userId, sent_on: day });
   };
   const jobs = [
+    // kind and the facts let the phone word it in the reader's language; title and body are the English, for phones without the newer Tolle
     ...(reminders.data ?? []).map((d) => () => push(d.user_id, d.local_day, {
+      kind: "reminder", next_up: d.next_up,
       title: "Tolle",
       body: d.next_up ? `Today's chapters are waiting: ${d.next_up} is next.` : "Today's chapters are waiting.",
     }, "reminder_log")),
@@ -52,6 +54,7 @@ Deno.serve(async (req) => {
     ...(verses.data ?? []).map((d) => () => push(d.user_id, d.local_day,
       { kind: "verse", title: "A verse for today", body: "Today's verse is waiting in Tolle." }, "verse_log")),
     ...(runs.data ?? []).map((d) => () => push(d.user_id, d.local_day, {
+      kind: "run", next_up: d.next_up, run_days: d.run_days,
       title: "Keep your run",
       body: `Keep your ${d.run_days}-day run going${d.next_up ? `: ${d.next_up} is next.` : ". One chapter before midnight keeps it."}`,
     }, "run_log")),

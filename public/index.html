@@ -693,6 +693,12 @@ function saveDV(dv){ // this phone's copy, and one the service worker reads for 
   localStorage.setItem('tolle-dv',JSON.stringify(dv));
   self.caches?.open('votd').then(c=>c.put('votd.json',new Response(JSON.stringify([dv,...(dv.q||[])].map(({d,r,t})=>({d,r,t})))))).catch(()=>{});
 }
+function leaveWords(){ // the service worker words notifications from these: {n} the next chapter, {d} the days in a row
+  const w={books:Object.fromEntries(BOOKS.map((b,i)=>[b[0],bn(i)])),verse:[L`A verse for today`,L`Today's verse is waiting in Tolle.`],
+    reminder:['Tolle',L`Today's chapters are waiting: ${'{n}'} is next.`,L`Today's chapters are waiting.`],
+    run:[L`Keep your run`,L`Keep your ${'{d}'}-day run going: ${'{n}'} is next.`,L`Keep your ${'{d}'}-day run going. One chapter before midnight keeps it.`]};
+  self.caches?.open('votd').then(c=>c.put('words.json',new Response(JSON.stringify(w)))).catch(()=>{});
+}
 function daily(){ // today's verse: the one set aside for today (see readyVerses), else picked now
   let dv=JSON.parse(localStorage.getItem('tolle-dv')||'{"seen":[]}');
   if(dv.d===today())return dv;
@@ -1263,6 +1269,7 @@ history.replaceState(null,''); // a reload starts on Today, so forget any page t
   for(const e of document.querySelectorAll('[aria-label]'))e.ariaLabel=tr(e.ariaLabel);
   document.getElementById('mn-t').placeholder=tr(document.getElementById('mn-t').placeholder);
   for(const b of BEDS){b[1]=tr(b[1]);b[5]=tr(b[5])}for(const k of Object.values(KINDS))k[0]=tr(k[0]);for(const h of HUES)h[1]=tr(h[1]); // names only ever shown
+  leaveWords();
   const back=sessionStorage.getItem('tolle-go');sessionStorage.removeItem('tolle-go');if(back)view=back; // a language change comes back to where it was made
   render();returning().finally(sync);if(RM.verse&&S)readyVerses();
 });

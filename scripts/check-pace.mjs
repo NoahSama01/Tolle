@@ -151,7 +151,17 @@ const quiz = (tr, verses) => ({ before: 289, act: `S.tr='${tr}';document.body.in
 const quizShape = "(q=>q&&[q.querySelectorAll('.gap .blank').length>0,q.querySelector('.gap').textContent.includes(q.querySelector('.opts').dataset.a),q.querySelectorAll('.opt').length,q.querySelector('.gap').lang])(document.querySelector('#qz h2')&&qz)";
 test("quiz_hindi_bible", quiz("hcv", [{ verse: 1, text: "आदि में परमेश्वर ने आकाश और पृथ्वी की सृष्टि की।" }, { verse: 2, text: "पृथ्वी बेडौल और सुनसान पड़ी थी, और गहरे जल के ऊपर अन्धियारा था।" }, { verse: 3, text: "तब परमेश्वर ने कहा, उजियाला हो, तो उजियाला हो गया।" }, { verse: 4, text: "और परमेश्वर ने उजियाले को देखा कि अच्छा है।" }]), async () => { await expect(quizShape, [true, false, 3, "hi-IN"]); });
 test("quiz_english_bible", quiz("web", [{ verse: 1, text: "In the beginning, God created the heavens and the earth." }, { verse: 2, text: "The earth was formless and empty. Darkness was on the surface of the deep." }, { verse: 3, text: "God said, Let there be light, and there was light." }, { verse: 4, text: "God saw the light, and saw that it was good. God divided the light from the darkness." }]), async () => { await expect(quizShape, [true, false, 3, "en-US"]); });
-test("lang_english_default",{ before: 289 }, async () => { await expectText(".tabs button[data-v=today]", "Today"); await expect("document.documentElement.lang", "en"); });
+// notifications in the reader's language: the page leaves its words on the phone, and the service worker's notice() uses them
+const notice = (m, then) => `(async()=>{const notice=new Function(await (await fetch('sw.js')).text()+';return notice')();return (${then})(await notice(${JSON.stringify(m)}))})()`;
+const run = { kind: "run", run_days: 4, next_up: "Joshua 3", title: "Keep your run", body: "Keep your 4-day run going: Joshua 3 is next." };
+test("notify_in_hindi", { ...hi, act: "0", wait: 300 }, async () => { await expect(notice(run, "n=>[n.title,n.body.includes('यहोशू 3'),n.body.includes('4')]"), ["सिलसिला बनाए रखें", true, true]); });
+test("notify_english_as_server", { before: 289, act: "0", wait: 300 }, async () => { await expect(notice(run, "n=>[n.title,n.body]"), [run.title, run.body]); });
+test("notify_verse_named_locally", { ...hi, act: "caches.open('votd').then(c=>c.put('votd.json',new Response(JSON.stringify([{d:iso(new Date()),r:'Psalms 23:1',t:'यहोवा मेरा चरवाहा है'}]))))", wait: 300 }, async () => { await expect(notice({ kind: "verse" }, "n=>n.title===bn(18)+' 23:1'"), true); });
+// the landing and privacy pages follow the app's language on this phone
+const devanagari = (sel) => `/[\\u0900-\\u097F]/.test(document.querySelector('${sel}').textContent)`;
+test("landing_in_hindi", hi, async () => { await load(`${ORIGIN}/landing.html`); await sleep(300); await expect("document.documentElement.lang", "hi"); await expect(devanagari("h1"), true); await expectText(".stn", "यहोशू 1"); await expect(devanagari("#any"), true); await expect(devanagari("#out"), true); await expect(devanagari("#mine"), true); });
+test("privacy_in_tamil", ta, async () => { await load(`${ORIGIN}/privacy.html`); await sleep(300); await expect("document.documentElement.lang", "ta"); await expect("/[\\u0B80-\\u0BFF]/.test(document.querySelector('h1').textContent)", true); });
+test("lang_english_default", { before: 289 }, async () => { await expectText(".tabs button[data-v=today]", "Today"); await expect("document.documentElement.lang", "en"); });
 
 // ---- The landing page shows everyone's totals from the backend, and nothing below the privacy floor
 async function landingWith(reply) {
