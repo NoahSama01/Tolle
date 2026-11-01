@@ -146,7 +146,12 @@ test("lang_dates", hi, async () => { await expect("fmtDate('2026-03-05').include
 test("lang_goto_local_name", { ...hi, act: "go('route');q.value='निर्गमन 3';gotoRef(q.form)" }, async () => { await expect("[view,cur()]", ["reader", 52]); });
 test("lang_goto_rejects_junk", { ...hi, act: "go('route');q.value='###';gotoRef(q.form)" }, async () => { await expect("view", "route"); });
 test("lang_new_plan_bible", { lang: "te", before: 0, act: "localStorage.removeItem('bible-plan');S=null;render();by.value='2027-12-31';start()" }, async () => { await expect("S.tr", "irv-te"); });
-test("lang_english_default", { before: 289 }, async () => { await expectText(".tabs button[data-v=today]", "Today"); await expect("document.documentElement.lang", "en"); });
+// the quiz, built from whatever Bible is open: the answer blanked (every time it's used, as उजियाला is here), three choices
+const quiz = (tr, verses) => ({ before: 289, act: `S.tr='${tr}';document.body.insertAdjacentHTML('beforeend','<div id=qz>'+recallHTML(${JSON.stringify(verses)},'Genesis 1')+'</div>')` });
+const quizShape = "(q=>q&&[q.querySelectorAll('.gap .blank').length>0,q.querySelector('.gap').textContent.includes(q.querySelector('.opts').dataset.a),q.querySelectorAll('.opt').length,q.querySelector('.gap').lang])(document.querySelector('#qz h2')&&qz)";
+test("quiz_hindi_bible", quiz("hcv", [{ verse: 1, text: "आदि में परमेश्वर ने आकाश और पृथ्वी की सृष्टि की।" }, { verse: 2, text: "पृथ्वी बेडौल और सुनसान पड़ी थी, और गहरे जल के ऊपर अन्धियारा था।" }, { verse: 3, text: "तब परमेश्वर ने कहा, उजियाला हो, तो उजियाला हो गया।" }, { verse: 4, text: "और परमेश्वर ने उजियाले को देखा कि अच्छा है।" }]), async () => { await expect(quizShape, [true, false, 3, "hi-IN"]); });
+test("quiz_english_bible", quiz("web", [{ verse: 1, text: "In the beginning, God created the heavens and the earth." }, { verse: 2, text: "The earth was formless and empty. Darkness was on the surface of the deep." }, { verse: 3, text: "God said, Let there be light, and there was light." }, { verse: 4, text: "God saw the light, and saw that it was good. God divided the light from the darkness." }]), async () => { await expect(quizShape, [true, false, 3, "en-US"]); });
+test("lang_english_default",{ before: 289 }, async () => { await expectText(".tabs button[data-v=today]", "Today"); await expect("document.documentElement.lang", "en"); });
 
 // ---- The landing page shows everyone's totals from the backend, and nothing below the privacy floor
 async function landingWith(reply) {

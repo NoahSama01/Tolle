@@ -1186,7 +1186,7 @@ function track(){ // the verse strip fills, one hard step per verse, as each ver
 const STOP=new Set('should before therefore against because people children himself themselves through without another according whosoever whatever whether either neither between within around behold thereof wherefore unless toward towards became become always nothing something anyone everyone things saying answered'.split(' '));
 const hsh=s=>[...s].reduce((a,ch)=>(a*31+ch.charCodeAt(0))>>>0,7);
 function recallHTML(verses,key){
-  const words=t=>t.match(/[A-Za-z]+/g)||[],lc=w=>w.toLowerCase(),freq={};
+  const words=t=>t.match(/[\p{L}\p{M}]+/gu)||[],lc=w=>w.toLowerCase(),freq={},lg=TR[S.tr][1]; // any script: Indic vowel signs are marks, not letters
   for(const v of verses)for(const w of words(v.text))freq[lc(w)]=(freq[lc(w)]||0)+1;
   const pool=verses.map(v=>({v,ws:[...new Set(words(v.text))].filter(w=>w.length>=6&&!STOP.has(lc(w))).sort((a,b)=>freq[lc(a)]-freq[lc(b)]||b.length-a.length)})).filter(x=>x.ws.length);
   if(pool.length<3)return '';
@@ -1195,17 +1195,17 @@ function recallHTML(verses,key){
     .sort((a,b)=>(cap(a)!==cap(ans))-(cap(b)!==cap(ans))||Math.abs(a.length-ans.length)-Math.abs(b.length-ans.length));
   if(others.length<2)return '';
   const opts=[ans,others[0],others[1]].sort((a,b)=>hsh(a+key)-hsh(b+key)),t=esc(q.v.text.replace(/\s+/g,' ').trim());
-  const gap=t.replace(new RegExp(`\\b${ans}\\b`),`<span class=blank><span class=sr>${L`blank`}</span></span>`);
-  return `<h2 id=rc-h>${L`Fill the gap`}</h2><p class=gap>${gap}</p>
-    <div class=opts role=group aria-label="${L`Choose the missing word`}" data-a="${ans}" data-r="${key}:${q.v.verse}">${opts.map(w=>`<button class=opt onclick=pick(this)>${w}</button>`).join('')}</div>
+  const gap=t.replace(new RegExp(`(?<![\\p{L}\\p{M}])${ans}(?![\\p{L}\\p{M}])`,'gu'),`<span class=blank><span class=sr>${L`blank`}</span></span>`); // \b only knows ASCII; every use, so a repeat can't give it away
+  return `<h2 id=rc-h>${L`Fill the gap`}</h2><p class=gap lang=${lg}>${gap}</p>
+    <div class=opts role=group aria-label="${L`Choose the missing word`}" data-a="${ans}" data-r="${key}:${q.v.verse}">${opts.map(w=>`<button class=opt onclick=pick(this) lang=${lg}>${w}</button>`).join('')}</div>
     <p class="said mono" aria-live=polite tabindex=-1></p>`;
 }
 function pick(btn){
-  const box=btn.parentNode,ans=box.dataset.a,ok=btn.textContent===ans,blank=$.querySelector('.blank'),said=$.querySelector('.said');
+  const box=btn.parentNode,ans=box.dataset.a,ok=btn.textContent===ans,said=$.querySelector('.said');
   for(const o of box.children){o.disabled=true;if(o.textContent===ans)o.classList.add('right')}
   if(!ok)btn.classList.add('wrong'); // a wrong pick is an erratum
   navigator.vibrate?.(ok?12:[30,50,30]);
-  blank.textContent=ans;blank.classList.add('filled');
+  for(const b of $.querySelectorAll('.blank')){b.textContent=ans;b.classList.add('filled')}
   said.textContent=ok?L`Right. ${lref(box.dataset.r)}`:L`It's "${ans}". ${lref(box.dataset.r)}`;said.focus();
 }
 async function ref(btn){ // tap a reference to show that passage under the note; tap again to hide
