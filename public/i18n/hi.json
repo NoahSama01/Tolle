@@ -404,6 +404,9 @@
   "{0} minute": "{0} मिनट",
   "{0} minutes": "{0} मिनट",
   "{0} read · {1} of 1,189 chapters · {2} to plan": "पढ़ चुके: {0} · 1,189 में से {1} अध्याय · {2} की योजना बाकी",
-  "← Back to Tolle": "← Tolle पर वापस"
+  "← Back to Tolle": "← Tolle पर वापस",
+  "person": "व्यक्ति",
+  "place": "स्थान",
+  "group": "जनसमूह"
  }
 }

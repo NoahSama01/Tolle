@@ -1039,8 +1039,9 @@ addEventListener('touchstart',e=>{ // (any touchstart listener also turns on :ac
   addEventListener('touchmove',move,{passive:false});addEventListener('touchend',end);addEventListener('touchcancel',end);
 },{passive:true});
 
-const INS={}; // book -> promise of its insights file (book.json: {chapter: {summary, insights}})
-const insights=b=>INS[b]??=fetch(`insights/${slug(b)}.json`).then(r=>r.ok?r.json():{}).catch(()=>({}));
+const INS={}; // language+book -> promise of its notes ({chapter: {summary, insights}, intro, lang}): in the open Bible's language where written (insights/<lang>/), else English
+const notesFile=(f,lang)=>fetch(`insights/${f}.json`).then(r=>r.ok?r.json():Promise.reject()).then(j=>({...j,lang}));
+const insights=b=>{const l=TR[S.tr][1].slice(0,2);return INS[l+b]??=(l==='en'?Promise.reject():notesFile(`${l}/${slug(b)}`,l)).catch(()=>notesFile(slug(b),'en')).catch(()=>({}))};
 let prefetched; // once a day, pull today's chapters into the offline cache
 async function prefetch(){
   if(prefetched===today()||!navigator.serviceWorker?.controller)return;
@@ -1073,14 +1074,14 @@ function readerView(){
   ${chSheet(i)}`;
   const [txt,box,sum,vc,quiz,strip,look,about]=['.scripture','.why','.sum','.vc','.recall','.vstrip','.look','.intro'].map(q=>$.querySelector(q)); // grab now: the reader may leave before fetches return
   const textP=passage(`${b} ${c}`),noteP=insights(b);
-  noteP.then(all=>{const x=all[c];
-    if(x?.summary){sum.textContent=x.summary;sum.hidden=false}
-    if(x?.lookfor){look.innerHTML=`<span class=kind>${icon('detail')}${L`Look for`}</span><span lang=en>${esc(x.lookfor)}</span>`;look.hidden=false} // the notes are English, for now
-    if(all.intro){const d=about.firstChild;d.innerHTML=introHTML(all.intro,nm,c);about.hidden=false;let tapped=false;
+  noteP.then(all=>{const x=all[c],lg=all.lang||'en';
+    if(x?.summary){sum.textContent=x.summary;sum.lang=lg;sum.hidden=false}
+    if(x?.lookfor){look.innerHTML=`<span class=kind>${icon('detail')}${L`Look for`}</span><span lang=${lg}>${esc(x.lookfor)}</span>`;look.hidden=false}
+    if(all.intro){const d=about.firstChild;d.innerHTML=introHTML(all.intro,nm,c,lg);about.hidden=false;let tapped=false;
       d.onclick=e=>{tapped=e.target.closest('summary')!=null};d.ontoggle=()=>{if(tapped&&d.open)step([...d.children].slice(1),'perspective(900px) rotateX(-20deg)','50% 0');tapped=false}}}); // opens like a book panel
   Promise.allSettled([textP,noteP]).then(([tx,nt])=>{
     if(!txt.isConnected)return;
-    const x=nt.value?.[c],list=NOTES=x?.insights||[],verses=tx.value?.verses;
+    const x=nt.value?.[c],list=NOTES=x?.insights||[],verses=tx.value?.verses;NL=nt.value?.lang||'en';
     const at=list.map(x=>{const v=verses&&anchor(x.body,c);return v&&v<=verses.length?v:0}); // the verse each note explains, when it names one
     txt.removeAttribute('aria-busy');
     if(verses){
@@ -1104,7 +1105,7 @@ function readerView(){
       :rest.length?notesHTML(rest):`<h2>${L`Why &amp; How`}</h2><p class=hint style="margin:0">${L`Every note for this chapter is tabbed into the text. Pull a tab on the page edge to read it.`}</p>`;
   });
 }
-let NOTES=[],tk=0,sel=null,selAt=null; // the selected verse, and the chapter it is in
+let NOTES=[],NL='en',tk=0,sel=null,selAt=null; // the open chapter's notes and their language; the selected verse, and the chapter it is in
 function choose(vs,b,c,bi){ // select a verse (or clear the selection); the Keep button follows it
   sel?.classList.remove('sel');sel=vs;selAt={b,c,bi};const k=$.querySelector('.actbar>.keep'),bar=$.querySelector('.vbar');
   bar.hidden=!vs;if(!vs)return k.hidden=true;
@@ -1138,25 +1139,30 @@ function saveNote(del){
   if(view==='kept'){const y=scrollY;render();return scrollTo(0,y)} // stay on the verse just edited
   if(view==='reader'&&sel){sel.classList.toggle('noted',!!n);if(n)sel.classList.add('kept');choose(sel,selAt.b,selAt.c,selAt.bi)}
 }
-function introHTML(x,b,c){ // who wrote the book, when, why, and its shape, with the part this chapter sits in marked
+function introHTML(x,b,c,lg){ // who wrote the book, when, why, and its shape, with the part this chapter sits in marked
   const here=r=>{const [a,z=a]=r.split(/[–-]/).map(Number);return c>=a&&c<=z},rb=bookOf(x.verse);
   return `<summary>${L`About ${b}`}</summary>
-    <dl><dt>${L`Who wrote it`}</dt><dd lang=en>${esc(x.who)}</dd><dt>${L`When`}</dt><dd lang=en>${esc(x.when)}</dd><dt>${L`Why it was written`}</dt><dd lang=en>${esc(x.why)}</dd></dl>
-    <h3>${L`The shape of ${b}`}</h3><ol class=stops>${x.outline.map(p=>`<li${here(p.chapters)?' class=next':''}><span class=mk aria-hidden=true></span><span class=stn lang=en>${esc(p.title)}</span><span class=tag>${here(p.chapters)?L`You are here · `:''}${esc(p.chapters)}</span></li>`).join('')}</ol>
-    ${x.verse?`<p class=refs><span>${L`Key verse`}</span><i><button class=ref aria-expanded=false data-r="${esc(x.verse)}" onclick=ref(this) style="--c:var(--${rb<0?'edge':bed(rb)[0]})"><b aria-hidden=true></b>${esc(x.verse)}</button></i></p>`:''}`;
+    <dl><dt>${L`Who wrote it`}</dt><dd lang=${lg}>${esc(x.who)}</dd><dt>${L`When`}</dt><dd lang=${lg}>${esc(x.when)}</dd><dt>${L`Why it was written`}</dt><dd lang=${lg}>${esc(x.why)}</dd></dl>
+    <h3>${L`The shape of ${b}`}</h3><ol class=stops>${x.outline.map(p=>`<li${here(p.chapters)?' class=next':''}><span class=mk aria-hidden=true></span><span class=stn lang=${lg}>${esc(p.title)}</span><span class=tag>${here(p.chapters)?L`You are here · `:''}${esc(p.chapters)}</span></li>`).join('')}</ol>
+    ${x.verse?`<p class=refs><span>${L`Key verse`}</span><i><button class=ref aria-expanded=false data-r="${esc(x.verse)}" onclick=ref(this) style="--c:var(--${rb<0?'edge':bed(rb)[0]})"><b aria-hidden=true></b>${esc(lref(x.verse))}</button></i></p>`:''}`;
 }
 const anchor=(body,c)=>+(body.match(new RegExp(`\\(${c}:(\\d+)`))||body.match(/\b[Vv]erse (\d+)/)||[])[1]||0;
 const noteHTML=x=>{const [name,ic]=KINDS[x.kind]||[L`Note`,'why'];
-  return `<div class=nhead><h3 lang=en>${esc(x.title)}</h3><span class=kind>${icon(ic)}${name}</span></div><p lang=en>${esc(x.body)}</p>
+  return `<div class=nhead><h3 lang=${NL}>${esc(x.title)}</h3><span class=kind>${icon(ic)}${name}</span></div><p lang=${NL}>${esc(x.body)}</p>
     ${x.refs.length?`<p class=refs><span>${L`See also`}</span><i>${x.refs.map(r=>{const rb=bookOf(r);
-      return `<button class=ref aria-expanded=false data-r="${esc(r)}" onclick=ref(this) style="--c:var(--${rb<0?'edge':bed(rb)[0]})"><b aria-hidden=true></b>${esc(r)}</button>`}).join('')}</i></p>`:''}`};
+      return `<button class=ref aria-expanded=false data-r="${esc(r)}" onclick=ref(this) style="--c:var(--${rb<0?'edge':bed(rb)[0]})"><b aria-hidden=true></b>${esc(lref(r))}</button>`}).join('')}</i></p>`:''}`};
 function notesHTML(list){
   const k=days('2000-01-01',today())%list.length; // rotate daily so a revisit opens on a different note
   return `<h2>${L`Why &amp; How`}</h2><ol class=notes>${[...list.slice(k),...list.slice(0,k)].map(x=>`<li>${noteHTML(x)}</li>`).join('')}</ol>`;
 }
+const nameRe=(n,lg)=>{ // a name as a whole word; Tamil, Malayalam and Telugu join endings on and can change its last sound (அமித்தாய் → அமித்தாயின்), so there the stem starts the word
+  const joins=/^(ta|ml|te)$/.test(lg);
+  if(joins)n=n.replace(/(\p{L}[்్്]|[ൺൻർൽൾంം])$/u,''); // ponytail: drops a final consonant or nasal; a real stemmer if names go untapped
+  return new RegExp(`(?<![\\p{L}\\p{M}])${n.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}${joins?'[\\p{L}\\p{M}]*':'(?![\\p{L}\\p{M}])'}`,'u');
+};
 function scriptureHTML(verses,list,at,x,kept=new Set(),mk={noted:new Set(),hl:()=>0}){ // verses as paragraphs (a new one where a speech opens); notes ride the fore edge as tabs at their verse
   let h='',n=0;
-  const key=x?.skim?.advice?x.skim.key:[],names=(x?.names||[]).map(m=>({...m,re:new RegExp(`\\b${m.name.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}\\b`)})),found=[];
+  const key=x?.skim?.advice?x.skim.key:[],names=(x?.names||[]).map(m=>({...m,re:nameRe(m.name,NL)})),found=[];
   for(const v of verses){
     const t=v.text.replace(/\s+/g,' ').trim();
     if(n>1&&/^[“‘"]/.test(t)){h+='</div><div class=para>';n=0}
@@ -1168,9 +1174,9 @@ function scriptureHTML(verses,list,at,x,kept=new Set(),mk={noted:new Set(),hl:()
       text=text.replace(m.re,w=>`<button class=who popovertarget=who-${found.length}>${w}</button>`);found.push(m)}
     h+=`<span class="vs${key.includes(v.verse)?' key':''}${kept.has(v.verse)?' kept':''}${mk.noted.has(v.verse)?' noted':''}" data-v=${v.verse}${mk.hl(v.verse)?` data-h=${mk.hl(v.verse)}`:''} data-t="${esc(t)}">${tabs}<sup>${v.verse}</sup>${text} </span>`;
   }
-  const skim=key.length?`<p class=skim><span class=kind>${icon('bigpicture')}${L`Skim guide`}</span><span lang=en>${esc(x.skim.advice)}</span> ${L`Key verses: ${key.map(k=>`<span class=kv>${k}</span>`).join(' ')}.`}</p>`:'';
+  const skim=key.length?`<p class=skim><span class=kind>${icon('bigpicture')}${L`Skim guide`}</span><span lang=${NL}>${esc(x.skim.advice)}</span> ${L`Key verses: ${key.map(k=>`<span class=kv>${k}</span>`).join(' ')}.`}</p>`:'';
   return `${skim}<div class=para>${h}</div>${found.map((m,i)=>`<div popover id=who-${i} class=gloss role=dialog aria-label="${esc(m.name)}">
-    <p class=gk lang=en>${esc(m.kind)}</p><p class=gname>${esc(m.name)}</p><p lang=en>${esc(m.gloss)}</p>
+    <p class=gk>${{person:L`person`,place:L`place`,group:L`group`}[m.kind]}</p><p class=gname lang=${NL}>${esc(m.name)}</p><p lang=${NL}>${esc(m.gloss)}</p>
     <button class="go ghost slim" popovertarget=who-${i} popovertargetaction=hide autofocus>${L`Back to the text`}</button></div>`).join('')}`;
 }
 function pull(btn,j){ // pulling a tab brings its note out under the verse it explains; pull again to put it back

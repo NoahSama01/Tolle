@@ -53,6 +53,7 @@ async function seed(o) {
     localStorage.clear();localStorage.setItem('tolle-theme','light');localStorage.setItem('tolle-lang','${o.lang || 'en'}');localStorage.setItem('bible-plan',JSON.stringify(S));
   })()`);
   await load(`${ORIGIN}/`);
+  for (let i = 0; o.lang && o.lang !== "en" && i < 200 && (await js("document.documentElement.lang")).value !== o.lang; i++) await sleep(50); // its words arrive after the page loads (seconds, on a cold OneDrive read)
   if (o.act) { await js(o.act); await sleep(o.wait ?? 0); }
 }
 
@@ -157,6 +158,18 @@ const run = { kind: "run", run_days: 4, next_up: "Joshua 3", title: "Keep your r
 test("notify_in_hindi", { ...hi, act: "0", wait: 300 }, async () => { await expect(notice(run, "n=>[n.title,n.body.includes('यहोशू 3'),n.body.includes('4')]"), ["सिलसिला बनाए रखें", true, true]); });
 test("notify_english_as_server", { before: 289, act: "0", wait: 300 }, async () => { await expect(notice(run, "n=>[n.title,n.body]"), [run.title, run.body]); });
 test("notify_verse_named_locally", { ...hi, act: "caches.open('votd').then(c=>c.put('votd.json',new Response(JSON.stringify([{d:iso(new Date()),r:'Psalms 23:1',t:'यहोवा मेरा चरवाहा है'}]))))", wait: 300 }, async () => { await expect(notice({ kind: "verse" }, "n=>n.title===bn(18)+' 23:1'"), true); });
+// the notes follow the Bible being read: its language's file where one is written (here only Jonah's), else the English
+const mlNotes = (tr) => ({ before: 289, act: `S.tr='${tr}';window.fetch=(f=>u=>/insights\\/ml\\//.test(u)?Promise.resolve(new Response(/jonah/.test(u)?JSON.stringify({1:{summary:'യോനാ'}}):'',{status:/jonah/.test(u)?200:404})):f(u))(fetch)` });
+test("notes_in_bible_language", mlNotes("irv-ml"), async () => { await expect("insights('Jonah').then(j=>[j.lang,j[1].summary])", ["ml", "യോനാ"]); });
+test("notes_fall_back_english", mlNotes("irv-ml"), async () => { await expect("insights('Ruth').then(j=>[j.lang,/^[A-Z]/.test(j[1].summary)])", ["en", true]); });
+test("notes_english_bible", mlNotes("web"), async () => { await expect("insights('Jonah').then(j=>j.lang)", "en"); });
+const tapped = (lang, text, name) => `(NL='${lang}',scriptureHTML([{verse:1,text:${JSON.stringify(text)}}],[],[],{names:[{name:${JSON.stringify(name)},kind:'person',gloss:'g'}]}).match(/class=who[^>]*>([^<]*)/)?.[1]??null)`;
+test("names_tap_inflected", { before: 289 }, async () => { await expect(tapped("ml", "യഹോവയുടെ അരുളപ്പാട് അമിത്ഥായിയുടെ മകനായ യോനായ്ക്കു ഉണ്ടായി", "യോനാ"), "യോനായ്ക്കു"); });
+test("names_tap_changed_ending", { before: 289 }, async () => { await expect(`[${tapped("ta", "அமித்தாயின் மகனாகிய யோனா", "அமித்தாய்")},${tapped("ta", "நான் பாதாளத்தின் வயிற்றிலிருந்து", "பாதாளம்")},${tapped("ml", "ഇസ്രായേലിന്റെ ദൈവം", "ഇസ്രായേൽ")}]`, ["அமித்தாயின்", "பாதாளத்தின்", "ഇസ്രായേലിന്റെ"]); });
+test("names_tap_hindi", { before: 289 }, async () => { await expect(tapped("hi", "यहोवा का यह वचन अमित्तै के पुत्र योना के पास पहुँचा", "योना"), "योना"); });
+test("names_english_whole_word", { before: 289 }, async () => { await expect(tapped("en", "the Arameans of Aram", "Aram"), "Aram"); });
+test("note_in_its_language", { ...hi, act: "NL='hi'" }, async () => { await expect("(h=>[/<p lang=hi>/.test(h),h.includes(bn(31)+' 2:6')])(noteHTML({kind:'detail',title:'t',body:'b',refs:['Jonah 2:6']}))", [true, true]); });
+test("name_kind_translated", hi, async () => { await expect(`/[\\u0900-\\u097F]/.test(${tapped("hi", "योना", "योना").replace(".match(/class=who[^>]*>([^<]*)/)", ".match(/class=gk[^>]*>([^<]*)/)")})`, true); });
 // the landing and privacy pages follow the app's language on this phone
 const devanagari = (sel) => `/[\\u0900-\\u097F]/.test(document.querySelector('${sel}').textContent)`;
 test("landing_in_hindi", hi, async () => { await load(`${ORIGIN}/landing.html`); await sleep(300); await expect("document.documentElement.lang", "hi"); await expect(devanagari("h1"), true); await expectText(".stn", "यहोशू 1"); await expect(devanagari("#any"), true); await expect(devanagari("#out"), true); await expect(devanagari("#mine"), true); });

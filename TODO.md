@@ -53,7 +53,7 @@ Everything deferred so far, grouped by when it matters. Tick items off as they l
 - [ ] Have a native speaker review each language's wording before release.
 - [x] "Fill the gap" quiz for these languages: it works in any script now.
 - [ ] Hindi IRV as a second Hindi option, once its footnote text can be stripped out of verses.
-- [ ] Notes in these languages (largest job; after the English notes are finished).
+- [ ] Notes in these languages: the reader shows a book's notes in the open Bible's language once they are translated (`public/insights/<lang>/`), English until then. Jonah is done in all four; the rest, about 585,000 words per language, follow `scripts/NOTES-TR-PROMPT.md`, each checked by `scripts/notes_tr.py`.
 
 ## Why & How notes
 - [x] Every book, Genesis to Revelation (66 books, all 1,189 chapters). Each passes `scripts/notes.py` and `scripts/quotes.py`.
