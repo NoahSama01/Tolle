@@ -39,7 +39,7 @@ local = lambda s: len(regex.findall(SCRIPT[lang], s)) > len(regex.findall(r"\p{L
 quotes = lambda s: [q for q in re.findall(r"[\"“]([^\"”]*)[\"”]", s) if len(q) >= 18]
 nchap = dict(BOOKS)[book]
 JOINS = lang in ("ta", "ml", "te")  # as the app's nameRe: there endings join on and the last sound may change, so the stem starts a word
-CHILLU_BASE = dict(zip("ൺൻർൽൾ", "ണനരലള"))
+CHILLU_BASE = {"ൺ": "ണ", "ൻ": "ന", "ർ": "രറ", "ൽ": "ല", "ൾ": "ള"}  # as the app's CHILLU: താമാർ → താമാറിൽ
 def name_re(n):
     if not JOINS: return r"(?<![\p{L}\p{M}])" + regex.escape(n) + r"(?![\p{L}\p{M}])"
     n = re.sub(r"[்్്]$", "", re.sub(r"ம்$|[ంം]$", "", n.rstrip("‍")))

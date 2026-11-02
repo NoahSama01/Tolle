@@ -1155,7 +1155,7 @@ function notesHTML(list){
   const k=days('2000-01-01',today())%list.length; // rotate daily so a revisit opens on a different note
   return `<h2>${L`Why &amp; How`}</h2><ol class=notes>${[...list.slice(k),...list.slice(0,k)].map(x=>`<li>${noteHTML(x)}</li>`).join('')}</ol>`;
 }
-const CHILLU={'ൺ':'ണ','ൻ':'ന','ർ':'ര','ൽ':'ല','ൾ':'ള'};
+const CHILLU={'ൺ':'ണ','ൻ':'ന','ർ':'രറ','ൽ':'ല','ൾ':'ള'}; // the consonant(s) a final chillu becomes before an ending: താമാർ → താമാറിൽ
 const nameRe=(n,lg)=>{ // a name as a whole word; Tamil, Malayalam and Telugu join endings on and can change its last sound (സോർ → സോരിന്‍റെ, பாதாளம் → பாதாளத்தின்), so there the stem starts the word
   const joins=/^(ta|ml|te)$/.test(lg);let tail='';
   if(joins){n=n.replace(/‍$/,'').replace(/ம்$|[ంം]$/,'').replace(/[்్്]$/,''); // ponytail: the common endings; a real stemmer if names go untapped
