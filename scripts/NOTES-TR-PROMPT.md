@@ -36,6 +36,6 @@ Report each pull request URL, the checker's final output, and any wording you we
 
 ## Progress
 
-Done: Jonah in Hindi, Tamil, Malayalam and Telugu. Malayalam: Matthew, Mark.
+Done: Jonah in Hindi, Tamil, Malayalam and Telugu. Malayalam: Matthew, Mark, Luke.
 
 Several sessions can run at once as long as no two are given the same language and book: each is its own file and its own pull request. Do not start several from one chat at once; they share its session limit.
