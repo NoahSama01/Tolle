@@ -39,7 +39,12 @@ local = lambda s: len(regex.findall(SCRIPT[lang], s)) > len(regex.findall(r"\p{L
 quotes = lambda s: [q for q in re.findall(r"[\"“]([^\"”]*)[\"”]", s) if len(q) >= 18]
 nchap = dict(BOOKS)[book]
 JOINS = lang in ("ta", "ml", "te")  # as the app's nameRe: there endings join on and the last sound may change, so the stem starts a word
-name_re = lambda n: r"(?<![\p{L}\p{M}])" + regex.escape(regex.sub(r"(\p{L}[்్്]|[ൺൻർൽൾంം])$", "", n) if JOINS else n) + ("" if JOINS else r"(?![\p{L}\p{M}])")
+CHILLU_BASE = dict(zip("ൺൻർൽൾ", "ണനരലള"))
+def name_re(n):
+    if not JOINS: return r"(?<![\p{L}\p{M}])" + regex.escape(n) + r"(?![\p{L}\p{M}])"
+    n = re.sub(r"[்్്]$", "", re.sub(r"ம்$|[ంം]$", "", n.rstrip("‍")))
+    tail = f"[{n[-1]}{CHILLU_BASE[n[-1]]}]" if n[-1] in CHILLU_BASE else ""  # a final chillu stays, or becomes its consonant before an ending
+    return r"(?<![\p{L}\p{M}])" + regex.escape(n[:-1] if tail else n) + tail
 
 en = json.load(open(os.path.join(ROOT, "public", "insights", f"{slug}.json"), encoding="utf-8"))
 out_path = os.path.join(ROOT, "public", "insights", lang, f"{slug}.json")
@@ -59,7 +64,9 @@ for p in parts:
         n = int(c); here = texts(book, n); nhere = [norm(t) for t in here]
         for k in ("summary", "lookfor"):
             if not local(x.get(k, "")): problems.append(f"{where}: {k} not in the language")
-        if [m["kind"] for m in x["names"]] != [m["kind"] for m in e["names"]]: problems.append(f"{where}: names differ from the English in number or kind")
+        ek = iter(m["kind"] for m in e["names"])  # the English names in order; one may be left out where this Bible's chapter lacks it
+        if not all(k in ek for k in (m["kind"] for m in x["names"])): problems.append(f"{where}: names differ from the English in order or kind")
+        if len(x["names"]) < len(e["names"]): problems.append(f"{where}: note: {len(e['names']) - len(x['names'])} name(s) left out (fine only if this Bible's chapter lacks them)")
         for m in x["names"]:
             if not any(regex.search(name_re(m["name"]), t) for t in here): problems.append(f"{where}: name '{m['name']}' not in the chapter")
             if not local(m["gloss"]): problems.append(f"{where}: gloss of '{m['name']}' not in the language")

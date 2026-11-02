@@ -19,7 +19,7 @@ Translate the English "Why & How" notes of the books named at the bottom into th
 - Where an English note turns on an English word (for example "the word great"), use the word that Bible actually uses in that verse.
 - Hebrew and Greek words: write them in the script, with the Latin transliteration in brackets, as Jonah does: യാരദ് (yarad).
 - Keep every inline verse pointer like `(1:3, 1:5)` exactly as in the English, in the same order: the app tabs each note to the first one. Where the English says "verse 5", write `(<chapter>:5)`.
-- `names`: the same names, same kinds, same order. Spell each one as it appears in that chapter of the Bible, in its plain form. In Tamil, Malayalam and Telugu the app matches a name's stem, so அமித்தாய் finds அமித்தாயின்.
+- `names`: the same names, same kinds, same order. Leave one out only when that Bible's chapter does not have it at all (Mark 13:14 in the Malayalam Bibles does not name Daniel); the checker lists each one left out. Spell each one as it appears in that chapter of the Bible, in its plain form. In Tamil, Malayalam and Telugu the app matches a name's stem, so அமித்தாய் finds அமித்தாயின்.
 - Double quotes “…” mean Scripture, copied exactly from that Bible: from this book, or from a passage listed in the note's `refs`. Anything else in quotes (a word's meaning, a scholar's term) goes in single quotes ‘…’.
 
 ## Check, then submit (per book)
@@ -36,6 +36,6 @@ Report each pull request URL, the checker's final output, and any wording you we
 
 ## Progress
 
-Done: Jonah in Hindi, Tamil, Malayalam and Telugu.
+Done: Jonah in Hindi, Tamil, Malayalam and Telugu. Malayalam: Mark.
 
 Several sessions can run at once as long as no two are given the same language and book: each is its own file and its own pull request. Do not start several from one chat at once; they share its session limit.
