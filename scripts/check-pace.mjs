@@ -132,6 +132,14 @@ test("web_text_single_verse", {}, async () => { await expect(noApi("Psalms 23:1"
 // ---- The evening "keep your run" nudge: the account learns the run, and Settings offers the nudge
 const days2 = "(()=>{const d=n=>{const x=new Date();x.setDate(x.getDate()-n);return iso(x)};S.log={[d(1)]:2,[d(2)]:1,[d(4)]:3};S.day=null;window._y=d(1)})()";
 test("facts_carry_run", { before: 289, act: days2 }, async () => { await expect("facts().run_days", 2); await expect("facts().last_read===window._y", true); });
+// rest days: every 7 days in a row earns one (hold at most 2); a missed day spends one and the run carries on
+const readOn = (ago) => `(()=>{const d=n=>{const x=new Date();x.setDate(x.getDate()-n);return iso(x)};S.log=Object.fromEntries(${JSON.stringify(ago)}.map(n=>[d(n),1]));S.day=null;save();render()})()`;
+const span = (a, b) => Array.from({ length: b - a + 1 }, (_, k) => a + k);
+test("run_rest_covers_a_miss", { before: 289, act: readOn([...span(3, 9), 1]) }, async () => { await expect("[streak(),bestRun(),rest().held,facts().run_days]", [8, 8, 0, 8]); });
+test("run_breaks_without_rest", { before: 289, act: readOn([1, 2, 4, 5]) }, async () => { await expect("[streak(),rest().held]", [2, 0]); });
+test("run_rest_held_at_most_two", { before: 289, act: readOn(span(1, 21)) }, async () => { await expect("[streak(),rest().held]", [21, 2]); await expectText(".run span", /2 rest days saved$/); });
+test("run_rest_covers_two_misses", { before: 289, act: readOn([...span(4, 17), 1]) }, async () => { await expect("[streak(),rest().held]", [15, 0]); });
+test("run_rest_used_yesterday", { before: 289, act: readOn(span(2, 8)) }, async () => { await expect("streak()", 7); await expectText(".run span", /Rest day used yesterday\. Your run is safe\.$/); await expect("document.querySelectorAll('.week li.rest').length===(new Date().getDay()?1:0)", true); });
 test("settings_offer_run_nudge", { before: 289, act: "AU={id:'x'};go('settings')" }, async () => { await expectText("#kr-h", "Keep your run"); });
 const hls = { before: 289, act: "HL={'18.23.1':2,'0.1.3':1};saveHL();go('kept')", wait: 600 };
 test("highlights_listed_in_bible_order", hls, async () => { for (let i = 0; i < 100 && !(await js("document.querySelector('.hl-list li:nth-child(2) .htext')?.textContent")).value; i++) await sleep(100); await expect("[...document.querySelectorAll('.hl-list .ktab')].map(e=>e.textContent)", ["Genesis 1:3", "Psalms 23:1"]); await expectText(".hl-list li:nth-child(2) .htext", /^Yahweh is my shepherd/); });

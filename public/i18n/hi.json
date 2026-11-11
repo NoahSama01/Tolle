@@ -407,6 +407,9 @@
   "← Back to Tolle": "← Tolle पर वापस",
   "person": "व्यक्ति",
   "place": "स्थान",
-  "group": "जनसमूह"
+  "group": "जनसमूह",
+  "Rest day used yesterday. Your run is safe.": "कल एक विश्राम दिन काम आया। आपका सिलसिला सुरक्षित है।",
+  "1 rest day saved": "1 विश्राम दिन बचा है",
+  "{0} rest days saved": "{0} विश्राम दिन बचे हैं"
  }
 }

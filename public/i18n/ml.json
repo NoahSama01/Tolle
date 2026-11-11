@@ -407,6 +407,9 @@
   "← Back to Tolle": "← Tolle-ലേക്ക് മടങ്ങുക",
   "person": "വ്യക്തി",
   "place": "സ്ഥലം",
-  "group": "ജനത"
+  "group": "ജനത",
+  "Rest day used yesterday. Your run is safe.": "ഇന്നലെ ഒരു വിശ്രമദിനം ഉപയോഗിച്ചു. നിങ്ങളുടെ തുടർച്ച സുരക്ഷിതമാണ്.",
+  "1 rest day saved": "1 വിശ്രമദിനം കരുതലുണ്ട്",
+  "{0} rest days saved": "{0} വിശ്രമദിനങ്ങൾ കരുതലുണ്ട്"
  }
 }

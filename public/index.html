@@ -88,6 +88,7 @@ body[data-view=setup] .rail{display:none}
 .week li{display:grid;justify-items:center;gap:.25rem;color:var(--ink-2);font:500 .6875rem var(--mono)}
 .week i{width:1.25rem;height:1.25rem;border:1.5px solid var(--ink-2);border-radius:50%}
 .week .on i{border:0;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.4)} /* a day read is a hole punched */
+.week .rest i{border-style:dashed} /* a missed day a rest day covered */
 .week .now{color:var(--ink);font-weight:700}.week .now:not(.on) i{border:2.5px solid var(--ink)}
 .pc{display:grid;gap:.55rem}
 .pc div{display:flex;align-items:baseline;gap:.6rem}
@@ -507,8 +508,15 @@ function goalParts(){
 }
 const goal=()=>{const g=goalParts();return g.share+g.catchup};
 const extraToday=()=>pace().cls==='late'?0:Math.max(0,todayN()-goal()); // past the goal but still behind is catching up, not extra
-function streak(){let n=0,d=new Date();if(!S.log[iso(d)])d.setDate(d.getDate()-1);for(;S.log[iso(d)];d.setDate(d.getDate()-1))n++;return n}
-function bestRun(){let best=0,run=0,prev;for(const d of Object.keys(S.log).filter(d=>S.log[d]).sort()){run=prev&&days(prev,d)===1?run+1:1;best=Math.max(best,run);prev=d}return best} // the longest unbroken run of reading days
+function rest(){ // the run of days, forgiving: every 7 days read in a row earns a rest day (2 at most), and a missed day spends one instead of ending the run
+  const t=today(),first=Object.keys(S.log).filter(d=>S.log[d]).sort()[0];let run=0,best=0,held=0,since=0,used=[];
+  if(first)for(const d=new Date(first+'T00:00');iso(d)<t||iso(d)===t&&S.log[t];d.setDate(d.getDate()+1)){const k=iso(d); // today unread isn't a miss yet
+    if(S.log[k]){best=Math.max(best,++run);if(++since===7){since=0;held=Math.min(2,held+1)}}
+    else if(held){held--;used.push(k)}
+    else{run=since=0;used=[]}}
+  return {run,best,held,used};
+}
+const streak=()=>rest().run,bestRun=()=>rest().best;
 const bookDone=bi=>readIn(bi)===BOOKS[bi][1],booksDone=()=>BOOKS.filter((_,bi)=>bookDone(bi)).length;
 const toFinish=bi=>BOOKS[bi][1]-readIn(bi); // chapters left in a book: three or fewer is worth saying where the next tap is
 const divDone=li=>BOOKS.every((_,bi)=>BED_OF[bi]!==li||bookDone(bi));
@@ -659,9 +667,10 @@ function todayView(){
   </div>${wide.matches?`<aside class=col-route aria-labelledby=route-h><h2 id=route-h class=sr>${L`The whole Bible`}</h2>${routeBody()}</aside>`:''}</div>`;
 }
 function runHTML(){ // the run of days: its count, the best so far, and this week as seven holes, punched on the days read
-  const n=streak(),d=new Date(),wd=new Intl.DateTimeFormat(LOC,{weekday:'narrow'});d.setDate(d.getDate()-d.getDay());
-  let on=0;const week=Array.from({length:7},()=>{const k=iso(d),r=!!S.log[k],h=`<li class="${r?'on':''}${k===today()?' now':''}"><i></i>${wd.format(d)}</li>`;on+=r;d.setDate(d.getDate()+1);return h}).join('');
-  return `<div class=run><b>${num(n)}</b><span>${n==1?L`day in a row`:L`days in a row`}<br>${L`Best ${num(Math.max(bestRun(),n))}`}</span></div>
+  const R=rest(),n=R.run,d=new Date(),y=new Date(),wd=new Intl.DateTimeFormat(LOC,{weekday:'narrow'});d.setDate(d.getDate()-d.getDay());y.setDate(y.getDate()-1);
+  let on=0;const week=Array.from({length:7},()=>{const k=iso(d),r=!!S.log[k],h=`<li class="${r?'on':''}${R.used.includes(k)?' rest':''}${k===today()?' now':''}"><i></i>${wd.format(d)}</li>`;on+=r;d.setDate(d.getDate()+1);return h}).join('');
+  const note=R.used.at(-1)===iso(y)?L`Rest day used yesterday. Your run is safe.`:R.held==1?L`1 rest day saved`:R.held?L`${num(R.held)} rest days saved`:'';
+  return `<div class=run><b>${num(n)}</b><span>${n==1?L`day in a row`:L`days in a row`}<br>${L`Best ${num(Math.max(R.best,n))}`}${note&&`<br>${note}`}</span></div>
     <ol class=week aria-label="${L`This week: read on ${plural(on,'day')}`}">${week}</ol>
     <p class=hint style="margin:0 0 1.1rem">${todayN()?L`Today's hole is punched.`:n?L`Read a chapter today to make it ${num(n+1)}.`:L`Read a chapter today to start a run.`}</p>`;
 }

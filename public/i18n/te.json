@@ -407,6 +407,9 @@
   "← Back to Tolle": "← Tolle కి తిరిగి వెళ్లండి",
   "person": "వ్యక్తి",
   "place": "స్థలం",
-  "group": "జనాంగం"
+  "group": "జనాంగం",
+  "Rest day used yesterday. Your run is safe.": "నిన్న ఒక విశ్రాంతి రోజు వాడబడింది. మీ వరుస సురక్షితంగా ఉంది.",
+  "1 rest day saved": "1 విశ్రాంతి రోజు దాచి ఉంది",
+  "{0} rest days saved": "{0} విశ్రాంతి రోజులు దాచి ఉన్నాయి"
  }
 }
