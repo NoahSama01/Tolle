@@ -425,6 +425,11 @@
   "Level {0}. A new colour is open in Settings.": "स्तर {0}। सेटिंग्स में एक नया रंग खुल गया है।",
   "Reach a new level to open another colour.": "एक और रंग खोलने के लिए नए स्तर तक पहुँचें।",
   "Share today": "आज को साझा करें",
-  "{0} chapters to {1}": "{1} तक {0} अध्याय"
+  "{0} chapters to {1}": "{1} तक {0} अध्याय",
+  "Your week": "आपका सप्ताह",
+  "Read on {0} of 7 days": "7 में से {0} दिन पढ़ा",
+  "{0} more than the week before.": "पिछले सप्ताह से {0} अधिक।",
+  "Next: {0} {1}": "आगे: {0} {1}",
+  "Close": "बंद करें"
  }
 }

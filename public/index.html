@@ -675,7 +675,7 @@ function todayView(){
   const g=goal(),t=todayN(),nx=CH[nextIdx()],p=nx?pace():{cls:'ahead',text:L`Complete`},done=todayIdx(),{share,catchup}=goalParts(),extra=extraToday();
   const stops=[...done,...upcoming(Math.max(g-done.length,1))].map(i=>CH[i]),met=t>=g; // today's chapters, plus the next one once the goal is met
   return `<header class=top><a class=mark href=landing.html>Tolle</a><p class="status ${p.cls}">${p.text}</p></header>${flash?`<p class=gone role=status>${flash}</p>`:''}
-  <div class=split><div>${cheerHTML()}
+  <div class=split><div>${cheerHTML()}${showRecap()?recapHTML():''}
   <section class="leaf clear" aria-label="${L`Next chapter`}">${nx?`
     <h1 class=station style=--w:${ww(bn(nx[2]))}>${bn(nx[2])} ${nx[1]}</h1>
     <p class="meta mono">${bed(nx[2])[1]} · ${met?L`today's reading done`:L`${t+1} of ${g} today`}</p>
@@ -692,6 +692,20 @@ function todayView(){
 </section>
   ${cardHTML()}
   </div>${wide.matches?`<aside class=col-route aria-labelledby=route-h><h2 id=route-h class=sr>${L`The whole Bible`}</h2>${routeBody()}</aside>`:''}</div>`;
+}
+function weekRecap(){ // the seven days before today (chapters, days read), and the seven before that to compare
+  const sum=(a,b)=>{let n=0,d=0;for(let i=a;i<=b;i++){const k=plusDays(-i);if(S.log[k]){n+=S.log[k];d++}}return [n,d]};
+  const [chapters,days]=sum(1,7),[before]=sum(8,14);return {chapters,days,before};
+}
+const showRecap=()=>new Date().getDay()===0&&weekRecap().chapters>0&&localStorage.getItem('tolle-recap')!==today(); // Sundays, after a week with reading in it, until closed
+function closeRecap(){localStorage.setItem('tolle-recap',today());document.getElementById('recap')?.remove()}
+function recapHTML(){
+  const w=weekRecap(),l=level(),n=streak(),nx=CH[nextIdx()];
+  return `<section class=leaf id=recap aria-labelledby=rc-h><h2 id=rc-h>${L`Your week`}</h2>
+    <p class=facts><span>${plural(w.chapters,'chapter')}</span><span>${L`Read on ${num(w.days)} of 7 days`}</span><span>${num(n)} ${n==1?L`day in a row`:L`days in a row`}</span></p>
+    ${w.before&&w.chapters>w.before?`<p class=lede>${L`${plural(w.chapters-w.before,'chapter')} more than the week before.`}</p>`:''}
+    <p class=hint>${l.next?L`${num(l.to)} chapters to ${lvName(l.i+1)}`:''}${l.next&&nx?' · ':''}${nx?L`Next: ${bn(nx[2])} ${nx[1]}`:''}</p>
+    <button class=link-btn onclick=closeRecap()>${L`Close`}</button></section>`;
 }
 function levelHTML(){ // the level reached by chapters finished, and how far to the next
   const l=level();

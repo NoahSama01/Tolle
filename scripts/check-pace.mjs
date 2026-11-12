@@ -149,6 +149,12 @@ test("board_pick_follow", { before: 289, act: "pickBoard(2);pickBoard(null)" }, 
 // the share card: once today's reading is done, the day's verse and the run as a picture to send
 test("share_after_goal", { before: 289, todayN: 10, act: "go('today')" }, async () => { await expect("!!document.getElementById('share')", true); await expect("cardBlob().then(b=>[b.type,b.size>1000])", ["image/png", true]); });
 test("no_share_before_goal", { before: 289, todayN: 2, act: "go('today')" }, async () => { await expect("document.getElementById('share')", null); });
+// the weekly recap: on Sundays, the seven days before today, only when there was reading in them, and closable
+const readFor = (byAgo) => readOn(Object.keys(byAgo).map(Number)).replace("[d(n),1]", `[d(n),${JSON.stringify(byAgo)}[n]]`);
+test("recap_counts_last_week", { before: 289, act: readFor({ 1: 3, 2: 2, 7: 1, 8: 4, 10: 1 }) }, async () => { await expect("weekRecap()", { chapters: 6, days: 3, before: 5 }); await expect("/6 chapters/.test(recapHTML())&&/1 chapter more than the week before/.test(recapHTML())", true); });
+test("recap_only_sundays", { before: 289, act: readFor({ 1: 3 }) + ";go('today')" }, async () => { await expect("!!document.getElementById('recap')===(new Date().getDay()===0)", true); });
+test("recap_not_after_empty_week", { before: 289, act: readFor({ 9: 3 }) }, async () => { await expect("weekRecap().chapters", 0); await expect("showRecap()", false); });
+test("recap_closed_stays_closed", { before: 289, act: readFor({ 1: 3 }) + ";closeRecap()" }, async () => { await expect("[localStorage.getItem('tolle-recap')===today(),showRecap()]", [true, false]); });
 test("settings_offer_run_nudge", { before: 289, act: "AU={id:'x'};go('settings')" }, async () => { await expectText("#kr-h", "Keep your run"); });
 const hls = { before: 289, act: "HL={'18.23.1':2,'0.1.3':1};saveHL();go('kept')", wait: 600 };
 test("highlights_listed_in_bible_order", hls, async () => { for (let i = 0; i < 100 && !(await js("document.querySelector('.hl-list li:nth-child(2) .htext')?.textContent")).value; i++) await sleep(100); await expect("[...document.querySelectorAll('.hl-list .ktab')].map(e=>e.textContent)", ["Genesis 1:3", "Psalms 23:1"]); await expectText(".hl-list li:nth-child(2) .htext", /^Yahweh is my shepherd/); });

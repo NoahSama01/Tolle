@@ -425,6 +425,11 @@
   "Level {0}. A new colour is open in Settings.": "స్థాయి {0}. సెట్టింగ్‌లలో కొత్త రంగు తెరుచుకుంది.",
   "Reach a new level to open another colour.": "మరో రంగును తెరవడానికి కొత్త స్థాయిని చేరుకోండి.",
   "Share today": "ఈ రోజును పంచుకోండి",
-  "{0} chapters to {1}": "{1} వరకు {0} అధ్యాయాలు"
+  "{0} chapters to {1}": "{1} వరకు {0} అధ్యాయాలు",
+  "Your week": "మీ వారం",
+  "Read on {0} of 7 days": "7 రోజుల్లో {0} రోజులు చదివారు",
+  "{0} more than the week before.": "గత వారం కంటే {0} ఎక్కువ.",
+  "Next: {0} {1}": "తర్వాత: {0} {1}",
+  "Close": "మూసివేయి"
  }
 }
