@@ -140,6 +140,15 @@ test("run_breaks_without_rest", { before: 289, act: readOn([1, 2, 4, 5]) }, asyn
 test("run_rest_held_at_most_two", { before: 289, act: readOn(span(1, 21)) }, async () => { await expect("[streak(),rest().held]", [21, 2]); await expectText(".run span", /2 rest days saved$/); });
 test("run_rest_covers_two_misses", { before: 289, act: readOn([...span(4, 17), 1]) }, async () => { await expect("[streak(),rest().held]", [15, 0]); });
 test("run_rest_used_yesterday", { before: 289, act: readOn(span(2, 8)) }, async () => { await expect("streak()", 7); await expectText(".run span", /Rest day used yesterday\. Your run is safe\.$/); await expect("document.querySelectorAll('.week li.rest').length===(new Date().getDay()?1:0)", true); });
+// levels: every chapter finished counts (books marked as read too); each level opens one division's colour for the board
+test("level_from_chapters", { before: 289 }, async () => { await expect("(l=>[l.i,l.name,l.to])(level())", [3, "Student", 161]); });
+test("level_shown_today", { before: 289, act: "go('today')" }, async () => { await expectText(".lvl", /Student/); });
+test("level_up_cheer", { before: 249, ...done }, async () => { await expect("view", "today"); await expectText(".cheer h2", "Student"); });
+test("board_pick_unlocked_only", { before: 289, act: "pickBoard(2);pickBoard(3)" }, async () => { await expect("[S.board,document.documentElement.style.getPropertyValue('--hue')]", [2, "var(--wisdom)"]); });
+test("board_pick_follow", { before: 289, act: "pickBoard(2);pickBoard(null)" }, async () => { await expect("S.board", null); });
+// the share card: once today's reading is done, the day's verse and the run as a picture to send
+test("share_after_goal", { before: 289, todayN: 10, act: "go('today')" }, async () => { await expect("!!document.getElementById('share')", true); await expect("cardBlob().then(b=>[b.type,b.size>1000])", ["image/png", true]); });
+test("no_share_before_goal", { before: 289, todayN: 2, act: "go('today')" }, async () => { await expect("document.getElementById('share')", null); });
 test("settings_offer_run_nudge", { before: 289, act: "AU={id:'x'};go('settings')" }, async () => { await expectText("#kr-h", "Keep your run"); });
 const hls = { before: 289, act: "HL={'18.23.1':2,'0.1.3':1};saveHL();go('kept')", wait: 600 };
 test("highlights_listed_in_bible_order", hls, async () => { for (let i = 0; i < 100 && !(await js("document.querySelector('.hl-list li:nth-child(2) .htext')?.textContent")).value; i++) await sleep(100); await expect("[...document.querySelectorAll('.hl-list .ktab')].map(e=>e.textContent)", ["Genesis 1:3", "Psalms 23:1"]); await expectText(".hl-list li:nth-child(2) .htext", /^Yahweh is my shepherd/); });

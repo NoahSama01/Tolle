@@ -410,6 +410,21 @@
   "group": "ജനത",
   "Rest day used yesterday. Your run is safe.": "ഇന്നലെ ഒരു വിശ്രമദിനം ഉപയോഗിച്ചു. നിങ്ങളുടെ തുടർച്ച സുരക്ഷിതമാണ്.",
   "1 rest day saved": "1 വിശ്രമദിനം കരുതലുണ്ട്",
-  "{0} rest days saved": "{0} വിശ്രമദിനങ്ങൾ കരുതലുണ്ട്"
+  "{0} rest days saved": "{0} വിശ്രമദിനങ്ങൾ കരുതലുണ്ട്",
+  "Colour": "നിറം",
+  "Seeker": "അന്വേഷകൻ",
+  "Listener": "ശ്രോതാവ്",
+  "Reader": "വായനക്കാരൻ",
+  "Student": "വിദ്യാർത്ഥി",
+  "Disciple": "ശിഷ്യൻ",
+  "Scribe": "ശാസ്ത്രി",
+  "Elder": "മൂപ്പൻ",
+  "Follow the book": "പുസ്തകം പിന്തുടരുക",
+  "Level up": "പുതിയ നില",
+  "Level {0}": "നില {0}",
+  "Level {0}. A new colour is open in Settings.": "നില {0}. ക്രമീകരണങ്ങളിൽ ഒരു പുതിയ നിറം തുറന്നു.",
+  "Reach a new level to open another colour.": "മറ്റൊരു നിറം തുറക്കാൻ ഒരു പുതിയ നിലയിൽ എത്തുക.",
+  "Share today": "ഇന്നത്തേത് പങ്കിടുക",
+  "{0} chapters to {1}": "{1} വരെ {0} അധ്യായങ്ങൾ"
  }
 }

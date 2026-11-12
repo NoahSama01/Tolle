@@ -410,6 +410,21 @@
   "group": "மக்களினம்",
   "Rest day used yesterday. Your run is safe.": "நேற்று ஓர் ஓய்வு நாள் பயன்பட்டது. உங்கள் தொடர் பாதுகாப்பாக உள்ளது.",
   "1 rest day saved": "1 ஓய்வு நாள் சேமிப்பில் உள்ளது",
-  "{0} rest days saved": "{0} ஓய்வு நாட்கள் சேமிப்பில் உள்ளன"
+  "{0} rest days saved": "{0} ஓய்வு நாட்கள் சேமிப்பில் உள்ளன",
+  "Colour": "நிறம்",
+  "Seeker": "தேடுபவர்",
+  "Listener": "கேட்பவர்",
+  "Reader": "வாசகர்",
+  "Student": "மாணவர்",
+  "Disciple": "சீடர்",
+  "Scribe": "வேதபாரகர்",
+  "Elder": "மூப்பர்",
+  "Follow the book": "புத்தகத்தைப் பின்பற்று",
+  "Level up": "புதிய நிலை",
+  "Level {0}": "நிலை {0}",
+  "Level {0}. A new colour is open in Settings.": "நிலை {0}. அமைப்புகளில் ஒரு புதிய நிறம் திறந்துள்ளது.",
+  "Reach a new level to open another colour.": "இன்னொரு நிறத்தைத் திறக்க புதிய நிலையை அடையுங்கள்.",
+  "Share today": "இன்றைப் பகிர்",
+  "{0} chapters to {1}": "{1} வரை {0} அதிகாரங்கள்"
  }
 }

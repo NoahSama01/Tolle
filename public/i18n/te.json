@@ -410,6 +410,21 @@
   "group": "జనాంగం",
   "Rest day used yesterday. Your run is safe.": "నిన్న ఒక విశ్రాంతి రోజు వాడబడింది. మీ వరుస సురక్షితంగా ఉంది.",
   "1 rest day saved": "1 విశ్రాంతి రోజు దాచి ఉంది",
-  "{0} rest days saved": "{0} విశ్రాంతి రోజులు దాచి ఉన్నాయి"
+  "{0} rest days saved": "{0} విశ్రాంతి రోజులు దాచి ఉన్నాయి",
+  "Colour": "రంగు",
+  "Seeker": "అన్వేషి",
+  "Listener": "శ్రోత",
+  "Reader": "పాఠకుడు",
+  "Student": "విద్యార్థి",
+  "Disciple": "శిష్యుడు",
+  "Scribe": "శాస్త్రి",
+  "Elder": "పెద్ద",
+  "Follow the book": "పుస్తకాన్ని అనుసరించు",
+  "Level up": "కొత్త స్థాయి",
+  "Level {0}": "స్థాయి {0}",
+  "Level {0}. A new colour is open in Settings.": "స్థాయి {0}. సెట్టింగ్‌లలో కొత్త రంగు తెరుచుకుంది.",
+  "Reach a new level to open another colour.": "మరో రంగును తెరవడానికి కొత్త స్థాయిని చేరుకోండి.",
+  "Share today": "ఈ రోజును పంచుకోండి",
+  "{0} chapters to {1}": "{1} వరకు {0} అధ్యాయాలు"
  }
 }

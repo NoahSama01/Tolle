@@ -88,6 +88,11 @@ body[data-view=setup] .rail{display:none}
 .week li{display:grid;justify-items:center;gap:.25rem;color:var(--ink-2);font:500 .6875rem var(--mono)}
 .week i{width:1.25rem;height:1.25rem;border:1.5px solid var(--ink-2);border-radius:50%}
 .week .on i{border:0;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.4)} /* a day read is a hole punched */
+.bk-pick .sw{display:inline-block;width:.75em;height:.75em;margin-right:.45em;border-radius:50%;background:var(--c);box-shadow:0 0 0 1px rgba(21,21,21,.25)} /* each colour shown before it's picked */
+.bk-pick:has(:disabled){opacity:.5} /* a colour the reader hasn't reached yet */
+.lvl{display:flex;flex-wrap:wrap;align-items:baseline;gap:.3rem .6rem;margin:0 0 1rem;color:var(--ink-2);font:500 .75rem/1.4 var(--mono);text-transform:uppercase}
+.lvl b{color:var(--ink);font:800 1.5rem/1 var(--head);font-stretch:72%}
+.lvl progress{flex:1 0 100%;height:.5rem;accent-color:var(--board)}
 .week .rest i{border-style:dashed} /* a missed day a rest day covered */
 .week .now{color:var(--ink);font-weight:700}.week .now:not(.on) i{border:2.5px solid var(--ink)}
 .pc{display:grid;gap:.55rem}
@@ -517,6 +522,9 @@ function rest(){ // the run of days, forgiving: every 7 days read in a row earns
   return {run,best,held,used};
 }
 const streak=()=>rest().run,bestRun=()=>rest().best;
+const LV_AT=[0,25,100,250,450,700,1000],lvName=i=>[L`Seeker`,L`Listener`,L`Reader`,L`Student`,L`Disciple`,L`Scribe`,L`Elder`][i]; // chapters finished to reach each level; every level past the first opens one division's colour
+function level(n=count()){const i=LV_AT.findLastIndex(k=>n>=k),next=LV_AT[i+1];return {i,name:lvName(i),from:LV_AT[i],next,to:next?next-n:0}}
+const boardOK=li=>li!=null&&level().i>li; // a division's colour is open once the level past it is reached
 const bookDone=bi=>readIn(bi)===BOOKS[bi][1],booksDone=()=>BOOKS.filter((_,bi)=>bookDone(bi)).length;
 const toFinish=bi=>BOOKS[bi][1]-readIn(bi); // chapters left in a book: three or fewer is worth saying where the next tap is
 const divDone=li=>BOOKS.every((_,bi)=>BED_OF[bi]!==li||bookDone(bi));
@@ -570,6 +578,25 @@ const fade=f=>document.startViewTransition?document.startViewTransition(f):f(); 
 function flipNight(btn){fade(()=>{ // the reader's moon: day or night at once, without redrawing the chapter, so place, selection and open notes stay
   localStorage.setItem('tolle-theme',document.documentElement.dataset.theme==='dark'?'light':'dark');theme();paintBar();const dark=document.documentElement.dataset.theme==='dark';btn.ariaLabel=dark?L`Switch to day`:L`Switch to night`;btn.innerHTML=icon(dark?'sun':'moon'); // updated in place, so focus stays on it
 })}
+function pickBoard(li){if(li!=null&&!boardOK(li))return;S.board=li;save();const y=scrollY;render();scrollTo(0,y)} // a colour for the board, or null to follow the book
+async function cardBlob(){ // today as a picture to send: the day's verse and the run, on the board's colour
+  const dv=daily(),c=document.createElement('canvas'),x=c.getContext('2d'),W=c.width=1080,H=c.height=1350,root=getComputedStyle(document.documentElement),f=v=>root.getPropertyValue(v).trim();
+  await document.fonts?.ready;
+  x.fillStyle=getComputedStyle(document.body).backgroundColor;x.fillRect(0,0,W,H);x.fillStyle=f('--on-day')||'#151515';x.textBaseline='top';
+  x.font=`600 34px ${f('--mono')}`;x.fillText('TOLLE',96,96);
+  const lines=s=>{const out=[];let ln='';for(const w of s.split(' ')){const t=ln?ln+' '+w:w;if(ln&&x.measureText(t).width>W-192){out.push(ln);ln=w}else ln=t}return ln?[...out,ln]:out};
+  let size=88,ls;for(;size>30;size-=4){x.font=`400 ${size}px ${f('--serif')}`;ls=lines(dv.t||'');if(ls.length*size*1.4<=740)break} // as large as fits
+  ls.forEach((l,k)=>x.fillText(l,96,200+k*size*1.4));
+  x.font=`600 34px ${f('--mono')}`;x.fillText(`${lref(dv.r)} · ${S.tr.toUpperCase()}`,96,200+ls.length*size*1.4+32);
+  const n=streak();x.font=`800 180px ${f('--head')}`;x.fillText(num(n),96,H-300);
+  x.font=`600 34px ${f('--mono')}`;x.fillText((n==1?L`day in a row`:L`days in a row`).toUpperCase(),96,H-110);
+  return new Promise(r=>c.toBlob(r,'image/png'));
+}
+async function shareDay(){ // the phone's share sheet where it takes pictures, else a download
+  const b=await cardBlob(),file=new File([b],'tolle.png',{type:'image/png'});
+  if(navigator.canShare?.({files:[file]}))return navigator.share({files:[file]}).catch(()=>{});
+  const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='tolle.png';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+}
 function setTheme(v){fade(()=>{v==='auto'?localStorage.removeItem('tolle-theme'):localStorage.setItem('tolle-theme',v);theme();render()})}
 let at=null,jv=null; // a chapter opened from the Index, Kept or a verse (and the verse to land on); null is the plan's next chapter
 const cur=()=>at??nextIdx();
@@ -582,7 +609,7 @@ function go(v,popped){
 addEventListener('popstate',e=>go(e.state?.v||'today',true));
 function render(){
   document.body.dataset.view=S?view:'setup';
-  setBoard(!S?0:view==='reader'?BED_OF[CH[cur()][2]]:curBed());
+  setBoard(!S?0:boardOK(S.board)?S.board:view==='reader'?BED_OF[CH[cur()][2]]:curBed()); // a colour picked in Settings, else the division being read
   scrollTo(0,0);
   if(!S)$.innerHTML=setupView();
   else if(view==='reader')readerView();
@@ -660,11 +687,15 @@ function todayView(){
   ${dailyHTML()}
   ${nx?`<section class=leaf aria-labelledby=stops-h><h2 id=stops-h>${L`Today's chapters`}${extra?` <span class=extra>${L`+${num(extra)} extra`}</span>`:''}</h2>
     <ol class=stops>${stops.map((s,i)=>stopRow(s,i,done.length,stops[i+1])).join('')}</ol></section>`:''}
-  <section class=leaf aria-labelledby=log-h><h2 id=log-h>${L`Reading log`}</h2>${runHTML()}${calendar()}
+  <section class=leaf aria-labelledby=log-h><h2 id=log-h>${L`Reading log`}</h2>${levelHTML()}${runHTML()}${calendar()}
     <p class=facts><span>${L`${num(count())} / 1,189 chapters`}</span><span>${L`Finish ${fmtDate(S.deadline)}`}</span></p>
 </section>
   ${cardHTML()}
   </div>${wide.matches?`<aside class=col-route aria-labelledby=route-h><h2 id=route-h class=sr>${L`The whole Bible`}</h2>${routeBody()}</aside>`:''}</div>`;
+}
+function levelHTML(){ // the level reached by chapters finished, and how far to the next
+  const l=level();
+  return `<p class=lvl><b>${l.name}</b><span>${L`Level ${num(l.i+1)}`}</span>${l.next?`<progress max=${l.next-l.from} value=${count()-l.from}></progress><span>${L`${num(l.to)} chapters to ${lvName(l.i+1)}`}</span>`:''}</p>`;
 }
 function runHTML(){ // the run of days: its count, the best so far, and this week as seven holes, punched on the days read
   const R=rest(),n=R.run,d=new Date(),y=new Date(),wd=new Intl.DateTimeFormat(LOC,{weekday:'narrow'});d.setDate(d.getDate()-d.getDay());y.setDate(y.getDate()-1);
@@ -672,7 +703,8 @@ function runHTML(){ // the run of days: its count, the best so far, and this wee
   const note=R.used.at(-1)===iso(y)?L`Rest day used yesterday. Your run is safe.`:R.held==1?L`1 rest day saved`:R.held?L`${num(R.held)} rest days saved`:'';
   return `<div class=run><b>${num(n)}</b><span>${n==1?L`day in a row`:L`days in a row`}<br>${L`Best ${num(Math.max(R.best,n))}`}${note&&`<br>${note}`}</span></div>
     <ol class=week aria-label="${L`This week: read on ${plural(on,'day')}`}">${week}</ol>
-    <p class=hint style="margin:0 0 1.1rem">${todayN()?L`Today's hole is punched.`:n?L`Read a chapter today to make it ${num(n+1)}.`:L`Read a chapter today to start a run.`}</p>`;
+    <p class=hint style="margin:0 0 1.1rem">${todayN()?L`Today's hole is punched.`:n?L`Read a chapter today to make it ${num(n+1)}.`:L`Read a chapter today to start a run.`}</p>
+    ${todayN()&&todayN()>=goal()?`<button class="go ghost" id=share style="margin:0 0 1.1rem" onclick=shareDay()>${L`Share today`}</button>`:''}`;
 }
 function cardHTML(){ // the punch card: one hole a book, punched in its division's colour when the book is finished
   const n=booksDone();
@@ -683,7 +715,7 @@ function cardHTML(){ // the punch card: one hole a book, punched in its division
 }
 function cheerHTML(){ // the mark for what Done just finished: a large hole punched, and the name printed in
   if(!cheer||cheer.k==='bible')return '';
-  const [kick,head,line]=cheer.k==='run'?[L`A run of days`,L`${num(cheer.n)} days in a row`,L`A chapter or more, every day. Keep the holes coming.`]
+  const [kick,head,line]=cheer.k==='level'?[L`Level up`,lvName(cheer.i),L`Level ${num(cheer.i+1)}. A new colour is open in Settings.`]:cheer.k==='run'?[L`A run of days`,L`${num(cheer.n)} days in a row`,L`A chapter or more, every day. Keep the holes coming.`]
     :cheer.k==='div'?[L`Division finished`,BEDS[cheer.li][1],L`${bn(cheer.bi)} was its last book. ${booksDone()} of 66 books finished.`]
     :[L`Book finished`,bn(cheer.bi),L`${plural(BOOKS[cheer.bi][1],'chapter')} read. ${booksDone()} of 66 books finished.`];
   return `<section class="leaf cheer" role=status><i class=hole aria-hidden=true></i><p class="meta mono">${kick}</p><h2 class=station style=--w:${ww(head)}>${head}</h2><p class=lede>${line}</p></section>`;
@@ -843,6 +875,10 @@ function settingsView(){
   <fieldset class="picker setting"><legend class=lab>${L`Night mode`}</legend>
     ${[['light',L`Off`],['dark',L`On`],['auto',L`Follow phone`]].map(([v,n])=>`<label class=bk-pick style="--c:var(--hue);--o:var(--on-day)"><input type=radio name=theme value=${v}${(localStorage.getItem('tolle-theme')||'auto')===v?' checked':''} onchange=setTheme(this.value)><span>${n}</span></label>`).join('')}
     <p class=hint style="margin:0">${L`Follow phone switches with your phone's dark mode.`}</p></fieldset>
+  <fieldset class="picker setting"><legend class=lab>${L`Colour`}</legend>
+    ${[[null,'hue','var(--on-day)',L`Follow the book`],...BEDS.map(([id,name,,,on],li)=>[li,id,on,name])].map(([li,id,on,n])=>{const shut=li!=null&&!boardOK(li);
+      return `<label class=bk-pick style="--c:var(--${id});--o:${on}"><input type=radio name=board${(boardOK(S.board)?S.board:null)===li?' checked':''}${shut?' disabled':''} onchange=pickBoard(${li})><span><i class=sw></i>${n}${shut?` · ${L`Level ${num(li+2)}`}`:''}</span></label>`}).join('')}
+    <p class=hint style="margin:0">${L`Reach a new level to open another colour.`}</p></fieldset>
   <label for=rate>${L`Read-aloud speed`}</label>
   <select id=rate onchange="S.rate=+this.value;save()">${[.75,1,1.25,1.5,2].map(r=>`<option value=${r}${r==S.rate?' selected':''}>${r}×</option>`).join('')}</select>
   <div class=actions>
@@ -1255,12 +1291,12 @@ function finish(btn){
   metLine=null;
   const d=today(),i=cur(),bi=CH[i][2];
   if(isRead(i)){const n=(n=>n<CH.length?n:nextIdx())(nextIn(S.read,i+1));if(n>=CH.length)return go('today');at=n;return go('reader')} // read before: nothing new to record, carry on to the next unread
-  stepped={bi,from:readIn(bi)/BOOKS[bi][1]};
+  stepped={bi,from:readIn(bi)/BOOKS[bi][1]};const lv=level().i;
   setRead(i,true);S.log[d]=(S.log[d]||0)+1;S.at[d]=i;
   if(S.day?.d!==d)S.day={d,idx:[]};S.day.idx.push(i);save();
   const n=nextIn(S.read,i+1);at=n<CH.length?n:nextIdx()<CH.length?nextIdx():null; // carry on from here, or wrap back to the plan's first unread
   const li=BED_OF[bi],run=streak(); // something worth marking: the whole Bible, a division, a book, or a run reaching a milestone
-  cheer=count()===CH.length?{k:'bible'}:bookDone(bi)?{k:divDone(li)?'div':'book',bi,li}:S.log[d]===1&&[7,30,100,365].includes(run)?{k:'run',n:run}:null;
+  cheer=count()===CH.length?{k:'bible'}:bookDone(bi)?{k:divDone(li)?'div':'book',bi,li}:level().i>lv?{k:'level',i:level().i}:S.log[d]===1&&[7,30,100,365].includes(run)?{k:'run',n:run}:null;
   const next=!cheer&&at!=null?'reader':'today'; // carry on to the next chapter, unless there's something to mark on Today
   if(next==='reader'&&S.log[d]===goal()){const r=streak();metLine=r==1?L`Today's reading is done. ${num(r)} day in a row. Keep going?`:L`Today's reading is done. ${num(r)} days in a row. Keep going?`}
   navigator.vibrate?.(cheer?[12,70,12,70,40]:12);btn?.classList.add('punched');$.querySelectorAll('.vstrip i').forEach(c=>c.classList.add('on'));
