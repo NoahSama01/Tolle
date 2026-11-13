@@ -486,7 +486,7 @@ const readInStr=(r,bi)=>{let n=0;for(let i=FIRST[bi],e=i+BOOKS[bi][1];i<e;i++)n+
 const readIn=bi=>S?readInStr(S.read,bi):0; // chapters read in a book
 const count=(r=S.read)=>{let n=0;for(const c of r)n+=c==='1';return n}; // ponytail: a 1,189-char scan per call; cache if it ever shows in a profile
 const nextIn=(r,from=0)=>{const i=r.indexOf('0',from);return i<0?CH.length:i}; // first unread chapter
-const nextIdx=()=>nextIn(S.read);
+const nextIdx=()=>S.first!=null&&!bookDone(S.first)?nextIn(S.read,FIRST[S.first]):nextIn(S.read); // a plan started with Mark reads it first, then from the beginning
 const isRead=i=>S.read[i]==='1';
 const setRead=(i,v)=>{S.read=S.read.slice(0,i)+(v?'1':'0')+S.read.slice(i+1)};
 const upcoming=k=>{const a=[];for(let i=nextIdx();i<CH.length&&a.length<k;i++)if(!isRead(i))a.push(i);return a}; // next unread chapters, skipping any already read
@@ -639,8 +639,9 @@ function setupView(){
     ${BEDS.map(([id,name,n,,on],li)=>{const b0=BED_OF.indexOf(li);return `<div class=bedset style="--c:var(--${id});--o:${on}"><p class=bedname><b></b>${name}</p>
       ${BOOKS.slice(b0,b0+n).map((_,k)=>`<label class=bk-pick><input type=checkbox value=${b0+k} onchange=preview()><span>${bn(b0+k)}</span></label>`).join('')}</div>`}).join('')}
   </fieldset></section>
+  <section class=leaf><label style="margin:0;display:flex;gap:.6rem;align-items:center"><input type=checkbox id=mk checked>${L`Start with Mark: a short Gospel, easy to begin with`}</label></section>
   <section class=leaf><label for=by style="margin-top:0">${L`Finish by`}</label>
-  <input type=date id=by min="${today()}" value="${new Date().getFullYear()}-12-31" onchange=preview() aria-describedby=byh>
+  <input type=date id=by min="${today()}" value="${(d=>{d.setFullYear(d.getFullYear()+1);return iso(d)})(new Date())}" onchange=preview() aria-describedby=byh>
   <p class=hint id=byh>${L`Tolle plans backwards from this date.`}</p></section>
   <section class=leaf><p class=preview id=pv aria-live=polite></p><div id=stripbox></div></section>
   <button class=go onclick=start()>${L`Plan my reading`}${icon('arrow')}</button>
@@ -667,7 +668,7 @@ function preview(){ // live: what's left, the daily load, and the thumb index la
 function start(){
   if(!by.value){preview();return by.focus()}
   const read=picked();
-  S={read,day:{d:today(),idx:[]},deadline:by.value,log:{},at:{},start:today(),startDone:count(read),tr:{hi:'hcv',ta:'irv-ta',ml:'irv-ml',te:'irv-te'}[LG]||'web',rate:1}; // the Bible in the app's language
+  S={read,day:{d:today(),idx:[]},deadline:by.value,log:{},at:{},start:today(),startDone:count(read),tr:{hi:'hcv',ta:'irv-ta',ml:'irv-ml',te:'irv-te'}[LG]||'web',rate:1,...(mk.checked&&{first:40})}; // the Bible in the app's language; Mark first if chosen
   save();go('today');
 }
 
@@ -683,7 +684,7 @@ function todayView(){
     <button class="go${met?' ghost':''}" onclick="go('reader')">${met?L`Keep reading: ${bn(nx[2])} ${nx[1]}`:L`Read ${bn(nx[2])} ${nx[1]}`}${icon('arrow')}</button>`:`
     <h1 class=station>${L`The whole Bible, read`}</h1>
     <p class=lede>${L`You've read all 1,189 chapters. Every band on the index is full.`}</p>${journeyHTML()}`}
-  </section>${catchupHTML()}
+  </section>${catchupHTML()}${showWelcome()?welcomeHTML():''}
   ${dailyHTML()}
   ${nx?`<section class=leaf aria-labelledby=stops-h><h2 id=stops-h>${L`Today's chapters`}${extra?` <span class=extra>${L`+${num(extra)} extra`}</span>`:''}</h2>
     <ol class=stops>${stops.map((s,i)=>stopRow(s,i,done.length,stops[i+1])).join('')}</ol></section>`:''}
@@ -718,6 +719,15 @@ function catchupHTML(){ // three days or more behind: how long the catch-up will
     <p class=lede>${L`You're ${num(b)} chapters behind. At today's goal you'll be back on track in about ${num(Math.ceil(b/catchup))} days.`}</p>
     <button class="go ghost" onclick=moveFinish()>${L`Move my finish date to ${fmtDate(movedFinish())}`}</button>
     <p class=hint>${L`Keeps ${num(share)} chapters a day, with nothing to catch up.`}</p></section>`;
+}
+const showWelcome=()=>days(S.start,today())<7&&!localStorage.getItem('tolle-welcome'); // a plan's first week, until closed
+function closeWelcome(){localStorage.setItem('tolle-welcome',1);document.getElementById('welcome')?.remove()}
+function welcomeHTML(){ // three things new readers miss
+  return `<section class=leaf id=welcome aria-labelledby=wl-h><h2 id=wl-h>${L`Welcome to Tolle`}</h2><ul class=tips>
+    <li>${L`<b>The coloured tabs</b> down the side jump to any part of the Bible.`}</li>
+    <li>${L`<b>Notes beside the verses</b> explain the history, the words and the meaning. Tap a tab to open one.`}</li>
+    <li>${L`<b>Names are tappable.</b> Tap a person or place to see who or what it is.`}</li></ul>
+    <button class=link-btn onclick=closeWelcome()>${L`Got it`}</button></section>`;
 }
 function levelHTML(){ // the level reached by chapters finished, and how far to the next
   const l=level();

@@ -114,6 +114,15 @@ test("today_finish_pull", { joshuaLeft: 3, act: "go('today')" }, async () => { a
 test("catchup_offer_far_behind", { before: 259, act: "go('today')" }, async () => { await expectText("#catchup .lede", "You're 30 chapters behind. At today's goal you'll be back on track in about 3 days."); });
 test("catchup_no_offer_near", { before: 279, act: "go('today')" }, async () => { await expect("document.getElementById('catchup')", null); });
 test("catchup_move_finish", { before: 259, act: "moveFinish()" }, async () => { await expect("[pace().cls,S.deadline===plusDays(92),goal()]", ["ok", true, 10]); });
+// the first week: a year-long default, starting with Mark, and a welcome card with three tips until closed or a week passes
+const fresh = "localStorage.removeItem('bible-plan');S=null;render()";
+test("setup_default_one_year", { before: 0, act: fresh }, async () => { await expect("by.value===(d=>{d.setFullYear(d.getFullYear()+1);return iso(d)})(new Date())", true); });
+test("setup_start_with_mark", { before: 0, act: fresh + ";start()" }, async () => { await expect("[S.first,CH[nextIdx()][2],CH[nextIdx()][1]]", [40, 40, 1]); });
+test("setup_without_mark", { before: 0, act: fresh + ";mk.checked=false;start()" }, async () => { await expect("[S.first??null,nextIdx()]", [null, 0]); });
+test("mark_done_then_genesis", { before: 0, act: fresh + ";start();for(let i=FIRST[40];i<FIRST[41];i++)setRead(i,true)" }, async () => { await expect("nextIdx()", 0); });
+test("welcome_first_week", { before: 0, act: fresh + ";start()" }, async () => { await expect("document.querySelectorAll('#welcome li').length", 3); });
+test("welcome_closed", { before: 0, act: fresh + ";start();closeWelcome()" }, async () => { await expect("document.getElementById('welcome')", null); });
+test("welcome_not_for_older_plans", { before: 289, act: "go('today')" }, async () => { await expect("document.getElementById('welcome')", null); });
 test("behind_no_extra", { before: 259, todayN: 25, act: "go('today')" }, async () => { await expect("pace().text", "5 behind"); await expect("extraToday()", 0); await expect("document.querySelector('#stops-h .extra')", null); });
 test("behind_reader_label", { before: 259, todayN: 25, act: "go('reader')" }, async () => { await expectText(".pos", "Catching up"); });
 // Done on the Bible's last chapter, opened out of order, carries on to the plan's next unread chapter

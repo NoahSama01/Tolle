@@ -437,6 +437,12 @@
   "You're {0} chapters behind. At today's goal you'll be back on track in about {1} days.": "നിങ്ങൾ {0} അധ്യായങ്ങൾ പിന്നിലാണ്. ഇന്നത്തെ ലക്ഷ്യപ്രകാരം ഏകദേശം {1} ദിവസത്തിനുള്ളിൽ വീണ്ടും ക്രമത്തിലാകും.",
   "Move my finish date to {0}": "പൂർത്തിയാക്കുന്ന തീയതി {0} ആക്കുക",
   "Keeps {0} chapters a day, with nothing to catch up.": "ദിവസം {0} അധ്യായങ്ങൾ, പിന്നിലുള്ളത് നികത്താനില്ലാതെ.",
-  "Try {0}": "{0} പരീക്ഷിക്കുക"
+  "Try {0}": "{0} പരീക്ഷിക്കുക",
+  "Start with Mark: a short Gospel, easy to begin with": "മർക്കൊസിൽ തുടങ്ങുക: ചെറുതും തുടങ്ങാൻ എളുപ്പവുമായ ഒരു സുവിശേഷം",
+  "Welcome to Tolle": "Tolle-ലേക്ക് സ്വാഗതം",
+  "<b>The coloured tabs</b> down the side jump to any part of the Bible.": "<b>വശത്തുള്ള നിറമുള്ള ടാബുകൾ</b> ബൈബിളിന്‍റെ ഏതു ഭാഗത്തേക്കും കൊണ്ടുപോകും.",
+  "<b>Notes beside the verses</b> explain the history, the words and the meaning. Tap a tab to open one.": "<b>വാക്യങ്ങൾക്കരികിലെ കുറിപ്പുകൾ</b> ചരിത്രവും വാക്കുകളും അർത്ഥവും വിശദീകരിക്കുന്നു. ഒന്നു തുറക്കാൻ ഒരു ടാബിൽ തൊടുക.",
+  "<b>Names are tappable.</b> Tap a person or place to see who or what it is.": "<b>പേരുകളിൽ തൊടാം.</b> ഒരു വ്യക്തിയിലോ സ്ഥലത്തിലോ തൊട്ട് അത് ആരെന്നോ എന്തെന്നോ കാണുക.",
+  "Got it": "മനസ്സിലായി"
  }
 }
