@@ -110,6 +110,10 @@ test("today_finish_pull", { joshuaLeft: 3, act: "go('today')" }, async () => { a
 
 // ---- Final review fixes
 // 30 behind at the start of today (goal 20, capped catch-up), then 25 read: still 5 behind, so nothing is "extra"
+// catch-up help: three days or more behind, Today offers to move the finish date so the usual daily share is enough
+test("catchup_offer_far_behind", { before: 259, act: "go('today')" }, async () => { await expectText("#catchup .lede", "You're 30 chapters behind. At today's goal you'll be back on track in about 3 days."); });
+test("catchup_no_offer_near", { before: 279, act: "go('today')" }, async () => { await expect("document.getElementById('catchup')", null); });
+test("catchup_move_finish", { before: 259, act: "moveFinish()" }, async () => { await expect("[pace().cls,S.deadline===plusDays(92),goal()]", ["ok", true, 10]); });
 test("behind_no_extra", { before: 259, todayN: 25, act: "go('today')" }, async () => { await expect("pace().text", "5 behind"); await expect("extraToday()", 0); await expect("document.querySelector('#stops-h .extra')", null); });
 test("behind_reader_label", { before: 259, todayN: 25, act: "go('reader')" }, async () => { await expectText(".pos", "Catching up"); });
 // Done on the Bible's last chapter, opened out of order, carries on to the plan's next unread chapter

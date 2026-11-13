@@ -433,6 +433,9 @@
   "Close": "మూసివేయి",
   "Your {0}-day run is safe tonight: a rest day covers it.": "మీ {0} రోజుల వరుస ఈ రాత్రి సురక్షితం: ఒక విశ్రాంతి రోజు దాన్ని కాపాడుతుంది.",
   "Your {0}-day run is safe tonight: a rest day covers it. {1} is next when you're ready.": "మీ {0} రోజుల వరుస ఈ రాత్రి సురక్షితం: ఒక విశ్రాంతి రోజు దాన్ని కాపాడుతుంది. మీరు సిద్ధమైనప్పుడు {1} తర్వాతది.",
-  "Finished: {0}": "పూర్తయినవి: {0}"
+  "Finished: {0}": "పూర్తయినవి: {0}",
+  "You're {0} chapters behind. At today's goal you'll be back on track in about {1} days.": "మీరు {0} అధ్యాయాలు వెనుకబడి ఉన్నారు. నేటి లక్ష్యంతో సుమారు {1} రోజుల్లో మళ్లీ సమయానికి వస్తారు.",
+  "Move my finish date to {0}": "నా ముగింపు తేదీని {0}కి మార్చు",
+  "Keeps {0} chapters a day, with nothing to catch up.": "రోజుకు {0} అధ్యాయాలు, వెనుకబడినది పూడ్చే పని లేకుండా."
  }
 }

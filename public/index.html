@@ -683,7 +683,7 @@ function todayView(){
     <button class="go${met?' ghost':''}" onclick="go('reader')">${met?L`Keep reading: ${bn(nx[2])} ${nx[1]}`:L`Read ${bn(nx[2])} ${nx[1]}`}${icon('arrow')}</button>`:`
     <h1 class=station>${L`The whole Bible, read`}</h1>
     <p class=lede>${L`You've read all 1,189 chapters. Every band on the index is full.`}</p>${journeyHTML()}`}
-  </section>
+  </section>${catchupHTML()}
   ${dailyHTML()}
   ${nx?`<section class=leaf aria-labelledby=stops-h><h2 id=stops-h>${L`Today's chapters`}${extra?` <span class=extra>${L`+${num(extra)} extra`}</span>`:''}</h2>
     <ol class=stops>${stops.map((s,i)=>stopRow(s,i,done.length,stops[i+1])).join('')}</ol></section>`:''}
@@ -708,6 +708,16 @@ function recapHTML(){
     ${w.before&&w.chapters>w.before?`<p class=lede>${L`${plural(w.chapters-w.before,'chapter')} more than the week before.`}</p>`:''}
     <p class=hint>${l.next?L`${num(l.to)} chapters to ${lvName(l.i+1)}`:''}${l.next&&nx?' · ':''}${nx?L`Next: ${bn(nx[2])} ${nx[1]}`:''}</p>
     <button class=link-btn onclick=closeRecap()>${L`Close`}</button></section>`;
+}
+const movedFinish=()=>plusDays(Math.ceil((CH.length-(count()-todayN()))/paceLine().share)-1); // the finish date that keeps the usual daily share with nothing to catch up
+function moveFinish(){setDeadline(movedFinish());render()}
+function catchupHTML(){ // three days or more behind: how long the catch-up will take, or a later finish instead
+  const b=behindToday(),{share,catchup}=goalParts();
+  if(pace().cls!=='late'||b<3*paceLine().share||!catchup)return '';
+  return `<section class=leaf id=catchup aria-labelledby=cu-h><h2 id=cu-h>${L`Catching up`}</h2>
+    <p class=lede>${L`You're ${num(b)} chapters behind. At today's goal you'll be back on track in about ${num(Math.ceil(b/catchup))} days.`}</p>
+    <button class="go ghost" onclick=moveFinish()>${L`Move my finish date to ${fmtDate(movedFinish())}`}</button>
+    <p class=hint>${L`Keeps ${num(share)} chapters a day, with nothing to catch up.`}</p></section>`;
 }
 function levelHTML(){ // the level reached by chapters finished, and how far to the next
   const l=level();
