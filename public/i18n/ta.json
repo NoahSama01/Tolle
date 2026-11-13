@@ -436,6 +436,7 @@
   "Finished: {0}": "முடித்தவை: {0}",
   "You're {0} chapters behind. At today's goal you'll be back on track in about {1} days.": "நீங்கள் {0} அதிகாரங்கள் பின்தங்கியுள்ளீர்கள். இன்றைய இலக்கின்படி சுமார் {1} நாட்களில் மீண்டும் சரியான வேகத்துக்கு வருவீர்கள்.",
   "Move my finish date to {0}": "முடிக்கும் தேதியை {0} ஆக மாற்று",
-  "Keeps {0} chapters a day, with nothing to catch up.": "நாளுக்கு {0} அதிகாரங்கள், ஈடுகட்ட எதுவுமில்லாமல்."
+  "Keeps {0} chapters a day, with nothing to catch up.": "நாளுக்கு {0} அதிகாரங்கள், ஈடுகட்ட எதுவுமில்லாமல்.",
+  "Try {0}": "{0} முயன்று பார்"
  }
 }

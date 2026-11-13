@@ -148,6 +148,7 @@ test("run_rest_used_yesterday", { before: 289, act: readOn(span(2, 8)) }, async 
 test("level_from_chapters", { before: 289 }, async () => { await expect("(l=>[l.i,l.name,l.to])(level())", [3, "Student", 161]); });
 test("level_shown_today", { before: 289, act: "go('today')" }, async () => { await expectText(".lvl", /Student/); });
 test("level_up_cheer", { before: 249, ...done }, async () => { await expect("view", "today"); await expectText(".cheer h2", "Student"); });
+test("level_up_try_colour", { before: 249, ...done }, async () => { await expectText(".cheer button", "Try Wisdom"); await js("document.querySelector('.cheer button').click()"); await expect("[S.board,document.documentElement.style.getPropertyValue('--hue')]", [2, "var(--wisdom)"]); });
 test("board_pick_unlocked_only", { before: 289, act: "pickBoard(2);pickBoard(3)" }, async () => { await expect("[S.board,document.documentElement.style.getPropertyValue('--hue')]", [2, "var(--wisdom)"]); });
 test("board_pick_follow", { before: 289, act: "pickBoard(2);pickBoard(null)" }, async () => { await expect("S.board", null); });
 // the share card: once today's reading is done, the day's verse and the run as a picture to send

@@ -436,6 +436,7 @@
   "Finished: {0}": "पूरी हुई: {0}",
   "You're {0} chapters behind. At today's goal you'll be back on track in about {1} days.": "आप {0} अध्याय पीछे हैं। आज के लक्ष्य से आप लगभग {1} दिनों में फिर समय पर होंगे।",
   "Move my finish date to {0}": "मेरी समाप्ति तिथि {0} कर दें",
-  "Keeps {0} chapters a day, with nothing to catch up.": "हर दिन {0} अध्याय, पीछे की भरपाई के बिना।"
+  "Keeps {0} chapters a day, with nothing to catch up.": "हर दिन {0} अध्याय, पीछे की भरपाई के बिना।",
+  "Try {0}": "{0} आज़माएँ"
  }
 }
