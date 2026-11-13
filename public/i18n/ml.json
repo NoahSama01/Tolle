@@ -443,6 +443,16 @@
   "<b>The coloured tabs</b> down the side jump to any part of the Bible.": "<b>വശത്തുള്ള നിറമുള്ള ടാബുകൾ</b> ബൈബിളിന്‍റെ ഏതു ഭാഗത്തേക്കും കൊണ്ടുപോകും.",
   "<b>Notes beside the verses</b> explain the history, the words and the meaning. Tap a tab to open one.": "<b>വാക്യങ്ങൾക്കരികിലെ കുറിപ്പുകൾ</b> ചരിത്രവും വാക്കുകളും അർത്ഥവും വിശദീകരിക്കുന്നു. ഒന്നു തുറക്കാൻ ഒരു ടാബിൽ തൊടുക.",
   "<b>Names are tappable.</b> Tap a person or place to see who or what it is.": "<b>പേരുകളിൽ തൊടാം.</b> ഒരു വ്യക്തിയിലോ സ്ഥലത്തിലോ തൊട്ട് അത് ആരെന്നോ എന്തെന്നോ കാണുക.",
-  "Got it": "മനസ്സിലായി"
+  "Got it": "മനസ്സിലായി",
+  "Reflection": "ധ്യാനം",
+  "What you're taking from this chapter": "ഈ അധ്യായത്തിൽനിന്നു നിങ്ങൾ ഉൾക്കൊള്ളുന്നത്",
+  "Save": "സേവ് ചെയ്യുക",
+  "Delete this reflection": "ഈ ധ്യാനം ഇല്ലാതാക്കുക",
+  "Delete this reflection?": "ഈ ധ്യാനം ഇല്ലാതാക്കണോ?",
+  "What are you taking from this chapter?": "ഈ അധ്യായത്തിൽനിന്നു നിങ്ങൾ എന്താണ് ഉൾക്കൊള്ളുന്നത്?",
+  "Write what you're taking from {0} {1}": "{0} {1}-ൽനിന്നു നിങ്ങൾ ഉൾക്കൊള്ളുന്നത് എഴുതുക",
+  "Edit your reflection on {0} {1}": "{0} {1}-നെക്കുറിച്ചുള്ള നിങ്ങളുടെ ധ്യാനം തിരുത്തുക",
+  "Journal": "ഡയറി",
+  "Edit": "തിരുത്തുക"
  }
 }

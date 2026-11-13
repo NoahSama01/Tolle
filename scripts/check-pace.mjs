@@ -123,6 +123,15 @@ test("mark_done_then_genesis", { before: 0, act: fresh + ";start();for(let i=FIR
 test("welcome_first_week", { before: 0, act: fresh + ";start()" }, async () => { await expect("document.querySelectorAll('#welcome li').length", 3); });
 test("welcome_closed", { before: 0, act: fresh + ";start();closeWelcome()" }, async () => { await expect("document.getElementById('welcome')", null); });
 test("welcome_not_for_older_plans", { before: 289, act: "go('today')" }, async () => { await expect("document.getElementById('welcome')", null); });
+// the journal: once today's reading is done, a reflection on the last chapter read, kept with the plan and listed under Kept
+test("journal_prompt_after_goal", { before: 289, todayN: 10, act: "go('today')" }, async () => { await expectText("#reflect-go", /^Write what you're taking from 1 Kings \d+$/); });
+test("journal_no_prompt_before_goal", { before: 289, todayN: 2, act: "go('today')" }, async () => { await expect("document.getElementById('reflect-go')", null); });
+test("journal_save", { before: 289, todayN: 10, act: "reflect(298);document.querySelector('#reflect textarea').value=' Grace upon grace ';saveReflect()" }, async () => { await expect("[S.jn[298].t,S.jn[298].d===today()]", ["Grace upon grace", true]); });
+test("journal_listed_in_kept", { before: 289, act: "S.jn={298:{t:'Grace',d:today()}};go('kept')" }, async () => { await expectText(".jn-list .ktext", "Grace"); });
+test("journal_delete", { before: 289, act: "S.jn={298:{t:'Grace',d:today()}};confirm=()=>true;reflect(298);saveReflect(true)" }, async () => { await expect("S.jn[298]??null", null); });
+const restores = (plan) => `(()=>{try{clean({...pack(),plan:{...S,...${plan}}});return 'ok'}catch{return 'bad'}})()`;
+test("backup_checks_new_fields", { before: 289 }, async () => { await expect(`[${restores("{jn:{5000:{t:'x',d:'2026-01-01'}}}")},${restores("{board:'x'}")},${restores("{fin:{0:'soon'}}")},${restores("{first:99}")},${restores("{jn:{5:{t:'x',d:'2026-01-01'}},board:2,fin:{0:'2026-01-01'},first:40}")}]`, ["bad", "bad", "bad", "bad", "ok"]); });
+test("backup_merge_keeps_both_journals", { before: 289 }, async () => { await expect("Object.keys(merge({...pack(),u:1,plan:{...S,jn:{1:{t:'a',d:'2026-01-01'}}}},{...pack(),u:2,plan:{...S,jn:{2:{t:'b',d:'2026-01-02'}}}}).plan.jn)", ["1", "2"]); });
 test("behind_no_extra", { before: 259, todayN: 25, act: "go('today')" }, async () => { await expect("pace().text", "5 behind"); await expect("extraToday()", 0); await expect("document.querySelector('#stops-h .extra')", null); });
 test("behind_reader_label", { before: 259, todayN: 25, act: "go('reader')" }, async () => { await expectText(".pos", "Catching up"); });
 // Done on the Bible's last chapter, opened out of order, carries on to the plan's next unread chapter

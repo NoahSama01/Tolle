@@ -443,6 +443,16 @@
   "<b>The coloured tabs</b> down the side jump to any part of the Bible.": "<b>పక్కన ఉన్న రంగు ట్యాబ్‌లు</b> బైబిల్‌లోని ఏ భాగానికైనా తీసుకెళ్తాయి.",
   "<b>Notes beside the verses</b> explain the history, the words and the meaning. Tap a tab to open one.": "<b>వచనాల పక్కన ఉన్న వివరణలు</b> చరిత్రను, పదాలను, అర్థాన్ని వివరిస్తాయి. ఒకదాన్ని తెరవడానికి ఒక ట్యాబ్‌ను తాకండి.",
   "<b>Names are tappable.</b> Tap a person or place to see who or what it is.": "<b>పేర్లను తాకవచ్చు.</b> ఒక వ్యక్తిని లేదా స్థలాన్ని తాకి అది ఎవరో లేదా ఏమిటో చూడండి.",
-  "Got it": "అర్థమైంది"
+  "Got it": "అర్థమైంది",
+  "Reflection": "ధ్యానం",
+  "What you're taking from this chapter": "ఈ అధ్యాయం నుండి మీరు పొందుతున్నది",
+  "Save": "సేవ్ చేయి",
+  "Delete this reflection": "ఈ ధ్యానాన్ని తొలగించు",
+  "Delete this reflection?": "ఈ ధ్యానాన్ని తొలగించాలా?",
+  "What are you taking from this chapter?": "ఈ అధ్యాయం నుండి మీరు ఏమి పొందుతున్నారు?",
+  "Write what you're taking from {0} {1}": "{0} {1} నుండి మీరు పొందుతున్నది రాయండి",
+  "Edit your reflection on {0} {1}": "{0} {1} పై మీ ధ్యానాన్ని మార్చండి",
+  "Journal": "డైరీ",
+  "Edit": "మార్చు"
  }
 }
