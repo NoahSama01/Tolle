@@ -497,7 +497,7 @@ if(S&&S.read==null){ // plans saved before out-of-order reading: everything befo
   S.read='1'.repeat(done)+UNREAD.slice(done);S.day={d:today(),idx:Array.from({length:t},(_,k)=>done-t+k)};delete S.done;
 }
 if(S)S={tr:'web',rate:1,at:{},day:{d:today(),idx:[]},start:today(),startDone:count(S.read)-(S.log[today()]||0),...S}; // defaults for older plans
-const save=()=>{localStorage.setItem(KEY,JSON.stringify(S));touch()};
+const save=()=>{localStorage.setItem(KEY,JSON.stringify(S));touch();leaveWords()}; // the notification words carry the rest days held, so they follow each change
 const todayN=()=>S.log[today()]||0;
 const todayIdx=()=>S.day?.d===today()?S.day.idx:[]; // chapters read in the app today, in the order read
 const daysLeft=()=>Math.max(1,days(today(),S.deadline)+1);
@@ -751,7 +751,9 @@ function saveDV(dv){ // this phone's copy, and one the service worker reads for 
 function leaveWords(){ // the service worker words notifications from these: {n} the next chapter, {d} the days in a row
   const w={books:Object.fromEntries(BOOKS.map((b,i)=>[b[0],bn(i)])),verse:[L`A verse for today`,L`Today's verse is waiting in Tolle.`],
     reminder:['Tolle',L`Today's chapters are waiting: ${'{n}'} is next.`,L`Today's chapters are waiting.`],
-    run:[L`Keep your run`,L`Keep your ${'{d}'}-day run going: ${'{n}'} is next.`,L`Keep your ${'{d}'}-day run going. One chapter before midnight keeps it.`]};
+    run:[L`Keep your run`,L`Keep your ${'{d}'}-day run going: ${'{n}'} is next.`,L`Keep your ${'{d}'}-day run going. One chapter before midnight keeps it.`],
+    rest:[L`Keep your run`,L`Your ${'{d}'}-day run is safe tonight: a rest day covers it. ${'{n}'} is next when you're ready.`,L`Your ${'{d}'}-day run is safe tonight: a rest day covers it.`],
+    held:S?rest().held:0,on:today()}; // rest days held as of this day: the evening nudge softens when one would cover tonight
   self.caches?.open('votd').then(c=>c.put('words.json',new Response(JSON.stringify(w)))).catch(()=>{});
 }
 function daily(){ // today's verse: the one set aside for today (see readyVerses), else picked now

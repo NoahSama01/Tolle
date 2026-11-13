@@ -178,6 +178,7 @@ test("quiz_english_bible", quiz("web", [{ verse: 1, text: "In the beginning, God
 // notifications in the reader's language: the page leaves its words on the phone, and the service worker's notice() uses them
 const notice = (m, then) => `(async()=>{for(let i=0;i<60&&!await caches.match('words.json');i++)await new Promise(r=>setTimeout(r,50));const notice=new Function(await (await fetch('sw.js')).text()+';return notice')();return (${then})(await notice(${JSON.stringify(m)}))})()`;
 const run = { kind: "run", run_days: 4, next_up: "Joshua 3", title: "Keep your run", body: "Keep your 4-day run going: Joshua 3 is next." };
+test("notify_run_rest_day_safe", { before: 289, act: readOn(span(1, 7)) + ";leaveWords()", wait: 300 }, async () => { await expect(notice(run, "n=>[n.title,n.body]"), [run.title, "Your 4-day run is safe tonight: a rest day covers it. Joshua 3 is next when you're ready."]); });
 test("notify_in_hindi", { ...hi, act: "0", wait: 300 }, async () => { await expect(notice(run, "n=>[n.title,n.body.includes('यहोशू 3'),n.body.includes('4')]"), ["सिलसिला बनाए रखें", true, true]); });
 test("notify_english_as_server", { before: 289, act: "0", wait: 300 }, async () => { await expect(notice(run, "n=>[n.title,n.body]"), [run.title, run.body]); });
 test("notify_verse_named_locally", { ...hi, act: "caches.open('votd').then(c=>c.put('votd.json',new Response(JSON.stringify([{d:iso(new Date()),r:'Psalms 23:1',t:'यहोवा मेरा चरवाहा है'}]))))", wait: 300 }, async () => { await expect(notice({ kind: "verse" }, "n=>n.title===bn(18)+' 23:1'"), true); });

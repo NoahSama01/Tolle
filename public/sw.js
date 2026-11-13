@@ -2,7 +2,7 @@
 // App files + insights: stale-while-revalidate, so weak signal never blocks the app
 // (an update shows on the next launch).
 // Scripture text, built in (text/) or fetched: cache first, since it never changes.
-const APP = 'app-v49', TEXT = 'text', VOTD = 'votd'; // VOTD: the week of verses the page sets aside, read for the verse-of-the-day push
+const APP = 'app-v50', TEXT = 'text', VOTD = 'votd'; // VOTD: the week of verses the page sets aside, read for the verse-of-the-day push
 const SHELL = ['./', 'landing.html', 'tokens.css', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'board-grain.png', 'words.js',
   ...['archivo-400-800', 'eb-garamond', 'jetbrains-mono'].map(f => `fonts/${f}.woff2`)];
 const put = (name, req, res) => { if (res.ok) { const c = res.clone(); caches.open(name).then(x => x.put(req, c)) } return res };
@@ -26,7 +26,9 @@ async function notice(m) {
     const [title, body] = v ? [local(v.r), v.t] : w?.verse ?? ['A verse for today', "Today's verse is waiting in Tolle."];
     return { title, body, tag: 'tolle-verse' };
   }
-  const p = w?.[m.kind], nx = local(m.next_up);
+  const y = new Date(); y.setDate(y.getDate() - 1);
+  const fresh = w?.on === today() || w?.on === `${y.getFullYear()}-${String(y.getMonth() + 1).padStart(2, '0')}-${String(y.getDate()).padStart(2, '0')}`;
+  const p = w?.[m.kind === 'run' && w.held && fresh ? 'rest' : m.kind], nx = local(m.next_up); // a rest day held (as of yesterday or today) covers tonight: no pressure
   if (!p) return { title: m.title, body: m.body, tag: 'tolle-daily' }; // an older server sends no kind
   return { title: p[0], body: (nx ? p[1] : p[2]).replace('{n}', nx).replace('{d}', m.run_days), tag: 'tolle-daily' };
 }

@@ -430,6 +430,8 @@
   "Read on {0} of 7 days": "7 में से {0} दिन पढ़ा",
   "{0} more than the week before.": "पिछले सप्ताह से {0} अधिक।",
   "Next: {0} {1}": "आगे: {0} {1}",
-  "Close": "बंद करें"
+  "Close": "बंद करें",
+  "Your {0}-day run is safe tonight: a rest day covers it.": "आपका {0} दिन का सिलसिला आज रात सुरक्षित है: एक विश्राम दिन इसे संभाल लेगा।",
+  "Your {0}-day run is safe tonight: a rest day covers it. {1} is next when you're ready.": "आपका {0} दिन का सिलसिला आज रात सुरक्षित है: एक विश्राम दिन इसे संभाल लेगा। जब मन हो, {1} आगे है।"
  }
 }
