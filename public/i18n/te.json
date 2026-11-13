@@ -432,6 +432,7 @@
   "Next: {0} {1}": "తర్వాత: {0} {1}",
   "Close": "మూసివేయి",
   "Your {0}-day run is safe tonight: a rest day covers it.": "మీ {0} రోజుల వరుస ఈ రాత్రి సురక్షితం: ఒక విశ్రాంతి రోజు దాన్ని కాపాడుతుంది.",
-  "Your {0}-day run is safe tonight: a rest day covers it. {1} is next when you're ready.": "మీ {0} రోజుల వరుస ఈ రాత్రి సురక్షితం: ఒక విశ్రాంతి రోజు దాన్ని కాపాడుతుంది. మీరు సిద్ధమైనప్పుడు {1} తర్వాతది."
+  "Your {0}-day run is safe tonight: a rest day covers it. {1} is next when you're ready.": "మీ {0} రోజుల వరుస ఈ రాత్రి సురక్షితం: ఒక విశ్రాంతి రోజు దాన్ని కాపాడుతుంది. మీరు సిద్ధమైనప్పుడు {1} తర్వాతది.",
+  "Finished: {0}": "పూర్తయినవి: {0}"
  }
 }

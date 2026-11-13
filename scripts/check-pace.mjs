@@ -151,7 +151,9 @@ test("share_after_goal", { before: 289, todayN: 10, act: "go('today')" }, async 
 test("no_share_before_goal", { before: 289, todayN: 2, act: "go('today')" }, async () => { await expect("document.getElementById('share')", null); });
 // the weekly recap: on Sundays, the seven days before today, only when there was reading in them, and closable
 const readFor = (byAgo) => readOn(Object.keys(byAgo).map(Number)).replace("[d(n),1]", `[d(n),${JSON.stringify(byAgo)}[n]]`);
-test("recap_counts_last_week", { before: 289, act: readFor({ 1: 3, 2: 2, 7: 1, 8: 4, 10: 1 }) }, async () => { await expect("weekRecap()", { chapters: 6, days: 3, before: 5 }); await expect("/6 chapters/.test(recapHTML())&&/1 chapter more than the week before/.test(recapHTML())", true); });
+test("recap_counts_last_week", { before: 289, act: readFor({ 1: 3, 2: 2, 7: 1, 8: 4, 10: 1 }) }, async () => { await expect("weekRecap()", { chapters: 6, days: 3, before: 5, books: [] }); await expect("/6 chapters/.test(recapHTML())&&/1 chapter more than the week before/.test(recapHTML())", true); });
+test("finish_records_book_date", { joshuaLeft: 1, ...done }, async () => { await expect("S.fin?.[5]===today()", true); });
+test("recap_lists_books_finished", { before: 289, act: readFor({ 1: 3 }) + ";S.fin={0:plusDays(-2),1:plusDays(-9)}" }, async () => { await expect("weekRecap().books", [0]); await expect("/Finished: Genesis/.test(recapHTML())", true); });
 test("recap_only_sundays", { before: 289, act: readFor({ 1: 3 }) + ";go('today')" }, async () => { await expect("!!document.getElementById('recap')===(new Date().getDay()===0)", true); });
 test("recap_not_after_empty_week", { before: 289, act: readFor({ 9: 3 }) }, async () => { await expect("weekRecap().chapters", 0); await expect("showRecap()", false); });
 test("recap_closed_stays_closed", { before: 289, act: readFor({ 1: 3 }) + ";closeRecap()" }, async () => { await expect("[localStorage.getItem('tolle-recap')===today(),showRecap()]", [true, false]); });

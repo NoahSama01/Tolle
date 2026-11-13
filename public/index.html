@@ -695,7 +695,8 @@ function todayView(){
 }
 function weekRecap(){ // the seven days before today (chapters, days read), and the seven before that to compare
   const sum=(a,b)=>{let n=0,d=0;for(let i=a;i<=b;i++){const k=plusDays(-i);if(S.log[k]){n+=S.log[k];d++}}return [n,d]};
-  const [chapters,days]=sum(1,7),[before]=sum(8,14);return {chapters,days,before};
+  const [chapters,days]=sum(1,7),[before]=sum(8,14),books=Object.entries(S.fin||{}).filter(([bi,d])=>d>=plusDays(-7)&&d<today()&&bookDone(+bi)).map(([bi])=>+bi);
+  return {chapters,days,before,books};
 }
 const showRecap=()=>new Date().getDay()===0&&weekRecap().chapters>0&&localStorage.getItem('tolle-recap')!==today(); // Sundays, after a week with reading in it, until closed
 function closeRecap(){localStorage.setItem('tolle-recap',today());document.getElementById('recap')?.remove()}
@@ -703,6 +704,7 @@ function recapHTML(){
   const w=weekRecap(),l=level(),n=streak(),nx=CH[nextIdx()];
   return `<section class=leaf id=recap aria-labelledby=rc-h><h2 id=rc-h>${L`Your week`}</h2>
     <p class=facts><span>${plural(w.chapters,'chapter')}</span><span>${L`Read on ${num(w.days)} of 7 days`}</span><span>${num(n)} ${n==1?L`day in a row`:L`days in a row`}</span></p>
+    ${w.books.length?`<p class=lede>${L`Finished: ${w.books.map(b=>bn(b)).join(', ')}`}</p>`:''}
     ${w.before&&w.chapters>w.before?`<p class=lede>${L`${plural(w.chapters-w.before,'chapter')} more than the week before.`}</p>`:''}
     <p class=hint>${l.next?L`${num(l.to)} chapters to ${lvName(l.i+1)}`:''}${l.next&&nx?' · ':''}${nx?L`Next: ${bn(nx[2])} ${nx[1]}`:''}</p>
     <button class=link-btn onclick=closeRecap()>${L`Close`}</button></section>`;
@@ -1308,7 +1310,7 @@ function finish(btn){
   const d=today(),i=cur(),bi=CH[i][2];
   if(isRead(i)){const n=(n=>n<CH.length?n:nextIdx())(nextIn(S.read,i+1));if(n>=CH.length)return go('today');at=n;return go('reader')} // read before: nothing new to record, carry on to the next unread
   stepped={bi,from:readIn(bi)/BOOKS[bi][1]};const lv=level().i;
-  setRead(i,true);S.log[d]=(S.log[d]||0)+1;S.at[d]=i;
+  setRead(i,true);S.log[d]=(S.log[d]||0)+1;S.at[d]=i;if(bookDone(bi))(S.fin??={})[bi]=d; // the day each book was finished by reading, for the weekly recap
   if(S.day?.d!==d)S.day={d,idx:[]};S.day.idx.push(i);save();
   const n=nextIn(S.read,i+1);at=n<CH.length?n:nextIdx()<CH.length?nextIdx():null; // carry on from here, or wrap back to the plan's first unread
   const li=BED_OF[bi],run=streak(); // something worth marking: the whole Bible, a division, a book, or a run reaching a milestone

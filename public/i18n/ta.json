@@ -432,6 +432,7 @@
   "Next: {0} {1}": "அடுத்து: {0} {1}",
   "Close": "மூடு",
   "Your {0}-day run is safe tonight: a rest day covers it.": "உங்கள் {0} நாள் தொடர் இன்றிரவு பாதுகாப்பாக உள்ளது: ஓர் ஓய்வு நாள் அதைக் காக்கும்.",
-  "Your {0}-day run is safe tonight: a rest day covers it. {1} is next when you're ready.": "உங்கள் {0} நாள் தொடர் இன்றிரவு பாதுகாப்பாக உள்ளது: ஓர் ஓய்வு நாள் அதைக் காக்கும். நீங்கள் தயாரானதும் {1} அடுத்தது."
+  "Your {0}-day run is safe tonight: a rest day covers it. {1} is next when you're ready.": "உங்கள் {0} நாள் தொடர் இன்றிரவு பாதுகாப்பாக உள்ளது: ஓர் ஓய்வு நாள் அதைக் காக்கும். நீங்கள் தயாரானதும் {1} அடுத்தது.",
+  "Finished: {0}": "முடித்தவை: {0}"
  }
 }
