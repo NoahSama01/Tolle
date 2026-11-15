@@ -145,6 +145,14 @@ if (process.env.NET) test("download_bible_for_real", { before: 289, act: "S.tr='
   await expect("caches.open('text').then(c=>c.keys()).then(ks=>[ks.filter(r=>/mal_irv\\/[A-Z0-9]+\\/\\d+\\.json$/.test(r.url)).length,ks.some(r=>r.url.includes('complete.json'))])", [1189, false]);
   await expect("caches.open('text').then(c=>c.match('https://bible.helloao.org/api/mal_irv/REV/22.json')).then(r=>r.json()).then(j=>j.chapter.content.some(x=>x.type==='verse'))", true);
 });
+// search: words that aren't a reference are looked for in the Bible's text; a reference still jumps
+const seek = (words, pre = "") => ({ before: 289, act: `${pre}go('route');q.value=${JSON.stringify(words)};gotoRef(q.form)`, wait: 3000 });
+test("search_english_words", seek("Jesus wept"), async () => { await expectText("#hits li:first-child .link-btn", "John 11:35"); await expect("document.querySelector('#hits mark').textContent", "Jesus wept"); });
+test("search_opens_verse", { ...seek("Jesus wept"), act: seek("Jesus wept").act + ";setTimeout(()=>document.querySelector('#hits .link-btn').click(),2500)" }, async () => { await expect("[view,CH[cur()][2],CH[cur()][1]]", ["reader", 42, 11]); });
+test("search_reference_jumps", { before: 289, act: "go('route');q.value='John 3';gotoRef(q.form)" }, async () => { await expect("[view,cur()===FIRST[42]+2]", ["reader", true]); });
+test("search_needs_download", seek("ദൈവം", "S.tr='irv-ml';"), async () => { await expectText("#hits", /^Download .+ in Settings to search it\.$/); });
+test("search_downloaded_bible", seek("ദൈവം", "S.tr='irv-ml';localStorage.setItem('tolle-dl-irv-ml',1);caches.open('text').then(c=>c.put('https://bible.helloao.org/api/mal_irv/GEN/1.json',new Response(JSON.stringify({chapter:{number:1,content:[{type:'verse',number:1,content:['ആദിയിൽ ദൈവം ആകാശവും ഭൂമിയും സൃഷ്ടിച്ചു.']}]}}))));"), async () => { await expectText("#hits li:first-child .link-btn", "Genesis 1:1"); });
+test("search_nothing_found", seek("zzqqxx"), async () => { await expectText("#hits", 'Nothing found for "zzqqxx".'); });
 test("behind_no_extra", { before: 259, todayN: 25, act: "go('today')" }, async () => { await expect("pace().text", "5 behind"); await expect("extraToday()", 0); await expect("document.querySelector('#stops-h .extra')", null); });
 test("behind_reader_label", { before: 259, todayN: 25, act: "go('reader')" }, async () => { await expectText(".pos", "Catching up"); });
 // Done on the Bible's last chapter, opened out of order, carries on to the plan's next unread chapter

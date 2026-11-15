@@ -459,6 +459,11 @@
   "Downloading…": "பதிவிறக்குகிறது…",
   "{0} is on this phone, ready with no signal.": "{0} இந்தத் தொலைபேசியில் உள்ளது, சிக்னல் இல்லாமலும் தயார்.",
   "Couldn't download. Try again when you have a connection.": "பதிவிறக்க முடியவில்லை. இணைப்பு கிடைத்ததும் மீண்டும் முயலுங்கள்.",
-  "Downloading… {0}%": "பதிவிறக்குகிறது… {0}%"
+  "Downloading… {0}%": "பதிவிறக்குகிறது… {0}%",
+  "Download {0} in Settings to search it.": "இதில் தேட அமைப்புகளில் {0} பதிவிறக்குங்கள்.",
+  "Nothing found for \"{0}\".": "\"{0}\" க்கு எதுவும் கிடைக்கவில்லை.",
+  "Searching…": "தேடுகிறது…",
+  "{0} verses. The first 100:": "{0} வசனங்கள். முதல் 100:",
+  "or words to find": "அல்லது தேட வேண்டிய சொற்கள்"
  }
 }

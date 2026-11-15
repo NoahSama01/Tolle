@@ -459,6 +459,11 @@
   "Downloading…": "డౌన్‌లోడ్ అవుతోంది…",
   "{0} is on this phone, ready with no signal.": "{0} ఈ ఫోన్‌లో ఉంది, సిగ్నల్ లేకున్నా సిద్ధం.",
   "Couldn't download. Try again when you have a connection.": "డౌన్‌లోడ్ కాలేదు. కనెక్షన్ ఉన్నప్పుడు మళ్లీ ప్రయత్నించండి.",
-  "Downloading… {0}%": "డౌన్‌లోడ్ అవుతోంది… {0}%"
+  "Downloading… {0}%": "డౌన్‌లోడ్ అవుతోంది… {0}%",
+  "Download {0} in Settings to search it.": "దీనిలో వెతకడానికి సెట్టింగ్‌లలో {0} డౌన్‌లోడ్ చేయండి.",
+  "Nothing found for \"{0}\".": "\"{0}\" కోసం ఏమీ దొరకలేదు.",
+  "Searching…": "వెతుకుతోంది…",
+  "{0} verses. The first 100:": "{0} వచనాలు. మొదటి 100:",
+  "or words to find": "లేదా వెతకాల్సిన పదాలు"
  }
 }

@@ -90,6 +90,8 @@ body[data-view=setup] .rail{display:none}
 .week .on i{border:0;background:var(--board);box-shadow:inset 1.5px 1.5px 0 rgba(21,21,21,.4)} /* a day read is a hole punched */
 .bk-pick .sw{display:inline-block;width:.75em;height:.75em;margin-right:.45em;border-radius:50%;background:var(--c);box-shadow:0 0 0 1px rgba(21,21,21,.25)} /* each colour shown before it's picked */
 .bk-pick:has(:disabled){opacity:.5} /* a colour the reader hasn't reached yet */
+.hits{margin:.5rem 0 1rem;padding:0;list-style:none}.hits li{margin:.6rem 0;line-height:1.5}
+.hits mark{background:var(--board);color:inherit;border-radius:2px} /* the words searched for */
 .lvl{display:flex;flex-wrap:wrap;align-items:baseline;gap:.3rem .6rem;margin:0 0 1rem;color:var(--ink-2);font:500 .75rem/1.4 var(--mono);text-transform:uppercase}
 .lvl b{color:var(--ink);font:800 1.5rem/1 var(--head);font-stretch:72%}
 .lvl progress{flex:1 0 100%;height:.5rem;accent-color:var(--board)}
@@ -466,17 +468,35 @@ const ONE={Obadiah:21,Philemon:25,'2 John':13,'3 John':14,Jude:25}; // the one-c
 const WEB={}; // book -> promise of its built-in WEB text: one list of verse texts per chapter
 function passage(ref){ // {text, verses:[{verse, text}]} for "Book C", "Book C:V" or "Book C:V-V", built in or from either text service
   const h=TR[S.tr][2],[,b,c,v1,v2]=ref.match(/^(.+) (\d+)(?::(\d+)(?:-(\d+))?)?$/),lo=+v1||0,hi=+(v2||v1)||1e3;
-  if(S.tr==='web')return (WEB[b]??=fetch(`text/web/${slug(b)}.json`).then(ok).catch(e=>{delete WEB[b];throw e})).then(bk=>{
+  if(S.tr==='web')return webBook(b).then(bk=>{
     const verses=bk[c-1].map((text,k)=>({verse:k+1,text})).filter(v=>v.verse>=lo&&v.verse<=hi);
     return {verses,text:verses.map(v=>v.text).join('')};
   });
   const one=ONE[ref.replace(/ 1$/,'')]; // bible-api reads "Jude 1" as verse 1, so a one-chapter book asks for every verse
   if(!h)return fetch(`https://bible-api.com/${encodeURIComponent(one?`${ref}:1-${one}`:ref)}?translation=${S.tr}`).then(ok);
   return fetch(`https://bible.helloao.org/api/${h}/${USFM[BOOKS.findIndex(([n])=>n===b)]}/${c}.json`).then(ok).then(j=>{
-    const verses=j.chapter.content.filter(x=>x.type==='verse'&&x.number>=lo&&x.number<=hi) // pieces: text, poetry lines, line breaks, footnote marks
-      .map(x=>({verse:x.number,text:x.content.map(p=>typeof p==='string'?p:p.text!=null?p.text+(p.poem?' ':''):p.lineBreak?' ':'').join('').replace(/\s+/g,' ').trim()}));
+    const verses=aoVerses(j).filter(v=>v.verse>=lo&&v.verse<=hi);
     return {verses,text:verses.map(v=>v.text).join(' ')};
   });
+}
+const webBook=b=>WEB[b]??=fetch(`text/web/${slug(b)}.json`).then(ok).catch(e=>{delete WEB[b];throw e}); // the built-in WEB: one list of verse texts per chapter
+const aoVerses=j=>j.chapter.content.filter(x=>x.type==='verse') // a helloao chapter's verses; pieces: text, poetry lines, line breaks, footnote marks
+  .map(x=>({verse:x.number,text:x.content.map(p=>typeof p==='string'?p:p.text!=null?p.text+(p.poem?' ':''):p.lineBreak?' ':'').join('').replace(/\s+/g,' ').trim()}));
+let ALL=null; // {key, list: [chapter index, verse, text]}: the Bible being searched, read once
+async function bibleText(){ // every verse of the Bible being read: the built-in English for English Bibles, else the downloaded copy
+  const h=TR[S.tr][2],key=h||'web';if(ALL?.key===key)return ALL.list;const list=[];
+  if(!h)await Promise.all(BOOKS.map(([b],bi)=>webBook(b).then(bk=>bk.forEach((ch,c)=>ch.forEach((t,v)=>list.push([FIRST[bi]+c,v+1,t]))))));
+  else{const c=await caches.open('text');await Promise.all(CH.map(([,n,bi],i)=>c.match(`https://bible.helloao.org/api/${h}/${USFM[bi]}/${n}.json`).then(r=>r?.json()).then(j=>j&&aoVerses(j).forEach(v=>list.push([i,v.verse,v.text])))))}
+  list.sort((x,y)=>x[0]-y[0]||x[1]-y[1]);ALL={key,list};return list;
+}
+async function findWords(q){ // the verses holding these words, the words marked, the first 100 listed
+  const hits=document.getElementById('hits'),t=q.toLocaleLowerCase();qh.classList.remove('err');
+  if(TR[S.tr][2]&&!localStorage.getItem(dlKey()))return hits.innerHTML=`<p class=hint>${L`Download ${TR[S.tr][0]} in Settings to search it.`}</p>`;
+  hits.innerHTML=`<p class=hint>${L`Searching…`}</p>`;
+  const found=(await bibleText()).filter(x=>x[2].toLocaleLowerCase().includes(t));
+  hits.innerHTML=found.length?`<p class=hint>${found.length>100?L`${num(found.length)} verses. The first 100:`:plural(found.length,'verse')}</p><ol class=hits>${found.slice(0,100).map(([i,v,s])=>{const k=s.toLocaleLowerCase().indexOf(t);
+      return `<li><button class=link-btn onclick="openCh(${i},${v})">${bn(CH[i][2])} ${CH[i][1]}:${v}</button> <span lang=${TR[S.tr][1]}>${esc(s.slice(0,k))}<mark>${esc(s.slice(k,k+q.length))}</mark>${esc(s.slice(k+q.length))}</span></li>`}).join('')}</ol>`
+    :`<p class=hint>${L`Nothing found for "${esc(q)}".`}</p>`;
 }
 let wake=null; // screen wake lock while reading aloud
 const hush=()=>{window.speechSynthesis?.cancel();wake?.release();wake=null};
@@ -866,8 +886,8 @@ function routeBody(){
   const n=count(),every=CH.map(([, ,bi],i)=>`<i class="${bed(bi)[0]}${isRead(i)?' r':''}"></i>`).join('');
   return `<section class=leaf><div class=every role=img aria-label="${L`Every chapter: ${num(n)} of 1,189 read`}">${every}</div>
     <p class="facts" style="margin:0"><span>${L`${num(n)} / 1,189 read`}</span><span>${L`${num(CH.length-n)} to go`}</span></p>
-    <form class=goto onsubmit="return gotoRef(this)"><label for=q class=sr>${L`Go to a passage`}</label><input id=q name=q list=booklist placeholder="${bn(42)} 3:16" autocomplete=off enterkeyhint=go><button class="go slim">${L`Go`}${icon('arrow')}</button></form>
-    <p class=hint id=qh>${L`Open a book below to read any chapter, or to mark a book you read elsewhere.`}</p>
+    <form class=goto onsubmit="return gotoRef(this)"><label for=q class=sr>${L`Go to a passage`}</label><input id=q name=q list=booklist placeholder="${bn(42)} 3:16 · ${L`or words to find`}" autocomplete=off enterkeyhint=go><button class="go slim">${L`Go`}${icon('arrow')}</button></form>
+    <p class=hint id=qh>${L`Open a book below to read any chapter, or to mark a book you read elsewhere.`}</p><div id=hits aria-live=polite></div>
     <datalist id=booklist>${BOOKS.map((_,i)=>`<option value="${bn(i)} ">`).join('')}</datalist>
     <div class=jump role=group aria-label="${L`Go to a division`}">${BEDS.map(([id,name],li)=>`<button class=jchip style="--c:var(--${id})" onclick=jumpTo(${li})><b></b>${name}</button>`).join('')}</div></section>
   <ol class=route>${BEDS.map(([id,name,n,,on],li)=>{const b0=BED_OF.indexOf(li);return `<li style="--c:var(--${id});--o:${on}">
@@ -898,6 +918,7 @@ function chSheet(i){ // the switcher: any book from the list, every chapter as a
 function gotoRef(f){ // "John 3:16", "ps 23", "1 cor 13" → that chapter, landing on that verse
   const q=f.q.value.trim(),m=q.match(/^(.+?)\s*(?:(\d+)(?:\s*[:.]\s*(\d+))?)?$/),key=s=>s.toLowerCase().replace(/[^\p{L}\p{M}\p{N}]/gu,''),k=key(m?.[1]||'');
   const bi=k?BOOKS.findIndex(([b],i)=>key(b).startsWith(k)||key(bn(i)).startsWith(k)):-1,c=+(m?.[2]||1),qh=document.getElementById('qh'); // the English name or the app language's
+  if(bi<0&&q.length>=3){findWords(q);return false} // not a book: look for the words in the text
   if(bi<0||c>BOOKS[bi][1]){qh.textContent=q?L`Couldn't find "${q}". Try a book and chapter, like ${bn(18)} 23 or ${bn(42)} 3:16.`:L`Type a book and chapter, like ${bn(18)} 23 or ${bn(42)} 3:16.`;qh.classList.add('err');f.q.focus();return false}
   openCh(FIRST[bi]+c-1,+m[3]||null);return false;
 }

@@ -19,7 +19,7 @@ Everything deferred so far, grouped by when it matters. Tick items off as they l
 
 ### Daily reminders (the strongest reason to come back)
 - [x] A daily "you haven't read today" reminder at a time the reader chooses (done with web push from the backend; works in the installed app too).
-- [ ] An evening "keep your run" nudge when a streak is about to break.
+- [x] An evening "keep your run" nudge when a streak is about to break (softened when a rest day would cover the night).
 - [x] A setting to turn reminders off and pick the time.
 
 ### Play Console (your part)

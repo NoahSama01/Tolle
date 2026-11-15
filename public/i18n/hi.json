@@ -459,6 +459,11 @@
   "Downloading…": "डाउनलोड हो रहा है…",
   "{0} is on this phone, ready with no signal.": "{0} इस फ़ोन पर है, बिना सिग्नल के तैयार।",
   "Couldn't download. Try again when you have a connection.": "डाउनलोड नहीं हो सका। कनेक्शन मिलने पर फिर कोशिश करें।",
-  "Downloading… {0}%": "डाउनलोड हो रहा है… {0}%"
+  "Downloading… {0}%": "डाउनलोड हो रहा है… {0}%",
+  "Download {0} in Settings to search it.": "इसमें खोजने के लिए सेटिंग्स में {0} डाउनलोड करें।",
+  "Nothing found for \"{0}\".": "\"{0}\" के लिए कुछ नहीं मिला।",
+  "Searching…": "खोज रहे हैं…",
+  "{0} verses. The first 100:": "{0} पद। पहले 100:",
+  "or words to find": "या खोजने के लिए शब्द"
  }
 }
