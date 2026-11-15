@@ -453,6 +453,12 @@
   "Write what you're taking from {0} {1}": "लिखें कि आप {0} {1} से क्या ले रहे हैं",
   "Edit your reflection on {0} {1}": "{0} {1} पर अपना मनन बदलें",
   "Journal": "डायरी",
-  "Edit": "बदलें"
+  "Edit": "बदलें",
+  "Download {0} to read with no signal": "बिना सिग्नल के पढ़ने के लिए {0} डाउनलोड करें",
+  "about {0} MB": "लगभग {0} MB",
+  "Downloading…": "डाउनलोड हो रहा है…",
+  "{0} is on this phone, ready with no signal.": "{0} इस फ़ोन पर है, बिना सिग्नल के तैयार।",
+  "Couldn't download. Try again when you have a connection.": "डाउनलोड नहीं हो सका। कनेक्शन मिलने पर फिर कोशिश करें।",
+  "Downloading… {0}%": "डाउनलोड हो रहा है… {0}%"
  }
 }

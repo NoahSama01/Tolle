@@ -132,6 +132,19 @@ test("journal_delete", { before: 289, act: "S.jn={298:{t:'Grace',d:today()}};con
 const restores = (plan) => `(()=>{try{clean({...pack(),plan:{...S,...${plan}}});return 'ok'}catch{return 'bad'}})()`;
 test("backup_checks_new_fields", { before: 289 }, async () => { await expect(`[${restores("{jn:{5000:{t:'x',d:'2026-01-01'}}}")},${restores("{board:'x'}")},${restores("{fin:{0:'soon'}}")},${restores("{first:99}")},${restores("{jn:{5:{t:'x',d:'2026-01-01'}},board:2,fin:{0:'2026-01-01'},first:40}")}]`, ["bad", "bad", "bad", "bad", "ok"]); });
 test("backup_merge_keeps_both_journals", { before: 289 }, async () => { await expect("Object.keys(merge({...pack(),u:1,plan:{...S,jn:{1:{t:'a',d:'2026-01-01'}}}},{...pack(),u:2,plan:{...S,jn:{2:{t:'b',d:'2026-01-02'}}}}).plan.jn)", ["1", "2"]); });
+// offline download: a whole Bible onto the phone, each chapter where the reader looks for it
+const fakeBible = "window.fetch=(f=>u=>/complete\\.json/.test(u)?Promise.resolve(new Response(JSON.stringify({books:[{id:'GEN',chapters:[{chapter:{number:1,content:[{type:'verse',number:1,content:['ആദിയിൽ']}]}}]}]}))):f(u))(fetch)";
+test("download_offer_in_settings", { before: 289, act: "S.tr='irv-ml';go('settings')" }, async () => { await expectText("#dlbox button", /^Download .+ to read with no signal$/); });
+test("download_none_for_api_bibles", { before: 289, act: "S.tr='kjv';go('settings')" }, async () => { await expect("dlbox.textContent", ""); });
+test("download_bible", { before: 289, act: `S.tr='irv-ml';${fakeBible};go('settings');document.querySelector('#dlbox button').click()`, wait: 800 }, async () => {
+  await expect("caches.open('text').then(c=>c.match('https://bible.helloao.org/api/mal_irv/GEN/1.json')).then(r=>r.json()).then(j=>j.chapter.content[0].content[0])", "ആദിയിൽ");
+  await expect("[localStorage.getItem('tolle-dl-irv-ml'),/is on this phone/.test(dlbox.textContent)]", ["1", true]);
+});
+if (process.env.NET) test("download_bible_for_real", { before: 289, act: "S.tr='irv-ml';go('settings');downloadBible(document.querySelector('#dlbox button'))" }, async () => { // NET=1: the real 14 MB file, about a minute
+  for (let i = 0; i < 240 && !(await js("localStorage.getItem('tolle-dl-irv-ml')")).value; i++) await sleep(500);
+  await expect("caches.open('text').then(c=>c.keys()).then(ks=>[ks.filter(r=>/mal_irv\\/[A-Z0-9]+\\/\\d+\\.json$/.test(r.url)).length,ks.some(r=>r.url.includes('complete.json'))])", [1189, false]);
+  await expect("caches.open('text').then(c=>c.match('https://bible.helloao.org/api/mal_irv/REV/22.json')).then(r=>r.json()).then(j=>j.chapter.content.some(x=>x.type==='verse'))", true);
+});
 test("behind_no_extra", { before: 259, todayN: 25, act: "go('today')" }, async () => { await expect("pace().text", "5 behind"); await expect("extraToday()", 0); await expect("document.querySelector('#stops-h .extra')", null); });
 test("behind_reader_label", { before: 259, todayN: 25, act: "go('reader')" }, async () => { await expectText(".pos", "Catching up"); });
 // Done on the Bible's last chapter, opened out of order, carries on to the plan's next unread chapter
@@ -237,7 +250,7 @@ test("landing_totals_floor", {}, async () => { await landingWith({ readers: 3, c
 
 try {
   await send("Page.enable");
-  for (const t of tests) {
+  for (const t of tests.filter((t) => !process.env.ONLY || t.name === process.env.ONLY)) { // ONLY=name runs one test
     cur = t.name; ok = true;
     try { await seed(t.opts); await t.fn(); } catch (e) { fail(String(e)); }
     if (ok) console.log(`PASS ${t.name}`); else failed++;

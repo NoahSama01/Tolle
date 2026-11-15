@@ -585,6 +585,29 @@ const fade=f=>document.startViewTransition?document.startViewTransition(f):f(); 
 function flipNight(btn){fade(()=>{ // the reader's moon: day or night at once, without redrawing the chapter, so place, selection and open notes stay
   localStorage.setItem('tolle-theme',document.documentElement.dataset.theme==='dark'?'light':'dark');theme();paintBar();const dark=document.documentElement.dataset.theme==='dark';btn.ariaLabel=dark?L`Switch to day`:L`Switch to night`;btn.innerHTML=icon(dark?'sun':'moon'); // updated in place, so focus stays on it
 })}
+const dlKey=()=>`tolle-dl-${S.tr}`;
+function dlHTML(){ // the built-in English and the helloao Bibles can come onto the phone whole; bible-api has no whole-Bible file
+  const t=TR[S.tr];if(S.tr!=='web'&&!t[2])return '';
+  return localStorage.getItem(dlKey())?L`${t[0]} is on this phone, ready with no signal.`
+    :`<button class=link-btn onclick=downloadBible(this)>${L`Download ${t[0]} to read with no signal`}</button> · ${L`about ${num(S.tr==='web'?4:15)} MB`}`;
+}
+async function downloadBible(btn){ // one file, split into chapters where passage() and the service worker look for them
+  btn.disabled=true;btn.textContent=L`Downloading…`;
+  try{
+    if(S.tr==='web')await Promise.all(BOOKS.map(([b])=>passage(`${b} 1`))); // each book's file once; the service worker keeps it
+    else{
+      const h=TR[S.tr][2],url=`https://bible.helloao.org/api/${h}/complete.json`,j=await fetch(url).then(ok),c=await caches.open('text');
+      const all=j.books.flatMap(b=>b.chapters.map(ch=>[b.id,ch.chapter]));
+      for(let k=0;k<all.length;k+=60){ // a batch at a time, so the phone stays responsive and the count moves
+        await Promise.all(all.slice(k,k+60).map(([id,ch])=>c.put(`https://bible.helloao.org/api/${h}/${id}/${ch.number}.json`,new Response(JSON.stringify({chapter:ch}),{headers:{'Content-Type':'application/json'}}))));
+        btn.textContent=L`Downloading… ${num(Math.min(100,Math.round((k+60)/all.length*100)))}%`;
+      }
+      await c.delete(url); // the whole file isn't needed once it's in chapters
+    }
+    localStorage.setItem(dlKey(),1);
+  }catch{btn.disabled=false;btn.textContent=L`Couldn't download. Try again when you have a connection.`;return}
+  dlbox.innerHTML=dlHTML();
+}
 function pickBoard(li){if(li!=null&&!boardOK(li))return;S.board=li;save();const y=scrollY;render();scrollTo(0,y)} // a colour for the board, or null to follow the book
 async function cardBlob(){ // today as a picture to send: the day's verse and the run, on the board's colour
   const dv=daily(),c=document.createElement('canvas'),x=c.getContext('2d'),W=c.width=1080,H=c.height=1350,root=getComputedStyle(document.documentElement),f=v=>root.getPropertyValue(v).trim();
@@ -921,7 +944,8 @@ function settingsView(){
   <label for=lg>${L`App language`}</label>
   <select id=lg onchange=setLang(this.value)>${Object.entries(UI).map(([l,n])=>`<option value=${l}${l===LG?' selected':''} lang=${l}>${n}</option>`).join('')}</select>
   <label for=tr>${L`Bible translation`}</label>
-  <select id=tr onchange="S.tr=this.value;save()">${Object.entries(LANGS).map(([l,ln])=>`<optgroup label="${ln}">${Object.entries(TR).filter(([,t])=>t[1].startsWith(l)).map(([k,[n]])=>`<option value=${k}${k==S.tr?' selected':''}>${n}</option>`).join('')}</optgroup>`).join('')}</select>
+  <select id=tr onchange="S.tr=this.value;save();dlbox.innerHTML=dlHTML()">${Object.entries(LANGS).map(([l,ln])=>`<optgroup label="${ln}">${Object.entries(TR).filter(([,t])=>t[1].startsWith(l)).map(([k,[n]])=>`<option value=${k}${k==S.tr?' selected':''}>${n}</option>`).join('')}</optgroup>`).join('')}</select>
+  <p class=hint id=dlbox>${dlHTML()}</p>
   <fieldset class="picker setting"><legend class=lab>${L`Night mode`}</legend>
     ${[['light',L`Off`],['dark',L`On`],['auto',L`Follow phone`]].map(([v,n])=>`<label class=bk-pick style="--c:var(--hue);--o:var(--on-day)"><input type=radio name=theme value=${v}${(localStorage.getItem('tolle-theme')||'auto')===v?' checked':''} onchange=setTheme(this.value)><span>${n}</span></label>`).join('')}
     <p class=hint style="margin:0">${L`Follow phone switches with your phone's dark mode.`}</p></fieldset>

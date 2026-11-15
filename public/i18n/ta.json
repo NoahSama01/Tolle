@@ -453,6 +453,12 @@
   "Write what you're taking from {0} {1}": "{0} {1} இலிருந்து நீங்கள் பெறுவதை எழுதுங்கள்",
   "Edit your reflection on {0} {1}": "{0} {1} பற்றிய உங்கள் தியானத்தைத் திருத்து",
   "Journal": "நாட்குறிப்பு",
-  "Edit": "திருத்து"
+  "Edit": "திருத்து",
+  "Download {0} to read with no signal": "சிக்னல் இல்லாமல் வாசிக்க {0} பதிவிறக்கு",
+  "about {0} MB": "சுமார் {0} MB",
+  "Downloading…": "பதிவிறக்குகிறது…",
+  "{0} is on this phone, ready with no signal.": "{0} இந்தத் தொலைபேசியில் உள்ளது, சிக்னல் இல்லாமலும் தயார்.",
+  "Couldn't download. Try again when you have a connection.": "பதிவிறக்க முடியவில்லை. இணைப்பு கிடைத்ததும் மீண்டும் முயலுங்கள்.",
+  "Downloading… {0}%": "பதிவிறக்குகிறது… {0}%"
  }
 }

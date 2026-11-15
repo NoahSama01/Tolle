@@ -453,6 +453,12 @@
   "Write what you're taking from {0} {1}": "{0} {1} నుండి మీరు పొందుతున్నది రాయండి",
   "Edit your reflection on {0} {1}": "{0} {1} పై మీ ధ్యానాన్ని మార్చండి",
   "Journal": "డైరీ",
-  "Edit": "మార్చు"
+  "Edit": "మార్చు",
+  "Download {0} to read with no signal": "సిగ్నల్ లేకుండా చదవడానికి {0} డౌన్‌లోడ్ చేయండి",
+  "about {0} MB": "సుమారు {0} MB",
+  "Downloading…": "డౌన్‌లోడ్ అవుతోంది…",
+  "{0} is on this phone, ready with no signal.": "{0} ఈ ఫోన్‌లో ఉంది, సిగ్నల్ లేకున్నా సిద్ధం.",
+  "Couldn't download. Try again when you have a connection.": "డౌన్‌లోడ్ కాలేదు. కనెక్షన్ ఉన్నప్పుడు మళ్లీ ప్రయత్నించండి.",
+  "Downloading… {0}%": "డౌన్‌లోడ్ అవుతోంది… {0}%"
  }
 }
