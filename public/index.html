@@ -92,6 +92,8 @@ body[data-view=setup] .rail{display:none}
 .bk-pick:has(:disabled){opacity:.5} /* a colour the reader hasn't reached yet */
 .hits{margin:.5rem 0 1rem;padding:0;list-style:none}.hits li{margin:.6rem 0;line-height:1.5}
 .hits mark{background:var(--board);color:inherit;border-radius:2px} /* the words searched for */
+.yr b{display:block;margin-bottom:.35rem;font:800 3.4rem/.9 var(--head);font-stretch:72%;overflow-wrap:anywhere} /* the year in review: one figure a leaf */
+.yr span{color:var(--ink-2);font:500 .75rem/1.4 var(--mono);text-transform:uppercase}
 .lvl{display:flex;flex-wrap:wrap;align-items:baseline;gap:.3rem .6rem;margin:0 0 1rem;color:var(--ink-2);font:500 .75rem/1.4 var(--mono);text-transform:uppercase}
 .lvl b{color:var(--ink);font:800 1.5rem/1 var(--head);font-stretch:72%}
 .lvl progress{flex:1 0 100%;height:.5rem;accent-color:var(--board)}
@@ -642,10 +644,52 @@ async function cardBlob(){ // today as a picture to send: the day's verse and th
   x.font=`600 34px ${f('--mono')}`;x.fillText((n==1?L`day in a row`:L`days in a row`).toUpperCase(),96,H-110);
   return new Promise(r=>c.toBlob(r,'image/png'));
 }
-async function shareDay(){ // the phone's share sheet where it takes pictures, else a download
-  const b=await cardBlob(),file=new File([b],'tolle.png',{type:'image/png'});
+const shareDay=async()=>sendPicture(await cardBlob());
+async function sendPicture(b){ // the phone's share sheet where it takes pictures, else a download
+  const file=new File([b],'tolle.png',{type:'image/png'});
   if(navigator.canShare?.({files:[file]}))return navigator.share({files:[file]}).catch(()=>{});
   const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='tolle.png';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+}
+let YR=null; // the year the review page shows
+const reviewYear=(d=new Date())=>d.getMonth()===11?d.getFullYear():d.getMonth()===0?d.getFullYear()-1:null; // December looks back on this year, January on the last
+function yearStats(y){ // a year in figures; the book "most days in" goes by the last chapter read each day, the only one dated
+  const inY=d=>d.startsWith(y+'-'),ds=Object.keys(S.log).filter(d=>S.log[d]&&inY(d)).sort(),by={};
+  let best=0,run=0,prev;for(const d of ds){run=prev&&days(prev,d)===1?run+1:1;best=Math.max(best,run);prev=d}
+  for(const d of ds)if(S.at?.[d]!=null){const bi=CH[S.at[d]][2];by[bi]=(by[bi]||0)+1}
+  const most=Object.entries(by).sort((a,b)=>b[1]-a[1]||a[0]-b[0])[0];
+  return {chapters:ds.reduce((n,d)=>n+S.log[d],0),days:ds.length,best,books:Object.entries(S.fin||{}).filter(([,d])=>inY(d)).map(([b])=>+b).sort((a,b)=>a-b),
+    most:most?[+most[0],most[1]]:null,kept:KEPT.filter(k=>inY(k.d)),notes:Object.values(S.jn||{}).filter(e=>inY(e.d)).length};
+}
+function yearCardHTML(){ // December and January, after a year with reading in it
+  const y=reviewYear();if(y==null)return '';const st=yearStats(y);if(!st.chapters)return '';
+  return `<section class=leaf aria-labelledby=yc-h><h2 id=yc-h>${L`Your ${y} in Tolle`}</h2><p class=hint>${plural(st.chapters,'chapter')} · ${plural(st.days,'day')}</p>
+    <button class=go id=year-go onclick="YR=${y};go('year')">${L`See your year`}${icon('arrow')}</button></section>`;
+}
+function yearView(){
+  const y=YR??reviewYear()??new Date().getFullYear(),st=yearStats(y),k=st.kept[0],l=level();
+  const tile=(id,n,label,more='')=>`<section class="leaf yr" id=${id}><b>${n}</b><span>${label}</span>${more}</section>`;
+  return `<h1 class=title>${L`Your ${y} in Tolle`}</h1>
+  ${tile('yr-chapters',num(st.chapters),st.chapters==1?L`chapter read`:L`chapters read`)}
+  ${tile('yr-days',num(st.days),st.days==1?L`day with the Bible open`:L`days with the Bible open`)}
+  ${tile('yr-best',num(st.best),L`days in a row, your best`)}
+  ${st.books.length?tile('yr-books',num(st.books.length),st.books.length==1?L`book finished`:L`books finished`,`<p class=hint>${st.books.map(b=>bn(b)).join(', ')}</p>`):''}
+  ${st.most?tile('yr-most',bn(st.most[0]),L`The book you were in most`,`<p class=hint>${plural(st.most[1],'day')}</p>`):''}
+  ${k?tile('yr-kept',num(st.kept.length),st.kept.length==1?L`verse kept`:L`verses kept`,`<p class=dvt lang=${TR[k.tr][1]}>${esc(k.t)}</p><p class=hint>${lref(kref(k))}</p>`):''}
+  ${st.notes?tile('yr-notes',num(st.notes),st.notes==1?L`reflection written`:L`reflections written`):''}
+  ${tile('yr-level',l.name,L`Level ${num(l.i+1)}`)}
+  <div class=actions><button class=go onclick=shareYear()>${L`Share your year`}${icon('arrow')}</button><button class="go ghost" onclick="go('today')">${L`Back to Today`}</button></div>`;
+}
+const shareYear=async()=>sendPicture(await yearBlob());
+async function yearBlob(){ // the year as a picture: up to five of its figures, on the board's colour
+  const y=YR??reviewYear()??new Date().getFullYear(),st=yearStats(y),c=document.createElement('canvas'),x=c.getContext('2d'),W=c.width=1080,H=c.height=1350,root=getComputedStyle(document.documentElement),f=v=>root.getPropertyValue(v).trim();
+  await document.fonts?.ready;
+  x.fillStyle=getComputedStyle(document.body).backgroundColor;x.fillRect(0,0,W,H);x.fillStyle=f('--on-day')||'#151515';x.textBaseline='top';
+  x.font=`600 34px ${f('--mono')}`;x.fillText(`TOLLE · ${y}`,96,96);
+  const rows=[[num(st.chapters),st.chapters==1?L`chapter read`:L`chapters read`],[num(st.days),st.days==1?L`day with the Bible open`:L`days with the Bible open`],[num(st.best),L`days in a row, your best`],
+    ...(st.books.length?[[num(st.books.length),st.books.length==1?L`book finished`:L`books finished`]]:[]),...(st.most?[[bn(st.most[0]),L`The book you were in most`]]:[])];
+  rows.slice(0,5).forEach(([n,label],k)=>{const top=190+k*220;let s=120;do x.font=`800 ${s}px ${f('--head')}`;while(x.measureText(n).width>W-192&&(s-=8)>40); // long book names shrink to fit
+    x.fillText(n,96,top);x.font=`600 30px ${f('--mono')}`;x.fillText(label.toUpperCase(),96,top+135)});
+  return new Promise(r=>c.toBlob(r,'image/png'));
 }
 function setTheme(v){fade(()=>{v==='auto'?localStorage.removeItem('tolle-theme'):localStorage.setItem('tolle-theme',v);theme();render()})}
 let at=null,jv=null; // a chapter opened from the Index, Kept or a verse (and the verse to land on); null is the plan's next chapter
@@ -663,7 +707,7 @@ function render(){
   scrollTo(0,0);
   if(!S)$.innerHTML=setupView();
   else if(view==='reader')readerView();
-  else $.innerHTML=view==='route'?`<h1 class=title>${L`The whole Bible`}</h1>${routeBody()}`:view==='settings'?settingsView():view==='kept'?keptView():todayView();
+  else $.innerHTML=view==='route'?`<h1 class=title>${L`The whole Bible`}</h1>${routeBody()}`:view==='settings'?settingsView():view==='kept'?keptView():view==='year'?yearView():todayView();
   rail.innerHTML=S?railHTML():'';told.textContent=metLine||''; // outside the view, so it's still read out after focus moves to the title
   for(const b of document.querySelectorAll('.tabs button'))b.dataset.v===view?b.setAttribute('aria-current','page'):b.removeAttribute('aria-current');
   const h=$.querySelector('h1');if(h){h.tabIndex=-1;h.focus({preventScroll:true})}
@@ -735,7 +779,7 @@ function todayView(){
     ${met&&todayIdx().length?(i=>`<p class=hint><button class=link-btn id=reflect-go onclick=reflect(${i})>${S.jn?.[i]?L`Edit your reflection on ${bn(CH[i][2])} ${CH[i][1]}`:L`Write what you're taking from ${bn(CH[i][2])} ${CH[i][1]}`}</button></p>`)(todayIdx().at(-1)):''}`:`
     <h1 class=station>${L`The whole Bible, read`}</h1>
     <p class=lede>${L`You've read all 1,189 chapters. Every band on the index is full.`}</p>${journeyHTML()}`}
-  </section>${catchupHTML()}${showWelcome()?welcomeHTML():''}
+  </section>${catchupHTML()}${yearCardHTML()}${showWelcome()?welcomeHTML():''}
   ${dailyHTML()}
   ${nx?`<section class=leaf aria-labelledby=stops-h><h2 id=stops-h>${L`Today's chapters`}${extra?` <span class=extra>${L`+${num(extra)} extra`}</span>`:''}</h2>
     <ol class=stops>${stops.map((s,i)=>stopRow(s,i,done.length,stops[i+1])).join('')}</ol></section>`:''}

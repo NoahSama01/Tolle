@@ -464,6 +464,21 @@
   "Nothing found for \"{0}\".": "\"{0}\" க்கு எதுவும் கிடைக்கவில்லை.",
   "Searching…": "தேடுகிறது…",
   "{0} verses. The first 100:": "{0} வசனங்கள். முதல் 100:",
-  "or words to find": "அல்லது தேட வேண்டிய சொற்கள்"
+  "or words to find": "அல்லது தேட வேண்டிய சொற்கள்",
+  "Your {0} in Tolle": "Tolle-இல் உங்கள் {0}",
+  "See your year": "உங்கள் ஆண்டைப் பாருங்கள்",
+  "Share your year": "உங்கள் ஆண்டைப் பகிருங்கள்",
+  "The book you were in most": "நீங்கள் அதிகம் இருந்த புத்தகம்",
+  "book finished": "புத்தகம் முடித்தது",
+  "books finished": "புத்தகங்கள் முடித்தவை",
+  "chapter read": "அதிகாரம் வாசித்தது",
+  "chapters read": "அதிகாரங்கள் வாசித்தவை",
+  "day with the Bible open": "நாள் வேதாகமம் திறந்திருந்தது",
+  "days with the Bible open": "நாட்கள் வேதாகமம் திறந்திருந்தது",
+  "days in a row, your best": "நாட்கள் தொடர்ந்து, உங்கள் சிறந்தது",
+  "reflection written": "தியானம் எழுதியது",
+  "reflections written": "தியானங்கள் எழுதியவை",
+  "verse kept": "வசனம் சேமித்தது",
+  "verses kept": "வசனங்கள் சேமித்தவை"
  }
 }

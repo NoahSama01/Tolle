@@ -464,6 +464,21 @@
   "Nothing found for \"{0}\".": "\"{0}\" എന്നതിന് ഒന്നും കണ്ടെത്തിയില്ല.",
   "Searching…": "തിരയുന്നു…",
   "{0} verses. The first 100:": "{0} വാക്യങ്ങൾ. ആദ്യത്തെ 100:",
-  "or words to find": "അല്ലെങ്കിൽ തിരയേണ്ട വാക്കുകൾ"
+  "or words to find": "അല്ലെങ്കിൽ തിരയേണ്ട വാക്കുകൾ",
+  "Your {0} in Tolle": "Tolle-ൽ നിങ്ങളുടെ {0}",
+  "See your year": "നിങ്ങളുടെ വർഷം കാണുക",
+  "Share your year": "നിങ്ങളുടെ വർഷം പങ്കിടുക",
+  "The book you were in most": "നിങ്ങൾ ഏറ്റവും കൂടുതൽ ഉണ്ടായിരുന്ന പുസ്തകം",
+  "book finished": "പുസ്തകം പൂർത്തിയാക്കി",
+  "books finished": "പുസ്തകങ്ങൾ പൂർത്തിയാക്കി",
+  "chapter read": "അധ്യായം വായിച്ചു",
+  "chapters read": "അധ്യായങ്ങൾ വായിച്ചു",
+  "day with the Bible open": "ദിവസം ബൈബിൾ തുറന്നു",
+  "days with the Bible open": "ദിവസങ്ങൾ ബൈബിൾ തുറന്നു",
+  "days in a row, your best": "ദിവസങ്ങൾ തുടർച്ചയായി, നിങ്ങളുടെ മികച്ചത്",
+  "reflection written": "ധ്യാനം എഴുതി",
+  "reflections written": "ധ്യാനങ്ങൾ എഴുതി",
+  "verse kept": "വാക്യം സൂക്ഷിച്ചു",
+  "verses kept": "വാക്യങ്ങൾ സൂക്ഷിച്ചു"
  }
 }

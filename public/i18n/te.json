@@ -464,6 +464,21 @@
   "Nothing found for \"{0}\".": "\"{0}\" కోసం ఏమీ దొరకలేదు.",
   "Searching…": "వెతుకుతోంది…",
   "{0} verses. The first 100:": "{0} వచనాలు. మొదటి 100:",
-  "or words to find": "లేదా వెతకాల్సిన పదాలు"
+  "or words to find": "లేదా వెతకాల్సిన పదాలు",
+  "Your {0} in Tolle": "Tolle లో మీ {0}",
+  "See your year": "మీ సంవత్సరాన్ని చూడండి",
+  "Share your year": "మీ సంవత్సరాన్ని పంచుకోండి",
+  "The book you were in most": "మీరు ఎక్కువగా ఉన్న పుస్తకం",
+  "book finished": "పుస్తకం పూర్తి చేశారు",
+  "books finished": "పుస్తకాలు పూర్తి చేశారు",
+  "chapter read": "అధ్యాయం చదివారు",
+  "chapters read": "అధ్యాయాలు చదివారు",
+  "day with the Bible open": "రోజు బైబిల్ తెరిచారు",
+  "days with the Bible open": "రోజులు బైబిల్ తెరిచారు",
+  "days in a row, your best": "రోజులు వరుసగా, మీ ఉత్తమం",
+  "reflection written": "ధ్యానం రాశారు",
+  "reflections written": "ధ్యానాలు రాశారు",
+  "verse kept": "వచనం దాచుకున్నారు",
+  "verses kept": "వచనాలు దాచుకున్నారు"
  }
 }
