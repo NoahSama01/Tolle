@@ -788,7 +788,7 @@ function runHTML(){ // the run of days: its count, the best so far, and this wee
   const R=rest(),n=R.run,d=new Date(),y=new Date(),wd=new Intl.DateTimeFormat(LOC,{weekday:'narrow'});d.setDate(d.getDate()-d.getDay());y.setDate(y.getDate()-1);
   let on=0;const week=Array.from({length:7},()=>{const k=iso(d),r=!!S.log[k],h=`<li class="${r?'on':''}${R.used.includes(k)?' rest':''}${k===today()?' now':''}"><i></i>${wd.format(d)}</li>`;on+=r;d.setDate(d.getDate()+1);return h}).join('');
   const note=R.used.at(-1)===iso(y)?L`Rest day used yesterday. Your run is safe.`:R.held==1?L`1 rest day saved`:R.held?L`${num(R.held)} rest days saved`:'';
-  return `<div class=run><b>${num(n)}</b><span>${n==1?L`day in a row`:L`days in a row`}<br>${L`Best ${num(Math.max(R.best,n))}`}${note&&`<br>${note}`}</span></div>
+  return `<div class=run><b>${num(n)}</b><span>${n==1?L`day in a row`:L`days in a row`}<br>${L`Best ${num(Math.max(R.best,n))}`}</span></div>${note&&`<p class=hint id=rest-note style="margin:0 0 .6rem">${note}</p>`}
     <ol class=week aria-label="${L`This week: read on ${plural(on,'day')}`}">${week}</ol>
     <p class=hint style="margin:0 0 1.1rem">${todayN()?L`Today's hole is punched.`:n?L`Read a chapter today to make it ${num(n+1)}.`:L`Read a chapter today to start a run.`}</p>
     ${todayN()&&todayN()>=goal()?`<button class="go ghost" id=share style="margin:0 0 1.1rem" onclick=shareDay()>${L`Share today`}</button>`:''}`;

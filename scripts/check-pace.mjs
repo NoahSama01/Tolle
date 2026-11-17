@@ -151,7 +151,7 @@ test("search_english_words", seek("Jesus wept"), async () => { await expectText(
 test("search_opens_verse", { ...seek("Jesus wept"), act: seek("Jesus wept").act + ";setTimeout(()=>document.querySelector('#hits .link-btn').click(),2500)" }, async () => { await expect("[view,CH[cur()][2],CH[cur()][1]]", ["reader", 42, 11]); });
 test("search_reference_jumps", { before: 289, act: "go('route');q.value='John 3';gotoRef(q.form)" }, async () => { await expect("[view,cur()===FIRST[42]+2]", ["reader", true]); });
 test("search_needs_download", seek("ദൈവം", "S.tr='irv-ml';"), async () => { await expectText("#hits", /^Download .+ in Settings to search it\.$/); });
-test("search_downloaded_bible", seek("ദൈവം", "S.tr='irv-ml';localStorage.setItem('tolle-dl-irv-ml',1);caches.open('text').then(c=>c.put('https://bible.helloao.org/api/mal_irv/GEN/1.json',new Response(JSON.stringify({chapter:{number:1,content:[{type:'verse',number:1,content:['ആദിയിൽ ദൈവം ആകാശവും ഭൂമിയും സൃഷ്ടിച്ചു.']}]}}))));"), async () => { await expectText("#hits li:first-child .link-btn", "Genesis 1:1"); });
+test("search_downloaded_bible", { before: 289, wait: 3000, act: "S.tr='irv-ml';localStorage.setItem('tolle-dl-irv-ml',1);caches.open('text').then(c=>c.put('https://bible.helloao.org/api/mal_irv/GEN/1.json',new Response(JSON.stringify({chapter:{number:1,content:[{type:'verse',number:1,content:['ആദിയിൽ ദൈവം ആകാശവും ഭൂമിയും സൃഷ്ടിച്ചു.']}]}})))).then(()=>{go('route');q.value='ദൈവം';gotoRef(q.form)})" }, async () => { await expectText("#hits li:first-child .link-btn", "Genesis 1:1"); });
 test("search_nothing_found", seek("zzqqxx"), async () => { await expectText("#hits", 'Nothing found for "zzqqxx".'); });
 test("behind_no_extra", { before: 259, todayN: 25, act: "go('today')" }, async () => { await expect("pace().text", "5 behind"); await expect("extraToday()", 0); await expect("document.querySelector('#stops-h .extra')", null); });
 test("behind_reader_label", { before: 259, todayN: 25, act: "go('reader')" }, async () => { await expectText(".pos", "Catching up"); });
@@ -180,9 +180,9 @@ const readOn = (ago) => `(()=>{const d=n=>{const x=new Date();x.setDate(x.getDat
 const span = (a, b) => Array.from({ length: b - a + 1 }, (_, k) => a + k);
 test("run_rest_covers_a_miss", { before: 289, act: readOn([...span(3, 9), 1]) }, async () => { await expect("[streak(),bestRun(),rest().held,facts().run_days]", [8, 8, 0, 8]); });
 test("run_breaks_without_rest", { before: 289, act: readOn([1, 2, 4, 5]) }, async () => { await expect("[streak(),rest().held]", [2, 0]); });
-test("run_rest_held_at_most_two", { before: 289, act: readOn(span(1, 21)) }, async () => { await expect("[streak(),rest().held]", [21, 2]); await expectText(".run span", /2 rest days saved$/); });
+test("run_rest_held_at_most_two", { before: 289, act: readOn(span(1, 21)) }, async () => { await expect("[streak(),rest().held]", [21, 2]); await expectText("#rest-note", "2 rest days saved"); });
 test("run_rest_covers_two_misses", { before: 289, act: readOn([...span(4, 17), 1]) }, async () => { await expect("[streak(),rest().held]", [15, 0]); });
-test("run_rest_used_yesterday", { before: 289, act: readOn(span(2, 8)) }, async () => { await expect("streak()", 7); await expectText(".run span", /Rest day used yesterday\. Your run is safe\.$/); await expect("document.querySelectorAll('.week li.rest').length===(new Date().getDay()?1:0)", true); });
+test("run_rest_used_yesterday", { before: 289, act: readOn(span(2, 8)) }, async () => { await expect("streak()", 7); await expectText("#rest-note", "Rest day used yesterday. Your run is safe."); await expect("document.querySelectorAll('.week li.rest').length===(new Date().getDay()?1:0)", true); });
 // levels: every chapter finished counts (books marked as read too); each level opens one division's colour for the board
 test("level_from_chapters", { before: 289 }, async () => { await expect("(l=>[l.i,l.name,l.to])(level())", [3, "Student", 161]); });
 test("level_shown_today", { before: 289, act: "go('today')" }, async () => { await expectText(".lvl", /Student/); });
